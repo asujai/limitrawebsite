@@ -1,0 +1,188 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqs = [
+  {
+    question: "What is Limitra?",
+    answer: "Limitra is a minimalist app blocker and digital discipline helper tool developed for Android devices, helping you control screen time and limit social media use."
+  },
+  {
+    question: "How does Limitra work?",
+    answer: "You select the social media, entertainment, or gaming apps you want to restrict through the app and set a daily usage limit. Once your total usage time reaches this limit, Limitra restricts access to the app for the rest of the day."
+  },
+  {
+    question: "What problem does Limitra aim to solve?",
+    answer: "It aims to break the endless scrolling and instant notification loops designed by social media apps to keep our attention on the screen. It helps prevent time loss by protecting the limits we set rationally in advance, especially when our willpower weakens."
+  },
+  {
+    question: "What happens when the daily limit is reached?",
+    answer: "When your set limit is reached, the selected app is closed, and Limitra's block screen appears. This screen does not contain an easily skipped or snoozed 'ignore' option, ensuring you stay true to your boundaries."
+  },
+  {
+    question: "Does Limitra block the internet completely?",
+    answer: "No. Limitra does not interfere with your device's internet access. It only restricts the on-screen visibility of the specific apps you have chosen and limited."
+  },
+  {
+    question: "Does Limitra treat social media addiction?",
+    answer: "No. Limitra is not a medical or psychological treatment tool and does not make such claims. It is simply a supportive discipline tool for individuals who want to draw their own boundaries and manage their digital habits."
+  },
+  {
+    question: "Who is Limitra suitable for?",
+    answer: "It is suitable for all Android users who lose too much time on their phones without realizing it, experience distraction, and want to set healthy boundaries with the digital world."
+  },
+  {
+    question: "Is it suitable for students?",
+    answer: "Yes. Students who want to reduce the distracting effects of social media while studying or preparing for exams can protect their focus by limiting apps with Limitra during study hours."
+  },
+  {
+    question: "Is it suitable for professionals?",
+    answer: "Yes. Professionals who have a habit of checking their phones frequently during work hours or deep focus sessions can increase their work efficiency by putting boundaries on distracting apps."
+  },
+  {
+    question: "How does Limitra differ from standard screen time tools?",
+    answer: "Standard tools usually give soft warnings that can be easily skipped or snoozed. Limitra, on the other hand, sets firm boundaries; it does not offer a snooze option when the time is up, ensuring you stick to the decision you made rationally in advance instead of succumbing to a temporary weakness of willpower."
+  },
+  {
+    question: "Is my usage data sent to the cloud?",
+    answer: "No. Limitra has a privacy-focused design. Data like which app you use and for how long is stored entirely on your device and is never sent to the cloud or third parties."
+  },
+  {
+    question: "Where is the Google Play link?",
+    answer: "You can get the Limitra app on the Google Play Store. You can directly navigate to the store page using the 'Download App' buttons on our website."
+  }
+];
+
+// JSON-LD FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+---
+
+<Layout 
+  title="Frequently Asked Questions" 
+  description="Frequently asked questions about Limitra app blocker, its features, privacy approach, and digital discipline goals."
+>
+  <!-- JSON-LD Structured Data inside layout body -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <section class="faq-page">
+    <div class="container content-width">
+      <header class="faq-header">
+        <a href="/en" class="back-link">&larr; Home</a>
+        <h1>Frequently Asked Questions</h1>
+        <p class="subtitle">Answers to all your questions about Limitra and the digital discipline process.</p>
+      </header>
+
+      <div class="faq-list">
+        {faqs.map((faq, index) => (
+          <div class="faq-item">
+            <details>
+              <summary class="faq-question">
+                <span>{faq.question}</span>
+                <span class="icon-arrow">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-answer">
+                <p>{faq.answer}</p>
+              </div>
+            </details>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .faq-page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-6);
+  }
+
+  .back-link:hover {
+    color: var(--accent);
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-12);
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .faq-item {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  details {
+    padding-bottom: var(--space-4);
+  }
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    list-style: none;
+    padding: var(--space-2) 0;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .icon-arrow {
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+  }
+
+  details[open] .icon-arrow {
+    transform: rotate(180deg);
+    color: var(--accent);
+  }
+
+  .faq-answer {
+    padding-top: var(--space-2);
+    animation: slideDown 0.2s ease-out;
+  }
+
+  .faq-answer p {
+    margin-bottom: 0;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>

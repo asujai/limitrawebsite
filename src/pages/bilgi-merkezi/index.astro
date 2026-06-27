@@ -1,0 +1,166 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const guides = [
+  {
+    slug: "ekran-suresi",
+    title: "Ekran Süresi Nedir ve Hayatımızı Nasıl Etkiler?",
+    desc: "Telefon başında geçirdiğimiz zamanın sosyo-ekonomik arka planı, İnsani Gelişmişlik Endeksi (HDI) korelasyonları ve küresel istatistikler.",
+    num: "01"
+  },
+  {
+    slug: "sosyal-medya-ve-kisa-video",
+    title: "Sosyal Medya ve Kısa Video Alışkanlığı: Neden Bırakmak Zor?",
+    desc: "Dopamin döngüleri, sonsuz kaydırma tasarımı ve gelişmekte olan ülkelerdeki altyapısal asimetrinin sosyal medya bağımlılığına etkisi.",
+    num: "02"
+  },
+  {
+    slug: "dikkat-uyku-ve-rutinler",
+    title: "Dikkat Dağınıklığı, Uyku ve Günlük Rutinler",
+    desc: "Mavi ışık ve gece geç saatlerde ekran kullanımının sirkadiyen ritim üzerindeki etkileri ile çocuklarda nöro-gelişimsel araştırmalar.",
+    num: "03"
+  },
+  {
+    slug: "ekran-suresini-azaltma-yontemleri",
+    title: "Ekran Süresini Azaltmak İçin Pratik Yöntemler",
+    desc: "Günlük hayatta dijital denge kurmak için uygulanabilir adımlar ve ekran süresi ile zihinsel iyi oluş arasındaki Goldilocks Hipotezi.",
+    num: "04"
+  },
+  {
+    slug: "klasik-limitler-neden-yetmez",
+    title: "Yalnızca Uyarı Veren Ekran Süresi Limitleri Neden Yetmez?",
+    desc: "İradenin zayıflığı, rasyonalizasyon mekanizmaları ve kolayca yoksayılabilen geleneksel kısıtlamaların dijital dünyadaki sınır yetersizliği.",
+    num: "05"
+  },
+  {
+    slug: "daha-net-uygulama-sinirlari",
+    title: "Davranışsal Sürtünmeler ve Daha Net Uygulama Sınırları",
+    desc: "Antik felsefeden modern davranışsal iktisat kuramlarına kadar net engellerin ve kalkan oluşturmanın dijital disiplindeki rolü.",
+    num: "06"
+  }
+];
+---
+
+<Layout 
+  title="Dijital İyi Oluş Bilgi Merkezi" 
+  description="Ekran süresi, sosyal medya kullanımı, dikkat yönetimi, sirkadiyen ritim ve dijital disiplin üzerine bilimsel temelli pratik rehberler."
+>
+  <section class="portal-page">
+    <div class="container content-width">
+      <header class="portal-header">
+        <span class="badge">Rehberler & Analizler</span>
+        <h1>Dijital İyi Oluş Bilgi Merkezi</h1>
+        <p class="subtitle">
+          Ekran başında geçirdiğimiz süreyi ve dijital alışkanlıklarımızın zihnimiz üzerindeki etkilerini daha iyi anlamak için bilimsel araştırmalardan derlenen sade ve güvenilir kaynaklar.
+        </p>
+      </header>
+
+      <div class="guides-list">
+        {guides.map((guide) => (
+          <a href={`/bilgi-merkezi/${guide.slug}`} class="guide-row">
+            <div class="row-num">{guide.num}</div>
+            <div class="row-content">
+              <h3>{guide.title}</h3>
+              <p>{guide.desc}</p>
+            </div>
+            <div class="row-arrow">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .portal-page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .portal-header {
+    margin-bottom: var(--space-16);
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: var(--space-2);
+  }
+
+  .guides-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .guide-row {
+    display: flex;
+    align-items: flex-start;
+    padding: var(--space-6) 0;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+    gap: var(--space-4);
+  }
+
+  .guide-row:hover {
+    padding-left: var(--space-2);
+  }
+
+  .guide-row:hover .row-arrow {
+    transform: translateX(4px);
+    color: var(--accent);
+  }
+
+  .guide-row:hover h3 {
+    color: var(--accent);
+  }
+
+  .row-num {
+    font-family: var(--font-heading);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--accent);
+    width: 2.5rem;
+    padding-top: 0.25rem;
+  }
+
+  .row-content {
+    flex-grow: 1;
+  }
+
+  .row-content h3 {
+    margin-top: 0;
+    margin-bottom: var(--space-1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+
+  .row-content p {
+    margin-bottom: 0;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .row-arrow {
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+    padding-top: 0.25rem;
+  }
+
+  @media (max-width: 600px) {
+    .guide-row {
+      position: relative;
+    }
+    .row-arrow {
+      display: none;
+    }
+  }
+</style>

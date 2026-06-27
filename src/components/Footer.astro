@@ -1,0 +1,172 @@
+---
+const currentYear = new Date().getFullYear();
+const isEn = Astro.url.pathname.startsWith('/en');
+
+// Dil bazlı linkler ve etiketler
+const links = {
+  about: isEn ? '/en/limitra' : '/limitra',
+  faq: isEn ? '/en/sss' : '/sss',
+  contact: isEn ? '/en/iletisim' : '/iletisim',
+  privacy: isEn ? '/en/gizlilik-politikasi' : '/gizlilik-politikasi',
+  terms: isEn ? '/en/kullanim-sartlari' : '/kullanim-sartlari',
+};
+
+const labels = {
+  brandDesc: isEn 
+    ? 'A simple screen time boundary tool designed for those who want to reduce screen time and build digital discipline. Helps protect your boundaries.' 
+    : 'Ekran süresini azaltmak ve dijital disiplin oluşturmak isteyenler için tasarlanmış sade bir uygulama sınırı aracı. Kendi sınırlarınızı korumanıza yardımcı olur.',
+  infoTitle: isEn ? 'Knowledge Center' : 'Bilgi Merkezi',
+  productTitle: isEn ? 'Product' : 'Ürün',
+  legalTitle: isEn ? 'Legal' : 'Yasal',
+  disclaimer: isEn 
+    ? `© ${currentYear} Limitra. All rights reserved. This website and mobile application are supportive tools for digital discipline; they do not claim any medical or psychological treatment.`
+    : `© ${currentYear} Limitra. Tüm hakları saklıdır. Bu web sitesi ve mobil uygulama dijital disiplini destekleyici bir araçtır, tıbbi veya psikolojik bir tedavi iddiası taşımaz.`
+};
+
+const guidePrefix = isEn ? '/en/bilgi-merkezi/' : '/bilgi-merkezi/';
+
+const guides = [
+  { slug: 'ekran-suresi', text: isEn ? 'Screen Time Guide' : 'Ekran Süresi Rehberi' },
+  { slug: 'sosyal-medya-ve-kisa-video', text: isEn ? 'Social Media & Short Video' : 'Sosyal Medya & Kısa Video' },
+  { slug: 'dikkat-uyku-ve-rutinler', text: isEn ? 'Focus, Sleep & Routines' : 'Dikkat, Uyku ve Rutinler' },
+  { slug: 'ekran-suresini-azaltma-yontemleri', text: isEn ? 'Reduction Methods' : 'Azaltma Yöntemleri' },
+  { slug: 'klasik-limitler-neden-yetmez', text: isEn ? 'Why Standard Limits Fail' : 'Limitler Neden Yetmez?' },
+  { slug: 'daha-net-uygulama-sinirlari', text: isEn ? 'Behavioral Boundaries' : 'Davranışsal Sınırlar' }
+];
+---
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href={isEn ? "/en" : "/"} class="logo">
+        <img src="/logo.jpg" alt="Limitra Logo" class="logo-img" />
+        <span class="logo-text">Limitra</span>
+      </a>
+      <p class="brand-desc">
+        {labels.brandDesc}
+      </p>
+    </div>
+    
+    <div class="footer-links">
+      <div class="link-group">
+        <h4 class="group-title">{labels.infoTitle}</h4>
+        <ul>
+          {guides.map((g) => (
+            <li><a href={`${guidePrefix}${g.slug}`}>{g.text}</a></li>
+          ))}
+        </ul>
+      </div>
+      
+      <div class="link-group">
+        <h4 class="group-title">{labels.productTitle}</h4>
+        <ul>
+          <li><a href={links.about}>{isEn ? 'What is Limitra?' : 'Limitra Nedir?'}</a></li>
+          <li><a href={links.faq}>{isEn ? 'FAQ' : 'Sıkça Sorulan Sorular'}</a></li>
+          <li><a href={links.contact}>{isEn ? 'Contact' : 'İletişim'}</a></li>
+        </ul>
+      </div>
+      
+      <div class="link-group">
+        <h4 class="group-title">{labels.legalTitle}</h4>
+        <ul>
+          <li><a href={links.privacy}>{isEn ? 'Privacy Policy' : 'Gizlilik Politikası'}</a></li>
+          <li><a href={links.terms}>{isEn ? 'Terms of Use' : 'Kullanım Şartları'}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container footer-bottom">
+    <p>{labels.disclaimer}</p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-8);
+    font-size: 0.875rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+    margin-bottom: var(--space-16);
+  }
+
+  .footer-brand {
+    max-width: 320px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--text-primary);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: var(--space-4);
+    text-decoration: none;
+  }
+
+  .logo-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  .brand-desc {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--space-8);
+  }
+
+  .group-title {
+    color: var(--text-primary);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+  }
+
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: 0;
+  }
+
+  .footer-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .footer-links a:hover {
+    color: var(--accent);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid var(--border-color);
+    padding-top: var(--space-8);
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.8125rem;
+  }
+
+  @media (min-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr 2.5fr;
+    }
+  }
+</style>

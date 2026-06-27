@@ -1,0 +1,188 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqs = [
+  {
+    question: "Limitra nedir?",
+    answer: "Limitra, Android cihazlar için geliştirilmiş, ekran süresini ve sosyal medya kullanımını kontrol altına almanıza yardımcı olan minimalist bir uygulama engelleyici ve dijital disiplin aracıdır."
+  },
+  {
+    question: "Limitra nasıl çalışır?",
+    answer: "Uygulama üzerinden sınırlandırmak istediğiniz sosyal medya veya oyun uygulamalarını seçip günlük kullanım limiti belirlersiniz. Gün içindeki toplam kullanım süreniz bu limite ulaştığında, Limitra uygulamaya erişimi günün geri kalanı için engeller."
+  },
+  {
+    question: "Limitra hangi problemi çözmeye çalışır?",
+    answer: "Sosyal medya uygulamalarının zihnimizi ekranda tutmak için tasarladığı sonsuz kaydırma ve anlık bildirim döngülerini kırmayı hedefler. Mantıklı anımızda koyduğumuz sınırları, irademizin zayıfladığı anlarda koruyarak zaman kaybını önler."
+  },
+  {
+    question: "Süre dolunca ne olur?",
+    answer: "Belirlediğiniz süre dolduğunda, seçilen uygulama kapatılır ve ekranda Limitra'nın engel ekranı belirir. Bu ekran kolayca geçilebilecek veya ertelenebilecek bir yoksay seçeneği barındırmaz; böylece sınırlarınıza sadık kalırsınız."
+  },
+  {
+    question: "Limitra interneti tamamen kapatır mı?",
+    answer: "Hayır. Limitra cihazınızın internet erişimine müdahale etmez. Yalnızca sizin seçtiğiniz ve sınırlandırdığınız spesifik uygulamaların ekran üzerindeki görünürlüğünü engeller."
+  },
+  {
+    question: "Limitra sosyal medya bağımlılığını tedavi eder mi?",
+    answer: "Hayır. Limitra tıbbi veya psikolojik bir tedavi aracı değildir ve böyle bir iddiada bulunmaz. Sadece kendi sınırlarını çizmek ve dijital alışkanlıklarını yönetmek isteyen bireyler için yardımcı bir disiplin aracıdır."
+  },
+  {
+    question: "Limitra kimler için uygundur?",
+    answer: "Gün içinde farkında olmadan telefonda çok zaman kaybeden, dikkat dağınıklığı yaşayan ve dijital dünyayla arasına sağlıklı sınırlar koymak isteyen tüm Android kullanıcıları için uygundur."
+  },
+  {
+    question: "Öğrenciler için uygun mu?",
+    answer: "Evet. Ders çalışırken veya sınavlara hazırlanırken sosyal medyanın dikkat bölücü etkisini azaltmak isteyen öğrenciler, çalışma saatlerinde Limitra ile uygulamaları sınırlayarak odaklanmalarını koruyabilirler."
+  },
+  {
+    question: "Çalışanlar için uygun mu?",
+    answer: "Evet. Mesai saatlerinde veya derin odaklanma gerektiren iş süreçlerinde sık sık telefona gitme alışkanlığı olan çalışanlar, dikkat dağıtıcı uygulamalara sınırlar koyarak iş verimliliklerini artırabilirler."
+  },
+  {
+    question: "Limitra klasik ekran süresi araçlarından nasıl farklıdır?",
+    answer: "Klasik araçlar genellikle kolayca geçilebilen veya ertelenebilen yumuşak uyarılar verir. Limitra ise net sınırlar koyar; süre dolduğunda erteleme seçeneği sunmayarak o anki zayıf iradeniz yerine, daha önce rasyonel şekilde verdiğiniz karara bağlı kalmanızı sağlar."
+  },
+  {
+    question: "Veriler buluta gönderiliyor mu?",
+    answer: "Hayır. Limitra gizlilik odaklı bir tasarıma sahiptir. Hangi uygulamayı ne kadar kullandığınız gibi veriler tamamen cihazınızda saklanır ve hiçbir şekilde buluta veya üçüncü şahıslara gönderilmez."
+  },
+  {
+    question: "Google Play linki nerede?",
+    answer: "Limitra uygulamasını Google Play Store üzerinden edinebilirsiniz. Sitemizdeki 'Uygulamayı İndir' butonlarını kullanarak doğrudan ilgili mağaza sayfasına yönlenebilirsiniz."
+  }
+];
+
+// JSON-LD FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+---
+
+<Layout 
+  title="Sıkça Sorulan Sorular" 
+  description="Limitra uygulama engelleyicinin çalışması, özellikleri, gizlilik yaklaşımı ve dijital disiplin hedefleri hakkında sıkça sorulan soruların yanıtları."
+>
+  <!-- JSON-LD Structured Data inside layout body -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+  <section class="faq-page">
+    <div class="container content-width">
+      <header class="faq-header">
+        <a href="/" class="back-link">&larr; Ana Sayfa</a>
+        <h1>Sıkça Sorulan Sorular</h1>
+        <p class="subtitle">Limitra ve dijital disiplin süreci hakkında merak ettiğiniz tüm soruların yanıtları.</p>
+      </header>
+
+      <div class="faq-list">
+        {faqs.map((faq, index) => (
+          <div class="faq-item">
+            <details>
+              <summary class="faq-question">
+                <span>{faq.question}</span>
+                <span class="icon-arrow">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </span>
+              </summary>
+              <div class="faq-answer">
+                <p>{faq.answer}</p>
+              </div>
+            </details>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .faq-page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-6);
+  }
+
+  .back-link:hover {
+    color: var(--accent);
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-12);
+  }
+
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .faq-item {
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  details {
+    padding-bottom: var(--space-4);
+  }
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    list-style: none;
+    padding: var(--space-2) 0;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .icon-arrow {
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+  }
+
+  details[open] .icon-arrow {
+    transform: rotate(180deg);
+    color: var(--accent);
+  }
+
+  .faq-answer {
+    padding-top: var(--space-2);
+    animation: slideDown 0.2s ease-out;
+  }
+
+  .faq-answer p {
+    margin-bottom: 0;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>

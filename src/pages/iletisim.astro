@@ -1,0 +1,103 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="İletişim | Limitra" 
+  description="Limitra ekibiyle iletişime geçin. Hata bildirimleri, öneriler ve destek talepleriniz için e-posta adresimiz."
+>
+  <section class="contact-page">
+    <div class="container content-width text-center">
+      <a href="/" class="back-link">&larr; Ana Sayfa</a>
+      <h1>İletişim</h1>
+      <p class="subtitle">
+        Limitra ile ilgili geri bildirimleriniz, önerileriniz veya destek talepleriniz için bizimle dilediğiniz zaman iletişime geçebilirsiniz.
+      </p>
+
+      <div class="contact-card">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </div>
+        <h3>E-posta Adresimiz</h3>
+        <p>Destek, öneri ve tüm iş birlikleri için:</p>
+        <a href="mailto:lumoriapdf@gmail.com" class="email-link">lumoriapdf@gmail.com</a>
+      </div>
+      
+      <p class="response-note">
+        Genellikle 24-48 saat içerisinde tüm e-postalara yanıt vermeye gayret ediyoruz.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .contact-page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-24);
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-6);
+  }
+
+  .back-link:hover {
+    color: var(--accent);
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-12);
+  }
+
+  .contact-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: var(--space-12) var(--space-6);
+    margin-bottom: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-icon {
+    color: var(--accent);
+    margin-bottom: var(--space-4);
+  }
+
+  .contact-card h3 {
+    margin-top: 0;
+    margin-bottom: var(--space-2);
+  }
+
+  .email-link {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-top: var(--space-2);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 2px;
+  }
+
+  .email-link:hover {
+    color: var(--accent);
+    border-color: var(--accent-light);
+  }
+
+  .response-note {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+
+  .text-center {
+    text-align: center;
+  }
+</style>

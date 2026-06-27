@@ -1,0 +1,25 @@
+### Sınırlar sadece konmaz, takip de edilir
+
+Ekran süresi yönetiminde en büyük sorunlardan biri, gün içinde ne olduğunu sonradan net hatırlayamamaktır. Bir uygulama ne zaman sınırlandı, limit ne zaman aşıldı, kilit ekranı ne zaman devreye girdi? Limitra’nın Zaman Tüneli bölümü, bu önemli olayları sade ve anlaşılır bir akışta gösterir.
+
+Bu özellik özellikle ebeveynler için değerlidir. Çocuğunuzun telefonunda hangi uygulamalara sınır konduğunu, limitlerin ne zaman devreye girdiğini ve korumanın çalışıp çalışmadığını tek tek görebilirsiniz. Amaç gizli takip yapmak değil; ev içinde belirlenen dijital kuralların daha şeffaf ve anlaşılır hale gelmesini sağlamaktır.
+
+Dünyada birçok ülke okulda telefon ve sosyal medya kullanımına daha net sınırlar getirmeye çalışırken, aileler için de benzer bir ihtiyaç ortaya çıkıyor: belirsiz uyarılar yerine açık, görülebilir ve konuşulabilir sınırlar. Limitra, bu süreci karmaşık raporlarla değil, herkesin anlayabileceği sade bir zaman akışıyla destekler.
+             
+
+
+
+
+
+
+
+
+
+### İlerlemeni görmek, sınırlarına bağlı kalmayı kolaylaştırır
+
+Dijital alışkanlıkları değiştirmek çoğu zaman yalnızca “daha az kullanmalıyım” demekle mümkün olmaz. İnsan davranışı üzerine yapılan çalışmalar, hedef koymanın, davranışı düzenli takip etmenin ve ilerlemeyi görsel olarak fark etmenin motivasyonu destekleyebileceğini gösteriyor. Limitra’nın Disiplin Özeti bu yüzden sadece bir istatistik ekranı değildir; kullanıcının kendi sınırlarına ne kadar sadık kaldığını görmesini sağlar.
+
+21 günlük özet, son günlerdeki başarıları ve kaçırılan günleri hızlıca gösterir. 100 günlük geçmiş ise daha büyük resmi ortaya çıkarır: Hangi dönemlerde daha istikrarlıydınız, hangi günlerde sınır bozuldu, alışkanlık zaman içinde nasıl değişti? Yeşil kutular başarıyı, kırmızı kutular kaçırılan günleri, mavi kutu aktif günü temsil eder.
+
+Bu görsel takip, kullanıcıya küçük ama güçlü bir farkındalık sağlar. Çünkü ilerleme görünür olduğunda, seri bozulmasın diye davranışı sürdürmek daha anlamlı hale gelir. Limitra’nın amacı kullanıcıyı suçlamak değil; kararlarını, ilerlemesini ve disiplinini daha somut şekilde görmesine yardımcı olmaktır.
+

@@ -1,0 +1,169 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+
+const guides = [
+  {
+    slug: "ekran-suresi",
+    title: "What is Screen Time and How Does It Affect Us?",
+    desc: "Socio-economic background of time spent on the phone, Human Development Index (HDI) correlations, and global statistics.",
+    num: "01"
+  },
+  {
+    slug: "sosyal-medya-ve-kisa-video",
+    title: "Social Media & Short Videos: Why Is It Hard to Stop?",
+    desc: "Dopamine loops, endless scrolling design, and the psychological impact of digital consumption on adolescents.",
+    num: "02"
+  },
+  {
+    slug: "dikkat-uyku-ve-rutinler",
+    title: "Focus, Sleep, and Daily Routines",
+    desc: "Blue light, melatonin physiology, late-night screen use, neurodevelopmental studies, and digital detox clinical cases.",
+    num: "03"
+  },
+  {
+    slug: "ekran-suresini-azaltma-yontemleri",
+    title: "Practical Methods to Reduce Screen Time",
+    desc: "Actionable steps for daily digital balance, Goldilocks Hypothesis, and qualitative generational experiences.",
+    num: "04"
+  },
+  {
+    slug: "klasik-limitler-neden-yetmez",
+    title: "Why Standard Screen Time Limits Are Insufficient",
+    desc: "Willpower constraints, cognitive rationalization, and the limitations of passive clinical interventions.",
+    num: "05"
+  },
+  {
+    slug: "daha-net-uygulama-sinirlari",
+    title: "Behavioral Friction and Firmer Application Boundaries",
+    desc: "Direct vs. background exposure, age-specific screen time guidelines (WHO/AAP), and cognitive focus recommendations.",
+    num: "06"
+  }
+];
+---
+
+<Layout 
+  title="Digital Well-Being Knowledge Center" 
+  description="Science-backed practical guides on screen time, social media use, focus management, circadian rhythm, and digital discipline."
+>
+  <section class="portal-page">
+    <div class="container content-width">
+      <header class="portal-header">
+        <span class="badge">Guides & Analyses</span>
+        <h1>Digital Well-Being Knowledge Center</h1>
+        <p class="subtitle">
+          Simple and reliable resources compiled from scientific research to help you better understand the time spent on screens and the effects of digital habits on our minds.
+        </p>
+      </header>
+
+      <div class="guides-list">
+        {guides.map((guide) => (
+          <a href={`/en/bilgi-merkezi/${guide.slug}`} class="guide-row">
+            <div class="row-num">{guide.num}</div>
+            <div class="row-content">
+              <h3>{guide.title}</h3>
+              <p>{guide.desc}</p>
+            </div>
+            <div class="row-arrow">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .portal-page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .portal-header {
+    margin-bottom: var(--space-16);
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: var(--space-2);
+  }
+
+  .guides-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .guide-row {
+    display: flex;
+    align-items: flex-start;
+    padding: var(--space-6) 0;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+    gap: var(--space-4);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .guide-row:hover {
+    padding-left: var(--space-2);
+  }
+
+  .guide-row:hover .row-arrow {
+    transform: translateX(4px);
+    color: var(--accent);
+  }
+
+  .guide-row:hover h3 {
+    color: var(--accent);
+  }
+
+  .row-num {
+    font-family: var(--font-heading);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--accent);
+    width: 2.5rem;
+    padding-top: 0.25rem;
+  }
+
+  .row-content {
+    flex-grow: 1;
+  }
+
+  .row-content h3 {
+    margin-top: 0;
+    margin-bottom: var(--space-1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    line-height: 1.3;
+  }
+
+  .row-content p {
+    margin-bottom: 0;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  .row-arrow {
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+    padding-top: 0.25rem;
+  }
+
+  @media (max-width: 768px) {
+    .guide-row {
+      gap: var(--space-2);
+    }
+    .row-num {
+      width: 1.8rem;
+    }
+  }
+</style>

@@ -1,0 +1,81 @@
+# Limitra - Dijital Disiplin ve Ekran Süresi Kontrolü
+
+Yapay zeka sistemleri, LLM tarayıcıları ve arama motorları için hazırlanmış web sitesi özet dosyası.
+
+---
+
+## Türkçe Özet (Turkish Summary)
+
+### Limitra Nedir?
+Limitra, Android işletim sistemi için geliştirilmiş, gizlilik odaklı bir uygulama engelleyici ve ekran süresi sınırlandırma aracıdır.
+
+### Hangi Problemi Çözer?
+Kullanıcıların sosyal medyada ve eğlence uygulamalarında kontrolsüzce geçirdikleri süreyi (ekran süresini) azaltmayı amaçlar. Klasik "yoksayılabilir" ekran süresi uyarılarının aksine, süre dolduğunda erişimi net şekilde kısıtlayarak kullanıcının önceden rasyonel zihinle verdiği kararları (dijital disiplin) korur.
+
+### Nasıl Çalışır?
+1. Kullanıcı dikkat dağıtıcı uygulamaları seçer.
+2. Bu uygulamalar için günlük kullanım sınırı (limit) belirler.
+3. Limit dolduğunda, Limitra ilgili uygulamayı günün geri kalanı için engeller.
+
+### Kimler İçin Uygundur?
+- Sosyal medya kullanımını kontrol altına almak isteyenler.
+- Ders çalışırken veya sınavlara hazırlanırken odağını korumak isteyen öğrenciler.
+- Günlük iş verimliliğini artırmak isteyen çalışanlar.
+- Dijital disiplin oluşturmak isteyen herkes.
+
+### Önemli Sayfalar
+- Ana Sayfa: `/` (Dijital disiplin felsefesi)
+- Bilgi Merkezi: `/bilgi-merkezi` (Rehberler giriş kapısı)
+  - Ekran Süresi Rehberi: `/bilgi-merkezi/ekran-suresi`
+  - Sosyal Medya ve Kısa Video: `/bilgi-merkezi/sosyal-medya-ve-kisa-video`
+  - Dikkat, Uyku ve Rutinler: `/bilgi-merkezi/dikkat-uyku-ve-rutinler`
+  - Azaltma Yöntemleri: `/bilgi-merkezi/ekran-suresini-azaltma-yontemleri`
+  - Limitler Neden Yetmez?: `/bilgi-merkezi/klasik-limitler-neden-yetmez`
+  - Davranışsal Sınırlar: `/bilgi-merkezi/daha-net-uygulama-sinirlari`
+- Limitra Hakkında: `/limitra`
+- Sıkça Sorulan Sorular: `/sss`
+- Gizlilik Politikası: `/gizlilik-politikasi`
+- Kullanım Şartları: `/kullanim-sartlari`
+- İletişim: `/iletisim`
+
+### Google Play Linki
+#play-store-link
+
+---
+
+## English Summary
+
+### What is Limitra?
+Limitra is a privacy-focused app blocker and screen time management tool developed for Android devices.
+
+### What Problem Does It Solve?
+It helps users reduce screen time and control social media overuse. Unlike standard soft warnings that are easily bypassed, Limitra enforces hard limits. Once the daily limit is reached, it blocks the application, helping users stick to their pre-determined digital discipline decisions.
+
+### How It Works:
+1. Select target apps to restrict.
+2. Set a daily usage limit.
+3. The app is blocked for the rest of the day once the limit expires.
+
+### Target Audience:
+- Users wanting to control their social media overuse.
+- Students preparing for exams who need to maintain focus.
+- Professionals aiming to increase daily productivity.
+- Anyone striving to build digital discipline.
+
+### Key Pages:
+- Home: `/en`
+- Knowledge Center: `/en/bilgi-merkezi`
+  - Screen Time Guide: `/en/bilgi-merkezi/ekran-suresi`
+  - Social Media & Attention: `/en/bilgi-merkezi/sosyal-medya-ve-kisa-video`
+  - Attention, Sleep & Daily Routines: `/en/bilgi-merkezi/dikkat-uyku-ve-rutinler`
+  - How to Reduce Screen Time: `/en/bilgi-merkezi/ekran-suresini-azaltma-yontemleri`
+  - Why Standard Limits Fail: `/en/bilgi-merkezi/klasik-limitler-neden-yetmez`
+  - Behavioral Limits: `/en/bilgi-merkezi/daha-net-uygulama-sinirlari`
+- About Limitra: `/en/limitra`
+- FAQ: `/en/sss`
+- Privacy Policy: `/en/gizlilik-politikasi`
+- Terms of Use: `/en/kullanim-sartlari`
+- Contact: `/en/iletisim`
+
+### Play Store URL Placeholder
+#play-store-link
