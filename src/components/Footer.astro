@@ -1,172 +1,186 @@
 ---
 const currentYear = new Date().getFullYear();
 const isEn = Astro.url.pathname.startsWith('/en');
+const prefix = isEn ? '/en' : '';
 
-// Dil bazlı linkler ve etiketler
-const links = {
-  about: isEn ? '/en/limitra' : '/limitra',
-  faq: isEn ? '/en/sss' : '/sss',
-  contact: isEn ? '/en/iletisim' : '/iletisim',
-  privacy: isEn ? '/en/gizlilik-politikasi' : '/gizlilik-politikasi',
-  terms: isEn ? '/en/kullanim-sartlari' : '/kullanim-sartlari',
-};
-
-const labels = {
-  brandDesc: isEn 
-    ? 'A simple screen time boundary tool designed for those who want to reduce screen time and build digital discipline. Helps protect your boundaries.' 
-    : 'Ekran süresini azaltmak ve dijital disiplin oluşturmak isteyenler için tasarlanmış sade bir uygulama sınırı aracı. Kendi sınırlarınızı korumanıza yardımcı olur.',
-  infoTitle: isEn ? 'Knowledge Center' : 'Bilgi Merkezi',
-  productTitle: isEn ? 'Product' : 'Ürün',
-  legalTitle: isEn ? 'Legal' : 'Yasal',
-  disclaimer: isEn 
-    ? `© ${currentYear} Limitra. All rights reserved. This website and mobile application are supportive tools for digital discipline; they do not claim any medical or psychological treatment.`
-    : `© ${currentYear} Limitra. Tüm hakları saklıdır. Bu web sitesi ve mobil uygulama dijital disiplini destekleyici bir araçtır, tıbbi veya psikolojik bir tedavi iddiası taşımaz.`
-};
-
-const guidePrefix = isEn ? '/en/bilgi-merkezi/' : '/bilgi-merkezi/';
-
-const guides = [
-  { slug: 'ekran-suresi', text: isEn ? 'Screen Time Guide' : 'Ekran Süresi Rehberi' },
-  { slug: 'sosyal-medya-ve-kisa-video', text: isEn ? 'Social Media & Short Video' : 'Sosyal Medya & Kısa Video' },
-  { slug: 'dikkat-uyku-ve-rutinler', text: isEn ? 'Focus, Sleep & Routines' : 'Dikkat, Uyku ve Rutinler' },
-  { slug: 'ekran-suresini-azaltma-yontemleri', text: isEn ? 'Reduction Methods' : 'Azaltma Yöntemleri' },
-  { slug: 'klasik-limitler-neden-yetmez', text: isEn ? 'Why Standard Limits Fail' : 'Limitler Neden Yetmez?' },
-  { slug: 'daha-net-uygulama-sinirlari', text: isEn ? 'Behavioral Boundaries' : 'Davranışsal Sınırlar' }
+const groups = [
+  {
+    title: isEn ? 'Product' : 'Ürün',
+    links: [
+      { href: `${prefix}/limitra`, label: isEn ? 'How it works' : 'Nasıl çalışır?' },
+      { href: `${prefix}/sss`, label: isEn ? 'FAQ' : 'Sık sorulanlar' },
+      { href: `${prefix}/iletisim`, label: isEn ? 'Contact' : 'İletişim' }
+    ]
+  },
+  {
+    title: isEn ? 'Explore' : 'Keşfet',
+    links: [
+      { href: `${prefix}/bilgi-merkezi`, label: isEn ? 'Knowledge center' : 'Bilgi merkezi' },
+      { href: `${prefix}/bilgi-merkezi/ekran-suresi`, label: isEn ? 'Screen time guide' : 'Ekran süresi rehberi' },
+      { href: `${prefix}/bilgi-merkezi/daha-net-uygulama-sinirlari`, label: isEn ? 'Clearer boundaries' : 'Daha net sınırlar' }
+    ]
+  },
+  {
+    title: isEn ? 'Legal' : 'Yasal',
+    links: [
+      { href: `${prefix}/gizlilik-politikasi`, label: isEn ? 'Privacy policy' : 'Gizlilik politikası' },
+      { href: `${prefix}/kullanim-sartlari`, label: isEn ? 'Terms of use' : 'Kullanım şartları' }
+    ]
+  }
 ];
 ---
+
 <footer class="footer">
-  <div class="container footer-grid">
+  <div class="container footer-top">
     <div class="footer-brand">
-      <a href={isEn ? "/en" : "/"} class="logo">
-        <img src="/logo.jpg" alt="Limitra Logo" class="logo-img" />
-        <span class="logo-text">Limitra</span>
+      <a href={isEn ? '/en' : '/'} class="brand">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>Limitra</span>
       </a>
-      <p class="brand-desc">
-        {labels.brandDesc}
-      </p>
+      <p>{isEn ? 'Set your boundary when your mind is clear. Let Limitra protect it when distraction arrives.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında onu Limitra korusun.'}</p>
+      <a class="play-link" href="https://play.google.com/store/apps/details?id=com.gardiyan.app" target="_blank" rel="noopener noreferrer">
+        {isEn ? 'Available on Google Play' : 'Google Play’de incele'} <span aria-hidden="true">↗</span>
+      </a>
     </div>
-    
+
     <div class="footer-links">
-      <div class="link-group">
-        <h4 class="group-title">{labels.infoTitle}</h4>
-        <ul>
-          {guides.map((g) => (
-            <li><a href={`${guidePrefix}${g.slug}`}>{g.text}</a></li>
-          ))}
-        </ul>
-      </div>
-      
-      <div class="link-group">
-        <h4 class="group-title">{labels.productTitle}</h4>
-        <ul>
-          <li><a href={links.about}>{isEn ? 'What is Limitra?' : 'Limitra Nedir?'}</a></li>
-          <li><a href={links.faq}>{isEn ? 'FAQ' : 'Sıkça Sorulan Sorular'}</a></li>
-          <li><a href={links.contact}>{isEn ? 'Contact' : 'İletişim'}</a></li>
-        </ul>
-      </div>
-      
-      <div class="link-group">
-        <h4 class="group-title">{labels.legalTitle}</h4>
-        <ul>
-          <li><a href={links.privacy}>{isEn ? 'Privacy Policy' : 'Gizlilik Politikası'}</a></li>
-          <li><a href={links.terms}>{isEn ? 'Terms of Use' : 'Kullanım Şartları'}</a></li>
-        </ul>
-      </div>
+      {groups.map((group) => (
+        <div class="link-group">
+          <h2>{group.title}</h2>
+          <ul>
+            {group.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+          </ul>
+        </div>
+      ))}
     </div>
   </div>
-  
+
   <div class="container footer-bottom">
-    <p>{labels.disclaimer}</p>
+    <p>© {currentYear} Limitra. {isEn ? 'All rights reserved.' : 'Tüm hakları saklıdır.'}</p>
+    <p>{isEn ? 'A supportive digital-discipline tool; not medical treatment.' : 'Dijital disiplini destekleyen bir araçtır; tıbbi tedavi değildir.'}</p>
   </div>
 </footer>
 
 <style>
   .footer {
-    background-color: var(--bg-secondary);
-    border-top: 1px solid var(--border-color);
-    padding-top: var(--space-16);
-    padding-bottom: var(--space-8);
-    font-size: 0.875rem;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+    background: var(--surface-dark);
+    color: white;
+    padding: 4.5rem 0 2rem;
   }
 
-  .footer-grid {
+  .footer-top {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-12);
-    margin-bottom: var(--space-16);
+    grid-template-columns: 1.2fr 1.8fr;
+    gap: clamp(3rem, 8vw, 8rem);
   }
 
-  .footer-brand {
-    max-width: 320px;
-  }
-
-  .logo {
-    display: flex;
+  .brand {
+    display: inline-flex;
     align-items: center;
-    gap: var(--space-2);
-    color: var(--text-primary);
+    gap: .72rem;
+    margin-bottom: 1.25rem;
+    color: white;
     font-family: var(--font-heading);
+    font-size: 1.35rem;
     font-weight: 700;
-    font-size: 1.25rem;
-    margin-bottom: var(--space-4);
-    text-decoration: none;
   }
 
-  .logo-img {
-    width: 32px;
-    height: 32px;
-    border-radius: 6px;
-    object-fit: cover;
+  .brand:hover {
+    color: white;
   }
 
-  .brand-desc {
-    color: var(--text-secondary);
-    font-size: 0.875rem;
-    line-height: 1.6;
+  .brand-mark {
+    display: grid;
+    width: 2.25rem;
+    height: 2.25rem;
+    place-items: center;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: .75rem;
+    background: rgba(255,255,255,.08);
+  }
+
+  .footer-brand p {
+    max-width: 25rem;
+    margin-bottom: 1.4rem;
+    color: #9eabc0;
+    font-size: .92rem;
+  }
+
+  .play-link {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    color: white;
+    font-size: .84rem;
+    font-weight: 700;
+  }
+
+  .play-link:hover {
+    color: var(--accent-light);
   }
 
   .footer-links {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: var(--space-8);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 
-  .group-title {
-    color: var(--text-primary);
-    font-size: 0.9375rem;
-    font-weight: 600;
-    margin-bottom: var(--space-4);
+  .link-group h2 {
+    margin: 0 0 1rem;
+    color: white;
+    font-family: var(--font-body);
+    font-size: .77rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
   }
 
-  .footer-links ul {
-    list-style: none;
+  .link-group ul {
     display: flex;
     flex-direction: column;
-    gap: var(--space-2);
-    padding: 0;
+    gap: .65rem;
+    list-style: none;
   }
 
-  .footer-links a {
-    color: var(--text-secondary);
-    text-decoration: none;
-    transition: color 0.15s ease;
+  .link-group a {
+    color: #9eabc0;
+    font-size: .86rem;
   }
 
-  .footer-links a:hover {
-    color: var(--accent);
+  .link-group a:hover {
+    color: white;
   }
 
   .footer-bottom {
-    border-top: 1px solid var(--border-color);
-    padding-top: var(--space-8);
-    text-align: center;
-    color: var(--text-muted);
-    font-size: 0.8125rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255,255,255,.09);
+    padding-top: 1.5rem;
   }
 
-  @media (min-width: 768px) {
-    .footer-grid {
-      grid-template-columns: 1fr 2.5fr;
+  .footer-bottom p {
+    margin: 0;
+    color: #738198;
+    font-size: .74rem;
+  }
+
+  @media (max-width: 800px) {
+    .footer-top {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .footer-links {
+      grid-template-columns: 1fr 1fr;
     }
   }
 </style>

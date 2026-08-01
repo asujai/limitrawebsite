@@ -11,51 +11,52 @@ interface Props {
   ogImage?: string;
 }
 
-const { 
-  title, 
-  description, 
-  ogTitle = title, 
-  ogDescription = description, 
-  ogImage = '/images/og-default.png' 
+const {
+  title,
+  description,
+  ogTitle = title,
+  ogDescription = description,
+  ogImage = '/og-limitra.png'
 } = Astro.props;
 
 const isEn = Astro.url.pathname.startsWith('/en');
 const lang = isEn ? 'en' : 'tr';
+const baseUrl = Astro.site ?? Astro.url;
+const canonicalUrl = new URL(Astro.url.pathname, baseUrl);
+const shareImage = new URL(ogImage, baseUrl);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang={lang}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- SEO Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} | Limitra</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={Astro.url.href} />
     <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#09162f" />
+    <meta name="color-scheme" content="light" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={`${ogTitle} | Limitra`} />
     <meta property="og:description" content={ogDescription} />
-    <meta property="og:image" content={new URL(ogImage, Astro.url)} />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={Astro.url.href} />
-    <meta property="twitter:title" content={`${ogTitle} | Limitra`} />
-    <meta property="twitter:description" content={ogDescription} />
-    <meta property="twitter:image" content={new URL(ogImage, Astro.url)} />
-
-    <!-- Favicon & Theme -->
-    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
-    <meta name="theme-color" content="#0f766e" />
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:locale" content={isEn ? 'en_US' : 'tr_TR'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${ogTitle} | Limitra`} />
+    <meta name="twitter:description" content={ogDescription} />
+    <meta name="twitter:image" content={shareImage} />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">{isEn ? 'Skip to content' : 'İçeriğe geç'}</a>
     <Navigation />
-    <main>
+    <main id="main-content">
       <slot />
     </main>
     <Footer />

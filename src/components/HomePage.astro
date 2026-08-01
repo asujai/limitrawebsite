@@ -1,0 +1,502 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+interface Props {
+  lang?: 'tr' | 'en';
+}
+
+const { lang = 'tr' } = Astro.props;
+const isEn = lang === 'en';
+const prefix = isEn ? '/en' : '';
+const playUrl = 'https://play.google.com/store/apps/details?id=com.gardiyan.app';
+
+const steps = isEn ? [
+  { num: '01', title: 'Choose the distractions', text: 'Select the apps that steal your attention most often.' },
+  { num: '02', title: 'Set a clear limit', text: 'Decide how much time each app deserves while your mind is clear.' },
+  { num: '03', title: 'Let Limitra protect it', text: 'When time is up, the boundary you set becomes a real pause.' }
+] : [
+  { num: '01', title: 'Dikkat dağıtanları seç', text: 'Seni en sık ekrana çeken uygulamaları belirle.' },
+  { num: '02', title: 'Net bir sınır koy', text: 'Zihnin sakinken her uygulamanın hak ettiği süreye karar ver.' },
+  { num: '03', title: 'Korumayı Limitra’ya bırak', text: 'Süre dolduğunda verdiğin karar gerçek bir molaya dönüşsün.' }
+];
+
+const guides = isEn ? [
+  { href: '/en/bilgi-merkezi/ekran-suresi', meta: '6 min', title: 'Understand your screen time', text: 'See what constant phone use does to focus and daily rhythm.' },
+  { href: '/en/bilgi-merkezi/klasik-limitler-neden-yetmez', meta: '5 min', title: 'Why soft limits are easy to ignore', text: 'Explore why a warning is often not enough at the moment of temptation.' },
+  { href: '/en/bilgi-merkezi/dikkat-uyku-ve-rutinler', meta: '7 min', title: 'Protect sleep and attention', text: 'Build calmer evening routines without relying on willpower alone.' }
+] : [
+  { href: '/bilgi-merkezi/ekran-suresi', meta: '6 dk', title: 'Ekran süreni gerçekten anla', text: 'Sürekli telefon kullanımının dikkat ve günlük ritim üzerindeki etkisini gör.' },
+  { href: '/bilgi-merkezi/klasik-limitler-neden-yetmez', meta: '5 dk', title: 'Yumuşak limitler neden yetmez?', text: 'Bir uyarının dürtü anında neden kolayca yok sayıldığını keşfet.' },
+  { href: '/bilgi-merkezi/dikkat-uyku-ve-rutinler', meta: '7 dk', title: 'Uyku ve dikkatini koru', text: 'Yalnızca iradeye güvenmeden daha sakin akşam rutinleri kur.' }
+];
+---
+
+<Layout
+  title={isEn ? 'Protect the boundaries you set' : 'Koyduğun sınırı koru'}
+  description={isEn ? 'Limitra is a privacy-first Android app that helps you set clear app limits and protect your attention.' : 'Limitra, net uygulama sınırları koymanıza ve dikkatinizi korumanıza yardımcı olan gizlilik odaklı bir Android uygulamasıdır.'}
+  ogTitle={isEn ? 'Decide now. Let Limitra protect it later.' : 'Kararını şimdi ver. Limitra sonra korusun.'}
+>
+  <section class="hero">
+    <div class="hero-glow glow-one"></div>
+    <div class="hero-glow glow-two"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'A calmer digital rhythm' : 'Daha sakin bir dijital ritim'}</span>
+        <h1>{isEn ? <>Decide now.<br /><em>Limitra protects it later.</em></> : <>Kararını şimdi ver.<br /><em>Limitra sonra korusun.</em></>}</h1>
+        <p class="hero-lead">
+          {isEn ? 'Set clear limits while your mind is calm. When distraction arrives, Limitra helps you stay loyal to the decision you already made.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında Limitra, daha önce verdiğin karara sadık kalmana yardımcı olsun.'}
+        </p>
+        <div class="hero-actions">
+          <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <span>{isEn ? 'Get it on Google Play' : 'Google Play’den indir'}</span><span aria-hidden="true">↗</span>
+          </a>
+          <a href={`${prefix}/limitra`} class="text-link">{isEn ? 'See how it works' : 'Nasıl çalıştığını gör'} <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-trust" aria-label={isEn ? 'Product qualities' : 'Ürün özellikleri'}>
+          <span><i></i>{isEn ? 'On-device data' : 'Veriler cihazda'}</span>
+          <span><i></i>{isEn ? 'No ads' : 'Reklamsız'}</span>
+          <span><i></i>{isEn ? 'Built for Android' : 'Android için'}</span>
+        </div>
+      </div>
+
+      <div class="product-visual" aria-label={isEn ? 'Representative Limitra product interface' : 'Temsili Limitra ürün arayüzü'}>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="phone-shell">
+          <div class="phone-top"><span>9:41</span><span class="phone-sensors">● ◔ ▰</span></div>
+          <div class="app-head">
+            <div>
+              <span class="app-kicker">LIMITRA</span>
+              <strong>{isEn ? 'Good morning' : 'Günaydın'}</strong>
+            </div>
+            <span class="profile-dot">A</span>
+          </div>
+          <div class="focus-card">
+            <div class="focus-top">
+              <span>{isEn ? 'Today’s focus' : 'Bugünün odağı'}</span>
+              <strong>62%</strong>
+            </div>
+            <div class="progress-track"><span></span></div>
+            <div class="focus-bottom"><span>{isEn ? '38 min protected' : '38 dk korundu'}</span><span>{isEn ? 'Goal: 60 min' : 'Hedef: 60 dk'}</span></div>
+          </div>
+          <div class="app-section-title"><strong>{isEn ? 'Active limits' : 'Aktif sınırlar'}</strong><span>{isEn ? 'Edit' : 'Düzenle'}</span></div>
+          <div class="limit-row">
+            <span class="app-icon blue">S</span>
+            <div><strong>{isEn ? 'Social media' : 'Sosyal medya'}</strong><small>{isEn ? '18 of 30 min used' : '30 dk’nın 18 dk’sı'}</small></div>
+            <span class="time-pill">12 dk</span>
+          </div>
+          <div class="limit-row">
+            <span class="app-icon coral">V</span>
+            <div><strong>{isEn ? 'Short videos' : 'Kısa videolar'}</strong><small>{isEn ? '14 of 20 min used' : '20 dk’nın 14 dk’sı'}</small></div>
+            <span class="time-pill">6 dk</span>
+          </div>
+          <div class="streak-card">
+            <span class="streak-icon">7</span>
+            <div><strong>{isEn ? '7-day streak' : '7 günlük seri'}</strong><small>{isEn ? 'Your boundary stayed intact.' : 'Sınırın bugün de korundu.'}</small></div>
+          </div>
+          <div class="app-nav"><span class="active">●</span><span>■</span><span>◆</span></div>
+        </div>
+        <div class="float-card float-left"><span class="float-icon">✓</span><div><strong>{isEn ? 'Boundary active' : 'Sınır aktif'}</strong><small>{isEn ? 'Protected until tomorrow' : 'Yarına kadar korunuyor'}</small></div></div>
+        <div class="float-card float-right"><span class="float-number">38</span><div><strong>{isEn ? 'minutes' : 'dakika'}</strong><small>{isEn ? 'saved today' : 'bugün geri kazanıldı'}</small></div></div>
+        <p class="visual-note">{isEn ? 'Representative product interface' : 'Temsili ürün arayüzü'}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="principles" aria-label={isEn ? 'Limitra principles' : 'Limitra ilkeleri'}>
+    <div class="container principle-grid">
+      <div><span>01</span><p><strong>{isEn ? 'Clear' : 'Net'}</strong>{isEn ? 'A boundary you can understand at a glance.' : 'Bir bakışta anlayabileceğin sınırlar.'}</p></div>
+      <div><span>02</span><p><strong>{isEn ? 'Private' : 'Gizli'}</strong>{isEn ? 'Sensitive usage data stays on your device.' : 'Hassas kullanım verileri cihazında kalır.'}</p></div>
+      <div><span>03</span><p><strong>{isEn ? 'Calm' : 'Sakin'}</strong>{isEn ? 'No noisy dashboards, ads or guilt.' : 'Gürültülü ekranlar, reklamlar ve suçluluk yok.'}</p></div>
+    </div>
+  </section>
+
+  <section class="moment-section">
+    <div class="container moment-grid">
+      <div class="moment-copy">
+        <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'The real problem' : 'Asıl problem'}</span>
+        <h2>{isEn ? 'You already know when to stop. The hard part is stopping in that moment.' : 'Ne zaman durman gerektiğini zaten biliyorsun. Zor olan, o anda durabilmek.'}</h2>
+        <p>{isEn ? 'Most screen-time tools arrive as one more notification you can dismiss. Limitra turns the decision you made earlier into a clear pause when it matters.' : 'Çoğu ekran süresi aracı, kapatabileceğin bir bildirim daha gönderir. Limitra ise daha önce verdiğin kararı, ihtiyaç duyduğun anda net bir molaya dönüştürür.'}</p>
+      </div>
+      <div class="moment-card">
+        <span class="moment-label">{isEn ? 'A familiar loop' : 'Tanıdık bir döngü'}</span>
+        <div class="moment-row"><strong>22:14</strong><span>{isEn ? '“I’ll look for five minutes.”' : '“Beş dakika bakıp çıkarım.”'}</span></div>
+        <div class="moment-line"><i></i></div>
+        <div class="moment-row"><strong>22:47</strong><span>{isEn ? 'Still scrolling.' : 'Hâlâ kaydırıyorsun.'}</span></div>
+        <div class="moment-pause"><span>Limitra</span><strong>{isEn ? 'The boundary you set is now active.' : 'Belirlediğin sınır şimdi aktif.'}</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps-section" id="how-it-works">
+    <div class="container">
+      <div class="section-heading">
+        <div><span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Three simple steps' : 'Üç sade adım'}</span><h2>{isEn ? 'Less negotiating. More living.' : 'Daha az pazarlık. Daha çok hayat.'}</h2></div>
+        <p>{isEn ? 'Limitra keeps setup short so the tool itself never becomes another distraction.' : 'Limitra kurulumu kısa tutar; böylece aracın kendisi yeni bir dikkat dağıtıcıya dönüşmez.'}</p>
+      </div>
+      <div class="steps-grid">
+        {steps.map((step) => (
+          <article class="step-card">
+            <span>{step.num}</span>
+            <div class="step-glyph" aria-hidden="true"><i></i><i></i><i></i></div>
+            <h3>{step.title}</h3>
+            <p>{step.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-section">
+    <div class="container feature-grid">
+      <div class="feature-copy">
+        <span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Progress without pressure' : 'Baskı kurmadan ilerleme'}</span>
+        <h2>{isEn ? 'See the pattern. Strengthen the habit.' : 'Deseni gör. Alışkanlığı güçlendir.'}</h2>
+        <p>{isEn ? 'A simple timeline and discipline summary help you understand what happened without turning your life into a spreadsheet.' : 'Sade zaman tüneli ve disiplin özeti, hayatını bir tabloya çevirmeden ne olduğunu anlamanı sağlar.'}</p>
+        <ul class="check-list">
+          <li><span>✓</span>{isEn ? 'See when limits became active' : 'Limitlerin ne zaman devreye girdiğini gör'}</li>
+          <li><span>✓</span>{isEn ? 'Review your recent consistency' : 'Yakın dönem istikrarını incele'}</li>
+          <li><span>✓</span>{isEn ? 'Keep the story local to your device' : 'Tüm geçmişi cihazında tut'}</li>
+        </ul>
+        <a href={`${prefix}/limitra`} class="text-link">{isEn ? 'Explore every feature' : 'Tüm özellikleri incele'} <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="insight-panel">
+        <div class="panel-tabs"><span class="active">{isEn ? 'Discipline' : 'Disiplin'}</span><span>{isEn ? 'Timeline' : 'Zaman tüneli'}</span></div>
+        <div class="streak-summary">
+          <div><span>{isEn ? 'CURRENT STREAK' : 'AKTİF SERİ'}</span><strong>7 <small>{isEn ? 'days' : 'gün'}</small></strong></div>
+          <span class="status-ring">7</span>
+        </div>
+        <div class="day-grid" aria-hidden="true">
+          {Array.from({ length: 21 }, (_, index) => <span class:list={{ today: index === 20, missed: index === 8 || index === 15 }}>{index + 1}</span>)}
+        </div>
+        <div class="panel-legend"><span><i class="done"></i>{isEn ? 'Boundary kept' : 'Sınır korundu'}</span><span><i class="miss"></i>{isEn ? 'Missed' : 'Kaçırıldı'}</span><span><i class="current"></i>{isEn ? 'Today' : 'Bugün'}</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacy-section">
+    <div class="container privacy-card">
+      <div class="privacy-mark" aria-hidden="true"><span></span></div>
+      <div class="privacy-copy">
+        <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'Privacy by design' : 'Tasarım gereği gizli'}</span>
+        <h2>{isEn ? 'Your digital habits are yours.' : 'Dijital alışkanlıkların sana ait.'}</h2>
+        <p>{isEn ? 'Usage information is processed on your Android device. Limitra is designed to protect your attention—not to turn it into another data source.' : 'Kullanım bilgilerin Android cihazında işlenir. Limitra, dikkatini korumak için tasarlandı; onu yeni bir veri kaynağına çevirmek için değil.'}</p>
+      </div>
+      <div class="privacy-points">
+        <div><strong>{isEn ? 'On your device' : 'Cihazında'}</strong><span>{isEn ? 'Local processing' : 'Yerel veri işleme'}</span></div>
+        <div><strong>{isEn ? 'No ads' : 'Reklamsız'}</strong><span>{isEn ? 'No attention traps' : 'Dikkat tuzağı yok'}</span></div>
+        <div><strong>{isEn ? 'Minimal' : 'Minimal'}</strong><span>{isEn ? 'Only what you need' : 'Yalnızca ihtiyacın olan'}</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="guides-section">
+    <div class="container">
+      <div class="section-heading guides-heading">
+        <div><span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Read, understand, change' : 'Oku, anla, değiştir'}</span><h2>{isEn ? 'Knowledge for a calmer relationship with technology.' : 'Teknolojiyle daha sakin bir ilişki için bilgi.'}</h2></div>
+        <a href={`${prefix}/bilgi-merkezi`} class="text-link">{isEn ? 'All guides' : 'Tüm rehberler'} <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="guides-grid">
+        {guides.map((guide, index) => (
+          <a href={guide.href} class="guide-card">
+            <div class={`guide-visual visual-${index + 1}`}><span>{String(index + 1).padStart(2, '0')}</span><i></i></div>
+            <span class="guide-meta">{guide.meta}</span>
+            <h3>{guide.title}</h3>
+            <p>{guide.text}</p>
+            <span class="guide-arrow" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="container cta-card">
+      <div class="cta-orb orb-a"></div><div class="cta-orb orb-b"></div>
+      <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'Start today' : 'Bugün başla'}</span>
+      <h2>{isEn ? 'Make room for what matters.' : 'Önemli olana yer aç.'}</h2>
+      <p>{isEn ? 'Set one clear boundary today and give your attention somewhere better.' : 'Bugün tek bir net sınır koy ve dikkatini daha iyi bir yere ver.'}</p>
+      <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn cta-button">{isEn ? 'Get Limitra on Google Play' : 'Limitra’yı Google Play’den indir'} <span aria-hidden="true">↗</span></a>
+      <small>{isEn ? 'For Android 8.0 and newer · No medical claims' : 'Android 8.0 ve üzeri · Tıbbi tedavi iddiası taşımaz'}</small>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(4.5rem, 9vw, 8rem) 0 5rem;
+    background: radial-gradient(circle at 78% 28%, rgba(93, 140, 255, .14), transparent 31%), linear-gradient(180deg, #f9faff 0%, #f5f7fc 100%);
+  }
+
+  .hero-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(2px);
+    pointer-events: none;
+  }
+
+  .glow-one { width: 24rem; height: 24rem; top: -12rem; left: -12rem; background: rgba(38, 103, 245, .07); }
+  .glow-two { width: 18rem; height: 18rem; right: -8rem; bottom: -8rem; border: 1px solid rgba(38, 103, 245, .16); }
+
+  .hero-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(420px, .92fr);
+    align-items: center;
+    gap: clamp(3rem, 8vw, 7rem);
+  }
+
+  .hero-grid > * {
+    min-width: 0;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    margin-bottom: 1.25rem;
+    color: var(--accent);
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+
+  .eyebrow.light { color: #9fbbff; }
+  .signal-dot { width: .45rem; height: .45rem; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 .25rem color-mix(in srgb, currentColor 14%, transparent); }
+
+  .hero-copy h1 { max-width: 12ch; margin-bottom: 1.5rem; }
+  .hero-copy h1 em { color: var(--accent); font-style: normal; }
+  .hero-lead { max-width: 38rem; margin-bottom: 2rem; font-size: clamp(1.05rem, 2vw, 1.2rem); line-height: 1.72; }
+  .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.25rem; }
+
+  .text-link { display: inline-flex; align-items: center; gap: .45rem; color: var(--text-primary); font-size: .9rem; font-weight: 700; }
+  .text-link:hover { gap: .7rem; color: var(--accent); }
+
+  .hero-trust { display: flex; flex-wrap: wrap; gap: .75rem 1.15rem; margin-top: 2rem; }
+  .hero-trust span { display: inline-flex; align-items: center; gap: .45rem; color: var(--text-muted); font-size: .75rem; font-weight: 600; }
+  .hero-trust i { width: .36rem; height: .36rem; border-radius: 50%; background: var(--green); }
+
+  .product-visual { position: relative; min-height: 630px; display: grid; place-items: center; }
+  .orbit { position: absolute; border: 1px solid rgba(38,103,245,.13); border-radius: 50%; }
+  .orbit-one { width: 32rem; height: 32rem; }
+  .orbit-two { width: 25rem; height: 25rem; border-style: dashed; }
+
+  .phone-shell {
+    position: relative;
+    z-index: 2;
+    width: 305px;
+    min-height: 590px;
+    overflow: hidden;
+    border: 7px solid #0b1730;
+    border-radius: 2.8rem;
+    background: #f8f9fd;
+    padding: .85rem 1rem 0;
+    box-shadow: 0 38px 90px rgba(15, 37, 89, .22), inset 0 0 0 1px rgba(255,255,255,.5);
+    transform: rotate(2.2deg);
+  }
+
+  .phone-top { display: flex; justify-content: space-between; padding: 0 .25rem .9rem; color: #0b1730; font-size: .62rem; font-weight: 800; }
+  .phone-sensors { letter-spacing: .06em; }
+  .app-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+  .app-head div { display: flex; flex-direction: column; }
+  .app-head strong { color: var(--text-primary); font-family: var(--font-heading); font-size: 1.25rem; }
+  .app-kicker { color: var(--accent); font-size: .55rem; font-weight: 800; letter-spacing: .16em; }
+  .profile-dot { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: .7rem; background: var(--accent-soft); color: var(--accent); font-size: .72rem; font-weight: 800; }
+
+  .focus-card { border-radius: 1.15rem; background: var(--surface-dark); padding: 1rem; box-shadow: 0 16px 28px rgba(9,22,47,.14); }
+  .focus-top, .focus-bottom { display: flex; justify-content: space-between; align-items: center; color: white; }
+  .focus-top span { font-size: .68rem; font-weight: 600; }
+  .focus-top strong { font-family: var(--font-heading); font-size: 1.05rem; }
+  .progress-track { height: .4rem; margin: .8rem 0 .55rem; overflow: hidden; border-radius: 1rem; background: rgba(255,255,255,.15); }
+  .progress-track span { display: block; width: 62%; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #5c8cff, #8dafff); }
+  .focus-bottom { color: #9eabc0; font-size: .52rem; }
+
+  .app-section-title { display: flex; justify-content: space-between; margin: 1.15rem 0 .65rem; font-size: .66rem; }
+  .app-section-title span { color: var(--accent); font-weight: 700; }
+  .limit-row { display: grid; grid-template-columns: 2rem 1fr auto; align-items: center; gap: .65rem; margin-bottom: .58rem; border: 1px solid var(--border-soft); border-radius: .9rem; background: white; padding: .68rem; box-shadow: 0 6px 16px rgba(22,43,78,.04); }
+  .limit-row > div { display: flex; min-width: 0; flex-direction: column; }
+  .limit-row strong { overflow: hidden; color: var(--text-primary); font-size: .62rem; text-overflow: ellipsis; white-space: nowrap; }
+  .limit-row small { color: var(--text-muted); font-size: .48rem; }
+  .app-icon { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: .65rem; color: white; font-size: .62rem; font-weight: 800; }
+  .app-icon.blue { background: linear-gradient(135deg, #2868f6, #74a0ff); }
+  .app-icon.coral { background: linear-gradient(135deg, #ff6b58, #ffad8f); }
+  .time-pill { border-radius: 1rem; background: var(--green-soft); padding: .28rem .42rem; color: var(--green); font-size: .5rem; font-weight: 800; }
+
+  .streak-card { display: grid; grid-template-columns: 2.2rem 1fr; align-items: center; gap: .65rem; margin-top: .85rem; border-radius: 1rem; background: linear-gradient(135deg, #e9f8f1, #f6fbf8); padding: .8rem; }
+  .streak-card div { display: flex; flex-direction: column; }
+  .streak-card strong { color: #137c4b; font-size: .65rem; }
+  .streak-card small { color: #5c8a73; font-size: .49rem; }
+  .streak-icon { display: grid; width: 2.2rem; height: 2.2rem; place-items: center; border-radius: 50%; background: var(--green); color: white; font-size: .7rem; font-weight: 800; }
+  .app-nav { position: absolute; right: 0; bottom: 0; left: 0; display: flex; justify-content: space-around; border-top: 1px solid var(--border-soft); background: white; padding: .75rem 1rem 1rem; color: #a2adbe; font-size: .7rem; }
+  .app-nav .active { color: var(--accent); }
+
+  .float-card { position: absolute; z-index: 3; display: flex; align-items: center; gap: .7rem; border: 1px solid rgba(255,255,255,.8); border-radius: 1rem; background: rgba(255,255,255,.86); padding: .75rem .9rem; box-shadow: 0 16px 35px rgba(24,44,83,.14); backdrop-filter: blur(14px); }
+  .float-card div { display: flex; flex-direction: column; }
+  .float-card strong { color: var(--text-primary); font-size: .68rem; }
+  .float-card small { color: var(--text-muted); font-size: .5rem; }
+  .float-left { left: 0; top: 25%; }
+  .float-right { right: -1rem; bottom: 19%; }
+  .float-icon { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: 50%; background: var(--green); color: white; font-weight: 800; }
+  .float-number { color: var(--accent); font-family: var(--font-heading); font-size: 1.65rem; font-weight: 700; line-height: 1; }
+  .visual-note { position: absolute; right: 0; bottom: 0; margin: 0; color: var(--text-muted); font-size: .62rem; }
+
+  .principles { border-block: 1px solid var(--border-soft); background: white; padding: 1.4rem 0; }
+  .principle-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .principle-grid > div { display: grid; grid-template-columns: auto 1fr; gap: .8rem; border-right: 1px solid var(--border-color); padding: .35rem 2rem; }
+  .principle-grid > div:first-child { padding-left: 0; }
+  .principle-grid > div:last-child { border-right: 0; padding-right: 0; }
+  .principle-grid > div > span { color: var(--accent); font-family: var(--font-heading); font-size: .75rem; font-weight: 700; }
+  .principle-grid p { display: flex; flex-direction: column; margin: 0; font-size: .72rem; line-height: 1.5; }
+  .principle-grid strong { color: var(--text-primary); font-size: .9rem; }
+
+  .moment-section { background: var(--surface-dark); }
+  .moment-grid { display: grid; grid-template-columns: 1.05fr .8fr; align-items: center; gap: clamp(3rem, 8vw, 7rem); }
+  .moment-copy h2 { max-width: 13ch; margin: 0 0 1.5rem; color: white; }
+  .moment-copy p { max-width: 37rem; margin: 0; color: #9eabc0; font-size: 1.05rem; }
+  .moment-card { position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,.1); border-radius: 1.6rem; background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.035)); padding: 1.6rem; }
+  .moment-card::after { position: absolute; width: 12rem; height: 12rem; right: -5rem; top: -6rem; border-radius: 50%; background: rgba(38,103,245,.2); content: ''; filter: blur(10px); }
+  .moment-label { display: block; margin-bottom: 1.5rem; color: #7f90ae; font-size: .67rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+  .moment-row { position: relative; z-index: 1; display: grid; grid-template-columns: 4.2rem 1fr; gap: 1rem; align-items: center; }
+  .moment-row strong { color: #7da2ff; font-family: var(--font-heading); font-size: .85rem; }
+  .moment-row span { color: white; font-size: .92rem; }
+  .moment-line { position: relative; height: 3.5rem; margin-left: 1.85rem; border-left: 1px dashed rgba(255,255,255,.25); }
+  .moment-line i { position: absolute; top: 50%; left: -.28rem; width: .5rem; height: .5rem; border-radius: 50%; background: var(--coral); }
+  .moment-pause { display: flex; align-items: center; gap: 1rem; margin-top: 1.8rem; border-radius: 1rem; background: white; padding: 1rem; }
+  .moment-pause span { border-radius: .55rem; background: var(--accent); padding: .45rem .55rem; color: white; font-size: .58rem; font-weight: 800; }
+  .moment-pause strong { color: var(--text-primary); font-size: .75rem; line-height: 1.4; }
+
+  .steps-section { background: var(--bg-primary); }
+  .section-heading { display: grid; grid-template-columns: 1fr minmax(18rem, .55fr); align-items: end; gap: 3rem; margin-bottom: 3.5rem; }
+  .section-heading h2 { max-width: 13ch; margin: 0; }
+  .section-heading > p { margin: 0 0 .25rem; }
+  .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .step-card { position: relative; min-height: 22rem; overflow: hidden; border: 1px solid var(--border-color); border-radius: 1.6rem; background: white; padding: 1.5rem; transition: transform .25s ease, box-shadow .25s ease; }
+  .step-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+  .step-card > span { color: var(--accent); font-family: var(--font-heading); font-size: .75rem; font-weight: 800; }
+  .step-card h3 { margin: 1.7rem 0 .75rem; }
+  .step-card p { margin: 0; font-size: .9rem; }
+  .step-glyph { position: relative; height: 7rem; margin: 1.5rem 0; border-radius: 1.1rem; background: var(--accent-soft); }
+  .step-glyph i { position: absolute; display: block; border-radius: .65rem; background: var(--accent); }
+  .step-card:nth-child(1) .step-glyph i:nth-child(1) { width: 3.3rem; height: 3.3rem; top: 1.9rem; left: calc(50% - 1.65rem); }
+  .step-card:nth-child(1) .step-glyph i:nth-child(2) { width: 1rem; height: 1rem; top: 1rem; left: 25%; background: #8cabff; }
+  .step-card:nth-child(1) .step-glyph i:nth-child(3) { width: .7rem; height: .7rem; right: 23%; bottom: 1rem; background: var(--coral); }
+  .step-card:nth-child(2) .step-glyph i:nth-child(1) { width: 70%; height: .65rem; top: 3.1rem; left: 15%; background: #ced9f4; }
+  .step-card:nth-child(2) .step-glyph i:nth-child(2) { width: 45%; height: .65rem; top: 3.1rem; left: 15%; }
+  .step-card:nth-child(2) .step-glyph i:nth-child(3) { width: 1.5rem; height: 1.5rem; top: 2.68rem; left: calc(60% - .75rem); border: .35rem solid white; }
+  .step-card:nth-child(3) .step-glyph i:nth-child(1) { width: 3.5rem; height: 4.2rem; top: 1.35rem; left: calc(50% - 1.75rem); border-radius: 1.8rem 1.8rem 1rem 1rem; }
+  .step-card:nth-child(3) .step-glyph i:nth-child(2) { width: 1.25rem; height: 1.25rem; top: 2.5rem; left: calc(50% - .625rem); border: .3rem solid white; background: transparent; }
+  .step-card:nth-child(3) .step-glyph i:nth-child(3) { width: .35rem; height: .75rem; top: 3.5rem; left: calc(50% - .175rem); background: white; }
+
+  .feature-section { background: white; }
+  .feature-grid { display: grid; grid-template-columns: .85fr 1fr; align-items: center; gap: clamp(3rem, 8vw, 7rem); }
+  .feature-copy h2 { max-width: 12ch; margin: 0 0 1.5rem; }
+  .check-list { display: flex; flex-direction: column; gap: .8rem; margin: 1.6rem 0 1.8rem; list-style: none; }
+  .check-list li { display: flex; align-items: center; gap: .7rem; color: var(--text-secondary); font-size: .88rem; }
+  .check-list span { display: grid; width: 1.5rem; height: 1.5rem; place-items: center; border-radius: 50%; background: var(--green-soft); color: var(--green); font-size: .72rem; font-weight: 800; }
+
+  .insight-panel { border: 1px solid var(--border-color); border-radius: 1.8rem; background: var(--bg-primary); padding: 1rem; box-shadow: var(--shadow-lg); }
+  .panel-tabs { display: flex; gap: .4rem; border-radius: 1rem; background: white; padding: .35rem; }
+  .panel-tabs span { flex: 1; border-radius: .7rem; padding: .6rem; color: var(--text-muted); text-align: center; font-size: .7rem; font-weight: 700; }
+  .panel-tabs .active { background: var(--surface-dark); color: white; }
+  .streak-summary { display: flex; align-items: center; justify-content: space-between; padding: 1.7rem .8rem 1.2rem; }
+  .streak-summary > div { display: flex; flex-direction: column; }
+  .streak-summary > div > span { color: var(--text-muted); font-size: .6rem; font-weight: 800; letter-spacing: .1em; }
+  .streak-summary strong { color: var(--text-primary); font-family: var(--font-heading); font-size: 2.5rem; line-height: 1.1; }
+  .streak-summary small { color: var(--text-muted); font-size: .75rem; }
+  .status-ring { display: grid; width: 4.1rem; height: 4.1rem; place-items: center; border: .5rem solid #d8e4ff; border-top-color: var(--accent); border-right-color: var(--accent); border-radius: 50%; color: var(--accent); font-family: var(--font-heading); font-weight: 700; }
+  .day-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: .55rem; border-radius: 1.2rem; background: white; padding: 1rem; }
+  .day-grid span { display: grid; aspect-ratio: 1; place-items: center; border-radius: .52rem; background: var(--green-soft); color: var(--green); font-size: .62rem; font-weight: 700; }
+  .day-grid .missed { background: #fff0ed; color: var(--coral); }
+  .day-grid .today { background: var(--accent); color: white; box-shadow: 0 5px 14px rgba(38,103,245,.25); }
+  .panel-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; padding: 1rem .5rem .25rem; }
+  .panel-legend span { display: flex; align-items: center; gap: .35rem; color: var(--text-muted); font-size: .55rem; }
+  .panel-legend i { width: .45rem; height: .45rem; border-radius: 50%; }
+  .panel-legend .done { background: var(--green); }
+  .panel-legend .miss { background: var(--coral); }
+  .panel-legend .current { background: var(--accent); }
+
+  .privacy-section { background: white; padding-top: 0; }
+  .privacy-card { position: relative; display: grid; grid-template-columns: auto 1fr .8fr; align-items: center; gap: 2rem; overflow: hidden; border-radius: 2rem; background: var(--surface-dark); padding: clamp(2rem, 5vw, 4rem); }
+  .privacy-card::after { position: absolute; width: 18rem; height: 18rem; right: -7rem; bottom: -10rem; border: 1px solid rgba(255,255,255,.09); border-radius: 50%; content: ''; }
+  .privacy-mark { display: grid; width: 5.2rem; height: 5.2rem; place-items: center; border: 1px solid rgba(255,255,255,.12); border-radius: 1.5rem; background: rgba(255,255,255,.06); }
+  .privacy-mark span { position: relative; width: 2.4rem; height: 2.2rem; border: 3px solid #83a7ff; border-radius: .65rem; }
+  .privacy-mark span::before { position: absolute; width: 1.25rem; height: 1.3rem; top: -1.35rem; left: .35rem; border: 3px solid #83a7ff; border-bottom: 0; border-radius: 1rem 1rem 0 0; content: ''; }
+  .privacy-copy h2 { margin: 0 0 1rem; color: white; }
+  .privacy-copy p { max-width: 38rem; margin: 0; color: #9eabc0; }
+  .privacy-points { position: relative; z-index: 1; display: flex; flex-direction: column; gap: .7rem; }
+  .privacy-points div { display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px solid rgba(255,255,255,.1); padding: .7rem 0; }
+  .privacy-points strong { color: white; font-size: .78rem; }
+  .privacy-points span { color: #7f90ae; font-size: .7rem; }
+
+  .guides-section { background: var(--bg-primary); }
+  .guides-heading { align-items: center; }
+  .guides-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .guide-card { position: relative; display: flex; flex-direction: column; border: 1px solid var(--border-color); border-radius: 1.5rem; background: white; padding: .85rem .85rem 1.35rem; color: var(--text-primary); }
+  .guide-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); color: var(--text-primary); }
+  .guide-visual { position: relative; height: 11rem; overflow: hidden; border-radius: 1rem; background: var(--surface-dark); }
+  .guide-visual span { position: absolute; z-index: 2; top: 1rem; left: 1rem; color: rgba(255,255,255,.7); font-family: var(--font-heading); font-size: .75rem; font-weight: 700; }
+  .guide-visual i, .guide-visual::before, .guide-visual::after { position: absolute; display: block; border-radius: 50%; content: ''; }
+  .visual-1 i { width: 7rem; height: 7rem; right: 2rem; top: 2rem; border: 1.2rem solid #4178f7; border-right-color: #9bb7ff; }
+  .visual-1::before { width: 1rem; height: 1rem; right: 5rem; top: 5rem; background: white; }
+  .visual-2 { background: #17223b; }
+  .visual-2 i { width: 6rem; height: 6rem; left: calc(50% - 3rem); top: 2.5rem; background: repeating-radial-gradient(circle, var(--coral) 0 .45rem, transparent .55rem 1rem); }
+  .visual-3 { background: #142c2c; }
+  .visual-3 i { width: 9rem; height: 9rem; right: -1rem; bottom: -2rem; border: 1px solid rgba(108,222,169,.45); box-shadow: 0 0 0 1.5rem rgba(108,222,169,.08), 0 0 0 3rem rgba(108,222,169,.05); }
+  .guide-meta { margin: 1.15rem 0 .2rem; color: var(--accent); font-size: .65rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .guide-card h3 { margin: .4rem 0 .65rem; font-size: 1.25rem; }
+  .guide-card p { margin: 0; font-size: .82rem; }
+  .guide-arrow { position: absolute; right: 1.4rem; bottom: 1.1rem; color: var(--accent); font-weight: 800; }
+
+  .final-cta { background: var(--bg-primary); padding-top: 0; }
+  .cta-card { position: relative; overflow: hidden; border-radius: 2.2rem; background: linear-gradient(135deg, #1858e6, #3979ff); padding: clamp(3rem, 8vw, 6rem) 2rem; text-align: center; box-shadow: 0 30px 80px rgba(38,103,245,.25); }
+  .cta-card h2 { margin: 0 0 1rem; color: white; }
+  .cta-card p { max-width: 32rem; margin: 0 auto 2rem; color: #dbe6ff; }
+  .cta-button { background: white; color: var(--accent); box-shadow: 0 15px 35px rgba(7,31,88,.2); }
+  .cta-button:hover { background: var(--surface-dark); color: white; }
+  .cta-card small { display: block; margin-top: 1rem; color: #bed0ff; font-size: .65rem; }
+  .cta-orb { position: absolute; border: 1px solid rgba(255,255,255,.18); border-radius: 50%; }
+  .orb-a { width: 22rem; height: 22rem; left: -10rem; top: -15rem; }
+  .orb-b { width: 18rem; height: 18rem; right: -6rem; bottom: -12rem; }
+
+  @media (max-width: 980px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-copy { max-width: 46rem; }
+    .product-visual { width: min(100%, 34rem); margin-inline: auto; }
+    .moment-grid, .feature-grid { grid-template-columns: 1fr; }
+    .moment-copy h2, .feature-copy h2 { max-width: 18ch; }
+    .privacy-card { grid-template-columns: auto 1fr; }
+    .privacy-points { grid-column: 1 / -1; }
+    .guides-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  @media (max-width: 760px) {
+    .principle-grid { grid-template-columns: 1fr; }
+    .principle-grid > div { border-right: 0; border-bottom: 1px solid var(--border-color); padding: 1rem 0; }
+    .principle-grid > div:last-child { border-bottom: 0; }
+    .section-heading { grid-template-columns: 1fr; gap: 1.25rem; }
+    .steps-grid, .guides-grid { grid-template-columns: 1fr; }
+    .step-card { min-height: auto; }
+    .privacy-card { grid-template-columns: 1fr; }
+    .privacy-points { grid-column: auto; }
+  }
+
+  @media (max-width: 520px) {
+    .hero { padding-top: 3.8rem; }
+    .hero-actions { align-items: stretch; flex-direction: column; }
+    .hero-actions .text-link { justify-content: center; min-height: 2.6rem; }
+    .hero-lead { max-width: 100%; overflow-wrap: anywhere; }
+    .product-visual { width: 100%; max-width: 100%; min-height: 570px; margin-block: -1.5rem; }
+    .phone-shell { width: min(285px, calc(100vw - 3.5rem)); min-height: 555px; }
+    .float-card { display: none; }
+    .orbit-one { width: 28rem; height: 28rem; }
+    .moment-card { padding: 1.2rem; }
+    .moment-row { grid-template-columns: 3.5rem 1fr; }
+    .moment-line { margin-left: 1.55rem; }
+    .privacy-points div { align-items: flex-start; flex-direction: column; gap: .15rem; }
+    .day-grid { gap: .35rem; padding: .7rem; }
+  }
+</style>
