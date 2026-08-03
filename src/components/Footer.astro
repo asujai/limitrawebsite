@@ -34,8 +34,8 @@ const groups = [
   <div class="container footer-top">
     <div class="footer-brand">
       <a href={isEn ? '/en' : '/'} class="brand">
-        <span class="brand-mark" aria-hidden="true">L</span>
-        <span>Limitra</span>
+        <img src="/logo.jpg" alt="Limitra Logo" class="brand-logo" width="36" height="36" />
+        <span class="brand-text">Limitra</span>
       </a>
       <p>{isEn ? 'Set your boundary when your mind is clear. Let Limitra protect it when distraction arrives.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında onu Limitra korusun.'}</p>
       <a class="play-link" href="https://play.google.com/store/apps/details?id=com.gardiyan.app" target="_blank" rel="noopener noreferrer">
@@ -80,24 +80,35 @@ const groups = [
     align-items: center;
     gap: .72rem;
     margin-bottom: 1.25rem;
-    color: white;
+    padding: .4rem .85rem .4rem .45rem;
+    background: #ffffff;
+    border-radius: .85rem;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    color: #000000;
     font-family: var(--font-heading);
     font-size: 1.35rem;
-    font-weight: 700;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform .2s ease, box-shadow .2s ease;
   }
 
   .brand:hover {
-    color: white;
+    color: #000000;
+    background: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
   }
 
-  .brand-mark {
-    display: grid;
+  .brand-logo {
     width: 2.25rem;
     height: 2.25rem;
-    place-items: center;
-    border: 1px solid rgba(255,255,255,.16);
-    border-radius: .75rem;
-    background: rgba(255,255,255,.08);
+    border-radius: .6rem;
+    object-fit: cover;
+  }
+
+  .brand-text {
+    color: #000000 !important;
+    font-weight: 800;
   }
 
   .footer-brand p {

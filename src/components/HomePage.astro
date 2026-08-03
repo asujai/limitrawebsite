@@ -66,7 +66,7 @@ const guides = isEn ? [
           <div class="phone-top"><span>9:41</span><span class="phone-sensors">● ◔ ▰</span></div>
           <div class="app-head">
             <div>
-              <span class="app-kicker">LIMITRA</span>
+              <span class="app-kicker"><img src="/logo.jpg" alt="" class="kicker-logo" /> LIMITRA</span>
               <strong>{isEn ? 'Good morning' : 'Günaydın'}</strong>
             </div>
             <span class="profile-dot">A</span>
@@ -123,7 +123,7 @@ const guides = isEn ? [
         <div class="moment-row"><strong>22:14</strong><span>{isEn ? '“I’ll look for five minutes.”' : '“Beş dakika bakıp çıkarım.”'}</span></div>
         <div class="moment-line"><i></i></div>
         <div class="moment-row"><strong>22:47</strong><span>{isEn ? 'Still scrolling.' : 'Hâlâ kaydırıyorsun.'}</span></div>
-        <div class="moment-pause"><span>Limitra</span><strong>{isEn ? 'The boundary you set is now active.' : 'Belirlediğin sınır şimdi aktif.'}</strong></div>
+        <div class="moment-pause"><img src="/logo.jpg" alt="Limitra Logo" class="moment-logo" /><span class="moment-brand">Limitra</span><strong>{isEn ? 'The boundary you set is now active.' : 'Belirlediğin sınır şimdi aktif.'}</strong></div>
       </div>
     </div>
   </section>
@@ -365,9 +365,10 @@ const guides = isEn ? [
   .moment-row span { color: white; font-size: .92rem; }
   .moment-line { position: relative; height: 3.5rem; margin-left: 1.85rem; border-left: 1px dashed rgba(255,255,255,.25); }
   .moment-line i { position: absolute; top: 50%; left: -.28rem; width: .5rem; height: .5rem; border-radius: 50%; background: var(--coral); }
-  .moment-pause { display: flex; align-items: center; gap: 1rem; margin-top: 1.8rem; border-radius: 1rem; background: white; padding: 1rem; }
-  .moment-pause span { border-radius: .55rem; background: var(--accent); padding: .45rem .55rem; color: white; font-size: .58rem; font-weight: 800; }
-  .moment-pause strong { color: var(--text-primary); font-size: .75rem; line-height: 1.4; }
+  .moment-pause { display: flex; align-items: center; gap: .75rem; margin-top: 1.8rem; border-radius: 1rem; background: white; padding: .85rem 1rem; box-shadow: 0 10px 25px rgba(0,0,0,.15); }
+  .moment-logo { width: 2rem; height: 2rem; border-radius: .5rem; object-fit: cover; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+  .moment-brand { border-radius: .45rem; background: #f0f2f5; padding: .35rem .55rem; color: #000000 !important; font-size: .68rem; font-weight: 800; border: 1px solid rgba(0,0,0,.08); }
+  .moment-pause strong { color: #000000; font-size: .78rem; line-height: 1.4; }
 
   .steps-section { background: var(--bg-primary); }
   .section-heading { display: grid; grid-template-columns: 1fr minmax(18rem, .55fr); align-items: end; gap: 3rem; margin-bottom: 3.5rem; }
