@@ -106,23 +106,24 @@ Aboneliğin iptal edilmesi ile Limitra Social hesabının silinmesi birbirinden 
 
 Kullanıcıların emredici mevzuattan doğan hakları saklıdır.
 
-\#\# 9\. Hesabın Silinmesi
+## 9. Hesap ve Verilerin Silinmesi
 
-Kullanıcı hesabını uygulama içerisindeki:
+Kullanıcı, hesabını ve hesabıyla ilişkili tüm verileri dilediği zaman kalıcı olarak silebilir:
 
-Ayarlar → Hesap → Hesabımı Sil
+### Uygulama İçerisinden Hesap ve Veri Silme:
+**Profil Sekmesi → Ayarlar (Dişli Simgesi) → "Hesabımı Kalıcı Olarak Sil"**
+adımları takip edilip işlem onaylandığında oturum kapatılır; Supabase bulut sunucularındaki kullanıcı hesabı, profil, arkadaşlık bağlantıları ve paylaşılan limit verileri anında kalıcı olarak silinir ve yerel cihaz logları temizlenir.
 
-bölümünden silebilir.
+### Web Üzerinden Hesap ve Veri Silme Talebi:
+Uygulamaya erişilemediği durumlarda `destek@limitra.online` e-posta adresi veya `https://limitra.online/limitra-social/delete-account` adresi üzerinden silme talebinde bulunulabilir. Kimlik doğrulamasının ardından hesap ve veritabanı kayıtları en geç 48 saat içerisinde silinir.
 
-Ayrıca uygulamaya erişmeden:
+### Silinen Veriler ve Yasal İstisnalar:
+Hesap silindiğinde kimlik bilgileri, profil, sosyal bağlantılar, paylaşılan limitler ve yerel kullanım kayıtları kalıcı olarak imha edilir. Yalnızca yasal mevzuat uyarınca saklanması zorunlu mali/fatura kayıtları (varsa) saklama süresince saklanabilir.
 
-https://limitra.online/limitra-social/delete-account
+### Abonelikler:
+Hesabın silinmesi Google Play üzerinden yürütülen aktif abonelikleri otomatik olarak sonlandırmaz; abonelik iptalinin Google Play Store üzerinden yapılması kullanıcının sorumluluğundadır.
 
-adresinden hesap silme talebinde bulunabilir.
-
-Hesap silindiğinde, yasal olarak tutulması gereken bilgiler dışında hesapla ilişkili veriler Gizlilik Politikası doğrultusunda silinir veya anonim hale getirilir.
-
-\#\# 10\. Gizlilik
+## 10. Gizlilik
 
 Kişisel verilerin işlenmesine ilişkin bilgiler Limitra Social Gizlilik Politikası ve KVKK Aydınlatma Metninde açıklanmaktadır.
 

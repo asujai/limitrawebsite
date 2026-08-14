@@ -3,97 +3,158 @@ import Layout from '../../layouts/Layout.astro';
 ---
 
 <Layout 
-  title="Hesap Silme Talebi ve Bilgilendirme | Limitra Social" 
-  description="Limitra Social hesabınızı ve ilişkili kişisel verilerinizi uygulama içinden veya web üzerinden nasıl silebileceğinizi öğrenin."
+  title="Hesap ve Veri Silme Talebi | Limitra Social" 
+  description="Limitra Social hesabınızı ve hesabınızla ilişkili tüm kişisel verileri uygulama içinden veya web üzerinden kalıcı olarak nasıl silebileceğinizi öğrenin."
 >
   <article class="article-page">
     <div class="container content-width">
       <header class="article-header">
         <a href="/" class="back-link">&larr; Ana Sayfa</a>
         <div class="badge-app">Limitra Social</div>
-        <h1>Hesap Silme</h1>
-        <p class="subtitle">Hesabınızı ve kişisel verilerinizi kalıcı olarak silme rehberi</p>
+        <h1>Hesap ve Veri Silme Talebi</h1>
+        <p class="subtitle">
+          Limitra Social olarak kullanıcılarımızın gizliliğine ve kişisel verilerinin kontrolüne önem veriyoruz. Hesabınızı ve hesabınızla ilişkili tüm verileri dilediğiniz zaman kalıcı olarak silebilirsiniz.
+        </p>
       </header>
 
       <div class="article-body">
-        <p>
-          Limitra Social hesabınızı ve hesabınızla ilişkili kişisel verilerinizi dilediğiniz zaman silebilirsiniz. Aşağıdaki yöntemlerden birini kullanarak hesap silme işlemini başlatabilirsiniz:
-        </p>
+        <!-- 1. Uygulama İçerisinden Hesap Silme -->
+        <section class="section-block">
+          <h2>1. Uygulama İçerisinden Hesap Silme (Anında ve Otomatik)</h2>
+          <p>
+            Uygulamanız telefonunuzda yüklüyse en hızlı yöntem uygulama içinden silmektir:
+          </p>
 
-        <section class="method-card">
-          <div class="method-number">1</div>
-          <div class="method-content">
-            <h2>Uygulama Üzerinden Hesap Silme (Önerilen)</h2>
-            <p>
-              Limitra Social uygulamasını açtıktan sonra aşağıdaki adımları takip edin:
-            </p>
-            <div class="step-box">
-              <span class="step-path">Ayarlar → Hesap → Hesabımı Sil</span>
+          <div class="steps-container">
+            <div class="step-item">
+              <div class="step-badge">1</div>
+              <div class="step-text"><strong>Limitra Social</strong> uygulamasını açın.</div>
             </div>
-            <p class="step-desc">
-              Güvenliğiniz için kimliğinizin doğrulanmasının ardından hesap silme işlemi derhal başlatılır.
+            <div class="step-item">
+              <div class="step-badge">2</div>
+              <div class="step-text">Sağ alt köşedeki <strong>Profil</strong> sekmesine dokunun.</div>
+            </div>
+            <div class="step-item">
+              <div class="step-badge">3</div>
+              <div class="step-text">Sağ üstteki <strong>Ayarlar (Dişli simgesi)</strong> bölümüne girin.</div>
+            </div>
+            <div class="step-item">
+              <div class="step-badge">4</div>
+              <div class="step-text">Sayfanın en altındaki <strong>"Hesabımı Kalıcı Olarak Sil"</strong> butonuna dokunun.</div>
+            </div>
+            <div class="step-item">
+              <div class="step-badge">5</div>
+              <div class="step-text">Onay penceresinde silme işlemini onaylayın.</div>
+            </div>
+          </div>
+
+          <div class="callout-box">
+            <div class="callout-icon">ℹ️</div>
+            <p>
+              Bu işlem sonucunda oturumunuz kapatılır, <strong>Supabase bulut sunucularındaki</strong> kullanıcı hesabınız, profiliniz, arkadaşlık bağlantılarınız ve paylaşılan tüm limit verileriniz anında kalıcı olarak silinir. Cihazınızdaki yerel ekran süresi logları da temizlenir.
             </p>
           </div>
         </section>
 
-        <section class="method-card">
-          <div class="method-number">2</div>
-          <div class="method-content">
-            <h2>Web / E-posta Üzerinden Hesap Silme Talebi</h2>
-            <p>
-              Uygulamaya erişemiyorsanız veya cihazınızdan kaldırdıysanız, hesabınızın silinmesini e-posta yoluyla talep edebilirsiniz:
-            </p>
-            <div class="email-box">
-              <p><strong>Gönderilecek E-posta:</strong> <a href="mailto:destek@limitra.online?subject=Limitra%20Social%20Hesap%20Silme%20Talebi">destek@limitra.online</a></p>
-              <p><strong>Konu:</strong> Limitra Social Hesap Silme Talebi</p>
-              <p><strong>Önemli:</strong> Talebinizi <em>Limitra Social hesabınızda kayıtlı olan e-posta adresinizden</em> göndermelisiniz.</p>
+        <!-- 2. Web Üzerinden Hesap ve Veri Silme Talebi -->
+        <section class="section-block">
+          <h2>2. Web Üzerinden Hesap ve Veri Silme Talebi</h2>
+          <p>
+            Uygulamayı sildiyseniz veya telefonunuzdan erişemiyorsanız web üzerinden doğrudan silme talebinde bulunabilirsiniz:
+          </p>
+
+          <div class="email-request-card">
+            <div class="info-row">
+              <span class="info-label">Destek E-Postası:</span>
+              <span class="info-val"><a href="mailto:destek@limitra.online?subject=Limitra%20Social%20Hesap%20Silme%20Talebi">destek@limitra.online</a></span>
             </div>
-            <p class="step-desc">
-              Güvenlik ve hesap doğrulaması amacıyla ek bilgi talep edilebilir ve işlem yasal süreler içerisinde tamamlanır.
+            <div class="info-row">
+              <span class="info-label">E-posta Konusu:</span>
+              <span class="info-val"><code>Limitra Social Hesap Silme Talebi</code></span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Gerekli Bilgiler:</span>
+              <span class="info-val">Limitra Social'a kayıt olurken kullandığınız <strong>E-posta adresiniz</strong> ve varsa <strong>Kullanıcı #ID numaranız</strong>.</span>
+            </div>
+          </div>
+
+          <div class="timeline-notice">
+            <p>
+              ⏱️ Talebiniz bize ulaştıktan sonra güvenlik ve kimlik doğrulamasının ardından hesabınız ve veritabanındaki tüm kayıtlarınız <strong>en geç 48 saat içerisinde kalıcı olarak silinir</strong> ve tarafınıza bilgi verilir.
             </p>
           </div>
         </section>
 
-        <h2>Hangi Veriler Silinir?</h2>
-        <p>
-          Hesabınız silindiğinde, yasal olarak saklanması zorunlu bilgiler dışında hesabınızla ilişkili tüm kişisel veriler kalıcı olarak silinir veya anonim hale getirilir. Silinecek veriler şunları kapsar:
-        </p>
-        <ul class="data-list">
-          <li><strong>Hesap ve Kimlik Bilgileri:</strong> E-posta adresi, kullanıcı kimliği ve oturum kayıtları</li>
-          <li><strong>Profil Bilgileri:</strong> Profil adı, tercihler ve kullanıcı ayarları</li>
-          <li><strong>Sosyal Bağlantılar:</strong> Arkadaşlık listeleri ve sosyal etkileşim verileri</li>
-          <li><strong>Uygulama İçi Veriler:</strong> Oluşturulan hedefler, sınır ayarları ve kullanıcı içerikleri</li>
-          <li><strong>İlişkili Veriler:</strong> Hesapla eşleştirilmiş diğer uygulama kullanım kayıtları</li>
-        </ul>
-
-        <h2>Veri Saklama İstisnaları</h2>
-        <p>
-          Yasal yükümlülükler, sistem güvenliği, dolandırıcılık ve kötüye kullanımın önlenmesi veya olası hukuki uyuşmazlıklar nedeniyle kanunen saklanması zorunlu olan sınırlı kayıtlar, mevzuatta öngörülen yasal süreler boyunca güvenli biçimde tutulabilir. Saklama süresi dolduğunda bu veriler de derhal imha edilir.
-        </p>
-
-        <div class="warning-box">
-          <div class="warning-header">
-            <span class="warning-icon">⚠️</span>
-            <h3>Önemli: Google Play Abonelikleri</h3>
-          </div>
+        <!-- 3. Hangi Veriler Silinir? -->
+        <section class="section-block">
+          <h2>3. Hangi Veriler Silinir?</h2>
           <p>
-            Limitra Social hesabının silinmesi, Google Play üzerinden başlatılmış ücretli bir aboneliği <strong>otomatik olarak iptal etmeyebilir</strong>.
+            Hesabınız silindiğinde aşağıdaki tüm kişisel veriler geri döndürülemez şekilde tamamen silinir:
           </p>
-          <p>
-            Devam eden bir aboneliğiniz varsa, istenmeyen ücretlendirmelerin önüne geçmek için lütfen aboneliğinizi Google Play üzerinden ayrıca iptal edin:
-          </p>
-          <div class="sub-step">
-            <strong>Google Play Store → Profil İkonu → Ödemeler ve Abonelikler → Abonelikler → Limitra Social → Aboneliği İptal Et</strong>
-          </div>
-        </div>
 
-        <h2>İletişim ve Destek</h2>
-        <p>
-          Hesap silme, veri gizliliği veya diğer konularla ilgili her türlü sorunuz için bizimle iletişime geçebilirsiniz:
-        </p>
-        <div class="info-card">
-          <p><strong>Abdullah Göksu</strong></p>
-          <p>E-posta: <a href="mailto:destek@limitra.online">destek@limitra.online</a></p>
+          <ul class="data-delete-list">
+            <li>
+              <strong>Kimlik ve Hesap Bilgileri:</strong>
+              <span>E-posta adresi, kullanıcı şifresi (hash), benzersiz kullanıcı ID'si (<code>publicId</code>).</span>
+            </li>
+            <li>
+              <strong>Profil Bilgileri:</strong>
+              <span>Görünen ad ve avatar görseli.</span>
+            </li>
+            <li>
+              <strong>Sosyal Veriler:</strong>
+              <span>Arkadaşlık bağlantıları, arkadaşlık istekleri ve engellenen kullanıcı listeleri.</span>
+            </li>
+            <li>
+              <strong>Paylaşılan Limitler:</strong>
+              <span>Arkadaşlarınızla ortak oluşturduğunuz tüm odaklanma ve süre sınırları.</span>
+            </li>
+            <li>
+              <strong>Yerel Veriler:</strong>
+              <span>Uygulamanın cihazınızda tuttuğu yerel ekran kullanım istatistikleri ve kilit kuralları.</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- 4. Saklanan Veriler ve Yasal Yükümlülükler -->
+        <section class="section-block">
+          <h2>4. Saklanan Veriler ve Yasal Yükümlülükler</h2>
+          <p>
+            Hesap silme işlemiyle tüm kişisel verileriniz silinir. Yalnızca yasal muhasebe yükümlülükleri ve vergi mevzuatı gereği (varsa) Google Play üzerinden yapılmış anonim faturalandırma ve ödeme işlem kayıtları yasal saklama süresi boyunca saklanabilir.
+          </p>
+        </section>
+
+        <!-- 5. Abonelikler Hakkında Önemli Not -->
+        <section class="section-block">
+          <h2>5. Abonelikler Hakkında Önemli Not</h2>
+          <div class="warning-box">
+            <div class="warning-header">
+              <span class="warning-icon">⚠️</span>
+              <h3>Google Play Abonelik İptali</h3>
+            </div>
+            <p>
+              Limitra Social hesabınızı silmeniz Google Play Store üzerindeki aktif aboneliklerinizi <strong>otomatik olarak durdurmaz</strong>. Aktif bir aboneliğiniz varsa lütfen hesabınızı silmeden önce şu adımları izleyin:
+            </p>
+            <div class="sub-step">
+              <strong>Google Play Store uygulamasını açın → Profil simgesi → Ödemeler ve Abonelikler → Abonelikler → Limitra Social → Aboneliği İptal Et</strong>
+            </div>
+          </div>
+        </section>
+
+        <!-- İletişim ve Yasal -->
+        <div class="meta-footer-card">
+          <div class="meta-item">
+            <strong>Geliştirici / Veri Sorumlusu:</strong> Abdullah Göksu
+          </div>
+          <div class="meta-item">
+            <strong>Destek & İletişim:</strong> <a href="mailto:destek@limitra.online">destek@limitra.online</a>
+          </div>
+          <div class="meta-item">
+            <strong>Gizlilik Politikası:</strong> <a href="/limitra-social/privacy">https://limitra.online/limitra-social/privacy/</a>
+          </div>
+          <div class="meta-item">
+            <strong>Kullanım Koşulları:</strong> <a href="/limitra-social/terms">https://limitra.online/limitra-social/terms/</a>
+          </div>
         </div>
 
         <div class="related-links">
@@ -137,15 +198,20 @@ import Layout from '../../layouts/Layout.astro';
   }
 
   .subtitle {
-    font-size: 0.9375rem;
-    color: var(--text-muted);
-    margin-top: var(--space-2);
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    margin-top: var(--space-3);
+    line-height: 1.65;
   }
 
   .article-body {
     margin-top: var(--space-8);
     line-height: 1.75;
     color: var(--text-secondary);
+  }
+
+  .section-block {
+    margin-bottom: var(--space-10);
   }
 
   .article-body h2 {
@@ -161,96 +227,157 @@ import Layout from '../../layouts/Layout.astro';
     margin-bottom: var(--space-4);
   }
 
-  .method-card {
+  .steps-container {
     display: flex;
-    gap: var(--space-4);
-    background: var(--surface);
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
-    padding: var(--space-6);
-    margin: var(--space-6) 0;
-    box-shadow: var(--shadow-sm);
+    flex-direction: column;
+    gap: var(--space-3);
+    margin: var(--space-4) 0;
   }
 
-  .method-number {
+  .step-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .step-badge {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.75rem;
+    height: 1.75rem;
     flex-shrink: 0;
     background: var(--accent);
     color: white;
-    font-weight: 800;
-    font-size: 1.1rem;
-    border-radius: 50%;
-  }
-
-  .method-content {
-    flex: 1;
-  }
-
-  .method-content h2 {
-    font-size: 1.15rem;
-    margin-top: 0;
-    margin-bottom: var(--space-2);
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-
-  .step-box {
-    background: var(--bg-secondary);
-    border-left: 4px solid var(--accent);
-    padding: var(--space-3) var(--space-4);
-    margin: var(--space-3) 0;
-    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  }
-
-  .step-path {
-    font-family: monospace;
     font-weight: 700;
-    color: var(--text-primary);
-    font-size: 1rem;
+    font-size: 0.85rem;
+    border-radius: 50%;
+    margin-top: 0.15rem;
   }
 
-  .step-desc {
-    font-size: 0.88rem;
-    color: var(--text-muted);
+  .step-text {
+    flex: 1;
+    font-size: 0.96rem;
+    color: var(--text-primary);
+  }
+
+  .callout-box {
+    display: flex;
+    gap: var(--space-3);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-border);
+    border-radius: var(--radius-sm);
+    padding: var(--space-4);
+    margin-top: var(--space-4);
+  }
+
+  .callout-icon {
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+
+  .callout-box p {
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--text-primary);
+  }
+
+  .email-request-card {
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: var(--space-5);
+    margin: var(--space-4) 0;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .info-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--space-3);
+    gap: 0.25rem;
+  }
+
+  .info-row:last-child {
     margin-bottom: 0;
   }
 
-  .email-box {
+  .info-label {
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+  }
+
+  .info-val {
+    font-size: 0.98rem;
+    color: var(--text-primary);
+  }
+
+  .info-val code {
     background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.35rem;
+    font-size: 0.9rem;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .timeline-notice {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
     border-radius: var(--radius-sm);
-    padding: var(--space-4);
-    margin: var(--space-3) 0;
+    padding: var(--space-3) var(--space-4);
+    margin-top: var(--space-3);
+  }
+
+  .timeline-notice p {
+    margin: 0;
+    color: #166534;
     font-size: 0.92rem;
   }
 
-  .email-box p {
-    margin-bottom: var(--space-2);
+  .data-delete-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-4) 0 var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
   }
 
-  .email-box p:last-child {
-    margin-bottom: 0;
+  .data-delete-list li {
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: var(--space-3) var(--space-4);
+    font-size: 0.95rem;
   }
 
-  .data-list {
-    margin-bottom: var(--space-6);
-    padding-left: var(--space-6);
+  .data-delete-list li strong {
+    color: var(--text-primary);
+    display: block;
+    margin-bottom: 0.15rem;
   }
 
-  .data-list li {
-    margin-bottom: var(--space-3);
+  .data-delete-list li code {
+    background: var(--bg-secondary);
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.3rem;
+    font-size: 0.85rem;
   }
 
   .warning-box {
     background: #fff9eb;
     border: 1px solid #fde293;
     border-radius: var(--radius-md);
-    padding: var(--space-6);
-    margin: var(--space-8) 0;
+    padding: var(--space-5);
+    margin: var(--space-4) 0;
   }
 
   .warning-header {
@@ -262,7 +389,7 @@ import Layout from '../../layouts/Layout.astro';
 
   .warning-header h3 {
     color: #8f4700;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 700;
     margin: 0;
   }
@@ -270,6 +397,7 @@ import Layout from '../../layouts/Layout.astro';
   .warning-box p {
     color: #633300;
     margin-bottom: var(--space-3);
+    font-size: 0.94rem;
   }
 
   .sub-step {
@@ -277,20 +405,29 @@ import Layout from '../../layouts/Layout.astro';
     border: 1px solid #f4c264;
     padding: var(--space-3) var(--space-4);
     border-radius: var(--radius-sm);
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: #572d00;
+    word-break: break-word;
   }
 
-  .info-card {
+  .meta-footer-card {
     background: var(--surface);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-sm);
     padding: var(--space-4) var(--space-6);
-    margin: var(--space-4) 0 var(--space-6);
+    margin: var(--space-8) 0 var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    font-size: 0.92rem;
   }
 
-  .info-card p {
-    margin-bottom: var(--space-1);
+  .meta-item {
+    color: var(--text-secondary);
+  }
+
+  .meta-item strong {
+    color: var(--text-primary);
   }
 
   .related-links {
@@ -319,11 +456,5 @@ import Layout from '../../layouts/Layout.astro';
   .related-link:hover {
     border-color: var(--accent);
     background: var(--accent-soft);
-  }
-
-  @media (max-width: 600px) {
-    .method-card {
-      flex-direction: column;
-    }
   }
 </style>

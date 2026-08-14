@@ -179,21 +179,42 @@ import Layout from '../../layouts/Layout.astro';
 
         <h2>12. Hesap ve Verilerin Silinmesi</h2>
         <p>
-          Kullanıcılar Limitra Social hesaplarının ve hesapla ilişkili kişisel verilerin silinmesini talep edebilir.
+          Limitra Social olarak kullanıcılarımızın gizliliğine ve kişisel verilerinin kontrolüne önem veriyoruz. Kullanıcılar hesaplarını ve hesaplarıyla ilişkili tüm verileri diledikleri zaman kalıcı olarak silebilir:
         </p>
+
         <div class="action-card">
-          <h3>Uygulama İçinden Silme:</h3>
-          <p class="path-badge">Ayarlar → Hesap → Hesabımı Sil</p>
-          <p>bölümünden işlemi gerçekleştirebilirsiniz.</p>
+          <h3>1. Uygulama İçerisinden Hesap ve Veri Silme (Anında ve Otomatik):</h3>
+          <p class="path-badge">Profil Sekmesi → Ayarlar (Dişli Simgesi) → "Hesabımı Kalıcı Olarak Sil"</p>
+          <p>
+            Bu işlem sonucunda oturumunuz kapatılır; <strong>Supabase bulut sunucularındaki</strong> kullanıcı hesabınız, profiliniz, arkadaşlık bağlantılarınız ve paylaşılan tüm limit verileriniz anında kalıcı olarak silinir. Cihazınızdaki yerel ekran süresi logları da temizlenir.
+          </p>
         </div>
+
+        <div class="action-card">
+          <h3>2. Web Üzerinden Hesap ve Veri Silme Talebi:</h3>
+          <p>
+            Uygulamaya erişemiyorsanız <a href="mailto:destek@limitra.online?subject=Limitra%20Social%20Hesap%20Silme%20Talebi">destek@limitra.online</a> adresine kayıtlı e-posta adresiniz ve varsa Kullanıcı #ID numaranızla başvurabilir veya doğrudan <a href="/limitra-social/delete-account">https://limitra.online/limitra-social/delete-account</a> adresindeki silme formunu kullanabilirsiniz.
+          </p>
+          <p>
+            Talebiniz doğrulandıktan sonra hesabınız ve veritabanındaki tüm kayıtlarınız <strong>en geç 48 saat içerisinde</strong> kalıcı olarak silinir.
+          </p>
+        </div>
+
+        <h3>Silinen Veri Kategorileri:</h3>
+        <ul>
+          <li><strong>Kimlik ve Hesap Bilgileri:</strong> E-posta adresi, kullanıcı şifresi (hash), benzersiz kullanıcı ID'si (<code>publicId</code>)</li>
+          <li><strong>Profil Bilgileri:</strong> Görünen ad ve avatar görseli</li>
+          <li><strong>Sosyal Veriler:</strong> Arkadaşlık bağlantıları, arkadaşlık istekleri ve engellenen kullanıcı listeleri</li>
+          <li><strong>Paylaşılan Limitler:</strong> Arkadaşlarınızla ortak oluşturduğunuz tüm odaklanma ve süre sınırları</li>
+          <li><strong>Yerel Veriler:</strong> Uygulamanın cihazınızda tuttuğu yerel ekran kullanım istatistikleri ve kilit kuralları</li>
+        </ul>
+
         <p>
-          Ayrıca web üzerinden: <a href="/limitra-social/delete-account">https://limitra.online/limitra-social/delete-account</a> adresinden uygulamaya erişmeden de hesap silme talebi oluşturulabilir.
+          <strong>Saklanan Veriler ve Yasal Yükümlülükler:</strong> Hesap silme işlemiyle tüm kişisel verileriniz silinir. Yalnızca yasal muhasebe yükümlülükleri ve vergi mevzuatı gereği (varsa) Google Play üzerinden yapılmış anonim faturalandırma ve ödeme işlem kayıtları yasal saklama süresi boyunca saklanabilir.
         </p>
+
         <p>
-          Hesap silindiğinde, yasal olarak saklanması zorunlu bilgiler dışında kullanıcı hesabıyla ilişkili kişisel veriler silinir veya anonim hale getirilir.
-        </p>
-        <p>
-          Aboneliğin iptal edilmesi ile hesabın silinmesi farklı işlemlerdir. Hesabın silinmesi, Google Play üzerinden devam eden bir aboneliği otomatik olarak iptal etmeyebilir.
+          <strong>Abonelikler:</strong> Hesabın silinmesi Google Play üzerindeki aktif abonelikleri otomatik olarak durdurmaz. Aktif aboneliğin Google Play Store üzerinden ayrıca iptal edilmesi gerekmektedir.
         </p>
 
         <h2>13. Veri Güvenliği</h2>

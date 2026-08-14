@@ -129,37 +129,40 @@ Saklama gerekliliği sona erdiğinde veriler silinir, yok edilir veya anonim hal
 
 Güvenlik, dolandırıcılık önleme, hukuki uyuşmazlık veya yasal yükümlülük nedeniyle belirli kayıtların daha uzun süre saklanmasının gerekli olduğu durumlar hariçtir.
 
-\#\# 12\. Hesap ve Verilerin Silinmesi
+## 12. Hesap ve Verilerin Silinmesi
 
-Kullanıcılar Limitra Social hesaplarının ve hesapla ilişkili kişisel verilerin silinmesini talep edebilir.
+Limitra Social olarak kullanıcılarımızın gizliliğine ve kişisel verilerinin kontrolüne önem veriyoruz. Kullanıcılar hesaplarını ve hesaplarıyla ilişkili tüm verileri diledikleri zaman kalıcı olarak silebilir:
 
-Hesap silme işlemi:
+### 1. Uygulama İçerisinden Hesap ve Veri Silme (Anında ve Otomatik)
+Uygulama içerisinden:
+**Profil Sekmesi → Ayarlar (Dişli Simgesi) → "Hesabımı Kalıcı Olarak Sil"**
+adımları takip edilerek işlem onaylandığında oturum kapatılır; Supabase bulut sunucularındaki kullanıcı hesabı, profil, arkadaşlık bağlantıları ve paylaşılan tüm limit verileri anında kalıcı olarak silinir. Cihazdaki yerel ekran süresi logları da temizlenir.
 
-Uygulama içerisindeki:
+### 2. Web Üzerinden Hesap ve Veri Silme Talebi
+Uygulamaya erişilemediği durumlarda `destek@limitra.online` adresine (kayıtlı e-posta ve varsa Kullanıcı #ID belirtilerek) veya doğrudan `https://limitra.online/limitra-social/delete-account` adresi üzerinden silme talebi iletilebilir. Güvenlik doğrulamasının ardından hesap ve veritabanı kayıtları en geç 48 saat içerisinde kalıcı olarak silinir.
 
-Ayarlar → Hesap → Hesabımı Sil
+### Silinen Veri Kategorileri
+- **Kimlik ve Hesap Bilgileri:** E-posta adresi, kullanıcı şifresi (hash), benzersiz kullanıcı ID'si (`publicId`).
+- **Profil Bilgileri:** Görünen ad ve avatar görseli.
+- **Sosyal Veriler:** Arkadaşlık bağlantıları, arkadaşlık istekleri ve engellenen kullanıcı listeleri.
+- **Paylaşılan Limitler:** Arkadaşlarla ortak oluşturulan tüm odaklanma ve süre sınırları.
+- **Yerel Veriler:** Uygulamanın cihazda tuttuğu yerel ekran kullanım istatistikleri ve kilit kuralları.
 
-bölümünden gerçekleştirilebilir.
+### Saklanan Veriler ve Yasal Yükümlülükler
+Hesap silme işlemiyle tüm kişisel veriler silinir. Yalnızca yasal muhasebe yükümlülükleri ve vergi mevzuatı gereği (varsa) Google Play üzerinden yapılmış anonim faturalandırma ve ödeme işlem kayıtları yasal saklama süresi boyunca saklanabilir.
 
-Ayrıca:
+### Abonelikler
+Limitra Social hesabının silinmesi Google Play Store üzerindeki aktif abonelikleri otomatik olarak durdurmaz. Aktif aboneliğin Google Play Store üzerinden ayrıca iptal edilmesi gerekmektedir.
 
-https://limitra.online/limitra-social/delete-account
-
-adresinden uygulamaya erişmeden hesap silme talebi oluşturulabilir.
-
-Hesap silindiğinde, yasal olarak saklanması zorunlu bilgiler dışında kullanıcı hesabıyla ilişkili kişisel veriler silinir veya anonim hale getirilir.
-
-Aboneliğin iptal edilmesi ile hesabın silinmesi farklı işlemlerdir. Hesabın silinmesi, Google Play üzerinden devam eden bir aboneliği otomatik olarak iptal etmeyebilir.
-
-\#\# 13\. Veri Güvenliği
+## 13. Veri Güvenliği
 
 Kişisel verilerin;
 
-\- Yetkisiz erişimden,  
-\- Kaybolmadan,  
-\- Değiştirilmeden,  
-\- Açıklanmadan,  
-\- Hukuka aykırı şekilde kullanılmasından
+- Yetkisiz erişimden,
+- Kaybolmadan,
+- Değiştirilmeden,
+- Açıklanmadan,
+- Hukuka aykırı şekilde kullanılmasından
 
 korunması amacıyla uygun teknik ve idari güvenlik önlemleri alınır.
 
