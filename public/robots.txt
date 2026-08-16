@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitenizin gerçek alan adını (domain) yayına alırken aşağıdaki URL ile güncelleyin.
-Sitemap: https://limitra.app/sitemap.xml
+Sitemap: https://limitra.online/sitemap.xml

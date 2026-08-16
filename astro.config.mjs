@@ -2,6 +2,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://limitra.app', // SITE_URL burasıdır, kolayca değiştirilebilir.
+  site: 'https://limitra.online', // SITE_URL
   output: 'static',
 });
