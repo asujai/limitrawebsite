@@ -29,5 +29,13 @@
 ## Doğrulama
 - `npm run build` başarıyla çalıştırıldı (53 sayfa 0 hata ile statik olarak derlendi).
 
+## Günlük Haber Ekleme İş Akışı
+Kullanıcı yeni bir haber veya konu paylaştığında:
+1. Haber içeriği araştırılıp resmi kaynaklarla zenginleştirilir.
+2. `src/data/haberler.json` (TR) ve `src/data/news-en.json` (EN) dosyalarına eklenir.
+3. `public/sitemap.xml` güncellenir.
+4. `npm run build` ile 0 hata doğrulanır.
+5. `git push origin main` yapılarak Netlify üzerinden anında canlıya alınır.
+
 ## Bilinen Sorunlar
 - Yok.
