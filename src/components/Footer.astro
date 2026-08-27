@@ -13,15 +13,16 @@ const groups = [
     ]
   },
   {
-    title: isEn ? 'Explore' : 'Keşfet',
+    title: isEn ? 'Press & Guides' : 'Basın & Rehberler',
     links: [
+      { href: isEn ? '/en/news' : '/haberler', label: isEn ? 'Global Press News' : 'Dünya Basınından Haberler' },
       { href: `${prefix}/bilgi-merkezi`, label: isEn ? 'Knowledge center' : 'Bilgi merkezi' },
       { href: `${prefix}/bilgi-merkezi/ekran-suresi`, label: isEn ? 'Screen time guide' : 'Ekran süresi rehberi' },
       { href: `${prefix}/bilgi-merkezi/daha-net-uygulama-sinirlari`, label: isEn ? 'Clearer boundaries' : 'Daha net sınırlar' }
     ]
   },
   {
-    title: isEn ? 'Limitra App' : 'Limitra Yasal',
+    title: isEn ? 'Limitra App Block' : 'Limitra Yasal',
     links: [
       { href: `${prefix}/gizlilik-politikasi`, label: isEn ? 'Privacy policy' : 'Gizlilik politikası' },
       { href: `${prefix}/kullanim-sartlari`, label: isEn ? 'Terms of use' : 'Kullanım şartları' }
@@ -42,10 +43,10 @@ const groups = [
   <div class="container footer-top">
     <div class="footer-brand">
       <a href={isEn ? '/en' : '/'} class="brand">
-        <img src="/logo.jpg" alt="Limitra Logo" class="brand-logo" width="36" height="36" />
-        <span class="brand-text">Limitra</span>
+        <img src="/logo.jpg" alt="Limitra App Block Logo" class="brand-logo" width="36" height="36" />
+        <span class="brand-text">Limitra <span class="brand-badge">App Block</span></span>
       </a>
-      <p>{isEn ? 'Set your boundary when your mind is clear. Let Limitra protect it when distraction arrives.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında onu Limitra korusun.'}</p>
+      <p>{isEn ? 'Set your boundary when your mind is clear. Let Limitra App Block protect it when distraction arrives.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında onu Limitra App Block korusun.'}</p>
       <a class="play-link" href="https://play.google.com/store/apps/details?id=com.gardiyan.app" target="_blank" rel="noopener noreferrer">
         {isEn ? 'Available on Google Play' : 'Google Play’de incele'} <span aria-hidden="true">↗</span>
       </a>
@@ -64,8 +65,8 @@ const groups = [
   </div>
 
   <div class="container footer-bottom">
-    <p>© {currentYear} Limitra. {isEn ? 'All rights reserved.' : 'Tüm hakları saklıdır.'}</p>
-    <p>{isEn ? 'A supportive digital-discipline tool.' : 'Dijital disiplini destekleyen bir araçtır.'}</p>
+    <p>© {currentYear} Limitra App Block. {isEn ? 'All rights reserved.' : 'Tüm hakları saklıdır.'}</p>
+    <p>{isEn ? 'A supportive digital-discipline & app blocking tool.' : 'Dijital disiplini destekleyen bir uygulama engelleyicidir.'}</p>
   </div>
 </footer>
 
@@ -117,6 +118,23 @@ const groups = [
   .brand-text {
     color: #000000 !important;
     font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .brand-badge {
+    display: inline-block;
+    font-size: 0.62rem;
+    font-weight: 800;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-border);
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--radius-full);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    vertical-align: middle;
   }
 
   .footer-brand p {

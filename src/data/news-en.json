@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1",
+    "slug": "australia-under-16-social-media-ban-legislation",
+    "title": "Australia Passes Landmark Law: Complete Social Media Ban for Under-16s",
+    "summary": "The Australian Federal Parliament has approved historic legislation prohibiting children under 16 from accessing platforms like TikTok, Instagram, X, and Snapchat, imposing hefty fines of up to $50 million on tech giants that fail to enforce age verification.",
+    "content": [
+      "Australia has made a precedent-setting decision to protect children and adolescents from the mental health harms of excessive screen time and algorithmic addiction. The federal bill prohibits individuals under the age of 16 from holding social media accounts.",
+      "The law directly covers major platforms including TikTok, Instagram, Facebook, Snapchat, X, and Reddit. Tech platforms are required to take 'reasonable steps' to verify user age, facing fines of up to 50 million Australian dollars for systemic non-compliance.",
+      "Australia's Prime Minister stated: 'Social media is doing harm to our kids and we are calling time on it. We are ending the unfair battle where parents are left on their own against powerful algorithms designed to trap attention. The state is stepping up.'",
+      "Experts predict a global domino effect, with countries such as the United Kingdom, Norway, and France actively exploring similar statutory age limits for algorithmic feeds."
+    ],
+    "source": "Reuters & ABC News Australia",
+    "sourceUrl": "https://www.reuters.com",
+    "category": "Government Policies & Laws",
+    "date": "2026-08-25",
+    "readTime": "4 min",
+    "featured": true,
+    "tags": ["Australia", "Regulation", "Social Media Ban", "Under-16", "TikTok", "Instagram"]
+  },
+  {
+    "id": "2",
+    "slug": "us-surgeon-general-warning-label-social-media",
+    "title": "US Surgeon General Calls for Tobacco-Style Health Warning Labels on Social Media",
+    "summary": "Dr. Vivek Murthy, the US Surgeon General, has urged Congress to mandate health warning labels on social media platforms, equating their addictive mechanics and mental health harms in youth to those of tobacco products.",
+    "content": [
+      "In a landmark op-ed published in The New York Times, US Surgeon General Dr. Vivek Murthy highlighted the urgent public health crisis posed by social media among adolescents, citing direct links to anxiety, depression, and body image disorders.",
+      "Murthy wrote: 'The mental health crisis among young people is an emergency — and social media has emerged as an important contributor. A surgeon general’s warning label on social media platforms would regularly remind parents and adolescents that social media has not been proved safe.'",
+      "Data indicates that adolescents who spend more than 3 hours per day on social media face double the risk of experiencing depressive and anxiety symptoms. Currently, American teens average 4.8 hours of daily social media use.",
+      "The Surgeon General also recommended that schools enforce phone-free policies and that households establish screen-free dinner and bedtime boundaries."
+    ],
+    "source": "The New York Times & US Surgeon General Advisory",
+    "sourceUrl": "https://www.nytimes.com",
+    "category": "Science & Health",
+    "date": "2026-08-21",
+    "readTime": "5 min",
+    "featured": true,
+    "tags": ["USA", "Surgeon General", "Mental Health", "Warning Label", "Anxiety", "Youth"]
+  },
+  {
+    "id": "3",
+    "slug": "unesco-global-education-report-smartphone-bans-schools",
+    "title": "UNESCO Global Education Report: Smartphone Bans in Schools Boost Focus and Academic Performance",
+    "summary": "UNESCO's Global Education Monitoring Report reveals that banning smartphones in classrooms reduces distraction, curbs cyberbullying, and significantly improves student learning outcomes across schools worldwide.",
+    "content": [
+      "The United Nations Educational, Scientific and Cultural Organization (UNESCO) warned in a major global report that unmonitored technology and screen use disrupt classroom learning and impair cognitive development.",
+      "According to the study, it takes students up to 20 minutes to refocus on academic material after receiving a single notification. Even having a phone resting silently on a desk reduces working memory and cognitive capacity.",
+      "The report highlights that 1 in 4 countries has enacted national bans or strict restrictions on smartphone use in schools. Following pioneers like France, the Netherlands, and Italy, several other nations are enacting similar policies.",
+      "The Director of the report concluded: 'Digital tools must serve learning without eclipsing direct human engagement. We must help young people reclaim their capacity for sustained focus.'"
+    ],
+    "source": "UNESCO Global Education Monitoring Report",
+    "sourceUrl": "https://www.unesco.org",
+    "category": "Schools & Youth",
+    "date": "2026-08-18",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": ["UNESCO", "School Bans", "Education", "Focus", "Academic Performance"]
+  },
+  {
+    "id": "4",
+    "slug": "uk-norway-curb-infinite-scroll-and-addictive-algorithms",
+    "title": "UK and Norway Target Addictive Algorithms and Infinite Scroll Features",
+    "summary": "UK media regulator Ofcom and the Norwegian Government have introduced strict child safety guidelines demanding that platforms disable infinite scroll, autoplay videos, and dopamine-inducing recommendation loops for minors.",
+    "content": [
+      "Across Europe, efforts to tackle digital addiction have entered a new regulatory phase. Authorities in the UK and Norway are directly targeting the algorithmic hooks designed to maximize screen time and user capture.",
+      "Under the incoming rules, platforms must turn off infinite scroll by default for under-18s, halt late-night push notifications, and offer chronological feeds rather than algorithmic 'For You' streams.",
+      "Norway's Prime Minister stated: 'Tech giants employ the world's brightest engineers and behavioral scientists to capture our children's attention. Individual willpower is outmatched; systemic boundaries are indispensable.'",
+      "Violations may trigger penalties of up to 10% of global annual turnover under prevailing regulatory frameworks."
+    ],
+    "source": "BBC News & The Guardian",
+    "sourceUrl": "https://www.bbc.com",
+    "category": "Government Policies & Laws",
+    "date": "2026-08-14",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": ["UK", "Norway", "Infinite Scroll", "Algorithms", "Ofcom", "Digital Addiction"]
+  },
+  {
+    "id": "5",
+    "slug": "oxford-cambridge-short-form-video-dopamine-study",
+    "title": "Oxford & Cambridge Neuroscience Study: Short-Form Videos Erode Attention Spans and Dopamine Balance",
+    "summary": "A comprehensive brain-imaging study conducted by leading neuroscientists confirms that rapid video consumption under 60 seconds weakens deep-focus neural networks in the prefrontal cortex while escalating dopamine tolerance.",
+    "content": [
+      "A collaborative fMRI study by researchers at Cambridge and Oxford Universities involving 1,800 participants examined the neurochemical impact of short-form video feeds like TikTok, Instagram Reels, and YouTube Shorts.",
+      "The lead researcher noted: 'Short-form videos deliver an unpredictable reward every 10 to 15 seconds. This hyper-stimulates the brain's dopamine reward circuitry, fostering intolerance for low-dopamine, high-value tasks such as reading, deep studying, or sustained problem solving.'",
+      "Participants consuming over two hours of short-form videos daily exhibited an average 40% reduction in sustained attention span and encountered cognitive fatigue significantly earlier during complex tasks.",
+      "Scientists recommend firm daily application limits and behavioral friction tools as the most effective countermeasure to break the scrolling loop."
+    ],
+    "source": "Cambridge University Press & Nature Neuroscience",
+    "sourceUrl": "https://www.cam.ac.uk",
+    "category": "Science & Health",
+    "date": "2026-08-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": ["Oxford", "Cambridge", "Neuroscience", "Short Video", "Dopamine", "Focus"]
+  },
+  {
+    "id": "6",
+    "slug": "netherlands-france-school-phone-ban-results",
+    "title": "Results of School Smartphone Bans in the Netherlands and France: Bullying Drops, Socialization Surges",
+    "summary": "Initial large-scale evaluations following nationwide classroom smartphone bans in the Netherlands and France demonstrate that students returned to physical games and face-to-face interaction during recess, while classroom attentiveness rose sharply.",
+    "content": [
+      "A one-year impact assessment on the nationwide school smartphone ban in the Netherlands has been released, revealing results that exceeded initial expectations among both educators and students.",
+      "Over 75% of surveyed teachers reported notable improvements in classroom engagement, while counseling departments recorded up to a 35% decline in cyberbullying incidents during school hours.",
+      "The most visible transformation occurred during breaks: rather than remaining glued to mobile screens, students actively engaged in sports, face-to-face conversations, and group activities.",
+      "The Dutch Minister of Education remarked: 'Removing phones from classrooms has returned to our children their childhood and genuine social bonds.'"
+    ],
+    "source": "Euronews & Dutch Ministry of Education",
+    "sourceUrl": "https://www.euronews.com",
+    "category": "Schools & Youth",
+    "date": "2026-08-05",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": ["Netherlands", "France", "School Bans", "Socialization", "Bullying", "Education"]
+  }
+]

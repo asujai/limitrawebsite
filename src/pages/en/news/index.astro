@@ -1,0 +1,497 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import newsList from '../../../data/news-en.json';
+
+const categories = ['All', ...Array.from(new Set(newsList.map(n => n.category)))];
+
+const featuredNews = newsList.find(n => n.featured) || newsList[0];
+const regularNews = newsList.filter(n => n.id !== featuredNews.id);
+---
+
+<Layout 
+  title="Global Press & Screen Time News | Limitra App Block" 
+  description="Stay updated with global news on screen addiction, social media harms, government regulations, and scientific research."
+>
+  <section class="news-portal">
+    <div class="container">
+      <header class="portal-header">
+        <a href="/en" class="back-link">&larr; Home</a>
+        <div class="header-badge">
+          <span class="pulse-dot"></span>
+          <span>Global Press & Regulations</span>
+        </div>
+        <h1>Global Actions Against Screen & Social Media Addiction</h1>
+        <p class="subtitle">
+          Government policies, statutory age limits, neuroscience breakthroughs, and school smartphone bans from around the globe. Follow international developments daily.
+        </p>
+      </header>
+
+      <!-- Category Filter -->
+      <div class="category-nav" role="tablist" aria-label="News categories">
+        {categories.map((cat, index) => (
+          <button 
+            type="button" 
+            class:list={['cat-btn', { active: index === 0 }]} 
+            data-category={cat}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <!-- Featured Story -->
+      {featuredNews && (
+        <article class="featured-card" data-card-category={featuredNews.category}>
+          <div class="featured-content">
+            <div class="card-meta">
+              <span class="cat-pill">{featuredNews.category}</span>
+              <span class="date">{featuredNews.date}</span>
+              <span class="read-time">{featuredNews.readTime} read</span>
+            </div>
+            <h2>
+              <a href={`/en/news/${featuredNews.slug}`}>{featuredNews.title}</a>
+            </h2>
+            <p class="summary">{featuredNews.summary}</p>
+            <div class="card-footer">
+              <span class="source">
+                <strong>Source:</strong> {featuredNews.source}
+              </span>
+              <a href={`/en/news/${featuredNews.slug}`} class="read-btn">
+                <span>Read Full Story</span>
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      )}
+
+      <!-- News Grid -->
+      <div class="news-grid" id="newsGrid">
+        {regularNews.map((item) => (
+          <article class="news-card" data-card-category={item.category}>
+            <div class="card-meta">
+              <span class="cat-pill">{item.category}</span>
+              <span class="date">{item.date}</span>
+            </div>
+            <h3>
+              <a href={`/en/news/${item.slug}`}>{item.title}</a>
+            </h3>
+            <p class="summary">{item.summary}</p>
+            <div class="card-footer">
+              <span class="source-tag">{item.source}</span>
+              <a href={`/en/news/${item.slug}`} class="read-link">
+                <span>Read</span>
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <!-- CTA Box -->
+      <div class="portal-cta">
+        <div class="cta-inner">
+          <div class="cta-copy">
+            <span class="cta-kicker">Limitra App Block</span>
+            <h2>As the World Acts, Take Charge of Your Own Digital Boundaries</h2>
+            <p>
+              While governments enact laws against algorithmic captures, protect your attention today with Limitra App Block. Set firm, local boundaries on distracting apps.
+            </p>
+          </div>
+          <div class="cta-action">
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.gardiyan.app" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn btn-primary"
+            >
+              Get on Google Play ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  function setupCategoryFiltering() {
+    const buttons = document.querySelectorAll('.cat-btn');
+    const cards = document.querySelectorAll('[data-card-category]');
+
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        buttons.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const selected = btn.getAttribute('data-category');
+
+        cards.forEach((card) => {
+          const cardCat = card.getAttribute('data-card-category');
+          if (selected === 'All' || cardCat === selected) {
+            (card as HTMLElement).style.display = '';
+          } else {
+            (card as HTMLElement).style.display = 'none';
+          }
+        });
+      });
+    });
+  }
+
+  document.addEventListener('astro:page-load', setupCategoryFiltering);
+  setupCategoryFiltering();
+</script>
+
+<style>
+  .news-portal {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .portal-header {
+    max-width: 860px;
+    margin-bottom: var(--space-8);
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-4);
+    font-weight: 600;
+  }
+
+  .back-link:hover {
+    color: var(--accent);
+  }
+
+  .header-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.85rem;
+    background: rgba(38, 103, 245, 0.08);
+    border: 1px solid var(--accent-border);
+    border-radius: var(--radius-full);
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin-bottom: var(--space-3);
+  }
+
+  .pulse-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--coral);
+    box-shadow: 0 0 0 0 rgba(255, 107, 88, 0.7);
+    animation: pulse 1.8s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 107, 88, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 6px rgba(255, 107, 88, 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 107, 88, 0);
+    }
+  }
+
+  .portal-header h1 {
+    font-size: clamp(2rem, 4.5vw, 3.2rem);
+    margin-bottom: var(--space-4);
+    line-height: 1.15;
+  }
+
+  .subtitle {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  /* Category Nav */
+  .category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: var(--space-8) 0 var(--space-8) 0;
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .cat-btn {
+    padding: 0.55rem 1.15rem;
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .cat-btn:hover {
+    border-color: var(--accent-border);
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  .cat-btn.active {
+    background: var(--surface-dark);
+    color: white;
+    border-color: var(--surface-dark);
+    box-shadow: 0 4px 14px rgba(9, 22, 47, 0.15);
+  }
+
+  /* Featured Card */
+  .featured-card {
+    background: linear-gradient(135deg, #09162f 0%, #152c59 100%);
+    border-radius: var(--radius-lg);
+    padding: clamp(2rem, 4vw, 3.2rem);
+    color: white;
+    margin-bottom: var(--space-12);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(9, 22, 47, 0.2);
+  }
+
+  .featured-card::after {
+    content: '';
+    position: absolute;
+    top: -8rem;
+    right: -8rem;
+    width: 22rem;
+    height: 22rem;
+    background: radial-gradient(circle, rgba(38, 103, 245, 0.35), transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .featured-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-bottom: var(--space-4);
+    font-size: 0.8rem;
+  }
+
+  .cat-pill {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border-radius: var(--radius-full);
+    background: var(--accent);
+    color: white;
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .featured-card .date,
+  .featured-card .read-time {
+    color: #a2b4d6;
+    font-weight: 500;
+  }
+
+  .featured-card h2 {
+    font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+    margin: 0 0 var(--space-4) 0;
+    line-height: 1.25;
+  }
+
+  .featured-card h2 a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .featured-card h2 a:hover {
+    color: var(--accent-light);
+  }
+
+  .featured-card .summary {
+    color: #d1dced;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    margin-bottom: var(--space-6);
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: var(--space-4);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .featured-card .source {
+    color: #9cb1d4;
+    font-size: 0.88rem;
+  }
+
+  .read-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.3rem;
+    background: white;
+    color: var(--surface-dark);
+    font-weight: 700;
+    font-size: 0.88rem;
+    border-radius: var(--radius-full);
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+
+  .read-btn:hover {
+    background: var(--accent-light);
+    color: white;
+    transform: translateX(4px);
+  }
+
+  /* Grid List */
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.6rem;
+    margin-bottom: var(--space-16);
+  }
+
+  .news-card {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  .news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-sm);
+    border-color: var(--accent-border);
+  }
+
+  .news-card .cat-pill {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid var(--accent-border);
+  }
+
+  .news-card .date {
+    color: var(--text-muted);
+    font-size: 0.78rem;
+  }
+
+  .news-card h3 {
+    margin: 0.8rem 0 0.6rem 0;
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+
+  .news-card h3 a {
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+
+  .news-card h3 a:hover {
+    color: var(--accent);
+  }
+
+  .news-card .summary {
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.55;
+    margin-bottom: 1.25rem;
+    flex-grow: 1;
+  }
+
+  .news-card .card-footer {
+    border-top: 1px solid var(--border-soft);
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .source-tag {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  .read-link:hover {
+    gap: 0.55rem;
+  }
+
+  /* Portal CTA */
+  .portal-cta {
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, #eef3ff 0%, #f7f9fd 100%);
+    border: 1px solid var(--accent-border);
+    padding: clamp(2rem, 5vw, 3.5rem);
+    margin-top: var(--space-12);
+  }
+
+  .cta-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .cta-kicker {
+    display: block;
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .cta-copy h2 {
+    margin: 0 0 0.8rem 0;
+    font-size: clamp(1.4rem, 2.5vw, 2rem);
+  }
+
+  .cta-copy p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.98rem;
+    max-width: 38rem;
+  }
+
+  @media (max-width: 860px) {
+    .cta-inner {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

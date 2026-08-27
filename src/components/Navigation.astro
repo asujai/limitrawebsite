@@ -1,25 +1,42 @@
 ---
 const currentUrl = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isEn = currentUrl === '/en' || currentUrl.startsWith('/en/');
-const toggleLanguageUrl = isEn
-  ? currentUrl.replace(/^\/en/, '') || '/'
-  : `/en${currentUrl === '/' ? '' : currentUrl}`;
+
+let toggleLanguageUrl = '/';
+if (isEn) {
+  if (currentUrl === '/en/news') {
+    toggleLanguageUrl = '/haberler';
+  } else if (currentUrl.startsWith('/en/news/')) {
+    toggleLanguageUrl = '/haberler';
+  } else {
+    toggleLanguageUrl = currentUrl.replace(/^\/en/, '') || '/';
+  }
+} else {
+  if (currentUrl === '/haberler') {
+    toggleLanguageUrl = '/en/news';
+  } else if (currentUrl.startsWith('/haberler/')) {
+    toggleLanguageUrl = '/en/news';
+  } else {
+    toggleLanguageUrl = `/en${currentUrl === '/' ? '' : currentUrl}`;
+  }
+}
 
 const links = [
   { href: isEn ? '/en' : '/', label: isEn ? 'Home' : 'Ana Sayfa' },
   { href: isEn ? '/en/limitra' : '/limitra', label: isEn ? 'How it works' : 'Nasıl çalışır?' },
+  { href: isEn ? '/en/news' : '/haberler', label: isEn ? 'Global News' : 'Dünya Basını' },
   { href: isEn ? '/en/bilgi-merkezi' : '/bilgi-merkezi', label: isEn ? 'Guides' : 'Rehberler' },
   { href: isEn ? '/en/sss' : '/sss', label: isEn ? 'FAQ' : 'SSS' }
 ];
 
-const isCurrent = (href: string) => currentUrl === href;
+const isCurrent = (href: string) => currentUrl === href || (href !== '/' && href !== '/en' && currentUrl.startsWith(href));
 ---
 
 <header class="site-header" data-site-header>
   <div class="container nav-container">
-    <a href={isEn ? '/en' : '/'} class="brand" aria-label={isEn ? 'Limitra home' : 'Limitra ana sayfa'}>
-      <img src="/logo.jpg" alt="Limitra Logo" class="brand-logo" width="36" height="36" />
-      <span class="brand-text">Limitra</span>
+    <a href={isEn ? '/en' : '/'} class="brand" aria-label={isEn ? 'Limitra App Block home' : 'Limitra App Block ana sayfa'}>
+      <img src="/logo.jpg" alt="Limitra App Block Logo" class="brand-logo" width="36" height="36" />
+      <span class="brand-text">Limitra <span class="brand-badge">App Block</span></span>
     </a>
 
     <nav class="nav" id="primary-navigation" aria-label={isEn ? 'Primary navigation' : 'Ana menü'}>
@@ -131,6 +148,23 @@ const isCurrent = (href: string) => currentUrl === href;
   .brand-text {
     color: #000000 !important;
     font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .brand-badge {
+    display: inline-block;
+    font-size: 0.62rem;
+    font-weight: 800;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-border);
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--radius-full);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    vertical-align: middle;
   }
 
   .nav-list {

@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import haberlerTr from '../data/haberler.json';
+import haberlerEn from '../data/news-en.json';
 
 interface Props {
   lang?: 'tr' | 'en';
@@ -10,14 +12,16 @@ const isEn = lang === 'en';
 const prefix = isEn ? '/en' : '';
 const playUrl = 'https://play.google.com/store/apps/details?id=com.gardiyan.app';
 
+const latestNews = (isEn ? haberlerEn : haberlerTr).slice(0, 3);
+
 const steps = isEn ? [
   { num: '01', title: 'Choose the distractions', text: 'Select the apps that steal your attention most often.' },
   { num: '02', title: 'Set a clear limit', text: 'Decide how much time each app deserves while your mind is clear.' },
-  { num: '03', title: 'Let Limitra protect it', text: 'When time is up, the boundary you set becomes a real pause.' }
+  { num: '03', title: 'Let Limitra App Block protect it', text: 'When time is up, the boundary you set becomes a real pause.' }
 ] : [
   { num: '01', title: 'Dikkat dağıtanları seç', text: 'Seni en sık ekrana çeken uygulamaları belirle.' },
   { num: '02', title: 'Net bir sınır koy', text: 'Zihnin sakinken her uygulamanın hak ettiği süreye karar ver.' },
-  { num: '03', title: 'Korumayı Limitra’ya bırak', text: 'Süre dolduğunda verdiğin karar gerçek bir molaya dönüşsün.' }
+  { num: '03', title: 'Korumayı Limitra App Block’a bırak', text: 'Süre dolduğunda verdiğin karar gerçek bir molaya dönüşsün.' }
 ];
 
 const guides = isEn ? [
@@ -32,10 +36,10 @@ const guides = isEn ? [
 ---
 
 <Layout
-  title={isEn ? 'Limitra | Control Screen Time, Build Digital Balance' : 'Limitra | Ekran Süresini Kontrol Et, Dijital Dengeyi Sağla'}
-  description={isEn ? 'Control screen time, limit app usage, and manage digital habits mindfully with Limitra.' : 'Limitra ile ekran süreni kontrol et, uygulama kullanımını sınırla ve dijital alışkanlıklarını daha bilinçli şekilde yönet.'}
-  ogTitle={isEn ? 'Limitra | Control Screen Time' : 'Limitra | Ekran Süresini Kontrol Et'}
-  ogDescription={isEn ? 'Manage your screen time and digital habits more mindfully with Limitra.' : 'Ekran süreni ve dijital alışkanlıklarını Limitra ile daha bilinçli yönet.'}
+  title={isEn ? 'Limitra App Block | Screen Time Control & App Blocker' : 'Limitra App Block | Ekran Süresini Kontrol Et, Uygulama Engelleyici ve Dijital Denge'}
+  description={isEn ? 'Control screen time, block distracting apps, and build digital discipline with Limitra App Block.' : 'Limitra App Block ile ekran süreni kontrol et, uygulama kullanımını sınırla ve dijital alışkanlıklarını daha bilinçli şekilde yönet.'}
+  ogTitle={isEn ? 'Limitra App Block | Screen Time Control' : 'Limitra App Block | Ekran Süresini Kontrol Et'}
+  ogDescription={isEn ? 'Manage your screen time and digital habits more mindfully with Limitra App Block.' : 'Ekran süreni ve dijital alışkanlıklarını Limitra App Block ile daha bilinçli yönet.'}
 >
   <section class="hero">
     <div class="hero-glow glow-one"></div>
@@ -43,9 +47,9 @@ const guides = isEn ? [
     <div class="container hero-grid">
       <div class="hero-copy">
         <span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'A calmer digital rhythm' : 'Daha sakin bir dijital ritim'}</span>
-        <h1>{isEn ? <>Decide now.<br /><em>Limitra protects it later.</em></> : <>Kararını şimdi ver.<br /><em>Limitra sonra korusun.</em></>}</h1>
+        <h1>{isEn ? <>Decide now.<br /><em>Limitra App Block protects it later.</em></> : <>Kararını şimdi ver.<br /><em>Limitra App Block sonra korusun.</em></>}</h1>
         <p class="hero-lead">
-          {isEn ? 'Set clear limits while your mind is calm. When distraction arrives, Limitra helps you stay loyal to the decision you already made.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında Limitra, daha önce verdiğin karara sadık kalmana yardımcı olsun.'}
+          {isEn ? 'Set clear limits while your mind is calm. When distraction arrives, Limitra App Block helps you stay loyal to the decision you already made.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında Limitra App Block, daha önce verdiğin karara sadık kalmana yardımcı olsun.'}
         </p>
         <div class="hero-actions">
           <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
@@ -104,7 +108,7 @@ const guides = isEn ? [
     </div>
   </section>
 
-  <section class="principles" aria-label={isEn ? 'Limitra principles' : 'Limitra ilkeleri'}>
+  <section class="principles" aria-label={isEn ? 'Limitra App Block principles' : 'Limitra App Block ilkeleri'}>
     <div class="container principle-grid">
       <div><span>01</span><p><strong>{isEn ? 'Clear' : 'Net'}</strong>{isEn ? 'A boundary you can understand at a glance.' : 'Bir bakışta anlayabileceğin sınırlar.'}</p></div>
       <div><span>02</span><p><strong>{isEn ? 'Private' : 'Gizli'}</strong>{isEn ? 'Sensitive usage data stays on your device.' : 'Hassas kullanım verileri cihazında kalır.'}</p></div>
@@ -117,14 +121,14 @@ const guides = isEn ? [
       <div class="moment-copy">
         <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'The real problem' : 'Asıl problem'}</span>
         <h2>{isEn ? 'You already know when to stop. The hard part is stopping in that moment.' : 'Ne zaman durman gerektiğini zaten biliyorsun. Zor olan, o anda durabilmek.'}</h2>
-        <p>{isEn ? 'Most screen-time tools arrive as one more notification you can dismiss. Limitra turns the decision you made earlier into a clear pause when it matters.' : 'Çoğu ekran süresi aracı, kapatabileceğin bir bildirim daha gönderir. Limitra ise daha önce verdiğin kararı, ihtiyaç duyduğun anda net bir molaya dönüştürür.'}</p>
+        <p>{isEn ? 'Most screen-time tools arrive as one more notification you can dismiss. Limitra App Block turns the decision you made earlier into a clear pause when it matters.' : 'Çoğu ekran süresi aracı, kapatabileceğin bir bildirim daha gönderir. Limitra App Block ise daha önce verdiğin kararı, ihtiyaç duyduğun anda net bir molaya dönüştürür.'}</p>
       </div>
       <div class="moment-card">
         <span class="moment-label">{isEn ? 'A familiar loop' : 'Tanıdık bir döngü'}</span>
         <div class="moment-row"><strong>22:14</strong><span>{isEn ? '“I’ll look for five minutes.”' : '“Beş dakika bakıp çıkarım.”'}</span></div>
         <div class="moment-line"><i></i></div>
         <div class="moment-row"><strong>22:47</strong><span>{isEn ? 'Still scrolling.' : 'Hâlâ kaydırıyorsun.'}</span></div>
-        <div class="moment-pause"><img src="/logo.jpg" alt="Limitra Logo" class="moment-logo" /><span class="moment-brand">Limitra</span><strong>{isEn ? 'The boundary you set is now active.' : 'Belirlediğin sınır şimdi aktif.'}</strong></div>
+        <div class="moment-pause"><img src="/logo.jpg" alt="Limitra App Block Logo" class="moment-logo" /><span class="moment-brand">Limitra App Block</span><strong>{isEn ? 'The boundary you set is now active.' : 'Belirlediğin sınır şimdi aktif.'}</strong></div>
       </div>
     </div>
   </section>
@@ -133,7 +137,7 @@ const guides = isEn ? [
     <div class="container">
       <div class="section-heading">
         <div><span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Three simple steps' : 'Üç sade adım'}</span><h2>{isEn ? 'Less negotiating. More living.' : 'Daha az pazarlık. Daha çok hayat.'}</h2></div>
-        <p>{isEn ? 'Limitra keeps setup short so the tool itself never becomes another distraction.' : 'Limitra kurulumu kısa tutar; böylece aracın kendisi yeni bir dikkat dağıtıcıya dönüşmez.'}</p>
+        <p>{isEn ? 'Limitra App Block keeps setup short so the tool itself never becomes another distraction.' : 'Limitra App Block kurulumu kısa tutar; böylece aracın kendisi yeni bir dikkat dağıtıcıya dönüşmez.'}</p>
       </div>
       <div class="steps-grid">
         {steps.map((step) => (
@@ -182,12 +186,48 @@ const guides = isEn ? [
       <div class="privacy-copy">
         <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'Privacy by design' : 'Tasarım gereği gizli'}</span>
         <h2>{isEn ? 'Your digital habits are yours.' : 'Dijital alışkanlıkların sana ait.'}</h2>
-        <p>{isEn ? 'Usage information is processed on your Android device. Limitra is designed to protect your attention—not to turn it into another data source.' : 'Kullanım bilgilerin Android cihazında işlenir. Limitra, dikkatini korumak için tasarlandı; onu yeni bir veri kaynağına çevirmek için değil.'}</p>
+        <p>{isEn ? 'Usage information is processed on your Android device. Limitra App Block is designed to protect your attention—not to turn it into another data source.' : 'Kullanım bilgilerin Android cihazında işlenir. Limitra App Block, dikkatini korumak için tasarlandı; onu yeni bir veri kaynağına çevirmek için değil.'}</p>
       </div>
       <div class="privacy-points">
         <div><strong>{isEn ? 'On your device' : 'Cihazında'}</strong><span>{isEn ? 'Local processing' : 'Yerel veri işleme'}</span></div>
         <div><strong>{isEn ? 'No ads' : 'Reklamsız'}</strong><span>{isEn ? 'No attention traps' : 'Dikkat tuzağı yok'}</span></div>
         <div><strong>{isEn ? 'Minimal' : 'Minimal'}</strong><span>{isEn ? 'Only what you need' : 'Yalnızca ihtiyacın olan'}</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dünya Basınından Gelişmeler Bölümü -->
+  <section class="home-news-section">
+    <div class="container">
+      <div class="section-heading news-home-heading">
+        <div>
+          <span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Global Press & Laws' : 'Dünya Basını ve Yasalar'}</span>
+          <h2>{isEn ? 'Governments are taking action. What about you?' : 'Dünya harekete geçiyor. Ya siz?'}</h2>
+        </div>
+        <a href={isEn ? '/en/news' : '/haberler'} class="text-link">
+          {isEn ? 'All global news' : 'Tüm dünya haberleri'} <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="home-news-grid">
+        {latestNews.map((item) => (
+          <article class="home-news-card">
+            <div class="home-news-meta">
+              <span class="home-news-cat">{item.category}</span>
+              <span class="home-news-date">{item.date}</span>
+            </div>
+            <h3>
+              <a href={isEn ? `/en/news/${item.slug}` : `/haberler/${item.slug}`}>{item.title}</a>
+            </h3>
+            <p>{item.summary}</p>
+            <div class="home-news-footer">
+              <span class="home-news-source">{item.source}</span>
+              <a href={isEn ? `/en/news/${item.slug}` : `/haberler/${item.slug}`} class="home-news-link">
+                {isEn ? 'Read' : 'Oku'} &rarr;
+              </a>
+            </div>
+          </article>
+        ))}
       </div>
     </div>
   </section>
@@ -218,7 +258,7 @@ const guides = isEn ? [
       <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'Start today' : 'Bugün başla'}</span>
       <h2>{isEn ? 'Make room for what matters.' : 'Önemli olana yer aç.'}</h2>
       <p>{isEn ? 'Set one clear boundary today and give your attention somewhere better.' : 'Bugün tek bir net sınır koy ve dikkatini daha iyi bir yere ver.'}</p>
-      <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn cta-button">{isEn ? 'Get Limitra on Google Play' : 'Limitra’yı Google Play’den indir'} <span aria-hidden="true">↗</span></a>
+      <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn cta-button">{isEn ? 'Get Limitra App Block on Google Play' : 'Limitra App Block’u Google Play’den indir'} <span aria-hidden="true">↗</span></a>
       <small>{isEn ? 'For Android 8.0 and newer' : 'Android 8.0 ve üzeri'}</small>
     </div>
   </section>
@@ -434,6 +474,79 @@ const guides = isEn ? [
   .privacy-points strong { color: white; font-size: .78rem; }
   .privacy-points span { color: #7f90ae; font-size: .7rem; }
 
+  .home-news-section { background: #f2f5fb; border-top: 1px solid var(--border-soft); }
+  .news-home-heading { align-items: center; }
+  .home-news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .home-news-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 1.5rem;
+    padding: 1.4rem;
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+  }
+  .home-news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-sm);
+    border-color: var(--accent-border);
+  }
+  .home-news-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    font-size: 0.72rem;
+  }
+  .home-news-cat {
+    color: var(--accent);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    background: var(--accent-soft);
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--radius-full);
+  }
+  .home-news-date {
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+  .home-news-card h3 {
+    margin: 0 0 0.6rem 0;
+    font-size: 1.15rem;
+    line-height: 1.35;
+  }
+  .home-news-card h3 a {
+    color: var(--text-primary);
+  }
+  .home-news-card h3 a:hover {
+    color: var(--accent);
+  }
+  .home-news-card p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: 1.25rem;
+    flex-grow: 1;
+  }
+  .home-news-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border-soft);
+    padding-top: 0.85rem;
+    font-size: 0.78rem;
+  }
+  .home-news-source {
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+  .home-news-link {
+    color: var(--accent);
+    font-weight: 800;
+  }
+
   .guides-section { background: var(--bg-primary); }
   .guides-heading { align-items: center; }
   .guides-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
@@ -472,7 +585,7 @@ const guides = isEn ? [
     .moment-copy h2, .feature-copy h2 { max-width: 18ch; }
     .privacy-card { grid-template-columns: auto 1fr; }
     .privacy-points { grid-column: 1 / -1; }
-    .guides-grid { grid-template-columns: 1fr 1fr; }
+    .guides-grid, .home-news-grid { grid-template-columns: 1fr 1fr; }
   }
 
   @media (max-width: 760px) {
@@ -480,7 +593,7 @@ const guides = isEn ? [
     .principle-grid > div { border-right: 0; border-bottom: 1px solid var(--border-color); padding: 1rem 0; }
     .principle-grid > div:last-child { border-bottom: 0; }
     .section-heading { grid-template-columns: 1fr; gap: 1.25rem; }
-    .steps-grid, .guides-grid { grid-template-columns: 1fr; }
+    .steps-grid, .guides-grid, .home-news-grid { grid-template-columns: 1fr; }
     .step-card { min-height: auto; }
     .privacy-card { grid-template-columns: 1fr; }
     .privacy-points { grid-column: auto; }
