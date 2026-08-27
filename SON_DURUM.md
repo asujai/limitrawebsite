@@ -8,22 +8,26 @@
 
 ## Güncel Durum (2026-08-27)
 - Web sitesinde ürün adı baştan sona **"Limitra App Block"** olarak revize edildi.
-- Dünya basınında yer alan ekran bağımlılığı, sosyal medya regülasyonları, devlet yasakları ve bilimsel araştırmalar için haber portalı (`/haberler` ve `/en/news`) kuruldu.
-- Günlük haber paylaşımı için `src/data/haberler.json` ve `src/data/news-en.json` JSON veri modelleri hazırlandı.
-- Astro dinamik rotaları (`[slug].astro`) ile haber detay sayfaları ve kategori filtreleme mekanizmaları entegre edildi.
-- Ana sayfaya (`HomePage.astro`) dünya basınından öne çıkan son gelişmeleri gösteren vitrin bölümü eklendi.
-- Navigasyon, Footer, Layout, SSS, Ürün sayfası ve Sitemap dosyaları güncellendi.
+- Dünya basınından ve resmi kurumlardan derlenen 10 adet teyitli, resmi ve derinlikli haber/makale arşivi sisteme entegre edildi.
+  * ABD Meta 17.1 Milyar Dolarlık Bağımlılık Tasarımı Davası Uzlaşması (Ağustos 2026)
+  * Türkiye MEB Okullarda Cep Telefonu Yasağı Genelgesi (Ağustos 2026)
+  * Avrupa Birliği DSA TikTok Bağımlılık Yapan Tasarım Yaptırımı
+  * Avustralya 16 Yaş Altı Sosyal Medya Yasağı
+  * ABD Genel Cerrahı (Surgeon General) Sağlık Uyarı Etiketi Çağrısı
+  * Güney Kore Devlet Eliyle Gençlik Dijital Detoks Kampları
+  * UNESCO Küresel Eğitim Raporu Okul Telefon Yasakları
+  * Çin Küçükler Modu Gece Ekran Karartma Yasası
+  * İngiltere ve Norveç Sonsuz Kaydırma ve Algoritmik Kısıtlama Düzenlemesi
+  * Oxford ve Cambridge Kısa Video ve Dopamin Nörobilim Araştırması
+- Türkçe ve İngilizce tüm sayfalar (`/haberler`, `/haberler/[slug]`, `/en/news`, `/en/news/[slug]`) ve Sitemap güncellendi.
+- `npm run build` ile 53 sayfa hatasız derlendi.
 
 ## Son Yapılan İşlem
-- **İşlem:** Limitra App Block marka adı güncellemesi ve Dünya Basını haber merkezi entegrasyonu.
+- **İşlem:** Resmi ve teyitli 10 haber/makalenin Türkçe & İngilizce olarak haber merkezine eklenmesi, Meta 17.1 Milyar Dolar davası ve MEB genelgesi dahil küresel arşivin zenginleştirilmesi.
 - **Model:** Antigravity
 
 ## Doğrulama
-- `npm run build` başarıyla çalıştırıldı (45 sayfanın tamamı 0 hata ile derlendi).
+- `npm run build` başarıyla çalıştırıldı (53 sayfa 0 hata ile statik olarak derlendi).
 
 ## Bilinen Sorunlar
 - Yok.
-
-## Sonraki Öneriler
-- Günlük haber paylaşımları için `src/data/haberler.json` ve `src/data/news-en.json` dosyalarına yeni haber kayıtları eklenmesi.
-- Yeni yayınlanan sürümlerin Google Play Store linkleri veya güncel ekran görüntüleri ile eşleştirilmesi.

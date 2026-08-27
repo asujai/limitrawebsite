@@ -1,5 +1,24 @@
 # İşlem Geçmişi
 
+## [2026-08-27 23:53] - Resmi ve Teyitli Haber/Makale Arşivinin Zenginleştirilmesi
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (10 adet resmi ve güncel haber)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (10 adet İngilizce resmi haber)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (Yeni haber slug'ları eklendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** 
+  1. Meta'nın ABD'deki 50 eyalete ödediği 17.1 milyar dolarlık bağımlılık tasarımı uzlaşması ve zorunlu ekran kısıtlamaları haberi eklendi.
+  2. Türkiye MEB'in 81 ile gönderdiği okullarda telefon yasağı ve dijital bağımlılıkla mücadele genelgesi eklendi.
+  3. AB Komisyonu'nun DSA kapsamında TikTok Lite ödül sistemini yasaklatması ve bağımlılık yapıcı tasarım soruşturması eklendi.
+  4. Güney Kore'nin devlet destekli dijital detoks kampları ve Çin'in gece ekran karartma 'Küçükler Modu' yasası eklendi.
+  5. Toplam 10 resmi haber Türkçe ve İngilizce olarak dinamik rotalara bağlandı.
+* **Doğrulama:** `npm run build` çalıştırıldı, 53 sayfanın tamamı 0 hata ile statik olarak derlendi.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Düzenli olarak dünya basınında çıkan yeni resmi regülasyonların `src/data/haberler.json` dosyasına eklenmesi.
+
 ## [2026-08-27 23:45] - Limitra App Block Marka Revizyonu ve Dünya Basını Haber Portalı Ekleme
 
 * **Model:** Antigravity

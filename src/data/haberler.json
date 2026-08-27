@@ -1,6 +1,68 @@
 [
   {
     "id": "1",
+    "slug": "abd-meta-17-milyar-dolar-bagimlilik-davasi-uzlasmasi",
+    "title": "ABD'de Meta'ya Tarihi Ceza: 17 Milyar Dolarlık 'Bağımlılık Tasarımı' Uzlaşması ve Zorunlu Süre Kısıtlamaları",
+    "summary": "ABD'deki 50'ye yakın eyaletin açtığı davada Meta (Instagram & Facebook), gençlerde bilerek bağımlılık yaratan algoritmalar ve sonsuz kaydırma özellikleri tasarladığı suçlamasıyla 17,1 milyar dolarlık rekor uzlaşmayı kabul etti. Reşit olmayanlar için günde 2 saat sınırı ve gece ekran yasağı geliyor.",
+    "content": [
+      "Amerika Birleşik Devletleri tarihinin en büyük teknoloji ve kamu sağlığı davalarından biri sonuçlandı. Aralarında New York, California ve Colorado'nun da bulunduğu 50'ye yakın eyalet başsavcısının Meta aleyhine açtığı 'gençlerin ruh sağlığını kasten tehlikeye atma ve bağımlılık yapıcı algoritmalar tasarlama' davasında 17,1 milyar dolarlık tarihi bir uzlaşmaya varıldı.",
+      "Dava dosyalarında, Meta'nın kendi iç araştırmalarında Instagram'ın genç kızlarda depresyon, beden algısı bozukluğu ve anksiyeteyi artırdığını bilmesine rağmen, platformdaki 'dopamin döngülerini' ve sonsuz kaydırma (infinite scroll) özelliklerini daha da agresifleştirdiği resmi delillerle kanıtlandı.",
+      "Anlaşma kapsamında Meta yalnızca devasa bir tazminat ödemekle kalmayacak, aynı zamanda platformlarında köklü kısıtlamalara gidecek:",
+      "1. Reşit olmayan kullanıcılar için günlük toplam kullanım süresi maksimum 2 saat ile sınırlandırılacak.",
+      "2. Gece saatlerinde gençlerin platforma erişimi otomatik olarak kısıtlanacak ve ekran karartılacak.",
+      "3. Okul ve ders saatlerinde bildirim gönderimi tamamen durdurulacak.",
+      "4. Kullanıcılara ve ebeveynlere bağımlılık yapan algoritmik öneri akışlarını kapatıp yalnızca kronolojik akışa geçme zorunlu seçeneği sunulacak.",
+      "Eyalet Başsavcıları yaptıkları ortak açıklamada, 'Teknoloji devlerinin çocuklarımızın zihnini ve zamanını kâr uğruna rehin aldığı dönem sona eriyor. Bu karar, dijital platformların kasıtlı bağımlılık mekanizmalarına karşı küresel bir dönüm noktasıdır' dedi."
+    ],
+    "source": "Reuters, Washington Post & NY Attorney General Office",
+    "sourceUrl": "https://www.reuters.com",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-08-26",
+    "readTime": "6 dk",
+    "featured": true,
+    "tags": ["Meta", "Instagram", "Facebook", "17 Milyar Dolar", "Bağımlılık Davası", "ABD", "Yasa"]
+  },
+  {
+    "id": "2",
+    "slug": "turkiye-meb-okullarda-cep-telefonu-yasagi-genelgesi",
+    "title": "Milli Eğitim Bakanlığı'ndan 81 İle Genelge: Okullarda Cep Telefonu Kullanımı Tamamen Yasaklandı",
+    "summary": "Milli Eğitim Bakanlığı (MEB), okullarda öğrencilerin ders saatlerinde cep telefonu bulundurmasını ve kullanmasını yasaklayan genelgeyi yeniledi. Yeni düzenlemeyle öğretmenlerin de derste telefon kullanımı kısıtlanırken, dijital bağımlılıkla mücadele resmi müfredata girdi.",
+    "content": [
+      "Milli Eğitim Bakanlığı (MEB), 81 il milli eğitim müdürlüğüne gönderdiği kapsamlı genelge ile eğitim-öğretim ortamlarında cep telefonu, tablet ve akıllı saat kullanımına yönelik tedbirleri en üst seviyeye çıkardı.",
+      "Genelgeye göre, öğrencilerin sınıflarda cep telefonu bulundurması kesin olarak yasaklandı. Telefonlar sabah ilk derse girilmeden önce okul yönetimlerince kurulan özel kilitli dolap veya kutularda toplanacak ve son ders bitimine kadar öğrencilere teslim edilmeyecek.",
+      "Bu yıl yürürlüğe giren kritik bir yenilikle, öğretmenlerin de ders esnasında sınıfta cep telefonu kullanmaları ve sınıfa telefonla girmeleri yasaklandı. Böylece ders ortamının tamamen ekransız ve kesintisiz odaklanma alanı olması hedefleniyor.",
+      "Bakanlık ayrıca ödev, duyuru ve veli bilgilendirme süreçlerinde kontrolsüz anlık mesajlaşma gruplarının kullanımını kısıtladı. Bakanlık onaylı resmi eğitim portalları haricinde dijital ödev baskısı oluşturulmasının önüne geçilecek.",
+      "Genelgede, çocuklarda artan dikkat dağınıklığı, ders başarısındaki düşüş ve siber zorbalık vakalarının doğrudan ekran bağımlılığı ile ilişkili olduğu vurgulanarak, tüm okullarda 'Duygu-Değer Temelli Dijital Esenlik' eğitimlerinin verileceği duyuruldu."
+    ],
+    "source": "T.C. Millî Eğitim Bakanlığı & Anadolu Ajansı",
+    "sourceUrl": "https://www.meb.gov.tr",
+    "category": "Okullar & Gençlik",
+    "date": "2026-08-25",
+    "readTime": "5 dk",
+    "featured": true,
+    "tags": ["Türkiye", "MEB", "Okulda Telefon Yasağı", "Dijital Bağımlılık", "Eğitim", "Genelge"]
+  },
+  {
+    "id": "3",
+    "slug": "avrupa-birligi-dsa-tiktok-bagimlilik-yapan-tasarim-sorusturmasi",
+    "title": "Avrupa Birliği'nden TikTok'a 'Bağımlılık Yapan Tasarım' Yaptırımı: Sonsuz Kaydırma ve Görev Ödülleri İptal Edildi",
+    "summary": "Avrupa Komisyonu, Dijital Hizmetler Yasası (DSA) kapsamında TikTok hakkında yürüttüğü bağımlılık yapıcı tasarım soruşturmasında, platformun 'TikTok Lite Görev ve Ödül' sistemini AB genelinde kalıcı olarak yasaklattı. Sonsuz kaydırma için zorunlu mola sistemleri gündemde.",
+    "content": [
+      "Avrupa Birliği Komisyonu, gençlerin ve çocukların zihinsel esenliğini korumak amacıyla teknoloji devlerine yönelik denetimlerini sıkılaştırıyor. Komisyon, TikTok'un kullanıcıları ekranda tutmak için tasarladığı mekanizmaları mercek altına aldı.",
+      "Yapılan resmi incelemeler sonucunda, kullanıcıları video izledikçe puan ve para ödülüyle ödüllendiren 'TikTok Lite Rewards' sisteminin kumar benzeri dopamin bağımlılığı yarattığı tespit edildi. TikTok, AB yaptırımlarından kaçınmak için bu ödül programını tüm Avrupa Birliği ülkelerinde kalıcı olarak geri çektiğini taahhüt etti.",
+      "Avrupa Komisyonu'nun yayımladığı ön raporda; sonsuz kaydırma (infinite scroll), otomatik video oynatma (autoplay) ve agresif anlık bildirimlerin kullanıcıların özdenetimini felç ettiği ve Dijital Hizmetler Yasası'na aykırı olduğu resmen bildirildi.",
+      "AB yetkilileri, platformların algoritmik olarak ekran başında geçirilen süreyi artırma stratejilerine karşı küresel cironun %6'sına varan ağır para cezaları ve zorunlu 'ekran süresi kalkanları' getirmeye hazırlanıyor."
+    ],
+    "source": "European Commission (Avrupa Komisyonu) & The Guardian",
+    "sourceUrl": "https://ec.europa.eu",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-08-24",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": ["Avrupa Birliği", "TikTok", "DSA", "Sonsuz Kaydırma", "Regülasyon", "Dijital Hizmetler"]
+  },
+  {
+    "id": "4",
     "slug": "avustralya-16-yas-alti-sosyal-medya-yasagi",
     "title": "Avustralya'dan Tarihi Karar: 16 Yaş Altına Sosyal Medya Tamamen Yasaklanıyor",
     "summary": "Avustralya Federal Parlamentosu, 16 yaşından küçük çocukların TikTok, Instagram, X ve Snapchat gibi platformlara erişimini engelleyen dönüm noktası niteliğindeki yasa tasarısını kabul etti. İhlal eden teknoloji devlerine 50 milyon dolara varan ağır para cezaları öngörülüyor.",
@@ -15,11 +77,11 @@
     "category": "Devlet Düzenlemeleri & Yasalar",
     "date": "2026-08-25",
     "readTime": "4 dk",
-    "featured": true,
+    "featured": false,
     "tags": ["Avustralya", "Yasa", "Sosyal Medya Yasağı", "16 Yaş Sınırı", "TikTok", "Instagram"]
   },
   {
-    "id": "2",
+    "id": "5",
     "slug": "abd-genel-cerrahi-sosyal-medya-uyari-etiketi-cagrisi",
     "title": "ABD Genel Cerrahı'ndan Tarihi Çağrı: Sosyal Medyaya 'Sigara Benzeri' Sağlık Uyarı Etiketi Gelmeli",
     "summary": "ABD Genel Cerrahı (Surgeon General) Dr. Vivek Murthy, sosyal medya platformlarının gençlerin ruh sağlığı üzerindeki yıkıcı etkilerini tütün ürünlerine benzeterek, tüm platformlara zorunlu sağlık uyarı etiketi konulması için Kongre'ye acil çağrıda bulundu.",
@@ -34,11 +96,30 @@
     "category": "Bilim & Sağlık",
     "date": "2026-08-21",
     "readTime": "5 dk",
-    "featured": true,
+    "featured": false,
     "tags": ["ABD", "Surgeon General", "Ruh Sağlığı", "Uyarı Etiketi", "Anksiyete", "Depresyon"]
   },
   {
-    "id": "3",
+    "id": "6",
+    "slug": "guney-kore-ekran-ve-oyun-bagimliligi-kamplari",
+    "title": "Güney Kore'den Devlet Eliyle 'Dijital Detoks': Gençler İçin Akıllı Telefon ve İnternet Arınma Merkezleri",
+    "summary": "Güney Kore Cinsiyet Eşitliği ve Aile Bakanlığı, günde 6 saatten fazla ekran karşısında kalan ergenler için ülke genelinde ücretsiz yatılı 'Akıllı Telefon Detoks Kampları' işletiyor. Kamplarda telefonlar tamamen toplanırken sanat terapisi ve doğa aktiviteleri uygulanıyor.",
+    "content": [
+      "Dünyanın en yüksek internet ve akıllı telefon penetrasyonuna sahip ülkelerinden biri olan Güney Kore, dijital bağımlılığı resmi bir halk sağlığı krizi olarak tanımlayarak dünyada benzersiz bir devlet modeli uyguluyor.",
+      "Bakanlık verilerine göre, ülkedeki ortaokul ve lise öğrencilerinin yaklaşık %20'si akıllı telefonlarını ellerinden bırakamadıklarında şiddetli yoksunluk belirtileri ve öfke patlamaları yaşıyor.",
+      "Hükümet tarafından fonlanan özel detoks kamplarında gençler 1 ila 4 hafta boyunca hiçbir ekrana ve telefona erişmeden konaklıyor. Bu süre zarfında gençlere zaman yönetimi, gerçek hayatta yüz yüze iletişim ve duygusal regülasyon becerileri kazandırılıyor.",
+      "Kamp direktörleri, dijital detoksun ilk 3 gününde gençlerin yoğun kaygı yaşadığını, ancak birinci haftadan sonra uyku kalitelerinin düzeldiğini, dikkat sürelerinin uzadığını ve gerçek sosyal bağlar kurmaya başladıklarını belirtiyor."
+    ],
+    "source": "South Korea Ministry of Gender Equality & Yonhap News",
+    "sourceUrl": "https://en.yna.co.kr",
+    "category": "Bilim & Sağlık",
+    "date": "2026-08-19",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": ["Güney Kore", "Dijital Detoks", "Rehabilitasyon", "Akıllı Telefon Bağımlılığı", "Gençlik"]
+  },
+  {
+    "id": "7",
     "slug": "unesco-kuresel-egitim-raporu-okullarda-telefon-yasagi",
     "title": "UNESCO Küresel Eğitim Raporu: Okullarda Akıllı Telefon Yasağı Akademik Başarıyı ve Odaklanmayı Artırıyor",
     "summary": "UNESCO tarafından yayımlanan Küresel Eğitim İzleme Raporu, sınıflarda ve okullarda akıllı telefonların yasaklanmasının dikkat dağınıklığını azalttığını, siber zorbalığı düşürdüğünü ve öğrencilerin sınav başarılarını anlamlı derecede yükselttiğini ortaya koydu.",
@@ -57,7 +138,29 @@
     "tags": ["UNESCO", "Okul Yasakları", "Eğitim", "Akademik Başarı", "Dikkat Dağınıklığı"]
   },
   {
-    "id": "4",
+    "id": "8",
+    "slug": "cin-kucukler-modu-gece-ekran-karartma-yasasi",
+    "title": "Çin'den 'Küçükler Modu' Yasası: Reşit Olmayanlara Gece 22:00'den Sonra İnternet ve Ekran Tamamen Kapanıyor",
+    "summary": "Çin Siber Güvenlik İdaresi (CAC), tüm akıllı cihaz ve uygulama üreticilerine 18 yaş altı kullanıcılar için 'Küçükler Modu'nu zorunlu kıldı. Gece 22:00 ile 06:00 arasında cihazlar internete erişemiyor; yaş grubuna göre günlük maksimum kullanım 40 dakika ile 2 saat arasında sınırlandırılıyor.",
+    "content": [
+      "Çin hükümeti, genç nüfusta hızla yayılan miyopi, uyku bozuklukları ve dijital bağımlılıkla mücadele etmek amacıyla dünyanın en katı cihaz tabanlı sınırlandırma kurallarını yürürlüğe koydu.",
+      "Yeni siber güvenlik mevzuatına göre, ülkede satılan tüm akıllı telefonlar, tabletler ve işletim sistemleri yerleşik bir 'Küçükler Modu' (Minor Mode) barındırmak zorunda. Bu mod aktif olduğunda:",
+      "- 8 yaş altı çocuklar günde en fazla 40 dakika,",
+      "- 8-16 yaş arası çocuklar günde en fazla 1 saat,",
+      "- 16-18 yaş arası gençler günde en fazla 2 saat ekran süresi kullanabiliyor.",
+      "- Gece 22:00 ile sabah 06:00 saatleri arasında ise reşit olmayanların cihazları acil durum aramaları ve ebeveyn onaylı eğitim araçları hariç tüm internet ve oyun erişimine tamamen kapatılıyor.",
+      "Düzenleme, bireylerin kendi iradeleriyle koyamadığı sınırların sistem seviyesinde işletim sistemi ve cihaz kalkanlarıyla korunması gerektiğinin dünyadaki en radikal örneği olarak değerlendiriliyor."
+    ],
+    "source": "CAC (Cyberspace Administration of China) & BBC News",
+    "sourceUrl": "https://www.cac.gov.cn",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-08-16",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": ["Çin", "Küçükler Modu", "CAC", "Gece Ekran Yasağı", "Siber Güvenlik"]
+  },
+  {
+    "id": "9",
     "slug": "ingiltere-ve-norvec-algoritmik-akislara-kisitlama",
     "title": "İngiltere ve Norveç'ten Yeni Düzenleme: Sonsuz Kaydırma ve Bağımlılık Yapan Algoritmik Akışlar Hedefte",
     "summary": "İngiltere Medya Denetleme Kurumu (Ofcom) ve Norveç Hükümeti, sosyal medya platformlarının 'sonsuz kaydırma' (infinite scroll), otomatik video oynatma ve dopamin tuzakları içeren öneri algoritmalarını çocuklar için zorunlu olarak kapatmasını talep eden yeni güvenlik standartlarını duyurdu.",
@@ -76,7 +179,7 @@
     "tags": ["İngiltere", "Norveç", "Sonsuz Kaydırma", "Algoritma", "Ofcom", "Dijital Bağımlılık"]
   },
   {
-    "id": "5",
+    "id": "10",
     "slug": "oxford-cambridge-kisa-video-ve-dopamin-arastirmasi",
     "title": "Oxford ve Cambridge Nörobilim Araştırması: Kısa Videolar (Reels/Shorts) Beynin Odaklanma Eşiğini Düşürüyor",
     "summary": "Önde gelen nörobilimcilerin yürüttüğü kapsamlı beyin görüntüleme çalışması, 60 saniyenin altındaki hızlı video tüketiminin beynin prefrontal korteksindeki derin odaklanma ağlarını zayıflattığını ve 'dopamin toleransını' yükselttiğini kanıtladı.",
@@ -93,24 +196,5 @@
     "readTime": "5 dk",
     "featured": false,
     "tags": ["Oxford", "Cambridge", "Nörobilim", "Kısa Video", "Dopamin", "Odaklanma"]
-  },
-  {
-    "id": "6",
-    "slug": "hollanda-fransa-okullarda-telefon-yasagi-sonuclari",
-    "title": "Hollanda ve Fransa'da Okul İçi Telefon Yasağının İlk Sonuçları: Akran Zorbalığı Azaldı, Sosyalleşme Yükseldi",
-    "summary": "Hollanda ve Fransa'da okullarda akıllı telefonların tamamen yasaklanmasının ardından yapılan ilk geniş ölçekli etki değerlendirmesi, teneffüslerde çocukların fiziksel oyunlara ve yüz yüze iletişime döndüğünü, sınıflarda dikkat seviyesinin belirgin biçimde arttığını ortaya koydu.",
-    "content": [
-      "Hollanda genelindeki ortaokullarda yürürlüğe giren ulusal telefon yasağının bir yıllık sonuçları yayımlandı. Araştırma, yasağın hem öğrenciler hem de öğretmenler nezdinde beklenenden çok daha olumlu sonuçlar verdiğini gösteriyor.",
-      "Öğretmenlerin %75'i derslerdeki odaklanma ve katılımın kayda değer oranda arttığını belirtirken, okul rehberlik servisleri siber zorbalık ve dışlanma vakalarında %35'e varan düşüş kaydetti.",
-      "En çarpıcı değişim ise teneffüslerde yaşandı: Öğrencilerin zil çaldığında telefon ekranlarına gömülmek yerine bahçede spor yaptığı, sohbet ettiği ve yeni arkadaşlıklar kurduğu gözlemlendi.",
-      "Hollanda Eğitim Bakanı, 'Başlangıçta bazı ebeveynler ve öğrenciler endişeliydi. Ancak bugün görüyoruz ki telefonları sınıfların dışına çıkarmak, çocuklarımıza çocukluklarını ve gerçek sosyal bağlarını geri verdi' açıklamasında bulundu."
-    ],
-    "source": "Euronews & Dutch Ministry of Education",
-    "sourceUrl": "https://www.euronews.com",
-    "category": "Okullar & Gençlik",
-    "date": "2026-08-05",
-    "readTime": "4 dk",
-    "featured": false,
-    "tags": ["Hollanda", "Fransa", "Okul Yasakları", "Sosyalleşme", "Zorbalık", "Eğitim"]
   }
 ]
