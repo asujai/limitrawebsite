@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqs = [
+  {
+    question: "Qu’est-ce que Limitra App Block ?",
+    answer: "Limitra App Block est un outil minimaliste de blocage d’applications et de discipline numérique pour appareils Android, conçu pour vous aider à maîtriser votre temps d’écran et limiter les réseaux sociaux."
+  },
+  {
+    question: "Comment fonctionne Limitra App Block ?",
+    answer: "Vous sélectionnez les applications à restreindre et fixez une durée limite quotidienne. Une fois la limite atteinte, l’application est bloquée pour le reste de la journée."
+  },
+  {
+    question: "En quoi est-il différent des outils classiques de temps d’écran ?",
+    answer: "Les outils standards envoient souvent des avertissements que l’on peut ignorer ou reporter d’un simple clic. Limitra App Block applique une limite ferme sans bouton pour repousser l’échéance."
+  },
+  {
+    question: "Mes données d’utilisation sont-elles envoyées sur le cloud ?",
+    answer: "Non. Limitra App Block garantit une confidentialité totale. Toutes les données d’utilisation restent exclusivement stockées sur votre appareil Android."
+  },
+  {
+    question: "L’application coupe-t-elle l’accès à Internet ?",
+    answer: "Non. Elle n’interfère pas avec votre connexion globale. Elle masque et restreint uniquement les applications ciblées une fois votre temps dépassé."
+  },
+  {
+    question: "Où puis-je télécharger l’application ?",
+    answer: "Vous pouvez installer Limitra App Block directement depuis le Google Play Store via les boutons de téléchargement de notre site."
+  }
+];
+---
+
+<Layout
+  title="Foire aux questions | Limitra App Block"
+  description="Réponses aux questions fréquentes sur le fonctionnement, la confidentialité et la gestion du temps d’écran avec Limitra App Block."
+  lang="fr"
+>
+  <section class="faq-page">
+    <div class="container content-width">
+      <header class="faq-header">
+        <a href="/fr" class="back-link">&larr; Accueil</a>
+        <h1>Foire aux questions</h1>
+        <p class="subtitle">Tout ce que vous devez savoir sur Limitra App Block et votre parcours d’équilibre numérique.</p>
+      </header>
+
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>{faq.question}</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>{faq.answer}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .faq-page { padding: 4rem 0 6rem; }
+  .content-width { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+  .faq-header { text-align: center; margin-bottom: 3.5rem; }
+  .back-link { display: inline-block; color: #6366f1; text-decoration: none; font-weight: 600; font-size: 0.9rem; margin-bottom: 1rem; }
+  .faq-header h1 { font-size: 2.5rem; font-weight: 800; color: #09162f; margin-bottom: 0.75rem; }
+  .subtitle { font-size: 1.15rem; color: #64748b; line-height: 1.5; }
+  .faq-list { display: flex; flex-direction: column; gap: 1.25rem; }
+  .faq-item { background: #ffffff; border: 1px solid rgba(15, 23, 42, 0.08); border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+  .faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem; font-weight: 700; font-size: 1.1rem; color: #09162f; cursor: pointer; list-style: none; }
+  .faq-question::-webkit-details-marker { display: none; }
+  .faq-icon { font-size: 1.4rem; color: #6366f1; font-weight: 400; transition: transform 0.2s ease; }
+  .faq-item[open] .faq-icon { transform: rotate(45deg); }
+  .faq-answer { padding: 0 1.5rem 1.5rem; color: #475569; line-height: 1.6; }
+</style>

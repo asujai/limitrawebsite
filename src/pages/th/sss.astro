@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqs = [
+  {
+    question: "Limitra App Block คืออะไร?",
+    answer: "Limitra App Block คือแอปพลิเคชันสไตล์มินิมอลสำหรับบล็อกแอปและสร้างวินัยดิจิทัลบนอุปกรณ์ Android ช่วยให้คุณควบคุมเวลาหน้าจอและลดการใช้งานโซเชียลมีเดียได้อย่างมีประสิทธิภาพ"
+  },
+  {
+    question: "Limitra App Block ทำงานอย่างไร?",
+    answer: "คุณเลือกแอปพลิเคชันที่ต้องการจำกัดและตั้งเวลาการใช้งานรายวัน เมื่อถึงขีดจำกัดที่กำหนด Limitra App Block จะบล็อกการเข้าถึงแอปนั้นตลอดทั้งวันที่เหลือ"
+  },
+  {
+    question: "แตกต่างจากเครื่องมือจำกัดเวลาหน้าจอทั่วไปอย่างไร?",
+    answer: "เครื่องมือทั่วไปมักส่งการแจ้งเตือนที่กดเลื่อนเวลาได้ง่าย แต่ Limitra App Block กำหนดขีดจำกัดที่เด็ดขาดโดยไม่มีปุ่มเลื่อนเวลา เพื่อให้คุณรักษาสัญญาที่ตั้งใจไว้"
+  },
+  {
+    question: "ข้อมูลการใช้งานของฉันถูกส่งไปยังคลาวด์หรือไม่?",
+    answer: "ไม่ ข้อมูลการใช้งานทั้งหมดจะถูกประมวลผลและจัดเก็บเฉพาะบนอุปกรณ์ Android ของคุณเพื่อความเป็นส่วนตัวสูงสุด"
+  },
+  {
+    question: "แอปนี้บล็อกการเชื่อมต่ออินเทอร์เน็ตหรือไม่?",
+    answer: "ไม่ แอปไม่ได้แทรกแซงการเชื่อมต่ออินเทอร์เน็ตของเครื่อง แต่จะปิดและบล็อกเฉพาะหน้าจอของแอปที่คุณกำหนดไว้เมื่อหมดเวลา"
+  },
+  {
+    question: "ฉันสามารถดาวน์โหลดแอปได้จากที่ไหน?",
+    answer: "คุณสามารถดาวน์โหลด Limitra App Block ได้โดยตรงจาก Google Play Store ผ่านปุ่มลิงก์บนเว็บไซต์ของเรา"
+  }
+];
+---
+
+<Layout
+  title="คำถามที่พบบ่อย (FAQ) | Limitra App Block"
+  description="คำตอบสำหรับคำถามที่พบบ่อยเกี่ยวกับฟีเจอร์ ความเป็นส่วนตัว และการจัดการเวลาหน้าจอของ Limitra App Block บน Android"
+  lang="th"
+>
+  <section class="faq-page">
+    <div class="container content-width">
+      <header class="faq-header">
+        <a href="/th" class="back-link">&larr; หน้าแรก</a>
+        <h1>คำถามที่พบบ่อย</h1>
+        <p class="subtitle">ทุกสิ่งที่คุณจำเป็นต้องรู้เกี่ยวกับ Limitra App Block และการสร้างวินัยดิจิทัลของคุณ</p>
+      </header>
+
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>{faq.question}</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>{faq.answer}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .faq-page { padding: 4rem 0 6rem; }
+  .content-width { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+  .faq-header { text-align: center; margin-bottom: 3.5rem; }
+  .back-link { display: inline-block; color: #6366f1; text-decoration: none; font-weight: 600; font-size: 0.9rem; margin-bottom: 1rem; }
+  .faq-header h1 { font-size: 2.5rem; font-weight: 800; color: #09162f; margin-bottom: 0.75rem; }
+  .subtitle { font-size: 1.15rem; color: #64748b; line-height: 1.6; }
+  .faq-list { display: flex; flex-direction: column; gap: 1.25rem; }
+  .faq-item { background: #ffffff; border: 1px solid rgba(15, 23, 42, 0.08); border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+  .faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem; font-weight: 700; font-size: 1.1rem; color: #09162f; cursor: pointer; list-style: none; }
+  .faq-question::-webkit-details-marker { display: none; }
+  .faq-icon { font-size: 1.4rem; color: #6366f1; font-weight: 400; transition: transform 0.2s ease; }
+  .faq-item[open] .faq-icon { transform: rotate(45deg); }
+  .faq-answer { padding: 0 1.5rem 1.5rem; color: #475569; line-height: 1.7; }
+</style>

@@ -1,5 +1,36 @@
 # İşlem Geçmişi
 
+## [2026-08-28 00:02] - 11 Dilli Küresel Mimari ve Uluslararası SEO Entegrasyonu
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `src/data/translations.ts` (11 dilde yerelleştirme sözlüğü)
+  - `[YENİ]` `src/pages/es/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/fr/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/de/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/pt/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/it/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/ar/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/id/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/fil/` (index, limitra, sss)
+  - `[YENİ]` `src/pages/th/` (index, limitra, sss)
+  - `[GÜNCELLENDİ]` `src/layouts/Layout.astro` (RTL desteği, dil tespiti ve hreflang etiketleri)
+  - `[GÜNCELLENDİ]` `src/components/Navigation.astro` (11 dilli modern açılır menü)
+  - `[GÜNCELLENDİ]` `src/components/Footer.astro` (11 dilli bağlantılar ve telif)
+  - `[GÜNCELLENDİ]` `src/components/HomePage.astro` (11 dilde tam lokalize içerik)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (Tüm dillerin rotaları)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** 
+  1. İspanyolca (ES), Fransızca (FR), Almanca (DE), Portekizce (PT), İtalyanca (IT), Arapça (AR), Endonezce (ID), Filipince (FIL) ve Tayca (TH) dilleri eklenerek web sitesi 11 dilli hale getirildi.
+  2. Her dil için bölgesel arama terimleri ve anahtar kelimeler (bloquear aplicaciones, temps d'écran, bildschirmzeit, tempo de tela, وقت الشاشة vb.) lokalize edildi.
+  3. Navbar'a bayraklı ve yerel isimli modern açılır menü (dropdown) eklendi.
+  4. Arapça için `dir="rtl"` sağdan sola yerleşim stili tanımlandı.
+  5. Görsel mockuplar korunup tüm metin alanları ve meta etiketler zenginleştirildi.
+* **Doğrulama:** `npm run build` çalıştırıldı, 80 sayfanın tamamı 0 hata ile statik olarak derlendi.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Çok dilli organik arama performansının Google Search Console üzerinden takip edilmesi.
+
 ## [2026-08-27 23:53] - Resmi ve Teyitli Haber/Makale Arşivinin Zenginleştirilmesi
 
 * **Model:** Antigravity

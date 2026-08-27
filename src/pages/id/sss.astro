@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqs = [
+  {
+    question: "Apa itu Limitra App Block?",
+    answer: "Limitra App Block adalah aplikasi pemblokir dan pembangun disiplin digital minimalis untuk perangkat Android, dirancang untuk membantumu mengontrol waktu layar dan membatasi media sosial."
+  },
+  {
+    question: "Bagaimana cara kerja Limitra App Block?",
+    answer: "Kamu memilih aplikasi yang ingin dibatasi dan menetapkan batas waktu pemakaian harian. Saat batas tercapai, Limitra App Block mengunci akses ke aplikasi tersebut hingga keesokan harinya."
+  },
+  {
+    question: "Apa bedanya dengan alat waktu layar bawaan ponsel?",
+    answer: "Alat bawaan biasanya hanya memberi peringatan ringan yang sangat mudah ditunda atau diabaikan. Limitra App Block menerapkan batasan tegas tanpa tombol tunda, memastikan komitmenmu terjaga."
+  },
+  {
+    question: "Apakah data penggunaan saya dikirim ke server cloud?",
+    answer: "Tidak. Limitra App Block berpegang teguh pada privasi. Seluruh data penggunaan hanya diproses dan disimpan secara lokal di dalam ponsel Android milikmu."
+  },
+  {
+    question: "Apakah aplikasi ini mematikan koneksi internet?",
+    answer: "Tidak. Aplikasi ini tidak mengganggu koneksi internetmu sama sekali. Limitra hanya memblokir antarmuka aplikasi tertentu yang telah melampaui batas harian."
+  },
+  {
+    question: "Di mana saya bisa mengunduh aplikasi ini?",
+    answer: "Kamu bisa mengunduh Limitra App Block langsung dari Google Play Store melalui tombol tautan yang ada di situs web kami."
+  }
+];
+---
+
+<Layout
+  title="Tanya Jawab (FAQ) | Limitra App Block"
+  description="Jawaban atas pertanyaan umum tentang fitur, privasi, dan kontrol waktu layar Limitra App Block di Android."
+  lang="id"
+>
+  <section class="faq-page">
+    <div class="container content-width">
+      <header class="faq-header">
+        <a href="/id" class="back-link">&larr; Beranda</a>
+        <h1>Tanya Jawab</h1>
+        <p class="subtitle">Semua yang perlu kamu ketahui tentang Limitra App Block dan perjalanan disiplin digitalmu.</p>
+      </header>
+
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>{faq.question}</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>{faq.answer}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .faq-page { padding: 4rem 0 6rem; }
+  .content-width { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+  .faq-header { text-align: center; margin-bottom: 3.5rem; }
+  .back-link { display: inline-block; color: #6366f1; text-decoration: none; font-weight: 600; font-size: 0.9rem; margin-bottom: 1rem; }
+  .faq-header h1 { font-size: 2.5rem; font-weight: 800; color: #09162f; margin-bottom: 0.75rem; }
+  .subtitle { font-size: 1.15rem; color: #64748b; line-height: 1.5; }
+  .faq-list { display: flex; flex-direction: column; gap: 1.25rem; }
+  .faq-item { background: #ffffff; border: 1px solid rgba(15, 23, 42, 0.08); border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+  .faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem; font-weight: 700; font-size: 1.1rem; color: #09162f; cursor: pointer; list-style: none; }
+  .faq-question::-webkit-details-marker { display: none; }
+  .faq-icon { font-size: 1.4rem; color: #6366f1; font-weight: 400; transition: transform 0.2s ease; }
+  .faq-item[open] .faq-icon { transform: rotate(45deg); }
+  .faq-answer { padding: 0 1.5rem 1.5rem; color: #475569; line-height: 1.6; }
+</style>

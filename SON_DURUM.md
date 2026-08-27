@@ -5,29 +5,24 @@
 - **Teknoloji:** Astro 4.16, SSG (Static Site Generation), Vanilla CSS
 - **Canlı Adres / Alan Adı:** `https://limitra.online` (Canonical)
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
+- **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-08-27)
-- Web sitesinde ürün adı baştan sona **"Limitra App Block"** olarak revize edildi.
-- Dünya basınından ve resmi kurumlardan derlenen 10 adet teyitli, resmi ve derinlikli haber/makale arşivi sisteme entegre edildi.
-  * ABD Meta 17.1 Milyar Dolarlık Bağımlılık Tasarımı Davası Uzlaşması (Ağustos 2026)
-  * Türkiye MEB Okullarda Cep Telefonu Yasağı Genelgesi (Ağustos 2026)
-  * Avrupa Birliği DSA TikTok Bağımlılık Yapan Tasarım Yaptırımı
-  * Avustralya 16 Yaş Altı Sosyal Medya Yasağı
-  * ABD Genel Cerrahı (Surgeon General) Sağlık Uyarı Etiketi Çağrısı
-  * Güney Kore Devlet Eliyle Gençlik Dijital Detoks Kampları
-  * UNESCO Küresel Eğitim Raporu Okul Telefon Yasakları
-  * Çin Küçükler Modu Gece Ekran Karartma Yasası
-  * İngiltere ve Norveç Sonsuz Kaydırma ve Algoritmik Kısıtlama Düzenlemesi
-  * Oxford ve Cambridge Kısa Video ve Dopamin Nörobilim Araştırması
-- Türkçe ve İngilizce tüm sayfalar (`/haberler`, `/haberler/[slug]`, `/en/news`, `/en/news/[slug]`) ve Sitemap güncellendi.
-- `npm run build` ile 53 sayfa hatasız derlendi.
+## Güncel Durum (2026-08-28)
+- Web sitesi 11 dilli küresel bir platforma dönüştürüldü.
+- `src/data/translations.ts` ile tüm diller için arama motoru optimizasyonuna (SEO) uygun anahtar kelimeler ve metinler hazırlandı.
+- Navbar'a tüm dilleri listeleyen bayraklı ve yerel isimli modern açılır dil seçici (Dropdown) eklendi.
+- Arapça için otomatik `dir="rtl"` sağdan sola yerleşim desteği entegre edildi.
+- Görsel ve mockup bileşenlerinin estetiği korunarak metin alanları 11 dilde lokalize edildi.
+- 10 adet teyitli ve resmi dünya basını haber arşivi sisteme işlendi.
+- `sitemap.xml` 11 dilin tüm rotalarını kapsayacak şekilde güncellendi.
+- `npm run build` ile 80 statik sayfa 0 hata ile derlendi.
 
 ## Son Yapılan İşlem
-- **İşlem:** Resmi ve teyitli 10 haber/makalenin Türkçe & İngilizce olarak haber merkezine eklenmesi, Meta 17.1 Milyar Dolar davası ve MEB genelgesi dahil küresel arşivin zenginleştirilmesi.
+- **İşlem:** 9 yeni dilin (İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Arapça, Endonezce, Filipince, Tayca) sisteme eklenmesi, çok dilli açılır dil seçici menüsü ve RTL desteğinin entegrasyonu.
 - **Model:** Antigravity
 
 ## Doğrulama
-- `npm run build` başarıyla çalıştırıldı (53 sayfa 0 hata ile statik olarak derlendi).
+- `npm run build` başarıyla çalıştırıldı (80 sayfa 0 hata ile statik olarak derlendi).
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:

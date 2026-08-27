@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
+import type { SupportedLang } from '../data/translations';
 
 interface Props {
   title: string;
@@ -9,6 +10,7 @@ interface Props {
   ogTitle?: string;
   ogDescription?: string;
   ogImage?: string;
+  lang?: SupportedLang;
 }
 
 const {
@@ -19,10 +21,18 @@ const {
   ogImage = '/og-limitra.png'
 } = Astro.props;
 
-const isEn = Astro.url.pathname.startsWith('/en');
-const lang = isEn ? 'en' : 'tr';
+const pathname = Astro.url.pathname;
+
+// URL'den dili otomatik belirleme (veya prop'tan alma)
+const pathSegments = pathname.split('/').filter(Boolean);
+const firstSegment = pathSegments[0] as SupportedLang;
+const supportedLangs: SupportedLang[] = ['tr', 'en', 'es', 'fr', 'de', 'pt', 'it', 'ar', 'id', 'fil', 'th'];
+
+const currentLang: SupportedLang = Astro.props.lang || (supportedLangs.includes(firstSegment) ? firstSegment : 'tr');
+const isRtl = currentLang === 'ar';
+
 const baseUrl = Astro.site ?? Astro.url;
-const canonicalUrl = new URL(Astro.url.pathname, baseUrl);
+const canonicalUrl = new URL(pathname, baseUrl);
 const shareImage = new URL(ogImage, baseUrl);
 
 const pageTitle = title.includes('Limitra') ? title : `${title} | Limitra App Block`;
@@ -30,15 +40,18 @@ const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitr
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={currentLang} dir={isRtl ? 'rtl' : 'ltr'}>
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18366719669"></script>
     <script>
+      // @ts-ignore
       window.dataLayer = window.dataLayer || [];
+      // @ts-ignore
       function gtag(){dataLayer.push(arguments);}
+      // @ts-ignore
       gtag('js', new Date());
-
+      // @ts-ignore
       gtag('config', 'AW-18366719669');
     </script>
     <meta charset="UTF-8" />
@@ -59,18 +72,56 @@ const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitr
     <meta property="og:title" content={pageOgTitle} />
     <meta property="og:description" content={ogDescription} />
     <meta property="og:image" content={shareImage} />
-    <meta property="og:locale" content={isEn ? 'en_US' : 'tr_TR'} />
+
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalUrl} />
     <meta name="twitter:title" content={pageOgTitle} />
     <meta name="twitter:description" content={ogDescription} />
     <meta name="twitter:image" content={shareImage} />
+
+    <!-- Alternate Hreflang SEO Tags -->
+    <link rel="alternate" hreflang="tr" href="https://limitra.online/" />
+    <link rel="alternate" hreflang="en" href="https://limitra.online/en" />
+    <link rel="alternate" hreflang="es" href="https://limitra.online/es" />
+    <link rel="alternate" hreflang="fr" href="https://limitra.online/fr" />
+    <link rel="alternate" hreflang="de" href="https://limitra.online/de" />
+    <link rel="alternate" hreflang="pt" href="https://limitra.online/pt" />
+    <link rel="alternate" hreflang="it" href="https://limitra.online/it" />
+    <link rel="alternate" hreflang="ar" href="https://limitra.online/ar" />
+    <link rel="alternate" hreflang="id" href="https://limitra.online/id" />
+    <link rel="alternate" hreflang="fil" href="https://limitra.online/fil" />
+    <link rel="alternate" hreflang="th" href="https://limitra.online/th" />
+    <link rel="alternate" hreflang="x-default" href="https://limitra.online/en" />
   </head>
-  <body>
-    <a class="skip-link" href="#main-content">{isEn ? 'Skip to content' : 'İçeriğe geç'}</a>
-    <Navigation />
+  <body class={isRtl ? 'rtl-layout' : ''}>
+    <a href="#main-content" class="skip-link">İçeriğe Geç</a>
+    <Navigation currentLang={currentLang} />
     <main id="main-content">
       <slot />
     </main>
-    <Footer />
+    <Footer currentLang={currentLang} />
   </body>
 </html>
+
+<style is:global>
+  .skip-link {
+    position: absolute;
+    top: -100px;
+    left: 1rem;
+    background: #000;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    z-index: 9999;
+    font-weight: 600;
+    border-radius: 0 0 8px 8px;
+    text-decoration: none;
+    transition: top 0.2s ease;
+  }
+  .skip-link:focus {
+    top: 0;
+  }
+  .rtl-layout {
+    direction: rtl;
+    text-align: right;
+  }
+</style>

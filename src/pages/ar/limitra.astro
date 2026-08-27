@@ -1,0 +1,103 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const steps = [
+  { num: '01', title: 'اختر التطبيقات المشتتة', text: 'حدد تطبيقات التواصل الاجتماعي أو الألعاب التي تستهلك أكبر قدر من وقتك وتركيزك اليومي.' },
+  { num: '02', title: 'ضع حداً يومياً واضحاً', text: 'حدد بكل هدوء وتركيز الوقت المسموح به لكل تطبيق خلال اليوم.' },
+  { num: '03', title: 'حظر تلقائي وحاسم', text: 'بمجرد انتهاء الوقت، يمنع Limitra App Block الوصول للتطبيق لبقية اليوم دون خيارات تأجيل.' }
+];
+
+const highlights = [
+  { label: 'داخل جهازك', value: '100%', detail: 'بيانات استخدامك لا تُرسل إلى السحابة أو لأي طرف ثالث.' },
+  { label: 'بدون إعلانات', value: '0', detail: 'تجربة نظيفة وهادئة وخالية تماماً من فخاخ الانتباه.' },
+  { label: 'حدود صارمة', value: 'حقيقي', detail: 'لا وجود لأزرار سهلة لتخطي أو تأجيل الحظر المفروض.' }
+];
+---
+
+<Layout
+  title="كيف يعمل؟ | Limitra App Block"
+  description="تعرف على كيفية حماية وقتك وبناء انضباطك الرقمي على أجهزة أندرويد مع Limitra App Block."
+  lang="ar"
+>
+  <div class="limitra-page">
+    <section class="limitra-hero">
+      <div class="container content-width">
+        <span class="badge">كيف يعمل؟</span>
+        <h1>حدود واضحة لاستعادة انتباهك ووقتك</h1>
+        <p class="lead">
+          تطبيق Limitra App Block هو أداة بسيطة لأجهزة أندرويد صُممت لمساعدتك على الالتزام بقراراتك العقلانية دون الاعتماد على الإرادة اللحظية وحدها.
+        </p>
+      </div>
+    </section>
+
+    <section class="limitra-steps">
+      <div class="container content-width">
+        <div class="steps-list">
+          {steps.map((step) => (
+            <div class="step-row">
+              <span class="step-index">{step.num}</span>
+              <div class="step-body">
+                <h2>{step.title}</h2>
+                <p>{step.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="limitra-values">
+      <div class="container content-width">
+        <div class="values-grid">
+          {highlights.map((h) => (
+            <div class="value-card">
+              <span class="value-stat">{h.value}</span>
+              <h3>{h.label}</h3>
+              <p>{h.detail}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="limitra-cta">
+      <div class="container content-width">
+        <div class="cta-inner">
+          <h2>ابدأ اليوم باستعادة وقتك</h2>
+          <p>ثبّت Limitra App Block على هاتفك الأندرويد واستعد هدوءك وتركيزك.</p>
+          <a href="https://play.google.com/store/apps/details?id=com.gardiyan.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            تحميل من Google Play &larr;
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .limitra-page { padding: 3rem 0; }
+  .content-width { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+  .limitra-hero { text-align: center; padding: 3rem 0 2rem; }
+  .badge { display: inline-block; background: #eef2ff; color: #4338ca; padding: 0.35rem 0.85rem; border-radius: 9999px; font-weight: 600; font-size: 0.85rem; margin-bottom: 1.25rem; }
+  .limitra-hero h1 { font-size: 2.5rem; font-weight: 800; color: #09162f; margin-bottom: 1rem; line-height: 1.3; }
+  .lead { font-size: 1.2rem; color: #475569; line-height: 1.8; }
+  .steps-list { display: flex; flex-direction: column; gap: 2rem; margin: 3rem 0; }
+  .step-row { display: flex; gap: 1.5rem; background: #ffffff; padding: 2rem; border-radius: 16px; border: 1px solid rgba(15, 23, 42, 0.08); box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
+  .step-index { font-size: 1.75rem; font-weight: 800; color: #6366f1; }
+  .step-body h2 { font-size: 1.25rem; font-weight: 700; color: #09162f; margin-bottom: 0.5rem; }
+  .step-body p { color: #64748b; line-height: 1.8; margin: 0; }
+  .values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin: 3rem 0; }
+  .value-card { background: #f8fafc; padding: 2rem 1.5rem; border-radius: 16px; text-align: center; border: 1px solid rgba(15, 23, 42, 0.06); }
+  .value-stat { font-size: 2.25rem; font-weight: 800; color: #09162f; display: block; margin-bottom: 0.5rem; }
+  .value-card h3 { font-size: 1.05rem; font-weight: 700; color: #09162f; margin-bottom: 0.5rem; }
+  .value-card p { color: #64748b; font-size: 0.9rem; line-height: 1.6; margin: 0; }
+  .cta-inner { background: #09162f; color: #ffffff; padding: 3.5rem 2rem; border-radius: 24px; text-align: center; }
+  .cta-inner h2 { font-size: 2rem; font-weight: 800; margin-bottom: 1rem; }
+  .cta-inner p { color: #94a3b8; font-size: 1.1rem; margin-bottom: 2rem; line-height: 1.8; }
+  .btn-primary { display: inline-flex; align-items: center; background: #6366f1; color: #ffffff; padding: 0.85rem 1.75rem; border-radius: 9999px; font-weight: 700; text-decoration: none; transition: transform 0.2s ease; }
+  .btn-primary:hover { transform: translateY(-2px); }
+  @media (max-width: 640px) {
+    .values-grid { grid-template-columns: 1fr; }
+    .limitra-hero h1 { font-size: 2rem; }
+  }
+</style>

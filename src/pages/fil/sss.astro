@@ -1,0 +1,76 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqs = [
+  {
+    question: "Ano ang Limitra App Block?",
+    answer: "Ang Limitra App Block ay isang minimalist na app blocker at digital discipline helper para sa mga Android device, na tumutulong sa iyong kontrolin ang oras sa screen at bawasan ang paggamit ng social media."
+  },
+  {
+    question: "Paano gumagana ang Limitra App Block?",
+    answer: "Pipiliin mo ang mga app na nais mong limitahan at magtatakda ng araw-araw na limitasyon sa oras. Kapag naabot na ang limitasyon, hinaharangan ng Limitra App Block ang access para sa natitirang bahagi ng araw."
+  },
+  {
+    question: "Paano ito naiiba sa karaniwang screen time tools?",
+    answer: "Ang mga karaniwang app ay nagpapadala lang ng malalambot na paalala na madaling i-snooze. Ang Limitra App Block ay naglalagay ng matibay na harang na walang snooze button, na tinitiyak na susundin mo ang iyong unang desisyon."
+  },
+  {
+    question: "Ipinapadala ba ang data ng paggamit ko sa cloud?",
+    answer: "Hindi. Ganap na pinoprotektahan ng Limitra App Block ang iyong privacy. Ang lahat ng data ay lokal na pinoproseso at nananatili lamang sa iyong Android phone."
+  },
+  {
+    question: "Hinaharangan ba nito ang internet connection?",
+    answer: "Hindi. Hindi ito nakikialam sa koneksyon ng iyong device sa internet. Hinaharangan lang nito ang interface ng mga partikular na app na itinakda mo kapag lumampas ka sa oras."
+  },
+  {
+    question: "Saan ko maaaring i-download ang app?",
+    answer: "Maaari mong i-download ang Limitra App Block nang direkta mula sa Google Play Store gamit ang mga link sa aming website."
+  }
+];
+---
+
+<Layout
+  title="Mga Madalas Itanong (FAQ) | Limitra App Block"
+  description="Mga sagot sa mga karaniwang tanong tungkol sa mga feature, privacy, at pamamahala ng oras sa screen ng Limitra App Block sa Android."
+  lang="fil"
+>
+  <section class="faq-page">
+    <div class="container content-width">
+      <header class="faq-header">
+        <a href="/fil" class="back-link">&larr; Tahanan</a>
+        <h1>Mga Madalas Itanong</h1>
+        <p class="subtitle">Lahat ng kailangan mong malaman tungkol sa Limitra App Block at ang iyong paglalakbay sa digital na disiplina.</p>
+      </header>
+
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>{faq.question}</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>{faq.answer}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .faq-page { padding: 4rem 0 6rem; }
+  .content-width { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+  .faq-header { text-align: center; margin-bottom: 3.5rem; }
+  .back-link { display: inline-block; color: #6366f1; text-decoration: none; font-weight: 600; font-size: 0.9rem; margin-bottom: 1rem; }
+  .faq-header h1 { font-size: 2.5rem; font-weight: 800; color: #09162f; margin-bottom: 0.75rem; }
+  .subtitle { font-size: 1.15rem; color: #64748b; line-height: 1.5; }
+  .faq-list { display: flex; flex-direction: column; gap: 1.25rem; }
+  .faq-item { background: #ffffff; border: 1px solid rgba(15, 23, 42, 0.08); border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+  .faq-question { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem; font-weight: 700; font-size: 1.1rem; color: #09162f; cursor: pointer; list-style: none; }
+  .faq-question::-webkit-details-marker { display: none; }
+  .faq-icon { font-size: 1.4rem; color: #6366f1; font-weight: 400; transition: transform 0.2s ease; }
+  .faq-item[open] .faq-icon { transform: rotate(45deg); }
+  .faq-answer { padding: 0 1.5rem 1.5rem; color: #475569; line-height: 1.6; }
+</style>

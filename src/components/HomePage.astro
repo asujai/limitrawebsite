@@ -2,69 +2,111 @@
 import Layout from '../layouts/Layout.astro';
 import haberlerTr from '../data/haberler.json';
 import haberlerEn from '../data/news-en.json';
+import { translations, type SupportedLang } from '../data/translations';
 
 interface Props {
-  lang?: 'tr' | 'en';
+  lang?: SupportedLang;
 }
 
 const { lang = 'tr' } = Astro.props;
-const isEn = lang === 'en';
-const prefix = isEn ? '/en' : '';
+const t = translations[lang] || translations.en;
+const prefix = lang === 'tr' ? '' : `/${lang}`;
 const playUrl = 'https://play.google.com/store/apps/details?id=com.gardiyan.app';
 
-const latestNews = (isEn ? haberlerEn : haberlerTr).slice(0, 3);
+const latestNews = (lang === 'tr' ? haberlerTr : haberlerEn).slice(0, 3);
+const newsUrl = lang === 'tr' ? '/haberler' : `${prefix}/news`;
 
-const steps = isEn ? [
-  { num: '01', title: 'Choose the distractions', text: 'Select the apps that steal your attention most often.' },
-  { num: '02', title: 'Set a clear limit', text: 'Decide how much time each app deserves while your mind is clear.' },
-  { num: '03', title: 'Let Limitra App Block protect it', text: 'When time is up, the boundary you set becomes a real pause.' }
-] : [
-  { num: '01', title: 'Dikkat dağıtanları seç', text: 'Seni en sık ekrana çeken uygulamaları belirle.' },
-  { num: '02', title: 'Net bir sınır koy', text: 'Zihnin sakinken her uygulamanın hak ettiği süreye karar ver.' },
-  { num: '03', title: 'Korumayı Limitra App Block’a bırak', text: 'Süre dolduğunda verdiğin karar gerçek bir molaya dönüşsün.' }
-];
+const steps = t.steps.items;
 
-const guides = isEn ? [
-  { href: '/en/bilgi-merkezi/ekran-suresi', meta: '6 min', title: 'Understand your screen time', text: 'See what constant phone use does to focus and daily rhythm.' },
-  { href: '/en/bilgi-merkezi/klasik-limitler-neden-yetmez', meta: '5 min', title: 'Why soft limits are easy to ignore', text: 'Explore why a warning is often not enough at the moment of temptation.' },
-  { href: '/en/bilgi-merkezi/dikkat-uyku-ve-rutinler', meta: '7 min', title: 'Protect sleep and attention', text: 'Build calmer evening routines without relying on willpower alone.' }
-] : [
+const guides = lang === 'tr' ? [
   { href: '/bilgi-merkezi/ekran-suresi', meta: '6 dk', title: 'Ekran süreni gerçekten anla', text: 'Sürekli telefon kullanımının dikkat ve günlük ritim üzerindeki etkisini gör.' },
   { href: '/bilgi-merkezi/klasik-limitler-neden-yetmez', meta: '5 dk', title: 'Yumuşak limitler neden yetmez?', text: 'Bir uyarının dürtü anında neden kolayca yok sayıldığını keşfet.' },
   { href: '/bilgi-merkezi/dikkat-uyku-ve-rutinler', meta: '7 dk', title: 'Uyku ve dikkatini koru', text: 'Yalnızca iradeye güvenmeden daha sakin akşam rutinleri kur.' }
+] : [
+  { href: `${prefix}/bilgi-merkezi/ekran-suresi`, meta: '6 min', title: 'Understand your screen time', text: 'See what constant phone use does to focus and daily rhythm.' },
+  { href: `${prefix}/bilgi-merkezi/klasik-limitler-neden-yetmez`, meta: '5 min', title: 'Why soft limits are easy to ignore', text: 'Explore why a warning is often not enough at the moment of temptation.' },
+  { href: `${prefix}/bilgi-merkezi/dikkat-uyku-ve-rutinler`, meta: '7 min', title: 'Protect sleep and attention', text: 'Build calmer evening routines without relying on willpower alone.' }
 ];
+
+const pageTitles: Record<SupportedLang, { title: string; desc: string }> = {
+  tr: {
+    title: 'Limitra App Block | Ekran Süresini Kontrol Et, Uygulama Engelleyici ve Dijital Denge',
+    desc: 'Limitra App Block ile ekran süreni kontrol et, uygulama kullanımını sınırla ve dijital alışkanlıklarını daha bilinçli şekilde yönet.'
+  },
+  en: {
+    title: 'Limitra App Block | Screen Time Control & App Blocker',
+    desc: 'Control screen time, block distracting apps, and build digital discipline with Limitra App Block.'
+  },
+  es: {
+    title: 'Limitra App Block | Bloqueador de aplicaciones y control de tiempo de pantalla',
+    desc: 'Controla el tiempo de pantalla, bloquea apps que distraen y construye disciplina digital con Limitra App Block para Android.'
+  },
+  fr: {
+    title: 'Limitra App Block | Bloqueur d’applications et contrôle du temps d’écran',
+    desc: 'Maîtrisez votre temps d’écran, bloquez les applications distrayantes et renforcez votre discipline numérique avec Limitra App Block.'
+  },
+  de: {
+    title: 'Limitra App Block | App-Blocker und Bildschirmzeit begrenzen',
+    desc: 'Kontrollieren Sie Ihre Bildschirmzeit, blockieren Sie ablenkende Apps und bauen Sie digitale Disziplin auf mit Limitra App Block.'
+  },
+  pt: {
+    title: 'Limitra App Block | Bloqueador de aplicativos e controle de tempo de tela',
+    desc: 'Controle o tempo de tela, bloqueie aplicativos distrativos e construa disciplina digital com o Limitra App Block para Android.'
+  },
+  it: {
+    title: 'Limitra App Block | Blocco app e controllo del tempo di utilizzo',
+    desc: 'Controlla il tempo di utilizzo dello smartphone, blocca le app che distraggono e crea una sana disciplina digitale con Limitra App Block.'
+  },
+  ar: {
+    title: 'Limitra App Block | تطبيق حظر التطبيقات والتحكم في وقت الشاشة والانضباط الرقمي',
+    desc: 'تحكم في وقت الشاشة، واحظر التطبيقات المشتتة، وابنِ انضباطاً رقمياً حقيقياً مع تطبيق Limitra App Block لأجهزة أندرويد.'
+  },
+  id: {
+    title: 'Limitra App Block | Pemblokir aplikasi dan pengontrol waktu layar Android',
+    desc: 'Kendalikan waktu layar, blokir aplikasi yang mengganggu, dan bangun disiplin digital yang nyata bersama Limitra App Block.'
+  },
+  fil: {
+    title: 'Limitra App Block | App blocker at kontrol sa oras sa screen para sa Android',
+    desc: 'Kontrolin ang oras sa screen, i-block ang mga nakakaabalang app, at palakasin ang iyong digital na disiplina gamit ang Limitra App Block.'
+  },
+  th: {
+    title: 'Limitra App Block | ตัวบล็อกแอปและควบคุมเวลาหน้าจอสำหรับ Android',
+    desc: 'ควบคุมเวลาหน้าจอ บล็อกแอปที่รบกวนสมาธิ และสร้างวินัยดิจิทัลอย่างยั่งยืนด้วย Limitra App Block สำหรับ Android'
+  }
+};
+
+const currentMeta = pageTitles[lang] || pageTitles.en;
 ---
 
 <Layout
-  title={isEn ? 'Limitra App Block | Screen Time Control & App Blocker' : 'Limitra App Block | Ekran Süresini Kontrol Et, Uygulama Engelleyici ve Dijital Denge'}
-  description={isEn ? 'Control screen time, block distracting apps, and build digital discipline with Limitra App Block.' : 'Limitra App Block ile ekran süreni kontrol et, uygulama kullanımını sınırla ve dijital alışkanlıklarını daha bilinçli şekilde yönet.'}
-  ogTitle={isEn ? 'Limitra App Block | Screen Time Control' : 'Limitra App Block | Ekran Süresini Kontrol Et'}
-  ogDescription={isEn ? 'Manage your screen time and digital habits more mindfully with Limitra App Block.' : 'Ekran süreni ve dijital alışkanlıklarını Limitra App Block ile daha bilinçli yönet.'}
+  title={currentMeta.title}
+  description={currentMeta.desc}
+  lang={lang}
 >
   <section class="hero">
     <div class="hero-glow glow-one"></div>
     <div class="hero-glow glow-two"></div>
     <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'A calmer digital rhythm' : 'Daha sakin bir dijital ritim'}</span>
-        <h1>{isEn ? <>Decide now.<br /><em>Limitra App Block protects it later.</em></> : <>Kararını şimdi ver.<br /><em>Limitra App Block sonra korusun.</em></>}</h1>
+        <span class="eyebrow"><span class="signal-dot"></span>{t.hero.badge}</span>
+        <h1>{t.hero.h1Line1}<br /><em>{t.hero.h1Line2}</em></h1>
         <p class="hero-lead">
-          {isEn ? 'Set clear limits while your mind is calm. When distraction arrives, Limitra App Block helps you stay loyal to the decision you already made.' : 'Sınırını zihnin sakinken belirle. Dikkatin dağıldığında Limitra App Block, daha önce verdiğin karara sadık kalmana yardımcı olsun.'}
+          {t.hero.lead}
         </p>
         <div class="hero-actions">
           <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-            <span>{isEn ? 'Get it on Google Play' : 'Google Play’den indir'}</span><span aria-hidden="true">↗</span>
+            <span>{t.hero.ctaPrimary}</span><span aria-hidden="true">↗</span>
           </a>
-          <a href={`${prefix}/limitra`} class="text-link">{isEn ? 'See how it works' : 'Nasıl çalıştığını gör'} <span aria-hidden="true">→</span></a>
+          <a href={`${prefix}/limitra`} class="text-link">{t.hero.ctaSecondary} <span aria-hidden="true">→</span></a>
         </div>
-        <div class="hero-trust" aria-label={isEn ? 'Product qualities' : 'Ürün özellikleri'}>
-          <span><i></i>{isEn ? 'On-device data' : 'Veriler cihazda'}</span>
-          <span><i></i>{isEn ? 'No ads' : 'Reklamsız'}</span>
-          <span><i></i>{isEn ? 'Built for Android' : 'Android için'}</span>
+        <div class="hero-trust" aria-label="Ürün özellikleri">
+          <span><i></i>{t.hero.trustOnDevice}</span>
+          <span><i></i>{t.hero.trustNoAds}</span>
+          <span><i></i>{t.hero.trustAndroid}</span>
         </div>
       </div>
 
-      <div class="product-visual" aria-label={isEn ? 'Representative Limitra product interface' : 'Temsili Limitra ürün arayüzü'}>
+      <div class="product-visual" aria-label={lang === 'tr' ? 'Temsili Limitra ürün arayüzü' : 'Representative Limitra product interface'}>
         <div class="orbit orbit-one"></div>
         <div class="orbit orbit-two"></div>
         <div class="phone-shell">
@@ -72,63 +114,63 @@ const guides = isEn ? [
           <div class="app-head">
             <div>
               <span class="app-kicker"><img src="/logo.jpg" alt="" class="kicker-logo" /> LIMITRA</span>
-              <strong>{isEn ? 'Good morning' : 'Günaydın'}</strong>
+              <strong>{lang === 'tr' ? 'Günaydın' : 'Good morning'}</strong>
             </div>
             <span class="profile-dot">A</span>
           </div>
           <div class="focus-card">
             <div class="focus-top">
-              <span>{isEn ? 'Today’s focus' : 'Bugünün odağı'}</span>
+              <span>{lang === 'tr' ? 'Bugünün odağı' : 'Today’s focus'}</span>
               <strong>62%</strong>
             </div>
             <div class="progress-track"><span></span></div>
-            <div class="focus-bottom"><span>{isEn ? '38 min protected' : '38 dk korundu'}</span><span>{isEn ? 'Goal: 60 min' : 'Hedef: 60 dk'}</span></div>
+            <div class="focus-bottom"><span>{lang === 'tr' ? '38 dk korundu' : '38 min protected'}</span><span>{lang === 'tr' ? 'Hedef: 60 dk' : 'Goal: 60 min'}</span></div>
           </div>
-          <div class="app-section-title"><strong>{isEn ? 'Active limits' : 'Aktif sınırlar'}</strong><span>{isEn ? 'Edit' : 'Düzenle'}</span></div>
+          <div class="app-section-title"><strong>{lang === 'tr' ? 'Aktif sınırlar' : 'Active limits'}</strong><span>{lang === 'tr' ? 'Düzenle' : 'Edit'}</span></div>
           <div class="limit-row">
             <span class="app-icon blue">S</span>
-            <div><strong>{isEn ? 'Social media' : 'Sosyal medya'}</strong><small>{isEn ? '18 of 30 min used' : '30 dk’nın 18 dk’sı'}</small></div>
+            <div><strong>{lang === 'tr' ? 'Sosyal medya' : 'Social media'}</strong><small>{lang === 'tr' ? '30 dk’nın 18 dk’sı' : '18 of 30 min used'}</small></div>
             <span class="time-pill">12 dk</span>
           </div>
           <div class="limit-row">
             <span class="app-icon coral">V</span>
-            <div><strong>{isEn ? 'Short videos' : 'Kısa videolar'}</strong><small>{isEn ? '14 of 20 min used' : '20 dk’nın 14 dk’sı'}</small></div>
+            <div><strong>{lang === 'tr' ? 'Kısa videolar' : 'Short videos'}</strong><small>{lang === 'tr' ? '20 dk’nın 14 dk’sı' : '14 of 20 min used'}</small></div>
             <span class="time-pill">6 dk</span>
           </div>
           <div class="streak-card">
             <span class="streak-icon">7</span>
-            <div><strong>{isEn ? '7-day streak' : '7 günlük seri'}</strong><small>{isEn ? 'Your boundary stayed intact.' : 'Sınırın bugün de korundu.'}</small></div>
+            <div><strong>{lang === 'tr' ? '7 günlük seri' : '7-day streak'}</strong><small>{lang === 'tr' ? 'Sınırın bugün de korundu.' : 'Your boundary stayed intact.'}</small></div>
           </div>
           <div class="app-nav"><span class="active">●</span><span>■</span><span>◆</span></div>
         </div>
-        <div class="float-card float-left"><span class="float-icon">✓</span><div><strong>{isEn ? 'Boundary active' : 'Sınır aktif'}</strong><small>{isEn ? 'Protected until tomorrow' : 'Yarına kadar korunuyor'}</small></div></div>
-        <div class="float-card float-right"><span class="float-number">38</span><div><strong>{isEn ? 'minutes' : 'dakika'}</strong><small>{isEn ? 'saved today' : 'bugün geri kazanıldı'}</small></div></div>
-        <p class="visual-note">{isEn ? 'Representative product interface' : 'Temsili ürün arayüzü'}</p>
+        <div class="float-card float-left"><span class="float-icon">✓</span><div><strong>{lang === 'tr' ? 'Sınır aktif' : 'Boundary active'}</strong><small>{lang === 'tr' ? 'Yarına kadar korunuyor' : 'Protected until tomorrow'}</small></div></div>
+        <div class="float-card float-right"><span class="float-number">38</span><div><strong>{lang === 'tr' ? 'dakika' : 'minutes'}</strong><small>{lang === 'tr' ? 'bugün geri kazanıldı' : 'saved today'}</small></div></div>
+        <p class="visual-note">{lang === 'tr' ? 'Temsili ürün arayüzü' : 'Representative product interface'}</p>
       </div>
     </div>
   </section>
 
-  <section class="principles" aria-label={isEn ? 'Limitra App Block principles' : 'Limitra App Block ilkeleri'}>
+  <section class="principles" aria-label={t.principles.title}>
     <div class="container principle-grid">
-      <div><span>01</span><p><strong>{isEn ? 'Clear' : 'Net'}</strong>{isEn ? 'A boundary you can understand at a glance.' : 'Bir bakışta anlayabileceğin sınırlar.'}</p></div>
-      <div><span>02</span><p><strong>{isEn ? 'Private' : 'Gizli'}</strong>{isEn ? 'Sensitive usage data stays on your device.' : 'Hassas kullanım verileri cihazında kalır.'}</p></div>
-      <div><span>03</span><p><strong>{isEn ? 'Calm' : 'Sakin'}</strong>{isEn ? 'No noisy dashboards, ads or guilt.' : 'Gürültülü ekranlar, reklamlar ve suçluluk yok.'}</p></div>
+      <div><span>01</span><p><strong>{t.principles.p1Title}</strong>{t.principles.p1Desc}</p></div>
+      <div><span>02</span><p><strong>{t.principles.p2Title}</strong>{t.principles.p2Desc}</p></div>
+      <div><span>03</span><p><strong>{t.principles.p3Title}</strong>{t.principles.p3Desc}</p></div>
     </div>
   </section>
 
   <section class="moment-section">
     <div class="container moment-grid">
       <div class="moment-copy">
-        <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'The real problem' : 'Asıl problem'}</span>
-        <h2>{isEn ? 'You already know when to stop. The hard part is stopping in that moment.' : 'Ne zaman durman gerektiğini zaten biliyorsun. Zor olan, o anda durabilmek.'}</h2>
-        <p>{isEn ? 'Most screen-time tools arrive as one more notification you can dismiss. Limitra App Block turns the decision you made earlier into a clear pause when it matters.' : 'Çoğu ekran süresi aracı, kapatabileceğin bir bildirim daha gönderir. Limitra App Block ise daha önce verdiğin kararı, ihtiyaç duyduğun anda net bir molaya dönüştürür.'}</p>
+        <span class="eyebrow light"><span class="signal-dot"></span>{t.problem.kicker}</span>
+        <h2>{t.problem.title}</h2>
+        <p>{t.problem.desc}</p>
       </div>
       <div class="moment-card">
-        <span class="moment-label">{isEn ? 'A familiar loop' : 'Tanıdık bir döngü'}</span>
-        <div class="moment-row"><strong>22:14</strong><span>{isEn ? '“I’ll look for five minutes.”' : '“Beş dakika bakıp çıkarım.”'}</span></div>
+        <span class="moment-label">{t.problem.loopLabel}</span>
+        <div class="moment-row"><strong>{t.problem.t1Time}</strong><span>{t.problem.t1Text}</span></div>
         <div class="moment-line"><i></i></div>
-        <div class="moment-row"><strong>22:47</strong><span>{isEn ? 'Still scrolling.' : 'Hâlâ kaydırıyorsun.'}</span></div>
-        <div class="moment-pause"><img src="/logo.jpg" alt="Limitra App Block Logo" class="moment-logo" /><span class="moment-brand">Limitra App Block</span><strong>{isEn ? 'The boundary you set is now active.' : 'Belirlediğin sınır şimdi aktif.'}</strong></div>
+        <div class="moment-row"><strong>{t.problem.t2Time}</strong><span>{t.problem.t2Text}</span></div>
+        <div class="moment-pause"><img src="/logo.jpg" alt="Limitra App Block Logo" class="moment-logo" /><span class="moment-brand">Limitra App Block</span><strong>{t.problem.pauseTitle}</strong></div>
       </div>
     </div>
   </section>
@@ -136,8 +178,8 @@ const guides = isEn ? [
   <section class="steps-section" id="how-it-works">
     <div class="container">
       <div class="section-heading">
-        <div><span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Three simple steps' : 'Üç sade adım'}</span><h2>{isEn ? 'Less negotiating. More living.' : 'Daha az pazarlık. Daha çok hayat.'}</h2></div>
-        <p>{isEn ? 'Limitra App Block keeps setup short so the tool itself never becomes another distraction.' : 'Limitra App Block kurulumu kısa tutar; böylece aracın kendisi yeni bir dikkat dağıtıcıya dönüşmez.'}</p>
+        <div><span class="eyebrow"><span class="signal-dot"></span>{t.steps.kicker}</span><h2>{t.steps.title}</h2></div>
+        <p>{t.steps.subtitle}</p>
       </div>
       <div class="steps-grid">
         {steps.map((step) => (
@@ -155,27 +197,27 @@ const guides = isEn ? [
   <section class="feature-section">
     <div class="container feature-grid">
       <div class="feature-copy">
-        <span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Progress without pressure' : 'Baskı kurmadan ilerleme'}</span>
-        <h2>{isEn ? 'See the pattern. Strengthen the habit.' : 'Deseni gör. Alışkanlığı güçlendir.'}</h2>
-        <p>{isEn ? 'A simple timeline and discipline summary help you understand what happened without turning your life into a spreadsheet.' : 'Sade zaman tüneli ve disiplin özeti, hayatını bir tabloya çevirmeden ne olduğunu anlamanı sağlar.'}</p>
+        <span class="eyebrow"><span class="signal-dot"></span>{t.features.kicker}</span>
+        <h2>{t.features.title}</h2>
+        <p>{t.features.desc}</p>
         <ul class="check-list">
-          <li><span>✓</span>{isEn ? 'See when limits became active' : 'Limitlerin ne zaman devreye girdiğini gör'}</li>
-          <li><span>✓</span>{isEn ? 'Review your recent consistency' : 'Yakın dönem istikrarını incele'}</li>
-          <li><span>✓</span>{isEn ? 'Keep the story local to your device' : 'Tüm geçmişi cihazında tut'}</li>
+          {t.features.checks.map((check) => (
+            <li><span>✓</span>{check}</li>
+          ))}
         </ul>
-        <a href={`${prefix}/limitra`} class="text-link">{isEn ? 'Explore every feature' : 'Tüm özellikleri incele'} <span aria-hidden="true">→</span></a>
+        <a href={`${prefix}/limitra`} class="text-link">{t.features.exploreBtn} <span aria-hidden="true">→</span></a>
       </div>
 
       <div class="insight-panel">
-        <div class="panel-tabs"><span class="active">{isEn ? 'Discipline' : 'Disiplin'}</span><span>{isEn ? 'Timeline' : 'Zaman tüneli'}</span></div>
+        <div class="panel-tabs"><span class="active">{lang === 'tr' ? 'Disiplin' : 'Discipline'}</span><span>{lang === 'tr' ? 'Zaman tüneli' : 'Timeline'}</span></div>
         <div class="streak-summary">
-          <div><span>{isEn ? 'CURRENT STREAK' : 'AKTİF SERİ'}</span><strong>7 <small>{isEn ? 'days' : 'gün'}</small></strong></div>
+          <div><span>{lang === 'tr' ? 'AKTİF SERİ' : 'CURRENT STREAK'}</span><strong>7 <small>{lang === 'tr' ? 'gün' : 'days'}</small></strong></div>
           <span class="status-ring">7</span>
         </div>
         <div class="day-grid" aria-hidden="true">
           {Array.from({ length: 21 }, (_, index) => <span class:list={{ today: index === 20, missed: index === 8 || index === 15 }}>{index + 1}</span>)}
         </div>
-        <div class="panel-legend"><span><i class="done"></i>{isEn ? 'Boundary kept' : 'Sınır korundu'}</span><span><i class="miss"></i>{isEn ? 'Missed' : 'Kaçırıldı'}</span><span><i class="current"></i>{isEn ? 'Today' : 'Bugün'}</span></div>
+        <div class="panel-legend"><span><i class="done"></i>{lang === 'tr' ? 'Sınır korundu' : 'Boundary kept'}</span><span><i class="miss"></i>{lang === 'tr' ? 'Kaçırıldı' : 'Missed'}</span><span><i class="current"></i>{lang === 'tr' ? 'Bugün' : 'Today'}</span></div>
       </div>
     </div>
   </section>
@@ -184,14 +226,14 @@ const guides = isEn ? [
     <div class="container privacy-card">
       <div class="privacy-mark" aria-hidden="true"><span></span></div>
       <div class="privacy-copy">
-        <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'Privacy by design' : 'Tasarım gereği gizli'}</span>
-        <h2>{isEn ? 'Your digital habits are yours.' : 'Dijital alışkanlıkların sana ait.'}</h2>
-        <p>{isEn ? 'Usage information is processed on your Android device. Limitra App Block is designed to protect your attention—not to turn it into another data source.' : 'Kullanım bilgilerin Android cihazında işlenir. Limitra App Block, dikkatini korumak için tasarlandı; onu yeni bir veri kaynağına çevirmek için değil.'}</p>
+        <span class="eyebrow light"><span class="signal-dot"></span>{t.privacy.kicker}</span>
+        <h2>{t.privacy.title}</h2>
+        <p>{t.privacy.desc}</p>
       </div>
       <div class="privacy-points">
-        <div><strong>{isEn ? 'On your device' : 'Cihazında'}</strong><span>{isEn ? 'Local processing' : 'Yerel veri işleme'}</span></div>
-        <div><strong>{isEn ? 'No ads' : 'Reklamsız'}</strong><span>{isEn ? 'No attention traps' : 'Dikkat tuzağı yok'}</span></div>
-        <div><strong>{isEn ? 'Minimal' : 'Minimal'}</strong><span>{isEn ? 'Only what you need' : 'Yalnızca ihtiyacın olan'}</span></div>
+        <div><strong>{t.privacy.point1Title}</strong><span>{t.privacy.point1Desc}</span></div>
+        <div><strong>{t.privacy.point2Title}</strong><span>{t.privacy.point2Desc}</span></div>
+        <div><strong>{t.privacy.point3Title}</strong><span>{t.privacy.point3Desc}</span></div>
       </div>
     </div>
   </section>
@@ -201,11 +243,11 @@ const guides = isEn ? [
     <div class="container">
       <div class="section-heading news-home-heading">
         <div>
-          <span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Global Press & Laws' : 'Dünya Basını ve Yasalar'}</span>
-          <h2>{isEn ? 'Governments are taking action. What about you?' : 'Dünya harekete geçiyor. Ya siz?'}</h2>
+          <span class="eyebrow"><span class="signal-dot"></span>{t.newsHome.kicker}</span>
+          <h2>{t.newsHome.title}</h2>
         </div>
-        <a href={isEn ? '/en/news' : '/haberler'} class="text-link">
-          {isEn ? 'All global news' : 'Tüm dünya haberleri'} <span aria-hidden="true">→</span>
+        <a href={newsUrl} class="text-link">
+          {t.newsHome.allNews} <span aria-hidden="true">→</span>
         </a>
       </div>
 
@@ -217,13 +259,13 @@ const guides = isEn ? [
               <span class="home-news-date">{item.date}</span>
             </div>
             <h3>
-              <a href={isEn ? `/en/news/${item.slug}` : `/haberler/${item.slug}`}>{item.title}</a>
+              <a href={lang === 'tr' ? `/haberler/${item.slug}` : `${prefix}/news/${item.slug}`}>{item.title}</a>
             </h3>
             <p>{item.summary}</p>
             <div class="home-news-footer">
               <span class="home-news-source">{item.source}</span>
-              <a href={isEn ? `/en/news/${item.slug}` : `/haberler/${item.slug}`} class="home-news-link">
-                {isEn ? 'Read' : 'Oku'} &rarr;
+              <a href={lang === 'tr' ? `/haberler/${item.slug}` : `${prefix}/news/${item.slug}`} class="home-news-link">
+                {t.newsHome.read} &rarr;
               </a>
             </div>
           </article>
@@ -235,8 +277,8 @@ const guides = isEn ? [
   <section class="guides-section">
     <div class="container">
       <div class="section-heading guides-heading">
-        <div><span class="eyebrow"><span class="signal-dot"></span>{isEn ? 'Read, understand, change' : 'Oku, anla, değiştir'}</span><h2>{isEn ? 'Knowledge for a calmer relationship with technology.' : 'Teknolojiyle daha sakin bir ilişki için bilgi.'}</h2></div>
-        <a href={`${prefix}/bilgi-merkezi`} class="text-link">{isEn ? 'All guides' : 'Tüm rehberler'} <span aria-hidden="true">→</span></a>
+        <div><span class="eyebrow"><span class="signal-dot"></span>{t.guides.kicker}</span><h2>{t.guides.title}</h2></div>
+        <a href={`${prefix}/bilgi-merkezi`} class="text-link">{t.guides.allGuides} <span aria-hidden="true">→</span></a>
       </div>
       <div class="guides-grid">
         {guides.map((guide, index) => (
@@ -255,11 +297,11 @@ const guides = isEn ? [
   <section class="final-cta">
     <div class="container cta-card">
       <div class="cta-orb orb-a"></div><div class="cta-orb orb-b"></div>
-      <span class="eyebrow light"><span class="signal-dot"></span>{isEn ? 'Start today' : 'Bugün başla'}</span>
-      <h2>{isEn ? 'Make room for what matters.' : 'Önemli olana yer aç.'}</h2>
-      <p>{isEn ? 'Set one clear boundary today and give your attention somewhere better.' : 'Bugün tek bir net sınır koy ve dikkatini daha iyi bir yere ver.'}</p>
-      <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn cta-button">{isEn ? 'Get Limitra App Block on Google Play' : 'Limitra App Block’u Google Play’den indir'} <span aria-hidden="true">↗</span></a>
-      <small>{isEn ? 'For Android 8.0 and newer' : 'Android 8.0 ve üzeri'}</small>
+      <span class="eyebrow light"><span class="signal-dot"></span>{t.finalCta.kicker}</span>
+      <h2>{t.finalCta.title}</h2>
+      <p>{t.finalCta.desc}</p>
+      <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn cta-button">{t.finalCta.btn} <span aria-hidden="true">↗</span></a>
+      <small>{t.finalCta.androidNote}</small>
     </div>
   </section>
 </Layout>
