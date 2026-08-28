@@ -1,5 +1,32 @@
 [
   {
+    "id": "11",
+    "slug": "fransa-okullarda-fiziki-telefon-yasagi-pause-numerique",
+    "title": "Fransa'dan Okullarda 'Dijital Mola' Kararı: Akıllı Telefonlar Girişte Kilitli Dolaplara Alınıyor",
+    "summary": "Fransa Cumhurbaşkanlığı Ekran Komisyonu'nun tarihi raporunun ardından, Milli Eğitim Bakanlığı ülke genelindeki ortaokul ve liselerde 'Pause Numérique' (Dijital Mola) protokolünü yürürlüğe koydu. Öğrencilerin telefonları okul girişinde dolaplarda kilitleniyor.",
+    "content": [
+      "Fransa Cumhurbaşkanı Emmanuel Macron tarafından görevlendirilen uzman nörolog ve psikiyatristlerden oluşan bağımsız 'Ekran Komisyonu'nun (Commission Écrans) yayımladığı dönüm noktası niteliğindeki raporun ardından, Fransız hükümeti okullarda telefon kullanımına karşı en kapsamlı uygulamayı başlattı.",
+      "Komisyonun 'Kayıp Zamanın Peşinde' (À la recherche du temps perdu) başlıklı resmi raporunda; çocukların ve gençlerin maruz kaldığı aşırı ekran süresinin uyku düzenini bozduğu, fiziksel hareketsizliğe yol açtığı ve anksiyete ile dikkat dağınıklığını tetiklediği bilimsel verilerle ortaya konmuştu.",
+      "Bu doğrultuda Fransa Milli Eğitim Bakanlığı, ortaokul (collège) ve liselerde (lycée) 'Pause Numérique' protokolünü zorunlu kıldı. Yeni düzenlemeyle öğrenciler okul sınırlarına girdikleri andan itibaren akıllı telefon ve bağlı cihazlarını özel kilitli dolaplara veya kilitli kılıflara teslim etmek zorunda.",
+      "Bakanlık verilerine göre, pilot okullarda yapılan denemelerde sınıflarda ve teneffüslerde odaklanmanın %35 arttığı, akran zorbalığının belirgin şekilde düştüğü ve gençlerin gerçek sosyal aktivitelere yöneldiği raporlandı.",
+      "Fransa Eğitim Bakanlığı, ekran kısıtlamasının yalnızca sınıfla sınırlı kalmaması gerektiğini vurgulayarak, ailelere de evde ekransız akşam ve yemek rutinleri oluşturma çağrısında bulundu."
+    ],
+    "source": "Ministère de l'Éducation Nationale & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Okullar & Gençlik",
+    "date": "2026-08-28",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Fransa",
+      "Pause Numérique",
+      "Okulda Telefon Yasağı",
+      "Ekran Komisyonu",
+      "Dijital Bağımlılık",
+      "Eğitim"
+    ]
+  },
+  {
     "id": "1",
     "slug": "abd-meta-17-milyar-dolar-bagimlilik-davasi-uzlasmasi",
     "title": "ABD'de Meta'ya Tarihi Ceza: 17 Milyar Dolarlık 'Bağımlılık Tasarımı' Uzlaşması ve Zorunlu Süre Kısıtlamaları",
@@ -20,7 +47,15 @@
     "date": "2026-08-26",
     "readTime": "6 dk",
     "featured": true,
-    "tags": ["Meta", "Instagram", "Facebook", "17 Milyar Dolar", "Bağımlılık Davası", "ABD", "Yasa"]
+    "tags": [
+      "Meta",
+      "Instagram",
+      "Facebook",
+      "17 Milyar Dolar",
+      "Bağımlılık Davası",
+      "ABD",
+      "Yasa"
+    ]
   },
   {
     "id": "2",
@@ -40,7 +75,14 @@
     "date": "2026-08-25",
     "readTime": "5 dk",
     "featured": true,
-    "tags": ["Türkiye", "MEB", "Okulda Telefon Yasağı", "Dijital Bağımlılık", "Eğitim", "Genelge"]
+    "tags": [
+      "Türkiye",
+      "MEB",
+      "Okulda Telefon Yasağı",
+      "Dijital Bağımlılık",
+      "Eğitim",
+      "Genelge"
+    ]
   },
   {
     "id": "3",
@@ -53,13 +95,20 @@
       "Avrupa Komisyonu'nun yayımladığı ön raporda; sonsuz kaydırma (infinite scroll), otomatik video oynatma (autoplay) ve agresif anlık bildirimlerin kullanıcıların özdenetimini felç ettiği ve Dijital Hizmetler Yasası'na aykırı olduğu resmen bildirildi.",
       "AB yetkilileri, platformların algoritmik olarak ekran başında geçirilen süreyi artırma stratejilerine karşı küresel cironun %6'sına varan ağır para cezaları ve zorunlu 'ekran süresi kalkanları' getirmeye hazırlanıyor."
     ],
-    "source": "European Commission (Avrupa Komisyonu) & The Guardian",
+    "source": "European Commission & The Guardian",
     "sourceUrl": "https://ec.europa.eu",
     "category": "Devlet Düzenlemeleri & Yasalar",
     "date": "2026-08-24",
     "readTime": "5 dk",
     "featured": false,
-    "tags": ["Avrupa Birliği", "TikTok", "DSA", "Sonsuz Kaydırma", "Regülasyon", "Dijital Hizmetler"]
+    "tags": [
+      "Avrupa Birliği",
+      "TikTok",
+      "DSA",
+      "Sonsuz Kaydırma",
+      "Regülasyon",
+      "Dijital Hizmetler"
+    ]
   },
   {
     "id": "4",
@@ -78,7 +127,14 @@
     "date": "2026-08-25",
     "readTime": "4 dk",
     "featured": false,
-    "tags": ["Avustralya", "Yasa", "Sosyal Medya Yasağı", "16 Yaş Sınırı", "TikTok", "Instagram"]
+    "tags": [
+      "Avustralya",
+      "Yasa",
+      "Sosyal Medya Yasağı",
+      "16 Yaş Sınırı",
+      "TikTok",
+      "Instagram"
+    ]
   },
   {
     "id": "5",
@@ -97,7 +153,14 @@
     "date": "2026-08-21",
     "readTime": "5 dk",
     "featured": false,
-    "tags": ["ABD", "Surgeon General", "Ruh Sağlığı", "Uyarı Etiketi", "Anksiyete", "Depresyon"]
+    "tags": [
+      "ABD",
+      "Surgeon General",
+      "Ruh Sağlığı",
+      "Uyarı Etiketi",
+      "Anksiyete",
+      "Depresyon"
+    ]
   },
   {
     "id": "6",
@@ -116,7 +179,13 @@
     "date": "2026-08-19",
     "readTime": "5 dk",
     "featured": false,
-    "tags": ["Güney Kore", "Dijital Detoks", "Rehabilitasyon", "Akıllı Telefon Bağımlılığı", "Gençlik"]
+    "tags": [
+      "Güney Kore",
+      "Dijital Detoks",
+      "Rehabilitasyon",
+      "Akıllı Telefon Bağımlılığı",
+      "Gençlik"
+    ]
   },
   {
     "id": "7",
@@ -135,7 +204,13 @@
     "date": "2026-08-18",
     "readTime": "4 dk",
     "featured": false,
-    "tags": ["UNESCO", "Okul Yasakları", "Eğitim", "Akademik Başarı", "Dikkat Dağınıklığı"]
+    "tags": [
+      "UNESCO",
+      "Okul Yasakları",
+      "Eğitim",
+      "Akademik Başarı",
+      "Dikkat Dağınıklığı"
+    ]
   },
   {
     "id": "8",
@@ -157,7 +232,13 @@
     "date": "2026-08-16",
     "readTime": "5 dk",
     "featured": false,
-    "tags": ["Çin", "Küçükler Modu", "CAC", "Gece Ekran Yasağı", "Siber Güvenlik"]
+    "tags": [
+      "Çin",
+      "Küçükler Modu",
+      "CAC",
+      "Gece Ekran Yasağı",
+      "Siber Güvenlik"
+    ]
   },
   {
     "id": "9",
@@ -176,7 +257,14 @@
     "date": "2026-08-14",
     "readTime": "4 dk",
     "featured": false,
-    "tags": ["İngiltere", "Norveç", "Sonsuz Kaydırma", "Algoritma", "Ofcom", "Dijital Bağımlılık"]
+    "tags": [
+      "İngiltere",
+      "Norveç",
+      "Sonsuz Kaydırma",
+      "Algoritma",
+      "Ofcom",
+      "Dijital Bağımlılık"
+    ]
   },
   {
     "id": "10",
@@ -195,6 +283,13 @@
     "date": "2026-08-10",
     "readTime": "5 dk",
     "featured": false,
-    "tags": ["Oxford", "Cambridge", "Nörobilim", "Kısa Video", "Dopamin", "Odaklanma"]
+    "tags": [
+      "Oxford",
+      "Cambridge",
+      "Nörobilim",
+      "Kısa Video",
+      "Dopamin",
+      "Odaklanma"
+    ]
   }
 ]

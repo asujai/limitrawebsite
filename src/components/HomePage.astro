@@ -1,9 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import haberlerTr from '../data/haberler.json';
-import haberlerEn from '../data/news-en.json';
 import { translations, type SupportedLang } from '../data/translations';
-import { routes } from '../data/routes';
+import { routes, newsByLang } from '../data/routes';
 import { mockup } from '../data/mockup';
 
 interface Props {
@@ -16,7 +14,7 @@ const playUrl = 'https://play.google.com/store/apps/details?id=com.gardiyan.app'
 
 const r = routes(lang);
 const m = mockup[lang] || mockup.en;
-const latestNews = (lang === 'tr' ? haberlerTr : haberlerEn).slice(0, 3);
+const latestNews = (newsByLang[lang] || newsByLang.en).slice(0, 3);
 const newsUrl = r.news;
 
 const steps = t.steps.items;

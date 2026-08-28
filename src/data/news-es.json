@@ -1,0 +1,295 @@
+[
+  {
+    "id": "11",
+    "slug": "francia-prohibicion-telefonos-escuelas-pause-numerique",
+    "title": "Francia impone el bloqueo físico de teléfonos en escuelas bajo el protocolo 'Pause Numérique'",
+    "summary": "Tras el histórico informe de la Comisión Presidencial sobre Pantallas, el Ministerio de Educación de Francia extendió el protocolo 'Pause Numérique' a colegios e institutos, obligando a los alumnos a guardar sus teléfonos bajo llave durante la jornada escolar.",
+    "content": [
+      "Tras la publicación del informe oficial de la Comisión de Expertos sobre Pantallas (Commission Écrans), designada por el presidente Emmanuel Macron y copresidida por reconocidos neurólogos y psiquiatras, el gobierno francés ha tomado medidas contundentes contra la adicción a las pantallas.",
+      "El informe, titulado 'À la recherche du temps perdu', concluyó que la hiperconexión y el tiempo excesivo frente a las pantallas deterioran el sueño, fomentan el sedentarismo y multiplican los casos de ansiedad y déficit de atención en los jóvenes.",
+      "Por ello, el Ministerio de Educación Nacional implementó a nivel nacional el protocolo 'Pause Numérique' en colegios y liceos. Los estudiantes deben depositar sus dispositivos en casilleros con llave o fundas especiales desde la entrada matutina hasta el fin de las clases.",
+      "Las evaluaciones en centros piloto demostraron un aumento del 35% en la concentración en clase, una disminución sustancial del ciberacoso y un renacimiento de la convivencia y juegos físicos durante los recreos.",
+      "Las autoridades francesas insistieron en que los límites institucionales son imprescindibles y exhortaron a las familias a crear rutinas libres de pantallas durante las cenas y noches en el hogar."
+    ],
+    "source": "Ministère de l'Éducation Nationale & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Escuelas y juventud",
+    "date": "2026-08-28",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Francia",
+      "Pause Numérique",
+      "Prohibición de celulares",
+      "Comisión Pantallas",
+      "Bienestar digital",
+      "Educación"
+    ]
+  },
+  {
+    "id": "1",
+    "slug": "eeuu-acuerdo-meta-17-mil-millones-diseno-adictivo",
+    "title": "Histórico acuerdo de Meta en EE. UU.: 17.000 millones de dólares por diseño adictivo y límites de pantalla",
+    "summary": "En un acuerdo histórico con casi 50 estados de EE. UU., Meta aceptó pagar 17.100 millones de dólares tras acusaciones de diseñar algoritmos adictivos perjudiciales para los jóvenes. Se impondrá un límite diario de 2 horas para menores y apagón nocturno.",
+    "content": [
+      "En uno de los acuerdos de protección al consumidor y salud pública más importantes de la historia tecnológica, Meta acordó pagar 17.100 millones de dólares para resolver demandas presentadas por fiscales generales de casi 50 estados.",
+      "El litigio reveló documentos internos que demostraban que los directivos de Meta sabían que Instagram agravaba la depresión y ansiedad en adolescentes, pero continuaron implementando el desplazamiento infinito y bucles de dopamina.",
+      "Según los términos del acuerdo, Meta deberá implementar restricciones obligatorias:",
+      "1. Límite máximo de 2 horas diarias para menores en Instagram y Facebook.",
+      "2. Bloqueo y pantalla oscura obligatoria durante la noche para menores.",
+      "3. Cese de notificaciones push durante el horario escolar.",
+      "4. Opción obligatoria para desactivar algoritmos adictivos y cambiar a orden cronológico.",
+      "Los fiscales generales declararon: 'La era en la que las grandes tecnológicas secuestran el tiempo de nuestros hijos por beneficios económicos está terminando'."
+    ],
+    "source": "Reuters, Washington Post & NY Attorney General Office",
+    "sourceUrl": "https://www.reuters.com",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-08-26",
+    "readTime": "6 min",
+    "featured": true,
+    "tags": [
+      "Meta",
+      "Instagram",
+      "Facebook",
+      "17 mil millones",
+      "Diseño adictivo",
+      "EEUU",
+      "Regulación"
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "turquia-ministerio-educacion-prohibicion-celulares-aulas",
+    "title": "Turquía prohíbe el uso de teléfonos inteligentes en las aulas de 81 provincias",
+    "summary": "El Ministerio de Educación de Turquía emitió una directiva nacional que prohíbe los teléfonos en las aulas para alumnos y docentes, e integra la educación sobre adicción digital en el plan de estudios.",
+    "content": [
+      "El Ministerio de Educación Nacional de Turquía emitió una directiva vinculante para las 81 provincias con el objetivo de garantizar aulas libres de distracciones digitales.",
+      "Los dispositivos de los alumnos deben guardarse en casilleros cerrados antes del inicio de las clases y no se entregan hasta el final de la jornada.",
+      "Como novedad clave, también se prohíbe a los profesores utilizar el teléfono móvil dentro del aula durante las horas de clase.",
+      "Asimismo, se restringió el uso de grupos de mensajería instantánea no oficiales para tareas, evitando la fatiga digital nocturna.",
+      "El ministerio lanzó el programa 'Bienestar Digital Basado en Valores' en todas las instituciones educativas del país."
+    ],
+    "source": "T.C. Millî Eğitim Bakanlığı & Anadolu Ajansı",
+    "sourceUrl": "https://www.meb.gov.tr",
+    "category": "Escuelas y juventud",
+    "date": "2026-08-25",
+    "readTime": "5 min",
+    "featured": true,
+    "tags": [
+      "Turquía",
+      "Educación",
+      "Prohibición celulares",
+      "Bienestar digital",
+      "Aulas",
+      "Normativa"
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "ue-dsa-tiktok-investigacion-diseno-adictivo-lite-rewards",
+    "title": "La Unión Europea frena a TikTok: retirada definitiva de las recompensas adictivas de TikTok Lite bajo la DSA",
+    "summary": "Bajo la Ley de Servicios Digitales (DSA), la Comisión Europea forzó la retirada permanente del programa de recompensas de TikTok Lite en toda la UE, mientras investiga los mecanismos de desplazamiento infinito y reproducción automática.",
+    "content": [
+      "La Comisión Europea intensificó sus sanciones contra las prácticas de diseño adictivo en plataformas tecnológicas.",
+      "Tras la apertura de expedientes sancionadores, TikTok se comprometió formalmente a retirar de forma permanente en la UE su programa 'TikTok Lite Rewards', que incentivaba el consumo compulsivo de vídeos a cambio de puntos.",
+      "Los reguladores europeos señalaron que el desplazamiento infinito y las notificaciones agresivas vulneran la autonomía del usuario y violan la legislación comunitaria.",
+      "Las empresas que no eliminen patrones oscuros y diseños adictivos se enfrentan a multas de hasta el 6% de su facturación mundial."
+    ],
+    "source": "European Commission & The Guardian",
+    "sourceUrl": "https://ec.europa.eu",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-08-24",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Unión Europea",
+      "TikTok",
+      "DSA",
+      "Desplazamiento infinito",
+      "Regulación",
+      "Servicios digitales"
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "australia-ley-prohibicion-redes-sociales-menores-16",
+    "title": "Australia aprueba una ley histórica: prohibición total de redes sociales para menores de 16 años",
+    "summary": "El Parlamento australiano aprobó una legislación histórica que prohíbe el acceso a redes sociales como TikTok, Instagram y Snapchat a menores de 16 años, con multas de hasta 50 millones de dólares para las tecnológicas que incumplan.",
+    "content": [
+      "Australia sentó un precedente internacional para proteger la salud mental juvenil frente a la adicción algorítmica y el tiempo excesivo de pantalla.",
+      "La normativa abarca TikTok, Instagram, Facebook, Snapchat, X y Reddit, exigiendo sistemas eficaces de verificación de edad bajo sanción de hasta 50 millones de dólares australianos.",
+      "El Primer Ministro australiano afirmó que es hora de poner límites al daño que las redes causan en la infancia.",
+      "Especialistas prevén que esta medida acelerará leyes similares en Europa y otros continentes."
+    ],
+    "source": "Reuters & ABC News Australia",
+    "sourceUrl": "https://www.reuters.com",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-08-25",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": [
+      "Australia",
+      "Legislación",
+      "Prohibición redes sociales",
+      "Menores de 16",
+      "Seguridad juvenil",
+      "Normativa"
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "cirujano-general-eeuu-etiqueta-advertencia-redes-sociales",
+    "title": "El Cirujano General de EE. UU. pide etiquetas de advertencia sanitaria en redes sociales",
+    "summary": "El Dr. Vivek Murthy instó al Congreso a exigir advertencias sanitarias en las redes sociales, similares a las del tabaco, ante la evidencia de daños en la salud mental de los jóvenes.",
+    "content": [
+      "En un artículo histórico en The New York Times, el Cirujano General de EE. UU., Dr. Vivek Murthy, alertó sobre la crisis de salud mental que enfrentan los adolescentes debido a las redes sociales.",
+      "Murthy propuso que cada vez que se abra una aplicación social, aparezca una advertencia formal sobre el riesgo de ansiedad y depresión.",
+      "Los datos muestran que más de 3 horas diarias de uso duplican el riesgo de problemas psicológicos en menores.",
+      "También recomendó convertir las escuelas en espacios sin teléfonos y restringir las pantallas en las horas de sueño."
+    ],
+    "source": "The New York Times & US Surgeon General Advisory",
+    "sourceUrl": "https://www.nytimes.com",
+    "category": "Ciencia y salud",
+    "date": "2026-08-21",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "EEUU",
+      "Cirujano General",
+      "Salud mental",
+      "Advertencias",
+      "Tiempo de pantalla",
+      "Salud pública"
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "corea-del-sur-campamentos-estatales-desintoxicacion-digital",
+    "title": "Corea del Sur amplía sus campamentos estatales de desintoxicación de smartphones para jóvenes",
+    "summary": "El gobierno surcoreano gestiona campamentos residenciales gratuitos para adolescentes que pasan más de 6 horas diarias frente a las pantallas, combinando terapia conductual y actividades al aire libre.",
+    "content": [
+      "Corea del Sur trata la adicción digital como un problema prioritario de salud pública mediante centros estatales de rehabilitación.",
+      "Los datos oficiales indican que casi el 20% de los estudiantes experimentan síntomas de abstinencia severos sin sus teléfonos.",
+      "Durante estancias de 1 a 4 semanas sin pantallas, los jóvenes aprenden autorregulación emocional y habilidades sociales en el mundo real.",
+      "Los terapeutas destacan que tras los primeros tres días, el sueño y la capacidad de concentración mejoran notablemente."
+    ],
+    "source": "South Korea Ministry of Gender Equality & Yonhap News",
+    "sourceUrl": "https://en.yna.co.kr",
+    "category": "Ciencia y salud",
+    "date": "2026-08-19",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Corea del Sur",
+      "Desintoxicación digital",
+      "Rehabilitación",
+      "Adicción a pantallas",
+      "Juventud",
+      "Salud"
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "unesco-informe-educacion-global-prohibicion-celulares-escuelas",
+    "title": "Informe Global de la UNESCO: la prohibición de celulares en escuelas eleva el rendimiento académico",
+    "summary": "El informe de la UNESCO demuestra que restringir los teléfonos inteligentes en las aulas disminuye la distracción, frena el ciberacoso y mejora significativamente los resultados escolares.",
+    "content": [
+      "La UNESCO advirtió sobre el impacto perjudicial del uso descontrolado de pantallas en el aprendizaje y la concentración escolar.",
+      "El informe revela que un alumno tarda hasta 20 minutos en recuperar el foco tras recibir una notificación en su teléfono.",
+      "Uno de cada cuatro países ya prohíbe o restringe los dispositivos móviles en las escuelas primarias y secundarias.",
+      "La organización recalca la necesidad de proteger el aula como un espacio de interacción humana y concentración profunda."
+    ],
+    "source": "UNESCO Global Education Monitoring Report",
+    "sourceUrl": "https://www.unesco.org",
+    "category": "Escuelas y juventud",
+    "date": "2026-08-18",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": [
+      "UNESCO",
+      "Prohibición escolar",
+      "Educación",
+      "Rendimiento académico",
+      "Concentración",
+      "Políticas"
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "china-modo-menores-ley-apagon-pantalla-nocturno",
+    "title": "China impone el 'Modo Menores': apagón nocturno de pantallas y límites estrictos de tiempo",
+    "summary": "La Administración del Ciberespacio de China obligó a fabricantes a integrar el 'Modo Menores', cortando el acceso a internet entre las 22:00 y las 06:00 y limitando el uso diario a un máximo de 2 horas.",
+    "content": [
+      "China implementó normas pioneras a nivel de sistema operativo para frenar la miopía, el insomnio y la adicción digital en menores.",
+      "El 'Modo Menores' obligatorio establece un tope de 40 minutos para menores de 8 años, 1 hora para niños de 8 a 16 años y 2 horas para jóvenes de 16 a 18 años.",
+      "Entre las 22:00 y las 06:00, los dispositivos bloquean el acceso a internet y juegos de manera automática.",
+      "La medida ilustra la necesidad de barreras estructurales a nivel de sistema para controlar el tiempo de pantalla."
+    ],
+    "source": "CAC (Cyberspace Administration of China) & BBC News",
+    "sourceUrl": "https://www.cac.gov.cn",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-08-16",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "China",
+      "Modo Menores",
+      "Apagón nocturno",
+      "Regulación",
+      "Tiempo de pantalla",
+      "Ciberseguridad"
+    ]
+  },
+  {
+    "id": "9",
+    "slug": "reino-unido-noruega-frenan-desplazamiento-infinito-algoritmos",
+    "title": "Reino Unido y Noruega exigen desactivar el desplazamiento infinito y algoritmos adictivos para menores",
+    "summary": "El regulador británico Ofcom y el gobierno noruego anunciaron códigos de seguridad para desactivar por defecto el desplazamiento infinito, la reproducción automática y los algoritmos adictivos en menores de 18 años.",
+    "content": [
+      "Los reguladores del norte de Europa apuntan directamente a la arquitectura de software diseñada para atrapar la atención de los jóvenes.",
+      "Las nuevas normas obligan a desactivar el desplazamiento infinito y las notificaciones nocturnas en cuentas de menores.",
+      "Las plataformas deberán ofrecer por defecto muros cronológicos sin recomendaciones algorítmicas adictivas.",
+      "Las autoridades advirtieron que la voluntad individual no basta frente a diseños concebidos para generar dependencia."
+    ],
+    "source": "BBC News & The Guardian",
+    "sourceUrl": "https://www.bbc.com",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-08-14",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": [
+      "Reino Unido",
+      "Noruega",
+      "Desplazamiento infinito",
+      "Algoritmos",
+      "Ofcom",
+      "Seguridad digital"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "oxford-cambridge-estudio-videos-cortos-dopamina",
+    "title": "Estudio de Oxford y Cambridge: los vídeos cortos erosionan la concentración y alteran la dopamina",
+    "summary": "Una investigación neurocientífica demuestra que el consumo habitual de vídeos de menos de 60 segundos debilita las redes de atención de la corteza prefrontal y reduce la tolerancia a tareas que requieren concentración prolongada.",
+    "content": [
+      "Científicos de las universidades de Oxford y Cambridge evaluaron mediante resonancia magnética a 1.800 voluntarios para analizar el impacto de TikTok, Reels y Shorts en el cerebro.",
+      "Los estímulos impredecibles cada pocos segundos hiperestimulan el circuito de recompensa, dificultando actividades como leer o estudiar.",
+      "Quienes consumen más de 2 horas diarias de vídeos cortos experimentaron una reducción del 40% en su capacidad de atención sostenida.",
+      "Los neurocientíficos recomiendan fijar límites estrictos de tiempo para restaurar el equilibrio dopaminérgico."
+    ],
+    "source": "Cambridge University Press & Nature Neuroscience",
+    "sourceUrl": "https://www.cam.ac.uk",
+    "category": "Ciencia y salud",
+    "date": "2026-08-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Oxford",
+      "Cambridge",
+      "Neurociencia",
+      "Vídeos cortos",
+      "Dopamina",
+      "Concentración"
+    ]
+  }
+]

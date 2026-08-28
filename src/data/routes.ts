@@ -1,15 +1,29 @@
 import type { SupportedLang } from './translations';
 import haberlerTr from './haberler.json';
 import newsEn from './news-en.json';
+import newsEs from './news-es.json';
+import newsFr from './news-fr.json';
+import newsDe from './news-de.json';
+import newsPt from './news-pt.json';
+import newsIt from './news-it.json';
+import newsAr from './news-ar.json';
+import newsId from './news-id.json';
+import newsFil from './news-fil.json';
+import newsTh from './news-th.json';
 
 /**
- * Tam içerikli diller: haber arşivi, bilgi merkezi, iletişim ve hukuki
- * sayfaların gerçek çevirisi yalnızca bu dillerde var.
- * Diğer diller yalnızca ana sayfa, /limitra ve /sss sayfalarına sahip;
- * eksik bölümlerde İngilizce sürüme düşülür.
+ * Bölüm bazlı dil desteği listesi.
+ * Haberler artık 11 dilde tam olarak mevcuttur.
+ * Diğer bölümler (rehberler, iletişim, hukuki) kademeli olarak genişletilecektir.
  */
-export const FULL_CONTENT_LANGS: SupportedLang[] = ['tr', 'en'];
+export const SECTION_LANGS = {
+  news: ['tr', 'en', 'es', 'fr', 'de', 'pt', 'it', 'ar', 'id', 'fil', 'th'] as SupportedLang[],
+  guides: ['tr', 'en'] as SupportedLang[],
+  contact: ['tr', 'en'] as SupportedLang[],
+  legal: ['tr', 'en'] as SupportedLang[],
+};
 
+export const FULL_CONTENT_LANGS: SupportedLang[] = ['tr', 'en'];
 export const hasFullContent = (lang: SupportedLang) => FULL_CONTENT_LANGS.includes(lang);
 
 /** Dil öneki: tr için '', diğerleri için '/xx' */
@@ -28,22 +42,62 @@ export type PageKey =
   | 'terms'
   | 'other';
 
-/** Haber slug'ları dile göre farklı; ortak `id` üzerinden eşleştirilir. */
-const newsSlugByLang: Record<'tr' | 'en', Record<number, string>> = {
-  tr: Object.fromEntries(haberlerTr.map((n) => [n.id, n.slug])),
-  en: Object.fromEntries(newsEn.map((n) => [n.id, n.slug]))
+export interface NewsArticleItem {
+  id: string;
+  slug: string;
+  title: string;
+  summary: string;
+  content: string[];
+  source: string;
+  sourceUrl: string;
+  category: string;
+  date: string;
+  readTime: string;
+  featured: boolean;
+  tags: string[];
+}
+
+export const newsByLang: Record<SupportedLang, NewsArticleItem[]> = {
+  tr: haberlerTr,
+  en: newsEn,
+  es: newsEs,
+  fr: newsFr,
+  de: newsDe,
+  pt: newsPt,
+  it: newsIt,
+  ar: newsAr,
+  id: newsId,
+  fil: newsFil,
+  th: newsTh,
 };
 
-const newsIdBySlug: Record<string, number> = {
-  ...Object.fromEntries(haberlerTr.map((n) => [n.slug, n.id])),
-  ...Object.fromEntries(newsEn.map((n) => [n.slug, n.id]))
+/** Haber slug'ları dile göre farklı; ortak `id` üzerinden eşleştirilir. */
+const newsSlugByLang: Record<SupportedLang, Record<string, string>> = {
+  tr: Object.fromEntries(haberlerTr.map((n) => [n.id, n.slug])),
+  en: Object.fromEntries(newsEn.map((n) => [n.id, n.slug])),
+  es: Object.fromEntries(newsEs.map((n) => [n.id, n.slug])),
+  fr: Object.fromEntries(newsFr.map((n) => [n.id, n.slug])),
+  de: Object.fromEntries(newsDe.map((n) => [n.id, n.slug])),
+  pt: Object.fromEntries(newsPt.map((n) => [n.id, n.slug])),
+  it: Object.fromEntries(newsIt.map((n) => [n.id, n.slug])),
+  ar: Object.fromEntries(newsAr.map((n) => [n.id, n.slug])),
+  id: Object.fromEntries(newsId.map((n) => [n.id, n.slug])),
+  fil: Object.fromEntries(newsFil.map((n) => [n.id, n.slug])),
+  th: Object.fromEntries(newsTh.map((n) => [n.id, n.slug])),
 };
+
+const newsIdBySlug: Record<string, string> = {};
+for (const lang of Object.keys(newsByLang) as SupportedLang[]) {
+  for (const item of newsByLang[lang]) {
+    newsIdBySlug[item.slug] = item.id;
+  }
+}
 
 /** Bir haber slug'ının hedef dildeki karşılığı (yoksa null). */
 export const translateNewsSlug = (slug: string, targetLang: SupportedLang): string | null => {
   const id = newsIdBySlug[slug];
   if (id === undefined) return null;
-  return newsSlugByLang[targetLang === 'tr' ? 'tr' : 'en'][id] ?? null;
+  return newsSlugByLang[targetLang]?.[id] ?? null;
 };
 
 /**
@@ -69,9 +123,8 @@ export function parsePath(pathname: string): { lang: SupportedLang; key: PageKey
   if (sub === 'limitra') return { lang, key: 'howItWorks', slug: '' };
   if (sub === 'sss') return { lang, key: 'faq', slug: '' };
   if (sub === 'haberler' || sub === 'news') return { lang, key: 'news', slug: '' };
-  if (sub.startsWith('haberler/') || sub.startsWith('news/')) {
-    return { lang, key: 'newsItem', slug: slugOf('haberler') };
-  }
+  if (sub.startsWith('haberler/')) return { lang, key: 'newsItem', slug: sub.slice('haberler/'.length) };
+  if (sub.startsWith('news/')) return { lang, key: 'newsItem', slug: sub.slice('news/'.length) };
   if (sub === 'bilgi-merkezi') return { lang, key: 'guides', slug: '' };
   if (sub.startsWith('bilgi-merkezi/')) return { lang, key: 'guide', slug: slugOf('bilgi-merkezi') };
   if (sub === 'iletisim') return { lang, key: 'contact', slug: '' };
@@ -87,7 +140,6 @@ export function parsePath(pathname: string): { lang: SupportedLang; key: PageKey
  */
 export function buildUrl(lang: SupportedLang, key: PageKey, slug = ''): string | null {
   const p = langPrefix(lang);
-  const full = hasFullContent(lang);
 
   switch (key) {
     case 'home':
@@ -97,23 +149,23 @@ export function buildUrl(lang: SupportedLang, key: PageKey, slug = ''): string |
     case 'faq':
       return `${p}/sss`;
     case 'news':
-      return full ? (lang === 'tr' ? '/haberler' : `${p}/news`) : null;
+      return SECTION_LANGS.news.includes(lang) ? (lang === 'tr' ? '/haberler' : `${p}/news`) : null;
     case 'newsItem': {
-      if (!full) return null;
+      if (!SECTION_LANGS.news.includes(lang)) return null;
       const target = translateNewsSlug(slug, lang);
       if (!target) return null;
       return lang === 'tr' ? `/haberler/${target}` : `${p}/news/${target}`;
     }
     case 'guides':
-      return full ? `${p}/bilgi-merkezi` : null;
+      return SECTION_LANGS.guides.includes(lang) ? `${p}/bilgi-merkezi` : null;
     case 'guide':
-      return full ? `${p}/bilgi-merkezi/${slug}` : null;
+      return SECTION_LANGS.guides.includes(lang) ? `${p}/bilgi-merkezi/${slug}` : null;
     case 'contact':
-      return full ? `${p}/iletisim` : null;
+      return SECTION_LANGS.contact.includes(lang) ? `${p}/iletisim` : null;
     case 'privacy':
-      return full ? `${p}/gizlilik-politikasi` : null;
+      return SECTION_LANGS.legal.includes(lang) ? `${p}/gizlilik-politikasi` : null;
     case 'terms':
-      return full ? `${p}/kullanim-sartlari` : null;
+      return SECTION_LANGS.legal.includes(lang) ? `${p}/kullanim-sartlari` : null;
     default:
       return null;
   }

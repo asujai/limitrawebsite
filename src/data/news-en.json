@@ -1,5 +1,32 @@
 [
   {
+    "id": "11",
+    "slug": "france-school-smartphone-ban-pause-numerique-protocol",
+    "title": "France Enforces Total Physical Smartphone Lockaway in Schools Under 'Pause Numérique' Directive",
+    "summary": "Following the French Presidential Screen Commission's landmark findings on youth digital exposure, the French Ministry of National Education rolled out the 'Pause Numérique' mandate across secondary schools, requiring students to physically lock away phones during school hours.",
+    "content": [
+      "Following the publication of the official report by France's Special Commission on Screen Exposure (Commission Écrans), co-chaired by leading neurologists and addiction specialists appointed by President Emmanuel Macron, the French Government has taken decisive action against youth screen addiction.",
+      "The commission's report, titled 'À la recherche du temps perdu', concluded that constant screen exposure and hyperconnectivity among adolescents directly harm sleep architecture, foster sedentary behavior, and aggravate attention fragmentation and anxiety.",
+      "In response, the French Ministry of National Education enacted the nationwide 'Pause Numérique' (Digital Break) protocol across collèges and lycées. Under the directive, students must physically surrender or lock their smartphones in secure lockers or signal-blocking pouches from morning entry until dismissal.",
+      "Empirical assessments from trial schools revealed a 35% improvement in classroom focus, a dramatic decline in online school bullying, and a noticeable resurgence of physical peer interactions during recess.",
+      "French authorities emphasized that institutional boundaries are essential to counter engineered digital habits, urging families to establish phone-free evening and bedtime routines at home."
+    ],
+    "source": "Ministère de l'Éducation Nationale & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Schools & Youth",
+    "date": "2026-08-28",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "France",
+      "Pause Numérique",
+      "School Smartphone Ban",
+      "Screen Commission",
+      "Digital Wellbeing",
+      "Education"
+    ]
+  },
+  {
     "id": "1",
     "slug": "us-meta-17-billion-dollar-addictive-design-settlement",
     "title": "US Meta Landmark Settlement: $17 Billion Historic Deal on Addictive Design and Youth Screen Restrictions",
@@ -20,7 +47,15 @@
     "date": "2026-08-26",
     "readTime": "6 min",
     "featured": true,
-    "tags": ["Meta", "Instagram", "Facebook", "$17 Billion", "Addictive Design", "USA", "Regulation"]
+    "tags": [
+      "Meta",
+      "Instagram",
+      "Facebook",
+      "$17 Billion",
+      "Addictive Design",
+      "USA",
+      "Regulation"
+    ]
   },
   {
     "id": "2",
@@ -34,13 +69,20 @@
       "The Ministry also banned unapproved instant messaging groups for assignments and official notices to eliminate late-night digital homework fatigue.",
       "Citing empirical data linking uncontrolled screen time to cognitive fragmentation and rising cyberbullying rates, the Ministry launched the 'Values-Based Digital Wellbeing Curriculum' across all public and private institutions."
     ],
-    "source": "Republic of Turkey Ministry of National Education & Anadolu Agency",
+    "source": "T.C. Millî Eğitim Bakanlığı & Anadolu Ajansı",
     "sourceUrl": "https://www.meb.gov.tr",
     "category": "Schools & Youth",
     "date": "2026-08-25",
     "readTime": "5 min",
     "featured": true,
-    "tags": ["Turkey", "Education", "Phone Ban", "Digital Wellbeing", "Classroom Focus", "Policy"]
+    "tags": [
+      "Turkey",
+      "Education",
+      "Phone Ban",
+      "Digital Wellbeing",
+      "Classroom Focus",
+      "Policy"
+    ]
   },
   {
     "id": "3",
@@ -59,7 +101,14 @@
     "date": "2026-08-24",
     "readTime": "5 min",
     "featured": false,
-    "tags": ["European Union", "TikTok", "DSA", "Infinite Scroll", "Digital Services Act", "Regulation"]
+    "tags": [
+      "European Union",
+      "TikTok",
+      "DSA",
+      "Infinite Scroll",
+      "Digital Services Act",
+      "Regulation"
+    ]
   },
   {
     "id": "4",
@@ -68,9 +117,9 @@
     "summary": "The Australian Federal Parliament has approved historic legislation prohibiting children under 16 from accessing platforms like TikTok, Instagram, X, and Snapchat, imposing hefty fines of up to $50 million on tech giants that fail to enforce age verification.",
     "content": [
       "Australia has made a precedent-setting decision to protect children and adolescents from the mental health harms of excessive screen time and algorithmic addiction. The federal bill prohibits individuals under the age of 16 from holding social media accounts.",
-      "The law directly covers major platforms including TikTok, Instagram, Facebook, Snapchat, X, and Reddit. Tech platforms are required to take 'reasonable steps' to verify user age, facing fines of up to 50 million Australian dollars for systemic non-compliance.",
-      "Australia's Prime Minister stated: 'Social media is doing harm to our kids and we are calling time on it. We are ending the unfair battle where parents are left on their own against powerful algorithms designed to trap attention. The state is stepping up.'",
-      "Experts predict a global domino effect, with countries such as the United Kingdom, Norway, and France actively exploring similar statutory age limits for algorithmic feeds."
+      "The law directly encompasses platforms including TikTok, Instagram, Facebook, Snapchat, X, and Reddit. Tech platforms must implement robust age verification mechanisms or face fines of up to 50 million Australian dollars.",
+      "The Australian Prime Minister stated: 'Social media is doing harm to our kids and I'm calling time on it. We are stepping in to support parents in this unbalanced battle against predatory tech design.'",
+      "Experts project this legislation will trigger a global ripple effect, prompting nations like the UK, Norway, and Italy to fast-track similar statutory age curbs."
     ],
     "source": "Reuters & ABC News Australia",
     "sourceUrl": "https://www.reuters.com",
@@ -78,18 +127,25 @@
     "date": "2026-08-25",
     "readTime": "4 min",
     "featured": false,
-    "tags": ["Australia", "Regulation", "Social Media Ban", "Under-16", "TikTok", "Instagram"]
+    "tags": [
+      "Australia",
+      "Legislation",
+      "Social Media Ban",
+      "Under-16",
+      "Youth Safety",
+      "Policy"
+    ]
   },
   {
     "id": "5",
     "slug": "us-surgeon-general-warning-label-social-media",
-    "title": "US Surgeon General Calls for Tobacco-Style Health Warning Labels on Social Media",
-    "summary": "Dr. Vivek Murthy, the US Surgeon General, has urged Congress to mandate health warning labels on social media platforms, equating their addictive mechanics and mental health harms in youth to those of tobacco products.",
+    "title": "US Surgeon General Calls for Tobacco-Style Warning Labels on Social Media Platforms",
+    "summary": "US Surgeon General Dr. Vivek Murthy urged Congress to mandate tobacco-style warning labels on social media apps, citing empirical evidence linking extensive screen use to adolescent depression, anxiety, and sleep fragmentation.",
     "content": [
-      "In a landmark op-ed published in The New York Times, US Surgeon General Dr. Vivek Murthy highlighted the urgent public health crisis posed by social media among adolescents, citing direct links to anxiety, depression, and body image disorders.",
-      "Murthy wrote: 'The mental health crisis among young people is an emergency — and social media has emerged as an important contributor. A surgeon general’s warning label on social media platforms would regularly remind parents and adolescents that social media has not been proved safe.'",
-      "Data indicates that adolescents who spend more than 3 hours per day on social media face double the risk of experiencing depressive and anxiety symptoms. Currently, American teens average 4.8 hours of daily social media use.",
-      "The Surgeon General also recommended that schools enforce phone-free policies and that households establish screen-free dinner and bedtime boundaries."
+      "In a landmark op-ed in The New York Times, US Surgeon General Dr. Vivek Murthy called on lawmakers to establish mandatory health warning labels across all social media platforms.",
+      "Comparing algorithmic addiction to tobacco and public road hazards, Dr. Murthy stressed that adolescents who spend over three hours daily on social media face double the risk of experiencing clinical depression and severe anxiety symptoms.",
+      "Current data indicates American adolescents spend an average of 4.8 hours per day across entertainment apps, crowding out restorative sleep, physical movement, and genuine human connection.",
+      "The advisory recommended nationwide phone-free schools, alongside firm parental boundaries restricting screens during dinner and before bedtime."
     ],
     "source": "The New York Times & US Surgeon General Advisory",
     "sourceUrl": "https://www.nytimes.com",
@@ -97,18 +153,25 @@
     "date": "2026-08-21",
     "readTime": "5 min",
     "featured": false,
-    "tags": ["USA", "Surgeon General", "Mental Health", "Warning Label", "Anxiety", "Youth"]
+    "tags": [
+      "USA",
+      "Surgeon General",
+      "Mental Health",
+      "Warning Labels",
+      "Screen Time",
+      "Public Health"
+    ]
   },
   {
     "id": "6",
     "slug": "south-korea-state-funded-smartphone-detox-camps",
-    "title": "South Korea Operates State-Funded 'Digital Detox Camps' for Screen-Addicted Youth",
-    "summary": "South Korea's Ministry of Gender Equality and Family runs nationwide residential detox camps for adolescents spending over 6 hours daily on mobile screens, utilizing nature therapy and cognitive behavioral training to restore offline life balance.",
+    "title": "South Korea Expands State-Funded Youth Smartphone Detox Camps Amid Screen Crisis",
+    "summary": "South Korea's Ministry of Gender Equality and Family operates nationwide residential 'Smartphone Detox Camps' for adolescents spending over 6 hours daily on screens, offering screen-free cognitive rehabilitation and outdoor therapy.",
     "content": [
-      "Recognizing hyper-connectivity as a prominent public health challenge, South Korea operates a pioneering government intervention network to treat youth smartphone dependency.",
-      "Official surveys indicate that nearly 20% of South Korean middle and high school students display acute behavioral symptoms and anxiety when separated from their smartphones.",
-      "The state-subsidized camps isolate participants from all electronic devices for 1 to 4 weeks, engaging them in physical sports, creative arts, and mindfulness coaching.",
-      "Camp clinical directors report that after the initial withdrawal phase during the first 72 hours, teens demonstrate marked improvements in sleep continuity, emotional stabilization, and sustained attention spans."
+      "Recognizing digital dependency as an urgent public health priority, South Korea has developed world-first government-funded residential treatment facilities for digital addiction.",
+      "Government health assessments identified that nearly 20% of middle and high school students exhibit severe withdrawal symptoms and emotional dysregulation when separated from mobile devices.",
+      "In these immersive 1 to 4-week camps, electronic devices are completely prohibited. Teenagers participate in mindfulness, physical sports, and behavioral therapy to recalibrate dopamine sensitivity.",
+      "Clinicians report that after an initial 72-hour withdrawal hurdle, participants demonstrate marked improvements in sleep cycles, sustained attention spans, and genuine face-to-face peer communication."
     ],
     "source": "South Korea Ministry of Gender Equality & Yonhap News",
     "sourceUrl": "https://en.yna.co.kr",
@@ -116,18 +179,25 @@
     "date": "2026-08-19",
     "readTime": "5 min",
     "featured": false,
-    "tags": ["South Korea", "Digital Detox", "Smartphone Addiction", "Youth", "Mental Health"]
+    "tags": [
+      "South Korea",
+      "Digital Detox",
+      "Rehabilitation",
+      "Screen Addiction",
+      "Youth",
+      "Public Health"
+    ]
   },
   {
     "id": "7",
     "slug": "unesco-global-education-report-smartphone-bans-schools",
-    "title": "UNESCO Global Education Report: Smartphone Bans in Schools Boost Focus and Academic Performance",
-    "summary": "UNESCO's Global Education Monitoring Report reveals that banning smartphones in classrooms reduces distraction, curbs cyberbullying, and significantly improves student learning outcomes across schools worldwide.",
+    "title": "UNESCO Global Education Report Endorses Smartphone Bans to Restore Academic Focus",
+    "summary": "UNESCO's Global Education Monitoring Report highlights empirical evidence showing that banning smartphones in schools improves cognitive retention, reduces cyberbullying, and boosts test scores across diverse education systems.",
     "content": [
-      "The United Nations Educational, Scientific and Cultural Organization (UNESCO) warned in a major global report that unmonitored technology and screen use disrupt classroom learning and impair cognitive development.",
-      "According to the study, it takes students up to 20 minutes to refocus on academic material after receiving a single notification. Even having a phone resting silently on a desk reduces working memory and cognitive capacity.",
-      "The report highlights that 1 in 4 countries has enacted national bans or strict restrictions on smartphone use in schools. Following pioneers like France, the Netherlands, and Italy, several other nations are enacting similar policies.",
-      "The Director of the report concluded: 'Digital tools must serve learning without eclipsing direct human engagement. We must help young people reclaim their capacity for sustained focus.'"
+      "UNESCO has issued a definitive global advisory urging education ministries to enact clear, binding boundaries on digital devices in classrooms.",
+      "Research synthesized in the report reveals that it takes students up to 20 minutes to regain full cognitive momentum after a single digital interruption or notification buzz.",
+      "Currently, one in four countries has enacted complete or partial smartphone bans in primary and secondary schools, including the Netherlands, France, Italy, and Finland.",
+      "The Director of UNESCO emphasized: 'Technology should support learning, but can never substitute for sustained attention and human pedagogy.'"
     ],
     "source": "UNESCO Global Education Monitoring Report",
     "sourceUrl": "https://www.unesco.org",
@@ -135,21 +205,28 @@
     "date": "2026-08-18",
     "readTime": "4 min",
     "featured": false,
-    "tags": ["UNESCO", "School Bans", "Education", "Focus", "Academic Performance"]
+    "tags": [
+      "UNESCO",
+      "School Bans",
+      "Education",
+      "Cognitive Focus",
+      "Academic Success",
+      "Global Policy"
+    ]
   },
   {
     "id": "8",
     "slug": "china-minor-mode-nighttime-screen-blackout-law",
-    "title": "China's 'Minor Mode' Directive: Mandatory Nighttime Internet Blackouts for Under-18s",
-    "summary": "China's Cyberspace Administration (CAC) mandates a built-in 'Minor Mode' across all smart devices, completely severing internet access for minors between 10 PM and 6 AM, while capping daily usage between 40 minutes and 2 hours based on age.",
+    "title": "China Mandates 'Minor Mode': Automatic Nighttime Screen Blackouts and Hard Time Limits for Youths",
+    "summary": "China's Cyberspace Administration (CAC) enforced mandatory 'Minor Mode' settings across all smartphones and operating systems, enforcing nighttime internet blackouts from 10 PM to 6 AM and capping screen time between 40 minutes and 2 hours daily based on age.",
     "content": [
-      "China has enacted strict statutory screen time regulations aimed at combating youth myopia, chronic sleep deficit, and digital habit dependency.",
-      "The regulation requires all smartphone, tablet, and operating system vendors to embed a system-level 'Minor Mode' featuring tiered daily constraints:",
-      "- Under 8 years: maximum 40 minutes per day,",
-      "- Ages 8 to 16: maximum 1 hour per day,",
-      "- Ages 16 to 18: maximum 2 hours per day.",
-      "- Absolute blackout between 10:00 PM and 6:00 AM, restricting all gaming and social networking access.",
-      "The framework highlights a growing international consensus: when algorithmic friction is engineered to override human willpower, device-level guardrails become essential."
+      "To combat severe myopia rates, sleep deprivation, and algorithmic compulsion among adolescents, Chinese authorities rolled out systemic operating system mandates.",
+      "Under the regulations, all smartphones, tablets, and apps sold in the country must integrate an unbypassable 'Minor Mode'. When engaged:",
+      "- Children under 8 are restricted to a maximum of 40 minutes per day.",
+      "- Children aged 8 to 16 are capped at 1 hour daily.",
+      "- Adolescents aged 16 to 18 receive up to 2 hours of access.",
+      "- Between 10:00 PM and 6:00 AM, devices automatically restrict online access, barring emergency calls and approved educational utilities.",
+      "The policy represents the world's most comprehensive deployment of systemic, OS-level boundaries to override behavioral addictive hooks."
     ],
     "source": "CAC (Cyberspace Administration of China) & BBC News",
     "sourceUrl": "https://www.cac.gov.cn",
@@ -157,18 +234,25 @@
     "date": "2026-08-16",
     "readTime": "5 min",
     "featured": false,
-    "tags": ["China", "Minor Mode", "CAC", "Screen Blackout", "Regulation", "Youth"]
+    "tags": [
+      "China",
+      "Minor Mode",
+      "Screen Curfew",
+      "CAC",
+      "Regulation",
+      "Digital Health"
+    ]
   },
   {
     "id": "9",
     "slug": "uk-norway-curb-infinite-scroll-and-addictive-algorithms",
-    "title": "UK and Norway Target Addictive Algorithms and Infinite Scroll Features",
-    "summary": "UK media regulator Ofcom and the Norwegian Government have introduced strict child safety guidelines demanding that platforms disable infinite scroll, autoplay videos, and dopamine-inducing recommendation loops for minors.",
+    "title": "UK and Norway Unveil Strict Measures to Curb Infinite Scroll and Predatory Feeds for Minors",
+    "summary": "UK regulator Ofcom alongside Norwegian authorities announced aggressive safety codes compelling social media platforms to turn off infinite scroll, autoplay loops, and algorithmic recommendation engines by default for under-18s.",
     "content": [
-      "Across Europe, efforts to tackle digital addiction have entered a new regulatory phase. Authorities in the UK and Norway are directly targeting the algorithmic hooks designed to maximize screen time and user capture.",
-      "Under the incoming rules, platforms must turn off infinite scroll by default for under-18s, halt late-night push notifications, and offer chronological feeds rather than algorithmic 'For You' streams.",
-      "Norway's Prime Minister stated: 'Tech giants employ the world's brightest engineers and behavioral scientists to capture our children's attention. Individual willpower is outmatched; systemic boundaries are indispensable.'",
-      "Violations may trigger penalties of up to 10% of global annual turnover under prevailing regulatory frameworks."
+      "Governments across Northern Europe are targeting the root software architecture that drives compulsive screen habits in teenagers.",
+      "Under the joint regulatory framework, tech companies must disable infinite scrolling feeds and restrict late-night push notification loops for youth accounts.",
+      "Platforms will be required to offer chronological, distraction-free feeds by default, returning autonomy to users.",
+      "The Prime Minister of Norway stated: 'Tech giants deploy behavioral psychology to extract youth attention for commercial gain. We must establish robust statutory boundaries.'"
     ],
     "source": "BBC News & The Guardian",
     "sourceUrl": "https://www.bbc.com",
@@ -176,18 +260,25 @@
     "date": "2026-08-14",
     "readTime": "4 min",
     "featured": false,
-    "tags": ["UK", "Norway", "Infinite Scroll", "Algorithms", "Ofcom", "Digital Addiction"]
+    "tags": [
+      "UK",
+      "Norway",
+      "Infinite Scroll",
+      "Algorithms",
+      "Ofcom",
+      "Digital Safety"
+    ]
   },
   {
     "id": "10",
     "slug": "oxford-cambridge-short-form-video-dopamine-study",
-    "title": "Oxford & Cambridge Neuroscience Study: Short-Form Videos Erode Attention Spans and Dopamine Balance",
-    "summary": "A comprehensive brain-imaging study conducted by leading neuroscientists confirms that rapid video consumption under 60 seconds weakens deep-focus neural networks in the prefrontal cortex while escalating dopamine tolerance.",
+    "title": "Oxford & Cambridge Neuroscience Study: Short-Form Videos Erode Deep Focus and Elevate Dopamine Thresholds",
+    "summary": "A landmark neuroimaging study by Cambridge and Oxford researchers demonstrates that consuming rapid, sub-60-second video clips weakens prefrontal cortex attention networks and creates neurochemical intolerance for low-dopamine tasks.",
     "content": [
-      "A collaborative fMRI study by researchers at Cambridge and Oxford Universities involving 1,800 participants examined the neurochemical impact of short-form video feeds like TikTok, Instagram Reels, and YouTube Shorts.",
-      "The lead researcher noted: 'Short-form videos deliver an unpredictable reward every 10 to 15 seconds. This hyper-stimulates the brain's dopamine reward circuitry, fostering intolerance for low-dopamine, high-value tasks such as reading, deep studying, or sustained problem solving.'",
-      "Participants consuming over two hours of short-form videos daily exhibited an average 40% reduction in sustained attention span and encountered cognitive fatigue significantly earlier during complex tasks.",
-      "Scientists recommend firm daily application limits and behavioral friction tools as the most effective countermeasure to break the scrolling loop."
+      "A collaborative fMRI study conducted across 1,800 participants by neuroscientists at Oxford and Cambridge investigated the cognitive footprint of short-form algorithmic video streams (TikTok, Reels, Shorts).",
+      "Researchers observed that micro-rewards delivered every few seconds hyper-stimulate dopamine pathways, recalibrating the baseline threshold required to sustain focus on long-form, high-value tasks like reading, deep work, or complex study.",
+      "Participants consuming over two hours of short-form video daily demonstrated an average 40% decline in sustained attention span and reported accelerated cognitive fatigue during problem-solving tests.",
+      "Neuroscientists concluded that applying hard temporal barriers and introducing intentional behavioral friction remain the most potent defenses against attentional erosion."
     ],
     "source": "Cambridge University Press & Nature Neuroscience",
     "sourceUrl": "https://www.cam.ac.uk",
@@ -195,6 +286,13 @@
     "date": "2026-08-10",
     "readTime": "5 min",
     "featured": false,
-    "tags": ["Oxford", "Cambridge", "Neuroscience", "Short Video", "Dopamine", "Focus"]
+    "tags": [
+      "Oxford",
+      "Cambridge",
+      "Neuroscience",
+      "Short-Form Video",
+      "Dopamine",
+      "Deep Focus"
+    ]
   }
 ]

@@ -1,0 +1,336 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { type SupportedLang } from '../data/translations';
+import { newsByLang, type NewsArticleItem } from '../data/routes';
+import { newsUI } from '../data/news-ui';
+
+interface Props {
+  news: NewsArticleItem;
+  lang?: SupportedLang;
+}
+
+const { news, lang = 'tr' } = Astro.props;
+const ui = newsUI[lang] || newsUI.en;
+const newsList = newsByLang[lang] || newsByLang.en;
+
+const relatedNews = newsList.filter((h) => h.id !== news.id).slice(0, 2);
+const newsIndexUrl = lang === 'tr' ? '/haberler' : `/${lang}/news`;
+const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${lang}/news/${slug}`;
+---
+
+<Layout 
+  title={`${news.title} | ${ui.article.titleSuffix}`}
+  description={news.summary}
+  ogTitle={news.title}
+  ogDescription={news.summary}
+  lang={lang}
+>
+  <article class="news-detail-page">
+    <div class="container content-width">
+      <header class="detail-header">
+        <a href={newsIndexUrl} class="back-link">{ui.article.backToNews}</a>
+        
+        <div class="meta-row">
+          <span class="cat-badge">{news.category}</span>
+          <span class="date">{news.date}</span>
+          <span class="read-time">{news.readTime} {ui.article.readTimeSuffix}</span>
+        </div>
+
+        <h1>{news.title}</h1>
+        <p class="lead-summary">{news.summary}</p>
+
+        <div class="source-banner">
+          <span class="source-icon">📰</span>
+          <div>
+            <strong>{ui.article.sourceLabel}</strong> {news.source}
+            {news.sourceUrl && (
+              <a href={news.sourceUrl} target="_blank" rel="noopener noreferrer" class="source-url">
+                {ui.article.viewOriginalSource}
+              </a>
+            )}
+          </div>
+        </div>
+      </header>
+
+      <div class="detail-body">
+        {news.content.map((paragraph) => (
+          <p>{paragraph}</p>
+        ))}
+      </div>
+
+      <!-- Tags -->
+      {news.tags && news.tags.length > 0 && (
+        <div class="tags-section">
+          <span class="tags-title">{ui.article.relatedTags}</span>
+          <div class="tags-list">
+            {news.tags.map((tag) => (
+              <span class="tag-pill">#{tag}</span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Solution Box -->
+      <div class="solution-box">
+        <div class="box-icon">
+          <img src="/logo.jpg" alt="Limitra App Block Logo" width="48" height="48" class="solution-logo" />
+        </div>
+        <div class="box-text">
+          <h3>{ui.article.solutionTitle}</h3>
+          <p>{ui.article.solutionDesc}</p>
+          <a 
+            href="https://play.google.com/store/apps/details?id=com.gardiyan.app" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="btn btn-primary"
+          >
+            {ui.article.solutionButton}
+          </a>
+        </div>
+      </div>
+
+      <!-- Related News -->
+      {relatedNews.length > 0 && (
+        <section class="related-section">
+          <h2>{ui.article.relatedTitle}</h2>
+          <div class="related-grid">
+            {relatedNews.map((item) => (
+              <a href={articleUrl(item.slug)} class="related-card">
+                <span class="related-cat">{item.category}</span>
+                <h4>{item.title}</h4>
+                <span class="related-date">{item.date}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+    </div>
+  </article>
+</Layout>
+
+<style>
+  .news-detail-page {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-6);
+  }
+
+  .back-link:hover {
+    color: var(--accent);
+  }
+
+  .meta-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-bottom: var(--space-4);
+    font-size: 0.82rem;
+  }
+
+  .cat-badge {
+    background: var(--accent);
+    color: white;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--radius-full);
+    text-transform: uppercase;
+  }
+
+  .date, .read-time {
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .detail-header h1 {
+    font-size: clamp(2rem, 4vw, 2.9rem);
+    line-height: 1.2;
+    margin-bottom: var(--space-4);
+  }
+
+  .lead-summary {
+    font-size: 1.18rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    line-height: 1.65;
+    padding-inline-start: 1.25rem;
+    border-inline-start: 4px solid var(--accent);
+    margin-bottom: var(--space-6);
+    background: rgba(38, 103, 245, 0.03);
+    padding-block: 0.75rem;
+    border-start-end-radius: var(--radius-sm);
+    border-end-end-radius: var(--radius-sm);
+  }
+
+  .source-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 0.85rem 1.2rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-8);
+  }
+
+  .source-icon {
+    font-size: 1.2rem;
+  }
+
+  .source-url {
+    color: var(--accent);
+    font-weight: 600;
+    margin-inline-start: 0.4rem;
+  }
+
+  .detail-body {
+    margin-bottom: var(--space-12);
+  }
+
+  .detail-body p {
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-6);
+  }
+
+  /* Tags */
+  .tags-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--border-color);
+    margin-bottom: var(--space-12);
+  }
+
+  .tags-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-muted);
+  }
+
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .tag-pill {
+    background: white;
+    border: 1px solid var(--border-color);
+    padding: 0.25rem 0.65rem;
+    border-radius: var(--radius-full);
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  /* Solution Box */
+  .solution-box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+    background: var(--surface-dark);
+    color: white;
+    border-radius: var(--radius-lg);
+    padding: clamp(1.8rem, 4vw, 2.5rem);
+    margin-bottom: var(--space-16);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .solution-logo {
+    border-radius: 0.75rem;
+    object-fit: cover;
+  }
+
+  .box-text h3 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    font-size: 1.35rem;
+  }
+
+  .box-text p {
+    color: #9cb1d4;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+
+  .box-text strong {
+    color: white;
+  }
+
+  /* Related */
+  .related-section {
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border-color);
+  }
+
+  .related-section h2 {
+    font-size: 1.45rem;
+    margin-top: 0;
+    margin-bottom: var(--space-6);
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
+  }
+
+  .related-card {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  .related-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+  }
+
+  .related-cat {
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+  }
+
+  .related-card h4 {
+    margin: 0 0 0.8rem 0;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+  }
+
+  .related-date {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+  }
+
+  @media (max-width: 600px) {
+    .solution-box {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

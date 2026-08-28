@@ -1,5 +1,36 @@
 # İşlem Geçmişi
 
+## [2026-08-28 18:05] - Haber Portalının 11 Dile Genişletilmesi ve Yeni Haber Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `src/data/news-{es,fr,de,pt,it,ar,id,fil,th}.json` (9 yeni dil için haber veri tabanı)
+  - `[YENİ]` `src/data/news-ui.ts` (11 dilde haber arayüzü sözlüğü)
+  - `[YENİ]` `src/components/NewsIndex.astro` (tüm diller için ortak haber listeleme bileşeni)
+  - `[YENİ]` `src/components/NewsArticle.astro` (tüm diller için ortak haber detay bileşeni)
+  - `[YENİ]` `src/pages/{ar,de,es,fil,fr,id,it,pt,th}/news/index.astro` ve `[slug].astro` (ince sayfa sarıcıları)
+  - `[GÜNCELLENDİ]` `src/pages/haberler/index.astro` ve `[slug].astro` (TR sayfaları ortak bileşene bağlandı)
+  - `[GÜNCELLENDİ]` `src/pages/en/news/index.astro` ve `[slug].astro` (EN sayfaları ortak bileşene bağlandı)
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` ve `src/data/news-en.json` (Fransa 'Pause Numérique' haberi eklendi)
+  - `[GÜNCELLENDİ]` `src/data/routes.ts` (bölüm bazlı SECTION_LANGS, 11 dilde translateNewsSlug eşlemesi)
+  - `[GÜNCELLENDİ]` `src/components/HomePage.astro` (ana sayfa son haberleri her dilin kendi haberlerinden beslendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilin tüm haber liste ve detay URL'leri eklendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` (haber mimarisi ve iş akışı güncellendi)
+* **Yapılan İşlem:**
+  - **Haber Portalı 11 Dile Genişletildi:** `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th` dilleri için eksiksiz haber JSON dosyaları oluşturuldu. Ortak `id`, `date`, `source`, `sourceUrl`, `featured` yapısı korunurken, kategori adları (3 sabit kategori) ve slug'lar yerel dillere uyarlandı.
+  - **Modüler Bileşen Mimarisi:** 11 kez kod tekrarı yapmak yerine `src/components/NewsIndex.astro` ve `src/components/NewsArticle.astro` paylaşılan bileşenleri geliştirildi. TR ve EN dahil 11 dilin tüm sayfa dosyaları bu bileşenleri çağıran ince sarıcılar haline getirildi.
+  - **Arayüz Metinleri (news-ui.ts):** Rozet, başlıklar, kategori butonları, CTA, kaynak ve okuma süreleri 11 dilde yerelleştirildi; Arapça için RTL mantıksal CSS özellikleri uygulandı.
+  - **Bölüm Bazlı Rotalama (routes.ts):** `SECTION_LANGS` nesnesi ile haberler 11 dile açılırken rehberler, iletişim ve hukuki sayfaların mevcut dilleri izole edildi (404 riski engellendi). `translateNewsSlug()` fonksiyonu 11 dilde ortak `id` üzerinden çift yönlü haber slug dönüşümü sağlayacak şekilde genişletildi.
+  - **Yeni Teyitli Haber (ID: 11):** Fransa Cumhurbaşkanlığı Ekran Komisyonu raporu ve Fransa Milli Eğitim Bakanlığı'nın ortaokul/liselerde akıllı telefonları kilitli dolaplara alan "Pause Numérique" protokolü konulu resmi haber 11 dilde eklendi.
+  - **Sitemap & SEO:** `public/sitemap.xml` 11 dilin tüm haber rotalarını içerecek şekilde güncellendi ve hreflang etiketleri doğrulandı.
+* **Doğrulama:**
+  - `npm run build` → 190 sayfa, 0 hata ile başarıyla derlendi.
+  - `npm run check:links` → "OK - kirik ic baglanti yok."
+  - Arapça (RTL) dahil 11 dilde HTML ve bağlantı yapıları doğrulandı.
+* **Bilinen Sorunlar:**
+  - 9 yeni dilde rehberler, iletişim ve hukuki sayfalar henüz çevrilmedi (güvenli şekilde İngilizceye düşmektedir).
+* **Sonraki Öneri:** Kalan 9 dil için sıradaki adımda bilgi merkezi rehberleri ile gizlilik/şartlar sayfalarının çevrilmesi.
+
 ## [2026-08-28 17:50] - Çok Dilli Rota, Kontrast ve Yerelleştirme Hata Düzeltmeleri
 
 * **Model:** Claude

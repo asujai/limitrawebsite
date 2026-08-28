@@ -9,44 +9,38 @@
 
 ## Güncel Durum (2026-08-28)
 - Web sitesi 11 dilli küresel bir platforma dönüştürüldü.
-- `src/data/translations.ts` ile tüm diller için arama motoru optimizasyonuna (SEO) uygun anahtar kelimeler ve metinler hazırlandı.
-- Navbar'a tüm dilleri listeleyen bayraklı ve yerel isimli modern açılır dil seçici (Dropdown) eklendi.
-- Arapça için otomatik `dir="rtl"` sağdan sola yerleşim desteği entegre edildi.
-- Görsel ve mockup bileşenlerinin estetiği korunarak metin alanları 11 dilde lokalize edildi.
-- 10 adet teyitli ve resmi dünya basını haber arşivi sisteme işlendi.
-- `sitemap.xml` 11 dilin tüm rotalarını kapsayacak şekilde güncellendi.
-- `npm run build` ile 80 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) tam olarak yayına alındı.
+- Paylaşılan `NewsIndex.astro` ve `NewsArticle.astro` bileşenleri ile kod tekrarı engellendi, tüm dillerde ince sayfa mimarisine geçildi.
+- `src/data/news-ui.ts` ile tüm arayüz metinleri 11 dilde yerelleştirildi.
+- Fransa'nın "Pause Numérique" okulda telefon kilitleme protokolü konulu yeni teyitli haber 11 dilde eklenerek haber sayısı 11'e çıkarıldı.
+- `src/data/routes.ts` bölüm bazlı (`SECTION_LANGS`) rotalama sistemine geçirildi ve `translateNewsSlug()` 11 dili kapsayacak şekilde genişletildi.
+- `public/sitemap.xml` 11 dilin tüm haber liste ve detay URL'lerini kapsayacak şekilde güncellendi.
+- `npm run build` ile 190 statik sayfa 0 hata ile derlendi.
 
 ## Son Yapılan İşlem
-- **İşlem:** 11 dilli yapının hata denetimi ve düzeltmesi — 239 kırık iç bağlantı, koyu zeminde
-  görünmeyen marka/başlık metinleri, sayfaya özel olmayan hreflang, eksik sitemap girişleri ve
-  yalnızca TR/EN olan arayüz metinleri giderildi.
-- **Model:** Claude
+- **İşlem:** Haber portalının 9 yeni dile açılması (`es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`), modüler `NewsIndex`/`NewsArticle` mimarisi, 11 dilli `news-ui.ts`, bölüm bazlı `SECTION_LANGS` rotalaması ve Fransa "Pause Numérique" konulu yeni teyitli haberin 11 dilde eklenmesi.
+- **Model:** Antigravity
 
-## Mimari Not — çok dilli rotalama
-- Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurmayın.
-- `FULL_CONTENT_LANGS` (şu an `tr`, `en`) tam içeriğe sahip dilleri belirtir. Diğer diller yalnızca
-  ana sayfa, `/limitra` ve `/sss` sayfalarına sahiptir; eksik bölümlerde `resolveUrl` İngilizce
-  sürüme düşer. Bir dile yeni bölüm eklenirse yalnızca bu listeyi/`buildUrl`'i güncellemek yeter.
-- `buildUrl` yalnizca gerçekten var olan sayfayı döner; `hreflang` etiketleri bundan üretilir.
-- Haber slug'ları TR ve EN'de farklıdır; ortak `id` alanı üzerinden eşleştirilir.
+## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
+- Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
+- `SECTION_LANGS`: `news` bölümü 11 dilde tam aktiftir (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`). Diğer bölümler (`guides`, `contact`, `legal`) `tr` ve `en` olarak çalışır ve eksik dillerde `resolveUrl` güvenli bir şekilde İngilizce sürüme düşer.
+- `buildUrl` yalnızca gerçekten var olan sayfayı döner; `hreflang` etiketleri bu sayede 11 dilde hatasız üretilir.
+- Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 80 sayfa, 0 hata.
-- `dist/` bağlantı taraması: kırık iç bağlantı 239 → 0.
-- Sitemap ↔ üretilen sayfalar karşılaştırıldı; yalnızca bilinçli dışarıda bırakılan `cleanscan` sayfaları kaldı.
-- Derlenen CSS ve HTML üzerinden marka renkleri, CTA başlıkları, `lang`/`dir` ve 11 dilin mockup metinleri teyit edildi.
+- `npm run build` → 190 sayfa, 0 hata.
+- `npm run check:links` → "OK - kirik ic baglanti yok."
+- Sitemap ↔ üretilen sayfalar tam uyumlu.
+- 11 dilde `lang`/`dir` nitelikleri, Arapça RTL özellikleri ve çeviriler teyit edildi.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:
-1. Haber içeriği araştırılıp resmi kaynaklarla zenginleştirilir.
-2. `src/data/haberler.json` (TR) ve `src/data/news-en.json` (EN) dosyalarına eklenir.
+1. Haber içeriği araştırılıp resmi/teyitli kaynaklarla detaylandırılır.
+2. 11 dilin haber JSON dosyalarına (`src/data/haberler.json` ve `src/data/news-{en,es,fr,de,pt,it,ar,id,fil,th}.json`) aynı ortak `id` ile eklenir (en yeni haber listenin en başına gelir).
 3. `public/sitemap.xml` güncellenir.
 4. `npm run build` ile 0 hata doğrulanır.
-5. `git push origin main` yapılarak Netlify üzerinden anında canlıya alınır.
+5. `npm run check:links` ile kırık bağlantı olmadığı teyit edilir.
+6. `git push origin main` yapılarak Netlify üzerinden anında canlıya alınır.
 
 ## Bilinen Sorunlar
-- 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) haber arşivi, bilgi merkezi, iletişim ve hukuki
-  sayfaların çevirisi yok. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel,
-  hedef sayfa İngilizce olur.
-- Son denetimde tarayicıda görsel doğrulama yapılmadı; kontroller kod ve derlenmiş çıktı üzerinden yürütüldü.
+- 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.

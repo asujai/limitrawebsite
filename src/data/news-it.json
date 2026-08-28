@@ -1,0 +1,295 @@
+[
+  {
+    "id": "11",
+    "slug": "francia-divieto-smartphone-scuole-pause-numerique",
+    "title": "Francia: 'Pause Numérique' nelle scuole, smartphone obbligatoriamente chiusi a chiave all'ingresso",
+    "summary": "In seguito allo storico rapporto della Commissione presidenziale sugli schermi, il Ministero dell'Istruzione francese ha esteso il protocollo 'Pause Numérique' a medie e superiori, imponendo la custodia fisica dei telefoni durante l'orario scolastico.",
+    "content": [
+      "Dopo la pubblicazione della relazione ufficiale della Commissione di esperti sull'esposizione agli schermi (Commission Écrans), voluta dal presidente Emmanuel Macron e guidata da illustri neurologi e psichiatri, il governo francese passa all'azione contro la dipendenza da smartphone tra i giovani.",
+      "Il rapporto, intitolato 'À la recherche du temps perdu', ha evidenziato con prove scientifiche come l'iperconnessione danneggi il sonno, aumenti la sedentarietà e moltiplichi i disturbi di attenzione e ansia.",
+      "Il Ministero dell'Istruzione ha pertanto reso obbligatoria la 'Pause Numérique' in collèges e licei. Gli studenti devono consegnare o riporre i propri dispositivi in appositi armadietti blindati o custodie sigillate dall'inizio alla fine delle lezioni.",
+      "I dati raccolti nelle scuole pilota mostrano un incremento del 35% nella concentrazione in classe, un calo considerevole del cyberbullismo e una rinascita delle relazioni umane e del gioco nei cortili.",
+      "Le autorità francesi ricordano che i limiti sistemici sono indispensabili per contrastare le trappole dell'attenzione e invitano le famiglie a stabilire serate senza telefoni a casa."
+    ],
+    "source": "Ministère de l'Éducation Nationale & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Scuole e gioventù",
+    "date": "2026-08-28",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Francia",
+      "Pause Numérique",
+      "Divieto smartphone scuole",
+      "Commissione Schermi",
+      "Benessere digitale",
+      "Istruzione"
+    ]
+  },
+  {
+    "id": "1",
+    "slug": "usa-accordo-meta-17-miliardi-design-che-crea-dipendenza",
+    "title": "USA: Accordo storico da 17 miliardi di dollari per Meta su design che crea dipendenza e limiti di tempo",
+    "summary": "In una storica intesa con quasi 50 stati USA, Meta ha accettato un accordo da 17,1 miliardi di dollari sull'accusa di aver progettato algoritmi volutamente assuefacenti. Previsto limite di 2 ore al giorno e blocco notturno per i minori.",
+    "content": [
+      "In una delle vertenze più importanti della storia tecnologica, Meta verserà 17,1 miliardi di dollari per chiudere le cause intentate dai procuratori generali di quasi 50 stati americani.",
+      "Dalle indagini è emerso che i vertici di Meta conoscevano i danni di Instagram sulla salute mentale dei giovani, ma hanno continuato a potenziare lo scorrimento infinito.",
+      "L'accordo vincolante introduce:",
+      "1. Tetto massimo di 2 ore giornaliere per i minori.",
+      "2. Oscuramento automatico della piattaforma durante la notte.",
+      "3. Blocco delle notifiche push durante l'orario scolastico.",
+      "4. Possibilità di disattivare l'algoritmo predittivo per passare al feed cronologico.",
+      "I procuratori hanno sottolineato che questo accordo sancisce la fine dello sfruttamento incontrollato dell'attenzione dei minori."
+    ],
+    "source": "Reuters, Washington Post & NY Attorney General Office",
+    "sourceUrl": "https://www.reuters.com",
+    "category": "Politiche governative e leggi",
+    "date": "2026-08-26",
+    "readTime": "6 min",
+    "featured": true,
+    "tags": [
+      "Meta",
+      "Instagram",
+      "Facebook",
+      "17 miliardi",
+      "Dipendenza digitale",
+      "USA",
+      "Regolamentazione"
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "turchia-ministero-istruzione-divieto-smartphone-classi",
+    "title": "Turchia: il Ministero dell'Istruzione vieta gli smartphone nelle classi di tutte le 81 province",
+    "summary": "Il Ministero dell'Istruzione turco ha emanato una direttiva nazionale che vieta i cellulari in classe sia per studenti che per insegnanti, inserendo l'educazione al benessere digitale nei programmi scolastici.",
+    "content": [
+      "Il Ministero dell'Istruzione della Turchia ha emanato disposizioni vincolanti per tutte le 81 province per garantire aule prive di distrazioni.",
+      "I telefoni degli studenti vengono ritirati e chiusi in armadietti sicuri la mattina fino al termine delle lezioni.",
+      "Il divieto di utilizzo dello smartphone durante le lezioni si estende anche al corpo docente.",
+      "È stato limitato l'uso di gruppi di messaggistica non ufficiali per compiti e comunicazioni scolastiche.",
+      "È stato introdotto un programma didattico nazionale dedicato al contrasto della dipendenza da schermi."
+    ],
+    "source": "T.C. Millî Eğitim Bakanlığı & Anadolu Ajansı",
+    "sourceUrl": "https://www.meb.gov.tr",
+    "category": "Scuole e gioventù",
+    "date": "2026-08-25",
+    "readTime": "5 min",
+    "featured": true,
+    "tags": [
+      "Turchia",
+      "Istruzione",
+      "Divieto cellulari",
+      "Benessere digitale",
+      "Scuola",
+      "Direttiva"
+    ]
+  },
+  {
+    "id": "3",
+    "slug": "ue-dsa-tiktok-indagine-design-dipendenza-lite-rewards",
+    "title": "Unione Europea contro TikTok: ritirato definitivamente il programma a premi di TikTok Lite",
+    "summary": "In conformità con il Digital Services Act (DSA), la Commissione Europea ha ottenuto il ritiro permanente del sistema a punti di TikTok Lite in tutta l'UE. Nel mirino anche lo scorrimento infinito.",
+    "content": [
+      "La Commissione Europea prosegue l'azione di vigilanza contro i meccanismi ingannevoli e assuefacenti delle piattaforme online.",
+      "TikTok si è formalmente impegnata a ritirare in via definitiva nell'UE il sistema 'TikTok Lite Rewards', che premiava gli utenti per la visione continua di video.",
+      "Le autorità europee hanno evidenziato come autoplay e scrolling infinito ostacolino l'autocontrollo degli utenti.",
+      "Le sanzioni previste dal DSA per i trasgressori possono raggiungere il 6% del fatturato mondiale."
+    ],
+    "source": "European Commission & The Guardian",
+    "sourceUrl": "https://ec.europa.eu",
+    "category": "Politiche governative e leggi",
+    "date": "2026-08-24",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Unione Europea",
+      "TikTok",
+      "DSA",
+      "Scrolling infinito",
+      "Regolamentazione",
+      "Servizi digitali"
+    ]
+  },
+  {
+    "id": "4",
+    "slug": "australia-legge-divieto-social-media-under-16",
+    "title": "Australia: approvata la storica legge sul divieto dei social media per gli under 16",
+    "summary": "Il Parlamento australiano ha approvato una legge storica che vieta l'accesso ai social media ai minori di 16 anni, introducendo sanzioni fino a 50 milioni di dollari per le piattaforme che non verificano l'età.",
+    "content": [
+      "L'Australia compie un passo pionieristico a livello globale per contrastare i danni dell'iperconnessione sullo sviluppo psicologico dei ragazzi.",
+      "Le piattaforme come TikTok, Instagram e Snapchat dovranno bloccare gli account dei minori di 16 anni con rigorosi controlli di verifica anagrafica.",
+      "Il Primo Ministro ha ribadito l'impegno del governo a sostenere i genitori nella tutela del tempo e della mente dei propri figli.",
+      "La misura è considerata un modello di riferimento per le future normative europee."
+    ],
+    "source": "Reuters & ABC News Australia",
+    "sourceUrl": "https://www.reuters.com",
+    "category": "Politiche governative e leggi",
+    "date": "2026-08-25",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": [
+      "Australia",
+      "Legislazione",
+      "Divieto social media",
+      "Under 16",
+      "Tutela minori",
+      "Politica"
+    ]
+  },
+  {
+    "id": "5",
+    "slug": "chirurgo-generale-usa-etichetta-avviso-social-media",
+    "title": "USA: il chirurgo generale chiede avvertenze sanitarie obbligatorie sui social media",
+    "summary": "Il dottor Vivek Murthy esorta il Congresso a introdurre avvisi sui rischi per la salute mentale simili a quelli del tabacco su tutte le app social.",
+    "content": [
+      "Sul New York Times, il massimo responsabile della salute pubblica statunitense ha denunciato i pericoli dell'iperconnessione sullo sviluppo psicologico degli adolescenti.",
+      "Murthy propone l'introduzione di avvertimenti espliciti all'apertura delle applicazioni riguardo ai rischi di depressione e ansia.",
+      "Superare le 3 ore quotidiane di utilizzo raddoppia il rischio di disturbi dell'umore nei giovani.",
+      "Viene raccomandata la totale esclusione degli smartphone dalle aule scolastiche e durante le ore notturne."
+    ],
+    "source": "The New York Times & US Surgeon General Advisory",
+    "sourceUrl": "https://www.nytimes.com",
+    "category": "Scienza e salute",
+    "date": "2026-08-21",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "USA",
+      "Salute mentale",
+      "Avvertenze sanitarie",
+      "Tempo di schermo",
+      "Prevenzione",
+      "Salute pubblica"
+    ]
+  },
+  {
+    "id": "6",
+    "slug": "corea-del-sud-campi-statali-disintossicazione-digitale",
+    "title": "Corea del Sud: ampliati i campi statali di disintossicazione da smartphone per i giovani",
+    "summary": "Il Ministero della Famiglia sudcoreano finanzia strutture residenziali per ragazzi con oltre 6 ore di utilizzo quotidiano dello schermo, con programmi di rieducazione all'attenzione senza tecnologia.",
+    "content": [
+      "La Corea del Sud affronta la dipendenza digitale come emergenza sanitaria, offrendo percorsi riabilitativi interamente a carico dello Stato.",
+      "Circa un quinto degli studenti mostra sintomi di astinenza e irritabilità in assenza di connessione.",
+      "Nei campi residenziali di diverse settimane i dispositivi sono vietati e si lavora sul recupero delle relazioni reali e dell'equilibrio emotivo.",
+      "I medici confermano benefici immediati sui ritmi circadiani e sulla lucidità mentale già dopo pochi giorni."
+    ],
+    "source": "South Korea Ministry of Gender Equality & Yonhap News",
+    "sourceUrl": "https://en.yna.co.kr",
+    "category": "Scienza e salute",
+    "date": "2026-08-19",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Corea del Sud",
+      "Digital Detox",
+      "Riabilitazione",
+      "Dipendenza da schermo",
+      "Giovani",
+      "Salute"
+    ]
+  },
+  {
+    "id": "7",
+    "slug": "unesco-rapporto-globale-istruzione-divieto-smartphone-scuole",
+    "title": "Rapporto globale UNESCO: vietare gli smartphone a scuola aumenta concentrazione e voti",
+    "summary": "Il rapporto globale dell'UNESCO evidenzia che il divieto dei telefoni in classe riduce la distrazione, combatte il bullismo online e migliora i risultati nelle prove scolastiche.",
+    "content": [
+      "L'UNESCO esorta i governi a stabilire limiti netti alla presenza di dispositivi digitali nelle aule scolastiche.",
+      "Secondo lo studio, uno studente impiega circa 20 minuti per riconquistare la massima concentrazione dopo una singola interruzione digitale.",
+      "Un paese su quattro nel mondo ha già introdotto divieti parziali o totali di smartphone nelle scuole.",
+      "L'agenzia ONU ricorda che la tecnologia non può sostituire la relazione educativa umana."
+    ],
+    "source": "UNESCO Global Education Monitoring Report",
+    "sourceUrl": "https://www.unesco.org",
+    "category": "Scuole e gioventù",
+    "date": "2026-08-18",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": [
+      "UNESCO",
+      "Scuola",
+      "Divieto cellulari",
+      "Apprendimento",
+      "Concentrazione",
+      "Rapporto"
+    ]
+  },
+  {
+    "id": "8",
+    "slug": "cina-modalita-minori-legge-blocco-notturno-schermi",
+    "title": "Cina: 'Modalità Minori' obbligatoria con coprifuoco notturno e limiti di tempo per gli schermi",
+    "summary": "L'autorità cinese per il cyberspazio ha imposto la 'Modalità Minori' su tutti i dispositivi mobili: spegnimento della rete dalle 22:00 alle 06:00 e utilizzo giornaliero limitato tra 40 minuti e 2 ore.",
+    "content": [
+      "Per contrastare disturbi del sonno e miopia giovanile, la Cina ha implementato vincoli hardware e software a livello nazionale.",
+      "Il sistema limita l'uso a 40 minuti sotto gli 8 anni, 1 ora tra 8 e 16 anni e massimo 2 ore per i ragazzi tra 16 e 18 anni.",
+      "Durante le ore notturne l'accesso ai giochi e ai social viene interrotto automaticamente.",
+      "La misura evidenzia l'importanza di barriere tecniche solide per superare la vulnerabilità dell'autocontrollo."
+    ],
+    "source": "CAC (Cyberspace Administration of China) & BBC News",
+    "sourceUrl": "https://www.cac.gov.cn",
+    "category": "Politiche governative e leggi",
+    "date": "2026-08-16",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Cina",
+      "Modalità Minori",
+      "Coprifuoco schermi",
+      "Regolamentazione",
+      "Sonno",
+      "Salute digitale"
+    ]
+  },
+  {
+    "id": "9",
+    "slug": "regno-unito-norvegia-freno-scorrimento-infinito-algoritmi",
+    "title": "Regno Unito e Norvegia: stop a scorrimento infinito e algoritmi predatori per i minori",
+    "summary": "L'autorità britannica Ofcom e il governo norvegese impongono la disattivazione predefinita di scrolling infinito, autoplay e feed algoritmici per gli utenti under 18.",
+    "content": [
+      "I regolatori europei intervengono sulle architetture software che alimentano la dipendenza da smartphone.",
+      "Le aziende tecnologiche dovranno disattivare lo scorrimento continuo e le notifiche notturne per gli adolescenti.",
+      "Viene richiesta l'adozione di feed cronologici lineari per restituire il controllo del tempo agli utenti.",
+      "Il governo norvegese ha sottolineato la necessità di proteggere i giovani dalla manipolazione dell'attenzione."
+    ],
+    "source": "BBC News & The Guardian",
+    "sourceUrl": "https://www.bbc.com",
+    "category": "Politiche governative e leggi",
+    "date": "2026-08-14",
+    "readTime": "4 min",
+    "featured": false,
+    "tags": [
+      "Regno Unito",
+      "Norvegia",
+      "Scorrimento infinito",
+      "Algoritmi",
+      "Ofcom",
+      "Sicurezza digitale"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "oxford-cambridge-studio-video-brevi-dopamina",
+    "title": "Studio di Oxford e Cambridge: i video brevi erodono la concentrazione e alterano la dopamina",
+    "summary": "Uno studio di neuroimaging condotto da Oxford e Cambridge dimostra che la fruizione rapida di video sotto i 60 secondi indebolisce le reti di attenzione della corteccia prefrontale.",
+    "content": [
+      "I ricercatori hanno esaminato 1.800 soggetti tramite risonanza magnetica funzionale per verificare l'effetto di TikTok, Reels e Shorts sulla biochimica cerebrale.",
+      "Le continue scariche di dopamina ogni pochi secondi assuefanno il sistema di ricompensa, rendendo intollerabili le attività a bassa stimolazione come lo studio.",
+      "La ricerca evidenzia un calo del 40% nella capacità di concentrazione prolungata in chi consuma oltre 2 ore di video brevi al giorno.",
+      "Gli esperti consigliano di imporre limiti orari precisi e barriere all'accesso per proteggere le funzioni cognitive."
+    ],
+    "source": "Cambridge University Press & Nature Neuroscience",
+    "sourceUrl": "https://www.cam.ac.uk",
+    "category": "Scienza e salute",
+    "date": "2026-08-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Oxford",
+      "Cambridge",
+      "Neuroscienze",
+      "Video brevi",
+      "Dopamina",
+      "Concentrazione"
+    ]
+  }
+]
