@@ -18,11 +18,24 @@
 - `npm run build` ile 80 statik sayfa 0 hata ile derlendi.
 
 ## Son Yapılan İşlem
-- **İşlem:** 9 yeni dilin (İspanyolca, Fransızca, Almanca, Portekizce, İtalyanca, Arapça, Endonezce, Filipince, Tayca) sisteme eklenmesi, çok dilli açılır dil seçici menüsü ve RTL desteğinin entegrasyonu.
-- **Model:** Antigravity
+- **İşlem:** 11 dilli yapının hata denetimi ve düzeltmesi — 239 kırık iç bağlantı, koyu zeminde
+  görünmeyen marka/başlık metinleri, sayfaya özel olmayan hreflang, eksik sitemap girişleri ve
+  yalnızca TR/EN olan arayüz metinleri giderildi.
+- **Model:** Claude
+
+## Mimari Not — çok dilli rotalama
+- Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurmayın.
+- `FULL_CONTENT_LANGS` (şu an `tr`, `en`) tam içeriğe sahip dilleri belirtir. Diğer diller yalnızca
+  ana sayfa, `/limitra` ve `/sss` sayfalarına sahiptir; eksik bölümlerde `resolveUrl` İngilizce
+  sürüme düşer. Bir dile yeni bölüm eklenirse yalnızca bu listeyi/`buildUrl`'i güncellemek yeter.
+- `buildUrl` yalnizca gerçekten var olan sayfayı döner; `hreflang` etiketleri bundan üretilir.
+- Haber slug'ları TR ve EN'de farklıdır; ortak `id` alanı üzerinden eşleştirilir.
 
 ## Doğrulama
-- `npm run build` başarıyla çalıştırıldı (80 sayfa 0 hata ile statik olarak derlendi).
+- `npm run build` → 80 sayfa, 0 hata.
+- `dist/` bağlantı taraması: kırık iç bağlantı 239 → 0.
+- Sitemap ↔ üretilen sayfalar karşılaştırıldı; yalnızca bilinçli dışarıda bırakılan `cleanscan` sayfaları kaldı.
+- Derlenen CSS ve HTML üzerinden marka renkleri, CTA başlıkları, `lang`/`dir` ve 11 dilin mockup metinleri teyit edildi.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:
@@ -33,4 +46,7 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 5. `git push origin main` yapılarak Netlify üzerinden anında canlıya alınır.
 
 ## Bilinen Sorunlar
-- Yok.
+- 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) haber arşivi, bilgi merkezi, iletişim ve hukuki
+  sayfaların çevirisi yok. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel,
+  hedef sayfa İngilizce olur.
+- Son denetimde tarayicıda görsel doğrulama yapılmadı; kontroller kod ve derlenmiş çıktı üzerinden yürütüldü.

@@ -1,5 +1,6 @@
 ---
 import { translations, SUPPORTED_LANGUAGES, type SupportedLang } from '../data/translations';
+import { parsePath, resolveUrl, routes } from '../data/routes';
 
 interface Props {
   currentLang?: SupportedLang;
@@ -15,42 +16,41 @@ const currentLang: SupportedLang = Astro.props.currentLang || (
 
 const t = translations[currentLang] || translations.en;
 
-// Mevcut sayfa yolunun dilsiz kökü (örn. /limitra, /sss, /news vb.)
-let subPath = '';
-if (currentLang === 'tr') {
-  subPath = pathname === '/' ? '' : pathname;
-} else {
-  const rest = pathSegments.slice(1).join('/');
-  subPath = rest ? `/${rest}` : '';
-}
+// Mevcut sayfanın dil-bağımsız kimliği (hangi sayfa tipi + slug)
+const { key: pageKey, slug: pageSlug } = parsePath(pathname);
 
-// Her dil için rota oluşturucu
-const getLangUrl = (targetLang: SupportedLang) => {
-  if (targetLang === 'tr') {
-    if (subPath === '/news' || subPath.startsWith('/news/')) return '/haberler';
-    return subPath || '/';
-  } else {
-    let langSubPath = subPath;
-    if (subPath === '/haberler' || subPath.startsWith('/haberler/')) langSubPath = '/news';
-    return `/${targetLang}${langSubPath}`;
-  }
-};
+// Dil değiştirici: hedef dilde sayfa yoksa İngilizce sürüme, o da yoksa
+// dilin ana sayfasına düşer. Böylece hiçbir seçim 404 üretmez.
+const getLangUrl = (targetLang: SupportedLang) => resolveUrl(targetLang, pageKey, pageSlug);
 
-const homeHref = currentLang === 'tr' ? '/' : `/${currentLang}`;
-const howItWorksHref = currentLang === 'tr' ? '/limitra' : `/${currentLang}/limitra`;
-const newsHref = currentLang === 'tr' ? '/haberler' : `/${currentLang}/news`;
-const guidesHref = currentLang === 'tr' ? '/bilgi-merkezi' : `/${currentLang}/bilgi-merkezi`;
-const faqHref = currentLang === 'tr' ? '/sss' : `/${currentLang}/sss`;
+const r = routes(currentLang);
+const homeHref = r.home;
 
 const links = [
-  { href: homeHref, label: t.nav.home },
-  { href: howItWorksHref, label: t.nav.howItWorks },
-  { href: newsHref, label: t.nav.news },
-  { href: guidesHref, label: t.nav.guides },
-  { href: faqHref, label: t.nav.faq }
+  { href: r.home, label: t.nav.home },
+  { href: r.howItWorks, label: t.nav.howItWorks },
+  { href: r.news, label: t.nav.news },
+  { href: r.guides, label: t.nav.guides },
+  { href: r.faq, label: t.nav.faq }
 ];
 
 const isCurrent = (href: string) => pathname === href || (href !== '/' && href !== `/${currentLang}` && pathname.startsWith(href));
+// Mobil menü düğmesi için dile göre etiket
+const menuLabels: Record<SupportedLang, string> = {
+  tr: 'Menüyü aç/kapat',
+  en: 'Toggle menu',
+  es: 'Abrir/cerrar menú',
+  fr: 'Ouvrir/fermer le menu',
+  de: 'Menü öffnen/schließen',
+  pt: 'Abrir/fechar menu',
+  it: 'Apri/chiudi menu',
+  ar: 'فتح/إغلاق القائمة',
+  id: 'Buka/tutup menu',
+  fil: 'Buksan/isara ang menu',
+  th: 'เปิด/ปิดเมนู'
+};
+const menuLabel = menuLabels[currentLang] ?? menuLabels.en;
+
 const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || SUPPORTED_LANGUAGES[0];
 ---
 
@@ -109,7 +109,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
         data-menu-toggle
         aria-controls="primary-navigation"
         aria-expanded="false"
-        aria-label="Menüyü aç/kapat"
+        aria-label={menuLabel}
       >
         <span></span>
         <span></span>
@@ -193,6 +193,11 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     letter-spacing: -0.01em;
   }
 
+  /* Acik zeminli ust bar: marka metni koyu */
+  .brand-text {
+    color: #09162f;
+  }
+
   .brand-logo {
     border-radius: 8px;
     object-fit: cover;
@@ -207,7 +212,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     padding: 0.2rem 0.5rem;
     border-radius: 9999px;
     border: 1px solid rgba(67, 56, 202, 0.15);
-    margin-left: 0.2rem;
+    margin-inline-start: 0.2rem;
   }
 
   .nav-list {
@@ -293,7 +298,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
   .lang-menu {
     position: absolute;
     top: calc(100% + 8px);
-    right: 0;
+    inset-inline-end: 0;
     background: #ffffff;
     border-radius: 12px;
     box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16), 0 2px 6px rgba(15, 23, 42, 0.06);
@@ -337,7 +342,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
   }
 
   .lang-code-tag {
-    margin-left: auto;
+    margin-inline-start: auto;
     font-size: 0.72rem;
     color: #94a3b8;
     font-weight: 600;
@@ -372,7 +377,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     border: none;
     cursor: pointer;
     padding: 0;
-    margin-left: 0.5rem;
+    margin-inline-start: 0.5rem;
   }
 
   .menu-toggle span {

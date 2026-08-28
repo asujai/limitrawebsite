@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import haberlerTr from '../data/haberler.json';
 import haberlerEn from '../data/news-en.json';
 import { translations, type SupportedLang } from '../data/translations';
+import { routes } from '../data/routes';
+import { mockup } from '../data/mockup';
 
 interface Props {
   lang?: SupportedLang;
@@ -10,22 +12,23 @@ interface Props {
 
 const { lang = 'tr' } = Astro.props;
 const t = translations[lang] || translations.en;
-const prefix = lang === 'tr' ? '' : `/${lang}`;
 const playUrl = 'https://play.google.com/store/apps/details?id=com.gardiyan.app';
 
+const r = routes(lang);
+const m = mockup[lang] || mockup.en;
 const latestNews = (lang === 'tr' ? haberlerTr : haberlerEn).slice(0, 3);
-const newsUrl = lang === 'tr' ? '/haberler' : `${prefix}/news`;
+const newsUrl = r.news;
 
 const steps = t.steps.items;
 
 const guides = lang === 'tr' ? [
-  { href: '/bilgi-merkezi/ekran-suresi', meta: '6 dk', title: 'Ekran süreni gerçekten anla', text: 'Sürekli telefon kullanımının dikkat ve günlük ritim üzerindeki etkisini gör.' },
-  { href: '/bilgi-merkezi/klasik-limitler-neden-yetmez', meta: '5 dk', title: 'Yumuşak limitler neden yetmez?', text: 'Bir uyarının dürtü anında neden kolayca yok sayıldığını keşfet.' },
-  { href: '/bilgi-merkezi/dikkat-uyku-ve-rutinler', meta: '7 dk', title: 'Uyku ve dikkatini koru', text: 'Yalnızca iradeye güvenmeden daha sakin akşam rutinleri kur.' }
+  { href: r.guide('ekran-suresi'), meta: '6 dk', title: 'Ekran süreni gerçekten anla', text: 'Sürekli telefon kullanımının dikkat ve günlük ritim üzerindeki etkisini gör.' },
+  { href: r.guide('klasik-limitler-neden-yetmez'), meta: '5 dk', title: 'Yumuşak limitler neden yetmez?', text: 'Bir uyarının dürtü anında neden kolayca yok sayıldığını keşfet.' },
+  { href: r.guide('dikkat-uyku-ve-rutinler'), meta: '7 dk', title: 'Uyku ve dikkatini koru', text: 'Yalnızca iradeye güvenmeden daha sakin akşam rutinleri kur.' }
 ] : [
-  { href: `${prefix}/bilgi-merkezi/ekran-suresi`, meta: '6 min', title: 'Understand your screen time', text: 'See what constant phone use does to focus and daily rhythm.' },
-  { href: `${prefix}/bilgi-merkezi/klasik-limitler-neden-yetmez`, meta: '5 min', title: 'Why soft limits are easy to ignore', text: 'Explore why a warning is often not enough at the moment of temptation.' },
-  { href: `${prefix}/bilgi-merkezi/dikkat-uyku-ve-rutinler`, meta: '7 min', title: 'Protect sleep and attention', text: 'Build calmer evening routines without relying on willpower alone.' }
+  { href: r.guide('ekran-suresi'), meta: '6 min', title: 'Understand your screen time', text: 'See what constant phone use does to focus and daily rhythm.' },
+  { href: r.guide('klasik-limitler-neden-yetmez'), meta: '5 min', title: 'Why soft limits are easy to ignore', text: 'Explore why a warning is often not enough at the moment of temptation.' },
+  { href: r.guide('dikkat-uyku-ve-rutinler'), meta: '7 min', title: 'Protect sleep and attention', text: 'Build calmer evening routines without relying on willpower alone.' }
 ];
 
 const pageTitles: Record<SupportedLang, { title: string; desc: string }> = {
@@ -97,7 +100,7 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
           <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
             <span>{t.hero.ctaPrimary}</span><span aria-hidden="true">↗</span>
           </a>
-          <a href={`${prefix}/limitra`} class="text-link">{t.hero.ctaSecondary} <span aria-hidden="true">→</span></a>
+          <a href={r.howItWorks} class="text-link">{t.hero.ctaSecondary} <span aria-hidden="true">→</span></a>
         </div>
         <div class="hero-trust" aria-label="Ürün özellikleri">
           <span><i></i>{t.hero.trustOnDevice}</span>
@@ -106,7 +109,7 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
         </div>
       </div>
 
-      <div class="product-visual" aria-label={lang === 'tr' ? 'Temsili Limitra ürün arayüzü' : 'Representative Limitra product interface'}>
+      <div class="product-visual" aria-label={m.visualAria}>
         <div class="orbit orbit-one"></div>
         <div class="orbit orbit-two"></div>
         <div class="phone-shell">
@@ -114,38 +117,38 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
           <div class="app-head">
             <div>
               <span class="app-kicker"><img src="/logo.jpg" alt="" class="kicker-logo" /> LIMITRA</span>
-              <strong>{lang === 'tr' ? 'Günaydın' : 'Good morning'}</strong>
+              <strong>{m.greeting}</strong>
             </div>
             <span class="profile-dot">A</span>
           </div>
           <div class="focus-card">
             <div class="focus-top">
-              <span>{lang === 'tr' ? 'Bugünün odağı' : 'Today’s focus'}</span>
+              <span>{m.todaysFocus}</span>
               <strong>62%</strong>
             </div>
             <div class="progress-track"><span></span></div>
-            <div class="focus-bottom"><span>{lang === 'tr' ? '38 dk korundu' : '38 min protected'}</span><span>{lang === 'tr' ? 'Hedef: 60 dk' : 'Goal: 60 min'}</span></div>
+            <div class="focus-bottom"><span>{m.protectedMinutes}</span><span>{m.goal}</span></div>
           </div>
-          <div class="app-section-title"><strong>{lang === 'tr' ? 'Aktif sınırlar' : 'Active limits'}</strong><span>{lang === 'tr' ? 'Düzenle' : 'Edit'}</span></div>
+          <div class="app-section-title"><strong>{m.activeLimits}</strong><span>{m.edit}</span></div>
           <div class="limit-row">
             <span class="app-icon blue">S</span>
-            <div><strong>{lang === 'tr' ? 'Sosyal medya' : 'Social media'}</strong><small>{lang === 'tr' ? '30 dk’nın 18 dk’sı' : '18 of 30 min used'}</small></div>
-            <span class="time-pill">12 dk</span>
+            <div><strong>{m.socialMedia}</strong><small>{m.socialUsage}</small></div>
+            <span class="time-pill">{m.socialLeft}</span>
           </div>
           <div class="limit-row">
             <span class="app-icon coral">V</span>
-            <div><strong>{lang === 'tr' ? 'Kısa videolar' : 'Short videos'}</strong><small>{lang === 'tr' ? '20 dk’nın 14 dk’sı' : '14 of 20 min used'}</small></div>
-            <span class="time-pill">6 dk</span>
+            <div><strong>{m.shortVideos}</strong><small>{m.videoUsage}</small></div>
+            <span class="time-pill">{m.videoLeft}</span>
           </div>
           <div class="streak-card">
             <span class="streak-icon">7</span>
-            <div><strong>{lang === 'tr' ? '7 günlük seri' : '7-day streak'}</strong><small>{lang === 'tr' ? 'Sınırın bugün de korundu.' : 'Your boundary stayed intact.'}</small></div>
+            <div><strong>{m.streakTitle}</strong><small>{m.streakNote}</small></div>
           </div>
           <div class="app-nav"><span class="active">●</span><span>■</span><span>◆</span></div>
         </div>
-        <div class="float-card float-left"><span class="float-icon">✓</span><div><strong>{lang === 'tr' ? 'Sınır aktif' : 'Boundary active'}</strong><small>{lang === 'tr' ? 'Yarına kadar korunuyor' : 'Protected until tomorrow'}</small></div></div>
-        <div class="float-card float-right"><span class="float-number">38</span><div><strong>{lang === 'tr' ? 'dakika' : 'minutes'}</strong><small>{lang === 'tr' ? 'bugün geri kazanıldı' : 'saved today'}</small></div></div>
-        <p class="visual-note">{lang === 'tr' ? 'Temsili ürün arayüzü' : 'Representative product interface'}</p>
+        <div class="float-card float-left"><span class="float-icon">✓</span><div><strong>{m.boundaryActive}</strong><small>{m.protectedUntil}</small></div></div>
+        <div class="float-card float-right"><span class="float-number">38</span><div><strong>{m.minutesLabel}</strong><small>{m.savedToday}</small></div></div>
+        <p class="visual-note">{m.visualNote}</p>
       </div>
     </div>
   </section>
@@ -205,19 +208,19 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
             <li><span>✓</span>{check}</li>
           ))}
         </ul>
-        <a href={`${prefix}/limitra`} class="text-link">{t.features.exploreBtn} <span aria-hidden="true">→</span></a>
+        <a href={r.howItWorks} class="text-link">{t.features.exploreBtn} <span aria-hidden="true">→</span></a>
       </div>
 
       <div class="insight-panel">
-        <div class="panel-tabs"><span class="active">{lang === 'tr' ? 'Disiplin' : 'Discipline'}</span><span>{lang === 'tr' ? 'Zaman tüneli' : 'Timeline'}</span></div>
+        <div class="panel-tabs"><span class="active">{m.tabDiscipline}</span><span>{m.tabTimeline}</span></div>
         <div class="streak-summary">
-          <div><span>{lang === 'tr' ? 'AKTİF SERİ' : 'CURRENT STREAK'}</span><strong>7 <small>{lang === 'tr' ? 'gün' : 'days'}</small></strong></div>
+          <div><span>{m.currentStreak}</span><strong>7 <small>{m.daysUnit}</small></strong></div>
           <span class="status-ring">7</span>
         </div>
         <div class="day-grid" aria-hidden="true">
           {Array.from({ length: 21 }, (_, index) => <span class:list={{ today: index === 20, missed: index === 8 || index === 15 }}>{index + 1}</span>)}
         </div>
-        <div class="panel-legend"><span><i class="done"></i>{lang === 'tr' ? 'Sınır korundu' : 'Boundary kept'}</span><span><i class="miss"></i>{lang === 'tr' ? 'Kaçırıldı' : 'Missed'}</span><span><i class="current"></i>{lang === 'tr' ? 'Bugün' : 'Today'}</span></div>
+        <div class="panel-legend"><span><i class="done"></i>{m.legendKept}</span><span><i class="miss"></i>{m.legendMissed}</span><span><i class="current"></i>{m.legendToday}</span></div>
       </div>
     </div>
   </section>
@@ -259,12 +262,12 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
               <span class="home-news-date">{item.date}</span>
             </div>
             <h3>
-              <a href={lang === 'tr' ? `/haberler/${item.slug}` : `${prefix}/news/${item.slug}`}>{item.title}</a>
+              <a href={r.newsItem(item.slug)}>{item.title}</a>
             </h3>
             <p>{item.summary}</p>
             <div class="home-news-footer">
               <span class="home-news-source">{item.source}</span>
-              <a href={lang === 'tr' ? `/haberler/${item.slug}` : `${prefix}/news/${item.slug}`} class="home-news-link">
+              <a href={r.newsItem(item.slug)} class="home-news-link">
                 {t.newsHome.read} &rarr;
               </a>
             </div>
@@ -278,7 +281,7 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
     <div class="container">
       <div class="section-heading guides-heading">
         <div><span class="eyebrow"><span class="signal-dot"></span>{t.guides.kicker}</span><h2>{t.guides.title}</h2></div>
-        <a href={`${prefix}/bilgi-merkezi`} class="text-link">{t.guides.allGuides} <span aria-hidden="true">→</span></a>
+        <a href={r.guides} class="text-link">{t.guides.allGuides} <span aria-hidden="true">→</span></a>
       </div>
       <div class="guides-grid">
         {guides.map((guide, index) => (

@@ -37,10 +37,6 @@
   --shadow-lg: 0 30px 80px rgba(20, 40, 90, .14);
 }
 
-.brand-text, .brand-name {
-  color: #000000 !important;
-}
-
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -133,7 +129,7 @@ a:hover {
 .skip-link {
   position: fixed;
   top: .75rem;
-  left: .75rem;
+  inset-inline-start: .75rem;
   z-index: 1000;
   transform: translateY(-160%);
   border-radius: .7rem;

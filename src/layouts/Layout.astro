@@ -2,7 +2,8 @@
 import '../styles/global.css';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
-import type { SupportedLang } from '../data/translations';
+import { SUPPORTED_LANGUAGES, type SupportedLang } from '../data/translations';
+import { parsePath, buildUrl } from '../data/routes';
 
 interface Props {
   title: string;
@@ -31,9 +32,32 @@ const supportedLangs: SupportedLang[] = ['tr', 'en', 'es', 'fr', 'de', 'pt', 'it
 const currentLang: SupportedLang = Astro.props.lang || (supportedLangs.includes(firstSegment) ? firstSegment : 'tr');
 const isRtl = currentLang === 'ar';
 
+// Erisilebilirlik baglantisi icin dile gore metin
+const skipLabels: Record<SupportedLang, string> = {
+  tr: 'İçeriğe geç',
+  en: 'Skip to content',
+  es: 'Ir al contenido',
+  fr: 'Aller au contenu',
+  de: 'Zum Inhalt springen',
+  pt: 'Ir para o conteúdo',
+  it: 'Vai al contenuto',
+  ar: 'تخطي إلى المحتوى',
+  id: 'Lewati ke konten',
+  fil: 'Lumaktaw sa nilalaman',
+  th: 'ข้ามไปยังเนื้อหา'
+};
+const skipLabel = skipLabels[currentLang] ?? skipLabels.en;
+
 const baseUrl = Astro.site ?? Astro.url;
 const canonicalUrl = new URL(pathname, baseUrl);
 const shareImage = new URL(ogImage, baseUrl);
+
+// hreflang: yalnizca hedef dilde gercekten var olan sayfalar icin uretilir.
+const { key: pageKey, slug: pageSlug } = parsePath(pathname);
+const alternates = SUPPORTED_LANGUAGES
+  .map((l) => ({ code: l.code, url: buildUrl(l.code, pageKey, pageSlug) }))
+  .filter((a): a is { code: SupportedLang; url: string } => a.url !== null);
+const defaultAlternate = alternates.find((a) => a.code === 'en') ?? alternates.find((a) => a.code === 'tr');
 
 const pageTitle = title.includes('Limitra') ? title : `${title} | Limitra App Block`;
 const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitra App Block`;
@@ -80,21 +104,15 @@ const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitr
     <meta name="twitter:image" content={shareImage} />
 
     <!-- Alternate Hreflang SEO Tags -->
-    <link rel="alternate" hreflang="tr" href="https://limitra.online/" />
-    <link rel="alternate" hreflang="en" href="https://limitra.online/en" />
-    <link rel="alternate" hreflang="es" href="https://limitra.online/es" />
-    <link rel="alternate" hreflang="fr" href="https://limitra.online/fr" />
-    <link rel="alternate" hreflang="de" href="https://limitra.online/de" />
-    <link rel="alternate" hreflang="pt" href="https://limitra.online/pt" />
-    <link rel="alternate" hreflang="it" href="https://limitra.online/it" />
-    <link rel="alternate" hreflang="ar" href="https://limitra.online/ar" />
-    <link rel="alternate" hreflang="id" href="https://limitra.online/id" />
-    <link rel="alternate" hreflang="fil" href="https://limitra.online/fil" />
-    <link rel="alternate" hreflang="th" href="https://limitra.online/th" />
-    <link rel="alternate" hreflang="x-default" href="https://limitra.online/en" />
+    {alternates.map((a) => (
+      <link rel="alternate" hreflang={a.code} href={new URL(a.url, baseUrl).href} />
+    ))}
+    {defaultAlternate && (
+      <link rel="alternate" hreflang="x-default" href={new URL(defaultAlternate.url, baseUrl).href} />
+    )}
   </head>
   <body class={isRtl ? 'rtl-layout' : ''}>
-    <a href="#main-content" class="skip-link">İçeriğe Geç</a>
+    <a href="#main-content" class="skip-link">{skipLabel}</a>
     <Navigation currentLang={currentLang} />
     <main id="main-content">
       <slot />
@@ -104,22 +122,6 @@ const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitr
 </html>
 
 <style is:global>
-  .skip-link {
-    position: absolute;
-    top: -100px;
-    left: 1rem;
-    background: #000;
-    color: #fff;
-    padding: 0.75rem 1.25rem;
-    z-index: 9999;
-    font-weight: 600;
-    border-radius: 0 0 8px 8px;
-    text-decoration: none;
-    transition: top 0.2s ease;
-  }
-  .skip-link:focus {
-    top: 0;
-  }
   .rtl-layout {
     direction: rtl;
     text-align: right;

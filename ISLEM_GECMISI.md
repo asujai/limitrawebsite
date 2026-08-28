@@ -1,5 +1,53 @@
 # İşlem Geçmişi
 
+## [2026-08-28 17:50] - Çok Dilli Rota, Kontrast ve Yerelleştirme Hata Düzeltmeleri
+
+* **Model:** Claude
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `src/data/routes.ts` (merkezi çok dilli rota çözücü; dil-bilinci, EN yedegi, haber slug eşleme)
+  - `[YENİ]` `src/data/mockup.ts` (ana sayfa telefon arayüzü metinleri, 11 dil)
+  - `[GÜNCELLENDİ]` `src/components/Navigation.astro` (rota çözücü, dil değiştirici, RTL, menü etiketi)
+  - `[GÜNCELLENDİ]` `src/components/Footer.astro` (rota çözücü, marka metni ve alt satir kontrasti)
+  - `[GÜNCELLENDİ]` `src/components/HomePage.astro` (rota çözücü, mockup metinleri 11 dile açıldı)
+  - `[GÜNCELLENDİ]` `src/layouts/Layout.astro` (sayfaya özel hreflang, dile göre atlama bağlantısı)
+  - `[GÜNCELLENDİ]` `src/styles/global.css` (marka metnini siyaha zorlayan `!important` kuralı kaldırıldı)
+  - `[GÜNCELLENDİ]` `src/pages/{ar,de,es,fil,fr,id,it,pt,th}/limitra.astro` (koyu CTA başlığı görünmez sorunu)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (10 İngilizce içerik sayfası eklendi)
+* **Yapılan İşlem:**
+  - **239 kırık iç bağlantı** giderildi. 9 yeni dil yalnızca `index/limitra/sss` sayfalarına sahipken gezinme,
+    alt bilgi ve ana sayfa `/xx/news`, `/xx/bilgi-merkezi`, `/xx/iletisim`, `/xx/gizlilik-politikasi`,
+    `/xx/kullanim-sartlari` gibi var olmayan rotalara link veriyordu. `src/data/routes.ts` ile tüm bağlantılar
+    tek yerden üretiliyor; o dilde sayfa yoksa İngilizce sürüme düşüyor.
+  - Dil değiştirici artık dile bağlı olmayan sayfalarda (`limitra-social`, `cleanscan`) 404 üretmiyor ve
+    haber yazılarında TR↔EN slug eşlemesi yaparak aynı habere götürüyor (önce slug düşürülüyordu).
+  - **Alt bilgideki "Limitra" yazısı siyah görünüyordu**: `global.css` içindeki
+    `.brand-text { color:#000 !important }` kuralı koyu zeminli footer'ı bozuyordu. Kural kaldırılıp
+    üst bar koyu (#09162f), alt bilgi beyaz (#fff) olacak şekilde bileşen içine taşındı.
+  - 9 yeni dilin `/limitra` sayfasında koyu CTA kutusundaki `h2` global `--text-primary` (#0b1730) rengini
+    alıyor, yani #09162f zeminde neredeyse görünmez oluyordu; beyaza çekildi.
+  - Alt bilgi telif satırı #64748b (3.8:1) idi, WCAG AA için #94a3b8'e (7.2:1) çıkarıldı.
+  - `hreflang` etiketleri her sayfada ana sayfayı gösteriyordu; artık sayfaya özel üretiliyor ve
+    yalnızca o dilde gerçekten var olan sayfalar listeleniyor.
+  - Ana sayfadaki temsili telefon arayüzü ve disiplin paneli metinleri (görsel değil, canlı HTML)
+    yalnızca TR/EN idi; 11 dile açıldı. İngilizce sayfada "12 dk"/"6 dk" yazan sabit etiketler de düzeltildi.
+  - Sabit Türkçe erişilebilirlik metinleri ("İçeriğe Geç", "Menüyü aç/kapat") 11 dile çevrildi.
+  - Arapça (RTL) için yöne bağlı CSS'ler mantıksal özelliklere çevrildi
+    (`margin-inline-start`, `inset-inline-end`, `inset-inline-start`).
+  - Sitemap'te eksik olan 10 İngilizce içerik sayfası eklendi (diğer uygulamalara ait `cleanscan`
+    sayfalarına dokunulmadı).
+* **Doğrulama:**
+  - `npm run build` → 80 sayfa, 0 hata.
+  - `dist/` üzerinde bağlantı tarama betigi: kırık iç bağlantı **239 → 0**.
+  - Sitemap ↔ üretilen sayfa karşılaştırması: yalnızca bilinçli olarak dışarda bırakılan `cleanscan` sayfaları kaldı.
+  - Derlenen CSS'te marka renkleri (`#09162f` üst bar / `#fff` alt bilgi) ve CTA başlığı (`#fff`) teyit edildi.
+  - 10 dilde `lang`/`dir` nitelikleri ve mockup metinleri çıktıda doğrulandı; Türkçe sızıntısı yok.
+* **Bilinen Sorunlar:**
+  - 9 yeni dilde haber arşivi, bilgi merkezi, iletişim ve hukuki sayfaların çevirisi yok; bağlantılar
+    İngilizce sayfalara düşüyor. Kırık değil ama menü etiketi yerel, hedef sayfa İngilizce.
+  - Tarayicıda görsel doğrulama yapılmadı (önizleme sunucusu başlatılmadı); kontrol kod ve derlenmiş çıktı üzerinden yapıldı.
+* **Sonraki Öneri:** Bu 9 dil için en azından gizlilik/kullanım şartları ve SSS dışındaki içerik sayfalarının
+  çevrilmesi (hacimli, tekrarlı iş → Antigravity).
+
 ## [2026-08-28 00:02] - 11 Dilli Küresel Mimari ve Uluslararası SEO Entegrasyonu
 
 * **Model:** Antigravity

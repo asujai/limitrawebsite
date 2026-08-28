@@ -1,5 +1,6 @@
 ---
 import { translations, SUPPORTED_LANGUAGES, type SupportedLang } from '../data/translations';
+import { routes } from '../data/routes';
 
 interface Props {
   currentLang?: SupportedLang;
@@ -14,42 +15,51 @@ const currentLang: SupportedLang = Astro.props.currentLang || (
 );
 
 const t = translations[currentLang] || translations.en;
-const prefix = currentLang === 'tr' ? '' : `/${currentLang}`;
 const currentYear = new Date().getFullYear();
 
-const newsHref = currentLang === 'tr' ? '/haberler' : `${prefix}/news`;
-const homeHref = currentLang === 'tr' ? '/' : `${prefix}`;
+// Tüm bağlantılar merkezi rota çözücüden gelir; bir bölüm o dilde yoksa
+// İngilizce sürüme düşer, böylece 404 oluşmaz.
+const r = routes(currentLang);
+const homeHref = r.home;
+
+const label = {
+  contact: currentLang === 'tr' ? 'İletişim' : 'Contact',
+  screenTimeGuide: currentLang === 'tr' ? 'Ekran süresi rehberi' : 'Screen time guide',
+  privacy: currentLang === 'tr' ? 'Gizlilik politikası' : 'Privacy policy',
+  terms: currentLang === 'tr' ? 'Kullanım şartları' : 'Terms of use',
+  deleteAccount: currentLang === 'tr' ? 'Hesap ve veri silme' : 'Delete account & data'
+};
 
 const groups = [
   {
     title: t.footer.productTitle,
     links: [
-      { href: `${prefix}/limitra`, label: t.nav.howItWorks },
-      { href: `${prefix}/sss`, label: t.nav.faq },
-      { href: currentLang === 'tr' ? '/iletisim' : `${prefix}/iletisim`, label: currentLang === 'tr' ? 'İletişim' : 'Contact' }
+      { href: r.howItWorks, label: t.nav.howItWorks },
+      { href: r.faq, label: t.nav.faq },
+      { href: r.contact, label: label.contact }
     ]
   },
   {
     title: t.footer.exploreTitle,
     links: [
-      { href: newsHref, label: t.nav.news },
-      { href: currentLang === 'tr' ? '/bilgi-merkezi' : `${prefix}/bilgi-merkezi`, label: t.nav.guides },
-      { href: currentLang === 'tr' ? '/bilgi-merkezi/ekran-suresi' : `${prefix}/bilgi-merkezi/ekran-suresi`, label: currentLang === 'tr' ? 'Ekran süresi rehberi' : 'Screen time guide' }
+      { href: r.news, label: t.nav.news },
+      { href: r.guides, label: t.nav.guides },
+      { href: r.guide('ekran-suresi'), label: label.screenTimeGuide }
     ]
   },
   {
     title: t.footer.legalTitle,
     links: [
-      { href: currentLang === 'tr' ? '/gizlilik-politikasi' : `${prefix}/gizlilik-politikasi`, label: currentLang === 'tr' ? 'Gizlilik politikası' : 'Privacy policy' },
-      { href: currentLang === 'tr' ? '/kullanim-sartlari' : `${prefix}/kullanim-sartlari`, label: currentLang === 'tr' ? 'Kullanım şartları' : 'Terms of use' }
+      { href: r.privacy, label: label.privacy },
+      { href: r.terms, label: label.terms }
     ]
   },
   {
     title: 'Limitra Social',
     links: [
-      { href: '/limitra-social/privacy', label: currentLang === 'tr' ? 'Gizlilik politikası' : 'Privacy policy' },
-      { href: '/limitra-social/terms', label: currentLang === 'tr' ? 'Kullanım şartları' : 'Terms of use' },
-      { href: '/limitra-social/delete-account', label: currentLang === 'tr' ? 'Hesap ve veri silme' : 'Delete account & data' }
+      { href: '/limitra-social/privacy', label: label.privacy },
+      { href: '/limitra-social/terms', label: label.terms },
+      { href: '/limitra-social/delete-account', label: label.deleteAccount }
     ]
   }
 ];
@@ -119,6 +129,11 @@ const groups = [
     font-weight: 700;
     color: #ffffff;
     font-size: 1.25rem;
+  }
+
+  /* Koyu zeminli alt bilgi: marka metni beyaz olmali */
+  .footer-brand .brand-text {
+    color: #ffffff;
   }
 
   .footer-brand .brand-logo {
@@ -203,7 +218,8 @@ const groups = [
     justify-content: space-between;
     align-items: center;
     padding-top: 2.5rem;
-    color: #64748b;
+    /* #64748b koyu zeminde 3.8:1 kaliyordu; WCAG AA icin acildi */
+    color: #94a3b8;
     font-size: 0.85rem;
     flex-wrap: wrap;
     gap: 1rem;
