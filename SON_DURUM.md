@@ -7,18 +7,16 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-08-28)
-- Web sitesi 11 dilli küresel bir platforma dönüştürüldü.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) tam olarak yayına alındı.
-- Paylaşılan `NewsIndex.astro` ve `NewsArticle.astro` bileşenleri ile kod tekrarı engellendi, tüm dillerde ince sayfa mimarisine geçildi.
-- `src/data/news-ui.ts` ile tüm arayüz metinleri 11 dilde yerelleştirildi.
-- Fransa'nın "Pause Numérique" okulda telefon kilitleme protokolü konulu yeni teyitli haber 11 dilde eklenerek haber sayısı 11'e çıkarıldı.
-- `src/data/routes.ts` bölüm bazlı (`SECTION_LANGS`) rotalama sistemine geçirildi ve `translateNewsSlug()` 11 dili kapsayacak şekilde genişletildi.
-- `public/sitemap.xml` 11 dilin tüm haber liste ve detay URL'lerini kapsayacak şekilde güncellendi.
-- `npm run build` ile 190 statik sayfa 0 hata ile derlendi.
+## Güncel Durum (2026-08-29)
+- Web sitesi 11 dilli küresel bir platform olarak aktiftir.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam 12 doğrulanmış haberle yayındadır.
+- İsveç Halk Sağlığı Kurumu'nun (Folkhälsomyndigheten) ulusal ekran süresi sınırları rehberi konulu yeni teyitli haber 11 dilde eklenerek toplam sayfa sayısı 201'e çıkarıldı.
+- `public/sitemap.xml` 11 dilin yeni haber URL'lerini kapsayacak şekilde güncellendi.
+- `npm run build` ile 201 statik sayfa 0 hata ile derlendi.
+- `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Haber portalının 9 yeni dile açılması (`es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`), modüler `NewsIndex`/`NewsArticle` mimarisi, 11 dilli `news-ui.ts`, bölüm bazlı `SECTION_LANGS` rotalaması ve Fransa "Pause Numérique" konulu yeni teyitli haberin 11 dilde eklenmesi.
+- **İşlem:** İsveç Halk Sağlığı Kurumu (Folkhälsomyndigheten) resmi ulusal ekran süresi rehberi konulu teyitli haberin (ID: 12) 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eklenmesi, sitemap.xml güncellemesi ve 201 sayfanın hatasız derlenmesi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -28,7 +26,7 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 190 sayfa, 0 hata.
+- `npm run build` → 201 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu.
 - 11 dilde `lang`/`dir` nitelikleri, Arapça RTL özellikleri ve çeviriler teyit edildi.

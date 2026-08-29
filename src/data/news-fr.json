@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "suede-recommandations-nationales-temps-ecran-sante-enfants",
+    "title": "La Suède fixe des limites nationales d'écran : Zéro écran avant 2 ans et 2 à 3 heures maximum pour les ados",
+    "summary": "L'Agence de santé publique de Suède (Folkhälsomyndigheten) a publié des recommandations nationales strictes sur l'exposition aux écrans récréatifs afin de préserver le sommeil, la concentration et la santé mentale des jeunes.",
+    "content": [
+      "L'Agence suédoise de santé publique (Folkhälsomyndigheten) a publié ses premières recommandations nationales relatives à l'usage des écrans récréatifs chez les enfants et les adolescents, renforçant la régulation sanitaire du numérique en Europe.",
+      "Les directives préconisent l'absence totale d'écrans pour les enfants de moins de 2 ans, un maximum d'une heure par jour pour les 2-5 ans, 1 à 2 heures pour les 6-12 ans, et un plafond de 2 à 3 heures quotidiennes pour les adolescents de 13 à 18 ans.",
+      "L'autorité sanitaire insiste sur l'interdiction des smartphones et tablettes dans les chambres à coucher durant la nuit et impose un arrêt complet des écrans au moins 30 minutes avant le coucher.",
+      "Le ministre suédois des Affaires sociales et de la Santé publique, Jakob Forssmed, a souligné que les mécanismes addictifs des plateformes nuisent à la santé mentale et au sommeil des jeunes, appelant les parents à être exemplaires en posant leur téléphone.",
+      "Le guide rappelle la nécessité de privilégier l'activité physique, le sommeil réparateur et les interactions réelles face à la sédentarité induite par les applications numériques."
+    ],
+    "source": "Folkhälsomyndigheten & Le Monde",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Science et santé",
+    "date": "2026-08-29",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Suède",
+      "Folkhälsomyndigheten",
+      "Temps d'écran",
+      "Santé mentale",
+      "Sommeil",
+      "Enfance",
+      "Directives de santé"
+    ]
+  },
+  {
     "id": "11",
     "slug": "france-interdiction-smartphones-ecoles-pause-numerique",
     "title": "France : la « Pause numérique » généralisée dans les collèges et lycées avec casiers verrouillés",

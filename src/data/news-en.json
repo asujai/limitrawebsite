@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "sweden-public-health-agency-national-screen-time-guidelines",
+    "title": "Sweden Enacts National Screen Limits: Zero Screen Under Age 2, Strict 2-3 Hour Cap for Teenagers",
+    "summary": "The Public Health Agency of Sweden (Folkhälsomyndigheten) has issued official national guidelines on recreational digital media use to safeguard sleep, mental health, and cognitive development in children and adolescents.",
+    "content": [
+      "The Public Health Agency of Sweden (Folkhälsomyndigheten) has unveiled comprehensive national recommendations regulating screen time and digital media exposure for children and teenagers, marking one of the most structured public health stances in Europe.",
+      "Following extensive medical consultations and developmental research, the agency established precise daily recreational thresholds: zero screen time for children under 2, a maximum of 1 hour per day for ages 2 to 5, 1 to 2 hours for ages 6 to 12, and a strict 2 to 3 hour cap for adolescents aged 13 to 18.",
+      "Crucially, the health authority instructed families to remove smartphones, tablets, and gaming screens from bedrooms overnight, emphasizing that devices must be powered down at least 30 minutes before sleep to prevent circadian rhythm disruption.",
+      "Sweden's Minister for Social Affairs and Public Health, Jakob Forssmed, stated that digital media algorithms are systematically undermining youth sleep architecture and social resilience, urging adults to actively model digital restraint by putting their own devices aside in family settings.",
+      "The recommendations underline that unstructured screen consumption must be replaced by regular physical activity, face-to-face peer connection, and restorative offline habits."
+    ],
+    "source": "Folkhälsomyndigheten & The Guardian",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Science & Health",
+    "date": "2026-08-29",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Sweden",
+      "Folkhälsomyndigheten",
+      "Screen Time Limits",
+      "Digital Wellbeing",
+      "Child Health",
+      "Sleep Quality",
+      "Public Health"
+    ]
+  },
+  {
     "id": "11",
     "slug": "france-school-smartphone-ban-pause-numerique-protocol",
     "title": "France Enforces Total Physical Smartphone Lockaway in Schools Under 'Pause Numérique' Directive",

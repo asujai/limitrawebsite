@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "schweden-offizielle-richtlinien-bildschirmzeit-kinder-jugendliche",
+    "title": "Schweden erlässt nationale Bildschirm-Richtlinien: Null Bildschirme unter 2 Jahren, max. 2-3 Stunden für Jugendliche",
+    "summary": "Die schwedische Gesundheitsbehörde (Folkhälsomyndigheten) hat offizielle Richtlinien zur Begrenzung der Bildschirmzeit im Freizeitbereich herausgegeben, um Schlaf, mentale Gesundheit und kindliche Entwicklung zu schützen.",
+    "content": [
+      "Die schwedische Behörde für öffentliche Gesundheit (Folkhälsomyndigheten) hat offizielle nationale Leitlinien zur Nutzung digitaler Medien bei Kindern und Jugendlichen veröffentlicht und setzt damit klare gesundheitliche Grenzen.",
+      "Die Richtlinien empfehlen einen vollständigen Verzicht auf digitale Bildschirme für Kinder unter 2 Jahren, maximal 1 Stunde täglich für 2- bis 5-Jährige, 1 bis 2 Stunden für 6- bis 12-Jährige und höchstens 2 bis 3 Stunden Freizeit-Bildschirmzeit für Jugendliche von 13 bis 18 Jahren.",
+      "Darüber hinaus empfiehlt die Behörde dringend, Handys und Tablets nachts aus den Schlafzimmern zu verbannen und alle Bildschirme mindestens 30 Minuten vor dem Schlafengehen auszuschalten.",
+      "Schwedens Sozial- und Gesundheitsminister Jakob Forssmed erklärte, dass übermäßige Bildschirmnutzung zu gravierendem Schlafmangel und Konzentrationsproblemen führt, und appellierte an Eltern, durch eigene Handypausen ein Vorbild zu sein.",
+      "Die Leitlinien betonen, dass passive Bildschirmzeiten durch Bewegung, echten sozialen Austausch und ungestörten Schlaf ersetzt werden müssen."
+    ],
+    "source": "Folkhälsomyndigheten & Die Zeit",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Wissenschaft & Gesundheit",
+    "date": "2026-08-29",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "Schweden",
+      "Folkhälsomyndigheten",
+      "Bildschirmzeit",
+      "Digitale Gesundheit",
+      "Kinderschutz",
+      "Schlafqualität",
+      "Prävention"
+    ]
+  },
+  {
     "id": "11",
     "slug": "frankreich-smartphone-verbot-schulen-pause-numerique",
     "title": "Frankreich verordnet 'Pause Numérique': Smartphones an Schulen müssen weggesperrt werden",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "svezia-linee-guida-nazionali-limiti-tempo-schermo-salute",
+    "title": "Svezia: Linee guida nazionali sul tempo di schermo, zero schermi sotto i 2 anni e max 2-3 ore per gli adolescenti",
+    "summary": "L'Agenzia per la Salute Pubblica svedese (Folkhälsomyndigheten) ha emanato raccomandazioni ufficiali sull'uso dei dispositivi digitali per tutelare sonno, concentrazione e benessere mentale nei minori.",
+    "content": [
+      "L'Agenzia per la Sanità Pubblica della Svezia (Folkhälsomyndigheten) ha presentato le nuove raccomandazioni nazionali sui limiti al tempo di schermo per bambini e adolescenti durante il tempo libero.",
+      "Le indicazioni stabiliscono il divieto totale di schermi per i bambini sotto i 2 anni, un massimo di 1 ora al giorno per la fascia 2-5 anni, da 1 a 2 ore per la fascia 6-12 anni, e un limite di 2-3 ore giornaliere per i ragazzi dai 13 ai 18 anni.",
+      "La guida sanitaria prescrive inoltre di tenere smartphone e tablet fuori dalle camere da letto durante la notte e di spegnere ogni dispositivo almeno 30 minuti prima di coricarsi.",
+      "Il Ministro per gli Affari Sociali e la Salute Pubblica svedese, Jakob Forssmed, ha avvertito che l'iperconnessione compromette il riposo e stimola l'ansia, invitando i genitori a ridurre per primi l'uso del cellulare a casa.",
+      "Il documento conclude evidenziando l'importanza vitale di riequilibrare la vita quotidiana con attività fisica, lettura e relazioni faccia a faccia."
+    ],
+    "source": "Folkhälsomyndigheten & The Guardian",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Scienza e salute",
+    "date": "2026-08-29",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Svezia",
+      "Folkhälsomyndigheten",
+      "Tempo di schermo",
+      "Benessere digitale",
+      "Salute minori",
+      "Igiene del sonno",
+      "Linee guida"
+    ]
+  },
+  {
     "id": "11",
     "slug": "francia-divieto-smartphone-scuole-pause-numerique",
     "title": "Francia: 'Pause Numérique' nelle scuole, smartphone obbligatoriamente chiusi a chiave all'ingresso",

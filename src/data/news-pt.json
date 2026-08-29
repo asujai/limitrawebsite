@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "suecia-diretrizes-nacionais-limite-tempo-de-tela-saude",
+    "title": "Suécia define limites nacionais de tela: Zero tela para menores de 2 anos e máximo de 2-3 horas para jovens",
+    "summary": "A Agência de Saúde Pública da Suécia (Folkhälsomyndigheten) publicou diretrizes nacionais sobre o uso de telas no lazer, visando proteger a qualidade do sono, a saúde mental e o desenvolvimento dos jovens.",
+    "content": [
+      "A Agência de Saúde Pública da Suécia (Folkhälsomyndigheten) divulgou recomendações oficiais abrangentes para regulamentar o tempo de tela recreativo de crianças e adolescentes no país.",
+      "O documento estabelece metas claras por faixa etária: ausência total de telas para crianças menores de 2 anos, limite máximo de 1 hora por dia para idades de 2 a 5 anos, entre 1 e 2 horas para crianças de 6 a 12 anos, e até 2 a 3 horas para jovens de 13 a 18 anos.",
+      "A autoridade sanitária sueca recomenda ainda retirar smartphones e tablets dos quartos durante a noite e desligar todos os aparelhos pelo menos 30 minutos antes de dormir.",
+      "O Ministro dos Assuntos Sociais e Saúde Pública da Suécia, Jakob Forssmed, destacou que algoritmos abusivos prejudicam o sono e as relações humanas, pedindo que os pais exerçam disciplina digital consciente em família.",
+      "O guia reforça a urgência de substituir horas ociosas em telas por atividades físicas, convívio interpessoal e descanso reparador."
+    ],
+    "source": "Folkhälsomyndigheten & The Guardian",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Ciência e saúde",
+    "date": "2026-08-29",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Suécia",
+      "Folkhälsomyndigheten",
+      "Tempo de tela",
+      "Bem-estar digital",
+      "Saúde infantil",
+      "Sono",
+      "Diretrizes de saúde"
+    ]
+  },
+  {
     "id": "11",
     "slug": "franca-proibicao-smartphones-escolas-pause-numerique",
     "title": "França implementa 'Pause Numérique': celulares devem ser trancados em armários nas escolas",

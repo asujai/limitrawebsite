@@ -1,5 +1,33 @@
 # İşlem Geçmişi
 
+## [2026-08-29 22:05] - İsveç Halk Sağlığı Kurumu Ekran Süresi Rehberi Haberi (11 Dil)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH haber listesi, ID 12 eklendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilin yeni haber URL'leri eklendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` (201 sayfa ve yeni haber durumu güncellendi)
+* **Yapılan İşlem:**
+  - **Yeni Teyitli Haber (ID: 12):** İsveç Halk Sağlığı Kurumu'nun (*Folkhälsomyndigheten*) çocuklar ve gençler için yayımladığı resmi ulusal ekran süresi sınırları rehberi (2 yaş altına 0 ekran, 2-5 yaşa maks. 1 saat, 6-12 yaşa 1-2 saat, 13-18 yaşa 2-3 saat sınırı, yatak odasında telefon yasağı) haberleştirildi.
+  - Haber içeriği, başlık, özet, etiketler ve okuma süreleri 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) yerel dil kurallarına ve platform terminolojisine uygun olarak hazırlandı ve veri tabanlarına eklendi.
+  - `public/sitemap.xml` dosyasına 11 dilin tamamı için yeni haber URL'leri işlendi ve ana/haber sayfalarının `lastmod` tarihleri güncellendi.
+  - Toplam statik sayfa sayısı 201'e yükseldi.
+* **Doğrulama:**
+  - `npm run build` → 201 statik sayfa 0 hata ile başarıyla üretildi.
+  - `npm run check:links` → "OK - kirik ic baglanti yok."
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-08-28 18:05] - Haber Portalının 11 Dile Genişletilmesi ve Yeni Haber Yayını
 
 * **Model:** Antigravity

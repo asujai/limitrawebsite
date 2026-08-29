@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "sweden-gabay-sa-limitasyon-ng-screen-time-sa-mga-bata",
+    "title": "Inilabas ng Sweden ang Pambansang Gabay sa Screen Time: Zero Screen sa Edad 2 Pababa, 2-3 Oras sa Kabataan",
+    "summary": "Naglabas ang Public Health Agency ng Sweden (Folkhälsomyndigheten) ng mga opisyal na rekomendasyon sa screen time upang protektahan ang tulog, pag-iisip, at kalusugan ng mga bata at kabataan.",
+    "content": [
+      "Inilabas ng Public Health Agency ng Sweden (Folkhälsomyndigheten) ang kanilang opisyal na pambansang gabay ukol sa paggamit ng digital media at screen time para sa mga bata at kabataan.",
+      "Inirerekomenda ng mga dalubhasa ang zero screen time para sa mga batang wala pang 2 taong gulang, hanggang 1 oras bawat araw para sa edad 2 hanggang 5, 1 hanggang 2 oras para sa edad 6 hanggang 12, at hanggang 2 hanggang 3 oras para sa mga kabataang edad 13 hanggang 18.",
+      "Ipinapayo rin ng ahensya na alisin ang mga smartphone at tablet sa loob ng silid-tulugan sa gabi at i-off ang lahat ng screen nang hindi bababa sa 30 minuto bago matulog.",
+      "Sinabi ni Sweden Minister for Social Affairs and Public Health Jakob Forssmed na sinisira ng mga mapanlinlang na algorithm ang tulog ng mga bata, at hinimok ang mga magulang na maging ehemplo sa pagbawas ng cellphone.",
+      "Binibigyang-diin ng gabay na kailangang palitan ang labis na screen time ng pisikal na ehersisyo, pakikipagkapwa sa totoong buhay, at sapat na pahinga."
+    ],
+    "source": "Folkhälsomyndigheten & The Guardian",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Agham at Kalusugan",
+    "date": "2026-08-29",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Sweden",
+      "Folkhälsomyndigheten",
+      "Screen Time",
+      "Kalusugang Digital",
+      "Kalusugan ng Bata",
+      "Kalidad ng Tulog",
+      "Pambansang Gabay"
+    ]
+  },
+  {
     "id": "11",
     "slug": "france-pagbabawal-smartphone-paaralan-pause-numerique",
     "title": "Ipinatupad ng France ang 'Pause Numérique': Mga Smartphone Kailangang I-lock sa Loker sa Paaralan",

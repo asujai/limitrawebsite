@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "isvec-halk-sagligi-kurumu-resmi-ekran-suresi-sinirlari-rehberi",
+    "title": "İsveç'ten Tarihi Ekran Kılavuzu: 2 Yaş Altına Sıfır Ekran, Gençlere Günlük Azami 2-3 Saat Sınırı",
+    "summary": "İsveç Halk Sağlığı Kurumu (Folkhälsomyndigheten), çocuk ve gençlerin uyku kalitesini ve zihinsel sağlığını korumak amacıyla ulusal ekran süresi rehberini yayımladı. 2 yaş altına ekran tamamen yasaklanırken, yatak odalarında telefon bulundurulmaması kararlaştırıldı.",
+    "content": [
+      "İsveç Halk Sağlığı Kurumu (Folkhälsomyndigheten), çocuk ve ergenlerde giderek artan dijital bağımlılık ve uyku bozukluklarına karşı dünyanın en net ve kapsamlı ulusal ekran süresi tavsiye kılavuzunu resmi olarak duyurdu.",
+      "Aylarca süren bilimsel araştırmalar ve pediatri uzmanlarının değerlendirmeleri sonucunda hazırlanan kılavuzda, yaş gruplarına göre kesin sınırlar belirlendi: 2 yaş altındaki çocukların dijital ekranlardan tamamen uzak tutulması (sıfır ekran), 2-5 yaş aralığında günlük sürenin en fazla 1 saat, 6-12 yaş grubunda en fazla 1-2 saat ve 13-18 yaş arasındaki gençlerde ise günlük boş zaman ekran kullanımının azami 2-3 saatle sınırlandırılması istendi.",
+      "Kurum ayrıca uyku sağlığının korunması için akıllı telefon, tablet ve bilgisayarların geceleri yatak odalarının dışında bırakılmasını ve uyku saatinden en az 30 dakika önce tüm ekranların kapatılmasını zorunlu bir alışkanlık olarak tavsiye etti.",
+      "İsveç Sosyal İşler ve Halk Sağlığı Bakanı Jakob Forssmed, 'Çocuklarımızın ve gençlerimizin sağlığı, beyin gelişimi ve uyku kalitesi teknoloji şirketlerinin algoritma tuzaklarına kurban edilemez. Ebeveynler de çocuklarının yanında telefonlarını bırakarak rol model olmalıdır' açıklamasında bulundu.",
+      "Kılavuz, ekran başında geçirilen hareketsiz zamanın yerine fiziksel aktivite, yüz yüze sosyal etkileşim ve kitap okuma gibi odaklanmayı artıran faaliyetlerin konulmasının hayati önem taşıdığını vurguluyor."
+    ],
+    "source": "Folkhälsomyndigheten & The Guardian",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Bilim & Sağlık",
+    "date": "2026-08-29",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "İsveç",
+      "Folkhälsomyndigheten",
+      "Ekran Süresi",
+      "Dijital Bağımlılık",
+      "Çocuk Sağlığı",
+      "Uyku Düzeni",
+      "Rehber"
+    ]
+  },
+  {
     "id": "11",
     "slug": "fransa-okullarda-fiziki-telefon-yasagi-pause-numerique",
     "title": "Fransa'dan Okullarda 'Dijital Mola' Kararı: Akıllı Telefonlar Girişte Kilitli Dolaplara Alınıyor",

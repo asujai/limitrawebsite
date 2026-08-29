@@ -1,5 +1,33 @@
 [
   {
+    "id": "12",
+    "slug": "suecia-guia-nacional-limites-tiempo-de-pantalla-salud",
+    "title": "Suecia publica su guía nacional de pantallas: Cero pantallas a menores de 2 años y tope de 2-3 horas a jóvenes",
+    "summary": "La Agencia de Salud Pública de Suecia (Folkhälsomyndigheten) ha establecido recomendaciones oficiales sobre el tiempo de pantalla recreativo para proteger el sueño, el desarrollo cerebral y la salud mental infantil y juvenil.",
+    "content": [
+      "La Agencia de Salud Pública de Suecia (Folkhälsomyndigheten) ha presentado sus primeras directrices nacionales oficiales sobre el uso de medios digitales para niños y adolescentes, fijando límites concretos de tiempo recreativo frente a dispositivos.",
+      "El informe médico recomienda categóricamente evitar por completo las pantallas en niños menores de 2 años, limitar a un máximo de 1 hora diaria a niños de 2 a 5 años, fijar entre 1 y 2 horas para el rango de 6 a 12 años, y restringir a un máximo de 2 a 3 horas el tiempo de ocio digital para jóvenes de 13 a 18 años.",
+      "La autoridad sanitaria insta asimismo a no permitir dispositivos móviles ni pantallas dentro de los dormitorios por la noche y a apagar cualquier pantalla al menos 30 minutos antes de acostarse para garantizar la arquitectura del sueño.",
+      "El Ministro de Asuntos Sociales y Salud Pública de Suecia, Jakob Forssmed, advirtió que el tiempo excesivo frente a las pantallas deteriora la convivencia y la salud mental, instando a los adultos a dar ejemplo dejando sus propios teléfonos en momentos familiares.",
+      "Las directrices concluyen que es vital recuperar el equilibrio promoviendo el ejercicio físico diario, el juego al aire libre y las relaciones interpersonales directas."
+    ],
+    "source": "Folkhälsomyndigheten & The Guardian",
+    "sourceUrl": "https://www.folkhalsomyndigheten.se",
+    "category": "Ciencia y salud",
+    "date": "2026-08-29",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Suecia",
+      "Folkhälsomyndigheten",
+      "Tiempo de pantalla",
+      "Bienestar digital",
+      "Salud infantil",
+      "Higiene del sueño",
+      "Guía oficial"
+    ]
+  },
+  {
     "id": "11",
     "slug": "francia-prohibicion-telefonos-escuelas-pause-numerique",
     "title": "Francia impone el bloqueo físico de teléfonos en escuelas bajo el protocolo 'Pause Numérique'",
