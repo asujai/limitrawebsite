@@ -1,6 +1,40 @@
 # İşlem Geçmişi
 
-## [2026-08-29 22:05] - İsveç Halk Sağlığı Kurumu Ekran Süresi Rehberi Haberi (11 Dil)
+## [2026-08-29 23:25] - Hedef Ülkelere Özgü 8 Yeni Teyitli Haberin 11 Dilde Yayına Alınması
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH haber listesi, ID 13-20 eklendi, toplam 20 haber)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde 88 yeni haber URL'si eklendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` (289 sayfa ve güncel 20 haber portföyü işlendi)
+* **Yapılan İşlem:**
+  - **8 Yeni Doğrulanmış Ülke Haberi Eklendi:**
+    1. **İtalya (ID: 13):** Eğitim Bakanlığı Circolare n. 3392 ile anaokulundan liseye sınıfta telefon ve akıllı saat yasağı.
+    2. **Brezilya (ID: 14):** Lei Federal nº 15.100 ile temel eğitimde teneffüsler dahil telefon yasağı.
+    3. **İspanya (ID: 15):** *Ley de Protección de Menores en Entornos Digitales* ile sosyal medya yaşının 16'ya çıkarılması ve varsayılan ebeveyn kilidi.
+    4. **Almanya (ID: 16):** DAK-Gesundheit & UKE raporu: Gençlerin 4'te 1'inde riskli medya bağımlılığı ve phubbing uyarısı.
+    5. **Endonezya (ID: 17):** Kemendikdasmen SE No. 18/2026 ile okullarda gawai kısıtlaması ve evde "3S" ilkesi (*Screen time, Screen zone, Screen break*).
+    6. **Filipinler (ID: 18):** DepEd Order No. 006, s. 2026 ile ders saatlerinde telefon, mobil oyun ve vlog çekimi yasağı.
+    7. **Tayland (ID: 19):** Ruh Sağlığı Departmanı (DMH) çocuklarda ekran bağımlılığı kılavuzu (2 yaş altına 0 ekran) ve 1323 danışma hattı.
+    8. **BAE & Körfez (ID: 20):** BAE 851 sayılı karar ile okullarda telefon yasağı ve sınıfta ekran süresini azaltma programı.
+  - 8 haberin tamamı, her bir dilin gramer ve yerel terminolojisine uygun olarak 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) oluşturuldu.
+  - `public/sitemap.xml` haritasına 11 dilin tüm yeni URL'leri eklendi.
+  - Toplam üretilen statik sayfa sayısı 289'a yükseldi.
+* **Doğrulama:**
+  - `npm run build` → 289 statik sayfa 0 hata ile başarıyla derlendi.
+  - `npm run check:links` → "OK - kirik ic baglanti yok."
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
 
 * **Model:** Antigravity
 * **Etkilenen Dosyalar:**

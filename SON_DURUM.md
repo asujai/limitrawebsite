@@ -8,15 +8,15 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-08-29)
-- Web sitesi 11 dilli küresel bir platform olarak aktiftir.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam 12 doğrulanmış haberle yayındadır.
-- İsveç Halk Sağlığı Kurumu'nun (Folkhälsomyndigheten) ulusal ekran süresi sınırları rehberi konulu yeni teyitli haber 11 dilde eklenerek toplam sayfa sayısı 201'e çıkarıldı.
-- `public/sitemap.xml` 11 dilin yeni haber URL'lerini kapsayacak şekilde güncellendi.
-- `npm run build` ile 201 statik sayfa 0 hata ile derlendi.
+- Web sitesi 11 dilli küresel bir platform olarak tam kapasite aktiftir.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **20 doğrulanmış haber ve makaleyle** yayındadır.
+- 8 yeni resmi ülke haberi (İtalya, Brezilya, İspanya, Almanya, Endonezya, Filipinler, Tayland, BAE & Körfez) 11 dilde eksiksiz eklenerek toplam sayfa sayısı **289'a** çıkarıldı.
+- `public/sitemap.xml` 11 dilin tüm yeni haber rotalarını (88 yeni URL) içerecek şekilde güncellendi.
+- `npm run build` ile 289 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** İsveç Halk Sağlığı Kurumu (Folkhälsomyndigheten) resmi ulusal ekran süresi rehberi konulu teyitli haberin (ID: 12) 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eklenmesi, sitemap.xml güncellemesi ve 201 sayfanın hatasız derlenmesi.
+- **İşlem:** Hedef ülkelere özgü 8 yeni doğrulanmış haberin (ID: 13-20; İtalya, Brezilya, İspanya, Almanya, Endonezya, Filipinler, Tayland, BAE & Körfez) 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) tam metin olarak üretilmesi, sitemap.xml rotalarının eklenmesi ve 289 statik sayfanın 0 hata ile derlenmesi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -26,7 +26,7 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 201 sayfa, 0 hata.
+- `npm run build` → 289 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu.
 - 11 dilde `lang`/`dir` nitelikleri, Arapça RTL özellikleri ve çeviriler teyit edildi.

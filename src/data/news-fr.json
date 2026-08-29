@@ -28,6 +28,222 @@
     ]
   },
   {
+    "id": "13",
+    "slug": "italie-ministere-education-interdit-smartphones-montres-connectees-toutes-classes",
+    "title": "L'Italie interdit fermement smartphones et montres connectées dans les classes de la maternelle au lycée",
+    "summary": "Par la circulaire ministérielle n° 3392 signée Giuseppe Valditara, l'Italie bannit les téléphones en classe même pour des motifs pédagogiques, réhabilitant le cahier classique et la concentration.",
+    "content": [
+      "Le ministre italien de l'Éducation et du Mérite, Giuseppe Valditara, a signé la circulaire n° 3392 interdisant smartphones et montres connectées dans tous les établissements scolaires du pays.",
+      "La mesure exclut formellement les téléphones durant les cours, y compris pour des travaux pédagogiques, s'appuyant sur les rapports de l'OCDE et de l'OMS alertant sur la baisse de concentration.",
+      "Le protocole réaffirme la primauté de l'écriture manuscrite et des échanges humains, ne tolérant d'exceptions que pour les élèves en situation de handicap (plans PEI/PDP).",
+      "Les établissements italiens ont adapté leurs règlements et consignent les téléphones dans des casiers sécurisés dès l'arrivée des élèves.",
+      "Le ministre Valditara a affirmé la nécessité de préserver les capacités cognitives des élèves et de restaurer l'autorité pédagogique."
+    ],
+    "source": "Ministero dell'Istruzione e del Merito & ANSA",
+    "sourceUrl": "https://www.mim.gov.it",
+    "category": "Politiques publiques et lois",
+    "date": "2026-08-27",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Italie",
+      "Valditara",
+      "Interdiction smartphone école",
+      "Ministère Éducation",
+      "Bien-être numérique",
+      "Concentration"
+    ]
+  },
+  {
+    "id": "14",
+    "slug": "bresil-loi-federale-interdit-portables-ecoles-y-compris-recreations",
+    "title": "Le Brésil adopte une loi fédérale historique interdisant le téléphone à l'école, récréations incluses",
+    "summary": "La loi fédérale n° 15.100 interdit l'usage des smartphones et appareils électroniques dans tous les établissements d'enseignement de base du Brésil, en classe comme en récréation.",
+    "content": [
+      "Au Brésil, où le temps d'écran quotidien est l'un des plus élevés au monde, le Parlement et le gouvernement ont promulgué une législation fédérale décisive pour préserver les élèves.",
+      "La loi fédérale n° 15.100 interdit aux élèves l'usage de dispositifs électroniques personnels dans les salles de classe, couloirs et cours de récréation de l'enseignement fondamental et secondaire.",
+      "Cette loi généralise les mesures déjà instaurées avec succès par l'État de São Paulo (loi n° 18.058) et la ville de Rio de Janeiro.",
+      "Une étude de l'université de Stanford menée avec les autorités de Rio a prouvé que l'interdiction a amélioré les résultats scolaires et réduit le harcèlement de 40 %.",
+      "Le texte ordonne aux écoles de sécuriser le stockage des appareils et incite les parents à instaurer des règles strictes à la maison."
+    ],
+    "source": "Agência Brasil & Folha de S.Paulo",
+    "sourceUrl": "https://agenciabrasil.ebc.com.br",
+    "category": "Politiques publiques et lois",
+    "date": "2026-08-27",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Brésil",
+      "Loi fédérale 15100",
+      "São Paulo",
+      "Rio de Janeiro",
+      "Interdiction portable",
+      "Santé des jeunes"
+    ]
+  },
+  {
+    "id": "15",
+    "slug": "espagne-loi-protection-mineurs-environnement-numerique-age-16",
+    "title": "L'Espagne présente son projet de loi numérique : Âge légal des réseaux sociaux porté à 16 ans et contrôle parental d'usine",
+    "summary": "Le gouvernement espagnol approuve un projet de loi organique relevant l'accès aux réseaux sociaux à 16 ans et imposant aux fabricants des outils de contrôle parental activés par défaut.",
+    "content": [
+      "Le gouvernement espagnol a adopté le projet de loi organique sur la protection des mineurs dans les environnements numériques pour contrer les designs addictifs et le cyberharcèlement.",
+      "Le texte repousse de 14 à 16 ans l'âge d'inscription sur les réseaux sociaux et contraint les fabricants d'appareils vendus en Espagne à intégrer un contrôle parental gratuit dès l'allumage.",
+      "Dans l'enseignement, des régions telles que Madrid, la Catalogne et l'Andalousie ont banni le smartphone dans les écoles et collèges hors motifs pédagogiques encadrés.",
+      "L'Agence espagnole de protection des données (AEPD) appuie ces mesures pour enrayer l'exploitation commerciale de l'attention des jeunes.",
+      "Les spécialistes soulignent que les applications de blocage local sont essentielles pour aider les jeunes à maintenir leur discipline quotidienne."
+    ],
+    "source": "Ministerio de Educación & El País",
+    "sourceUrl": "https://www.mpr.gob.es",
+    "category": "Politiques publiques et lois",
+    "date": "2026-08-26",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Espagne",
+      "AEPD",
+      "Réseaux sociaux 16 ans",
+      "Protection des mineurs",
+      "Madrid",
+      "Contrôle parental"
+    ]
+  },
+  {
+    "id": "16",
+    "slug": "allemagne-rapport-dak-un-jeune-sur-quatre-addiction-reseaux-jeux",
+    "title": "Alerte sanitaire en Allemagne : Un quart des adolescents présente un usage à risque ou une addiction aux réseaux",
+    "summary": "Une vaste étude de la caisse DAK-Gesundheit et du CHU de Hambourg (UKE) révèle que 25 % des 10-17 ans en Allemagne ont un comportement numérique à risque, dont des centaines de milliers en situation de dépendance clinique.",
+    "content": [
+      "Une étude de la caisse d'assurance DAK-Gesundheit et du centre hospitalier de Hambourg-Eppendorf (UKE) alerte sur l'ampleur de la dépendance aux réseaux sociaux et aux jeux chez les jeunes allemands.",
+      "Près de 25 % des 10-17 ans présentent un comportement d'usage à risque, et 4,7 % répondent aux critères de dépendance pathologique de l'OMS.",
+      "Le rapport pointe les ravages du « phubbing » (ignorer ses proches pour son écran), associé à l'isolement, au manque de sommeil et à des troubles anxieux.",
+      "Andreas Storm, dirigeant de la DAK, demande l'instauration d'un enseignement dédié à la santé et à la maîtrise numérique à l'école.",
+      "Les pédiatres allemands recommandent des barrières logicielles strictes et des soirées déconnectées pour préserver les adolescents."
+    ],
+    "source": "DAK-Gesundheit & Der Spiegel",
+    "sourceUrl": "https://www.dak.de",
+    "category": "Science et santé",
+    "date": "2026-08-26",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Allemagne",
+      "DAK Gesundheit",
+      "Addiction réseaux sociaux",
+      "Détox numérique",
+      "Phubbing",
+      "Santé des jeunes"
+    ]
+  },
+  {
+    "id": "17",
+    "slug": "indonesie-circulaire-education-encadrement-ecrans-regle-3s",
+    "title": "L'Indonésie encadre les écrans à l'école et promeut la règle des 3S (Screen time, Screen zone, Screen break)",
+    "summary": "Le ministère de l'Éducation d'Indonésie publie la circulaire n° 18/2026 pour limiter les smartphones à l'école et inciter les familles à appliquer les règles 3S à la maison.",
+    "content": [
+      "En Indonésie, le ministère de l'Éducation primaire et secondaire (Kemendikdasmen) a publié la circulaire n° 18 de 2026 régulant l'usage des appareils électroniques (gawai) à l'école.",
+      "L'usage des téléphones et montres connectées en classe est strictement subordonné aux besoins pédagogiques sous la supervision directe des enseignants.",
+      "Les établissements sont habilités à installer des casiers sécurisés et doivent valoriser les interactions réelles et le sport lors des récréations.",
+      "Le ministère invite également les parents à appliquer le principe des « 3S » : Screen Time (durée adaptée à l'âge), Screen Zone (chambres et repas sans écrans) et Screen Break (pauses régulières).",
+      "Les experts confirment que des outils de blocage d'applications sur l'appareil sont indispensables pour préserver l'attention des élèves."
+    ],
+    "source": "Kemendikdasmen & Kompas",
+    "sourceUrl": "https://www.kemendikdasmen.go.id",
+    "category": "Écoles et jeunesse",
+    "date": "2026-08-25",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Indonésie",
+      "Kemendikdasmen",
+      "Règle 3S",
+      "Portables à l'école",
+      "Discipline numérique",
+      "Concentration"
+    ]
+  },
+  {
+    "id": "18",
+    "slug": "philippines-ordre-deped-006-interdiction-telephones-vlogs-classe",
+    "title": "Les Philippines appliquent l'Ordre DepEd 006 : Téléphones, réseaux sociaux et vlogs bannis des cours",
+    "summary": "Le ministère de l'Éducation des Philippines interdit formellement aux élèves et enseignants l'usage des smartphones, des jeux et la création de vidéos pendant les heures de cours (K-12).",
+    "content": [
+      "Sous l'égide du secrétaire à l'Éducation Sonny Angara, le DepEd philippin a promulgué l'Ordre n° 006, s. 2026 pour éliminer les perturbations numériques en classe de la maternelle au lycée.",
+      "La directive interdit l'usage des téléphones, consoles et réseaux sociaux en cours, y compris le tournage de vidéos TikTok ou de vlogs dans les salles de classe.",
+      "Seules les urgences avérées et les activités pédagogiques numériques préparées par l'enseignant font l'objet d'une dérogation.",
+      "En parallèle, le Sénat philippin examine la proposition de loi « Electronic Gadget-Free Schools Act » (SB 2706) pour étendre l'interdiction à toute la journée scolaire.",
+      "Le ministère assure que la suppression des écrans en cours améliore les apprentissages et réduit le cyberharcèlement."
+    ],
+    "source": "Department of Education (DepEd) & Philippine News Agency",
+    "sourceUrl": "https://www.deped.gov.ph",
+    "category": "Écoles et jeunesse",
+    "date": "2026-08-25",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Philippines",
+      "DepEd Order 006",
+      "Sonny Angara",
+      "Écoles sans portable",
+      "Interdiction téléphone",
+      "Éducation"
+    ]
+  },
+  {
+    "id": "19",
+    "slug": "thailande-departement-sante-mentale-guide-ecrans-ligne-1323",
+    "title": "La Thaïlande publie son guide de santé mentale sur les écrans : Zéro écran avant 2 ans et assistance 1323",
+    "summary": "Le Département de la santé mentale de Thaïlande (DMH) préconise zéro écran avant 2 ans et 1 à 2 heures maximum pour les plus grands, ouvrant une ligne d'assistance 24h/24.",
+    "content": [
+      "Le Département de la santé mentale (DMH) du ministère thaïlandais de la Santé a rendu publiques ses directives cliniques face à l'explosion de l'addiction aux écrans chez les jeunes.",
+      "Le guide identifie trois signes d'alerte : incapacité à s'arrêter seul, agressivité lors du retrait de l'appareil et abandon des devoirs ou repas.",
+      "L'autorité médicale proscrit tout écran récréatif avant 2 ans et fixe une limite de 1 à 2 heures par jour pour les enfants plus âgés.",
+      "Le ministère recommande de bannir les écrans des chambres et met à disposition le numéro gratuit 1323 pour soutenir les familles jour et nuit.",
+      "Les pédiatres rappellent que l'emploi d'applications de blocage logiciel constitue un rempart essentiel pour restaurer la concentration."
+    ],
+    "source": "Department of Mental Health Thailand (DMH) & Bangkok Post",
+    "sourceUrl": "https://www.dmh.go.th",
+    "category": "Science et santé",
+    "date": "2026-08-24",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Thaïlande",
+      "DMH",
+      "Addiction aux écrans",
+      "Ligne 1323",
+      "Santé infantile",
+      "Santé mentale"
+    ]
+  },
+  {
+    "id": "20",
+    "slug": "eau-et-golfe-durcissent-interdiction-portables-reduisent-ecrans-classe",
+    "title": "Les Émirats et le Golfe renforcent l'interdiction des téléphones et réduisent le temps d'écran en classe",
+    "summary": "Le ministère de l'Éducation des Émirats arabes unis applique la résolution n° 851 et réduit le recours aux écrans au primaire et au collège pour favoriser le retour au papier et à la mémorisation.",
+    "content": [
+      "Dans une région où le taux d'équipement en smartphones est parmi les plus élevés au monde, les Émirats arabes unis et les pays du Golfe prennent des mesures strictes contre la dispersion scolaire.",
+      "La résolution ministérielle n° 851 interdit la détention de téléphones portables dans les écoles émiraties, sous peine de confiscation prolongée.",
+      "Pour l'année scolaire 2026-2027, le ministère réduit le temps passé sur tablette en classe, des études montrant que les élèves retiennent mieux et s'apaisent avec moins de stimulation numérique.",
+      "L'Arabie saoudite applique également une interdiction rigoureuse des téléphones et enregistrements non autorisés dans les établissements.",
+      "Les autorités du Golfe recommandent aux familles de recourir à des bloqueurs d'applications pour préserver l'énergie mentale des jeunes."
+    ],
+    "source": "UAE Ministry of Education & Gulf News",
+    "sourceUrl": "https://www.moe.gov.ae",
+    "category": "Écoles et jeunesse",
+    "date": "2026-08-24",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Émirats",
+      "Arabie Saoudite",
+      "Golfe",
+      "Interdiction portable école",
+      "Réduction temps écran",
+      "Éducation"
+    ]
+  },
+  {
     "id": "11",
     "slug": "france-interdiction-smartphones-ecoles-pause-numerique",
     "title": "France : la « Pause numérique » généralisée dans les collèges et lycées avec casiers verrouillés",
