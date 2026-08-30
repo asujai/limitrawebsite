@@ -1,5 +1,16 @@
 # İşlem Geçmişi
 
+## [2026-08-30 19:58] - Yeni İkonun Canlıda Görünmemesi ve Netlify Yayın Engeli Teşhisi
+
+* **Model:** Codex
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` (canlı yayın durumu, doğrulama ve Netlify engeli düzeltildi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md` (teşhis ve doğrulama kaydı)
+* **Yapılan İşlem:** Antigravity'nin ikon değişikliği yerel dosyalar, Git geçmişi ve `origin/main` üzerinden doğrulandı. Yeni `public/logo.png` dosyası ve tüm PNG referansları `f59746f` commit'inde doğru. Canlı `limitra.online` HTML'i ve varlık uçları kontrol edildi; canlı sitenin hâlâ `/logo.jpg` kullandığı ve `/logo.png` isteğinin 404 döndüğü görüldü. Netlify panelinde otomatik yayının açık olmasına rağmen son üretim dağıtımının `29b899e` olduğu ve üretim dağıtımlarının plan kredi sınırı nedeniyle duraklatıldığı kesinleştirildi. `e6f0fb1` ile yeniden yayın tetiklemesi GitHub'a gönderildi; Netlify engeli nedeniyle dağıtım başlamadı.
+* **Doğrulama:** `npm run build` → 289 sayfa, 0 hata. `npm run check:links` → kırık iç bağlantı yok. Yerel `public/logo.png` mevcut; canlı `/logo.png` 404 ve canlı HTML `/logo.jpg` referanslı. GitHub `main` → `e6f0fb1`; Netlify canlı üretim → `29b899e`.
+* **Bilinen Sorunlar:** Netlify üretim dağıtımları kredi sınırı nedeniyle duraklatılmıştır; yeni ikon kodda hazır olsa da canlıya çıkamaz.
+* **Sonraki Öneri:** Kullanıcı Netlify plan yükseltmesi ile anında devam etmek veya alternatif statik hostinge geçmek arasında karar vermeli. Hosting/deployment uygulaması için önerilen model Claude'dur.
+
 ## [2026-08-30 19:37] - Yeni Limitra İkonunun Web Sitesine Uygulanması
 
 * **Model:** Antigravity

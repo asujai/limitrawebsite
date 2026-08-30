@@ -9,14 +9,14 @@
 
 ## Güncel Durum (2026-08-30)
 - Web sitesi 11 dilli küresel bir platform olarak tam kapasite aktiftir.
-- Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) web sitesinin tüm alanlarına (favicon, header, footer, ana sayfa, haber detay çözüm kutusu) uygulandı.
+- Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda tüm alanlara (favicon, header, footer, ana sayfa, haber detay çözüm kutusu) uygulandı; ancak Netlify üretim dağıtımları kredi sınırı nedeniyle duraklatıldığı için değişiklik henüz canlı siteye çıkmadı.
 - Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **20 doğrulanmış haber ve makaleyle** yayındadır.
 - `npm run build` ile 289 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Yeni Limitra ikonunun (`play-icon-512.png` -> `public/logo.png`) web sitesine uygulanması; favicon (`image/png`, `apple-touch-icon`), `Navigation`, `Footer`, `HomePage` ve `NewsArticle` bileşenlerindeki eski `/logo.jpg` referanslarının güncellenmesi ve eski JPG dosyasının temizlenmesi.
-- **Model:** Antigravity
+- **İşlem:** Yeni ikonun canlıda görünmemesi teşhis edildi. Kodun `origin/main` dalında doğru olduğu, yerel derlemenin başarılı olduğu ve canlı Netlify dağıtımının `29b899e` commit'inde kaldığı doğrulandı. Netlify ücretsiz planındaki üretim kredileri tükendiği için yeni dağıtımlar duraklatılmış durumda.
+- **Model:** Codex
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
@@ -28,7 +28,8 @@
 - `npm run build` → 289 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu.
-- Favicon ve marka logosu PNG formatında tüm sayfalarda doğrulandı.
+- Yerel çıktıda favicon ve marka logosu PNG formatında tüm sayfalarda doğrulandı.
+- Canlı site kontrolü: HTML hâlâ `/logo.jpg` kullanıyor, `/logo.png` 404 dönüyor; Netlify paneli yayımlanan commit'i `29b899e` olarak gösteriyor.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:
@@ -42,7 +43,9 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 ## Bilinen Sorunlar
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
 - `public/og-limitra.png` sosyal paylaşım görseli eski uygulama arayüzünü gösteriyor.
+- **Yayın engeli:** Netlify üretim dağıtımları plan kredi sınırı nedeniyle duraklatıldı. `f59746f` ikon değişikliği ve `e6f0fb1` yeniden tetikleme commit'i GitHub `main` dalında olmasına rağmen canlı site `29b899e` commit'inde kaldı.
 
 ## Yol Haritası / Sıradaki İş
+- **Kullanıcı kararı gerekli:** Netlify planını yükselterek dağıtımları hemen yeniden açmak veya siteyi kredi başına dağıtım ücreti olmayan başka bir statik hosting hizmetine taşımak. Hosting/deployment işi proje rol dağılımında Claude kapsamındadır.
 - İhtiyaç halinde `public/og-limitra.png` sosyal paylaşım görselinin (Open Graph) yeni marka kimliğiyle güncellenmesi.
 - Yeni günlük haber ve içerik akışının sürdürülmesi.
