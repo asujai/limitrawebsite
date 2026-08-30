@@ -1,5 +1,16 @@
 # İşlem Geçmişi
 
+## [2026-08-30 20:13] - Limitra.online İçin Kendi Sunucusuna Geçiş Kararı
+
+* **Model:** Codex
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` (kendi sunucusuna geçiş kararı, güvenlik sınırları ve kabul kriterleri yol haritasına eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md` (model devri kaydı)
+* **Yapılan İşlem:** Kullanıcı, Netlify kredi sınırı nedeniyle `limitra.online` statik sitesini kendi sunucusunda yayınlama kararı verdi. Sunucu kurulumu, TLS, DNS ve deployment proje rol dağılımında Claude kapsamına girdiğinden uygulama yapılmadı. Claude'un doğrudan ilerleyebilmesi için güvenli SSH erişimi, atomik `dist/` yayını, Nginx/Caddy yapılandırması, Porkbun DNS geçişi, geri dönüş planı ve canlı kabul kontrolleri somutlaştırıldı.
+* **Doğrulama:** Yol haritası mevcut Astro statik çıktı yapısı (`dist/`), canonical alan adı (`https://limitra.online`) ve mevcut Porkbun yetkili DNS sunucuları dikkate alınarak hazırlandı. Sunucuya veya DNS'e bağlanılmadı; harici durum değiştirilmedi.
+* **Bilinen Sorunlar:** Sunucu bağlantı bilgileri, işletim sistemi, mevcut web sunucusu ve hedef IP bu oturumda doğrulanmadı. Netlify üretim dağıtımı kredi sınırı nedeniyle halen duraklatılmış durumda.
+* **Sonraki Öneri:** Claude sunucu ve DNS geçişini uygulasın; Codex geçiş sonrasında TLS, rotalar, yeni ikon, bağlantılar ve Netlify bağımsızlığını test etsin.
+
 ## [2026-08-30 19:58] - Yeni İkonun Canlıda Görünmemesi ve Netlify Yayın Engeli Teşhisi
 
 * **Model:** Codex

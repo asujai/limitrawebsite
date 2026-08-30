@@ -46,6 +46,9 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 - **Yayın engeli:** Netlify üretim dağıtımları plan kredi sınırı nedeniyle duraklatıldı. `f59746f` ikon değişikliği ve `e6f0fb1` yeniden tetikleme commit'i GitHub `main` dalında olmasına rağmen canlı site `29b899e` commit'inde kaldı.
 
 ## Yol Haritası / Sıradaki İş
-- **Kullanıcı kararı gerekli:** Netlify planını yükselterek dağıtımları hemen yeniden açmak veya siteyi kredi başına dağıtım ücreti olmayan başka bir statik hosting hizmetine taşımak. Hosting/deployment işi proje rol dağılımında Claude kapsamındadır.
+- **Kullanıcı kararı (2026-08-30):** Netlify planı yükseltilmeyecek; `limitra.online` kullanıcının kendi sunucusuna taşınacak. Hosting, DNS, TLS ve deployment işi proje rol dağılımında Claude kapsamındadır.
+- **Claude için geçiş kapsamı:** Sunucu işletim sistemi ve mevcut web sunucusunu tespit et; SSH erişimini kullanıcıdan güvenli biçimde al; `npm ci && npm run build` ile oluşan `dist/` içeriğini atomik/recoverable yöntemle yayınla; Nginx veya Caddy sanal hostunu `limitra.online` ve `www.limitra.online` için yapılandır; TLS sertifikasını etkinleştir; Porkbun DNS kayıtlarını yeni sunucu IP'sine geçir; HTTP→HTTPS ve `www` canonical yönlendirmesini doğrula. Mevcut Netlify yayını DNS geçişi doğrulanana kadar geri dönüş noktası olarak korunmalı.
+- **Güvenlik notu:** Parola, özel SSH anahtarı, API anahtarı veya token proje dosyalarına/commit geçmişine yazılmamalı. Tercihen kullanıcının mevcut SSH anahtarı ve sınırlı yetkili deploy kullanıcısı kullanılmalı.
+- **Geçiş kabul kriterleri:** Ana sayfa ve 11 dil rotası 200; `/logo.png` 200 ve yeni ikon görünür; `/logo.jpg` kullanılmıyor; `npm run check:links` başarılı; TLS geçerli; canonical/sitemap alan adı doğru; DNS yayılımı sonrası Netlify bağımlılığı kaldırılmadan önce canlı kontroller tamamlanmış.
 - İhtiyaç halinde `public/og-limitra.png` sosyal paylaşım görselinin (Open Graph) yeni marka kimliğiyle güncellenmesi.
 - Yeni günlük haber ve içerik akışının sürdürülmesi.
