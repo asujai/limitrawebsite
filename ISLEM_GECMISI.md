@@ -1,5 +1,23 @@
 # İşlem Geçmişi
 
+## [2026-08-30 19:37] - Yeni Limitra İkonunun Web Sitesine Uygulanması
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `public/logo.png` (512×512 güncel Play Console ikonu projeye aktarıldı)
+  - `[SİLİNDİ]` `public/logo.jpg` (eski siyah/beyaz ikon kaldırıldı)
+  - `[GÜNCELLENDİ]` `src/layouts/Layout.astro` (Favicon MIME türü `image/png` yapıldı, `apple-touch-icon` eklendi)
+  - `[GÜNCELLENDİ]` `src/components/Navigation.astro` (Üst bar marka logosu `logo.png` olarak güncellendi)
+  - `[GÜNCELLENDİ]` `src/components/Footer.astro` (Alt bar marka logosu `logo.png` olarak güncellendi)
+  - `[GÜNCELLENDİ]` `src/components/HomePage.astro` (Kicker ve problem anı logo referansları `logo.png` yapıldı)
+  - `[GÜNCELLENDİ]` `src/components/NewsArticle.astro` (Çözüm kutusu logo referansı `logo.png` yapıldı)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Play Console ile senkronize 512×512 PNG ikon web projesine `public/logo.png` olarak kopyalandı. Eski `public/logo.jpg` referansı taşıyan tüm bileşenler (`Navigation`, `Footer`, `HomePage`, `NewsArticle`) ve genel `Layout.astro` favicon yapılandırması yeni PNG ikona bağlandı. Eski JPG dosyası temizlendi.
+* **Doğrulama:** `npm run build` ile 289 statik sayfa 0 hata ile derlendi; `npm run check:links` ile iç bağlantıların eksiksiz ve hatasız olduğu doğrulandı.
+* **Bilinen Sorunlar:** `public/og-limitra.png` sosyal paylaşım görseli eski uygulama ekranını içeriyor (ayrı bir tasarım ihtiyacı olarak değerlendirilebilir).
+* **Sonraki Öneri:** Gerekirse sosyal paylaşım görseli (og-limitra.png) için 1200×630 boyutunda yeni marka tasarımı üretilmesi.
+
 ## [2026-08-30 19:32] - Yeni Limitra İkonu İçin Web Sitesi Etki Analizi
 
 * **Model:** Codex
