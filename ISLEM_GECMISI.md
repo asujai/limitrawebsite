@@ -1,5 +1,21 @@
 # İşlem Geçmişi
 
+## [2026-08-30 22:51] - Limitra.online Cenuta VPS Geçişinin Tamamlanması
+
+* **Model:** Codex
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `deploy/nginx-limitra.conf` (HTTPS, statik yayın, HTTP ve `www` canonical yönlendirmeleri)
+  - `[YENİ]` `scripts/deploy-vps.ps1` (derleme, bağlantı kontrolü, SSH aktarımı, atomik sürüm değişimi ve son 5 sürümü koruma)
+  - `[GÜNCELLENDİ]` `package.json` (`npm run deploy:vps` komutu)
+  - `[GÜNCELLENDİ]` `.gitignore` (geçici yayın arşivleri)
+  - `[GÜNCELLENDİ]` `AGENTS.md` (günlük yayın akışı Netlify yerine VPS olarak güncellendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` (canlı mimari, doğrulama, risk ve iş akışı)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md` (bu kayıt)
+* **Yapılan İşlem:** Astro çıktısı `89.252.153.119` adresindeki Cenuta Ubuntu VPS'e `/var/www/limitra/releases/<sürüm>` yapısıyla yüklendi ve `/var/www/limitra/current` sembolik bağlantısıyla atomik olarak etkinleştirildi. Nginx sanal sunucusu kuruldu, Let's Encrypt sertifikası alındı, HTTP ve `www` istekleri canonical HTTPS adrese yönlendirildi. Porkbun apex ve `www` kayıtları VPS'e geçirildi. SSL işlemi sırasında VPS yanıt vermeyince DNS güvenli biçimde Netlify'ya geri alındı; Cenuta panelinden normal yeniden başlatma sonrasında sunucu iki saatten uzun süre kararlı izlenip tüm testler tekrarlandı ve DNS yeniden VPS'e yönlendirildi. Günlük güncellemeler için tek komutlu atomik yayın betiği eklendi ve gerçek yayında başarıyla çalıştı.
+* **Doğrulama:** `npm run build` → 289 sayfa, 0 hata; `npm run check:links` → kırık iç bağlantı yok. Canlı ana sayfa, 11 dil rotası, TR/EN haberler, sitemap ve robots → 200. `/logo.png` → 200 / 250.139 bayt; canlı HTML `/logo.png` kullanıyor ve `/logo.jpg` kullanmıyor. HTTP ve `www` → 301 canonical HTTPS. TLS CN `limitra.online`, son geçerlilik 2026-11-28. `muhasebe.limitra.online` → 200. Yetkili DNS ve 1.1.1.1/8.8.8.8/9.9.9.9 → `89.252.153.119`.
+* **Bilinen Sorunlar:** VPS bir kez yüksek yük altında SSH ve HTTP yanıtı vermeyi durdurdu; normal yeniden başlatmayla düzeldi. Tekrar ederse Cenuta sağlayıcı desteği gerekir. Netlify kopyası acil geri dönüş için korunuyor.
+* **Sonraki Öneri:** VPS erişilebilirliğini izlemek; günlük içerik sonrası `git push origin main` ve `npm run deploy:vps` çalıştırmak.
+
 ## [2026-08-30 20:13] - Limitra.online İçin Kendi Sunucusuna Geçiş Kararı
 
 * **Model:** Codex

@@ -17,5 +17,6 @@ Bu depo, **Limitra App Block** (Android uygulama engelleyici ve dijital disiplin
    - `src/data/haberler.json` (TR) ve `src/data/news-en.json` (EN) dosyalarına en güncel tarihle eklenir.
    - `public/sitemap.xml` dosyasına yeni slug'lar işlenir.
    - `npm run build` ile derleme doğrulanır.
-   - `git add .`, `git commit` ve `git push origin main` komutları çalıştırılarak Netlify canlı yayınına anında gönderilir.
+   - `git add .`, `git commit` ve `git push origin main` ile kaynak kod GitHub'a gönderilir.
+   - `npm run deploy:vps` çalıştırılarak doğrulanmış statik çıktı atomik biçimde `89.252.153.119` üzerindeki canlı siteye gönderilir.
 4. Her işlem sonrası `SON_DURUM.md` ve `ISLEM_GECMISI.md` güncellenmelidir.

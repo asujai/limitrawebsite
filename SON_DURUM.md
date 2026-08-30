@@ -8,14 +8,16 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-08-30)
-- Web sitesi 11 dilli küresel bir platform olarak tam kapasite aktiftir.
-- Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda tüm alanlara (favicon, header, footer, ana sayfa, haber detay çözüm kutusu) uygulandı; ancak Netlify üretim dağıtımları kredi sınırı nedeniyle duraklatıldığı için değişiklik henüz canlı siteye çıkmadı.
+- Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir. Netlify artık canlı yayın bağımlılığı değildir; yalnızca geri dönüş kopyası olarak korunmaktadır.
+- Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
+- Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
+- Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
 - Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **20 doğrulanmış haber ve makaleyle** yayındadır.
 - `npm run build` ile 289 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Yeni ikonun canlıda görünmemesi teşhis edildi. Kodun `origin/main` dalında doğru olduğu, yerel derlemenin başarılı olduğu ve canlı Netlify dağıtımının `29b899e` commit'inde kaldığı doğrulandı. Netlify ücretsiz planındaki üretim kredileri tükendiği için yeni dağıtımlar duraklatılmış durumda.
+- **İşlem:** Site Cenuta VPS'e atomik sürüm diziniyle kuruldu; Nginx, TLS, canonical yönlendirmeler ve Porkbun DNS geçişi tamamlandı. Günlük yayınlar için `npm run deploy:vps` komutu eklendi. Geçiş sırasında VPS yanıt vermeyince DNS kısa süreli Netlify'ya geri alındı; panelden normal yeniden başlatma sonrasında sunucu kararlı çalışınca tüm testler tekrarlanıp DNS kalıcı olarak VPS'e çevrildi.
 - **Model:** Codex
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -28,8 +30,12 @@
 - `npm run build` → 289 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu.
-- Yerel çıktıda favicon ve marka logosu PNG formatında tüm sayfalarda doğrulandı.
-- Canlı site kontrolü: HTML hâlâ `/logo.jpg` kullanıyor, `/logo.png` 404 dönüyor; Netlify paneli yayımlanan commit'i `29b899e` olarak gösteriyor.
+- Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları, sitemap ve robots dosyası VPS IP'sinden 200 döndü.
+- Canlı `/logo.png` → 200 ve 250.139 bayt; ana sayfada `/logo.png` 6 kez, `/logo.jpg` 0 kez kullanılıyor.
+- HTTP → HTTPS ve `www` → apex yönlendirmeleri 301 ile doğrulandı.
+- TLS sertifikası Let's Encrypt tarafından verildi; CN `limitra.online`, son geçerlilik 28 Kasım 2026.
+- Mevcut `https://muhasebe.limitra.online` sitesi geçiş sonrasında 200 döndü.
+- Porkbun yetkili DNS'i ile 1.1.1.1, 8.8.8.8 ve 9.9.9.9 çözümleyicileri apex ve `www` için `89.252.153.119` adresini döndürdü.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:
@@ -38,17 +44,16 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 3. `public/sitemap.xml` güncellenir.
 4. `npm run build` ile 0 hata doğrulanır.
 5. `npm run check:links` ile kırık bağlantı olmadığı teyit edilir.
-6. `git push origin main` yapılarak Netlify üzerinden anında canlıya alınır.
+6. `git push origin main` ile kaynak kod GitHub'a gönderilir.
+7. `npm run deploy:vps` ile derleme ve bağlantı kontrolü yeniden çalıştırılır; çıktı VPS'e atomik biçimde gönderilir ve son 5 sürüm geri dönüş için korunur.
 
 ## Bilinen Sorunlar
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
 - `public/og-limitra.png` sosyal paylaşım görseli eski uygulama arayüzünü gösteriyor.
-- **Yayın engeli:** Netlify üretim dağıtımları plan kredi sınırı nedeniyle duraklatıldı. `f59746f` ikon değişikliği ve `e6f0fb1` yeniden tetikleme commit'i GitHub `main` dalında olmasına rağmen canlı site `29b899e` commit'inde kaldı.
+- Cenuta VPS daha önce yüksek yük altında SSH/HTTP yanıtı vermeyi durdurdu ve panelden normal yeniden başlatma gerektirdi. Yeniden başlatma sonrasında düşük yükle kararlı çalıştı; tekrar ederse sağlayıcıya destek kaydı açılmalı veya daha güvenilir bir barındırma katmanı değerlendirilmelidir.
 
 ## Yol Haritası / Sıradaki İş
-- **Kullanıcı kararı (2026-08-30):** Netlify planı yükseltilmeyecek; `limitra.online` kullanıcının kendi sunucusuna taşınacak. Hosting, DNS, TLS ve deployment işi proje rol dağılımında Claude kapsamındadır.
-- **Claude için geçiş kapsamı:** Sunucu işletim sistemi ve mevcut web sunucusunu tespit et; SSH erişimini kullanıcıdan güvenli biçimde al; `npm ci && npm run build` ile oluşan `dist/` içeriğini atomik/recoverable yöntemle yayınla; Nginx veya Caddy sanal hostunu `limitra.online` ve `www.limitra.online` için yapılandır; TLS sertifikasını etkinleştir; Porkbun DNS kayıtlarını yeni sunucu IP'sine geçir; HTTP→HTTPS ve `www` canonical yönlendirmesini doğrula. Mevcut Netlify yayını DNS geçişi doğrulanana kadar geri dönüş noktası olarak korunmalı.
-- **Güvenlik notu:** Parola, özel SSH anahtarı, API anahtarı veya token proje dosyalarına/commit geçmişine yazılmamalı. Tercihen kullanıcının mevcut SSH anahtarı ve sınırlı yetkili deploy kullanıcısı kullanılmalı.
-- **Geçiş kabul kriterleri:** Ana sayfa ve 11 dil rotası 200; `/logo.png` 200 ve yeni ikon görünür; `/logo.jpg` kullanılmıyor; `npm run check:links` başarılı; TLS geçerli; canonical/sitemap alan adı doğru; DNS yayılımı sonrası Netlify bağımlılığı kaldırılmadan önce canlı kontroller tamamlanmış.
+- VPS kararlılığını izlemek; yanıt vermeme durumu tekrar ederse Cenuta destek kaydına saatler, yük değerleri ve ağ kesintisi kanıtlarıyla başvurmak.
+- Netlify kopyasını şimdilik acil DNS geri dönüş noktası olarak korumak.
 - İhtiyaç halinde `public/og-limitra.png` sosyal paylaşım görselinin (Open Graph) yeni marka kimliğiyle güncellenmesi.
 - Yeni günlük haber ve içerik akışının sürdürülmesi.
