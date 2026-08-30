@@ -42,3 +42,8 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 
 ## Bilinen Sorunlar
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
+
+## Yol Haritası / Sıradaki İş
+- **Yeni Limitra ikonunun web sitesine uygulanması (Antigravity):** Play Console'da kullanılan doğrulanmış kaynak `C:\Users\abdul\gardiyan2\store_assets\icon\play-icon-512.png` (512×512 PNG). Web sitesindeki eski siyah/beyaz ikon `public/logo.jpg`; `src/components/Navigation.astro`, `src/components/Footer.astro`, `src/components/HomePage.astro` ve `src/layouts/Layout.astro` tarafından kullanılıyor.
+- Uygulamada kaynak PNG web projesine anlamlı bir adla kopyalanmalı; tüm `/logo.jpg` referansları yeni PNG'ye çevrilmeli ve favicon MIME türü `image/png` olmalı. Sosyal paylaşım görseli `public/og-limitra.png` eski uygulama arayüzünü gösterdiğinden yeni marka/uygulama görünümüyle ayrıca değerlendirilmelidir.
+- Uygulama sonrası `npm run build` ve `npm run check:links` çalıştırılmalı; masaüstü/mobil başlık, footer, ana sayfadaki iki ikon kullanımı ve favicon tarayıcıda görsel olarak doğrulanmalıdır.

@@ -1,5 +1,16 @@
 # İşlem Geçmişi
 
+## [2026-08-30 19:32] - Yeni Limitra İkonu İçin Web Sitesi Etki Analizi
+
+* **Model:** Codex
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` (ikon yenileme işi ve doğrulanmış kaynak dosya yol haritasına eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md` (teşhis ve devir kaydı)
+* **Yapılan İşlem:** `gardiyan2` deposundaki Android launcher ve Play Console varlıkları incelendi. Play Console'a senkronlanan güncel ikonun `C:\Users\abdul\gardiyan2\store_assets\icon\play-icon-512.png` olduğu, aynı dosyanın `play_store_images/en-US/icon/icon.png` ve `store_assets/play-sync-v2/en-US/icon/icon.png` yollarında birebir kopyalarının bulunduğu doğrulandı. Web sitesinin eski `public/logo.jpg` varlığını navigasyon, footer, ana sayfa marka alanları ve favicon için kullandığı belirlendi. Görsel/UI uygulaması proje rol dağılımı gereği Antigravity'ye bırakıldı; kesin kapsam yol haritasına işlendi.
+* **Doğrulama:** Yeni ikon 512×512 PNG ve 250.139 bayt; üç Play Store kopyasının yol/boyut eşleşmesi doğrulandı. Eski web ikonu ile görsel karşılaştırma yapıldı. Kod veya görsel varlık değiştirilmediği için derleme çalıştırılmadı.
+* **Bilinen Sorunlar:** Web sitesi halen eski siyah/beyaz `public/logo.jpg` ikonunu kullanıyor. `public/og-limitra.png` içindeki uygulama arayüzü de güncel marka görünümüyle uyumsuz olabilir.
+* **Sonraki Öneri:** Antigravity yeni ikonu tüm web kullanım noktalarına uygulasın, sosyal paylaşım görselini değerlendirsin ve masaüstü/mobil görsel kontrol yapsın.
+
 ## [2026-08-29 23:25] - Hedef Ülkelere Özgü 8 Yeni Teyitli Haberin 11 Dilde Yayına Alınması
 
 * **Model:** Antigravity
