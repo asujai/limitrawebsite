@@ -1,5 +1,33 @@
 [
   {
+    "id": "21",
+    "slug": "paises-bajos-estudio-impacto-prohibicion-moviles-escuelas-concentracion",
+    "title": "Países Bajos: El veto a los móviles en las escuelas dispara la socialización y reduce las distracciones",
+    "summary": "Un informe conjunto del Ministerio de Educación neerlandés y la Universidad de Radboud demuestra que la prohibición de los teléfonos móviles en las aulas ha devuelto las charlas y los juegos a los patios, reduciendo drásticamente el ciberacoso escolar y la falta de concentración.",
+    "content": [
+      "La iniciativa nacional aplicada en los Países Bajos para restringir los teléfonos inteligentes en los centros educativos ('el móvil en casa o en la taquilla') ha cosechado resultados altamente positivos en su primera gran evaluación de impacto.",
+      "El estudio, realizado por el Instituto de Ciencias del Comportamiento de la Universidad de Radboud junto con la consultora DUO, revela que más del 80% de los docentes constata un aula mucho más atenta y un ambiente propicio para el aprendizaje sin la constante interferencia de notificaciones.",
+      "El cambio más notable se ha vivido durante los recreos: los alumnos han sustituido las pantallas individuales por conversaciones cara a cara, deportes de mesa y actividades físicas. Asimismo, las grabaciones clandestinas en pasillos y los casos de acoso digital entre compañeros se redujeron notablemente.",
+      "Incluso los estudiantes que inicialmente rechazaban la medida han admitido con el tiempo que el ambiente escolar es ahora más tranquilo y les libera de la tiranía de la respuesta inmediata en redes sociales.",
+      "Las autoridades educativas de los Países Bajos consideran el modelo un referente europeo indiscutible y recuerdan que establecer límites de uso mediante herramientas de bloqueo digital fuera de la escuela es clave para afianzar estos hábitos."
+    ],
+    "source": "Ministerie van OCW & Radboud Universiteit",
+    "sourceUrl": "https://www.rijksoverheid.nl",
+    "category": "Escuelas y juventud",
+    "date": "2026-09-02",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Países Bajos",
+      "Ministerio de Educación",
+      "Universidad de Radboud",
+      "Móviles en las aulas",
+      "Atención escolar",
+      "Ciberacoso",
+      "Bienestar juvenil"
+    ]
+  },
+  {
     "id": "12",
     "slug": "suecia-guia-nacional-limites-tiempo-de-pantalla-salud",
     "title": "Suecia publica su guía nacional de pantallas: Cero pantallas a menores de 2 años y tope de 2-3 horas a jóvenes",

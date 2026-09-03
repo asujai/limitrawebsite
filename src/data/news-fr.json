@@ -1,5 +1,33 @@
 [
   {
+    "id": "21",
+    "slug": "pays-bas-etude-impact-interdiction-smartphones-ecoles-concentration-recreations",
+    "title": "Pays-Bas : L'interdiction des smartphones à l'école relance la convivialité et renforce l'attention",
+    "summary": "Une évaluation nationale menée par le ministère néerlandais de l'Éducation et l'Université Radboud confirme que le bannissement des téléphones portables a transformé le climat scolaire, ranimé les échanges dans les cours de récréation et réduit le cyberharcèlement.",
+    "content": [
+      "Le dispositif national néerlandais invitant à laisser 'le portable à la maison ou au casier' dans les écoles primaires et secondaires a fait l'objet d'un premier bilan scientifique d'envergure démontrant des bénéfices tangibles sur la vie scolaire.",
+      "Réalisée par les chercheurs en sciences comportementales de l'Université Radboud et DUO-onderwijsonderzoek, l'étude révèle que plus de 80 % des enseignants constatent une baisse spectaculaire des distractions en classe et une bien meilleure écoute pendant les cours.",
+      "C'est dans les cours de récréation que la métamorphose est la plus spectaculaire : au lieu d'élèves isolés les yeux rivés sur des vidéos courtes, les établissements observent un retour massif des discussions directes, du tennis de table et des jeux collectifs. Les cas de harcèlement numérique et de vidéos prises à l'insu d'autrui ont chuté.",
+      "Même une part importante des élèves d'abord réticents admet désormais que l'école est devenue un lieu plus apaisant, délivré de la pression constante des alertes et du besoin compulsif de consultation.",
+      "Le ministère de l'Éducation des Pays-Bas pérennise ce cadre protecteur, tandis que les spécialistes encouragent les familles à prolonger cette hygiène numérique à la maison à l'aide de bloqueurs d'applications et de plages sans écran."
+    ],
+    "source": "Ministerie van OCW & Radboud Universiteit",
+    "sourceUrl": "https://www.rijksoverheid.nl",
+    "category": "Écoles et jeunesse",
+    "date": "2026-09-02",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Pays-Bas",
+      "Ministère de l'Éducation",
+      "Université Radboud",
+      "Interdiction des téléphones",
+      "Concentration scolaire",
+      "Cyberharcèlement",
+      "Bienêtre des jeunes"
+    ]
+  },
+  {
     "id": "12",
     "slug": "suede-recommandations-nationales-temps-ecran-sante-enfants",
     "title": "La Suède fixe des limites nationales d'écran : Zéro écran avant 2 ans et 2 à 3 heures maximum pour les ados",

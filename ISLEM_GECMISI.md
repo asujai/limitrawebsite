@@ -1,5 +1,29 @@
 # İşlem Geçmişi
 
+## [2026-09-03 03:35] - Hollanda Okul Telefon Yasağı Etki Raporu Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 21)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (referans tarih güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının sitede yer almayan yeni bir makalenin dil destekleriyle birlikte eklenmesi talebi doğrultusunda; Hollanda Eğitim, Kültür ve Bilim Bakanlığı (OCW) ile Radboud Üniversitesi Davranış Bilimleri Enstitüsü'nün ulusal okul telefon yasağı ('mobiel thuis of in de kluis') etki değerlendirme araştırması 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) özgün ve kapsamlı biçimde kaleme alınarak ortak ID "21" ile haber veri tabanına eklendi. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi.
+* **Doğrulama:** `npm run build` ile 300 statik sayfa (11 dilde yeni haber sayfaları dahil) 0 hata ile derlendi. `npm run check:links` çalıştırılarak tüm iç bağlantıların eksiksiz ve geçerli olduğu doğrulandı ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-08-30 22:51] - Limitra.online Cenuta VPS Geçişinin Tamamlanması
 
 * **Model:** Codex

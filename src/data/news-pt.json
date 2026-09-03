@@ -1,5 +1,33 @@
 [
   {
+    "id": "21",
+    "slug": "holanda-estudo-impacto-proibicao-celulares-escolas-interacao-foco",
+    "title": "Holanda: Proibição de celulares nas escolas recupera a convivência e aumenta o foco dos alunos",
+    "summary": "Avaliação conduzida pelo Ministério da Educação holandês e pela Universidade Radboud confirma que o veto aos smartphones em sala de aula e recreios diminuiu distrações, estimulou brincadeiras presenciais e reduziu o cyberbullying.",
+    "content": [
+      "A diretriz nacional adotada na Holanda ('o celular em casa ou no armário') consolidou-se como um marco pioneiro na Europa, registrando impactos positivos comprovados cientificamente na rotina escolar de milhares de jovens.",
+      "Segundo estudo do Instituto de Ciências Comportamentais da Universidade Radboud em parceria com o centro DUO, mais de 80% dos professores relataram uma melhoria substancial na atenção durante as aulas e uma atmosfera pedagógica muito mais produtiva.",
+      "Nos intervalos, a mudança foi imediata: em vez de grupos silenciosos vidrados nas telas, os pátios voltaram a presenciar conversas, partidas de tênis de mesa e jogos coletivos. Casos de gravações não autorizadas e ofensas virtuais caíram expressivamente.",
+      "Mesmo os estudantes que inicialmente contestaram a regra reconheceram após alguns meses que a escola se tornou um ambiente mais calmo, livre da cobrança constante por respostas imediatas em redes sociais.",
+      "O governo dos Países Baixos mantém a recomendação rigorosa, enquanto especialistas reiteram que aliar regras institucionais a ferramentas de bloqueio no próprio aparelho é essencial para construir disciplina digital no dia a dia."
+    ],
+    "source": "Ministerie van OCW & Radboud Universiteit",
+    "sourceUrl": "https://www.rijksoverheid.nl",
+    "category": "Escuelas y juventud",
+    "date": "2026-09-02",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Holanda",
+      "Ministério da Educação",
+      "Universidade Radboud",
+      "Celulares na escola",
+      "Disciplina digital",
+      "Cyberbullying",
+      "Saúde mental jovem"
+    ]
+  },
+  {
     "id": "12",
     "slug": "suecia-diretrizes-nacionais-limite-tempo-de-tela-saude",
     "title": "Suécia define limites nacionais de tela: Zero tela para menores de 2 anos e máximo de 2-3 horas para jovens",
