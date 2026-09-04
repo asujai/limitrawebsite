@@ -12,12 +12,12 @@
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
 - Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **22 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Danimarka Okullarda Telefon Yasağı ve Ulusal Ekran Rehberi, ID: 22).
-- `npm run build` ile 311 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **23 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Yeni Zelanda Okullarda Telefon Yasağı ve ERO Ulusal Etki Raporu, ID: 23).
+- `npm run build` ile 322 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Danimarka Parlamentosu (Folketinget) ve Danimarka Sağlık Kurumu'nun (Sundhedsstyrelsen) okul telefon yasağı ile çocuk ekran süresi kılavuzu konulu yeni ve özgün makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 22 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 311 statik sayfa 0 hata ile derlendi ve tüm iç bağlantılar test edildi.
+- **İşlem:** Yeni Zelanda Eğitim İnceleme Ofisi (ERO) ve Eğitim Bakanlığı'nın (Te Tāhuhu o te Mātauranga) 'Do Not Disturb' başlıklı ulusal etki raporu konulu yeni ve özgün makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 23 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 322 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar test edildi ve `npm run deploy:vps` ile canlıya aktarıldı.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -27,7 +27,7 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 289 sayfa, 0 hata.
+- `npm run build` → 322 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu.
 - Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları, sitemap ve robots dosyası VPS IP'sinden 200 döndü.

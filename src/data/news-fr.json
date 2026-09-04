@@ -1,5 +1,33 @@
 [
   {
+    "id": "23",
+    "slug": "nouvelle-zelande-interdiction-smartphones-ecoles-rapport-ero-concentration",
+    "title": "Rapport Officiel en Nouvelle-Zélande : L'Interdiction des Smartphones à l'École Améliore la Concentration de 80%",
+    "summary": "L'Education Review Office (ERO) de Nouvelle-Zélande a publié son rapport national 'Do Not Disturb'. Suite à la mesure obligatoire 'Phones Away for the Day', 80% des enseignants constatent une nette hausse de l'attention, 77% un meilleur comportement et 69% un recul notable du harcèlement scolaire.",
+    "content": [
+      "L'Education Review Office (ERO) de Nouvelle-Zélande, en concertation avec le ministère de l'Éducation (Te Tāhuhu o te Mātauranga), a publié une évaluation nationale approfondie intitulée 'Do Not Disturb : un bilan du retrait des téléphones portables des classes néo-zélandaises', analysant la politique obligatoire 'Phones Away for the Day' instaurée en 2024.",
+      "Portée par la ministre de l'Éducation Erica Stanford et le Premier ministre Christopher Luxon pour restaurer l'excellence scolaire et la sérénité des apprentissages, cette mesure impose aux élèves d'éteindre et de ranger leurs smartphones dans leurs casiers ou sacs du matin au soir, y compris durant les récréations et la pause méridienne.",
+      "Les conclusions de l'ERO sont éloquentes : 80 % des enseignants du secondaire ont constaté que l'absence de téléphones améliorait significativement la concentration des élèves. Entre 61 % et 66 % des éducateurs rapportent des progrès académiques mesurables, 77 % soulignent un comportement apaisé en classe et 69 % enregistrent un recul marqué du harcèlement et des enregistrements sauvages.",
+      "Le rapport met également en lumière le retour des jeux de cour, des discussions spontanées et du sport entre pairs lors des pauses. Cependant, l'ERO note que les sollicitations parentales par SMS durant les cours constituent le principal facteur d'infraction chez les lycéens plus âgés, appelant les familles à devenir partenaires de cette déconnexion scolaire.",
+      "Les spécialistes rappellent que ce sanctuaire d'apprentissage diurne doit être relayé à domicile par des habitudes rigoureuses et des outils de blocage d'applications tels que Limitra App Block afin d'éviter la rechute dans l'hyperconnexion nocturne."
+    ],
+    "source": "New Zealand Ministry of Education & ERO",
+    "sourceUrl": "https://www.ero.govt.nz",
+    "category": "Écoles et jeunesse",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Nouvelle-Zélande",
+      "ERO",
+      "Phones Away for the Day",
+      "Interdiction des Téléphones",
+      "Attention en Classe",
+      "Harcèlement Scolaire",
+      "Discipline Numérique"
+    ]
+  },
+  {
     "id": "22",
     "slug": "danemark-interdiction-telephones-ecoles-recommandations-temps-ecran",
     "title": "Le Danemark bannit les téléphones des écoles et publie un guide officiel sur le temps d'écran des mineurs",

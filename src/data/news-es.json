@@ -1,5 +1,33 @@
 [
   {
+    "id": "23",
+    "slug": "nueva-zelanda-prohibicion-moviles-escuelas-informe-ero-enfoque-rendimiento",
+    "title": "Informe Oficial en Nueva Zelanda: La Prohibición de Móviles en las Escuelas Aumenta la Concentración un 80%",
+    "summary": "La Oficina de Revisión Educativa de Nueva Zelanda (ERO) publicó su informe nacional 'Do Not Disturb'. Tras la política obligatoria 'Phones Away for the Day', el 80% de los docentes constató una mayor concentración en clase, el 77% mejor conducta y el 69% una reducción del acoso escolar.",
+    "content": [
+      "La Oficina de Revisión Educativa de Nueva Zelanda (Education Review Office - ERO), junto con el Ministerio de Educación, ha publicado su primer informe nacional de impacto titulado 'Do Not Disturb', evaluando la política obligatoria 'Phones Away for the Day' implementada en 2024 en todos los centros escolares del país.",
+      "Impulsada por la ministra de Educación Erica Stanford y el primer ministro Christopher Luxon para restaurar el rendimiento académico y la disciplina en las aulas, la normativa exige que los teléfonos inteligentes permanezcan guardados en mochilas o taquillas durante toda la jornada escolar, incluidos los recreos.",
+      "Los resultados son contundentes: el 80% de los profesores de secundaria encuestados afirmó que retirar los teléfonos mejoró notablemente la capacidad de concentración de los estudiantes. Entre el 61% y el 66% de los docentes constató mejoras directas en el rendimiento académico, el 77% observó una conducta más positiva y el 69% reportó una disminución drástica del acoso escolar y las grabaciones no autorizadas.",
+      "El informe también subraya un renacimiento de la convivencia presencial durante los descansos, con jóvenes jugando al aire libre y charlando en lugar de permanecer aislados frente a pantallas. No obstante, el ERO advierte que los mensajes de los propios padres durante las clases representan el principal obstáculo para el cumplimiento en alumnos de cursos superiores, instando a las familias a respetar los horarios escolares.",
+      "Expertos en pedagogía destacan que para consolidar esta reconquista de la atención en el hogar, el uso de herramientas de bloqueo de aplicaciones y disciplina digital como Limitra App Block resulta fundamental para prevenir la sobreexposición a pantallas fuera del colegio."
+    ],
+    "source": "New Zealand Ministry of Education & ERO",
+    "sourceUrl": "https://www.ero.govt.nz",
+    "category": "Escuelas y juventud",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Nueva Zelanda",
+      "ERO",
+      "Phones Away for the Day",
+      "Prohibición de Móviles",
+      "Concentración Escolar",
+      "Acoso Escolar",
+      "Disciplina Digital"
+    ]
+  },
+  {
     "id": "22",
     "slug": "dinamarca-prohibe-moviles-escuelas-guia-nacional-tiempo-pantalla",
     "title": "Dinamarca prohíbe por ley los teléfonos en las escuelas y fija directrices oficiales de tiempo de pantalla para menores",
