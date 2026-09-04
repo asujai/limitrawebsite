@@ -7,17 +7,17 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-09-03)
+## Güncel Durum (2026-09-05)
 - Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir. Netlify artık canlı yayın bağımlılığı değildir; yalnızca geri dönüş kopyası olarak korunmaktadır.
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
 - Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **21 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Hollanda Okul Telefon Yasağı Etki Raporu, ID: 21).
-- `npm run build` ile 300 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **22 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Danimarka Okullarda Telefon Yasağı ve Ulusal Ekran Rehberi, ID: 22).
+- `npm run build` ile 311 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Hollanda Eğitim Bakanlığı ve Radboud Üniversitesi'nin ulusal okul telefon yasağı etki raporu ("mobiel thuis of in de kluis") konulu yeni ve özgün makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 21 olarak eklendi. `public/sitemap.xml` güncellendi, 300 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar test edildi ve site Cenuta VPS'e atomik olarak yüklendi.
+- **İşlem:** Danimarka Parlamentosu (Folketinget) ve Danimarka Sağlık Kurumu'nun (Sundhedsstyrelsen) okul telefon yasağı ile çocuk ekran süresi kılavuzu konulu yeni ve özgün makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 22 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 311 statik sayfa 0 hata ile derlendi ve tüm iç bağlantılar test edildi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi

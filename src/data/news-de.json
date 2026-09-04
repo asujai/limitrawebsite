@@ -1,5 +1,33 @@
 [
   {
+    "id": "22",
+    "slug": "daenemark-handyverbot-schulen-nationale-bildschirmzeit-richtlinien",
+    "title": "Dänemark beschließt striktes Handyverbot an Schulen und neue nationale Richtlinien für Bildschirmzeit",
+    "summary": "Das dänische Parlament hat sich auf ein flächendeckendes Smartphone-Verbot an Grund- und weiterführenden Schulen sowie Ganztagseinrichtungen geeinigt. Die dänische Gesundheitsbehörde (Sundhedsstyrelsen) empfiehlt null Bildschirmzeit für Unter-Zweijährige und handyfreie Schlafzimmer.",
+    "content": [
+      "Eine breite Mehrheit im dänischen Parlament (Folketinget) hat die Einführung eines verbindlichen Smartphone-Verbots an allen staatlichen Grund- und Gesamtschulen (Folkeskole) sowie in schulischen Freizeiteinrichtungen (SFO) beschlossen.",
+      "Die von Ministerpräsidentin Mette Frederiksen und dem Bildungsministerium vorangetriebene Initiative sieht vor, dass private Mobiltelefone während des gesamten Schultages – einschließlich der Pausen – weggeschlossen bleiben. Ziel ist es, den Klassenraum als geschützten Lernort zurückzugewinnen und das persönliche Miteinander unter Kindern wiederzubeleben.",
+      "Flankierend dazu hat die dänische Gesundheitsbehörde (Sundhedsstyrelsen) offizielle Empfehlungen für den privaten Medienkonsum im Kindes- und Jugendalter vorgelegt: Keine Bildschirme für Kinder unter 2 Jahren, maximal eine Stunde täglich für 2- bis 4-Jährige und höchstens ein bis zwei Stunden Freizeitscreening für 5- bis 17-Jährige.",
+      "Um erholsamen Schlaf zu gewährleisten, rät die Behörde dringend dazu, Smartphones und Tablets nachts aus den Kinder- und Jugendzimmern zu verbannen und auf analoge Wecker zurückzugreifen.",
+      "Bildungsexperten betonen, dass staatliche Verbote im Schulalltag nur dann nachhaltig wirken, wenn Jugendliche auch zu Hause durch gezielte App-Blocker und digitale Auszeiten lernen, ihre Bildschirmzeit eigenverantwortlich zu steuern."
+    ],
+    "source": "Folketinget & Sundhedsstyrelsen",
+    "sourceUrl": "https://www.sst.dk",
+    "category": "Schulen & Jugend",
+    "date": "2026-09-05",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "Dänemark",
+      "Folketinget",
+      "Sundhedsstyrelsen",
+      "Handyverbot Schule",
+      "Bildschirmzeit",
+      "Kindergesundheit",
+      "Digitale Achtsamkeit"
+    ]
+  },
+  {
     "id": "21",
     "slug": "niederlande-studie-smartphone-verbot-schulen-soziale-kontakte-fokus",
     "title": "Niederlande: Großstudie belegt Erfolg des Handyverbots – Mehr Miteinander und spürbar mehr Fokus",

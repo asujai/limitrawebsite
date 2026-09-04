@@ -1,5 +1,29 @@
 # İşlem Geçmişi
 
+## [2026-09-05 00:05] - Danimarka Okullarda Telefon Yasağı ve Ulusal Ekran Rehberi Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 22)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (referans tarih 2026-09-05 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının haberler ve makaleler bölümünü günlük olarak güncelleme talebi doğrultusunda; Danimarka Parlamentosu'nun (Folketinget) ilk, orta ve serbest zaman kulüplerinde akıllı telefonları tamamen yasaklama kararı ve Danimarka Sağlık Kurumu'nun (Sundhedsstyrelsen) 2 yaş altına sıfır ekran, okul çağına azami 1-2 saat ve yatak odalarından telefonların çıkarılması yönündeki resmi kılavuzu 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) özgün ve kapsamlı biçimde kaleme alınarak ortak ID "22" ile haber veri tabanına eklendi. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi.
+* **Doğrulama:** `npm run build` ile 311 statik sayfa (11 dilde yeni haber sayfaları dahil) 0 hata ile derlendi. `npm run check:links` çalıştırılarak tüm iç bağlantıların eksiksiz ve geçerli olduğu doğrulandı ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-03 03:35] - Hollanda Okul Telefon Yasağı Etki Raporu Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity

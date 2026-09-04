@@ -1,5 +1,33 @@
 [
   {
+    "id": "22",
+    "slug": "dinamarca-prohibe-moviles-escuelas-guia-nacional-tiempo-pantalla",
+    "title": "Dinamarca prohíbe por ley los teléfonos en las escuelas y fija directrices oficiales de tiempo de pantalla para menores",
+    "summary": "El Parlamento danés acuerda un veto total a los smartphones en colegios y centros de ocio extraescolar. A su vez, la Agencia Danesa de Salud (Sundhedsstyrelsen) establece cero pantallas para menores de dos años y pide desterrar los móviles de los dormitorios infantiles.",
+    "content": [
+      "Una amplia mayoría en el Parlamento de Dinamarca (Folketinget) ha aprobado una normativa vinculante que exige que todas las escuelas de educación primaria y secundaria básica (Folkeskole), así como los centros de ocio extraescolar (SFO), se conviertan en espacios totalmente libres de teléfonos móviles.",
+      "Impulsada por la primera ministra Mette Frederiksen y el Ministerio de Infancia y Educación, la medida obliga a guardar los smartphones y dispositivos personales durante toda la jornada escolar, incluidos los recreos, con el objetivo prioritario de recuperar el aula como espacio pedagógico y fomentar la socialización directa entre iguales.",
+      "De forma paralela, la Agencia Danesa de Salud (Sundhedsstyrelsen) ha hecho públicas sus recomendaciones oficiales para el tiempo libre de niños y adolescentes: cero pantallas para menores de 0 a 2 años, un límite de una hora al día entre los 2 y 4 años, y un máximo de una a dos horas diarias para edades comprendidas entre los 5 y 17 años.",
+      "La autoridad sanitaria recomienda con especial firmeza expulsar las pantallas de los dormitorios durante la noche, cargar los dispositivos en zonas comunes y sustituir las alarmas del teléfono por despertadores clásicos para preservar el sueño profundo.",
+      "Pedagogos y psicólogos subrayan que el éxito de estas políticas en las escuelas debe complementarse en el hogar con herramientas de bloqueo de aplicaciones y pausas digitales conscientes que fortalezcan el autocontrol de los jóvenes."
+    ],
+    "source": "Folketinget & Sundhedsstyrelsen",
+    "sourceUrl": "https://www.sst.dk",
+    "category": "Escuelas y juventud",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Dinamarca",
+      "Folketinget",
+      "Sundhedsstyrelsen",
+      "Móviles en las aulas",
+      "Tiempo de pantalla",
+      "Salud infantil",
+      "Desconexión digital"
+    ]
+  },
+  {
     "id": "21",
     "slug": "paises-bajos-estudio-impacto-prohibicion-moviles-escuelas-concentracion",
     "title": "Países Bajos: El veto a los móviles en las escuelas dispara la socialización y reduce las distracciones",

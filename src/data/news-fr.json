@@ -1,5 +1,33 @@
 [
   {
+    "id": "22",
+    "slug": "danemark-interdiction-telephones-ecoles-recommandations-temps-ecran",
+    "title": "Le Danemark bannit les téléphones des écoles et publie un guide officiel sur le temps d'écran des mineurs",
+    "summary": "Le Parlement danois a adopté une interdiction stricte des smartphones dans les écoles primaires, les collèges et les garderies périscolaires. L'Autorité danoise de santé (Sundhedsstyrelsen) prescrit zéro écran pour les moins de 2 ans et demande d'exclure les appareils des chambres à coucher.",
+    "content": [
+      "Une large majorité au Parlement danois (Folketinget) a validé l'obligation pour l'ensemble des établissements d'enseignement primaire et secondaire (Folkeskole) ainsi que les structures d'accueil de loisirs (SFO) de devenir des environnements sans téléphone portable.",
+      "Portée par la Première ministre Mette Frederiksen et le ministère de l'Enfance et de l'Éducation, la réglementation impose le rangement des téléphones personnels pendant toute la durée de la journée scolaire, récréations incluses, afin de restaurer l'attention en classe et de relancer les interactions directes entre élèves.",
+      "Simultanément, l'Autorité danoise de santé (Sundhedsstyrelsen) a publié ses repères officiels concernant l'usage des écrans sur le temps de loisir : aucun écran pour les enfants de 0 à 2 ans, un maximum d'une heure par jour pour les 2-4 ans et une limite recommandée de une à deux heures quotidiennes pour les 5-17 ans.",
+      "L'agence sanitaire insiste tout particulièrement sur la qualité du sommeil, préconisant de ne jamais laisser de téléphones ou tablettes dans la chambre la nuit et d'utiliser des réveils traditionnels pour éviter la consultation nocturne impulsive.",
+      "Spécialistes du développement et enseignants rappellent que ces directives collectives prennent tout leur sens lorsque les familles adoptent, à la maison, des applications de blocage et des règles claires de déconnexion."
+    ],
+    "source": "Folketinget & Sundhedsstyrelsen",
+    "sourceUrl": "https://www.sst.dk",
+    "category": "Écoles et jeunesse",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Danemark",
+      "Folketinget",
+      "Sundhedsstyrelsen",
+      "Interdiction des téléphones",
+      "Temps d'écran",
+      "Santé des enfants",
+      "Déconnexion"
+    ]
+  },
+  {
     "id": "21",
     "slug": "pays-bas-etude-impact-interdiction-smartphones-ecoles-concentration-recreations",
     "title": "Pays-Bas : L'interdiction des smartphones à l'école relance la convivialité et renforce l'attention",
