@@ -27,10 +27,10 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 388 sayfa, 0 hata.
+- `npm run build` → 399 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu.
-- Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları, sitemap ve robots dosyası VPS IP'sinden 200 döndü.
+- Sitemap ↔ üretilen sayfalar tam uyumlu (30 makale, 11 dil).
+- Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları (yeni eklenen ID 30 dahil), sitemap ve robots dosyası VPS IP'sinden (`89.252.153.119`) 200 döndü (sürüm `20260905-230453`).
 - Canlı `/logo.png` → 200 ve 250.139 bayt; ana sayfada `/logo.png` 6 kez, `/logo.jpg` 0 kez kullanılıyor.
 - HTTP → HTTPS ve `www` → apex yönlendirmeleri 301 ile doğrulandı.
 - TLS sertifikası Let's Encrypt tarafından verildi; CN `limitra.online`, son geçerlilik 28 Kasım 2026.
