@@ -12,12 +12,12 @@
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
 - Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **23 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Yeni Zelanda Okullarda Telefon Yasağı ve ERO Ulusal Etki Raporu, ID: 23).
-- `npm run build` ile 322 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **24 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Silikon Vadisi Eyaletinde Tarihi Karar: Kaliforniya 'Telefonsuz Okullar Yasası' AB 3216 ve LAUSD Tam Yasak Uygulaması, ID: 24).
+- `npm run build` ile 333 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Yeni Zelanda Eğitim İnceleme Ofisi (ERO) ve Eğitim Bakanlığı'nın (Te Tāhuhu o te Mātauranga) 'Do Not Disturb' başlıklı ulusal etki raporu konulu yeni ve özgün makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 23 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 322 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar test edildi ve `npm run deploy:vps` ile canlıya aktarıldı.
+- **İşlem:** Kaliforniya Valisi Gavin Newsom tarafından yasalaştırılan 'Telefonsuz Okullar Yasası' (Phone-Free Schools Act - AB 3216) ve ABD'nin 2. en büyük okul bölgesi olan Los Angeles Birleşik Okul Bölgesi'nin (LAUSD) 500 bini aşkın öğrenci için başlattığı tam gün 'zil sesinden zil sesine' akıllı telefon yasağı konulu yeni ve kapsamlı makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 24 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 333 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar test edildi ve `npm run deploy:vps` ile canlıya aktarıldı.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
