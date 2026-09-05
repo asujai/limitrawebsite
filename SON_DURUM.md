@@ -12,12 +12,12 @@
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
 - Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **24 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Silikon Vadisi Eyaletinde Tarihi Karar: Kaliforniya 'Telefonsuz Okullar Yasası' AB 3216 ve LAUSD Tam Yasak Uygulaması, ID: 24).
-- `npm run build` ile 333 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **25 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Yunanistan'da Okullarda Tarihi 'Çantada Telefon' Dönemi: Kuralı İhlal Edene Uzaklaştırma, İzinsiz Çekime İhraç Cezası, ID: 25).
+- `npm run build` ile 344 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Kaliforniya Valisi Gavin Newsom tarafından yasalaştırılan 'Telefonsuz Okullar Yasası' (Phone-Free Schools Act - AB 3216) ve ABD'nin 2. en büyük okul bölgesi olan Los Angeles Birleşik Okul Bölgesi'nin (LAUSD) 500 bini aşkın öğrenci için başlattığı tam gün 'zil sesinden zil sesine' akıllı telefon yasağı konulu yeni ve kapsamlı makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 24 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 333 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar test edildi ve `npm run deploy:vps` ile canlıya aktarıldı.
+- **İşlem:** Yunanistan Başbakanı Kyriakos Mitsotakis ve Milli Eğitim Bakanı Kyriakos Pierrakakis tarafından tüm ilk ve ortaöğretim okullarında başlatılan 'Çantada Cep Telefonu' (Το κινητό στην τσάντα) uygulaması, derste veya teneffüste telefon çıkaran öğrencilere 1 gün okuldan uzaklaştırma ve habersiz video/fotoğraf çekimi yapanlara okuldan kalıcı ihraç cezaları konulu yeni makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 25 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 344 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar test edildi ve yayına hazırlandı.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -27,7 +27,7 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 322 sayfa, 0 hata.
+- `npm run build` → 344 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu.
 - Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları, sitemap ve robots dosyası VPS IP'sinden 200 döndü.

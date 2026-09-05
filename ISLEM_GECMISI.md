@@ -1,5 +1,28 @@
 # İşlem Geçmişi
 
+## [2026-09-05 18:05] - Yunanistan Okullarda 'Çantada Telefon' Yasası ve Disiplin Yaptırımları Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 25)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının haberler ve makaleler bölümünü günlük olarak güncelleme talebi doğrultusunda; Yunanistan Başbakanı Kyriakos Mitsotakis ile Milli Eğitim, Din İşleri ve Spor Bakanı Kyriakos Pierrakakis tarafından ülke genelindeki tüm ilk ve ortaöğretim okullarında yürürlüğe konan 'Çantada Cep Telefonu' (Το κινητό στην τσάντα) politikası ve disiplin yaptırımları (kuralı ihlal edene 1 gün uzaklaştırma, izinsiz video ve fotoğraf çekip sosyal medyada paylaşana okuldan kalıcı ihraç ve başka okula zorunlu nakil cezası) 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) özgün, doğrulanmış ve kapsamlı biçimde kaleme alınarak ortak ID "25" ile haber veri tabanına eklendi. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi.
+* **Doğrulama:** `npm run build` ile 344 statik sayfa (11 dilde yeni haber sayfaları dahil) 0 hata ile derlendi. `npm run check:links` çalıştırılarak tüm iç bağlantıların eksiksiz ve geçerli olduğu doğrulandı ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-05 17:05] - Kaliforniya Telefonsuz Okullar Yasası ve LAUSD Telefon Yasağı Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity
