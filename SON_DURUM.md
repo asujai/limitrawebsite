@@ -12,12 +12,12 @@
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
 - Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **28 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: New York'tan Tarihi Çifte Reform: Bağımlılık Yapan Algoritmaları Yasaklayan 'SAFE for Kids' Yasası ve Okullarda Tam Gün Telefon Yasağı, ID: 28).
-- `npm run build` ile 377 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **29 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: İrlanda'dan Dünyaya Örnek Model: 'Telefonsuz Çocukluk' Politikası ve Okullarda Zil Başı-Sonu Telefon Yasağı, ID: 29).
+- `npm run build` ile 388 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** New York Valisi Kathy Hochul ve Eyalet Başsavcısı Letitia James öncülüğünde yasalaşan 'SAFE for Kids' Yasası ile 18 yaş altındakilere yönelik bağımlılık yapıcı algoritmik akışların varsayılan olarak yasaklanması, gece 00:00 ile 06:00 arası bildirim yasağı, Çocuk Verilerini Koruma Yasası ile ticari profillemenin durdurulması ve eyalet genelinde tüm K-12 okullarında ders başlangıcından bitişine kadar tam gün akıllı telefon kısıtlaması ('Distraction-Free Schools') getirilmesi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 28 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 377 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı ve VPS yayınına hazırlandı.
+- **İşlem:** İrlanda Eğitim Bakanı Norma Foley ve hükümet öncülüğünde, Greystones kasabasındaki veli uzlaşmasından ilham alarak ülke genelindeki tüm ilk ve ortaöğretim okullarında zil başından zil sonuna kadar (bell-to-bell) akıllı telefonların kullanımını yasaklayan 'Telefonsuz Çocukluk' (Smartphone-Free Childhood) politikası ve güvenli kilitli kılıf/dolap bütçesi tahsisi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 29 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 388 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı ve VPS yayınına gönderildi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -27,7 +27,7 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 377 sayfa, 0 hata.
+- `npm run build` → 388 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu.
 - Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları, sitemap ve robots dosyası VPS IP'sinden 200 döndü.

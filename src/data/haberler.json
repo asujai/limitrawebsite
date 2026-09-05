@@ -1,5 +1,34 @@
 [
   {
+    "id": "29",
+    "slug": "irlanda-telefonsuz-cocukluk-politikasi-okullarda-akilli-telefon-yasagi",
+    "title": "İrlanda'dan Dünyaya Örnek Model: 'Telefonsuz Çocukluk' Politikası ve Okullarda Zil Başı-Sonu Telefon Yasağı",
+    "summary": "İrlanda Eğitim Bakanı Norma Foley, Greystones kasabasındaki velilerin tarihi uzlaşmasından ilham alarak ülke çapında 'Telefonsuz Çocukluk' (Smartphone-Free Childhood) politikasını başlattı. İlkokul ve liselerde ders zilinden çıkış ziline kadar akıllı telefonlar tamamen yasaklanırken, kilitli kılıf ve dolaplar için devlet bütçesi tahsis edildi.",
+    "content": [
+      "İrlanda Cumhuriyeti, çocukların ve gençlerin zihinsel gelişimini akıllı telefonların bağımlılık yapıcı tuzaklarından korumak ve eğitim ortamlarını dijital dikkat dağınıklığından arındırmak amacıyla dünyada büyük yankı uyandıran ulusal bir seferberlik başlattı. İrlanda Eğitim Bakanı Norma Foley liderliğinde hazırlanan ve hükümet tarafından onaylanan resmi yönerge, ülke genelindeki tüm ilk ve ortaöğretim okullarında ders başlangıcından okul çıkışına kadar (bell-to-bell) akıllı telefonların kullanımını kesin olarak yasakladı.",
+      "Bu tarihi ulusal politikanın temel ilham kaynağı, County Wicklow bölgesindeki Greystones kasabasında sekiz ilkokulun veli derneklerinin bir araya gelerek imzaladığı 'ortak veli uzlaşması' oldu. Velilerin, çocukları liseye başlayana kadar akıllı telefon satın almama yönündeki toplu taahhüdü, akran baskısını ortadan kaldırarak küresel ölçekte bir farkındalık dalgası oluşturdu. İrlanda hükümeti, tabandan gelen bu sivil iradeyi devlet politikasına dönüştürerek tüm ülkedeki ilkokul ve ortaokul öğrencilerini kapsayan resmi koruma kalkanı ilan etti.",
+      "Yönerge kapsamında lise düzeyindeki okullara da telefon yasağı getirilirken, hükümet öğrencilerin cihazlarını gün boyu güvenli bir şekilde saklayabilmesi için özel bütçe tahsis etti. Manyetik kilitli kılıflar (Yondr pouch) veya okul girişindeki kilitli dolap sistemleriyle desteklenen model sayesinde öğrenciler, ders saatlerinin yanı sıra teneffüs ve öğle aralarında da ekranlardan uzak kalıyor. Uygulama sayesinde sınıflarda ders başarısı artarken; siber zorbalık, kaygı bozuklukları ve sınıf içi huzursuzluk vakalarında keskin bir düşüş kaydedildi.",
+      "İrlanda Eğitim Bakanı Norma Foley yaptığı açıklamada, 'Çocukluk dönemi, sürekli titreyen bildirimlerin, algoritmik tuzakların ve sanal onay arayışlarının esiri olamayacak kadar kıymetlidir. Okullarımız; oyunun, dostluğun, yüz yüze iletişimin ve derin öğrenmenin güvenli sığınağı olmalıdır. Greystones velilerinin başlattığı cesur hareketi tüm İrlanda'ya yayarak çocuklarımızın geleceğini geri alıyoruz' ifadelerini kullandı. İrlanda Sağlık Servisi (HSE) uzmanları da uygulamanın ergenlik dönemindeki uyku kalitesini ve odaklanma süresini belirgin şekilde iyileştirdiğini teyit etti.",
+      "Uzmanlar ve eğitimciler, okul sınırları içinde sağlanan bu sağlıklı ortamın evde ve günlük yaşamda da desteklenmesi gerektiğinin altını çiziyor. Okul kapısından çıktıktan sonra gençlerin sonsuz kaydırma girdaplarına ve kısa video bağımlılığına kapılmaması için ailelerin ve bireylerin dijital disiplin bilincini korumaları şart. Çalışma saatlerini ve uyku rutinlerini ekran gürültüsünden arındırmak isteyenler için Limitra App Block benzeri akıllı uygulama engelleyiciler ve süre sınırlandırma araçları, zihinsel berraklığı sürdürmede en etkili savunma kalkanı olmayı sürdürüyor."
+    ],
+    "source": "İrlanda Eğitim Bakanlığı (Department of Education) & Gov.ie",
+    "sourceUrl": "https://www.gov.ie/education",
+    "category": "Okullar & Gençlik",
+    "date": "2026-09-05",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "İrlanda",
+      "Norma Foley",
+      "Telefonsuz Çocukluk",
+      "Greystones",
+      "Okullarda Telefon Yasağı",
+      "Ekran Bağımlılığı",
+      "Dijital Disiplin",
+      "Çocuk Ruh Sağlığı"
+    ]
+  },
+  {
     "id": "28",
     "slug": "new-york-safe-for-kids-yasasi-bagimlilik-yapan-algoritmalar-okullarda-telefon-yasagi",
     "title": "New York'tan Tarihi Çifte Reform: Bağımlılık Yapan Algoritmaları Yasaklayan 'SAFE for Kids' Yasası ve Okullarda Tam Gün Telefon Yasağı",

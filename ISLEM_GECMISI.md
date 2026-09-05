@@ -1,5 +1,28 @@
 # İşlem Geçmişi
 
+## [2026-09-05 22:05] - İrlanda Telefonsuz Çocukluk Politikası ve Okullarda Telefon Yasağı Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 29)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının haberler ve makaleler bölümünü günlük olarak güncelleme talebi doğrultusunda; İrlanda Eğitim Bakanı Norma Foley ve İrlanda Hükümeti öncülüğünde, Greystones kasabasındaki sekiz ilkokulun veli derneklerinin başlattığı tarihi uzlaşmadan ilham alarak ülke çapında yürürlüğe konulan 'Telefonsuz Çocukluk' (Keeping Childhood Smartphone-Free) politikası ve ilkokul ile liselerde ders başlangıcından okul çıkışına kadar (bell-to-bell) akıllı telefonların kullanımını yasaklayan, kilitli kılıf ve dolaplar için devlet bütçesi tahsis eden ulusal reform 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) özgün, doğrulanmış ve kapsamlı biçimde kaleme alınarak ortak ID "29" ile haber veri tabanına eklendi. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi.
+* **Doğrulama:** `npm run build` ile 388 statik sayfa (11 dilde yeni haber sayfaları dahil) 0 hata ile derlendi. `npm run check:links` çalıştırılarak tüm iç bağlantıların eksiksiz ve geçerli olduğu doğrulandı ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-05 21:05] - New York SAFE for Kids Yasası ve Okullarda Tam Gün Telefon Yasağı Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity
