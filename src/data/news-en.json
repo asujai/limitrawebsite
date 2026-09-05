@@ -1,5 +1,34 @@
 [
   {
+    "id": "28",
+    "slug": "new-york-safe-for-kids-act-addictive-feeds-ban-school-phone-restrictions",
+    "title": "Historic Double Reform in New York: 'SAFE for Kids' Act Outlaws Addictive Feeds Alongside Statewide School Phone Ban",
+    "summary": "Spearheaded by New York Governor Kathy Hochul and Attorney General Letitia James, the newly enacted 'SAFE for Kids' Act bans addictive algorithmic feeds and nighttime notifications for minors under 18. The landmark legislation is reinforced by a statewide 'Distraction-Free Schools' bell-to-bell smartphone policy across New York classrooms.",
+    "content": [
+      "In one of the most decisive actions taken by any US state to confront the youth mental health crisis, New York has enacted a landmark dual reform targeting Big Tech's addictive design and classroom digital distractions. Signed into law by New York Governor Kathy Hochul and championed by State Attorney General Letitia James, the 'Stop Addictive Feeds Exploitation (SAFE) for Kids Act' establishes an unprecedented legal shield against exploitative algorithmic feeds targeting minors.",
+      "The cornerstone of the SAFE for Kids Act mandates social media platforms to turn off algorithmically personalized recommendation feeds by default for all users under the age of 18. Without verifiable parental consent, platforms are legally barred from serving content driven by engagement-maximizing algorithms that track behavioral vulnerabilities. Instead, young users will receive a purely chronological feed composed exclusively of posts from accounts they deliberately follow, curbing endless doomscrolling and algorithmic rabbit holes.",
+      "Another pivotal safeguard introduces strict restrictions on nighttime digital disruptions. The law categorically prohibits platforms from sending push notifications to minors between 12:00 midnight and 6:00 AM without explicit parental authorization, protecting adolescent sleep cycles and mental wellbeing. Paired with the New York Child Data Protection Act, which outlaws the commercial profiling and sale of children's data, the framework imposes civil penalties of up to $5,000 per violation enforced directly by the Attorney General's office.",
+      "Complementing this regulatory framework, Governor Kathy Hochul has rolled out a statewide push for 'Distraction-Free Schools,' establishing bell-to-bell smartphone restrictions across New York K-12 institutions. By keeping personal screens out of the classroom from morning to afternoon, schools report enhanced academic focus, revived peer socialization, and significant drops in cyberbullying. Attorney General Letitia James underscored the gravity of the initiative: 'Our children are enduring a mental health crisis engineered by tech companies that profit from addiction. New York is drawing the line.'",
+      "Child psychologists and educators emphasize that while robust legislative frameworks provide vital structural protections, cultivating lasting digital discipline remains an ongoing daily necessity. For students and families seeking to break free from compulsive screen routines, eliminate short-form video hooks, and protect sacred study and sleep intervals, tools like Limitra App Block offer an indispensable defense for focus and digital wellbeing."
+    ],
+    "source": "New York State Governor's Office & NY Attorney General",
+    "sourceUrl": "https://www.governor.ny.gov",
+    "category": "Schools & Youth",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "New York",
+      "Kathy Hochul",
+      "Letitia James",
+      "SAFE for Kids Act",
+      "Algorithmic Feeds",
+      "Distraction-Free Schools",
+      "Digital Discipline",
+      "Youth Mental Health"
+    ]
+  },
+  {
     "id": "27",
     "slug": "norway-social-media-minimum-age-16-protecting-children-algorithmic-power",
     "title": "Historic Move in Norway: Government Sets Social Media Age Limit to 16 to Shield Childhood from Algorithmic Power",

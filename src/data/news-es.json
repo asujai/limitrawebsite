@@ -1,5 +1,34 @@
 [
   {
+    "id": "28",
+    "slug": "nueva-york-ley-safe-for-kids-prohibicion-algoritmos-adictivos-celulares-escuelas",
+    "title": "Histórica Doble Reforma en Nueva York: La Ley 'SAFE for Kids' Prohíbe los Algoritmos Adictivos y se Restringe el Celular en las Escuelas",
+    "summary": "Promovida por la gobernadora de Nueva York Kathy Hochul y la fiscal general Letitia James, la ley 'SAFE for Kids' prohíbe por defecto los algoritmos adictivos y las notificaciones nocturnas para menores de 18 años. La reforma se complementa con una política estatal de escuelas libres de celulares durante toda la jornada escolar.",
+    "content": [
+      "El estado de Nueva York ha promulgado una histórica doble reforma destinada a proteger la salud mental de los jóvenes frente al diseño adictivo de las grandes tecnológicas y a erradicar las distracciones digitales en las aulas. Firmada por la gobernadora Kathy Hochul e impulsada por la fiscal general Letitia James, la ley 'SAFE for Kids' (Stop Addictive Feeds Exploitation) establece un escudo legal pionero contra los algoritmos diseñados para atrapar la atención de los menores.",
+      "El eje central de la normativa exige a las plataformas de redes sociales desactivar por defecto los canales algorítmicos personalizados para usuarios menores de 18 años. Sin el consentimiento parental verificado, las empresas no podrán ofrecer recomendaciones basadas en el rastreo del comportamiento del usuario. Los jóvenes solo podrán visualizar contenidos en orden cronológico estricto procedentes de las cuentas que siguen de forma voluntaria, poniendo fin a los bucles infinitos de navegación compulsiva.",
+      "Otra disposición fundamental prohíbe el envío de notificaciones automáticas a menores entre las 00:00 de la noche y las 06:00 de la mañana sin la autorización explícita de los padres, salvaguardando el descanso nocturno y previniendo trastornos del sueño. Articulada junto con la Ley de Protección de Datos Infantiles de Nueva York, que veta el perfilado comercial de menores, la legislación contempla sanciones civiles de hasta 5.000 dólares por infracción.",
+      "Esta ofensiva legislativa se complementa con la iniciativa estatal de la gobernadora Hochul para implantar 'Escuelas Libres de Distracciones', restringiendo el uso de teléfonos inteligentes de campana a campana en todos los colegios de primaria y secundaria de Nueva York. La fiscal general Letitia James declaró: 'Nuestros jóvenes atraviesan una crisis de salud mental alimentada por corporaciones tecnológicas que lucran con la adicción. En Nueva York decimos basta'.",
+      "Especialistas en desarrollo juvenil señalan que, aunque la regulación legal proporciona una base indispensable, mantener la disciplina digital requiere un compromiso activo en el hogar. Para frenar el uso desmedido de pantallas y neutralizar la trampa de los videos cortos, soluciones inteligentes como Limitra App Block resultan esenciales para proteger la concentración de los estudiantes y fomentar hábitos saludables."
+    ],
+    "source": "Gobernación del Estado de Nueva York y Fiscalía General de NY",
+    "sourceUrl": "https://www.governor.ny.gov",
+    "category": "Escuelas y juventud",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Nueva York",
+      "Kathy Hochul",
+      "Letitia James",
+      "SAFE for Kids",
+      "Algoritmos Adictivos",
+      "Escuelas Sin Celulares",
+      "Disciplina Digital",
+      "Salud Mental"
+    ]
+  },
+  {
     "id": "27",
     "slug": "noruega-edad-minima-redes-sociales-16-anos-proteccion-algoritmos",
     "title": "Paso Histórico en Noruega: La Edad Mínima para Redes Sociales Sube a 16 Años para Frenar el Poder de los Algoritmos",
