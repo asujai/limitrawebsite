@@ -1,5 +1,34 @@
 [
   {
+    "id": "27",
+    "slug": "noruega-idade-minima-redes-sociais-16-anos-protecao-contra-algoritmos",
+    "title": "Decisão Histórica na Noruega: Idade Mínima para Redes Sociais Sobe para 16 Anos para Conter o Poder dos Algoritmos",
+    "summary": "O governo do primeiro-ministro Jonas Gahr Støre enviou ao parlamento norueguês uma lei que estabelece a idade mínima de 16 anos para redes sociais. As gigantes tecnológicas serão obrigadas a validar a idade real dos usuários e o rastreamento algorítmico de menores foi proibido.",
+    "content": [
+      "O governo norueguês, liderado pelo primeiro-ministro Jonas Gahr Støre e pelo Ministério da Criança e Famílias (Barne- og familiedepartementet), submeteu ao Parlamento (Stortinget) um projeto de lei pioneiro que fixa em 16 anos a idade mínima para uso de redes sociais. A iniciativa representa uma das ações legislativas mais enérgicas da Europa para proteger o desenvolvimento psicológico de jovens contra os mecanismos viciantes da Big Tech.",
+      "O grande destaque da proposta é o seu engenhoso critério de corte por ano letivo, desenhado para coibir a pressão social e a exclusão entre colegas de turma. A idade mínima é fixada no dia 1º de janeiro do ano em que o adolescente completa 16 anos. Com isso, todos os estudantes da mesma série ganham acesso conjuntamente tendo ao menos 15 anos de idade, prevenindo conflitos e segregação nas salas de aula.",
+      "A regulamentação vai muito além da idade: ela altera profundamente a Lei de Dados Pessoais da Noruega (Personopplysningsloven), vedando de forma absoluta a criação de perfis comerciais e o direcionamento algorítmico para menores de 16 anos. Nem mesmo o consentimento dos pais permitirá que as plataformas manipulem o comportamento dos jovens com feeds de retenção forçada. As empresas deverão integrar identificação eletrônica confiável sob pena de pesadas multas alinhadas à Lei de Serviços Digitais (DSA) europeia.",
+      "O primeiro-ministro Jonas Gahr Støre pontuou com ênfase: 'Não podemos permitir que a mente das nossas crianças seja refém dos algoritmos predatórios das gigantes da tecnologia. A infância não pode ser roubada pelo consumo passivo de telas e pela dependência de curtidas virtuais. Esta legislação devolve aos pais o poder de dizer não.' A medida soma-se às diretrizes da Diretoria de Educação da Noruega (Utdanningsdirektoratet), que baniu celulares nas escolas de ensino fundamental e médio.",
+      "Especialistas em desenvolvimento juvenil ressaltam que, embora os limites estatais criem uma salvaguarda institucional indispensável, a gestão do tempo de tela em casa é determinante para a saúde mental. Para blindar os estudos, mitigar a compulsão por vídeos curtos e manter o foco cognitivo, soluções avançadas de bloqueio e disciplina como o Limitra App Block tornam-se ferramentas fundamentais para jovens e famílias."
+    ],
+    "source": "Gabinete do Primeiro-Ministro da Noruega & Ministério da Criança e Famílias",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Escolas e juventude",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Noruega",
+      "Jonas Gahr Støre",
+      "Idade Mínima Redes Sociais",
+      "16 Anos",
+      "Big Tech",
+      "Algoritmos",
+      "Disciplina Digital",
+      "Saúde Mental Juvenil"
+    ]
+  },
+  {
     "id": "26",
     "slug": "finlandia-reforma-educacional-proibicao-celulares-sala-de-aula-lei-educacao-basica",
     "title": "Reforma Histórica na Finlândia: Parlamento Proíbe Celulares nas Aulas para Recuperar o Sucesso no PISA",

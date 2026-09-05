@@ -1,5 +1,34 @@
 [
   {
+    "id": "27",
+    "slug": "norvec-sosyal-medya-yas-siniri-16-algoritmik-guce-karsi-yasa-tasarisi",
+    "title": "Norveç'ten Tarihi Adım: Sosyal Medya Yaş Sınırı 16'ya Çıkıyor, Algoritmaların Çocukluk Üzerindeki Egemenliğine Son Veriliyor",
+    "summary": "Norveç Başbakanı Jonas Gahr Støre hükümeti, çocukları büyük teknoloji şirketlerinin bağımlılık yaratan algoritmalarından korumak için sosyal medya kullanımında asgari yaş sınırını 16'ya çıkaran yasa tasarısını parlamentoya sundu. Teknoloji devlerine zorunlu yaş doğrulama getirilirken, Kişisel Veriler Yasası ile 16 yaş altındakilerin ticari profillenmesi yasaklandı.",
+    "content": [
+      "Norveç Başbakanı Jonas Gahr Støre liderliğindeki hükümet ve Çocuk ve Aile Bakanlığı (Barne- og familiedepartementet), çocukluk çağını teknoloji devlerinin bağımlılık mimarisinden kurtarmak amacıyla sosyal medya platformlarına erişimde asgari yaş sınırını 16'ya yükselten tarihi yasa tasarısını Norveç Parlamentosu'na (Stortinget) sundu. Düzenleme, algoritmik akışların gençlerin zihinsel gelişimi üzerindeki yıkıcı baskısına karşı Avrupa'da bugüne kadar atılmış en kararlı adımlardan biri olarak değerlendiriliyor.",
+      "Tasarının en dikkat çeken yönlerinden biri, okullarda ve sınıflarda akran dışlanmasını ve sosyal ayrışmayı önlemek için geliştirilen akıllı takvim mekanizması oldu. Yeni kurala göre yaş sınırı, gencin 16 yaşına girdiği takvim yılının 1 Ocak tarihine bağlanıyor. Böylece bir sınıf düzeyindeki tüm öğrenciler en az 15 yaşındayken sosyal medyaya aynı anda yasal erişim hakkı kazanıyor; doğum ayı farkından kaynaklanan akran baskısı ve sınıf içi eşitsizliklerin önüne geçiliyor.",
+      "Yasal düzenleme yalnızca yaş barajı getirmekle kalmıyor; Norveç Kişisel Veriler Yasası'nda (Personopplysningsloven) yapılan köklü değişiklikle, 16 yaş altındaki reşit olmayanların dijital ayak izlerinin ticari olarak profillenmesini ve algoritmik manipülasyona tabi tutulmasını kesin olarak yasaklıyor. Ebeveyn rızası bulunsa dahi teknoloji platformlarının çocuklara bağımlılık yapıcı kişiselleştirilmiş içerik ve hedefli reklam sunması engelleniyor. Şirketlere ise resmi banka kimliği veya güvenli elektronik kimlik doğrulama sistemleri entegre etme zorunluluğu getiriliyor; uymayan platformlara AB Dijital Hizmetler Yasası (DSA) çerçevesinde ağır mali yaptırımlar uygulanacak.",
+      "Başbakan Jonas Gahr Støre tasarıyı açıklarken yaptığı konuşmada, 'Çocuklarımızın zihinlerini teknoloji devlerinin kâr odaklı algoritmalarının insafına bırakamayız. Çocukluk dönemi; ekrana hapsolmak, sonsuz kaydırma girdaplarında kaybolmak ve sanal onay arayışlarıyla yıpranmak için değildir. Bu yasa ile anne babalara hayır diyebilme gücü veriyor ve teknoloji devlerine net bir sınır çiziyoruz' ifadelerini kullandı. Bu adım, Norveç Eğitim Müdürlüğü'nün (Utdanningsdirektoratet) ilk ve ortaokullarda cep telefonu ve akıllı saat kullanımını yasaklayan kararıyla birleşerek çocukları hem okulda hem sosyal yaşamda koruyan bütüncül bir kalkan oluşturuyor.",
+      "Çocuk sağlığı uzmanları ve pedagoglar, devletlerin koyduğu yasal sınırların hayati bir zemin hazırladığını, ancak okul ve ev hayatında gençlerin odaklanma ve derinleşme yetisini korumak için kişisel disiplinin şart olduğunu belirtiyor. Ekran başında geçen kontrolsüz saatlerin önüne geçmek, kısa video tuzaklarını etkisiz kılmak ve zihinsel berraklığı güvence altına almak için Limitra App Block benzeri akıllı uygulama engelleyiciler ve süre sınırlama araçları aileler ve gençler için vazgeçilmez bir dijital savunma aracı haline geliyor."
+    ],
+    "source": "Norveç Başbakanlığı & Çocuk ve Aile Bakanlığı",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Okullar & Gençlik",
+    "date": "2026-09-05",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Norveç",
+      "Jonas Gahr Støre",
+      "Sosyal Medya Yaş Sınırı",
+      "16 Yaş",
+      "Büyük Teknoloji",
+      "Algoritmalar",
+      "Dijital Disiplin",
+      "Çocuk Ruh Sağlığı"
+    ]
+  },
+  {
     "id": "26",
     "slug": "finlandiya-egitim-reformu-okullarda-telefon-yasagi-temel-egitim-yasasi",
     "title": "Finlandiya'dan Tarihi Eğitim Reformu: PISA Başarısını Yeniden Yakalamak İçin Okullarda Telefon Yasağı Yasalaştı",

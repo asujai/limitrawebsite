@@ -1,5 +1,34 @@
 [
   {
+    "id": "27",
+    "slug": "norway-social-media-minimum-age-16-protecting-children-algorithmic-power",
+    "title": "Historic Move in Norway: Government Sets Social Media Age Limit to 16 to Shield Childhood from Algorithmic Power",
+    "summary": "Norwegian Prime Minister Jonas Gahr Støre's government has introduced legislation raising the minimum age for social media use to 16, compelling tech giants to implement robust age verification and banning algorithmic data profiling for minors under the Personal Data Act.",
+    "content": [
+      "The Norwegian government, led by Prime Minister Jonas Gahr Støre and the Ministry of Children and Families (Barne- og familiedepartementet), has submitted landmark legislation to the Norwegian Parliament (Stortinget) establishing a strict minimum age of 16 for social media platforms. The initiative represents one of Europe's most assertive state interventions aimed at shielding adolescents from addictive algorithmic engagement models engineered by Big Tech.",
+      "A distinctive and widely praised feature of the bill is its cohort-based synchronization mechanism, designed specifically to prevent classroom alienation and peer pressure. Rather than tying access to an individual's exact birthday, the legal threshold takes effect on January 1st of the calendar year the adolescent turns 16. This structure ensures that entire class cohorts become eligible simultaneously while all students are at least 15 years old, eliminating social divides within secondary schools.",
+      "Beyond setting an age threshold, the legislation amends Norway's Personal Data Act (Personopplysningsloven) to strictly prohibit commercial profiling and algorithmic targeting of minors under 16. Even with parental consent, social media corporations are barred from processing youth behavioral data to serve personalized addictive feeds. Tech conglomerates must integrate verifiable electronic identification (such as BankID), facing severe financial penalties under national frameworks harmonized with the EU's Digital Services Act (DSA) for non-compliance.",
+      "Prime Minister Jonas Gahr Støre delivered a powerful rationale during the policy presentation: 'We cannot allow children's minds to be hijacked by profit-driven algorithms and big tech monopolies. Childhood must not be surrendered to endless scrolling feeds and fabricated validation loops. This law empowers parents to say no and sends an unmistakable signal to tech giants.' The measure reinforces the Norwegian Directorate for Education and Training's (Utdanningsdirektoratet) national guidance barring smartphones and smartwatches in elementary and lower secondary schools.",
+      "Child psychologists and digital wellbeing researchers emphasize that statutory guardrails create indispensable legal boundaries, but family and personal digital discipline remain paramount. To sustain focus, curb compulsive short-video binging, and foster deep cognitive clarity at home, intelligent app blockers and screen-time management tools like Limitra App Block offer an essential daily shield for students and families alike."
+    ],
+    "source": "Office of the Prime Minister of Norway & Ministry of Children and Families",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Schools & Youth",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Norway",
+      "Jonas Gahr Støre",
+      "Social Media Age Limit",
+      "Age 16",
+      "Big Tech",
+      "Algorithms",
+      "Digital Discipline",
+      "Youth Mental Health"
+    ]
+  },
+  {
     "id": "26",
     "slug": "finland-education-reform-school-phone-ban-basic-education-act",
     "title": "Historic Education Reform in Finland: Lawmakers Ban Classroom Smartphones to Restore PISA Excellence",

@@ -1,5 +1,34 @@
 [
   {
+    "id": "27",
+    "slug": "norvege-limite-age-reseaux-sociaux-16-ans-protection-pouvoir-algorithmes",
+    "title": "Mesure Historique en Norvège : L'Âge Minimal des Réseaux Sociaux Fixé à 16 Ans pour Protéger l'Enfance des Algorithmes",
+    "summary": "Le gouvernement du Premier ministre norvégien Jonas Gahr Støre a déposé un projet de loi fixant à 16 ans l'âge légal d'accès aux réseaux sociaux. La législation impose une vérification d'âge stricte aux géants de la tech et interdit le profilage algorithmique des mineurs.",
+    "content": [
+      "Le gouvernement norvégien, sous l'impulsion du Premier ministre Jonas Gahr Støre et du ministère de l'Enfance et des Familles (Barne- og familiedepartementet), a soumis au Parlement (Stortinget) un projet de loi historique établissant à 16 ans l'âge minimal pour utiliser les réseaux sociaux. Cette législation représente l'une des initiatives les plus résolues d'Europe pour préserver la jeunesse des mécanismes d'addiction conçus par les géants du numérique.",
+      "Le texte se distingue particulièrement par son mécanisme de cohorte scolaire, pensé pour conjurer la pression des pairs et le sentiment d'exclusion dans les classes. Le seuil légal sera indexé au 1er janvier de l'année au cours de laquelle l'adolescent fête ses 16 ans. Ainsi, l'ensemble des élèves d'une même promotion accèdent simultanément au droit d'inscription en ayant tous au moins 15 ans révolus, neutralisant les disparités au sein des collèges et lycées.",
+      "Au-delà de la limite d'âge, la réforme révise la loi norvégienne sur les données personnelles (Personopplysningsloven) en interdisant formellement le profilage commercial et le ciblage algorithmique des mineurs de moins de 16 ans. Même avec l'accord des parents, les plateformes ne pourront plus exploiter leurs données pour alimenter des flux addictifs personnalisés. Les entreprises du secteur seront contraintes d'adopter des systèmes d'identification électronique vérifiables sous peine de sanctions financières majeures.",
+      "Le Premier ministre Jonas Gahr Støre a affirmé avec fermeté : 'Nous ne pouvons pas abandonner l'esprit de nos enfants aux algorithmes des multinationales de la tech. L'enfance ne doit pas être confisquée par le défilement infini et la quête permanente de validation virtuelle. Cette loi donne aux parents la légitimité de dire non.' Cette mesure s'articule étroitement avec les directives de la Direction norvégienne de l'éducation (Utdanningsdirektoratet) interdisant smartphones et montres connectées dans les établissements scolaires.",
+      "Pédagogues et pédopsychiatres soulignent que si les barrières réglementaires posent un socle protecteur indispensable, la discipline numérique quotidienne au sein du foyer demeure cruciale. Pour préserver la concentration des élèves, endiguer l'addiction aux vidéos courtes et protéger le sommeil, les applications de blocage intelligent et de gestion du temps d'écran comme Limitra App Block constituent un rempart quotidien indispensable."
+    ],
+    "source": "Cabinet du Premier ministre de Norvège & Ministère de l'Enfance et des Familles",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Écoles et jeunesse",
+    "date": "2026-09-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Norvège",
+      "Jonas Gahr Støre",
+      "Limite d'Âge",
+      "Réseaux Sociaux",
+      "Big Tech",
+      "Algorithmes",
+      "Discipline Numérique",
+      "Santé Mentale des Jeunes"
+    ]
+  },
+  {
     "id": "26",
     "slug": "finlande-reforme-educative-interdiction-smartphones-cours-loi-education-de-base",
     "title": "Réforme Éducative Historique en Finlande : Le Parlement Interdit les Téléphones en Classe pour Renouer avec l'Excellence PISA",

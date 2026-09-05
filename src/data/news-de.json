@@ -1,5 +1,34 @@
 [
   {
+    "id": "27",
+    "slug": "norwegen-altersgrenze-soziale-medien-16-schutz-vor-algorithmen",
+    "title": "Historischer Schritt in Norwegen: Mindestalter für Soziale Medien auf 16 Jahre angehoben – Schutz vor Algorithmen-Macht",
+    "summary": "Die norwegische Regierung unter Ministerpräsident Jonas Gahr Støre hat ein bahnbrechendes Gesetz vorgelegt, das das Mindestalter für soziale Netzwerke auf 16 Jahre festlegt. Tech-Giganten werden zu echter Altersverifikation verpflichtet, während algorithmisches Profiling Minderjähriger verboten wird.",
+    "content": [
+      "Die norwegische Regierung unter Führung von Ministerpräsident Jonas Gahr Støre und dem Ministerium für Kinder und Familien (Barne- og familiedepartementet) hat dem norwegischen Parlament (Stortinget) einen wegweisenden Gesetzentwurf vorgelegt, der das Mindestalter für die Nutzung sozialer Medien verbindlich auf 16 Jahre anhebt. Die Regelung gilt als einer der entschlossensten Vorstöße in Europa, um junge Menschen vor den suchtfördernden Algorithmen der großen Tech-Konzerne zu schützen.",
+      "Ein zentrales und weithin gelobtes Merkmal des Gesetzentwurfs ist die klassenstufenbasierte Stichtagsregelung, die Gruppenzwang und soziale Ausgrenzung in Schulen verhindern soll. Das Mindestalter knüpft an den 1. Januar des Kalenderjahres an, in dem Jugendliche 16 Jahre alt werden. Dadurch erhält ein kompletter Schülerjahrgang gleichzeitig Zugang, sobald alle Mitglieder mindestens 15 Jahre alt sind, wodurch altersbedingte Spannungen im Klassenverband vermieden werden.",
+      "Die Reform beschränkt sich nicht auf Altersgrenzen: Durch eine umfassende Änderung des norwegischen Datenschutzgesetzes (Personopplysningsloven) wird kommerzielles Profiling und algorithmische Verhaltensanalyse bei unter 16-Jährigen ausnahmslos verboten. Selbst mit elterlicher Zustimmung dürfen Tech-Plattformen keine personalisierten Endlos-Feeds an Jugendliche ausspielen. Plattformbetreiber werden verpflichtet, sichere elektronische Altersnachweise zu integrieren; Zuwiderhandlungen werden unter Bezugnahme auf den Digital Services Act (DSA) streng geahndet.",
+      "Ministerpräsident Jonas Gahr Støre betonte bei der Vorstellung: 'Wir dürfen die Gedanken unserer Kinder nicht den profitorientierten Algorithmen der Tech-Riesen überlassen. Die Kindheit darf nicht an endlose Scroll-Schleifen und virtuelle Bestätigungssucht verloren gehen. Dieses Gesetz gibt Eltern den nötigen Rückhalt, Nein zu sagen.' Der Schritt ergänzt die Empfehlungen der norwegischen Bildungsdirektion (Utdanningsdirektoratet), die Smartphones und Smartwatches an Grund- und Sekundarschulen untersagt.",
+      "Entwicklungspsychologen und Bildungsexperten weisen darauf hin, dass gesetzliche Schutzmauern zwar ein unverzichtbares Fundament schaffen, die nachhaltige Medienkompetenz und Konzentrationsfähigkeit jedoch im familiären Alltag verankert werden müssen. Um Jugendliche vor Kurzvideo-Fallen zu schützen und mentale Klarheit zu bewahren, bieten intelligente App-Blocker und Bildschirmzeit-Manager wie Limitra App Block einen verlässlichen Schutzschild."
+    ],
+    "source": "Norwegisches Ministerpräsidentenamt & Ministerium für Kinder und Familien",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Schule & Jugend",
+    "date": "2026-09-05",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "Norwegen",
+      "Jonas Gahr Støre",
+      "Mindestalter Soziale Medien",
+      "16 Jahre",
+      "Big Tech",
+      "Algorithmen",
+      "Digitale Disziplin",
+      "Jugendgesundheit"
+    ]
+  },
+  {
     "id": "26",
     "slug": "finnland-bildungsreform-handyverbot-im-unterricht-grundbildungsgesetz",
     "title": "Historische Bildungsreform in Finnland: Gesetzliches Handyverbot im Unterricht zur Wiedererlangung der PISA-Spitze",
