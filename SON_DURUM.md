@@ -12,12 +12,12 @@
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
 - Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **29 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: İrlanda'dan Dünyaya Örnek Model: 'Telefonsuz Çocukluk' Politikası ve Okullarda Zil Başı-Sonu Telefon Yasağı, ID: 29).
-- `npm run build` ile 388 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **30 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: İngiltere'de Telekom Devi EE'den Tarihi Kılavuz: '11 Yaş Altına Akıllı Telefon Vermeyin' Tavsiyesi ve Okullarda Tam Gün Telefon Yasağı, ID: 30).
+- `npm run build` ile 399 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** İrlanda Eğitim Bakanı Norma Foley ve hükümet öncülüğünde, Greystones kasabasındaki veli uzlaşmasından ilham alarak ülke genelindeki tüm ilk ve ortaöğretim okullarında zil başından zil sonuna kadar (bell-to-bell) akıllı telefonların kullanımını yasaklayan 'Telefonsuz Çocukluk' (Smartphone-Free Childhood) politikası ve güvenli kilitli kılıf/dolap bütçesi tahsisi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 29 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 388 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı ve VPS yayınına gönderildi.
+- **İşlem:** Birleşik Krallık'ın en büyük mobil operatörü EE'nin (BT Group) çocukların zihinsel sağlığı için ailelere 11 yaş altına akıllı telefon verilmemesini, sadece tuşlu temel cihazlar kullanılmasını tavsiye eden tarihi kılavuzu ile İngiltere Eğitim Bakanlığı'nın (DfE) okullarda tam gün telefon yasağı ve Smartphone Free Childhood veli hareketi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 30 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 399 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı ve VPS yayınına gönderildi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi

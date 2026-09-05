@@ -1,5 +1,28 @@
 # İşlem Geçmişi
 
+## [2026-09-05 23:05] - İngiltere Telekom Devi EE'nin 11 Yaş Altına Akıllı Telefon Kılavuzu ve Okullarda Telefon Yasağı Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 30)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının haberler ve makaleler bölümünü günlük olarak güncelleme talebi doğrultusunda; Birleşik Krallık'ın en büyük mobil telekom operatörü EE (BT Group) tarafından çocukların zihinsel sağlığını korumak amacıyla ailelere yönelik yayınlanan çığır açıcı kılavuz kapsamında 11 yaşın altındakilere akıllı telefon verilmemesi, yalnızca sesli arama ve SMS özellikli tuşlu temel cihazlar (feature phones) kullanılması, 11-13 yaş arası için katı ebeveyn denetimleri ve sosyal medya yasağı getirilmesi, İngiltere Eğitim Bakanlığı'nın (DfE) tüm ilk ve orta dereceli okullarda ders başlangıcından okul çıkışına kadar tam gün telefon yasağı direktifi ve İngiltere'de 150 bini aşkın veliyi birleştiren 'Smartphone Free Childhood' sivil inisiyatifi 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) özgün, doğrulanmış ve kapsamlı biçimde kaleme alınarak ortak ID "30" ile haber veri tabanına eklendi. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi.
+* **Doğrulama:** `npm run build` ile 399 statik sayfa (11 dilde yeni haber sayfaları dahil) 0 hata ile derlendi. `npm run check:links` çalıştırılarak tüm iç bağlantıların eksiksiz ve geçerli olduğu doğrulandı ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-05 22:05] - İrlanda Telefonsuz Çocukluk Politikası ve Okullarda Telefon Yasağı Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity
