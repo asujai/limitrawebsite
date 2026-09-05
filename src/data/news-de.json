@@ -1,5 +1,34 @@
 [
   {
+    "id": "26",
+    "slug": "finnland-bildungsreform-handyverbot-im-unterricht-grundbildungsgesetz",
+    "title": "Historische Bildungsreform in Finnland: Gesetzliches Handyverbot im Unterricht zur Wiedererlangung der PISA-Spitze",
+    "summary": "Finnland, weltweites Vorbild im Bildungswesen, hat unter Ministerpräsident Petteri Orpo das Grundbildungsgesetz verschärft, um den Leistungsrückgang in PISA-Studien zu stoppen. Die Nutzung von Smartphones im Unterricht ist nun verboten, und Lehrkräfte erhalten ein ausdrückliches gesetzliches Einzugsrecht.",
+    "content": [
+      "Finnland, das über viele Jahre hinweg als weltweites Bildungsleitbild gefeiert wurde, zieht die Konsequenzen aus dem schleichenden Leistungsabfall bei PISA-Erhebungen in den Fächern Lesen und Mathematik. Auf Initiative der Regierung von Ministerpräsident Petteri Orpo und des finnischen Ministeriums für Bildung und Kultur hat das Parlament eine wegweisende Novelle des Grundbildungsgesetzes (Perusopetuslaki) verabschiedet, um digitale Reizüberflutung aus den Klassenzimmern zu verbannen.",
+      "Die Reform untersagt im gesamten Primar- und Sekundarbereich I (Altersgruppe 7 bis 16 Jahre) grundsätzlich die Nutzung von Mobiltelefonen und vernetzten Geräten während der Unterrichtsstunden. Ausnahmen sind ausschließlich für ausdrücklich vom Lehrpersonal angeordnete pädagogische Aufgaben oder bei nachgewiesener gesundheitlicher Notwendigkeit, etwa zur Blutzuckerkontrolle, gestattet.",
+      "Ein entscheidender Fortschritt besteht in der Beseitigung juristischer Grauzonen für das Lehrpersonal: Lehrer und Schulleitungen erhalten nun die eindeutige gesetzliche Befugnis, Geräte einzuziehen und sicher zu verwahren, falls diese den Unterrichtsablauf oder die Konzentration stören. Zudem sind alle Schulen verpflichtet, verbindliche Regeln für die Aufbewahrung der Telefone während des gesamten Schultags, einschließlich Pausen, festzulegen.",
+      "Ministerpräsident Petteri Orpo betonte: 'Wir müssen unseren Kindern wieder die nötige Ruhe geben, um ungestört zu lernen, nachzudenken und echte Freundschaften aufzubauen, anstatt sich von ständigen Vibrationen und Algorithmen vereinnahmen zu lassen. Wer Finnlands Bildungsstärke sichern will, muss Klassenzimmer zu schirmfreien Räumen machen.' Bildungsforscher untermauerten, dass ständige Benachrichtigungen die kognitive Tiefenverarbeitung massiv beeinträchtigen.",
+      "Fachleute für Kindergesundheit heben hervor, dass das schulische Verbot zwar tagsüber für Konzentration sorgt, Jugendliche jedoch nach Schulschluss ungeschützt den Dopaminschleifen sozialer Medien ausgesetzt sind. Um die gewonnene Lernfokussierung und einen gesunden Schlafrhythmus daheim zu sichern, empfehlen Experten den gezielten Einsatz strukturierender App-Blocker wie Limitra App Block."
+    ],
+    "source": "Finnisches Ministerium für Bildung und Kultur",
+    "sourceUrl": "https://okm.fi",
+    "category": "Schulen & Jugend",
+    "date": "2026-09-05",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "Finnland",
+      "Petteri Orpo",
+      "Handyverbot Schule",
+      "PISA-Studie",
+      "Bildungsreform",
+      "Grundbildungsgesetz",
+      "Digitale Disziplin",
+      "Konzentration"
+    ]
+  },
+  {
     "id": "25",
     "slug": "griechenland-handyverbot-schulen-handy-in-die-tasche-strenge-sanktionen",
     "title": "Historischer Schritt in Griechenland: Regel 'Handy in die Tasche' gilt landesweit mit Suspendierungen und Schulverweisen",
