@@ -17,7 +17,7 @@
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Belçika Valonya-Brüksel Federasyonu (FWB) tarafından yürürlüğe konulan kararname ile anaokulundan liseye tüm okullarda akıllı telefon, akıllı saat ve taşınabilir bağlantılı cihazların eğlence amaçlı kullanımının tam gün yasaklanması ve Flandre ile Almanca Konuşan Topluluktaki uygulamalarla birleşen ulusal mutabakat 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 32 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 421 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı ve VPS yayınına gönderildi.
+- **İşlem:** Belçika Valonya-Brüksel Federasyonu (FWB) tarafından yürürlüğe konulan kararname ile anaokulundan liseye tüm okullarda akıllı telefon, akıllı saat ve taşınabilir bağlantılı cihazların eğlence amaçlı kullanımının tam gün yasaklanması ve Flandre ile Almanca Konuşan Topluluktaki uygulamalarla birleşen ulusal mutabakat 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 32 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 421 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı, git commit (`[antigravity] feat:...`) oluşturulup GitHub `origin/main`e push edildi. Cenuta VPS (`89.252.153.119`) SSH banner exchange zaman aşımı verdiğinden panelden VPS yeniden başlatması sonrası `npm run deploy:vps` ile canlı aktarım tamamlanabilir.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
