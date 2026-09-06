@@ -1,5 +1,29 @@
 # İşlem Geçmişi
 
+## [2026-09-06 07:05] - Kanada Okullarda Telefon Yasağı ve Sosyal Medya Devlerine 4,5 Milyar Dolarlık Tarihi Dava Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 31)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-09-06 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının haberler ve makaleler bölümünü günlük olarak güncelleme talebi doğrultusunda; Kanada'nın en kalabalık eyaletleri Ontario ve Alberta'da devlet okullarında cep telefonlarının ve kişisel mobil cihazların ders saatlerinde kullanımını yasaklayan, okul Wi-Fi ağlarında sosyal medyayı engelleyen yeni eyalet yönergeleri ve Toronto Bölge Okul Yönetimi (TDSB) öncülüğünde 4 büyük eğitim bölgesinin Meta, ByteDance (TikTok) ve Snap Inc.'e karşı çocukların zihinsel sağlığı ile dikkat mekanizmalarını bozan bağımlılık yapıcı algoritmaları nedeniyle açtığı 4,5 milyar Kanada dolarlık tarihi tazminat davası 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) özgün, doğrulanmış ve kapsamlı biçimde kaleme alınarak ortak ID "31" ile haber veri tabanına eklendi. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi.
+* **Doğrulama:** `npm run build` ile 410 statik sayfa (11 dilde yeni haber sayfaları dahil) 0 hata ile derlendi. `npm run check:links` çalıştırılarak tüm iç bağlantıların eksiksiz ve geçerli olduğu doğrulandı ("OK - kirik ic baglanti yok"). `git push origin main` ile kaynak kod GitHub'a gönderildi. `npm run deploy:vps` ile Cenuta VPS'e (`89.252.153.119`) atomik dağıtım yapıldı (sürüm `20260906-070441`, Nginx reload başarılı). Canlı URL'ler (`https://limitra.online/haberler/kanada-okullarda-telefon-yasagi-ve-sosyal-medya-devlerine-tarihi-dava/` ve `/en/news/...`) HTTP 200 ile doğrulandı.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-05 23:05] - İngiltere Telekom Devi EE'nin 11 Yaş Altına Akıllı Telefon Kılavuzu ve Okullarda Telefon Yasağı Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity

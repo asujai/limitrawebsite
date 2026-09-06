@@ -7,17 +7,17 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-09-05)
+## Güncel Durum (2026-09-06)
 - Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir. Netlify artık canlı yayın bağımlılığı değildir; yalnızca geri dönüş kopyası olarak korunmaktadır.
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
 - Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **30 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: İngiltere'de Telekom Devi EE'den Tarihi Kılavuz: '11 Yaş Altına Akıllı Telefon Vermeyin' Tavsiyesi ve Okullarda Tam Gün Telefon Yasağı, ID: 30).
-- `npm run build` ile 399 statik sayfa 0 hata ile derlendi.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **31 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Kanada'da Tarihi Eğitim Seferberliği: Okullarda Telefon Yasağı Yürürlüğe Girdi, Okul Yönetimlerinden Sosyal Medya Devlerine 4,5 Milyar Dolarlık Bağımlılık Davası, ID: 31).
+- `npm run build` ile 410 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Birleşik Krallık'ın en büyük mobil operatörü EE'nin (BT Group) çocukların zihinsel sağlığı için ailelere 11 yaş altına akıllı telefon verilmemesini, sadece tuşlu temel cihazlar kullanılmasını tavsiye eden tarihi kılavuzu ile İngiltere Eğitim Bakanlığı'nın (DfE) okullarda tam gün telefon yasağı ve Smartphone Free Childhood veli hareketi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 30 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 399 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı ve VPS yayınına gönderildi.
+- **İşlem:** Kanada'nın en kalabalık eyaletleri Ontario ve Alberta'da okullarda cep telefonu yasağı ve sosyal medya engeli getiren eyalet yönergeleri ile Toronto Bölge Okul Yönetimi (TDSB) öncülüğünde 4 büyük eğitim bölgesinin Meta, TikTok ve Snapchat'e karşı çocukların zihinsel sağlığını bozan bağımlılık tasarımları nedeniyle açtığı 4,5 milyar Kanada dolarlık tarihi dava 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 31 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 410 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı ve VPS yayınına gönderildi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -27,10 +27,10 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 399 sayfa, 0 hata.
+- `npm run build` → 410 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu (30 makale, 11 dil).
-- Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları (yeni eklenen ID 30 dahil), sitemap ve robots dosyası VPS IP'sinden (`89.252.153.119`) 200 döndü (sürüm `20260905-230453`).
+- Sitemap ↔ üretilen sayfalar tam uyumlu (31 makale, 11 dil).
+- Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları (yeni eklenen ID 31 dahil: `/haberler/kanada-okullarda-telefon-yasagi-ve-sosyal-medya-devlerine-tarihi-dava/` ve `/en/news/...`), sitemap ve robots dosyası VPS IP'sinden (`89.252.153.119`) 200 döndü (sürüm `20260906-070441`).
 - Canlı `/logo.png` → 200 ve 250.139 bayt; ana sayfada `/logo.png` 6 kez, `/logo.jpg` 0 kez kullanılıyor.
 - HTTP → HTTPS ve `www` → apex yönlendirmeleri 301 ile doğrulandı.
 - TLS sertifikası Let's Encrypt tarafından verildi; CN `limitra.online`, son geçerlilik 28 Kasım 2026.
