@@ -1,5 +1,34 @@
 [
   {
+    "id": "31",
+    "slug": "kanada-okullarda-telefon-yasagi-ve-sosyal-medya-devlerine-tarihi-dava",
+    "title": "Kanada'da Tarihi Eğitim Seferberliği: Okullarda Telefon Yasağı Yürürlüğe Girdi, Okul Yönetimlerinden Sosyal Medya Devlerine 4,5 Milyar Dolarlık Bağımlılık Davası",
+    "summary": "Kanada'nın en büyük eyaletleri Ontario ve Alberta'da sınıflarda cep telefonu ve okul ağlarında sosyal medya erişimi resmen yasaklandı. Eş zamanlı olarak Toronto ve çevresindeki büyük okul bölgeleri, çocukların zihinsel sağlığını bozan ve eğitimi sekteye uğratan bağımlılık tasarımları nedeniyle Meta, TikTok ve Snapchat'e 4,5 milyar dolarlık devasa bir tazminat davası açtı.",
+    "content": [
+      "Kanada'nın en kalabalık ve ekonomik açıdan öncü eyaletleri olan Ontario ve Alberta, sınıfları dijital dikkat dağınıklığından temizlemek ve gençlerin bozulan zihinsel dengesini yeniden inşa etmek amacıyla Kuzey Amerika'nın en katı eğitim yönergelerini resmen yürürlüğe koydu. Yeni eğitim-öğretim yılıyla birlikte uygulamaya giren eyalet düzenlemeleri uyarınca, devlet okullarında cep telefonlarının ve kişisel mobil cihazların ders saatlerinde kullanımı kesin olarak sınırlandırıldı. Eş zamanlı olarak okul Wi-Fi ağlarından sosyal medya platformlarına erişim tamamen engellenerek öğrencilerin ders saatlerinde çevrim içi akışlara kapılması önlendi.",
+      "Ontario Eğitim Bakanlığı tarafından yayımlanan yönerge, öğrencilerin yaş gruplarına göre iki aşamalı katı bir kural seti getiriyor. Anaokulundan 6. sınıfa kadar olan ilköğretim kademesinde öğrencilerin kişisel telefonları okul günü boyunca sessize alınarak çantalarda veya kilitli dolaplarda saklanmak zorunda. 7 ila 12. sınıflar arasındaki ortaokul ve lise kademesinde ise telefonlar ders esnasında kesinlikle kullanılamıyor; cihazlara yalnızca öğretmenin açık pedagojik izni veya sağlık amaçlı özel onay bulunduğu istisnai durumlarda izin veriliyor. Kuralı ihlal eden öğrencilerin cihazları toplanırken, kurallara uymamakta ısrar edenlere okuldan uzaklaştırmaya varan disiplin cezaları öngörülüyor.",
+      "Bu geniş çaplı yasal kısıtlamanın hemen ardından, Kanada eğitim tarihinin en büyük sivil itaatsizlik ve hak arama mücadelesi mahkemelere taşındı. Toronto Bölge Okul Yönetimi (TDSB), Peel Bölge Okul Yönetimi, Toronto Katolik Okul Yönetimi ve Ottawa-Carleton Okul Yönetimi bir araya gelerek 'Dijital Refah İçin Okullar' (Schools for Digital Well-Being) koalisyonunu kurdu ve teknoloji devleri Meta (Instagram/Facebook), ByteDance (TikTok) ve Snap Inc.'e (Snapchat) karşı toplam 4,5 milyar Kanada dolarını aşan tarihi bir tazminat davası açtı. Okul yönetimleri, algoritmik platformların çocukların nörolojik zaaflarını kasten sömürdüğünü ve okulları derin bir dikkat krizine sürüklediğini açıkladı.",
+      "Dava dilekçesinde, sosyal medya şirketlerinin sonsuz kaydırma (infinite scroll), bildirim bombardımanı, beğeni algoritmaları ve otomatik video oynatma mekanizmalarıyla gençlerin beyninde kompulsif kullanım döngüleri yarattığı belgelerle ortaya kondu. Eğitimciler ve çocuk psikologları; okullarda artan siber zorbalık, dikkat eksikliği, kronik uyku yetersizliği, depresyon ve sınıf içi agresif davranışlarla baş edebilmek için okul bütçelerinden milyonlarca dolar harcanmak zorunda kalındığını vurguladı. Eyalet başbakanları ve eğitim uzmanları, özel sektörün kâr hırsı uğruna kamu eğitim sistemini felce uğratmasına daha fazla seyirci kalınamayacağını ilan etti.",
+      "Eğitim otoriteleri ve dijital sağlık savunucuları, okul sınırları içinde devreye giren yasakların ve açılan dev davaların farkındalık açısından muazzam bir eşik olduğunu, ancak asıl mücadelenin evde başladığını hatırlatıyor. Okul zilinden sonra gençlerin odalarında saatlerce sanal tuzaklara hapsolmasını önlemek, ders çalışma ve uyku saatlerini korumak için bilinçli bir teknoloji yönetimi şart. Evde dijital disiplini kalıcı kılmak isteyen aileler ve bireyler için Limitra App Block benzeri güçlü uygulama engelleyiciler ve süre sınırlandırma sistemleri, modern çağda odaklanmayı koruyan en güvenilir dijital zırh olmaya devam ediyor."
+    ],
+    "source": "Ontario Eğitim Bakanlığı & TDSB (Schools for Digital Well-Being)",
+    "sourceUrl": "https://www.ontario.ca/page/cellphones-and-other-personal-mobile-devices-school",
+    "category": "Okullar & Gençlik",
+    "date": "2026-09-06",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Kanada",
+      "Ontario",
+      "TDSB",
+      "Okullarda Telefon Yasağı",
+      "Sosyal Medya Bağımlılığı",
+      "Meta",
+      "TikTok",
+      "Dijital Disiplin"
+    ]
+  },
+  {
     "id": "30",
     "slug": "ingiltere-telekom-devi-ee-11-yas-altina-akilli-telefon-vermeyin-okullarda-telefon-yasagi",
     "title": "İngiltere'de Telekom Devi EE'den Tarihi Kılavuz: '11 Yaş Altına Akıllı Telefon Vermeyin' Tavsiyesi ve Okullarda Tam Gün Telefon Yasağı",

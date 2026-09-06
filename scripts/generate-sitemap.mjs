@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const base = 'https://limitra.online';
-const today = '2026-09-05';
+const today = '2026-09-06';
 
 const dataDir = path.resolve('src/data');
 
