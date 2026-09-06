@@ -1,5 +1,34 @@
 [
   {
+    "id": "32",
+    "slug": "belgique-decret-interdiction-smartphones-appareils-connectes-ecoles",
+    "title": "La Belgique adopte un décret historique : smartphones et objets connectés totalement interdits dans les écoles de la maternelle au secondaire",
+    "summary": "Par un décret historique adopté par le Gouvernement de la Fédération Wallonie-Bruxelles, l'utilisation récréative des smartphones, montres connectées et appareils électroniques est strictement interdite sur l'ensemble de la journée scolaire dans toutes les écoles maternelles, primaires et secondaires. Une mesure majeure complétée par les restrictions en Flandre pour restaurer la concentration et lutter contre le cyberharcèlement.",
+    "content": [
+      "Face aux ravages de la distraction numérique, à la baisse de l'attention en classe et à la prolifération du cyberharcèlement, les autorités éducatives belges viennent de franchir une étape décisive en instaurant l'une des politiques les plus strictes d'Europe. Porté par le Gouvernement de la Fédération Wallonie-Bruxelles (FWB), un décret historique interdit désormais formellement l'utilisation récréative des smartphones, montres connectées et appareils électroniques portables dans l'ensemble des établissements d'enseignement maternel, primaire et secondaire de la communauté francophone.",
+      "Cette nouvelle législation pérennise et généralise l'initiative pilote engagée avec succès au sein des 373 établissements du réseau Wallonie-Bruxelles Enseignement (WBE). Dès leur entrée dans l'enceinte scolaire, les élèves doivent éteindre ou mettre sous silence leurs appareils, rangés dans leurs cartables ou casiers dédiés. L'interdiction s'applique à l'ensemble de la journée scolaire, y compris durant les récréations, le temps de midi et les études surveillées. Seules des dérogations exceptionnelles sont autorisées : pour des activités pédagogiques expressément encadrées par un enseignant ou pour des impératifs médicaux avérés (dispositifs de contrôle glycémique, etc.).",
+      "En région flamande, bien que l'organisation scolaire repose historiquement sur l'autonomie des pouvoirs organisateurs, un consensus quasi unanime s'est imposé sur le terrain. Les écoles fondamentales en Flandre appliquent déjà une interdiction totale, tandis que les deux premières années du secondaire bannissent les téléphones tant en classe que dans la cour de récréation. La Communauté germanophone ayant également aligné ses règles, l'ensemble de la Belgique forme désormais un front uni pour préserver la jeunesse des mécanismes addictifs des écrans.",
+      "Les ministères de l'Éducation et les spécialistes du développement de l'enfant soulignent les bénéfices immédiats mesurés lors des phases pilotes. L'absence d'écrans dans les cours de récréation ravive les échanges spontanés, l'activité physique et la socialisation réelle, tout en enrayant drastiquement les violences numériques et la diffusion d'images à l'insu des élèves ou professeurs. En classe, les enseignants constatent un regain net de concentration et d'écoute active, rappelant que l'école doit rester un havre d'apprentissage et de pensée critique.",
+      "Les experts en bien-être numérique soulignent toutefois que l'interdiction scolaire ne résout pas à elle seule les dérives nocturnes et les tentations du soir à la maison. Lorsque les devoirs et le sommeil sont menacés par les flux infinis des réseaux sociaux, une discipline numérique rigoureuse au sein du foyer s'avère indispensable. C'est dans ce cadre que des outils de blocage d'applications performants tels que Limitra App Block s'imposent comme des alliés précieux pour les familles, instaurant des plages horaires saines et protégeant durablement la concentration des adolescents."
+    ],
+    "source": "Gouvernement de la Fédération Wallonie-Bruxelles (FWB) & WBE",
+    "sourceUrl": "https://www.federation-wallonie-bruxelles.be",
+    "category": "Écoles et jeunesse",
+    "date": "2026-09-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Belgique",
+      "Wallonie",
+      "Bruxelles",
+      "Interdiction Téléphones",
+      "Montre Connectée",
+      "Addiction aux Écrans",
+      "Cyberharcèlement",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "31",
     "slug": "canada-interdiction-telephones-ecoles-et-proces-historique-geants-reseaux-sociaux",
     "title": "Mobilisation historique au Canada : L'interdiction des téléphones à l'école entre en vigueur et les commissions scolaires réclament 4,5 milliards de dollars aux géants de la tech",

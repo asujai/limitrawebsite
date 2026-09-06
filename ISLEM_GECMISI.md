@@ -1,5 +1,28 @@
 # İşlem Geçmişi
 
+## [2026-09-06 09:18] - Belçika Okullarda Akıllı Telefon ve Bağlantılı Cihaz Yasağı Kararnamesi Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 32)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının haberler ve makaleler bölümünü günlük olarak güncelleme talebi doğrultusunda; Belçika'da Valonya-Brüksel Federasyonu (FWB) Hükümeti tarafından onaylanan ve anaokulundan liseye kadar tüm devlet ve sübvansiyonlu okullarda akıllı telefon, akıllı saat ve internete bağlı taşınabilir cihazların eğlence amaçlı kullanımını ders saatleri, koridorlar ve teneffüsler dahil tam gün yasaklayan tarihi kararname ile Flandre ve Almanca Konuşan Toplulukta uygulanan kısıtlamalar 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) özgün, doğrulanmış ve kapsamlı biçimde kaleme alınarak ortak ID "32" ile haber veri tabanına eklendi. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi.
+* **Doğrulama:** `npm run build` ile 421 statik sayfa (11 dilde yeni haber sayfaları dahil) 0 hata ile derlendi. `npm run check:links` çalıştırılarak tüm iç bağlantıların eksiksiz ve geçerli olduğu doğrulandı ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-06 07:05] - Kanada Okullarda Telefon Yasağı ve Sosyal Medya Devlerine 4,5 Milyar Dolarlık Tarihi Dava Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity
