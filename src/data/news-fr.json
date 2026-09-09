@@ -1,5 +1,33 @@
 [
   {
+    "id": "33",
+    "slug": "rapport-oms-europe-hausse-inquietante-usage-problematique-reseaux-sociaux-jeux-video-adolescents",
+    "title": "Rapport historique de l'OMS : L'usage problématique des réseaux sociaux grimpe à 11 % chez les ados, appel urgent à bannir les smartphones à l'école",
+    "summary": "Une vaste enquête de l'OMS Europe et du réseau HBSC menée auprès de 280 000 adolescents dans 44 pays révèle que l'usage problématique des réseaux sociaux a bondi à 11 % et que 12 % des jeunes risquent une dépendance aux jeux vidéo. Alors que 13 % des filles présentent des symptômes d'addiction et que 36 % des ados sont en contact continu en ligne, l'OMS exhorte les États à bannir le téléphone à l'école et à instaurer des plafonds stricts de temps d'écran.",
+    "content": [
+      "Le Bureau régional de l'OMS pour l'Europe, en partenariat avec le réseau international de recherche Health Behaviour in School-aged Children (HBSC), a publié un rapport de santé publique retentissant analysant les comportements numériques de près de 280 000 adolescents de 11, 13 et 15 ans répartis dans 44 pays d'Europe, d'Asie centrale et au Canada. Intitulée 'A focus on adolescent social media use and gaming in Europe, central Asia and Canada', cette étude majeure apporte la preuve chiffrée que la surexposition aux écrans est devenue une crise sanitaire urgente. D'après les conclusions, la proportion d'adolescents développant un 'usage problématique des réseaux sociaux'—caractérisé par une perte de contrôle semblable à une addiction et des symptômes de manque—est passée de 7 % en 2018 à 11 %.",
+      "L'enquête met en lumière de profondes disparités de genre et une hyperconnexion permanente. Les adolescentes sont les plus touchées par l'usage problématique des réseaux sociaux, atteignant 13 % contre 9 % chez les garçons. Fait particulièrement marquant, 44 % des filles de 15 ans déclarent être en contact numérique quasi ininterrompu avec leurs pairs tout au long de la journée, et 36 % de l'ensemble des ados rapportent une connexion continue. Chez les garçons, la dépendance se manifeste surtout à travers les jeux vidéo : 34 % d'entre eux jouent quotidiennement, 22 % des joueurs y consacrent au moins quatre heures par session et 16 % présentent un risque clinique de jeu compulsif (contre 7 % chez les filles).",
+      "Les données de l'OMS établissent une corrélation directe entre cet usage problématique et la dégradation de la santé physique et psychologique des jeunes. Les adolescents captifs des écrans affichent une satisfaction de vie nettement plus basse, des troubles chroniques du sommeil, une somnolence en classe, une baisse alarmante de l'attention et une exposition accrue au cyberharcèlement et aux symptômes dépressifs. Le Dr Hans Henri P. Kluge, directeur régional de l'OMS pour l'Europe, a déclaré : 'Nous ne pouvons pas laisser nos enfants sans défense face à des algorithmes prédateurs qui détériorent leur bien-être mental. Une action de santé publique vigoureuse est indispensable pour aider les adolescents à retrouver des habitudes numériques saines.'",
+      "Face à ces constats alarmants, l'OMS formule des recommandations fermes aux gouvernements et aux ministères de l'Éducation. L'agence onusienne préconise l'instauration de règles claires interdisant ou restreignant drastiquement l'usage des smartphones dans les établissements scolaires, afin de préserver des sanctuaires d'apprentissage sereins et d'encourager la sociabilité réelle. Elle recommande en outre d'établir des repères sanitaires nationaux limitant le temps d'écran quotidien conformément aux recommandations sur la sédentarité, de renforcer l'éducation numérique dès le primaire et de soumettre les géants de la tech à des règles contraignantes contre les mécaniques de scroll infini et de rétention addictive.",
+      "Pédagogues et spécialistes du bien-être numérique rappellent toutefois que si les interdictions scolaires sont un rempart indispensable, l'épreuve décisive se joue à la maison lors des soirées. L'usage dérégulé des smartphones au lit anéantit le repos nocturne et la concentration requise pour les devoirs. Dans ce contexte, les outils de maîtrise numérique comme Limitra App Block offrent une solution concrète et efficace aux familles, permettant de bloquer les applications distrayantes et de couper les notifications intrusives afin de restaurer le sommeil et la discipline d'apprentissage."
+    ],
+    "source": "Organisation mondiale de la santé (OMS/Europe) & HBSC",
+    "sourceUrl": "https://www.who.int/europe",
+    "category": "Science et santé",
+    "date": "2026-09-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "OMS",
+      "Santé mentale des adolescents",
+      "Addiction aux réseaux sociaux",
+      "Temps d'écran",
+      "Interdiction du smartphone à l'école",
+      "Jeux vidéo",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "32",
     "slug": "belgique-decret-interdiction-smartphones-appareils-connectes-ecoles",
     "title": "La Belgique adopte un décret historique : smartphones et objets connectés totalement interdits dans les écoles de la maternelle au secondaire",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "33",
+    "slug": "relatorio-oms-europa-aumento-alarmante-uso-problematico-redes-sociais-jogos-adolescentes",
+    "title": "Relatório Histórico da OMS: Uso Problemático de Redes Sociais Entre Adolescentes Sobe para 11%, Apelo Urgente por Proibição de Telemóveis nas Escolas",
+    "summary": "Um amplo estudo da OMS Europa e da rede HBSC com 280 mil jovens em 44 países revela que o uso problemático de redes sociais disparou para 11% e o risco de dependência de videojogos atingiu 12%. Com 13% das raparigas a apresentar sintomas aditivos e 36% dos adolescentes em contacto online constante, a OMS insta os governos a proibir os smartphones nas escolas e a estabelecer limites rigorosos de tempo de ecrã.",
+    "content": [
+      "O Escritório Regional da OMS para a Europa, em parceria com a rede internacional de investigação Health Behaviour in School-aged Children (HBSC), divulgou um histórico relatório de saúde pública que examina os padrões digitais de quase 280 mil adolescentes de 11, 13 e 15 anos em 44 países da Europa, Ásia Central e Canadá. Intitulado 'A focus on adolescent social media use and gaming in Europe, central Asia and Canada', o abrangente estudo apresenta provas empíricas contundentes de que o relacionamento dos jovens com os ecrãs se transformou numa crise sanitária prioritária. Os dados revelam que a percentagem de jovens com 'uso problemático de redes sociais'—caracterizado por dependência, perda de autocontrolo e abandono da vida real—saltou de 7% em 2018 para expressivos 11%.",
+      "A investigação evidencia acentuadas assimetrias de género e uma rotina de hiperconexão ininterrupta. As raparigas são especialmente vulneráveis ao uso problemático de redes sociais, registando uma taxa de 13% em comparação com 9% entre os rapazes. De forma impressionante, 44% das jovens de 15 anos declararam estar em contacto digital contínuo com amigos ao longo de todo o dia, enquanto 36% de todos os adolescentes admitiram conexão sem pausas. Entre os rapazes, a compulsão manifesta-se predominantemente nos videojogos: 34% jogam diariamente, 22% dos jogadores dedicam quatro ou mais horas nos dias em que jogam e 16% dos rapazes apresentam risco clínico de dependência de jogos (contra 7% nas raparigas).",
+      "O relatório da OMS associa diretamente estes comportamentos problemáticos à deterioração da saúde mental, física e escolar dos adolescentes. Os utilizadores problemáticos reportam índices substancialmente menores de satisfação com a vida, privação crónica de sono, exaustão matinal, falta de foco nas aulas, sintomas depressivos e maior exposição ao ciberbullying. O diretor regional da OMS para a Europa, Dr. Hans Henri P. Kluge, declarou categoricamente: 'Não podemos permanecer passivos enquanto os nossos jovens são envolvidos por algoritmos predatórios que comprometem a sua saúde mental. Medidas urgentes de saúde pública são cruciais para capacitar os jovens a adotar hábitos digitais saudáveis.'",
+      "Perante estes alertas rigorosos, a OMS instou os governos nacionais e as autoridades escolares a adotarem intervenções decisivas. A organização recomenda a implementação de regras claras que proíbam ou restrinjam o uso de telemóveis nas escolas, transformando as salas de aula e os recreios em espaços seguros livres de distrações digitais e filmagens indevidas. Recomenda igualmente a criação de diretrizes nacionais sobre limites diários de tempo de ecrã alinhados com as metas contra o sedentarismo, a introdução de literacia digital no ensino básico e a responsabilização legal das grandes empresas tecnológicas pelos seus algoritmos viciantes.",
+      "Especialistas em bem-estar digital destacam que, embora as diretrizes escolares e os relatórios globais representem um marco indispensável, a batalha decisiva ocorre à noite nos lares. O uso desenfreado do telemóvel na cama destrói o sono restaurador e a capacidade de estudo. Ferramentas especializadas como o Limitra App Block surgem como uma salvaguarda fundamental para estudantes e famílias, permitindo bloquear aplicações viciantes e suspender notificações nos períodos de estudo e repouso para consolidar uma disciplina digital equilibrada e duradoura."
+    ],
+    "source": "Organização Mundial da Saúde (OMS/Europa) & HBSC",
+    "sourceUrl": "https://www.who.int/europe",
+    "category": "Ciência e saúde",
+    "date": "2026-09-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "OMS",
+      "Saúde Mental Adolescente",
+      "Vício em Redes Sociais",
+      "Tempo de Ecrã",
+      "Proibição de Celular na Escola",
+      "Dependência de Jogos",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "32",
     "slug": "belgica-decreto-proibicao-smartphones-dispositivos-conectados-escolas",
     "title": "Bélgica aprova decreto histórico na educação: smartphones e dispositivos conectados proibidos nas escolas do infantil ao secundário",
