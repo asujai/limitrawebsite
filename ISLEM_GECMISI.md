@@ -1,5 +1,29 @@
 # İşlem Geçmişi
 
+## [2026-09-09 09:20] - DSÖ Avrupa Raporu: Ergenlerde Problemli Sosyal Medya ve Oyun Bağımlılığı Artışı Makalesinin 11 Dilde Eklenmesi ve Yayını
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-en.json` (EN yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-es.json` (ES yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-fr.json` (FR yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-de.json` (DE yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-pt.json` (PT yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-it.json` (IT yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-ar.json` (AR yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-id.json` (ID yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-fil.json` (FIL yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `src/data/news-th.json` (TH yeni makale eklendi: ID 33)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-09-09 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 dilde yeni haber rotaları işlendi, toplam 430 URL)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının haberler ve makaleler bölümünü günlük olarak güncelleme talebi doğrultusunda; Dünya Sağlık Örgütü (DSÖ / WHO) Avrupa Bölge Ofisi ve HBSC konsorsiyumu tarafından 44 ülkede 280.000 genç üzerinde gerçekleştirilen ve ergenlerde bağımlılık benzeri problemli sosyal medya kullanımının %11'e, problemli oyun riskinin %12'ye fırladığını belgeleyen çığır açıcı küresel sağlık raporu temel alınarak; okullarda akıllı telefon kısıtlamaları, günlük ekran tavan süreleri ve Limitra App Block gibi dijital disiplin araçlarının koruyucu rolünü içeren kapsamlı ve doğrulanmış makale 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) ortak ID "33" ile oluşturuldu. `scripts/generate-sitemap.mjs` çalıştırılarak sitemap 11 dil için güncellendi. `npm run build` ile 432 statik sayfa derlendi, `npm run check:links` ile tüm iç bağlantılar doğrulandı. Değişiklikler GitHub `origin/main`e push edildi (`0c5858a`). `npm run deploy:vps` ile Cenuta VPS'e (`89.252.153.119`) atomik dağıtım gerçekleştirildi (sürüm `20260909-091920`).
+* **Doğrulama:** `npm run build` ile 432 statik sayfa 0 hata ile derlendi. `npm run check:links` ile tüm iç bağlantıların eksiksiz olduğu doğrulandı ("OK - kirik ic baglanti yok"). `git push origin main` tamamlandı (`0c5858a`). `npm run deploy:vps` ile atomik yayın başarıyla tamamlandı (Nginx reload başarılı). Canlı URL'ler (`https://limitra.online/haberler/dso-avrupa-raporu-ergenlerde-problemli-sosyal-medya-ve-oyun-bagimliligi-artisi/`, `/en/news/...`, `/es/news/...` ve `sitemap.xml`) HTTP 200 ile doğrulandı.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-06 09:18] - Belçika Okullarda Akıllı Telefon ve Bağlantılı Cihaz Yasağı Kararnamesi Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity

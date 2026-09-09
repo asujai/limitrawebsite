@@ -7,17 +7,17 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-09-06)
+## Güncel Durum (2026-09-09)
 - Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir. Netlify artık canlı yayın bağımlılığı değildir; yalnızca geri dönüş kopyası olarak korunmaktadır.
 - Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
 - Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
-- Play Console ile birebir senkronize yeni 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **32 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: Belçika'da Tarihi Eğitim Kararnamesi: Anaokulundan Liseye Akıllı Telefon ve Bağlantılı Cihazlar Okullarda Tamamen Yasaklandı, ID: 32).
-- `npm run build` ile 421 statik sayfa 0 hata ile derlendi.
+- Play Console ile birebir senkronize 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
+- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **33 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: DSÖ'den Tarihi Küresel Sağlık Raporu: Ergenlerde Problemli Sosyal Medya Kullanımı %11'e Tırmandı, Okullarda Telefon Yasağı ve Sıkı Ekran Sınırı Çağrısı, ID: 33).
+- `npm run build` ile 432 statik sayfa 0 hata ile derlendi.
 - `npm run check:links` ile tüm iç bağlantılar doğrulandı.
 
 ## Son Yapılan İşlem
-- **İşlem:** Belçika Valonya-Brüksel Federasyonu (FWB) tarafından yürürlüğe konulan kararname ile anaokulundan liseye tüm okullarda akıllı telefon, akıllı saat ve taşınabilir bağlantılı cihazların eğlence amaçlı kullanımının tam gün yasaklanması ve Flandre ile Almanca Konuşan Topluluktaki uygulamalarla birleşen ulusal mutabakat 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 32 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi, 421 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı, git commit (`[antigravity] feat:...`) oluşturulup GitHub `origin/main`e push edildi. Cenuta VPS (`89.252.153.119`) SSH banner exchange zaman aşımı verdiğinden panelden VPS yeniden başlatması sonrası `npm run deploy:vps` ile canlı aktarım tamamlanabilir.
+- **İşlem:** Dünya Sağlık Örgütü (DSÖ) Avrupa Bölge Ofisi ve HBSC tarafından 44 ülkede 280.000 genç üzerinde yürütülen ve ergenlerde bağımlılık benzeri problemli sosyal medya kullanımının %11'e, oyun riskinin %12'ye tırmandığını belgeleyen küresel sağlık raporu temel alınarak hazırlanan makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 33 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi (430 URL), 432 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı, git commit (`[antigravity] feat:...`) oluşturulup GitHub `origin/main`e push edildi (`0c5858a`). `npm run deploy:vps` çalıştırılarak Cenuta VPS'e (`89.252.153.119`) atomik dağıtım yapıldı (sürüm `20260909-091920`) ve canlı linkler HTTP 200 ile doğrulandı.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -27,11 +27,11 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 421 sayfa, 0 hata.
+- `npm run build` → 432 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu (32 makale, 11 dil).
-- Canlı ana sayfa, 11 dil rotası, TR/EN haber sayfaları (yeni eklenen ID 31 dahil: `/haberler/kanada-okullarda-telefon-yasagi-ve-sosyal-medya-devlerine-tarihi-dava/` ve `/en/news/...`), sitemap ve robots dosyası VPS IP'sinden (`89.252.153.119`) 200 döndü (sürüm `20260906-070441`).
-- Canlı `/logo.png` → 200 ve 250.139 bayt; ana sayfada `/logo.png` 6 kez, `/logo.jpg` 0 kez kullanılıyor.
+- Sitemap ↔ üretilen sayfalar tam uyumlu (33 makale, 11 dil, toplam 430 URL).
+- Canlı ana sayfa, 11 dil rotası, TR/EN/ES haber sayfaları (yeni eklenen ID 33 dahil: `/haberler/dso-avrupa-raporu-ergenlerde-problemli-sosyal-medya-ve-oyun-bagimliligi-artisi/`, `/en/news/...`, `/es/news/...`), sitemap ve robots dosyası VPS IP'sinden (`89.252.153.119`) 200 döndü (sürüm `20260909-091920`).
+- Canlı `/logo.png` → 200 ve 250.139 bayt.
 - HTTP → HTTPS ve `www` → apex yönlendirmeleri 301 ile doğrulandı.
 - TLS sertifikası Let's Encrypt tarafından verildi; CN `limitra.online`, son geçerlilik 28 Kasım 2026.
 - Mevcut `https://muhasebe.limitra.online` sitesi geçiş sonrasında 200 döndü.
