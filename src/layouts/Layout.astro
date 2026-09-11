@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import { SUPPORTED_LANGUAGES, type SupportedLang } from '../data/translations';
 import { parsePath, buildUrl } from '../data/routes';
+import { baseGraph } from '../data/schema';
 
 interface Props {
   title: string;
@@ -12,6 +13,8 @@ interface Props {
   ogDescription?: string;
   ogImage?: string;
   lang?: SupportedLang;
+  /** Sayfaya ozel ek JSON-LD (FAQPage, Article vb.). Temel Organization/WebSite/SoftwareApplication grafi her sayfada otomatik. */
+  jsonLd?: object | object[];
 }
 
 const {
@@ -19,7 +22,8 @@ const {
   description,
   ogTitle = title,
   ogDescription = description,
-  ogImage = '/og-limitra.png'
+  ogImage = '/og-limitra.png',
+  jsonLd
 } = Astro.props;
 
 const pathname = Astro.url.pathname;
@@ -58,6 +62,8 @@ const alternates = SUPPORTED_LANGUAGES
   .map((l) => ({ code: l.code, url: buildUrl(l.code, pageKey, pageSlug) }))
   .filter((a): a is { code: SupportedLang; url: string } => a.url !== null);
 const defaultAlternate = alternates.find((a) => a.code === 'en') ?? alternates.find((a) => a.code === 'tr');
+
+const schemas = [baseGraph(currentLang), ...(Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [])];
 
 const pageTitle = title.includes('Limitra') ? title : `${title} | Limitra App Block`;
 const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitra App Block`;
@@ -111,6 +117,11 @@ const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitr
     {defaultAlternate && (
       <link rel="alternate" hreflang="x-default" href={new URL(defaultAlternate.url, baseUrl).href} />
     )}
+
+    <!-- JSON-LD structured data -->
+    {schemas.map((s) => (
+      <script type="application/ld+json" set:html={JSON.stringify(s)} />
+    ))}
   </head>
   <body class={isRtl ? 'rtl-layout' : ''}>
     <a href="#main-content" class="skip-link">{skipLabel}</a>

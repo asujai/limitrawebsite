@@ -1,0 +1,33 @@
+---
+import ProductPage from './ProductPage.astro';
+import { alternatives, altSections, STORE_URL } from '../data/product-pages';
+import { routes, type AlternativeSlug } from '../data/routes';
+
+interface Props { lang: 'tr' | 'en'; slug: AlternativeSlug; }
+const { lang, slug } = Astro.props;
+const a = alternatives[lang][slug];
+const s = altSections[lang];
+const r = routes(lang);
+const cta = lang === 'tr' ? "Limitra App Block'u Google Play'de gör" : 'View Limitra App Block on Google Play';
+const disclaimer = lang === 'tr'
+  ? `${a.rival}, ilgili geliştiricisinin ürünü ve markasıdır; Limitra ile bağlantısı yoktur. Rakip özellikleri herkese açık mağaza sayfasından derlenmiştir ve değişmiş olabilir.`
+  : `${a.rival} is a product and trademark of its respective developer and is not affiliated with Limitra. Competitor features were compiled from its public store listing and may have changed.`;
+---
+
+<ProductPage lang={lang} title={a.title} description={a.description} h1={a.h1} answer={a.answer}>
+  <h2>{s.rivalStrengths(a.rival)}</h2>
+  <ul>{a.rivalStrengths.map((i) => <li>{i}</li>)}</ul>
+
+  <h2>{s.limitraDiffers}</h2>
+  <ul>{a.limitraDiffers.map((i) => <li>{i}</li>)}</ul>
+
+  <h2>{s.keepRival(a.rival)}</h2>
+  <ul>{a.keepRival.map((i) => <li>{i}</li>)}</ul>
+
+  <h2>{s.switchTo}</h2>
+  <ul>{a.switchTo.map((i) => <li>{i}</li>)}</ul>
+
+  <p><a href={r.compare}>{s.compareLink} →</a></p>
+  <a class="cta" href={STORE_URL} target="_blank" rel="noopener noreferrer">{cta} ↗</a>
+  <p style="margin-top: var(--space-8); font-size: .8rem; color: var(--text-muted);">{disclaimer}</p>
+</ProductPage>

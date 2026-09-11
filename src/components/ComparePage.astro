@@ -1,0 +1,41 @@
+---
+import ProductPage from './ProductPage.astro';
+import { compare } from '../data/product-pages';
+import { routes, ALTERNATIVE_SLUGS } from '../data/routes';
+import { alternatives } from '../data/product-pages';
+
+interface Props { lang: 'tr' | 'en'; }
+const { lang } = Astro.props;
+const c = compare[lang];
+const r = routes(lang);
+const altTitle = lang === 'tr' ? 'Rakip bazlı ayrıntılı karşılaştırmalar' : 'Detailed one-to-one comparisons';
+const pricingLabel = lang === 'tr' ? 'Limitra fiyatlandırma ayrıntıları' : 'Limitra pricing details';
+---
+
+<ProductPage lang={lang} title={c.title} description={c.description} h1={c.h1} answer={c.answer}>
+  <div class="table-wrap">
+    <table>
+      <caption>{c.caption}</caption>
+      <thead>
+        <tr>{c.columns.map((col) => <th scope="col">{col}</th>)}</tr>
+      </thead>
+      <tbody>
+        {c.rows.map((row) => (
+          <tr>
+            <th scope="row">{row.label}</th>
+            {row.values.map((v) => <td>{v}</td>)}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>{c.methodTitle}</h2>
+  <p>{c.method}</p>
+
+  <h2>{altTitle}</h2>
+  <ul>
+    {ALTERNATIVE_SLUGS.map((slug) => <li><a href={r.alternative(slug)}>{alternatives[lang][slug].title}</a></li>)}
+  </ul>
+  <p><a href={r.pricing}>{pricingLabel} →</a></p>
+</ProductPage>

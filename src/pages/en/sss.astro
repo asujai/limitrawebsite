@@ -49,6 +49,66 @@ const faqs = [
   {
     question: "Where is the Google Play link?",
     answer: "You can get the Limitra App Block app on the Google Play Store. You can directly navigate to the store page using the 'Download App' buttons on our website."
+  },
+  {
+    question: "How much does Limitra App Block cost, and is there a subscription?",
+    answer: "Limitra App Block is a one-time purchase on Google Play (₺29.99 in Türkiye; local pricing elsewhere). There is no monthly or yearly subscription, no in-app purchases and no ads; you pay once and every feature and future update stays unlocked. Details are on the pricing page."
+  },
+  {
+    question: "Does Limitra App Block work without internet?",
+    answer: "Yes. Limitra App Block does not even request the internet permission, so the app is technically unable to reach the network. All blocking, limit calculation and streak tracking run entirely on the device; the lock keeps working in airplane mode."
+  },
+  {
+    question: "Which permissions does Limitra App Block request, and why?",
+    answer: "Four: Usage access (to calculate daily usage time of apps locally), Accessibility service (to detect instantly when a restricted app opens), Display over other apps (to show the lock screen when the limit is reached) and Battery optimisation exemption (so protection is not killed in the background). It does not request internet, location, contacts or camera."
+  },
+  {
+    question: "Is it safe to grant the accessibility permission?",
+    answer: "Limitra App Block uses the accessibility service only to learn the package name of the foreground app; it does not read or store screen content, messages, passwords or keystrokes. Because the app has no internet permission, that information cannot leave the device. Since version 1.1.9 this offline contract is verified by automated tests."
+  },
+  {
+    question: "Which Android versions are supported?",
+    answer: "Android 7.0 (API 24) and above. On Xiaomi, Huawei and some Samsung devices the manufacturer's aggressive battery manager can kill background services, so the app asks you to remove battery restrictions and allow auto-start during setup."
+  },
+  {
+    question: "Can I remove the lock after the limit is reached?",
+    answer: "The lock lasts until the end of the day and the lock screen has no snooze option. If you really want to cancel protection you must hold the button inside Limitra for 5 uninterrupted minutes; lifting your finger resets the counter. The duration is deliberately long: it is designed to outlast the impulse."
+  },
+  {
+    question: "Can it be bypassed by uninstalling or changing the clock?",
+    answer: "Limitra App Block is not a device administrator; a determined user can uninstall it. The goal is not an unbreakable cage but making the in-the-moment negotiation harder. Rolling the device clock back to trigger a daily reset is blocked: the app cross-checks the monotonic clock, wall clock and boot time and applies a 22-hour lockout when it detects clock manipulation."
+  },
+  {
+    question: "When does the daily limit reset?",
+    answer: "Limits reset every day at midnight in the device's local time. Time zone changes are handled correctly since version 1.2.0."
+  },
+  {
+    question: "Can I enable protection only at certain hours?",
+    answer: "Yes. The active time window feature limits protection to specific hours, for example 09:00-18:00 working hours or 22:00-07:00 at night."
+  },
+  {
+    question: "Does it block websites too?",
+    answer: "No. Limitra App Block blocks Android apps only; it does not block websites inside a browser. The comparison page lists alternatives for people who need website blocking."
+  },
+  {
+    question: "Is there an iPhone (iOS) version?",
+    answer: "No. Limitra App Block is built for Android only. iOS does not allow third-party apps to lock other apps this way, so an iOS version is not planned."
+  },
+  {
+    question: "How is it different from Digital Wellbeing?",
+    answer: "Android's built-in Digital Wellbeing timers can be removed or extended with one tap once the limit is reached. In Limitra App Block the lock lasts until the end of the day and cancelling requires a 5-minute hold. Limitra also works on devices that do not ship Digital Wellbeing. See the Digital Wellbeing alternative page for a detailed comparison."
+  },
+  {
+    question: "How is it different from StayFree, AppBlock or YourHour?",
+    answer: "Those apps start free and earn through subscriptions or ads, request internet permission and usually offer richer statistics and website blocking. Limitra App Block is a one-time purchase, has no ads, requests no internet permission and focuses only on app blocking. There is a separate comparison page for each."
+  },
+  {
+    question: "Which languages are supported?",
+    answer: "The app is available in 11 languages: English, Turkish, German, Spanish, French, Portuguese, Arabic, Indonesian, Hindi, Russian and Thai."
+  },
+  {
+    question: "How do I delete my data?",
+    answer: "Limitra App Block creates no account and stores nothing on a server, so there is no remote data to delete. Local data on the device can be cleared via Android Settings > Apps > Limitra > Storage > Clear data, or by uninstalling the app."
   }
 ];
 
@@ -67,12 +127,10 @@ const faqSchema = {
 };
 ---
 
-<Layout 
+<Layout jsonLd={faqSchema}
   title="Frequently Asked Questions | Limitra App Block" 
   description="Answers to frequently asked questions about the features, privacy approach, and screen time management of the Limitra App Block application."
 >
-  <!-- JSON-LD Structured Data inside layout body -->
-  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
   <section class="faq-page">
     <div class="container content-width">

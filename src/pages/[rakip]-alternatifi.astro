@@ -1,0 +1,11 @@
+---
+import AlternativePage from '../components/AlternativePage.astro';
+import { ALTERNATIVE_SLUGS } from '../data/routes';
+
+export function getStaticPaths() {
+  return ALTERNATIVE_SLUGS.map((rakip) => ({ params: { rakip } }));
+}
+const { rakip } = Astro.params;
+---
+
+<AlternativePage lang="tr" slug={rakip} />

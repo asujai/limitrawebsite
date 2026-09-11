@@ -27,7 +27,10 @@ const label = {
   screenTimeGuide: currentLang === 'tr' ? 'Ekran süresi rehberi' : 'Screen time guide',
   privacy: currentLang === 'tr' ? 'Gizlilik politikası' : 'Privacy policy',
   terms: currentLang === 'tr' ? 'Kullanım şartları' : 'Terms of use',
-  deleteAccount: currentLang === 'tr' ? 'Hesap ve veri silme' : 'Delete account & data'
+  deleteAccount: currentLang === 'tr' ? 'Hesap ve veri silme' : 'Delete account & data',
+  pricing: currentLang === 'tr' ? 'Fiyatlandırma' : 'Pricing',
+  compare: currentLang === 'tr' ? 'Karşılaştırma' : 'Compare',
+  changelog: currentLang === 'tr' ? 'Değişiklik günlüğü' : 'Changelog'
 };
 
 const groups = [
@@ -36,6 +39,9 @@ const groups = [
     links: [
       { href: r.howItWorks, label: t.nav.howItWorks },
       { href: r.faq, label: t.nav.faq },
+      { href: r.pricing, label: label.pricing },
+      { href: r.compare, label: label.compare },
+      { href: r.changelog, label: label.changelog },
       { href: r.contact, label: label.contact }
     ]
   },

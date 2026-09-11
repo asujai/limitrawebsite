@@ -49,6 +49,66 @@ const faqs = [
   {
     question: "Google Play linki nerede?",
     answer: "Limitra App Block uygulamasını Google Play Store üzerinden edinebilirsiniz. Sitemizdeki 'Uygulamayı İndir' butonlarını kullanarak doğrudan ilgili mağaza sayfasına yönlenebilirsiniz."
+  },
+  {
+    question: "Limitra App Block ne kadar, abonelik var mı?",
+    answer: "Limitra App Block Google Play'de ₺29,99 tek seferlik ödemeyle satılır. Aylık ya da yıllık abonelik, uygulama içi satın alım ve reklam yoktur; bir kez ödersiniz, tüm özellikler ve gelecek güncellemeler süresiz açıktır. Ayrıntılar fiyatlandırma sayfasındadır."
+  },
+  {
+    question: "Limitra App Block internetsiz çalışır mı?",
+    answer: "Evet. Limitra App Block internet izni bile istemez; uygulama teknik olarak ağa çıkamaz. Tüm koruma, limit hesaplama ve seri takibi tamamen cihazda çalışır. Uçak modunda dahi kilit devam eder."
+  },
+  {
+    question: "Limitra App Block hangi izinleri istiyor ve neden?",
+    answer: "Dört izin ister: Kullanım erişimi (uygulamaların günlük kullanım süresini yerel olarak hesaplamak için), Erişilebilirlik hizmeti (sınırlı uygulamanın açıldığını anlık algılamak için), Diğer uygulamaların üzerinde görüntüleme (limit dolunca kilit ekranını göstermek için) ve Pil optimizasyonu muafiyeti (korumanın arka planda kesilmemesi için). İnternet, konum, kişiler veya kamera izni istemez."
+  },
+  {
+    question: "Erişilebilirlik izni vermek güvenli mi?",
+    answer: "Limitra App Block erişilebilirlik hizmetini yalnızca ön plandaki uygulamanın paket adını öğrenmek için kullanır; ekran içeriğini, mesajları, şifreleri veya tuş vuruşlarını okumaz ve kaydetmez. Uygulamanın internet izni olmadığı için bu bilginin cihazdan çıkması teknik olarak mümkün değildir. Sürüm 1.1.9'dan itibaren bu çevrimdışı sözleşme otomatik testlerle doğrulanır."
+  },
+  {
+    question: "Hangi Android sürümlerinde çalışır?",
+    answer: "Android 7.0 (API 24) ve üzeri tüm cihazlarda çalışır. Xiaomi, Huawei ve bazı Samsung cihazlarda üreticinin agresif pil yöneticisi arka plan servislerini kapatabildiği için uygulama kurulumda pil kısıtlamasının kaldırılmasını ve otomatik başlatma iznini ister."
+  },
+  {
+    question: "Limit dolduktan sonra kilidi kaldırabilir miyim?",
+    answer: "Kilit, gün sonuna kadar sürer ve kilit ekranında erteleme seçeneği yoktur. Korumayı gerçekten iptal etmek isterseniz Limitra içinde ilgili düğmeyi 5 dakika kesintisiz basılı tutmanız gerekir; parmağınızı çekerseniz sayaç sıfırlanır. Bu süre bilerek uzundur: dürtü anını geçirmek için tasarlanmıştır."
+  },
+  {
+    question: "Uygulamayı kaldırarak veya saati değiştirerek atlatılabilir mi?",
+    answer: "Limitra App Block bir cihaz yöneticisi değildir; kararlı bir kullanıcı uygulamayı kaldırabilir. Amaç kırılmaz bir kafes değil, dürtü anında anlık pazarlığı zorlaştırmaktır. Cihaz saatini geri alarak günlük sıfırlamayı tetiklemek ise engellenir: uygulama monotonik saat, duvar saati ve önyükleme zamanını çapraz kontrol eder ve saat manipülasyonu tespit ederse 22 saatlik kilitleme uygular."
+  },
+  {
+    question: "Günlük limit ne zaman sıfırlanır?",
+    answer: "Limitler her gün cihazın yerel saatine göre gece yarısında sıfırlanır. Saat dilimi değişiklikleri sürüm 1.2.0'dan itibaren doğru işlenir."
+  },
+  {
+    question: "Yalnızca belirli saatlerde koruma istiyorum, mümkün mü?",
+    answer: "Evet. Aktif zaman aralığı özelliğiyle korumanın yalnızca belirli saatlerde (örneğin 09:00-18:00 iş saatlerinde veya gece 22:00-07:00 arasında) devrede olmasını sağlayabilirsiniz."
+  },
+  {
+    question: "Web sitelerini de engeller mi?",
+    answer: "Hayır. Limitra App Block yalnızca Android uygulamalarını engeller; tarayıcı içindeki web sitelerini engellemez. Web engelleme isteyenler için karşılaştırma sayfasında alternatifler listelenmiştir."
+  },
+  {
+    question: "iPhone (iOS) sürümü var mı?",
+    answer: "Hayır. Limitra App Block yalnızca Android için geliştirilmiştir. iOS'ta üçüncü taraf uygulamaların diğer uygulamaları bu şekilde kilitlemesine izin verilmediği için iOS sürümü planlanmamaktadır."
+  },
+  {
+    question: "Digital Wellbeing'den farkı ne?",
+    answer: "Android'in yerleşik Digital Wellbeing zamanlayıcıları limit dolunca tek dokunuşla kaldırılabilir veya uzatılabilir. Limitra App Block'ta kilit gün sonuna kadar sürer ve iptal 5 dakika basılı tutma gerektirir. Ayrıca Limitra, Digital Wellbeing sunmayan cihazlarda da çalışır. Ayrıntılı karşılaştırma için Digital Wellbeing alternatifi sayfasına bakın."
+  },
+  {
+    question: "StayFree, AppBlock veya YourHour'dan farkı ne?",
+    answer: "Bu uygulamalar ücretsiz başlayıp abonelik veya reklamla gelir elde eder, internet izni ister ve genellikle daha zengin istatistik ile web sitesi engelleme sunar. Limitra App Block tek seferlik ödemelidir, reklamsızdır, internet izni istemez ve yalnızca uygulama engellemeye odaklanır. Her biri için ayrı karşılaştırma sayfası vardır."
+  },
+  {
+    question: "Hangi dilleri destekliyor?",
+    answer: "Uygulama 11 dilde sunulur: Türkçe, İngilizce, Almanca, İspanyolca, Fransızca, Portekizce, Arapça, Endonezce, Hintçe, Rusça ve Tayca."
+  },
+  {
+    question: "Verilerimi nasıl silerim?",
+    answer: "Limitra App Block hesap açmadığı ve sunucuda veri tutmadığı için silinecek uzak veri yoktur. Cihazdaki yerel verileri Android Ayarlar > Uygulamalar > Limitra > Depolama > Verileri temizle ile veya uygulamayı kaldırarak silebilirsiniz."
   }
 ];
 
@@ -67,12 +127,10 @@ const faqSchema = {
 };
 ---
 
-<Layout 
+<Layout jsonLd={faqSchema}
   title="Sıkça Sorulan Sorular | Limitra App Block" 
   description="Limitra App Block uygulama engelleyicinin çalışması, özellikleri, gizlilik yaklaşımı ve dijital disiplin hedefleri hakkında sıkça sorulan soruların yanıtları."
 >
-  <!-- JSON-LD Structured Data inside layout body -->
-  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 
   <section class="faq-page">
     <div class="container content-width">

@@ -1,0 +1,49 @@
+---
+import ProductPage from './ProductPage.astro';
+import { changelog, STORE_URL } from '../data/product-pages';
+import { SITE_URL } from '../data/schema';
+
+interface Props { lang: 'tr' | 'en'; }
+const { lang } = Astro.props;
+const c = changelog[lang];
+const cta = lang === 'tr' ? "Güncel sürümü Google Play'den al" : 'Get the current version on Google Play';
+
+// Her surum icin SoftwareApplication'in releaseNotes'u; tazelik sinyali.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: c.h1,
+  itemListElement: c.entries.map((e, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: 'Limitra App Block',
+      softwareVersion: e.version,
+      datePublished: e.date,
+      releaseNotes: e.items.join(' '),
+      url: `${SITE_URL}${lang === 'tr' ? '/degisiklik-gunlugu' : '/en/changelog'}`
+    }
+  }))
+};
+---
+
+<ProductPage lang={lang} title={c.title} description={c.description} h1={c.h1} answer={c.answer} jsonLd={jsonLd}>
+  <div class="table-wrap">
+    <table>
+      <caption>{c.caption}</caption>
+      <thead><tr>{c.cols.map((col) => <th scope="col">{col}</th>)}</tr></thead>
+      <tbody>
+        {c.entries.map((e) => (
+          <tr>
+            <th scope="row">{e.version}</th>
+            <td>{e.code}</td>
+            <td><time datetime={e.date}>{e.date}</time></td>
+            <td><ul style="margin:0; padding-left: 1.1rem;">{e.items.map((i) => <li>{i}</li>)}</ul></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <a class="cta" href={STORE_URL} target="_blank" rel="noopener noreferrer">{cta} ↗</a>
+</ProductPage>

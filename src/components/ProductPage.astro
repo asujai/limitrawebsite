@@ -1,0 +1,58 @@
+---
+/**
+ * Urun bilgi sayfalari icin ortak iskelet: H1 + <=120 kelimelik dogrudan cevap paragrafi + icerik.
+ * Fiyatlandirma, karsilastirma, rakip alternatifi ve degisiklik gunlugu sayfalari bunu kullanir.
+ */
+import Layout from '../layouts/Layout.astro';
+import type { SupportedLang } from '../data/translations';
+import { routes } from '../data/routes';
+
+interface Props {
+  lang: SupportedLang;
+  title: string;
+  description: string;
+  h1: string;
+  answer: string;
+  jsonLd?: object | object[];
+}
+
+const { lang, title, description, h1, answer, jsonLd } = Astro.props;
+const r = routes(lang);
+const backLabel = lang === 'tr' ? 'Ana Sayfa' : 'Home';
+---
+
+<Layout title={title} description={description} lang={lang} jsonLd={jsonLd}>
+  <article class="article-page">
+    <div class="container content-width">
+      <header class="article-header">
+        <a href={r.home} class="back-link">&larr; {backLabel}</a>
+        <h1>{h1}</h1>
+        <p class="lede">{answer}</p>
+      </header>
+      <div class="article-body">
+        <slot />
+      </div>
+    </div>
+  </article>
+</Layout>
+
+<style is:global>
+  .article-page { padding-top: var(--space-8); padding-bottom: var(--space-16); }
+  .article-page .back-link { display: inline-block; font-size: .875rem; color: var(--text-muted); margin-bottom: var(--space-6); }
+  .article-page .back-link:hover { color: var(--accent); }
+  .article-page .lede { font-size: 1.125rem; line-height: 1.7; color: var(--text-secondary); margin-top: var(--space-4); }
+  .article-body { margin-top: var(--space-8); }
+  .article-body h2 { font-size: 1.5rem; margin-top: var(--space-12); margin-bottom: var(--space-4); }
+  .article-body p { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-4); }
+  .article-body ul { margin-bottom: var(--space-6); padding-left: var(--space-6); }
+  .article-body li { margin-bottom: var(--space-2); color: var(--text-secondary); }
+  .article-body .table-wrap { overflow-x: auto; margin: var(--space-6) 0; }
+  .article-body table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+  .article-body caption { caption-side: bottom; text-align: left; font-size: .8rem; color: var(--text-muted); padding-top: var(--space-2); }
+  .article-body th, .article-body td { border: 1px solid var(--border-color); padding: .6rem .75rem; text-align: left; vertical-align: top; }
+  .article-body th { background: rgba(38, 103, 245, .06); font-weight: 600; color: var(--text-primary); }
+  .article-body td { color: var(--text-secondary); }
+  .article-body td:first-child, .article-body th:first-child { font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+  .article-body .cta { display: inline-block; margin-top: var(--space-4); padding: .75rem 1.25rem; border-radius: .6rem; background: var(--accent); color: #fff; font-weight: 700; }
+  .article-body .cta:hover { opacity: .9; }
+</style>

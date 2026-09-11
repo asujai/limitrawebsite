@@ -1,0 +1,32 @@
+---
+import ProductPage from './ProductPage.astro';
+import { pricing, STORE_URL } from '../data/product-pages';
+import { routes } from '../data/routes';
+
+interface Props { lang: 'tr' | 'en'; }
+const { lang } = Astro.props;
+const p = pricing[lang];
+const r = routes(lang);
+const tableCaption = lang === 'tr' ? 'Limitra App Block fiyat ve ödeme modeli özeti.' : 'Limitra App Block price and payment model summary.';
+const compareLabel = lang === 'tr' ? 'Rakiplerle fiyat modeli karşılaştırması' : 'Pricing model compared with competitors';
+---
+
+<ProductPage lang={lang} title={p.title} description={p.description} h1={p.h1} answer={p.answer}>
+  <div class="table-wrap">
+    <table>
+      <caption>{tableCaption}</caption>
+      <tbody>
+        {p.rows.map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>{p.includedTitle}</h2>
+  <ul>{p.included.map((i) => <li>{i}</li>)}</ul>
+
+  <h2>{p.notesTitle}</h2>
+  <ul>{p.notes.map((i) => <li>{i}</li>)}</ul>
+
+  <p><a href={r.compare}>{compareLabel} →</a></p>
+  <a class="cta" href={STORE_URL} target="_blank" rel="noopener noreferrer">{p.cta} ↗</a>
+</ProductPage>

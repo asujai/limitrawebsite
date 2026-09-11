@@ -10,7 +10,10 @@
     "preview": "astro preview",
     "astro": "astro",
     "check:links": "node scripts/check-links.mjs",
-    "check:news": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-daily-news.ps1"
+    "check:news": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-daily-news.ps1",
+    "indexnow": "node scripts/indexnow.mjs",
+    "report:bots": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ai-bot-report.ps1",
+    "sitemap": "node scripts/generate-sitemap.mjs"
   },
   "dependencies": {
     "astro": "^4.16.12"

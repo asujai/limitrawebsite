@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const base = 'https://limitra.online';
-const today = '2026-09-09';
+const today = '2026-09-11';
 
 const dataDir = path.resolve('src/data');
 
@@ -98,6 +98,19 @@ for (const slug of guideSlugs) {
 `;
 }
 
+const productPagesTr = ['fiyatlandirma', 'karsilastirma', 'degisiklik-gunlugu', 'stayfree-alternatifi', 'appblock-alternatifi', 'yourhour-alternatifi', 'digital-wellbeing-alternatifi', 'forest-alternatifi'];
+const productPagesEn = ['pricing', 'compare', 'changelog', 'stayfree-alternative', 'appblock-alternative', 'yourhour-alternative', 'digital-wellbeing-alternative', 'forest-alternative'];
+
+for (const slug of productPagesTr) {
+  xml += `  <url>
+    <loc>${base}/${slug}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
+}
+
 xml += `  <url>
     <loc>${base}/iletisim</loc>
     <lastmod>${today}</lastmod>
@@ -168,6 +181,16 @@ for (const slug of guideSlugs) {
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+`;
+}
+
+for (const slug of productPagesEn) {
+  xml += `  <url>
+    <loc>${base}/en/${slug}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 `;
 }

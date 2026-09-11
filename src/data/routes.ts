@@ -21,7 +21,12 @@ export const SECTION_LANGS = {
   guides: ['tr', 'en'] as SupportedLang[],
   contact: ['tr', 'en'] as SupportedLang[],
   legal: ['tr', 'en'] as SupportedLang[],
+  product: ['tr', 'en'] as SupportedLang[], // fiyatlandirma, karsilastirma, alternatifler, degisiklik gunlugu
 };
+
+/** Rakip alternatif sayfalari: slug her iki dilde ayni. */
+export const ALTERNATIVE_SLUGS = ['stayfree', 'appblock', 'yourhour', 'digital-wellbeing', 'forest'] as const;
+export type AlternativeSlug = (typeof ALTERNATIVE_SLUGS)[number];
 
 export const FULL_CONTENT_LANGS: SupportedLang[] = ['tr', 'en'];
 export const hasFullContent = (lang: SupportedLang) => FULL_CONTENT_LANGS.includes(lang);
@@ -40,6 +45,10 @@ export type PageKey =
   | 'contact'
   | 'privacy'
   | 'terms'
+  | 'pricing'
+  | 'compare'
+  | 'changelog'
+  | 'alternative'
   | 'other';
 
 export interface NewsArticleItem {
@@ -130,6 +139,11 @@ export function parsePath(pathname: string): { lang: SupportedLang; key: PageKey
   if (sub === 'iletisim') return { lang, key: 'contact', slug: '' };
   if (sub === 'gizlilik-politikasi') return { lang, key: 'privacy', slug: '' };
   if (sub === 'kullanim-sartlari') return { lang, key: 'terms', slug: '' };
+  if (sub === 'fiyatlandirma' || sub === 'pricing') return { lang, key: 'pricing', slug: '' };
+  if (sub === 'karsilastirma' || sub === 'compare') return { lang, key: 'compare', slug: '' };
+  if (sub === 'degisiklik-gunlugu' || sub === 'changelog') return { lang, key: 'changelog', slug: '' };
+  const alt = sub.match(/^([a-z-]+)-(alternatifi|alternative)$/);
+  if (alt && (ALTERNATIVE_SLUGS as readonly string[]).includes(alt[1])) return { lang, key: 'alternative', slug: alt[1] };
 
   return { lang, key: 'other', slug: sub };
 }
@@ -166,6 +180,15 @@ export function buildUrl(lang: SupportedLang, key: PageKey, slug = ''): string |
       return SECTION_LANGS.legal.includes(lang) ? `${p}/gizlilik-politikasi` : null;
     case 'terms':
       return SECTION_LANGS.legal.includes(lang) ? `${p}/kullanim-sartlari` : null;
+    case 'pricing':
+      return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/fiyatlandirma' : `${p}/pricing`) : null;
+    case 'compare':
+      return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/karsilastirma' : `${p}/compare`) : null;
+    case 'changelog':
+      return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/degisiklik-gunlugu' : `${p}/changelog`) : null;
+    case 'alternative':
+      if (!SECTION_LANGS.product.includes(lang) || !(ALTERNATIVE_SLUGS as readonly string[]).includes(slug)) return null;
+      return lang === 'tr' ? `/${slug}-alternatifi` : `${p}/${slug}-alternative`;
     default:
       return null;
   }
@@ -190,5 +213,9 @@ export const routes = (lang: SupportedLang) => ({
   guide: (slug: string) => resolveUrl(lang, 'guide', slug),
   contact: resolveUrl(lang, 'contact'),
   privacy: resolveUrl(lang, 'privacy'),
-  terms: resolveUrl(lang, 'terms')
+  terms: resolveUrl(lang, 'terms'),
+  pricing: resolveUrl(lang, 'pricing'),
+  compare: resolveUrl(lang, 'compare'),
+  changelog: resolveUrl(lang, 'changelog'),
+  alternative: (slug: string) => resolveUrl(lang, 'alternative', slug)
 });

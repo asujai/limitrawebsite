@@ -1,0 +1,11 @@
+---
+import AlternativePage from '../../components/AlternativePage.astro';
+import { ALTERNATIVE_SLUGS } from '../../data/routes';
+
+export function getStaticPaths() {
+  return ALTERNATIVE_SLUGS.map((rival) => ({ params: { rival } }));
+}
+const { rival } = Astro.params;
+---
+
+<AlternativePage lang="en" slug={rival} />

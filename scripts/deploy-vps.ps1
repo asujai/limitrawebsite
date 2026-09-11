@@ -38,6 +38,14 @@ try {
     & scp @sshOptions $localArchive "${sshTarget}:$remoteArchive"
     if ($LASTEXITCODE -ne 0) { throw "Paket sunucuya aktarilamadi." }
 
+    Write-Host "[4b/5] Nginx yapilandirmasi esitleniyor..."
+    & scp @sshOptions (Join-Path $projectRoot "deploy
+ginx-limitra.conf") "${sshTarget}:/tmp/limitra.conf"
+    if ($LASTEXITCODE -ne 0) { throw "Nginx yapilandirmasi aktarilamadi." }
+    $nginxCommand = "set -e; if ! sudo cmp -s /tmp/limitra.conf /etc/nginx/sites-available/limitra.conf; then sudo cp /etc/nginx/sites-available/limitra.conf /etc/nginx/sites-available/limitra.conf.bak; sudo cp /tmp/limitra.conf /etc/nginx/sites-available/limitra.conf; sudo nginx -t || { sudo cp /etc/nginx/sites-available/limitra.conf.bak /etc/nginx/sites-available/limitra.conf; exit 1; }; fi; rm -f /tmp/limitra.conf"
+    & ssh @sshOptions $sshTarget $nginxCommand
+    if ($LASTEXITCODE -ne 0) { throw "Nginx yapilandirmasi dogrulanamadi; eski yapilandirma geri yuklendi." }
+
     Write-Host "[5/5] Yeni surum atomik olarak etkinlestiriliyor..."
     $remoteCommand = "set -e; sudo mkdir -p '$remoteRelease'; sudo tar -xzf '$remoteArchive' -C '$remoteRelease'; sudo ln -sfn '$remoteRelease' /var/www/limitra/current; sudo nginx -t; sudo systemctl reload nginx; rm -f '$remoteArchive'; sudo find /var/www/limitra/releases -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | tail -n +6 | cut -d' ' -f2- | xargs -r sudo rm -rf"
     & ssh @sshOptions $sshTarget $remoteCommand

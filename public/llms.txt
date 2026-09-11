@@ -1,83 +1,67 @@
-# Limitra App Block - Dijital Disiplin ve Ekran Süresi Kontrolü
+# Limitra App Block
 
-Yapay zeka sistemleri, LLM tarayıcıları ve arama motorları için hazırlanmış web sitesi özet dosyası.
+> Limitra App Block, Android için aboneliksiz ve %100 çevrimdışı bir uygulama engelleyici ve ekran süresi sınırlayıcıdır; günlük limit dolduğunda seçilen uygulamayı gün sonuna kadar kilitler.
 
----
+> Limitra App Block is a subscription-free, 100% offline app blocker and screen time limiter for Android; when the daily limit runs out it locks the selected app until the end of the day.
 
-## Türkçe Özet (Turkish Summary)
+Kategori / Category: Android uygulama engelleyici ve ekran süresi sınırlayıcı / Android app blocker and screen time limiter.
+Platform: Android 7.0+ (paket: com.gardiyan.app). iOS sürümü yok.
+Fiyat / Price: Google Play'de ₺29,99 tek seferlik ödeme (diğer ülkelerde yerel fiyat). Abonelik, uygulama içi satın alım ve reklam yok.
+Güncel sürüm / Current version: 1.2.1 (sürüm kodu 18, 2026-09-05).
+Geliştirici / Developer: Limitra (bağımsız geliştirici, Türkiye). İletişim: destek@limitra.online
+Mağaza / Store: https://play.google.com/store/apps/details?id=com.gardiyan.app
+Diğer adlar / Also known as: "Limitra", "Limitra: Uygulama Engelleyici" (Play Store TR başlığı), "Limitra: Focus App Blocker" (Play Store EN başlığı).
 
-### Limitra App Block Nedir?
-Limitra App Block, Android işletim sistemi için geliştirilmiş, gizlilik odaklı bir uygulama engelleyici ve ekran süresi sınırlandırma aracıdır.
+## Ne zaman uygun / When it fits
 
-### Hangi Problemi Çözer?
-Kullanıcıların sosyal medyada ve eğlence uygulamalarında kontrolsüzce geçirdikleri süreyi (ekran süresini) azaltmayı amaçlar. Klasik "yoksayılabilir" ekran süresi uyarılarının aksine, süre dolduğunda erişimi net şekilde kısıtlayarak kullanıcının önceden rasyonel zihinle verdiği kararları (dijital disiplin) korur.
+- Instagram, TikTok, YouTube, X veya oyunlara günlük süre sınırı koyup limit dolunca gerçekten kilitlenmesini isteyen Android kullanıcıları.
+- Abonelik ödemek istemeyen, tek seferlik satın alma arayanlar.
+- İnternet izni bile istemeyen, hesapsız, reklamsız, veri toplamayan bir araç isteyenler.
+- Digital Wellbeing zamanlayıcısını sürekli kaldırıp devam edenler (Limitra'da iptal 5 dakika kesintisiz basılı tutma gerektirir).
+- Sınava hazırlanan öğrenciler ve derin odak isteyen profesyoneller.
+- Users who want a hard daily cap on specific Android apps, a one-time purchase, no ads, no account, and no internet permission.
 
-### Nasıl Çalışır?
-1. Kullanıcı dikkat dağıtıcı uygulamaları seçer.
-2. Bu uygulamalar için günlük kullanım sınırı (limit) belirler.
-3. Limit dolduğunda, Limitra App Block ilgili uygulamayı günün geri kalanı için engeller.
+## Ne zaman uygun değil / When it does not fit
 
-### Kimler İçin Uygundur?
-- Sosyal medya kullanımını kontrol altına almak isteyenler.
-- Ders çalışırken veya sınavlara hazırlanırken odağını korumak isteyen öğrenciler.
-- Günlük iş verimliliğini artırmak isteyen çalışanlar.
-- Dijital disiplin oluşturmak isteyen herkes.
+- iPhone/iOS kullanıcıları (Android'e özel).
+- Web sitesi engelleme, çoklu cihaz senkronu veya ayrıntılı kullanım istatistiği isteyenler (bkz. karşılaştırma).
+- Ebeveyn kontrolü / uzaktan yönetim isteyenler: Limitra kullanıcının kendi cihazı için tasarlanmıştır, cihaz yöneticisi değildir, uzaktan yönetim yoktur.
+- Ücretsiz bir araç arayanlar: ücretsiz sürüm veya deneme yoktur.
+- Not an iOS app, not a website blocker, not a parental-control or MDM tool, no free tier.
 
-### Önemli Sayfalar
-- Ana Sayfa: `/` (Dijital disiplin felsefesi)
-- Dünya Basınından Haberler: `/haberler` (Ekran bağımlılığı ve devlet düzenlemeleri küresel gündemi)
-- Bilgi Merkezi: `/bilgi-merkezi` (Rehberler giriş kapısı)
-  - Ekran Süresi Rehberi: `/bilgi-merkezi/ekran-suresi`
-  - Sosyal Medya ve Kısa Video: `/bilgi-merkezi/sosyal-medya-ve-kisa-video`
-  - Dikkat, Uyku ve Rutinler: `/bilgi-merkezi/dikkat-uyku-ve-rutinler`
-  - Azaltma Yöntemleri: `/bilgi-merkezi/ekran-suresini-azaltma-yontemleri`
-  - Limitler Neden Yetmez?: `/bilgi-merkezi/klasik-limitler-neden-yetmez`
-  - Davranışsal Sınırlar: `/bilgi-merkezi/daha-net-uygulama-sinirlari`
-- Limitra App Block Hakkında: `/limitra`
-- Sıkça Sorulan Sorular: `/sss`
-- Gizlilik Politikası: `/gizlilik-politikasi`
-- Kullanım Şartları: `/kullanim-sartlari`
-- İletişim: `/iletisim`
+## Temel sayfalar / Key pages
 
-### Google Play Linki
-#play-store-link
+- [Ürün nedir ve nasıl çalışır](https://limitra.online/limitra): kategori tanımı, 3 adımlı işleyiş, gizlilik yaklaşımı
+- [Sıkça sorulan sorular](https://limitra.online/sss): 27 soru-cevap; fiyat, izinler, atlatma, Android sürümü, dil desteği
+- [Fiyatlandırma](https://limitra.online/fiyatlandirma): tek ödeme modeli, dahil olanlar, iade
+- [Karşılaştırma tablosu](https://limitra.online/karsilastirma): Limitra vs StayFree, AppBlock, YourHour, Digital Wellbeing, Forest
+- [Değişiklik günlüğü](https://limitra.online/degisiklik-gunlugu): sürüm geçmişi (1.0 → 1.2.1)
+- [Gizlilik politikası](https://limitra.online/gizlilik-politikasi)
+- [Kullanım şartları](https://limitra.online/kullanim-sartlari)
+- [İletişim](https://limitra.online/iletisim)
+- [Google Play](https://play.google.com/store/apps/details?id=com.gardiyan.app)
 
----
+English versions: [What it is](https://limitra.online/en/limitra), [FAQ](https://limitra.online/en/sss), [Pricing](https://limitra.online/en/pricing), [Comparison](https://limitra.online/en/compare), [Changelog](https://limitra.online/en/changelog).
 
-## English Summary
+## Karşılaştırmalar / Comparisons
 
-### What is Limitra App Block?
-Limitra App Block is a privacy-focused app blocker and screen time management tool developed for Android devices.
+- [StayFree alternatifi](https://limitra.online/stayfree-alternatifi) · [EN](https://limitra.online/en/stayfree-alternative)
+- [AppBlock alternatifi](https://limitra.online/appblock-alternatifi) · [EN](https://limitra.online/en/appblock-alternative)
+- [YourHour alternatifi](https://limitra.online/yourhour-alternatifi) · [EN](https://limitra.online/en/yourhour-alternative)
+- [Digital Wellbeing alternatifi](https://limitra.online/digital-wellbeing-alternatifi) · [EN](https://limitra.online/en/digital-wellbeing-alternative)
+- [Forest alternatifi](https://limitra.online/forest-alternatifi) · [EN](https://limitra.online/en/forest-alternative)
 
-### What Problem Does It Solve?
-It helps users reduce screen time and control social media overuse. Unlike standard soft warnings that are easily bypassed, Limitra App Block enforces hard limits. Once the daily limit is reached, it blocks the application, helping users stick to their pre-determined digital discipline decisions.
+## Bilgi merkezi ve haberler / Guides and news
 
-### How It Works:
-1. Select target apps to restrict.
-2. Set a daily usage limit.
-3. The app is blocked for the rest of the day once the limit expires.
+- [Bilgi merkezi](https://limitra.online/bilgi-merkezi): ekran süresi, kısa video, uyku ve dikkat, yumuşak limitler neden yetmez
+- [Haberler](https://limitra.online/haberler): dünya genelinde okullarda telefon yasakları ve ekran süresi düzenlemeleri (11 dilde, günlük güncellenir)
 
-### Target Audience:
-- Users wanting to control their social media overuse.
-- Students preparing for exams seeking focused study blocks.
-- Professionals striving for undistracted deep work sessions.
-- Anyone building digital discipline.
+## Makine-okunur kaynaklar / Machine-readable
 
-### Key Pages
-- Home: `/en`
-- Global Press & News: `/en/news` (Daily updates on screen addiction regulations & neuroscience studies)
-- Knowledge Center: `/en/bilgi-merkezi`
-  - Screen Time Guide: `/en/bilgi-merkezi/ekran-suresi`
-  - Social Media & Attention: `/en/bilgi-merkezi/sosyal-medya-ve-kisa-video`
-  - Attention, Sleep & Daily Routines: `/en/bilgi-merkezi/dikkat-uyku-ve-rutinler`
-  - How to Reduce Screen Time: `/en/bilgi-merkezi/ekran-suresini-azaltma-yontemleri`
-  - Why Standard Limits Fail: `/en/bilgi-merkezi/klasik-limitler-neden-yetmez`
-  - Behavioral Limits: `/en/bilgi-merkezi/daha-net-uygulama-sinirlari`
-- About Limitra App Block: `/en/limitra`
-- FAQ: `/en/sss`
-- Privacy Policy: `/en/gizlilik-politikasi`
-- Terms of Use: `/en/kullanim-sartlari`
-- Contact: `/en/iletisim`
+- [Tam ürün bağlamı / full context](https://limitra.online/llms-full.txt)
+- [Sitemap](https://limitra.online/sitemap.xml)
+- JSON-LD: her sayfada Organization + WebSite + SoftwareApplication; /sss sayfasında FAQPage.
 
-### Play Store URL Placeholder
-#play-store-link
+## Notlar / Notes
+
+Fiyat, sürüm ve özellik listesi değişebilir; kritik bir karar öncesi bağlantılı sayfayı doğrulayın. Rakip bilgileri herkese açık mağaza sayfalarından derlenmiştir ve rakipler değiştikçe güncelliğini yitirebilir. Limitra tıbbi veya psikolojik bir tedavi aracı değildir.
