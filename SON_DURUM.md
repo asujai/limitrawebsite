@@ -8,6 +8,8 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-09-11)
+- **Yapay zekâ görünürlüğü (GEO/AEO) uygulandı (Claude, 11 Eylül 21:20):** her sayfada JSON-LD (Organization/WebSite/SoftwareApplication), ana sayfa cevap bloğu, SSS 27 soru + FAQPage, tr+en 16 yeni ürün sayfası (/fiyatlandirma, /karsilastirma, 5× rakip-alternatifi, /degisiklik-gunlugu), llms.txt yeniden yazıldı + llms-full.txt, robots.txt bot bazlı, nginx AI bot logu, IndexNow anahtarı. Durum tablosu ve kullanıcı eylemleri: `AI_GORUNURLUK.md`.
+- **Kanonik ürün adı:** "Limitra App Block" (JSON-LD `alternateName` ile Play başlıkları bağlı). `src/data/schema.ts` tek kaynak (sürüm, fiyat, kısa tanım).
 - Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir.
 - Günlük haber otomasyonu (`webierik` sidecar) gece 22:00'ye (`0 22 * * *`) ayarlandı.
 - Prompt'a Günlük Yayın Kilidi (Idempotency Guard) eklenerek üst üste haber atılması kalıcı olarak engellendi.
@@ -46,6 +48,7 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 7. `npm run deploy:vps` ile derleme ve bağlantı kontrolü yeniden çalıştırılır; çıktı VPS'e atomik biçimde gönderilir ve son 5 sürüm geri dönüş için korunur.
 
 ## Bilinen Sorunlar
+- IndexNow Bing site doğrulaması beklemede (anahtar dosyası çekildi, 403 döndü); Bing Webmaster Tools kaydı yapılmadı — 90 günde bingbot yalnız 6 istek. Kullanıcı eylemi: `AI_GORUNURLUK.md` §1.
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
 - `public/og-limitra.png` sosyal paylaşım görseli eski uygulama arayüzünü gösteriyor.
 - Cenuta VPS daha önce yüksek yük altında SSH/HTTP yanıtı vermeyi durdurdu ve panelden normal yeniden başlatma gerektirdi. Yeniden başlatma sonrasında düşük yükle kararlı çalıştı; tekrar ederse sağlayıcıya destek kaydı açılmalı veya daha güvenilir bir barındırma katmanı değerlendirilmelidir.

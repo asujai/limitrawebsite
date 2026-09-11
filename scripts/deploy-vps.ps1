@@ -39,8 +39,9 @@ try {
     if ($LASTEXITCODE -ne 0) { throw "Paket sunucuya aktarilamadi." }
 
     Write-Host "[4b/5] Nginx yapilandirmasi esitleniyor..."
-    & scp @sshOptions (Join-Path $projectRoot "deploy
-ginx-limitra.conf") "${sshTarget}:/tmp/limitra.conf"
+    # Windows OpenSSH scp ters bolu dizilerini kacis olarak yorumlar; duz bolu kullan.
+    $nginxConfLocal = (Join-Path $projectRoot "deploy/nginx-limitra.conf").Replace([char]92, '/')
+    & scp @sshOptions $nginxConfLocal "${sshTarget}:/tmp/limitra.conf"
     if ($LASTEXITCODE -ne 0) { throw "Nginx yapilandirmasi aktarilamadi." }
     $nginxCommand = "set -e; if ! sudo cmp -s /tmp/limitra.conf /etc/nginx/sites-available/limitra.conf; then sudo cp /etc/nginx/sites-available/limitra.conf /etc/nginx/sites-available/limitra.conf.bak; sudo cp /tmp/limitra.conf /etc/nginx/sites-available/limitra.conf; sudo nginx -t || { sudo cp /etc/nginx/sites-available/limitra.conf.bak /etc/nginx/sites-available/limitra.conf; exit 1; }; fi; rm -f /tmp/limitra.conf"
     & ssh @sshOptions $sshTarget $nginxCommand
