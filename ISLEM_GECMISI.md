@@ -1,5 +1,23 @@
 # İşlem Geçmişi
 
+## [2026-09-11 20:30] - Günlük Haber Otomasyonu (Sidecar) Teşhisi, İdempotency Kilidi ve Telafi Altyapısının Kurulması
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `C:\Users\abdul\.gemini\config\sidecars\webierik\sidecar.json` (Günlük yayın kilidi - Idempotency Guard eklendi, cron `0 22 * * *` olarak doğrulandı)
+  - `[YENİ]` `scripts/check-daily-news.ps1` (Günlük haber durum kontrolü ve otomatik telafi tetikleme betiği)
+  - `[GÜNCELLENDİ]` `package.json` (`npm run check:news` kısayolu eklendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının günlük haber otomasyonundaki aksaklık (bazen üst üste atma, bazen 3 gün arayla atma, 9 Eylül'den beri haber eklenmemesi) şikayeti üzerine `webierik` sidecar logları ve çalışma geçmişi incelendi.
+  1. **Üst üste atma nedeni:** 4-5 Eylül'de cron ifadesinin `0 * * * *` (her saat başı) olarak ayarlandığı ve prompt'ta günlük kontrol bulunmadığı için 5 Eylül'de saat başı 7 haber atıldığı tespit edildi. Prompt'un en başına `src/data/haberler.json` üzerinden gün kontrolü yapan katı **Günlük Yayın Kilidi (Idempotency Guard)** entegre edildi. Artık cron hatalı olsa dahi bir günde asla 1'den fazla haber üretilemez.
+  2. **Gecikme/Atlama nedeni:** Otomasyonun VPS'te değil yerel PC'de Antigravity içinde çalıştığı ve saat 09:00'da PC kapalı olduğunda zamanlayıcının o günü telafi etmeyip sonraki güne atladığı belirlendi. Kullanıcı saati gece 22:00'ye (`0 22 * * *`) aldı; sidecar yeniden yüklenip sonraki tetikleme bu gece 22:00 TR saati olarak doğrulandı.
+  3. **Telafi mekanizması:** Gece 22:00'de PC kapalı kalırsa kaçan haberin telafi edilebilmesi için `scripts/check-daily-news.ps1` ve `npm run check:news` komutu oluşturuldu.
+* **Doğrulama:** `npm run check:news` çalıştırıldı ve durum doğru raporlandı. `sidecar.json` JSON doğrulaması yapıldı, sidecar logunda `Next execution scheduled at 2026-09-11 19:00:00 UTC (22:00 TR)` görüldü.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** İstenirse `scripts/check-daily-news.ps1` Windows Task Scheduler açılış görevine eklenerek kaçırılan günlerin PC açılır açılmaz telafisi tam otomatik kılınabilir.
+
+
 ## [2026-09-09 09:20] - DSÖ Avrupa Raporu: Ergenlerde Problemli Sosyal Medya ve Oyun Bağımlılığı Artışı Makalesinin 11 Dilde Eklenmesi ve Yayını
 
 * **Model:** Antigravity

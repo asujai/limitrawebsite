@@ -9,7 +9,8 @@
     "deploy:vps": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/deploy-vps.ps1",
     "preview": "astro preview",
     "astro": "astro",
-    "check:links": "node scripts/check-links.mjs"
+    "check:links": "node scripts/check-links.mjs",
+    "check:news": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-daily-news.ps1"
   },
   "dependencies": {
     "astro": "^4.16.12"

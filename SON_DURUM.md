@@ -7,17 +7,15 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-09-09)
-- Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir. Netlify artık canlı yayın bağımlılığı değildir; yalnızca geri dönüş kopyası olarak korunmaktadır.
-- Porkbun DNS kayıtları `limitra.online` ve `www.limitra.online` için VPS IP'sine yönlendirilmiştir. `www` ve HTTP istekleri canonical `https://limitra.online` adresine 301 ile gider.
-- Let's Encrypt sertifikası `limitra.online` ve `www.limitra.online` alanlarını kapsar; 28 Kasım 2026 tarihine kadar geçerlidir ve Certbot tarafından yenilenebilir.
-- Play Console ile birebir senkronize 512×512 PNG Limitra ikonu (`public/logo.png`) kaynak kodda ve canlı sitede tüm alanlara uygulanmıştır.
-- Haber portalı ve arşivi 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) toplam **33 doğrulanmış haber ve makaleyle** yayındadır (yeni eklenen: DSÖ'den Tarihi Küresel Sağlık Raporu: Ergenlerde Problemli Sosyal Medya Kullanımı %11'e Tırmandı, Okullarda Telefon Yasağı ve Sıkı Ekran Sınırı Çağrısı, ID: 33).
-- `npm run build` ile 432 statik sayfa 0 hata ile derlendi.
-- `npm run check:links` ile tüm iç bağlantılar doğrulandı.
+## Güncel Durum (2026-09-11)
+- Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir.
+- Günlük haber otomasyonu (`webierik` sidecar) gece 22:00'ye (`0 22 * * *`) ayarlandı.
+- Prompt'a Günlük Yayın Kilidi (Idempotency Guard) eklenerek üst üste haber atılması kalıcı olarak engellendi.
+- Haber durum kontrolü ve telafi için `scripts/check-daily-news.ps1` ve `npm run check:news` eklendi.
+- Canlı yayında toplam 33 doğrulanmış haber ve makale mevcuttur (en son haber: DSÖ Ergen Raporu, ID: 33).
 
 ## Son Yapılan İşlem
-- **İşlem:** Dünya Sağlık Örgütü (DSÖ) Avrupa Bölge Ofisi ve HBSC tarafından 44 ülkede 280.000 genç üzerinde yürütülen ve ergenlerde bağımlılık benzeri problemli sosyal medya kullanımının %11'e, oyun riskinin %12'ye tırmandığını belgeleyen küresel sağlık raporu temel alınarak hazırlanan makale 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) ID: 33 olarak eklendi. `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` güncellendi (430 URL), 432 statik sayfa 0 hata ile derlendi, tüm iç bağlantılar doğrulandı, git commit (`[antigravity] feat:...`) oluşturulup GitHub `origin/main`e push edildi (`0c5858a`). `npm run deploy:vps` çalıştırılarak Cenuta VPS'e (`89.252.153.119`) atomik dağıtım yapıldı (sürüm `20260909-091920`) ve canlı linkler HTTP 200 ile doğrulandı.
+- **İşlem:** Günlük haber otomasyonundaki geçmiş aksaklıkların (üst üste atma ve gün atlama) kök nedeni tespit edildi. Sidecar prompt'una `src/data/haberler.json` üzerinden tarih kontrolü yapan Idempotency Guard (Günlük Yayın Kilidi) eklendi; böylece cron hatası veya çift tetiklemede dahi aynı gün 2. haberin üretilmesi engellendi. Kullanıcının saati 22:00'ye (`0 22 * * *`) alması sonrasında zamanlayıcı doğrulandı (bu gece 22:00 TR). Kaçırılan günler için `scripts/check-daily-news.ps1` ve `npm run check:news` eklendi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
