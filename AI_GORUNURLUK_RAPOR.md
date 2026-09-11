@@ -2,6 +2,80 @@
 
 Bu rapor, `gardiyan2` oturumundan web sitesi reposuna (`C:\Users\abdul\lmitraweb`) yapılan değişiklikleri tam olarak listeler. Web sitesi projesinde açılacak oturumun buradan devam etmesi için yazıldı.
 
+## A. Amaç: Bu çalışma neden yapıldı?
+
+**Hedef:** Bir kullanıcı ChatGPT, Claude, Perplexity, Gemini veya Google AI Overviews'a "Android için aboneliksiz uygulama engelleyici hangisi?", "StayFree alternatifi", "Digital Wellbeing yetmiyor, daha sert bir şey var mı?" gibi bir soru sorduğunda cevapta **Limitra App Block**'un adı geçsin ve `limitra.online` / Play Store linki verilsin. Klasik SEO'nun (Google sıralaması) yanına **GEO/AEO** (Generative Engine / Answer Engine Optimization) eklemek.
+
+**Kaynak:** Kullanıcının verdiği `C:\Users\abdul\Downloads\ai-gorunurluk-playbook.md` (aisa.one analizinden türetilmiş 7 fazlı uygulama planı). Playbook iki hedefi ayırır; biz **Hedef 2**'deyiz:
+- Hedef 1 — "Agent'lar ürünü kullanabilsin" (MCP, OpenAPI, agent-card): Limitra'nın API'si yok, uygulama internet izni bile istemiyor → **kapsam dışı**.
+- Hedef 2 — "AI cevap motorları kullanıcıya ürünü önersin": crawl erişimi + çıkarılabilir HTML + entity tutarlılığı + üçüncü taraf doğrulama → **yapılan iş bu**.
+
+### A.1 Yapay zekâ bir ürünü nasıl "görür" — 5 katman
+
+| Katman | Soru | Limitra'da durum (11 Eylül) |
+|---|---|---|
+| 0 Erişim | Bot sayfayı çekebiliyor mu, içeriği görebiliyor mu? | ✅ Zaten iyiydi: Astro statik HTML, WAF yok, 90 günde GPTBot 1.669 / Claude-User 2.177 / PerplexityBot 557 istek. **Eksik:** bingbot yalnız 6 istek — ChatGPT'nin web araması Bing indeksine dayanır; Bing'de yoksan ChatGPT canlı aramasında yoksun. |
+| 1 Yapı | Çekilen HTML'den doğrudan bir cevap çıkarılabiliyor mu? | ❌ Eksikti. Ana sayfa pazarlama dili ("Kararını şimdi ver"), fiyat sayfası yok, rakip karşılaştırması yok, JSON-LD yok, SSS 12 soru (fiyat/izin/atlatma soruları yok). AI, RAG aşamasında "pasaj" arar; slogan pasaj değildir. |
+| 2 Keşif dosyaları | llms.txt vb. makine-okunur yüzeyler var mı? | ⚠️ llms.txt vardı ama Play linki `#play-store-link` placeholder'dı, EN kısmı yarımdı. Playbook'un uyarısı: bu katmanın atıf etkisi düşük, maliyeti de düşük; yayınla ama beklentiyi buraya bağlama. |
+| 3 Otorite | Başka kaynaklar seni doğruluyor mu? | ❌ Hiç yok. Baseline web araması: "Limitra app blocker" → bahis yok; "limitra.online" → site çıkmıyor, "Limitra" adı Hindistan'da takviye markası, GitHub rate-limit kütüphaneleri ve İngiltere finans brokerine gidiyor. **Atıfın asıl geldiği katman bu; tamamen kullanıcı eylemi gerektiriyor.** |
+| 5 Ölçüm | İşe yaradığını nereden bileceğiz? | ❌ Yoktu. AI bot ziyaretleri ayrıştırılmıyordu, AI cevaplarında bahis takibi yoktu. |
+
+### A.2 Kilit karar: ürün adı
+
+"Limitra" tek başına aramada kalabalık bir isim. AI'lar entity'yi (varlığı) isim + tanım + URL üçlüsünün **her yerde birebir aynı** olmasıyla tanır. Bugün 4 farklı yazım vardı: "Limitra: Uygulama Engelleyici" (Play TR), "Limitra: Focus App Blocker" (Play EN), "Limitra AppBlock" (Play açıklama içi), "Limitra App Block" (site). Karar: web, JSON-LD, llms.txt ve tüm üçüncü taraf kayıtlarda **"Limitra App Block"**; Play başlıkları dil bazlı kalır ve JSON-LD `alternateName` ile bağlanır. Kanonik tek cümle (her yerde aynı kullanılacak):
+
+> Limitra App Block, Android için aboneliksiz ve %100 çevrimdışı bir uygulama engelleyici ve ekran süresi sınırlayıcıdır; günlük limit dolduğunda seçilen uygulamayı gün sonuna kadar kilitler.
+
+> Limitra App Block is a subscription-free, 100% offline app blocker and screen time limiter for Android; when the daily limit runs out it locks the selected app until the end of the day.
+
+### A.3 Her değişikliğin gerekçesi
+
+| Yapılan | Neden |
+|---|---|
+| Ana sayfa H1 altına ≤120 kelimelik düz cevap paragrafı | AI pasaj skorlamasında en yüksek şansı olan yapı; "ne, kim için, platform, fiyat" tek paragrafta |
+| JSON-LD: Organization + WebSite + SoftwareApplication (fiyat, sürüm, işletim sistemi, özellik listesi, indirme linki) | Google/Bing/AI'ların ürünü "yazılım uygulaması" olarak yapısal tanıması; fiyatın "ücretsiz" sanılmaması |
+| SSS 12 → 27 soru + FAQPage şeması | Kullanıcıların AI'ya soracağı gerçek sorular (fiyat, izin güvenliği, atlatılabilir mi, iOS var mı, Digital Wellbeing farkı) doğrudan cevaplı başlıklar olarak; başlık = sorunun kendisi |
+| `/fiyatlandirma` (sayı olarak) | AI "kaç para" sorusuna "iletişime geçin" yerine ₺29,99 tek ödeme diyebilsin |
+| `/karsilastirma` gerçek `<table>` + `<caption>` | Görsel/canvas içindeki tablo AI için yoktur; tarafsız tablo (Limitra'nın eksikleri de yazılı) güven sinyali |
+| 5 × `/<rakip>-alternatifi` sayfası | "X alternatifi" soruları AI'ların en çok çektiği sayfa tipi; her sayfa "rakip nerede güçlü / Limitra nerede farklı / hangisiyle kal" yapısında, tek taraflı değil |
+| `/degisiklik-gunlugu` | Tazelik sinyali (Perplexity tazeliğe ağırlık verir); sürüm geçmişi = ürün canlı |
+| llms.txt yeniden + llms-full.txt | Agent'a tek dosyada "ne zaman uygun / ne zaman değil" bağlamı; düşük maliyet |
+| robots.txt bot bazlı açık liste | Eğitim botlarını (GPTBot, ClaudeBot) bilinçli açık bırakma kararı: kapatmanın tek maliyeti gelecek modellerin ürünü hiç bilmemesi |
+| nginx AI bot logu | Hangi bot hangi sayfayı ne sıklıkla çekiyor — Faz 1 içeriğinin gerçekten okunduğunun kanıtı |
+| IndexNow anahtarı | Bing/Yandex'e anında URL bildirimi (Bing Webmaster kaydı tamamlanınca çalışır) |
+| Play açıklaması: isim birleştirme + site linki | Mağaza açıklaması AI tarafından okunur; site↔mağaza entity bağı |
+| hreflang, sitemap 446 URL | Yeni sayfaların tr/en eşleşmesi ve keşfi |
+
+### A.4 Henüz yapılmayanlar — atıfın asıl geleceği yer (kullanıcı eylemi)
+
+Sıra etkiye göre. Site tarafı bittikten sonra bu liste olmadan sonuç gelmez.
+
+1. **Bing Webmaster Tools** (30 dk, en yüksek etki) — https://www.bing.com/webmasters → "Import from Google Search Console" varsa tek tık; yoksa site ekle, XML dosya doğrulaması (dosyayı web oturumuna ver, `public/` altına konur), sitemap gönder. Ardından `npm run indexnow`.
+2. **Google Search Console** — property var mı kontrol; sitemap gönder; Rich Results Test (/, /sss).
+3. **Entity kayıtları — hepsinde A.2'deki isim, cümle ve URL birebir aynı:**
+   - AlternativeTo (StayFree, AppBlock, YourHour, Forest, Digital Wellbeing'in alternatifi olarak işaretle) — "X alternatifi" sorularında AI'ların ana kaynağı
+   - Product Hunt lansmanı
+   - Wikidata item (mobile app, platform Android, developer Limitra, official website) — entity graph'a giriş, Wikipedia'dan çok daha kolay
+   - GitHub'da README-only public repo `limitra-app-block` (tanım + linkler)
+   - LinkedIn ürün sayfası, Crunchbase (ücretsiz)
+   - Türkçe: Webrazzi, Teknoseyir, DonanımHaber forum, Ekşi Sözlük başlığı
+4. **YouTube** — Ahrefs'in 75.000 marka araştırmasında AI Overviews görünürlüğüyle en güçlü korelasyonlu sinyal: video başlığı + transkriptte marka adı. M4 için zaten bekleyen tanıtım videosu + 2-3 dk "nasıl çalışır"; başlıkta "Limitra App Block", açıklamada kanonik cümle + site linki, **altyazı/transkript yüklü**. Link Play Console'a `gpc listings patch --video` ile bağlanır.
+5. **Reddit / topluluk** — r/androidapps, r/nosurf, r/digitalminimalism, r/productivity'de dürüst "I built…" gönderisi (sınırları da yaz: web engelleme yok, iOS yok); Hacker News "Show HN". Perplexity kaynaklarının ~yarısı Reddit.
+6. **Özgün veri** — kopyalanamayan içerik en çok atıf alır. Uygulama çevrimdışı olduğu için sunucu metriği yok; öneri: ölçülebilir teknik iddia + yöntem ("erişilebilirlik akışı kesildiğinde UsageStats uzlaştırmasıyla süre kaçağı ≤10 sn") veya Play Console'dan anonim ülke/indirme dağılımı.
+7. **GA4 referral segmenti** — session source: chatgpt.com, chat.openai.com, perplexity.ai, claude.ai, gemini.google.com, copilot.microsoft.com. Hacmi küçük, dönüşümü yüksek trafik; ayrı izle.
+8. **Haftalık ölçüm** — `scripts/gorunurluk.py` 15 hedef soruyu OpenAI/Perplexity/Anthropic'e sorup marka bahsi ve link oranını CSV'ye yazar; aylık ~2-5 USD API kredisi gerekir (kullanıcıda anahtar yok). Anahtar gelene kadar `npm run report:bots` ile bot logu izlenir.
+
+### A.5 Beklenti yönetimi
+
+- Yeni içeriğin AI cevaplarında görünmesi için **4-8 hafta** indeksleme gecikmesi normal. Baseline bugün alındı (bahis 0, link 0); ilk anlamlı ölçüm Ekim ortası.
+- Platformların kaynak tercihleri farklı (ChatGPT ↔ Perplexity ortak atıf alanı ~%11); tek kanala yatırım yapma.
+- Yapılmaması gerekenler: Googlebot'u kapatma; "AI için" ayrı gizli içerik (cloaking); her sayfanın `.md` kopyasını indekslenebilir bırakma; sayı uydurma.
+- Hedef sorular (ölçüm ve içerik için): en iyi android uygulama engelleyici; aboneliksiz ekran süresi uygulaması; instagram/tiktok süresini sınırlayan uygulama; digital wellbeing yetmiyor daha sert engelleyici; StayFree alternatifi; AppBlock alternatifi; öğrenciler için odaklanma uygulaması android; çevrimdışı çalışan uygulama kilitleyici; erişilebilirlik izni isteyen app blocker güvenli mi; doomscrolling engelleyen uygulama (+ EN karşılıkları, `scripts/gorunurluk.py` içinde).
+
+Ayrıntılı durum tablosu ve kabul kriterleri: `AI_GORUNURLUK.md`. Playbook'un tam metni: `C:\Users\abdul\Downloads\ai-gorunurluk-playbook.md`.
+
+---
+
 ## 0. Olay özeti ve mevcut durum
 
 | Saat (TR) | Olay |
