@@ -37,7 +37,7 @@
 - `npm run build` → 454 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu (452 URL).
-- Canlı ana sayfa, 11 dil rotası, TR/EN/ES haber sayfaları (yeni eklenen ID 33 dahil: `/haberler/dso-avrupa-raporu-ergenlerde-problemli-sosyal-medya-ve-oyun-bagimliligi-artisi/`, `/en/news/...`, `/es/news/...`), sitemap ve robots dosyası VPS IP'sinden (`89.252.153.119`) 200 döndü (sürüm `20260909-091920`).
+- Canlı ana sayfa, 11 dil rotası, TR/EN/ES haber sayfaları, yeni eklenen ürün sayfaları (`/nedir/`, `/nasil-calisir/`, `/agent-discovery/`, `/fiyatlandirma/`, `/en/what-is-limitra/`, `/en/how-it-works/`), `.well-known/agent-card.json`, `llms.txt`, sitemap ve robots dosyaları VPS'te 200 ile doğrulandı (canlı sürüm `20260911-221400`). Sunucu yük ortalaması 0.43 ile kararlı.
 - Canlı `/logo.png` → 200 ve 250.139 bayt.
 - HTTP → HTTPS ve `www` → apex yönlendirmeleri 301 ile doğrulandı.
 - TLS sertifikası Let's Encrypt tarafından verildi; CN `limitra.online`, son geçerlilik 28 Kasım 2026.
