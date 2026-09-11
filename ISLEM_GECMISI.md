@@ -1,5 +1,34 @@
 # İşlem Geçmişi
 
+## [2026-09-11 22:20] - Görünürlük Raporu Kapsamında Siteyi Sıfırlamadan Hedefli GEO/AEO Eklemelerinin Yapılması
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `src/components/WhatIsPage.astro` ("Limitra App Block Nedir?" bileşeni)
+  - `[YENİ]` `src/components/HowItWorksPage.astro` ("Limitra App Block Nasıl Çalışır?" teknik mimari bileşeni)
+  - `[YENİ]` `src/components/AgentDiscoveryPage.astro` (AI asistanları ve LLM ajanları keşif vitrini)
+  - `[YENİ]` `src/pages/nedir.astro` (TR /nedir rotası)
+  - `[YENİ]` `src/pages/en/what-is-limitra.astro` (EN /en/what-is-limitra rotası)
+  - `[YENİ]` `src/pages/nasil-calisir.astro` (TR /nasil-calisir rotası)
+  - `[YENİ]` `src/pages/en/how-it-works.astro` (EN /en/how-it-works rotası)
+  - `[YENİ]` `src/pages/agent-discovery.astro` (TR /agent-discovery rotası)
+  - `[YENİ]` `src/pages/en/agent-discovery.astro` (EN /en/agent-discovery rotası)
+  - `[YENİ]` `public/.well-known/agent-card.json` (A2A uyumlu ajan spesifikasyon kartı)
+  - `[GÜNCELLENDİ]` `src/data/product-pages.ts` (whatIs, howItWorksDeep, agentDiscovery veri modelleri)
+  - `[GÜNCELLENDİ]` `src/data/routes.ts` (whatIs, howItWorksDeep, agentDiscovery rotalama kuralları)
+  - `[GÜNCELLENDİ]` `src/layouts/Layout.astro` (Otomatik BreadcrumbList JSON-LD şeması entegrasyonu)
+  - `[GÜNCELLENDİ]` `src/components/Footer.astro` (Ürün menüsüne yeni sayfaların eklenmesi)
+  - `[GÜNCELLENDİ]` `src/pages/limitra.astro` ve `src/pages/en/limitra.astro` (Derin teknik/felsefi sayfa bağlantıları)
+  - `[GÜNCELLENDİ]` `public/llms.txt` ve `public/llms-full.txt` (Yeni sayfaların eklenmesi)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` (Tüm yeni sayfaların site haritasına eklenmesi, 452 URL)
+  - `[GÜNCELLENDİ]` `scripts/deploy-vps.ps1` (Deploy öncesi loadavg kontrolü ve arka planda hafif sürüm temizliği)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kullanıcının verdiği "Limitra Görünürlük Raporu" (`ai-gorunurluk-playbook.md`) doğrultusunda, web sitesinin mevcut 11 dilli yapısı ve tasarımı korunarak arama motoru ve AI görünürlüğünü (GEO/AEO) maksimuma çıkaracak eklemeler gerçekleştirildi. Raporda Faz 1.2'nin en öncelikli maddesi olarak listelenen kategori tanımı (`/nedir` ve `/en/what-is-limitra`), teknik mimari (`/nasil-calisir` ve `/en/how-it-works`) ve AI/LLM modelleri için makine ve insan okunur fihrist (`/agent-discovery` ve `/en/agent-discovery`) sayfaları geliştirildi. Her sayfaya ≤120 kelimelik doğrudan cevap blokları, hedef kitle analizleri, stoacı ilkeler, 4 aşamalı koruma döngüsü, izinler ve gizlilik şeffaflık tablosu (`<table>` + `<caption>`), ve teknik SSS eklendi. `public/.well-known/agent-card.json` oluşturuldu. `Layout.astro`'ya Google Rich Results için hiyerarşik `BreadcrumbList` JSON-LD şeması entegre edildi. VPS deploy betiğindeki CPU/I-O yükünü önlemek için loadavg denetimi eklendi.
+* **Doğrulama:** `npm run build` ile 454 sayfa 0 hata ile inşa edildi; `npm run check:links` ile tüm iç bağlantılar doğrulandı ("OK - kirik ic baglanti yok"); `npm run sitemap` çalıştırıldı; üretilen dist HTML'lerindeki JSON-LD şemaları incelendi ve doğrulandı; VPS anlık yük değeri (load: 0.00, 0.26) SSH ile teyit edildi.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** İstenirse `npm run deploy:vps` ile yeni 454 sayfalık sürüm VPS'e güvenle dağıtılabilir; Bing Webmaster Tools kaydı ve XML doğrulaması yapıldığında `npm run indexnow` tetiklenebilir.
+
 ## [2026-09-11 21:20] - Yapay Zekâ Görünürlüğü (GEO/AEO) Faz 0-2-5-6 Uygulandı, Canlıya Alındı
 
 * **Model:** Claude

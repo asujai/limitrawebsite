@@ -1,0 +1,151 @@
+---
+import ProductPage from './ProductPage.astro';
+import { howItWorksDeep, STORE_URL } from '../data/product-pages';
+import { routes } from '../data/routes';
+
+interface Props {
+  lang: 'tr' | 'en';
+}
+
+const { lang } = Astro.props;
+const h = howItWorksDeep[lang];
+const r = routes(lang);
+
+const whatIsLinkText = lang === 'tr' ? 'Limitra felsefesi ve hedef kitle: Nedir? →' : 'Limitra philosophy and target audience: What is it? →';
+const faqLinkText = lang === 'tr' ? 'Detaylı 27 soruluk SSS sayfasına göz atın →' : 'Check out our comprehensive 27-question FAQ →';
+const compareLinkText = lang === 'tr' ? 'StayFree, AppBlock ve diğerleriyle özellik tablosu →' : 'Feature comparison table against StayFree, AppBlock and others →';
+---
+
+<ProductPage lang={lang} title={h.title} description={h.description} h1={h.h1} answer={h.answer}>
+  <h2>{h.stepsTitle}</h2>
+  <div class="steps-container">
+    {h.steps.map((s) => (
+      <div class="step-card">
+        <div class="step-badge">{s.num}</div>
+        <div class="step-content">
+          <h3>{s.title}</h3>
+          <p>{s.desc}</p>
+          <div class="step-tech">
+            <strong>{lang === 'tr' ? 'Teknik Detay: ' : 'Technical Note: '}</strong>{s.techDetail}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <h2>{h.permissionsTitle}</h2>
+  <div class="table-wrap">
+    <table>
+      <caption>{h.permissionsCaption}</caption>
+      <thead>
+        <tr>
+          {h.permissionsCols.map((col) => (
+            <th scope="col">{col}</th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {h.permissions.map(([perm, why, risk, safeguard]) => (
+          <tr>
+            <th scope="row">{perm}</th>
+            <td>{why}</td>
+            <td>{risk}</td>
+            <td><strong>{safeguard}</strong></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>{h.faqTitle}</h2>
+  <div class="faq-list">
+    {h.faqItems.map((item) => (
+      <div class="faq-item">
+        <h3>{item.q}</h3>
+        <p>{item.a}</p>
+      </div>
+    ))}
+  </div>
+
+  <div class="internal-links">
+    <p><a href={r.whatIs}>{whatIsLinkText}</a></p>
+    <p><a href={r.faq}>{faqLinkText}</a></p>
+    <p><a href={r.compare}>{compareLinkText}</a></p>
+  </div>
+
+  <div style="margin-top: var(--space-8);">
+    <a class="cta" href={STORE_URL} target="_blank" rel="noopener noreferrer">{h.ctaText} ↗</a>
+  </div>
+</ProductPage>
+
+<style>
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin: var(--space-4) 0 var(--space-8) 0;
+  }
+  .step-card {
+    display: flex;
+    gap: var(--space-4);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+  }
+  .step-badge {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+    padding-top: var(--space-1);
+    min-width: 40px;
+  }
+  .step-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-2);
+    color: var(--text-primary);
+  }
+  .step-content p {
+    font-size: 0.95rem;
+    margin-bottom: var(--space-2);
+  }
+  .step-tech {
+    font-size: 0.85rem;
+    background: rgba(38, 103, 245, 0.05);
+    border-left: 2px solid var(--accent);
+    padding: var(--space-2) var(--space-3);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    color: var(--text-secondary);
+  }
+  .faq-list {
+    margin: var(--space-4) 0 var(--space-8) 0;
+  }
+  .faq-item {
+    margin-bottom: var(--space-4);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--border-color);
+  }
+  .faq-item h3 {
+    font-size: 1.05rem;
+    margin-bottom: var(--space-2);
+    color: var(--text-primary);
+  }
+  .faq-item p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
+  .internal-links {
+    margin-top: var(--space-8);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--border-color);
+  }
+  .internal-links p {
+    margin-bottom: var(--space-2);
+  }
+  .internal-links a {
+    font-weight: 500;
+    color: var(--accent);
+  }
+</style>

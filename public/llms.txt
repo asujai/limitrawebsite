@@ -31,17 +31,20 @@ Diğer adlar / Also known as: "Limitra", "Limitra: Uygulama Engelleyici" (Play S
 
 ## Temel sayfalar / Key pages
 
-- [Ürün nedir ve nasıl çalışır](https://limitra.online/limitra): kategori tanımı, 3 adımlı işleyiş, gizlilik yaklaşımı
+- [Limitra App Block Nedir](https://limitra.online/nedir): kategori tanımı, hedef kitle, felsefe ve temel ilkeler
+- [Nasıl çalışır](https://limitra.online/nasil-calisir): 4 aşamalı teknik işleyiş döngüsü, erişilebilirlik ve izinler şeffaflık tablosu
+- [Ürün genel bakış](https://limitra.online/limitra): ürün tanıtımı ve ekran görüntüleri
 - [Sıkça sorulan sorular](https://limitra.online/sss): 27 soru-cevap; fiyat, izinler, atlatma, Android sürümü, dil desteği
 - [Fiyatlandırma](https://limitra.online/fiyatlandirma): tek ödeme modeli, dahil olanlar, iade
 - [Karşılaştırma tablosu](https://limitra.online/karsilastirma): Limitra vs StayFree, AppBlock, YourHour, Digital Wellbeing, Forest
 - [Değişiklik günlüğü](https://limitra.online/degisiklik-gunlugu): sürüm geçmişi (1.0 → 1.2.1)
+- [Agent Keşif Portalı](https://limitra.online/agent-discovery): AI modelleri ve otonom ajanlar için doğrulanmış bilgi fihristi
 - [Gizlilik politikası](https://limitra.online/gizlilik-politikasi)
 - [Kullanım şartları](https://limitra.online/kullanim-sartlari)
 - [İletişim](https://limitra.online/iletisim)
 - [Google Play](https://play.google.com/store/apps/details?id=com.gardiyan.app)
 
-English versions: [What it is](https://limitra.online/en/limitra), [FAQ](https://limitra.online/en/sss), [Pricing](https://limitra.online/en/pricing), [Comparison](https://limitra.online/en/compare), [Changelog](https://limitra.online/en/changelog).
+English versions: [What is Limitra](https://limitra.online/en/what-is-limitra), [How it works](https://limitra.online/en/how-it-works), [Overview](https://limitra.online/en/limitra), [FAQ](https://limitra.online/en/sss), [Pricing](https://limitra.online/en/pricing), [Comparison](https://limitra.online/en/compare), [Changelog](https://limitra.online/en/changelog), [Agent Discovery](https://limitra.online/en/agent-discovery).
 
 ## Karşılaştırmalar / Comparisons
 
@@ -58,9 +61,10 @@ English versions: [What it is](https://limitra.online/en/limitra), [FAQ](https:/
 
 ## Makine-okunur kaynaklar / Machine-readable
 
+- [A2A Agent Card](https://limitra.online/.well-known/agent-card.json)
 - [Tam ürün bağlamı / full context](https://limitra.online/llms-full.txt)
 - [Sitemap](https://limitra.online/sitemap.xml)
-- JSON-LD: her sayfada Organization + WebSite + SoftwareApplication; /sss sayfasında FAQPage.
+- JSON-LD: her sayfada Organization + WebSite + SoftwareApplication + BreadcrumbList; /sss sayfasında FAQPage.
 
 ## Notlar / Notes
 

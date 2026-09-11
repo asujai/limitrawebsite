@@ -22,6 +22,16 @@ if (-not (Test-Path -LiteralPath $KeyPath -PathType Leaf)) {
 try {
     Push-Location $projectRoot
 
+    Write-Host "[0/5] Sunucu yuk kontrolu yapiliyor..."
+    $loadCheck = & ssh @sshOptions $sshTarget "cat /proc/loadavg"
+    if ($loadCheck) {
+        $load1 = [double]($loadCheck.Split(' ')[0])
+        Write-Host "Sunucu anlik yuk degeri (1 dk): $load1"
+        if ($load1 -gt 3.0) {
+            throw "Sunucu su an yuk altinda (load: $load1 > 3.0). Guvenlik icin deploy durduruldu. Lutfen 2-3 dakika sonra tekrar deneyin."
+        }
+    }
+
     Write-Host "[1/5] Site derleniyor..."
     npm run build
     if ($LASTEXITCODE -ne 0) { throw "Derleme basarisiz oldu." }
@@ -48,7 +58,7 @@ try {
     if ($LASTEXITCODE -ne 0) { throw "Nginx yapilandirmasi dogrulanamadi; eski yapilandirma geri yuklendi." }
 
     Write-Host "[5/5] Yeni surum atomik olarak etkinlestiriliyor..."
-    $remoteCommand = "set -e; sudo mkdir -p '$remoteRelease'; sudo tar -xzf '$remoteArchive' -C '$remoteRelease'; sudo ln -sfn '$remoteRelease' /var/www/limitra/current; sudo nginx -t; sudo systemctl reload nginx; rm -f '$remoteArchive'; sudo find /var/www/limitra/releases -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | tail -n +6 | cut -d' ' -f2- | xargs -r sudo rm -rf"
+    $remoteCommand = "set -e; sudo mkdir -p '$remoteRelease'; sudo tar -xzf '$remoteArchive' -C '$remoteRelease'; sudo ln -sfn '$remoteRelease' /var/www/limitra/current; sudo nginx -t; sudo systemctl reload nginx; rm -f '$remoteArchive'; (sudo find /var/www/limitra/releases -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | tail -n +6 | cut -d' ' -f2- | xargs -r sudo rm -rf >/dev/null 2>&1 &)"
     & ssh @sshOptions $sshTarget $remoteCommand
     if ($LASTEXITCODE -ne 0) { throw "Sunucudaki yayin islemi basarisiz oldu." }
 

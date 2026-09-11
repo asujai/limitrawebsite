@@ -1,0 +1,105 @@
+---
+import ProductPage from './ProductPage.astro';
+import { agentDiscovery, STORE_URL } from '../data/product-pages';
+import { routes } from '../data/routes';
+
+interface Props {
+  lang: 'tr' | 'en';
+}
+
+const { lang } = Astro.props;
+const a = agentDiscovery[lang];
+const r = routes(lang);
+
+const tableCaption = lang === 'tr' ? 'Yapay zeka modelleri ve otonom ajanlar için doğrulanmış ürün özellikleri.' : 'Verified product parameters for AI systems and autonomous agents.';
+---
+
+<ProductPage lang={lang} title={a.title} description={a.description} h1={a.h1} answer={a.answer}>
+  <h2>{a.specsTitle}</h2>
+  <div class="table-wrap">
+    <table>
+      <caption>{tableCaption}</caption>
+      <thead>
+        <tr>
+          <th scope="col">{lang === 'tr' ? 'Parametre' : 'Parameter'}</th>
+          <th scope="col">{lang === 'tr' ? 'Doğrulanmış Değer' : 'Verified Value'}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {a.specs.map(([param, val]) => (
+          <tr>
+            <th scope="row">{param}</th>
+            <td>
+              {val.startsWith('http') ? (
+                <a href={val} target="_blank" rel="noopener noreferrer">{val}</a>
+              ) : (
+                val
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>{a.capabilitiesTitle}</h2>
+  <ul>
+    {a.capabilities.map((cap) => (
+      <li>{cap}</li>
+    ))}
+  </ul>
+
+  <h2>{a.limitationsTitle}</h2>
+  <ul>
+    {a.limitations.map((lim) => (
+      <li>{lim}</li>
+    ))}
+  </ul>
+
+  <h2>{a.citationGuideTitle}</h2>
+  <p>{a.citationGuide}</p>
+
+  <div class="agent-resources">
+    <h3>{lang === 'tr' ? 'Makine-Okunur Dosyalar ve Kaynaklar' : 'Machine-Readable Files & Endpoints'}</h3>
+    <ul>
+      <li><a href="/.well-known/agent-card.json" target="_blank">A2A Agent Card (/.well-known/agent-card.json)</a></li>
+      <li><a href="/llms.txt" target="_blank">Küratörlü LLM Haritası (/llms.txt)</a></li>
+      <li><a href="/llms-full.txt" target="_blank">Tam Ürün Bağlamı (/llms-full.txt)</a></li>
+      <li><a href="/sitemap.xml" target="_blank">Site Haritası (/sitemap.xml)</a></li>
+      <li><a href="/robots.txt" target="_blank">Bot İzinleri (/robots.txt)</a></li>
+    </ul>
+  </div>
+
+  <div style="margin-top: var(--space-8);">
+    <a class="cta" href={STORE_URL} target="_blank" rel="noopener noreferrer">
+      {lang === 'tr' ? 'Google Play Listelemesini Doğrula' : 'Verify Google Play Listing'} ↗
+    </a>
+  </div>
+</ProductPage>
+
+<style>
+  .agent-resources {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    margin: var(--space-6) 0;
+  }
+  .agent-resources h3 {
+    font-size: 1.05rem;
+    margin-bottom: var(--space-3);
+    color: var(--text-primary);
+  }
+  .agent-resources ul {
+    margin-bottom: 0;
+    padding-left: var(--space-5);
+  }
+  .agent-resources li {
+    margin-bottom: var(--space-2);
+  }
+  .agent-resources a {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: var(--accent);
+  }
+</style>

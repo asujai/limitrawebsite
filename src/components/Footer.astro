@@ -30,18 +30,23 @@ const label = {
   deleteAccount: currentLang === 'tr' ? 'Hesap ve veri silme' : 'Delete account & data',
   pricing: currentLang === 'tr' ? 'Fiyatlandırma' : 'Pricing',
   compare: currentLang === 'tr' ? 'Karşılaştırma' : 'Compare',
-  changelog: currentLang === 'tr' ? 'Değişiklik günlüğü' : 'Changelog'
+  changelog: currentLang === 'tr' ? 'Değişiklik günlüğü' : 'Changelog',
+  whatIs: currentLang === 'tr' ? 'Limitra Nedir?' : 'What is Limitra?',
+  howItWorksDeep: currentLang === 'tr' ? 'Nasıl Çalışır?' : 'How it Works',
+  agentDiscovery: currentLang === 'tr' ? 'AI & Ajan Portalı' : 'AI & Agent Portal'
 };
 
 const groups = [
   {
     title: t.footer.productTitle,
     links: [
-      { href: r.howItWorks, label: t.nav.howItWorks },
+      { href: r.whatIs, label: label.whatIs },
+      { href: r.howItWorksDeep, label: label.howItWorksDeep },
       { href: r.faq, label: t.nav.faq },
       { href: r.pricing, label: label.pricing },
       { href: r.compare, label: label.compare },
       { href: r.changelog, label: label.changelog },
+      { href: r.agentDiscovery, label: label.agentDiscovery },
       { href: r.contact, label: label.contact }
     ]
   },

@@ -116,6 +116,12 @@ Tam tablo: https://limitra.online/karsilastirma (2026-09-11 itibarıyla herkese 
 - Digital Wellbeing (Google): Ücretsiz, sistem bileşeni; zamanlayıcı tek dokunuşla kaldırılabilir. Limitra: kilit gün sonuna kadar, iptal 5 dakika basılı tutma; Digital Wellbeing sunmayan cihazlarda da çalışır. Sayfa: /digital-wellbeing-alternatifi
 - Forest: Pomodoro tarzı odak seansları, ağaç metaforu; seans başlatmayı unutursanız korumaz. Limitra: gün bazlı, uygulama başına limit, hatırlamaya bağlı değil. İkisi birlikte kullanılabilir. Sayfa: /forest-alternatifi
 
+Temel ürün sayfaları:
+- Nedir: https://limitra.online/nedir (Kategori tanımı, felsefe, hedef kitle)
+- Nasıl Çalışır: https://limitra.online/nasil-calisir (Teknik mimari, erişilebilirlik ve izinler matrisi)
+- Agent Keşif: https://limitra.online/agent-discovery (AI ve LLM modelleri için teyitli bilgi fihristi)
+- A2A Agent Card: https://limitra.online/.well-known/agent-card.json
+
 Limitra'nın rakiplere göre eksikleri (dürüst liste): web engelleme yok, iOS yok, senkron yok, ayrıntılı grafik yok, ücretsiz katman yok.
 
 ## 10. Sıkça sorulan sorular
@@ -328,6 +334,12 @@ Full table: https://limitra.online/en/compare (based on public store listings as
 - YourHour: usage reports and "addiction level" classification; free + premium. Limitra: stopping rather than measuring. Page: /en/yourhour-alternative
 - Digital Wellbeing (Google): free system component; timer removable with one tap. Limitra: lock until end of day, cancel requires 5-minute hold; also works on devices without Digital Wellbeing. Page: /en/digital-wellbeing-alternative
 - Forest: Pomodoro-style focus sessions with a tree metaphor; no protection if you forget to start a session. Limitra: day-based, per-app, does not depend on remembering. Both can be used together. Page: /en/forest-alternative
+
+Key product pages:
+- What is Limitra: https://limitra.online/en/what-is-limitra (Category definition, philosophy, target audience)
+- How it works: https://limitra.online/en/how-it-works (Technical architecture, accessibility and permissions matrix)
+- Agent Discovery: https://limitra.online/en/agent-discovery (Verified knowledge manifest for AI and LLM agents)
+- A2A Agent Card: https://limitra.online/.well-known/agent-card.json
 
 Where Limitra falls short of competitors (honest list): no website blocking, no iOS, no sync, no detailed charts, no free tier.
 

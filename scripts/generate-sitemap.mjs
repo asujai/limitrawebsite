@@ -98,8 +98,8 @@ for (const slug of guideSlugs) {
 `;
 }
 
-const productPagesTr = ['fiyatlandirma', 'karsilastirma', 'degisiklik-gunlugu', 'stayfree-alternatifi', 'appblock-alternatifi', 'yourhour-alternatifi', 'digital-wellbeing-alternatifi', 'forest-alternatifi'];
-const productPagesEn = ['pricing', 'compare', 'changelog', 'stayfree-alternative', 'appblock-alternative', 'yourhour-alternative', 'digital-wellbeing-alternative', 'forest-alternative'];
+const productPagesTr = ['fiyatlandirma', 'karsilastirma', 'degisiklik-gunlugu', 'nedir', 'nasil-calisir', 'agent-discovery', 'stayfree-alternatifi', 'appblock-alternatifi', 'yourhour-alternatifi', 'digital-wellbeing-alternatifi', 'forest-alternatifi'];
+const productPagesEn = ['pricing', 'compare', 'changelog', 'what-is-limitra', 'how-it-works', 'agent-discovery', 'stayfree-alternative', 'appblock-alternative', 'yourhour-alternative', 'digital-wellbeing-alternative', 'forest-alternative'];
 
 for (const slug of productPagesTr) {
   xml += `  <url>

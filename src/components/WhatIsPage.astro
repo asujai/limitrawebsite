@@ -1,0 +1,122 @@
+---
+import ProductPage from './ProductPage.astro';
+import { whatIs, STORE_URL } from '../data/product-pages';
+import { routes } from '../data/routes';
+
+interface Props {
+  lang: 'tr' | 'en';
+}
+
+const { lang } = Astro.props;
+const w = whatIs[lang];
+const r = routes(lang);
+
+const howItWorksLinkText = lang === 'tr' ? 'Teknik mimari ve çalışma prensibi: Nasıl çalışır? →' : 'Technical architecture and inner workings: How it works →';
+const pricingLinkText = lang === 'tr' ? 'Fiyatlandırma detayları ve tek seferlik ödeme modeli →' : 'Pricing details and one-time purchase model →';
+const compareLinkText = lang === 'tr' ? 'Diğer popüler uygulamalarla tarafsız karşılaştırma →' : 'Unbiased comparison with other popular blockers →';
+---
+
+<ProductPage lang={lang} title={w.title} description={w.description} h1={w.h1} answer={w.answer}>
+  <h2>{w.targetAudienceTitle}</h2>
+  <div class="audience-grid">
+    {w.targetAudience.map((item) => (
+      <div class="audience-card">
+        <h3>{item.profile}</h3>
+        <p>{item.desc}</p>
+      </div>
+    ))}
+  </div>
+
+  <h2>{w.differenceTitle}</h2>
+  <div class="table-wrap">
+    <table>
+      <caption>{lang === 'tr' ? 'Limitra App Block ile standart ekran süresi uygulamaları farkları.' : 'Differences between Limitra App Block and traditional screen time apps.'}</caption>
+      <thead>
+        <tr>
+          <th scope="col">{lang === 'tr' ? 'Özellik' : 'Aspect'}</th>
+          <th scope="col">{lang === 'tr' ? 'Açıklama' : 'Explanation'}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {w.differences.map(([aspect, explanation]) => (
+          <tr>
+            <th scope="row">{aspect}</th>
+            <td>{explanation}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>{w.pillarsTitle}</h2>
+  <div class="pillars-list">
+    {w.pillars.map((pillar) => (
+      <div class="pillar-item">
+        <h3>{pillar.title}</h3>
+        <p>{pillar.desc}</p>
+      </div>
+    ))}
+  </div>
+
+  <div class="internal-links">
+    <p><a href={r.howItWorksDeep}>{howItWorksLinkText}</a></p>
+    <p><a href={r.pricing}>{pricingLinkText}</a></p>
+    <p><a href={r.compare}>{compareLinkText}</a></p>
+  </div>
+
+  <div style="margin-top: var(--space-8);">
+    <a class="cta" href={STORE_URL} target="_blank" rel="noopener noreferrer">{w.ctaText} ↗</a>
+  </div>
+</ProductPage>
+
+<style>
+  .audience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-4);
+    margin: var(--space-4) 0 var(--space-8) 0;
+  }
+  .audience-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+  }
+  .audience-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: var(--space-2);
+    color: var(--text-primary);
+  }
+  .audience-card p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
+  .pillars-list {
+    margin: var(--space-4) 0 var(--space-8) 0;
+  }
+  .pillar-item {
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-4);
+    border-left: 3px solid var(--accent);
+  }
+  .pillar-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-1);
+    color: var(--text-primary);
+  }
+  .pillar-item p {
+    margin-bottom: 0;
+  }
+  .internal-links {
+    margin-top: var(--space-8);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--border-color);
+  }
+  .internal-links p {
+    margin-bottom: var(--space-2);
+  }
+  .internal-links a {
+    font-weight: 500;
+    color: var(--accent);
+  }
+</style>

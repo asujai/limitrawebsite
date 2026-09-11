@@ -8,28 +8,35 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-09-11)
-- **Yapay zekâ görünürlüğü (GEO/AEO) uygulandı (Claude, 11 Eylül 21:20):** her sayfada JSON-LD (Organization/WebSite/SoftwareApplication), ana sayfa cevap bloğu, SSS 27 soru + FAQPage, tr+en 16 yeni ürün sayfası (/fiyatlandirma, /karsilastirma, 5× rakip-alternatifi, /degisiklik-gunlugu), llms.txt yeniden yazıldı + llms-full.txt, robots.txt bot bazlı, nginx AI bot logu, IndexNow anahtarı. Durum tablosu ve kullanıcı eylemleri: `AI_GORUNURLUK.md`.
+- **Yapay zekâ ve arama görünürlüğü (GEO/AEO) hedefli eklemeler tamamlandı (Antigravity, 11 Eylül 22:15):** Web sitesi sıfırlanmadan mevcut Astro SSG mimarisi korunarak raporda önceliklendirilen kritik sayfalar (`/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları: `/en/what-is-limitra`, `/en/how-it-works`, `/en/agent-discovery`) eklendi.
+- **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json` (A2A uyumlu), `public/llms.txt` ve `public/llms-full.txt` dosyaları güncellendi.
+- **SEO & Structured Data:** Her sayfaya otomatik hiyerarşik `BreadcrumbList` JSON-LD şeması eklendi.
+- **Dağıtım güvenliği (Deploy hardening):** `scripts/deploy-vps.ps1` betiğine deploy öncesi SSH ile `cat /proc/loadavg` yük kontrolü (load > 3.0 durdurma koruması) ve arka planda hafifletilmiş sürüm temizliği eklendi.
 - **Kanonik ürün adı:** "Limitra App Block" (JSON-LD `alternateName` ile Play başlıkları bağlı). `src/data/schema.ts` tek kaynak (sürüm, fiyat, kısa tanım).
 - Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir.
-- Günlük haber otomasyonu (`webierik` sidecar) gece 22:00'ye (`0 22 * * *`) ayarlandı.
-- Prompt'a Günlük Yayın Kilidi (Idempotency Guard) eklenerek üst üste haber atılması kalıcı olarak engellendi.
-- Haber durum kontrolü ve telafi için `scripts/check-daily-news.ps1` ve `npm run check:news` eklendi.
-- Canlı yayında toplam 33 doğrulanmış haber ve makale mevcuttur (en son haber: DSÖ Ergen Raporu, ID: 33).
+- Toplam üretilen sayfa sayısı: 454 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Günlük haber otomasyonundaki geçmiş aksaklıkların (üst üste atma ve gün atlama) kök nedeni tespit edildi. Sidecar prompt'una `src/data/haberler.json` üzerinden tarih kontrolü yapan Idempotency Guard (Günlük Yayın Kilidi) eklendi; böylece cron hatası veya çift tetiklemede dahi aynı gün 2. haberin üretilmesi engellendi. Kullanıcının saati 22:00'ye (`0 22 * * *`) alması sonrasında zamanlayıcı doğrulandı (bu gece 22:00 TR). Kaçırılan günler için `scripts/check-daily-news.ps1` ve `npm run check:news` eklendi.
+- **İşlem:** Kullanıcının verdiği Limitra Görünürlük Raporu (`ai-gorunurluk-playbook.md` ve `AI_GORUNURLUK.md`) incelendi. Web sitesini yeniden oluşturmadan mevcut mimari korunarak görünürlüğü artıracak temel eklemeler yapıldı:
+  1. `/nedir` ve `/en/what-is-limitra`: Kategori tanımı, hedef kitle pasajları, geleneksel yöntemlerden farklar ve stoacı ilkeler.
+  2. `/nasil-calisir` ve `/en/how-it-works`: 4 aşamalı koruma döngüsü, UsageStats uzlaştırması (teknik iddia: ≤10 sn tolerans), izinler ve gizlilik şeffaflık tablosu, teknik SSS.
+  3. `/agent-discovery` ve `/en/agent-discovery`: Yapay zeka sistemleri ve otonom ajanlar için doğrulanmış ürün referans fihristi.
+  4. `public/.well-known/agent-card.json`: A2A uyumlu ajan kimlik kartı.
+  5. `Layout.astro`: Google Rich Results ve AI botları için otomatik BreadcrumbList JSON-LD şeması.
+  6. `Footer.astro`: Yeni sayfaların alt menüye ve iç bağlantı ağına entegrasyonu.
+  7. `deploy-vps.ps1`: VPS deploy öncesi yük kontrolü ve hafifletilmiş temizleme mekanizması.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
-- `SECTION_LANGS`: `news` bölümü 11 dilde tam aktiftir (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`). Diğer bölümler (`guides`, `contact`, `legal`) `tr` ve `en` olarak çalışır ve eksik dillerde `resolveUrl` güvenli bir şekilde İngilizce sürüme düşer.
+- `SECTION_LANGS`: `news` bölümü 11 dilde tam aktiftir (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`). Diğer bölümler (`guides`, `contact`, `legal`, `product`) `tr` ve `en` olarak çalışır ve eksik dillerde `resolveUrl` güvenli bir şekilde İngilizce sürüme düşer.
 - `buildUrl` yalnızca gerçekten var olan sayfayı döner; `hreflang` etiketleri bu sayede 11 dilde hatasız üretilir.
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 432 sayfa, 0 hata.
+- `npm run build` → 454 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu (33 makale, 11 dil, toplam 430 URL).
+- Sitemap ↔ üretilen sayfalar tam uyumlu (452 URL).
 - Canlı ana sayfa, 11 dil rotası, TR/EN/ES haber sayfaları (yeni eklenen ID 33 dahil: `/haberler/dso-avrupa-raporu-ergenlerde-problemli-sosyal-medya-ve-oyun-bagimliligi-artisi/`, `/en/news/...`, `/es/news/...`), sitemap ve robots dosyası VPS IP'sinden (`89.252.153.119`) 200 döndü (sürüm `20260909-091920`).
 - Canlı `/logo.png` → 200 ve 250.139 bayt.
 - HTTP → HTTPS ve `www` → apex yönlendirmeleri 301 ile doğrulandı.

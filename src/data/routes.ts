@@ -37,6 +37,9 @@ export const langPrefix = (lang: SupportedLang) => (lang === 'tr' ? '' : `/${lan
 export type PageKey =
   | 'home'
   | 'howItWorks'
+  | 'whatIs'
+  | 'howItWorksDeep'
+  | 'agentDiscovery'
   | 'faq'
   | 'news'
   | 'newsItem'
@@ -142,6 +145,9 @@ export function parsePath(pathname: string): { lang: SupportedLang; key: PageKey
   if (sub === 'fiyatlandirma' || sub === 'pricing') return { lang, key: 'pricing', slug: '' };
   if (sub === 'karsilastirma' || sub === 'compare') return { lang, key: 'compare', slug: '' };
   if (sub === 'degisiklik-gunlugu' || sub === 'changelog') return { lang, key: 'changelog', slug: '' };
+  if (sub === 'nedir' || sub === 'what-is-limitra') return { lang, key: 'whatIs', slug: '' };
+  if (sub === 'nasil-calisir' || sub === 'how-it-works') return { lang, key: 'howItWorksDeep', slug: '' };
+  if (sub === 'agent-discovery') return { lang, key: 'agentDiscovery', slug: '' };
   const alt = sub.match(/^([a-z-]+)-(alternatifi|alternative)$/);
   if (alt && (ALTERNATIVE_SLUGS as readonly string[]).includes(alt[1])) return { lang, key: 'alternative', slug: alt[1] };
 
@@ -186,6 +192,12 @@ export function buildUrl(lang: SupportedLang, key: PageKey, slug = ''): string |
       return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/karsilastirma' : `${p}/compare`) : null;
     case 'changelog':
       return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/degisiklik-gunlugu' : `${p}/changelog`) : null;
+    case 'whatIs':
+      return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/nedir' : `${p}/what-is-limitra`) : null;
+    case 'howItWorksDeep':
+      return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/nasil-calisir' : `${p}/how-it-works`) : null;
+    case 'agentDiscovery':
+      return SECTION_LANGS.product.includes(lang) ? (lang === 'tr' ? '/agent-discovery' : `${p}/agent-discovery`) : null;
     case 'alternative':
       if (!SECTION_LANGS.product.includes(lang) || !(ALTERNATIVE_SLUGS as readonly string[]).includes(slug)) return null;
       return lang === 'tr' ? `/${slug}-alternatifi` : `${p}/${slug}-alternative`;
@@ -217,5 +229,8 @@ export const routes = (lang: SupportedLang) => ({
   pricing: resolveUrl(lang, 'pricing'),
   compare: resolveUrl(lang, 'compare'),
   changelog: resolveUrl(lang, 'changelog'),
+  whatIs: resolveUrl(lang, 'whatIs'),
+  howItWorksDeep: resolveUrl(lang, 'howItWorksDeep'),
+  agentDiscovery: resolveUrl(lang, 'agentDiscovery'),
   alternative: (slug: string) => resolveUrl(lang, 'alternative', slug)
 });
