@@ -29,20 +29,20 @@ DIL            = tr + en (yeni sayfalar), site 11 dil
 | 0.1 | JS'siz render | ✅ | Astro SSG; `curl -A GPTBot` çıktısında `hero-answer` metni var |
 | 0.2 | robots.txt bot bazlı | ✅ | 18 user-agent bloğu, sitemap referanslı |
 | 0.3 | WAF engeli | ✅ | GPTBot, OAI-SearchBot, ClaudeBot, Claude-SearchBot, PerplexityBot, Googlebot, Bingbot → 200 |
-| 0.4 | Sitemap | ✅ | 446 URL |
-| 0.4 | Google Search Console | ❓ | Kullanıcı kontrol edecek (aşağıda) |
-| 0.4 | **Bing Webmaster** | ❌ **Kullanıcı** | Log kanıtı: 90 günde Googlebot 11.186 istek, bingbot yalnız 6. ChatGPT araması Bing'e dayanır. |
-| 0.4 | IndexNow | ⏳ | Anahtar `public/af08…e707.txt` yayında, Bing anahtarı çekti (157.55.39.48). Doğrulama sonrası `npm run indexnow` |
-| 1.1 | ≤120 kelime cevap bloğu | ✅ | Ana sayfa (`HERO_ANSWER`), tüm yeni sayfalar (`ProductPage.lede`) |
-| 1.2 | Soru-cevap sayfaları | ✅ | /sss 27 soru; /fiyatlandirma; /karsilastirma; 5× rakip-alternatifi; /degisiklik-gunlugu (tr+en = 16 sayfa) |
-| 1.3 | Gerçek `<table>` + `<caption>` | ✅ | karşılaştırma, fiyat, changelog |
-| 1.4 | JSON-LD | ✅ | Her sayfa: Organization + WebSite + SoftwareApplication; /sss FAQPage; changelog ItemList. Rich Results Test kullanıcı tarafından çalıştırılmalı: https://search.google.com/test/rich-results?url=https://limitra.online/sss |
+| 0.4 | Sitemap | ✅ | 452 URL (`public/sitemap.xml`) |
+| 0.4 | Google Search Console | ✅ | Mülk doğrulandı ve Bing'e aktarıldı |
+| 0.4 | **Bing Webmaster** | ✅ | GSC'den içe aktarıldı, site doğrulandı, sitemap gönderildi |
+| 0.4 | IndexNow | ✅ | `npm run indexnow` çalıştırıldı: 452 URL -> HTTP 200 OK ile Bing'e başarıyla iletildi |
+| 1.1 | ≤120 kelime cevap bloğu | ✅ | Ana sayfa (`HERO_ANSWER`), tüm ürün sayfaları (`ProductPage.lede`, `/nedir`, `/nasil-calisir`) |
+| 1.2 | Soru-cevap ve Pasaj sayfaları | ✅ | /nedir, /nasil-calisir, /agent-discovery, /sss (27 soru), /fiyatlandirma, /karsilastirma, 5× rakip-alternatifi, /degisiklik-gunlugu (tr+en) |
+| 1.3 | Gerçek `<table>` + `<caption>` | ✅ | karşılaştırma, fiyat, changelog, nasıl-çalışır izin matrisi, agent-discovery parametreleri |
+| 1.4 | JSON-LD | ✅ | Her sayfa: Organization + WebSite + SoftwareApplication + BreadcrumbList; /sss FAQPage; changelog ItemList |
 | 1.5 | Yazar sinyali | ⏭ | Kullanıcı istemedi |
-| 2.1 | llms.txt | ✅ | Yeniden yazıldı, placeholder link giderildi |
-| 2.2 | llms-full.txt | ✅ | ~3.500 kelime, tr+en |
-| 2.3-2.7 | agent-card / openapi / mcp / discovery | ⏭ | API yok; sahte yüzey yayınlanmadı |
-| 3 | Üçüncü taraf entity kayıtları | ❌ **Kullanıcı** | Aşağıdaki liste |
-| 5.1 | Kanonik uygulama sayfası | ✅ | /limitra + SoftwareApplication şeması |
+| 2.1 | llms.txt | ✅ | Yeni sayfalar ve A2A kartı bağlantılarıyla güncellendi |
+| 2.2 | llms-full.txt | ✅ | ~3.800 kelime, tr+en tam ürün bağlamı |
+| 2.3-2.7 | agent-card / discovery | ✅ | `public/.well-known/agent-card.json` (A2A uyumlu) ve `/agent-discovery` yayında |
+| 3 | Üçüncü taraf entity kayıtları | ⏳ | **AlternativeTo** başvurusu gönderildi (onay bekleniyor). Product Hunt / Wikidata sırada |
+| 5.1 | Kanonik uygulama sayfası | ✅ | /limitra + SoftwareApplication şeması + /nedir + /nasil-calisir derin bağlantıları |
 | 5.2 | Play listing | ✅ | en-US "Limitra AppBlock" → "Limitra App Block"; tr-TR/en-US açıklamalarına site linki eklendi; canlıda doğrulandı |
 | 5.3 | assetlinks.json | ⏭ | Manifest'te App Links yok; dosya anlamsız |
 | 5.4 | Değişiklik günlüğü | ✅ | /degisiklik-gunlugu, /en/changelog |
