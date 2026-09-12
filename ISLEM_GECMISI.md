@@ -1,5 +1,25 @@
 # İşlem Geçmişi
 
+## [2026-09-12 19:30] - Mobil Deneyim ve Fiyat Düzeltmeleri (Claude Raporu) Uygulandı
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/schema.ts` (APP_PRICE = '0.49', APP_PRICE_CURRENCY = 'USD', APP_PRICE_LABEL = '$0.49', JSON-LD offers ve HERO_ANSWER güncellendi)
+  - `[GÜNCELLENDİ]` `src/data/product-pages.ts` (Fiyatlandırma, karşılaştırma ve AI fihristindeki ₺29,99 / ₺29.99 referansları $0.49 yapıldı, in Türkiye kaldırıldı)
+  - `[GÜNCELLENDİ]` `src/pages/sss.astro` ve `src/pages/en/sss.astro` (Fiyat sorusu yanıtı $0.49 ile güncellendi)
+  - `[GÜNCELLENDİ]` `public/llms.txt` ve `public/llms-full.txt` (AI modelleri için fiyat $0.49 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `src/components/Navigation.astro` (Üst bar taşması giderildi, brand ve badge tek satır yapıldı, mobilde indir butonu menüye taşındı, hamburger X animasyonu, body scroll kilidi, dışarı tıklama/Esc ile kapanma eklendi, mobilde menü öğeleri min 44px yapıldı)
+  - `[GÜNCELLENDİ]` `src/components/ProductPage.astro` (Tablolara -webkit-overflow-scrolling: touch, min-width: 640px, caption-side: top ve ilk sütun için position: sticky yapışkan kolon eklendi, RTL desteklendi)
+  - `[GÜNCELLENDİ]` `src/components/Footer.astro` (Tüm footer linklerine min-height: 44px dokunma alanı sağlandı)
+  - `[GÜNCELLENDİ]` `src/components/HomePage.astro` (.text-link ve .home-news-link dokunma alanları min 44px yapıldı, mobilde hero dolgusu ve lead paragrafı optimize edildi, orbit ve telefon mockup taşmaları temizlendi)
+  - `[GÜNCELLENDİ]` `src/components/NewsIndex.astro` (Küçük metin boyutları 0.8rem / 12.8px+ seviyesine çekildi, read-link ve cat-btn dokunma alanları min 44px yapıldı)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Claude tarafından hazırlanan `MOBIL_DUZELTME_RAPORU.md` doğrultusunda 1'den 7'ye kadar tüm maddeler titizlikle uygulandı. Fiyat tüm sitede, JSON-LD şemalarında ve AI manifestolarında kanonik $0.49 USD yapıldı. Mobilde taşan üst bar flex-shrink ve buton optimizasyonu ile çözüldü; hamburger X animasyonuna kavuştu, arka plan body kilidi ve dışarı tıklama/Esc ile kapatma mekanizması eklendi. Tablolara yapışkan sol sütun entegre edildi. Dokunma hedefleri ve tipografi Lighthouse/WCAG standartlarına (≥44px ve ≥12.8px) çekildi.
+* **Doğrulama:** `npm run build` ile 454 sayfa 0 hata ile inşa edildi; `npm run check:links` ile tüm iç bağlantıların sağlam olduğu teyit edildi; `git grep -E "29[,.]99|APP_PRICE_TRY" src public` ile eski fiyattan 0 kalıntı kaldığı doğrulandı; dist HTML çıktılarında JSON-LD Offer şeması teyit edildi.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** İstenirse `git push origin main` ve `npm run deploy:vps` ile canlı Cenuta VPS'e dağıtım yapılabilir.
+
 ## [2026-09-12 19:20] - Mobil Deneyim ve Fiyat Düzeltme Raporu Hazırlandı
 
 * **Model:** Claude

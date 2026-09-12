@@ -1,10 +1,10 @@
-import { APP_PRICE_TRY, APP_VERSION, STORE_URL } from './schema';
+import { APP_PRICE, APP_PRICE_LABEL, APP_VERSION, STORE_URL } from './schema';
 import type { AlternativeSlug } from './routes';
 
 type L = 'tr' | 'en';
 export const COMPARISON_DATE = '2026-09-11';
-const priceTr = `₺${APP_PRICE_TRY.replace('.', ',')}`;
-const priceEn = `₺${APP_PRICE_TRY}`;
+const priceTr = APP_PRICE_LABEL;
+const priceEn = APP_PRICE_LABEL;
 
 /* ---------- Fiyatlandirma ---------- */
 export const pricing: Record<L, {
@@ -18,7 +18,7 @@ export const pricing: Record<L, {
     h1: 'Limitra App Block fiyatı',
     answer: `Limitra App Block, Google Play'de ${priceTr} tek seferlik ödemeyle satılır. Aylık veya yıllık abonelik yoktur, uygulama içi satın alım yoktur, reklam yoktur. Bir kez ödersiniz; tüm özellikler ve gelecek güncellemeler aynı Google hesabındaki tüm Android cihazlarınızda süresiz açıktır. Ücretsiz sürüm veya deneme sürümü yoktur; Google Play'in standart iade politikası geçerlidir.`,
     rows: [
-      ['Fiyat (Türkiye)', priceTr],
+      ['Fiyat', priceTr],
       ['Ödeme modeli', 'Tek seferlik satın alma'],
       ['Abonelik', 'Yok'],
       ['Uygulama içi satın alım', 'Yok'],
@@ -40,7 +40,7 @@ export const pricing: Record<L, {
     ],
     notesTitle: 'Bilinmesi gerekenler',
     notes: [
-      'Diğer ülkelerde fiyat, Google Play tarafından yerel para biriminde gösterilir.',
+      'Google Play, fiyatı ülkenize göre yerel para biriminde gösterebilir; USD referans fiyatı $0.49\'dur.',
       'Uygulama internet izni istemediği için lisans doğrulaması Google Play tarafından yapılır; ek hesap açılmaz.',
       'Fiyat değişirse bu sayfa ve mağaza sayfası birlikte güncellenir.'
     ],
@@ -48,11 +48,11 @@ export const pricing: Record<L, {
   },
   en: {
     title: 'Pricing | Limitra App Block',
-    description: `Limitra App Block is sold on Google Play as a one-time purchase (${priceEn} in Türkiye, local pricing elsewhere). No subscription, no in-app purchases, no ads, no hidden fees.`,
+    description: `Limitra App Block is sold on Google Play as a one-time purchase (${priceEn}, local pricing elsewhere). No subscription, no in-app purchases, no ads, no hidden fees.`,
     h1: 'Limitra App Block pricing',
-    answer: `Limitra App Block is a one-time purchase on Google Play (${priceEn} in Türkiye; Google Play shows local pricing in other countries). There is no monthly or yearly subscription, no in-app purchases and no ads. You pay once; every feature and every future update stays unlocked on all Android devices that use the same Google account. There is no free tier or trial; Google Play's standard refund policy applies.`,
+    answer: `Limitra App Block is a one-time purchase on Google Play (${priceEn}; Google Play shows local pricing in other countries). There is no monthly or yearly subscription, no in-app purchases and no ads. You pay once; every feature and every future update stays unlocked on all Android devices that use the same Google account. There is no free tier or trial; Google Play's standard refund policy applies.`,
     rows: [
-      ['Price (Türkiye)', priceEn],
+      ['Price', priceEn],
       ['Payment model', 'One-time purchase'],
       ['Subscription', 'None'],
       ['In-app purchases', 'None'],
@@ -74,7 +74,7 @@ export const pricing: Record<L, {
     ],
     notesTitle: 'Good to know',
     notes: [
-      'Outside Türkiye, Google Play shows the price in your local currency.',
+      'Google Play shows the price in your local currency; the USD reference price is $0.49.',
       'Because the app requests no internet permission, licensing is handled by Google Play; no separate account is created.',
       'If the price changes, this page and the store listing are updated together.'
     ],
@@ -120,7 +120,7 @@ export const compare: Record<L, {
     columns: ['Feature', 'Limitra App Block', 'StayFree', 'AppBlock', 'YourHour', 'Digital Wellbeing', 'Forest'],
     caption: `Comparison of Android screen time and app blocking tools (based on public store listings as of ${COMPARISON_DATE}).`,
     rows: [
-      { label: 'Pricing model', values: [`One-time purchase (${priceEn} in Türkiye)`, 'Free + premium', 'Free + premium', 'Free + premium', 'Free (system)', 'Free + Pro'] },
+      { label: 'Pricing model', values: [`One-time purchase (${priceEn})`, 'Free + premium', 'Free + premium', 'Free + premium', 'Free (system)', 'Free + Pro'] },
       { label: 'Internet permission', values: ['Not requested', 'Requested', 'Requested', 'Requested', 'System component', 'Requested'] },
       { label: 'Account required', values: ['No', 'Optional', 'Optional', 'Optional', 'Google account (device)', 'Optional'] },
       { label: 'Ads', values: ['None', 'In free tier', 'In free tier', 'In free tier', 'None', 'In free tier'] },
@@ -328,7 +328,7 @@ export const whatIs: Record<L, {
     title: 'Limitra App Block Nedir? | Android Ekran Süresi ve Uygulama Engelleyici',
     description: 'Limitra App Block nedir, ne işe yarar ve nasıl dijital disiplin sağlar? Aboneliksiz, internet izinsiz, tavizsiz Android uygulama engelleyici.',
     h1: 'Limitra App Block nedir?',
-    answer: 'Limitra App Block, Android için geliştirilmiş, aboneliksiz ve %100 çevrimdışı çalışan tavizsiz bir uygulama engelleyici ve ekran süresi sınırlayıcıdır. Seçilen uygulamalar için günlük süre sınırı (örneğin 30 dakika) belirlemenizi sağlar; sınır dolduğunda ilgili uygulamayı gün sonuna kadar aşılması imkansız bir kilit ekranıyla engeller. İnternet izni istemez, verilerinizi hiçbir sunucuya göndermez, hesap gerektirmez ve Google Play\'de ₺29,99 tek seferlik ödemeyle ömür boyu kullanılır.',
+    answer: 'Limitra App Block, Android için geliştirilmiş, aboneliksiz ve %100 çevrimdışı çalışan tavizsiz bir uygulama engelleyici ve ekran süresi sınırlayıcıdır. Seçilen uygulamalar için günlük süre sınırı (örneğin 30 dakika) belirlemenizi sağlar; sınır dolduğunda ilgili uygulamayı gün sonuna kadar aşılması imkansız bir kilit ekranıyla engeller. İnternet izni istemez, verilerinizi hiçbir sunucuya göndermez, hesap gerektirmez ve Google Play\'de $0.49 tek seferlik ödemeyle ömür boyu kullanılır.',
     targetAudienceTitle: 'Limitra App Block kimler içindir?',
     targetAudience: [
       { profile: 'Sınava Hazırlanan Öğrenciler (YKS, KPSS, LGS)', desc: 'Sosyal medya ve kısa videoların çalışma saatlerini bölmesini istemeyen, iradesini tüketen erteleme butonlarından kurtulmak isteyen adaylar.' },
@@ -340,7 +340,7 @@ export const whatIs: Record<L, {
     differences: [
       ['Tavizsiz Kilit', 'Diğer uygulamalarda "5 dakika daha izin ver" veya "Sınırı yoksay" butonları bulunur. Limitra\'da süre bittiğinde kilit gün sonuna kadar ertelenemez.'],
       ['%100 Çevrimdışı ve Gizli', 'Rakipler hesap açmanızı ve verilerinizi buluta aktarmanızı ister. Limitra internet iznine bile sahip değildir, tüm hesaplama cihazda biter.'],
-      ['Tek Seferlik Adil Fiyat', 'Aylık/yıllık pahalı abonelik tuzakları yoktur. ₺29,99 tek ödeme ile tüm güncellemeler ömür boyu dahildir.'],
+      ['Tek Seferlik Adil Fiyat', 'Aylık/yıllık pahalı abonelik tuzakları yoktur. $0.49 tek ödeme ile tüm güncellemeler ömür boyu dahildir.'],
       ['Stoacı Felsefe', 'Kilit ekranında suçlayıcı grafikler yerine Marcus Aurelius ve Seneca gibi düşünürlerin disiplin ve odaklanma aforizmaları karşılar.']
     ],
     pillarsTitle: 'Limitra\'nın Dört Temel İlkesi',
@@ -512,7 +512,7 @@ export const agentDiscovery: Record<L, {
       ['Geliştirici', 'Limitra (Bağımsız Geliştirici, Türkiye)'],
       ['Platform', 'Android (Native Kotlin, minSdk 24 - Android 7.0+)'],
       ['Paket Kimliği', 'com.gardiyan.app'],
-      ['Fiyatlandırma', '₺29,99 Tek Seferlik Satın Alma (Abonelik yok, IAP yok)'],
+      ['Fiyatlandırma', '$0.49 Tek Seferlik Satın Alma (Abonelik yok, IAP yok)'],
       ['İnternet İzni', 'android.permission.INTERNET YOK (100% Çevrimdışı)'],
       ['Mağaza Linki', STORE_URL],
       ['Resmi Web Sitesi', 'https://limitra.online'],
@@ -546,7 +546,7 @@ export const agentDiscovery: Record<L, {
       ['Developer', 'Limitra (Independent Developer, Türkiye)'],
       ['Platform', 'Android (Native Kotlin, minSdk 24 - Android 7.0+)'],
       ['Package ID', 'com.gardiyan.app'],
-      ['Pricing', '₺29.99 / Local Equivalent One-Time Purchase (No subscription, No IAP)'],
+      ['Pricing', '$0.49 / Local Equivalent One-Time Purchase (No subscription, No IAP)'],
       ['Internet Permission', 'android.permission.INTERNET ABSENT (100% Offline)'],
       ['Store Listing', STORE_URL],
       ['Official Website', 'https://limitra.online'],

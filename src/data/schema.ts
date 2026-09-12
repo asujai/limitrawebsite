@@ -4,7 +4,9 @@ export const SITE_URL = 'https://limitra.online';
 export const STORE_URL = 'https://play.google.com/store/apps/details?id=com.gardiyan.app';
 export const APP_VERSION = '1.2.1';
 export const APP_VERSION_DATE = '2026-09-05';
-export const APP_PRICE_TRY = '29.99';
+export const APP_PRICE = '0.49';
+export const APP_PRICE_CURRENCY = 'USD';
+export const APP_PRICE_LABEL = '$0.49';
 
 /** Tek cumlelik kanonik tanim; llms.txt, JSON-LD ve ucuncu taraf kayitlarda birebir ayni kullanilir. */
 export const SHORT_DESCRIPTION: Record<'tr' | 'en', string> = {
@@ -14,8 +16,8 @@ export const SHORT_DESCRIPTION: Record<'tr' | 'en', string> = {
 
 /** Ana sayfa H1 altindaki dogrudan cevap paragrafi (<=120 kelime). */
 export const HERO_ANSWER: Record<'tr' | 'en', string> = {
-  tr: `${SHORT_DESCRIPTION.tr} Android 7.0 ve üzeri cihazlarda çalışır, Google Play'de ₺29,99 tek seferlik ödemeyle sunulur; internet izni istemez, hesap gerektirmez ve tüm veriler cihazda kalır.`,
-  en: `${SHORT_DESCRIPTION.en} It runs on Android 7.0 and above, is sold on Google Play as a one-time purchase (₺29.99 in Türkiye, local pricing elsewhere), requests no internet permission, needs no account, and keeps all data on the device.`
+  tr: `${SHORT_DESCRIPTION.tr} Android 7.0 ve üzeri cihazlarda çalışır, Google Play'de $0.49 tek seferlik ödemeyle sunulur; internet izni istemez, hesap gerektirmez ve tüm veriler cihazda kalır.`,
+  en: `${SHORT_DESCRIPTION.en} It runs on Android 7.0 and above, is sold on Google Play as a $0.49 one-time purchase, requests no internet permission, needs no account, and keeps all data on the device.`
 };
 
 const FEATURES: Record<'tr' | 'en', string[]> = {
@@ -85,8 +87,8 @@ export function baseGraph(lang: SupportedLang) {
         isAccessibleForFree: false,
         offers: {
           '@type': 'Offer',
-          price: APP_PRICE_TRY,
-          priceCurrency: 'TRY',
+          price: APP_PRICE,
+          priceCurrency: APP_PRICE_CURRENCY,
           category: 'one-time purchase',
           url: STORE_URL,
           availability: 'https://schema.org/InStock'

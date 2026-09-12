@@ -46,13 +46,60 @@ const backLabel = lang === 'tr' ? 'Ana Sayfa' : 'Home';
   .article-body p { color: var(--text-secondary); line-height: 1.7; margin-bottom: var(--space-4); }
   .article-body ul { margin-bottom: var(--space-6); padding-left: var(--space-6); }
   .article-body li { margin-bottom: var(--space-2); color: var(--text-secondary); }
-  .article-body .table-wrap { overflow-x: auto; margin: var(--space-6) 0; }
-  .article-body table { border-collapse: collapse; width: 100%; font-size: .9rem; }
-  .article-body caption { caption-side: bottom; text-align: left; font-size: .8rem; color: var(--text-muted); padding-top: var(--space-2); }
-  .article-body th, .article-body td { border: 1px solid var(--border-color); padding: .6rem .75rem; text-align: left; vertical-align: top; }
-  .article-body th { background: rgba(38, 103, 245, .06); font-weight: 600; color: var(--text-primary); }
-  .article-body td { color: var(--text-secondary); }
-  .article-body td:first-child, .article-body th:first-child { font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+  .article-body .table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: var(--space-6) 0;
+    position: relative;
+    border-radius: var(--radius-sm);
+  }
+  .article-body table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 640px;
+    font-size: .9rem;
+  }
+  .article-body caption {
+    caption-side: top;
+    text-align: left;
+    font-size: .85rem;
+    color: var(--text-muted);
+    padding-bottom: var(--space-3);
+  }
+  .article-body th, .article-body td {
+    border: 1px solid var(--border-color);
+    padding: .6rem .75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  .article-body th {
+    background: rgba(38, 103, 245, .06);
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  .article-body td {
+    color: var(--text-secondary);
+  }
+  .article-body td:first-child, .article-body th:first-child {
+    position: sticky;
+    left: 0;
+    font-weight: 600;
+    color: var(--text-primary);
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .article-body th:first-child {
+    background: #edf3fd;
+    z-index: 3;
+  }
+  .article-body td:first-child {
+    background: var(--surface, #ffffff);
+  }
+  [dir="rtl"] .article-body td:first-child,
+  [dir="rtl"] .article-body th:first-child {
+    left: auto;
+    right: 0;
+  }
   .article-body .cta { display: inline-block; margin-top: var(--space-4); padding: .75rem 1.25rem; border-radius: .6rem; background: var(--accent); color: #fff; font-weight: 700; }
   .article-body .cta:hover { opacity: .9; }
 </style>

@@ -6,7 +6,7 @@
 
 Kategori / Category: Android uygulama engelleyici ve ekran süresi sınırlayıcı / Android app blocker and screen time limiter.
 Platform: Android 7.0+ (paket: com.gardiyan.app). iOS sürümü yok.
-Fiyat / Price: Google Play'de ₺29,99 tek seferlik ödeme (diğer ülkelerde yerel fiyat). Abonelik, uygulama içi satın alım ve reklam yok.
+Fiyat / Price: Google Play'de $0.49 tek seferlik ödeme (Google Play yerel para biriminde gösterebilir). Abonelik, uygulama içi satın alım ve reklam yok.
 Güncel sürüm / Current version: 1.2.1 (sürüm kodu 18, 2026-09-05).
 Geliştirici / Developer: Limitra (bağımsız geliştirici, Türkiye). İletişim: destek@limitra.online
 Mağaza / Store: https://play.google.com/store/apps/details?id=com.gardiyan.app

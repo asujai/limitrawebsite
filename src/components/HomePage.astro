@@ -361,7 +361,7 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
   .hero-lead { max-width: 38rem; margin-bottom: 2rem; font-size: clamp(1.05rem, 2vw, 1.2rem); line-height: 1.72; }
   .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.25rem; }
 
-  .text-link { display: inline-flex; align-items: center; gap: .45rem; color: var(--text-primary); font-size: .9rem; font-weight: 700; }
+  .text-link { display: inline-flex; align-items: center; gap: .45rem; color: var(--text-primary); font-size: .9rem; font-weight: 700; min-height: 44px; padding-block: .25rem; }
   .text-link:hover { gap: .7rem; color: var(--accent); }
 
   .hero-trust { display: flex; flex-wrap: wrap; gap: .75rem 1.15rem; margin-top: 2rem; }
@@ -592,6 +592,10 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
   .home-news-link {
     color: var(--accent);
     font-weight: 800;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    padding-inline: .25rem;
   }
 
   .guides-section { background: var(--bg-primary); }
@@ -647,14 +651,14 @@ const currentMeta = pageTitles[lang] || pageTitles.en;
   }
 
   @media (max-width: 520px) {
-    .hero { padding-top: 3.8rem; }
+    .hero { padding-top: 2.5rem; }
+    .hero-lead { display: none; }
     .hero-actions { align-items: stretch; flex-direction: column; }
-    .hero-actions .text-link { justify-content: center; min-height: 2.6rem; }
-    .hero-lead { max-width: 100%; overflow-wrap: anywhere; }
-    .product-visual { width: 100%; max-width: 100%; min-height: 570px; margin-block: -1.5rem; }
-    .phone-shell { width: min(285px, calc(100vw - 3.5rem)); min-height: 555px; }
+    .hero-actions .text-link { justify-content: center; min-height: 44px; }
+    .product-visual { width: 100%; max-width: 100%; min-height: auto; margin-block: 0; }
+    .phone-shell { width: min(285px, calc(100vw - 3.5rem)); min-height: auto; padding-bottom: 3.5rem; }
     .float-card { display: none; }
-    .orbit-one { width: 28rem; height: 28rem; }
+    .orbit-one, .orbit-two { display: none; }
     .moment-card { padding: 1.2rem; }
     .moment-row { grid-template-columns: 3.5rem 1fr; }
     .moment-line { margin-left: 1.55rem; }

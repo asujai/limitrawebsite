@@ -8,24 +8,21 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-09-12)
-- **Mobil deneyim + fiyat düzeltme raporu hazır (Claude, 12 Eylül):** `MOBIL_DUZELTME_RAPORU.md` — üst bar taşması, ₺29,99 → $0.49 (USD) geçişi, mobil menü, tablolar, dokunma hedefleri. Uygulama Antigravity'de; henüz kod değişmedi.
-- **Yapay zekâ ve arama görünürlüğü (GEO/AEO) hedefli eklemeler tamamlandı (Antigravity, 11 Eylül 22:15):** Web sitesi sıfırlanmadan mevcut Astro SSG mimarisi korunarak raporda önceliklendirilen kritik sayfalar (`/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları: `/en/what-is-limitra`, `/en/how-it-works`, `/en/agent-discovery`) eklendi.
-- **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json` (A2A uyumlu), `public/llms.txt` ve `public/llms-full.txt` dosyaları güncellendi.
-- **SEO & Structured Data:** Her sayfaya otomatik hiyerarşik `BreadcrumbList` JSON-LD şeması eklendi.
-- **Dağıtım güvenliği (Deploy hardening):** `scripts/deploy-vps.ps1` betiğine deploy öncesi SSH ile `cat /proc/loadavg` yük kontrolü (load > 3.0 durdurma koruması) ve arka planda hafifletilmiş sürüm temizliği eklendi.
-- **Kanonik ürün adı:** "Limitra App Block" (JSON-LD `alternateName` ile Play başlıkları bağlı). `src/data/schema.ts` tek kaynak (sürüm, fiyat, kısa tanım).
-- Web sitesi 11 dilli küresel bir platform olarak kullanıcının Cenuta VPS'inde (`89.252.153.119`) Nginx üzerinden aktiftir.
+- **Mobil deneyim ve fiyat düzeltmeleri tamamlandı (Antigravity, 12 Eylül):** `MOBIL_DUZELTME_RAPORU.md` raporundaki 7 bölümün tamamı uygulandı:
+  1. Üst bar taşması çözüldü (brand ve badge tek satır, flex-shrink koruması).
+  2. Fiyat tüm sitede, JSON-LD şemalarında ve AI manifestolarında ₺29,99'dan $0.49'a (USD) çekildi (`APP_PRICE = '0.49'`).
+  3. Mobil menüye hamburger -> X animasyonu, body scroll kilidi (`body.nav-open`), dışarı tıklama / Esc ile kapanma ve tam genişlik indirme butonu eklendi.
+  4. Geniş tablolara yapışkan ilk sütun (`position: sticky; left: 0;`), dokunmatik kaydırma ve üst başlık eklendi (RTL uyumlu).
+  5. Footer ve ana sayfa buton/linklerine ≥44px dokunma alanları sağlandı.
+  6. Haber kartlarındaki küçük tipografiler ≥12.8px (0.8rem) seviyesine çıkarıldı.
+  7. Mobilde hero üst boşluğu, görsel taşmaları ve mükerrer lead paragrafı optimize edildi.
+- **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
+- **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt` ve `public/llms-full.txt` güncel ($0.49 fiyatlı).
+- **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
 - Toplam üretilen sayfa sayısı: 454 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Kullanıcının verdiği Limitra Görünürlük Raporu (`ai-gorunurluk-playbook.md` ve `AI_GORUNURLUK.md`) incelendi. Web sitesini yeniden oluşturmadan mevcut mimari korunarak görünürlüğü artıracak temel eklemeler yapıldı:
-  1. `/nedir` ve `/en/what-is-limitra`: Kategori tanımı, hedef kitle pasajları, geleneksel yöntemlerden farklar ve stoacı ilkeler.
-  2. `/nasil-calisir` ve `/en/how-it-works`: 4 aşamalı koruma döngüsü, UsageStats uzlaştırması (teknik iddia: ≤10 sn tolerans), izinler ve gizlilik şeffaflık tablosu, teknik SSS.
-  3. `/agent-discovery` ve `/en/agent-discovery`: Yapay zeka sistemleri ve otonom ajanlar için doğrulanmış ürün referans fihristi.
-  4. `public/.well-known/agent-card.json`: A2A uyumlu ajan kimlik kartı.
-  5. `Layout.astro`: Google Rich Results ve AI botları için otomatik BreadcrumbList JSON-LD şeması.
-  6. `Footer.astro`: Yeni sayfaların alt menüye ve iç bağlantı ağına entegrasyonu.
-  7. `deploy-vps.ps1`: VPS deploy öncesi yük kontrolü ve hafifletilmiş temizleme mekanizması.
+- **İşlem:** Claude tarafından hazırlanan `MOBIL_DUZELTME_RAPORU.md` eksiksiz uygulandı. Fiyat kanonik tek kaynak üzerinden $0.49 USD yapıldı; Navigation taşmaları, mobil menü davranışı, dokunma hedefleri, tablolar ve hero mobil görünümü optimize edildi.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -56,13 +53,12 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 7. `npm run deploy:vps` ile derleme ve bağlantı kontrolü yeniden çalıştırılır; çıktı VPS'e atomik biçimde gönderilir ve son 5 sürüm geri dönüş için korunur.
 
 ## Bilinen Sorunlar
-- Mobilde (≤400px) üst bar taşıyor: hamburger container dışına çıkıyor, "App Block" rozeti ve indir butonu satır kırıyor. Fiyat tüm sitede ₺29,99 (TRY); hedef $0.49 (USD). Ayrıntı ve düzeltme planı: `MOBIL_DUZELTME_RAPORU.md`.
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
 - `public/og-limitra.png` sosyal paylaşım görseli eski uygulama arayüzünü gösteriyor.
 - Cenuta VPS daha önce yüksek yük altında SSH/HTTP yanıtı vermeyi durdurdu ve panelden normal yeniden başlatma gerektirdi. Yeniden başlatma sonrasında düşük yükle kararlı çalıştı; tekrar ederse sağlayıcıya destek kaydı açılmalı veya daha güvenilir bir barındırma katmanı değerlendirilmelidir.
 
 ## Yol Haritası / Sıradaki İş
-- **Öncelik 1 (Antigravity):** `MOBIL_DUZELTME_RAPORU.md` bölüm 1-3 (header, fiyat $0.49, mobil menü) → build/check:links → deploy.
+- Doğrulanan mobil ve fiyat düzeltmelerinin canlı VPS ortamına dağıtılması (`npm run deploy:vps`).
 - VPS kararlılığını izlemek; yanıt vermeme durumu tekrar ederse Cenuta destek kaydına saatler, yük değerleri ve ağ kesintisi kanıtlarıyla başvurmak.
 - Netlify kopyasını şimdilik acil DNS geri dönüş noktası olarak korumak.
 - İhtiyaç halinde `public/og-limitra.png` sosyal paylaşım görselinin (Open Graph) yeni marka kimliğiyle güncellenmesi.

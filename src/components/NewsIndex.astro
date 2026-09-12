@@ -243,6 +243,9 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
   }
 
   .cat-btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
     padding: 0.55rem 1.15rem;
     background: white;
     border: 1px solid var(--border-color);
@@ -313,8 +316,8 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
     background: var(--accent);
     color: white;
     font-weight: 700;
-    font-size: 0.72rem;
-    letter-spacing: 0.03em;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
   }
 
@@ -366,6 +369,7 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
     align-items: center;
     gap: 0.5rem;
     padding: 0.65rem 1.3rem;
+    min-height: 44px;
     background: white;
     color: var(--surface-dark);
     font-weight: 700;
@@ -413,7 +417,7 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
 
   .news-card .date {
     color: var(--text-muted);
-    font-size: 0.78rem;
+    font-size: 0.8rem;
   }
 
   .news-card h3 {
@@ -441,14 +445,14 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
 
   .news-card .card-footer {
     border-top: 1px solid var(--border-soft);
-    padding-top: 1rem;
+    padding-top: 0.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   .source-tag {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
     font-weight: 600;
   }
@@ -460,6 +464,8 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
     color: var(--accent);
     font-size: 0.85rem;
     font-weight: 700;
+    min-height: 44px;
+    padding-inline: 0.25rem;
   }
 
   .read-link:hover {
@@ -485,9 +491,9 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
   .cta-kicker {
     display: block;
     color: var(--accent);
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 800;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
   }
