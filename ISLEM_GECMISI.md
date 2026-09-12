@@ -1,5 +1,14 @@
 # İşlem Geçmişi
 
+## [2026-09-12 19:25] - Mobil Düzeltmeler Doğrulandı ve VPS'e Yayınlandı
+
+* **Model:** Claude
+* **Etkilenen Dosyalar:** `[GÜNCELLENDİ]` `src/data/product-pages.ts` (satır 261 artık "in Türkiye" ibaresi kaldırıldı), `.claude/launch.json` (`limitra-preview` yapılandırması), `SON_DURUM.md`, `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Antigravity'nin `e6852b8` commit'i canlıya alınmamıştı (canlıda JSON-LD hâlâ TRY/29.99). Değişiklikler incelendi, tek artık fiyat ibaresi düzeltildi, yerel `astro preview` üzerinde 375px mobil emülasyonla ölçüldü, ardından `npm run deploy:vps` ile yayınlandı (sürüm `20260912-192034`).
+* **Doğrulama:** Build 454 sayfa 0 hata; check:links OK. Yerel 375px: header 61px, `.nav-actions` container içinde (TR/EN/AR), rozet tek satır, menü öğeleri 48px, body kaydırma kilidi + Esc/dışarı tıklama çalışıyor, karşılaştırma tablosu ilk sütun sticky. Canlı: `/`, `/en/`, `/fiyatlandirma/` JSON-LD `"price":"0.49","priceCurrency":"USD"`, `mobile-download-link` mevcut, `llms.txt` $0.49.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Kullanıcı telefonda gerçek cihazla teyit etsin; Google Rich Results Test ile USD şeması kontrol edilebilir.
+
 ## [2026-09-12 19:30] - Mobil Deneyim ve Fiyat Düzeltmeleri (Claude Raporu) Uygulandı
 
 * **Model:** Antigravity
