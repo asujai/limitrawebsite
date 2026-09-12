@@ -7,7 +7,8 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-09-11)
+## Güncel Durum (2026-09-12)
+- **Mobil deneyim + fiyat düzeltme raporu hazır (Claude, 12 Eylül):** `MOBIL_DUZELTME_RAPORU.md` — üst bar taşması, ₺29,99 → $0.49 (USD) geçişi, mobil menü, tablolar, dokunma hedefleri. Uygulama Antigravity'de; henüz kod değişmedi.
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) hedefli eklemeler tamamlandı (Antigravity, 11 Eylül 22:15):** Web sitesi sıfırlanmadan mevcut Astro SSG mimarisi korunarak raporda önceliklendirilen kritik sayfalar (`/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları: `/en/what-is-limitra`, `/en/how-it-works`, `/en/agent-discovery`) eklendi.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json` (A2A uyumlu), `public/llms.txt` ve `public/llms-full.txt` dosyaları güncellendi.
 - **SEO & Structured Data:** Her sayfaya otomatik hiyerarşik `BreadcrumbList` JSON-LD şeması eklendi.
@@ -55,11 +56,13 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 7. `npm run deploy:vps` ile derleme ve bağlantı kontrolü yeniden çalıştırılır; çıktı VPS'e atomik biçimde gönderilir ve son 5 sürüm geri dönüş için korunur.
 
 ## Bilinen Sorunlar
+- Mobilde (≤400px) üst bar taşıyor: hamburger container dışına çıkıyor, "App Block" rozeti ve indir butonu satır kırıyor. Fiyat tüm sitede ₺29,99 (TRY); hedef $0.49 (USD). Ayrıntı ve düzeltme planı: `MOBIL_DUZELTME_RAPORU.md`.
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
 - `public/og-limitra.png` sosyal paylaşım görseli eski uygulama arayüzünü gösteriyor.
 - Cenuta VPS daha önce yüksek yük altında SSH/HTTP yanıtı vermeyi durdurdu ve panelden normal yeniden başlatma gerektirdi. Yeniden başlatma sonrasında düşük yükle kararlı çalıştı; tekrar ederse sağlayıcıya destek kaydı açılmalı veya daha güvenilir bir barındırma katmanı değerlendirilmelidir.
 
 ## Yol Haritası / Sıradaki İş
+- **Öncelik 1 (Antigravity):** `MOBIL_DUZELTME_RAPORU.md` bölüm 1-3 (header, fiyat $0.49, mobil menü) → build/check:links → deploy.
 - VPS kararlılığını izlemek; yanıt vermeme durumu tekrar ederse Cenuta destek kaydına saatler, yük değerleri ve ağ kesintisi kanıtlarıyla başvurmak.
 - Netlify kopyasını şimdilik acil DNS geri dönüş noktası olarak korumak.
 - İhtiyaç halinde `public/og-limitra.png` sosyal paylaşım görselinin (Open Graph) yeni marka kimliğiyle güncellenmesi.

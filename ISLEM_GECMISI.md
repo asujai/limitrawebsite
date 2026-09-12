@@ -1,5 +1,14 @@
 # İşlem Geçmişi
 
+## [2026-09-12 19:20] - Mobil Deneyim ve Fiyat Düzeltme Raporu Hazırlandı
+
+* **Model:** Claude
+* **Etkilenen Dosyalar:** `[YENİ]` `MOBIL_DUZELTME_RAPORU.md`; `[GÜNCELLENDİ]` `SON_DURUM.md`, `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Canlı site 375px mobil emülasyonda DOM ölçümleriyle denetlendi (TR/EN/AR ana sayfa, fiyatlandırma, karşılaştırma, nasıl-çalışır, haberler, haber detayı). Kritik bulgular: üst bar taşması (hamburger container dışında, rozet 2 satır, indir butonu 61-83px), fiyatın ₺29,99 yerine $0.49 olması gereği (`schema.ts` tek kaynak + 8 elle yazılmış yer), mobil menü eksikleri (X animasyonu, body kilidi, dışarı tıklama/Esc, dil/indir), geniş tablolar, 17-24px dokunma hedefleri, <13px metinler, hero boşluğu. Her madde dosya:satır ve CSS/TS önerisiyle raporlandı; Antigravity uygulayacak. Kod değişikliği yapılmadı.
+* **Doğrulama:** Ölçümler canlı sitede `getBoundingClientRect` ile alındı; rapor içinde rakamlarla verildi.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Antigravity `MOBIL_DUZELTME_RAPORU.md` bölüm 1-3'ü (header, fiyat, menü) önce uygular, bölüm 8 doğrulama planını çalıştırır, deploy eder.
+
 ## [2026-09-11 22:20] - Görünürlük Raporu Kapsamında Siteyi Sıfırlamadan Hedefli GEO/AEO Eklemelerinin Yapılması
 
 * **Model:** Antigravity
