@@ -1,4 +1,4 @@
-﻿# Limitra Günlük Haber Kontrol ve Telafi Betiği
+# Limitra Günlük Haber Kontrol ve Telafi Betiği
 # Bu betik, sitenin haber veritabanını kontrol eder.
 # Eğer bugün henüz bir haber girilmemişse durumu bildirir ve istenirse agentapi oturumu başlatır.
 
@@ -43,6 +43,38 @@ if ($Latest.date -eq $Today) {
             $Prompt = $Config.args[3]
             & agentapi new-conversation --title="Limitra Günlük Haber Telafisi ($Today)" $Prompt
             Write-Host "[OK] agentapi başarıyla tetiklendi. Antigravity yeni oturumda çalışıyor." -ForegroundColor Green
+            
+            Write-Host "[BİLGİ] Canlı doğrulama için bekleniyor (en fazla 30 dakika)..." -ForegroundColor Cyan
+            $maxWaitMinutes = 30
+            $pollIntervalSeconds = 30
+            $iterations = [math]::Floor(($maxWaitMinutes * 60) / $pollIntervalSeconds)
+            $liveOk = $false
+
+            for ($i = 1; $i -le $iterations; $i++) {
+                Start-Sleep -Seconds $pollIntervalSeconds
+                $checkLiveOutput = & npm run check:live 2>&1
+                if ($LASTEXITCODE -eq 0) {
+                    $liveOk = $true
+                    Write-Host "[OK] Canlı site doğrulandı ve güncel ($([math]::Round(($i * $pollIntervalSeconds) / 60, 1)) dk içinde)." -ForegroundColor Green
+                    break
+                }
+                Write-Host "[$i/$iterations] Canlı site henüz güncellenmedi, bekleniyor..." -ForegroundColor Gray
+            }
+
+            if (-not $liveOk) {
+                Write-Warning "[HATA] 30 dakika geçti ancak haber canlıda doğrulanamadı!"
+                $SonDurumPath = Join-Path $ProjectRoot "SON_DURUM.md"
+                if (Test-Path $SonDurumPath) {
+                    $content = Get-Content $SonDurumPath -Raw -Encoding UTF8
+                    $failMsg = "- HABER TETİKLENDİ AMA CANLIDA YOK — $Today"
+                    if ($content -notmatch [regex]::Escape($failMsg)) {
+                        $content = $content -replace "## Bilinen Sorunlar\r?\n", "## Bilinen Sorunlar`n$failMsg`n"
+                        Set-Content -Path $SonDurumPath -Value $content -Encoding UTF8
+                        Write-Host "[BİLGİ] SON_DURUM.md 'Bilinen Sorunlar' bölümüne hata işlendi." -ForegroundColor Yellow
+                    }
+                }
+                exit 1
+            }
         } else {
             Write-Warning "Sidecar konfigürasyonu bulunamadı: $SidecarConfig"
         }

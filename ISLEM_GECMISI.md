@@ -1,5 +1,28 @@
 # İşlem Geçmişi
 
+## [2026-09-12 19:40] - Yayın Süreci Kalıcı Düzeltmeleri, DoD Standartları ve 12 Eylül Haberi (ID 34)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `AGENTS.md` (Zorunlu 5 adımlı Definition of Done tanımlandı)
+  - `[GÜNCELLENDİ]` `~/.gemini/config/sidecars/webierik/sidecar.json` (7 adımlı otonom yayın ve oturum iz bırakma protokolü eklendi)
+  - `[YENİ GÖREV]` Windows Görev Zamanlayıcı `Limitra-Gunluk-Haber-Telafi` (22:30 ve 09:30 günlük tetikleyicilerle kaydedildi)
+  - `[GÜNCELLENDİ]` `scripts/check-daily-news.ps1` (30 dakikalık check:live yoklama döngüsü ve SON_DURUM.md hata kaydı eklendi)
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` ve 10 dildeki `src/data/news-*.json` (Avustralya 16 yaş altı sosyal medya yasağı, ID 34)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` (12 Eylül tarihli sitemap güncellendi)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` ve `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Claude tarafından hazırlanan `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md` doğrultusunda tüm maddeler eksiksiz yerine getirildi:
+  1. Bekleyen 4 commit `git push origin main` ile GitHub'a gönderildi.
+  2. `AGENTS.md` içerisine build, check:links, commit+push, deploy:vps ve check:live adımlarından oluşan zorunlu Tamamlanma Tanımı (DoD) eklendi.
+  3. `webierik` sidecar prompt'u "mümkünse build" ibaresinden arındırılarak 7 adımlı zorunlu otonom yayın protokolü ve her durumda `ISLEM_GECMISI.md`'ye iz bırakma kuralı ile güncellendi.
+  4. Windows Görev Zamanlayıcı'ya `Limitra-Gunluk-Haber-Telafi` görevi (22:30 ve 09:30) kaydedildi.
+  5. `check-daily-news.ps1` içerisine 30 dakikalık canlı kontrol yoklaması ve başarısızlık halinde `SON_DURUM.md`'ye "HABER TETİKLENDİ AMA CANLIDA YOK" uyarısı işleme mekanizması eklendi.
+  6. **11 Eylül Boş Oturum Teşhisi (`4631e459`):** Oturum transkripti incelendi; sidecar'ın 22:00:58'de başarıyla tetiklendiği ancak araştırma evresinde web kazıma aracının yanıt vermemesi/zaman aşımına uğraması sonucu dosya değişikliği veya commit üretemeden kilitlendiği, eski prompt'ta sonuç kaydı kuralı olmadığı için sessiz sonlandığı tespit edildi.
+  7. 12 Eylül güncel haberi (Avustralya'nın 16 yaş altına sosyal medya yasağı ve platformlara 50 milyon dolar ceza öngören Online Safety düzenlemesi) tüm 11 dilde eşzamanlı olarak ID 34 ile eklendi.
+* **Doğrulama:** `npm run build` (465 sayfa, 0 hata), `npm run check:links` (0 kırık link), `git push origin main`, `npm run deploy:vps` ve `npm run check:live`.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok (Yeni standartlar devrede; günlük haber akışı Windows Görev Zamanlayıcı ve sidecar güvencesinde).
+
 ## [2026-09-12 19:45] - Antigravity Yayın Süreci Teşhisi ve check:live Aracı
 
 * **Model:** Claude
