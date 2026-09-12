@@ -31,7 +31,7 @@
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu (463 URL).
 - `git push origin main` → senkronize.
-- `npm run deploy:vps` → VPS atomik yayın.
+- `npm run deploy:vps` → VPS atomik yayın (sürüm `20260912-193844`).
 - `npm run check:live` → canlıda ID 34 ve fiyat şeması doğrulandı.
 
 ## Günlük Haber Ekleme İş Akışı

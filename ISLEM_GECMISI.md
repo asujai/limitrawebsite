@@ -19,7 +19,7 @@
   5. `check-daily-news.ps1` içerisine 30 dakikalık canlı kontrol yoklaması ve başarısızlık halinde `SON_DURUM.md`'ye "HABER TETİKLENDİ AMA CANLIDA YOK" uyarısı işleme mekanizması eklendi.
   6. **11 Eylül Boş Oturum Teşhisi (`4631e459`):** Oturum transkripti incelendi; sidecar'ın 22:00:58'de başarıyla tetiklendiği ancak araştırma evresinde web kazıma aracının yanıt vermemesi/zaman aşımına uğraması sonucu dosya değişikliği veya commit üretemeden kilitlendiği, eski prompt'ta sonuç kaydı kuralı olmadığı için sessiz sonlandığı tespit edildi.
   7. 12 Eylül güncel haberi (Avustralya'nın 16 yaş altına sosyal medya yasağı ve platformlara 50 milyon dolar ceza öngören Online Safety düzenlemesi) tüm 11 dilde eşzamanlı olarak ID 34 ile eklendi.
-* **Doğrulama:** `npm run build` (465 sayfa, 0 hata), `npm run check:links` (0 kırık link), `git push origin main`, `npm run deploy:vps` ve `npm run check:live`.
+* **Doğrulama:** `npm run build` (465 sayfa, 0 hata), `npm run check:links` (0 kırık link), `git push origin main` (senkronize), `npm run deploy:vps` (sürüm `20260912-193844`) ve `npm run check:live` (OK - ID 34 canlıda HTTP 200, fiyat $0.49 USD).
 * **Bilinen Sorunlar:** Yok
 * **Sonraki Öneri:** Yok (Yeni standartlar devrede; günlük haber akışı Windows Görev Zamanlayıcı ve sidecar güvencesinde).
 
