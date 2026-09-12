@@ -53,12 +53,14 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 7. `npm run deploy:vps` ile derleme ve bağlantı kontrolü yeniden çalıştırılır; çıktı VPS'e atomik biçimde gönderilir ve son 5 sürüm geri dönüş için korunur.
 
 ## Bilinen Sorunlar
+- **Yayın süreci açığı (12 Eylül):** Antigravity görevleri commit'leyip deploy'u atlıyor; sidecar 7/8/10/11/12 Eylül haberlerini üretmedi. Teşhis ve düzeltme planı: `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md`. Her görev sonunda `npm run check:live` zorunlu.
 - (Çözüldü 12 Eylül) Mobil üst bar taşması ve TRY fiyat: canlı sürüm `20260912-192034` ile giderildi.
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
 - `public/og-limitra.png` sosyal paylaşım görseli eski uygulama arayüzünü gösteriyor.
 - Cenuta VPS daha önce yüksek yük altında SSH/HTTP yanıtı vermeyi durdurdu ve panelden normal yeniden başlatma gerektirdi. Yeniden başlatma sonrasında düşük yükle kararlı çalıştı; tekrar ederse sağlayıcıya destek kaydı açılmalı veya daha güvenilir bir barındırma katmanı değerlendirilmelidir.
 
 ## Yol Haritası / Sıradaki İş
+- **Öncelik 0 (Antigravity):** `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md` §3.5 — push, bugünün haberi + deploy + check:live; ardından §3.1-3.4.
 - Doğrulanan mobil ve fiyat düzeltmelerinin canlı VPS ortamına dağıtılması (`npm run deploy:vps`).
 - VPS kararlılığını izlemek; yanıt vermeme durumu tekrar ederse Cenuta destek kaydına saatler, yük değerleri ve ağ kesintisi kanıtlarıyla başvurmak.
 - Netlify kopyasını şimdilik acil DNS geri dönüş noktası olarak korumak.

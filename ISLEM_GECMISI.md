@@ -1,5 +1,14 @@
 # İşlem Geçmişi
 
+## [2026-09-12 19:45] - Antigravity Yayın Süreci Teşhisi ve check:live Aracı
+
+* **Model:** Claude
+* **Etkilenen Dosyalar:** `[YENİ]` `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md`, `scripts/check-live.mjs`; `[GÜNCELLENDİ]` `package.json` (`check:live`), `SON_DURUM.md`, `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** "Tamamlandı denilen iş canlıda yok" şikayeti için git geçmişi, VPS `releases/` dizini, ISLEM_GECMISI kayıtları ve sidecar logları karşılaştırıldı. Bulgular: (1) bugünkü mobil düzeltme commit'lendi ama deploy "istenirse" diye bırakıldı; (2) ID 32 deploy'u SSH hatasıyla ertelenip 3 gün unutuldu; (3) sidecar zamanlayıcı yalnızca Antigravity açıkken çalışıyor, 10 Eylül penceresi kaçtı; (4) 11 Eylül 22:00 tetiği ateşlendi ama oturum hiçbir çıktı üretmedi; (5) sidecar prompt'unda deploy/push/canlı doğrulama adımı yok; (6) 4 commit push edilmemiş. Rapor, AGENTS.md için "Tamamlanma Tanımı", sidecar prompt'u için zorunlu 7 adım, Windows Görev Zamanlayıcı yedeği ve iz bırakma kuralını içeriyor. `npm run check:live` eklendi (son haber slug'ı canlıda 200 mü + fiyat şeması eşleşiyor mu).
+* **Doğrulama:** `npm run check:live` → OK (id 33 canlıda 200; 0.49 USD eşleşti).
+* **Bilinen Sorunlar:** 7, 8, 10, 11, 12 Eylül haberleri yok; `origin/main` 4 commit geride.
+* **Sonraki Öneri:** Antigravity raporun §3.5'ini (push, bugünün haberi, 11 Eylül oturumu) hemen uygular; §3.1-3.4 kalıcı düzeltmeler.
+
 ## [2026-09-12 19:25] - Mobil Düzeltmeler Doğrulandı ve VPS'e Yayınlandı
 
 * **Model:** Claude
