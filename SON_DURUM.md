@@ -7,17 +7,18 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-09-12)
+## Güncel Durum (2026-09-17)
+- **app-ads.txt Entegrasyonu ve Canlı Doğrulama (Antigravity, 17 Eylül):** Google AdMob / AdSense reklam doğrulama dosyası `public/app-ads.txt` konumuna yerleştirildi, Nginx `text/plain; charset=utf-8` kuralı tanımlandı, `scripts/check-live.mjs` test aracına eklendi ve canlıya alındı.
 - **Yayın Süreci Standartları ve Kalıcı Düzeltmeler Devrede (Antigravity, 12 Eylül):** Claude tarafından hazırlanan `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md` doğrultusunda 5 adımlı Definition of Done (`AGENTS.md`), 7 adımlı otonom yayın akışı (`sidecar.json`), Windows Görev Zamanlayıcı (`Limitra-Gunluk-Haber-Telafi`) ve canlı yoklama sistemi entegre edildi.
 - **12 Eylül Haberi (ID 34) 11 Dilde Eklendi:** Avustralya'nın 16 yaş altına sosyal medya yasağı ve teknoloji devlerine 50 milyon dolar ceza öngören Online Safety düzenlemesi tüm dillerde yayınlandı.
 - **Mobil deneyim ve fiyat düzeltmeleri canlıda aktif:** Üst bar taşması, $0.49 USD fiyatı, hamburger menü, sticky tablolar ve Lighthouse dokunma hedefleri yayında.
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
-- **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt` ve `public/llms-full.txt` güncel ($0.49 fiyatlı).
+- **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
 - Toplam üretilen sayfa sayısı: 465 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md` (§3.1-3.5) eksiksiz uygulandı. AGENTS.md'ye 5 adımlı DoD eklendi; sidecar prompt'u 7 adımlı otonom yayın akışıyla sertleştirildi; Windows Görev Zamanlayıcı telafi görevi kuruldu; 11 Eylül transkripti incelenerek boş oturum kök nedeni belgelendi; 12 Eylül haberi (ID 34) 11 dilde eşzamanlı olarak üretildi.
+- **İşlem:** Kök dizindeki `app-ads.txt` dosyası Astro'nun statik klasörü olan `public/app-ads.txt` konumuna taşındı. `deploy/nginx-limitra.conf` içinde doğrudan `text/plain; charset=utf-8` mime tipi ile sunulması sağlandı. `scripts/check-live.mjs` test aracına `app-ads.txt` doğrulaması eklendi. VPS'e atomik deploy gerçekleştirildi ve canlıda HTTP 200 ile içerik doğrulaması yapıldı.
 - **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -27,12 +28,12 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 465 sayfa, 0 hata.
+- `npm run build` → 465 sayfa, 0 hata (dist/app-ads.txt mevcut).
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - Sitemap ↔ üretilen sayfalar tam uyumlu (463 URL).
 - `git push origin main` → senkronize.
-- `npm run deploy:vps` → VPS atomik yayın (sürüm `20260912-193844`).
-- `npm run check:live` → canlıda ID 34 ve fiyat şeması doğrulandı.
+- `npm run deploy:vps` → VPS atomik yayın.
+- `npm run check:live` → canlıda ID 34, fiyat şeması ve app-ads.txt doğrulandı.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:

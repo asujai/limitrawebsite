@@ -1,5 +1,18 @@
 # İşlem Geçmişi
 
+## [2026-09-17 00:05] - app-ads.txt Statik Dizine Eklendi, Nginx ve Canlı Doğrulama Yapılandırıldı
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `public/app-ads.txt` (Google AdMob / AdSense doğrulama kaydı)
+  - `[GÜNCELLENDİ]` `deploy/nginx-limitra.conf` (`app-ads.txt` için doğrudan `text/plain; charset=utf-8` kuralı)
+  - `[GÜNCELLENDİ]` `scripts/check-live.mjs` (`app-ads.txt` canlı HTTP 200, Content-Type ve içerik kontrolü)
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` ve `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** Kök dizindeki `app-ads.txt` dosyası Astro'nun statik varlık dizini olan `public/app-ads.txt` konumuna taşındı. İçeriği `google.com, pub-7461910973649304, DIRECT, f08c47fec0942fa0\n` olarak teyit edildi. Nginx konfigürasyonuna (`deploy/nginx-limitra.conf`) `app-ads.txt` için doğrudan `text/plain; charset=utf-8` MIME tipi ve kısa önbellek kuralı eklendi. `scripts/check-live.mjs` test aracına dosyanın canlıda 200 dönmesi, MIME tipinin text/plain olması ve içeriğin doğruluğu şartı eklendi.
+* **Doğrulama:** `npm run build` (465 sayfa, 0 hata, `dist/app-ads.txt` üretildi), `npm run check:links` (0 kırık link), `npm run deploy:vps` ile canlıya alındı ve `npm run check:live` ile doğrulandı.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-12 19:40] - Yayın Süreci Kalıcı Düzeltmeleri, DoD Standartları ve 12 Eylül Haberi (ID 34)
 
 * **Model:** Antigravity

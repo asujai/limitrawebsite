@@ -20,6 +20,16 @@ const home = await (await fetch(`${SITE}/`)).text();
 const live = home.match(/"price":"([^"]+)","priceCurrency":"([^"]+)"/);
 check(live && live[1] === price && live[2] === currency, `fiyat semasi canli=${live?.[1]} ${live?.[2]} yerel=${price} ${currency}`);
 
+const appAdsUrl = `${SITE}/app-ads.txt`;
+const appAdsRes = await fetch(appAdsUrl);
+const appAdsContentType = appAdsRes.headers.get('content-type') || '';
+const appAdsText = (await appAdsRes.text()).trim();
+const expectedAppAds = fs.existsSync('public/app-ads.txt') ? fs.readFileSync('public/app-ads.txt', 'utf8').trim() : '';
+check(
+  appAdsRes.status === 200 && appAdsContentType.includes('text/plain') && appAdsText === expectedAppAds,
+  `app-ads.txt canlida: HTTP ${appAdsRes.status}, Content-Type: ${appAdsContentType}, icerik eslesmesi: ${appAdsText === expectedAppAds}`
+);
+
 if (failed) {
   console.log('\nCanli site kaynak kodun gerisinde. Calistir: npm run deploy:vps');
   process.exit(1);
