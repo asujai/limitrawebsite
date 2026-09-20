@@ -1,5 +1,14 @@
 # İşlem Geçmişi
 
+## [2026-09-20 22:53] - CleanScan Yeni AdMob Hesabı app-ads.txt Kaydına Eklendi
+
+* **Model:** Codex
+* **Etkilenen Dosyalar:** `[GÜNCELLENDİ]` `public/app-ads.txt`, `SON_DURUM.md`, `ISLEM_GECMISI.md`
+* **Yapılan İşlem:** CleanScan'in yeni AdMob uygulamasının yayıncı kimliği `pub-6309165378311604`, mevcut Limitra/CleanScan reklam kimliği `pub-7461910973649304` satırı korunarak `app-ads.txt` dosyasına eklendi. Böylece aynı geliştirici alan adını kullanan iki geçerli Google reklam hesabı birlikte yetkilendirildi.
+* **Doğrulama:** `npm run build` 465 sayfa ile başarılı; `npm run check:links` kırık bağlantı bulmadı; `dist/app-ads.txt` iki doğru `DIRECT` kaydını içeriyor. Canlı dağıtım ve HTTP doğrulaması bu kaydın devamında yapılacak.
+* **Bilinen Sorunlar:** AdMob taraması canlı dağıtım ve önbellek yenilenmesinden sonra yeniden çalıştırılmalı.
+* **Sonraki Öneri:** Güncel dosyayı VPS'e yayınla, canlı içeriği doğrula ve AdMob app-ads.txt taramasını yeniden başlat.
+
 ## [2026-09-17 00:05] - app-ads.txt Statik Dizine Eklendi, Nginx ve Canlı Doğrulama Yapılandırıldı
 
 * **Model:** Antigravity
