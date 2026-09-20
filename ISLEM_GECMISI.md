@@ -5,9 +5,9 @@
 * **Model:** Codex
 * **Etkilenen Dosyalar:** `[GÜNCELLENDİ]` `public/app-ads.txt`, `SON_DURUM.md`, `ISLEM_GECMISI.md`
 * **Yapılan İşlem:** CleanScan'in yeni AdMob uygulamasının yayıncı kimliği `pub-6309165378311604`, mevcut Limitra/CleanScan reklam kimliği `pub-7461910973649304` satırı korunarak `app-ads.txt` dosyasına eklendi. Böylece aynı geliştirici alan adını kullanan iki geçerli Google reklam hesabı birlikte yetkilendirildi.
-* **Doğrulama:** `npm run build` 465 sayfa ile başarılı; `npm run check:links` kırık bağlantı bulmadı; `dist/app-ads.txt` iki doğru `DIRECT` kaydını içeriyor. Canlı dağıtım ve HTTP doğrulaması bu kaydın devamında yapılacak.
-* **Bilinen Sorunlar:** AdMob taraması canlı dağıtım ve önbellek yenilenmesinden sonra yeniden çalıştırılmalı.
-* **Sonraki Öneri:** Güncel dosyayı VPS'e yayınla, canlı içeriği doğrula ve AdMob app-ads.txt taramasını yeniden başlat.
+* **Doğrulama:** `npm run build` 465 sayfa ile başarılı; `npm run check:links` kırık bağlantı bulmadı; commit `7030423` GitHub `main` dalına gönderildi. `npm run deploy:vps` sürüm `20260920-225355` ile tamamlandı. `npm run check:live` canlı sitenin güncel olduğunu; `https://limitra.online/app-ads.txt` isteği HTTP 200, `text/plain; charset=utf-8` ve iki yerel kayıtla birebir içerik döndürdüğünü doğruladı.
+* **Bilinen Sorunlar:** AdMob'un dağıtımdan hemen sonraki ilk taraması eski içerik/önbellek nedeniyle eşleşmeme mesajını sürdürdü; canlı dosya doğru olduğundan tarama yayılım sonrasında yeniden çalıştırılmalı.
+* **Sonraki Öneri:** AdMob önbelleği yenilendikten sonra CleanScan için `Güncellemeleri kontrol edin` taramasını tekrar çalıştır.
 
 ## [2026-09-17 00:05] - app-ads.txt Statik Dizine Eklendi, Nginx ve Canlı Doğrulama Yapılandırıldı
 

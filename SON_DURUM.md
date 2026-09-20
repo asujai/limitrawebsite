@@ -8,7 +8,7 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-09-20)
-- **CleanScan Yeni AdMob Kaydı (Codex, 20 Eylül):** `public/app-ads.txt`, mevcut `pub-7461910973649304` satırı korunarak CleanScan'in yeni AdMob hesabı `pub-6309165378311604` ile genişletildi. Derleme ve bağlantı kontrolü başarılı; canlı dağıtım bu işlemin devamında yapılacak.
+- **CleanScan Yeni AdMob Kaydı (Codex, 20 Eylül):** `public/app-ads.txt`, mevcut `pub-7461910973649304` satırı korunarak CleanScan'in yeni AdMob hesabı `pub-6309165378311604` ile genişletildi. Commit `7030423` GitHub'a gönderildi; VPS sürümü `20260920-225355` canlı. HTTP 200, `text/plain` ve yerel/canlı içerik eşleşmesi doğrulandı.
 - **app-ads.txt Entegrasyonu ve Canlı Doğrulama (Antigravity, 17 Eylül):** Google AdMob / AdSense reklam doğrulama dosyası `public/app-ads.txt` konumuna yerleştirildi, Nginx `text/plain; charset=utf-8` kuralı tanımlandı, `scripts/check-live.mjs` test aracına eklendi ve canlıya alındı.
 - **Yayın Süreci Standartları ve Kalıcı Düzeltmeler Devrede (Antigravity, 12 Eylül):** Claude tarafından hazırlanan `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md` doğrultusunda 5 adımlı Definition of Done (`AGENTS.md`), 7 adımlı otonom yayın akışı (`sidecar.json`), Windows Görev Zamanlayıcı (`Limitra-Gunluk-Haber-Telafi`) ve canlı yoklama sistemi entegre edildi.
 - **12 Eylül Haberi (ID 34) 11 Dilde Eklendi:** Avustralya'nın 16 yaş altına sosyal medya yasağı ve teknoloji devlerine 50 milyon dolar ceza öngören Online Safety düzenlemesi tüm dillerde yayınlandı.
@@ -19,7 +19,7 @@
 - Toplam üretilen sayfa sayısı: 465 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** CleanScan'in yeni AdMob yayıncı kimliği `pub-6309165378311604`, mevcut `pub-7461910973649304` kaydı korunarak `public/app-ads.txt` dosyasına eklendi. İki uygulama/hesap aynı geliştirici alan adında güvenle doğrulanabilecek.
+- **İşlem:** CleanScan'in yeni AdMob yayıncı kimliği `pub-6309165378311604`, mevcut `pub-7461910973649304` kaydı korunarak `public/app-ads.txt` dosyasına eklendi; GitHub ve VPS'e yayınlandı. İki uygulama/hesap aynı geliştirici alan adında güvenle doğrulanabilecek.
 - **Model:** Codex
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -34,7 +34,8 @@
 - Sitemap ↔ üretilen sayfalar tam uyumlu (463 URL).
 - `git push origin main` → senkronize.
 - `npm run deploy:vps` → VPS atomik yayın (sürüm `20260917-000258`).
-- `npm run check:live` → canlıda ID 34, fiyat şeması ve app-ads.txt doğrulandı.
+- `npm run deploy:vps` → `Yayin tamamlandi`, sürüm `20260920-225355`.
+- `npm run check:live` → canlı site güncel; app-ads.txt HTTP 200/text/plain ve iki kayıtla eşleşiyor.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:
