@@ -66,7 +66,7 @@ if ($Latest.date -eq $Today) {
                 $SonDurumPath = Join-Path $ProjectRoot "SON_DURUM.md"
                 if (Test-Path $SonDurumPath) {
                     $content = Get-Content $SonDurumPath -Raw -Encoding UTF8
-                    $failMsg = "- HABER TETİKLENDİ AMA CANLIDA YOK — $Today"
+                    $failMsg = "- HABER TETIKLENDI AMA CANLIDA YOK - $Today"
                     if ($content -notmatch [regex]::Escape($failMsg)) {
                         $content = $content -replace "## Bilinen Sorunlar\r?\n", "## Bilinen Sorunlar`n$failMsg`n"
                         Set-Content -Path $SonDurumPath -Value $content -Encoding UTF8
