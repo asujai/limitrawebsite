@@ -40,8 +40,8 @@
 - Sitemap ↔ üretilen sayfalar tam uyumlu (474 URL).
 - `git push origin main` → senkronize.
 
-- `npm run deploy:vps` → `Yayin tamamlandi`, son sürüm `20260920-230834`.
-- `npm run check:live` → canlı site güncel; app-ads.txt HTTP 200/text/plain, `no-cache/no-store` ve iki kayıtla eşleşiyor.
+- `npm run deploy:vps` → `Yayin tamamlandi`, son sürüm `20261002-222513`.
+- `npm run check:live` → canlı site güncel (ID 35 canlıda HTTP 200, fiyat 0.49 USD, app-ads.txt OK).
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:
