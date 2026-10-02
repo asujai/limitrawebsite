@@ -40,7 +40,7 @@ if ($Latest.date -eq $Today) {
         $SidecarConfig = Join-Path $env:USERPROFILE ".gemini\config\sidecars\webierik\sidecar.json"
         if (Test-Path $SidecarConfig) {
             $Config = Get-Content $SidecarConfig -Raw -Encoding UTF8 | ConvertFrom-Json
-            $Prompt = $Config.args[3]
+            $Prompt = $Config.args[-1]
             & agentapi new-conversation --title="Limitra Günlük Haber Telafisi ($Today)" $Prompt
             Write-Host "[OK] agentapi başarıyla tetiklendi. Antigravity yeni oturumda çalışıyor." -ForegroundColor Green
             

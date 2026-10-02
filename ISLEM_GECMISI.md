@@ -1,5 +1,26 @@
 # İşlem Geçmişi
 
+## [2026-10-02 22:20] - Günlük Haber Otomasyon Sınır Düzeltmesi ve 2 Ekim Haberi (ID 35)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/daily-news-instructions.md`
+  - `[GÜNCELLENDİ]` `~/.gemini/config/sidecars/webierik/sidecar.json`
+  - `[GÜNCELLENDİ]` `scripts/check-daily-news.ps1`
+  - `[GÜNCELLENDİ]` Windows Görev Zamanlayıcı `Limitra-Gunluk-Haber-Telafi` ayarları (`DisallowStartIfOnBatteries=False`, `StopIfGoingOnBatteries=False`, `StartWhenAvailable=True`)
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` ve 10 dildeki `src/data/news-*.json` (Alabama TikTok 100 milyon dolarlık uzlaşması, gece ekran kısıtı ve zorunlu molalar - ID 35)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` ve `ISLEM_GECMISI.md`
+* **Yapılan İşlem:**
+  1. Otomasyon sisteminin 12 Eylül'den beri çalışmama kök nedeni tespit edildi: `sidecar.json` içindeki prompt 9.179 karakter olduğu için Windows `cmd.exe`'nin 8.191 karakter sınırına takılıp (`The command line is too long`) her gün çöküyordu. Detaylı yönergeler `scripts/daily-news-instructions.md` dosyasına taşındı ve sidecar prompt'u bu dosyayı referans alan ~220 karakterlik temiz bir yapıya dönüştürüldü.
+  2. `scripts/check-daily-news.ps1` telafi betiğinde `$Config.args[3]` yerine dinamik `$Config.args[-1]` kullanılarak argüman eşleşmesi güvenceye alındı.
+  3. Windows Görev Zamanlayıcı'daki `Limitra-Gunluk-Haber-Telafi` görevinin pilde çalışma engeli (`DisallowStartIfOnBatteries`) kaldırılarak `StartWhenAvailable` aktif edildi.
+  4. 2 Ekim 2026 tarihli güncel haber (Alabama Başsavcılığı ile TikTok arasındaki 100 milyon dolarlık tarihi çocuk güvenliği uzlaşması: 00:00-06:00 gece ekran curfew'u, 15 dakikalık zorunlu molalar ve güzellik filtrelerinin kaldırılması) 11 dilde eksiksiz hazırlanarak sisteme eklendi (ID 35).
+  5. `npm run sitemap` çalıştırıldı, `npm run build` ile 476 sayfa hatasız derlendi, `npm run check:links` ile doğrulandı.
+* **Doğrulama:** `npm run build` (476 sayfa, 0 hata), `npm run check:links` (OK), `npm run deploy:vps` ve `npm run check:live`.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-09-20 22:53] - CleanScan Yeni AdMob Hesabı app-ads.txt Kaydına Eklendi
 
 * **Model:** Codex

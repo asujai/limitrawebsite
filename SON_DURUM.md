@@ -7,7 +7,12 @@
 - **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-09-20)
+## Güncel Durum (2026-10-02)
+- **Günlük Haber Otomasyon Sınır Düzeltmesi ve 2 Ekim Haberi (ID 35) (Antigravity, 2 Ekim):**
+  - Otomasyon sisteminin Windows 8.191 karakter sınırına takılması (`cmd.exe` / `The command line is too long`) kalıcı olarak giderildi: Prompt `scripts/daily-news-instructions.md` dosyasına taşındı, `sidecar.json` ve `scripts/check-daily-news.ps1` dosya referansıyla çalışacak şekilde optimize edildi.
+  - Windows Görev Zamanlayıcı'daki `Limitra-Gunluk-Haber-Telafi` görevinin pilde çalışma kısıtı kaldırıldı (`DisallowStartIfOnBatteries=False`) ve kaçırılan görevlerin uyanışta telafisi (`StartWhenAvailable=True`) açıldı.
+  - 2 Ekim 2026 haberi (ID 35: Alabama ile TikTok arasında 100 milyon dolarlık uzlaşma; gece 00:00-06:00 curfew'u, 15 dk zorunlu mola ve kozmetik filtrelerin kaldırılması) 11 dilde eşzamanlı olarak eklendi.
+
 - **CleanScan Yeni AdMob Kaydı (Codex, 20 Eylül):** `public/app-ads.txt`, mevcut `pub-7461910973649304` satırı korunarak CleanScan'in yeni AdMob hesabı `pub-6309165378311604` ile genişletildi. HTTP 200, `text/plain` ve yerel/canlı içerik eşleşmesi doğrulandı. AdMob'un eski sonucu tutmaması için `app-ads.txt` Nginx önbelleği ayrıca `no-cache/no-store` yapıldı.
 - **app-ads.txt Entegrasyonu ve Canlı Doğrulama (Antigravity, 17 Eylül):** Google AdMob / AdSense reklam doğrulama dosyası `public/app-ads.txt` konumuna yerleştirildi, Nginx `text/plain; charset=utf-8` kuralı tanımlandı, `scripts/check-live.mjs` test aracına eklendi ve canlıya alındı.
 - **Yayın Süreci Standartları ve Kalıcı Düzeltmeler Devrede (Antigravity, 12 Eylül):** Claude tarafından hazırlanan `ANTIGRAVITY_YAYIN_SURECI_RAPORU.md` doğrultusunda 5 adımlı Definition of Done (`AGENTS.md`), 7 adımlı otonom yayın akışı (`sidecar.json`), Windows Görev Zamanlayıcı (`Limitra-Gunluk-Haber-Telafi`) ve canlı yoklama sistemi entegre edildi.
@@ -16,11 +21,11 @@
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
-- Toplam üretilen sayfa sayısı: 465 statik sayfa, 0 hata, kırık iç bağlantı yok.
+- Toplam üretilen sayfa sayısı: 476 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** CleanScan'in yeni AdMob yayıncı kimliği `pub-6309165378311604`, mevcut `pub-7461910973649304` kaydı korunarak `public/app-ads.txt` dosyasına eklendi; GitHub ve VPS'e yayınlandı. İki uygulama/hesap aynı geliştirici alan adında güvenle doğrulanabilecek.
-- **Model:** Codex
+- **İşlem:** Windows komut satırı sınırından ötürü çöken günlük haber sidecar prompt'u `scripts/daily-news-instructions.md` dosyasına taşınarak sadeleştirildi; Görev Zamanlayıcı batarya ayarları düzeltildi. 2 Ekim 2026 haberi (ID 35) 11 dilde eklendi, derlendi ve yayınlandı.
+- **Model:** Antigravity
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
@@ -29,11 +34,12 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run build` → 465 sayfa, 0 hata (`dist/app-ads.txt` iki Google `DIRECT` kaydı içeriyor).
+- `npm run sitemap` → sitemap.xml güncellendi (474 URL).
+- `npm run build` → 476 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu (463 URL).
+- Sitemap ↔ üretilen sayfalar tam uyumlu (474 URL).
 - `git push origin main` → senkronize.
-- `npm run deploy:vps` → VPS atomik yayın (sürüm `20260917-000258`).
+
 - `npm run deploy:vps` → `Yayin tamamlandi`, son sürüm `20260920-230834`.
 - `npm run check:live` → canlı site güncel; app-ads.txt HTTP 200/text/plain, `no-cache/no-store` ve iki kayıtla eşleşiyor.
 
