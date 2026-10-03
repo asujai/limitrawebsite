@@ -89,8 +89,15 @@ const schemas = [
   ...(Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [])
 ];
 
-const pageTitle = title.includes('Limitra') ? title : `${title} | Limitra App Block`;
-const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitra App Block`;
+const pageTitle = title.includes('Limitra') ? title : `${title} | Limitra`;
+const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitra`;
+
+// Newsreader/Manrope Arapca ve Tayca glifleri icermez; bu diller icin Noto ailesi eklenir.
+const scriptFonts: Partial<Record<SupportedLang, string>> = {
+  ar: '&family=Noto+Naskh+Arabic:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500;600;700',
+  th: '&family=Noto+Serif+Thai:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600;700'
+};
+const fontHref = `https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600${scriptFonts[currentLang] ?? ''}&display=swap`;
 ---
 
 <!doctype html>
@@ -113,14 +120,14 @@ const pageOgTitle = ogTitle.includes('Limitra') ? ogTitle : `${ogTitle} | Limitr
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#09162f" />
+    <meta name="theme-color" content="#f7f6f2" />
     <meta name="color-scheme" content="light" />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/png" href="/logo.png" />
     <link rel="apple-touch-icon" href="/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link href={fontHref} rel="stylesheet" />
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />

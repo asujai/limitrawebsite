@@ -1,6 +1,7 @@
 ---
 import { translations, SUPPORTED_LANGUAGES, type SupportedLang } from '../data/translations';
 import { routes } from '../data/routes';
+import { homeCopy, SOCIAL_STORE_URL, BLOCK_STORE_URL } from '../data/home';
 
 interface Props {
   currentLang?: SupportedLang;
@@ -22,32 +23,41 @@ const currentYear = new Date().getFullYear();
 const r = routes(currentLang);
 const homeHref = r.home;
 
+const tr = currentLang === 'tr';
 const label = {
-  contact: currentLang === 'tr' ? 'İletişim' : 'Contact',
-  screenTimeGuide: currentLang === 'tr' ? 'Ekran süresi rehberi' : 'Screen time guide',
-  privacy: currentLang === 'tr' ? 'Gizlilik politikası' : 'Privacy policy',
-  terms: currentLang === 'tr' ? 'Kullanım şartları' : 'Terms of use',
-  deleteAccount: currentLang === 'tr' ? 'Hesap ve veri silme' : 'Delete account & data',
-  pricing: currentLang === 'tr' ? 'Fiyatlandırma' : 'Pricing',
-  compare: currentLang === 'tr' ? 'Karşılaştırma' : 'Compare',
-  changelog: currentLang === 'tr' ? 'Değişiklik günlüğü' : 'Changelog',
-  whatIs: currentLang === 'tr' ? 'Limitra Nedir?' : 'What is Limitra?',
-  howItWorksDeep: currentLang === 'tr' ? 'Nasıl Çalışır?' : 'How it Works',
-  agentDiscovery: currentLang === 'tr' ? 'AI & Ajan Portalı' : 'AI & Agent Portal'
+  contact: tr ? 'İletişim' : 'Contact',
+  screenTimeGuide: tr ? 'Ekran süresi rehberi' : 'Screen time guide',
+  privacy: tr ? 'Gizlilik politikası' : 'Privacy policy',
+  terms: tr ? 'Kullanım şartları' : 'Terms of use',
+  deleteAccount: tr ? 'Hesap ve veri silme' : 'Delete account & data',
+  onPlay: tr ? 'Google Play’de' : 'On Google Play',
+  compare: tr ? 'Karşılaştırma' : 'Compare',
+  changelog: tr ? 'Değişiklik günlüğü' : 'Changelog',
+  whatIs: tr ? 'Limitra App Block nedir?' : 'What is Limitra App Block?',
+  howItWorksDeep: tr ? 'Nasıl çalışır?' : 'How it works',
+  agentDiscovery: tr ? 'AI & Ajan Portalı' : 'AI & Agent Portal'
 };
 
 const groups = [
   {
-    title: t.footer.productTitle,
+    title: 'Limitra Social',
     links: [
+      { href: SOCIAL_STORE_URL, label: label.onPlay, external: true },
+      { href: '/limitra-social/privacy', label: label.privacy },
+      { href: '/limitra-social/terms', label: label.terms },
+      { href: '/limitra-social/delete-account', label: label.deleteAccount }
+    ]
+  },
+  {
+    title: 'Limitra App Block',
+    links: [
+      { href: BLOCK_STORE_URL, label: label.onPlay, external: true },
       { href: r.whatIs, label: label.whatIs },
       { href: r.howItWorksDeep, label: label.howItWorksDeep },
-      { href: r.faq, label: t.nav.faq },
-      { href: r.pricing, label: label.pricing },
       { href: r.compare, label: label.compare },
       { href: r.changelog, label: label.changelog },
-      { href: r.agentDiscovery, label: label.agentDiscovery },
-      { href: r.contact, label: label.contact }
+      { href: r.privacy, label: label.privacy },
+      { href: r.terms, label: label.terms }
     ]
   },
   {
@@ -55,22 +65,10 @@ const groups = [
     links: [
       { href: r.news, label: t.nav.news },
       { href: r.guides, label: t.nav.guides },
-      { href: r.guide('ekran-suresi'), label: label.screenTimeGuide }
-    ]
-  },
-  {
-    title: t.footer.legalTitle,
-    links: [
-      { href: r.privacy, label: label.privacy },
-      { href: r.terms, label: label.terms }
-    ]
-  },
-  {
-    title: 'Limitra Social',
-    links: [
-      { href: '/limitra-social/privacy', label: label.privacy },
-      { href: '/limitra-social/terms', label: label.terms },
-      { href: '/limitra-social/delete-account', label: label.deleteAccount }
+      { href: r.guide('ekran-suresi'), label: label.screenTimeGuide },
+      { href: r.faq, label: t.nav.faq },
+      { href: r.agentDiscovery, label: label.agentDiscovery },
+      { href: r.contact, label: label.contact }
     ]
   }
 ];
@@ -80,12 +78,12 @@ const groups = [
   <div class="container footer-top">
     <div class="footer-brand">
       <a href={homeHref} class="brand">
-        <img src="/logo.png" alt="Limitra App Block Logo" class="brand-logo" width="36" height="36" />
-        <span class="brand-text">Limitra <span class="brand-badge">App Block</span></span>
+        <img src="/logo.png" alt="" class="brand-logo" width="34" height="34" />
+        <span class="brand-text">Limitra</span>
       </a>
-      <p>{t.hero.lead}</p>
-      <a class="play-link" href="https://play.google.com/store/apps/details?id=com.gardiyan.app" target="_blank" rel="noopener noreferrer">
-        {t.hero.ctaPrimary} <span aria-hidden="true">↗</span>
+      <p>{(homeCopy[currentLang] ?? homeCopy.en).tagline}</p>
+      <a class="play-link" href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer">
+        {(homeCopy[currentLang] ?? homeCopy.en).hero.cta} <span aria-hidden="true">↗</span>
       </a>
     </div>
 
@@ -94,7 +92,13 @@ const groups = [
         <div class="link-group">
           <h2>{group.title}</h2>
           <ul>
-            {group.links.map((link) => <li><a href={link.href}>{link.label}</a></li>)}
+            {group.links.map((link) => (
+              <li>
+                {'external' in link && link.external
+                  ? <a href={link.href} target="_blank" rel="noopener noreferrer">{link.label} <span aria-hidden="true">↗</span></a>
+                  : <a href={link.href}>{link.label}</a>}
+              </li>
+            ))}
           </ul>
         </div>
       ))}
@@ -102,19 +106,25 @@ const groups = [
   </div>
 
   <div class="container footer-bottom">
-    <p>&copy; {currentYear} Limitra App Block. {t.footer.rights}</p>
+    <p>&copy; {currentYear} Limitra. {t.footer.rights}</p>
     <p class="tagline">{t.footer.tagline}</p>
   </div>
 </footer>
 
 <style>
   .footer {
-    background: #09162f;
+    background: var(--ink, #0e1726);
     color: #e2e8f0;
     padding-top: 5rem;
     padding-bottom: 3rem;
-    margin-top: 6rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .footer-brand .brand-text {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
   }
 
   .footer-top {
@@ -191,7 +201,7 @@ const groups = [
 
   .footer-links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
 

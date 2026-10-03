@@ -2,6 +2,12 @@ import type { SupportedLang } from './translations';
 
 export const SITE_URL = 'https://limitra.online';
 export const STORE_URL = 'https://play.google.com/store/apps/details?id=com.gardiyan.app';
+export const SOCIAL_STORE_URL = 'https://play.google.com/store/apps/details?id=com.limitra.socialprototype';
+
+const SOCIAL_DESCRIPTION: Record<'tr' | 'en', string> = {
+  tr: 'Limitra Social, Android için ücretsiz bir uygulama engelleyici ve ekran süresi sınırlayıcıdır; günlük limit dolduğunda seçilen uygulamayı kilitler ve limitleri arkadaşlarla paylaşmayı sağlar.',
+  en: 'Limitra Social is a free app blocker and screen time limiter for Android; it locks the selected app when the daily limit runs out and lets you share your limits with friends.'
+};
 export const APP_VERSION = '1.2.1';
 export const APP_VERSION_DATE = '2026-09-05';
 export const APP_PRICE = '0.49';
@@ -16,8 +22,8 @@ export const SHORT_DESCRIPTION: Record<'tr' | 'en', string> = {
 
 /** Ana sayfa H1 altindaki dogrudan cevap paragrafi (<=120 kelime). */
 export const HERO_ANSWER: Record<'tr' | 'en', string> = {
-  tr: `${SHORT_DESCRIPTION.tr} Android 7.0 ve üzeri cihazlarda çalışır, Google Play'de $0.49 tek seferlik ödemeyle sunulur; internet izni istemez, hesap gerektirmez ve tüm veriler cihazda kalır.`,
-  en: `${SHORT_DESCRIPTION.en} It runs on Android 7.0 and above, is sold on Google Play as a $0.49 one-time purchase, requests no internet permission, needs no account, and keeps all data on the device.`
+  tr: `${SHORT_DESCRIPTION.tr} Android 7.0 ve üzeri cihazlarda çalışır, Google Play'de tek seferlik ödemeyle sunulur; internet izni istemez, hesap gerektirmez ve tüm veriler cihazda kalır.`,
+  en: `${SHORT_DESCRIPTION.en} It runs on Android 7.0 and above, is sold on Google Play as a one-time purchase, requests no internet permission, needs no account, and keeps all data on the device.`
 };
 
 const FEATURES: Record<'tr' | 'en', string[]> = {
@@ -58,13 +64,13 @@ export function baseGraph(lang: SupportedLang) {
         url: SITE_URL,
         logo: `${SITE_URL}/logo.png`,
         email: 'destek@limitra.online',
-        sameAs: [STORE_URL]
+        sameAs: [SOCIAL_STORE_URL, STORE_URL]
       },
       {
         '@type': 'WebSite',
         '@id': `${SITE_URL}/#website`,
         url: SITE_URL,
-        name: 'Limitra App Block',
+        name: 'Limitra',
         publisher: { '@id': `${SITE_URL}/#org` },
         inLanguage: l === 'tr' ? 'tr-TR' : 'en'
       },
@@ -94,6 +100,32 @@ export function baseGraph(lang: SupportedLang) {
           availability: 'https://schema.org/InStock'
         },
         featureList: FEATURES[l],
+        inLanguage: ['en', 'tr', 'ar', 'de', 'es', 'fr', 'hi', 'id', 'pt', 'ru', 'th']
+      },
+      // Not: check-live.mjs ana sayfadaki ilk "price" alanini App Block fiyatiyla karsilastirir;
+      // bu yuzden Social dugumu App Block'tan sonra gelmelidir.
+      {
+        '@type': ['SoftwareApplication', 'MobileApplication'],
+        '@id': `${SITE_URL}/#social-app`,
+        name: 'Limitra Social',
+        alternateName: ['Limitra Social App Block'],
+        description: SOCIAL_DESCRIPTION[l],
+        applicationCategory: 'UtilitiesApplication',
+        applicationSubCategory: 'App blocker / screen time limiter with friends',
+        operatingSystem: 'Android',
+        url: SITE_URL,
+        downloadUrl: SOCIAL_STORE_URL,
+        installUrl: SOCIAL_STORE_URL,
+        author: { '@id': `${SITE_URL}/#org` },
+        publisher: { '@id': `${SITE_URL}/#org` },
+        isAccessibleForFree: true,
+        offers: {
+          '@type': 'Offer',
+          price: '0',
+          priceCurrency: 'USD',
+          url: SOCIAL_STORE_URL,
+          availability: 'https://schema.org/InStock'
+        },
         inLanguage: ['en', 'tr', 'ar', 'de', 'es', 'fr', 'hi', 'id', 'pt', 'ru', 'th']
       }
     ]

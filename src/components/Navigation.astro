@@ -1,6 +1,7 @@
 ---
 import { translations, SUPPORTED_LANGUAGES, type SupportedLang } from '../data/translations';
 import { parsePath, resolveUrl, routes } from '../data/routes';
+import { SOCIAL_STORE_URL } from '../data/home';
 
 interface Props {
   currentLang?: SupportedLang;
@@ -26,9 +27,10 @@ const getLangUrl = (targetLang: SupportedLang) => resolveUrl(targetLang, pageKey
 const r = routes(currentLang);
 const homeHref = r.home;
 
+const homeBase = r.home === '/' ? '' : r.home;
 const links = [
-  { href: r.home, label: t.nav.home },
-  { href: r.howItWorks, label: t.nav.howItWorks },
+  { href: `${homeBase}/#social`, label: 'Limitra Social' },
+  { href: `${homeBase}/#app-block`, label: 'App Block' },
   { href: r.news, label: t.nav.news },
   { href: r.guides, label: t.nav.guides },
   { href: r.faq, label: t.nav.faq }
@@ -56,9 +58,9 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
 
 <header class="site-header" data-site-header>
   <div class="container nav-container">
-    <a href={homeHref} class="brand" aria-label={`Limitra App Block ${t.nav.home}`}>
-      <img src="/logo.png" alt="Limitra App Block Logo" class="brand-logo" width="36" height="36" />
-      <span class="brand-text">Limitra <span class="brand-badge">App Block</span></span>
+    <a href={homeHref} class="brand" aria-label={`Limitra – ${t.nav.home}`}>
+      <img src="/logo.png" alt="" class="brand-logo" width="34" height="34" />
+      <span class="brand-text">Limitra</span>
     </a>
 
     <nav class="nav" id="primary-navigation" aria-label={t.nav.home}>
@@ -71,7 +73,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
           </li>
         ))}
         <li class="mobile-nav-cta">
-          <a href="https://play.google.com/store/apps/details?id=com.gardiyan.app" target="_blank" rel="noopener noreferrer" class="mobile-download-link">
+          <a href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer" class="mobile-download-link">
             <span>{t.nav.getApp}</span>
             <span aria-hidden="true">↗</span>
           </a>
@@ -83,7 +85,6 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
       <!-- Multilingual Dropdown -->
       <div class="lang-dropdown" data-lang-dropdown>
         <button type="button" class="lang-dropdown-btn" aria-haspopup="true" aria-expanded="false" aria-label={t.nav.language}>
-          <span class="lang-flag">{currentLangObj.flag}</span>
           <span class="lang-code">{currentLangObj.code.toUpperCase()}</span>
           <svg class="dropdown-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
             <polyline points="6 9 12 15 18 9"></polyline>
@@ -96,7 +97,6 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
               class={`lang-menu-item ${lang.code === currentLang ? 'active' : ''}`}
               role="menuitem"
             >
-              <span class="lang-flag">{lang.flag}</span>
               <span class="lang-name">{lang.nativeName}</span>
               <span class="lang-code-tag">{lang.code.toUpperCase()}</span>
             </a>
@@ -104,7 +104,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
         </div>
       </div>
 
-      <a href="https://play.google.com/store/apps/details?id=com.gardiyan.app" target="_blank" rel="noopener noreferrer" class="download-link">
+      <a href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer" class="download-link">
         <span>{t.nav.getApp}</span>
         <span aria-hidden="true">↗</span>
       </a>
@@ -194,9 +194,8 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(255, 255, 255, 0.92);
-    backdrop-filter: blur(14px);
-    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+    background: rgba(247, 246, 242, 0.96);
+    border-bottom: 1px solid var(--line, #e2e0d8);
     transition: all 0.2s ease;
   }
 
@@ -214,7 +213,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     gap: 0.65rem;
     text-decoration: none;
     font-weight: 700;
-    color: var(--color-text-primary, #09162f);
+    color: var(--ink, #0e1726);
     font-size: 1.15rem;
     font-family: var(--font-heading, inherit);
     letter-spacing: -0.01em;
@@ -224,25 +223,15 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
 
   /* Acik zeminli ust bar: marka metni koyu */
   .brand-text {
-    color: #09162f;
+    color: var(--ink, #0e1726);
+    font-size: 1.45rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
   }
 
   .brand-logo {
-    border-radius: 8px;
+    border-radius: 9px;
     object-fit: cover;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  }
-
-  .brand-badge {
-    font-size: 0.72rem;
-    font-weight: 600;
-    background: #eef2ff;
-    color: #4338ca;
-    padding: 0.2rem 0.5rem;
-    border-radius: 9999px;
-    border: 1px solid rgba(67, 56, 202, 0.15);
-    margin-inline-start: 0.2rem;
-    white-space: nowrap;
   }
 
   .nav-list {
@@ -260,9 +249,9 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
 
   .nav-link {
     text-decoration: none;
-    color: var(--color-text-secondary, #475569);
-    font-weight: 500;
-    font-size: 0.95rem;
+    color: var(--text-secondary, #46505f);
+    font-weight: 600;
+    font-size: 0.92rem;
     transition: color 0.2s ease;
     position: relative;
     padding: 0.4rem 0;
@@ -270,7 +259,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
 
   .nav-link:hover,
   .nav-link[aria-current='page'] {
-    color: var(--color-primary, #09162f);
+    color: var(--ink, #0e1726);
   }
 
   .nav-link[aria-current='page']::after {
@@ -280,7 +269,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     left: 0;
     right: 0;
     height: 2px;
-    background: var(--color-primary, #09162f);
+    background: var(--ink, #0e1726);
     border-radius: 2px;
   }
 
@@ -387,7 +376,8 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    background: var(--color-primary, #09162f);
+    min-height: 44px;
+    background: var(--ink, #0e1726);
     color: #ffffff;
     padding: 0.6rem 1.15rem;
     border-radius: 9999px;
@@ -398,7 +388,8 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
   }
 
   .download-link:hover {
-    opacity: 0.92;
+    background: var(--accent, #2d5be3);
+    color: #ffffff;
     transform: translateY(-1px);
   }
 
@@ -423,7 +414,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
     display: block;
     width: 22px;
     height: 2px;
-    background: var(--color-primary, #09162f);
+    background: var(--ink, #0e1726);
     border-radius: 2px;
     transition: transform 0.25s ease, opacity 0.2s ease;
   }
@@ -507,7 +498,7 @@ const currentLangObj = SUPPORTED_LANGUAGES.find(l => l.code === currentLang) || 
       gap: 0.5rem;
       width: 100%;
       min-height: 44px;
-      background: var(--color-primary, #09162f);
+      background: var(--ink, #0e1726);
       color: #ffffff;
       padding: 0.75rem 1.25rem;
       border-radius: 9999px;

@@ -2,8 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { translations, type SupportedLang } from '../data/translations';
 import { routes, newsByLang } from '../data/routes';
-import { mockup } from '../data/mockup';
-import { HERO_ANSWER } from '../data/schema';
+import { homeCopy, blockProof, SOCIAL_STORE_URL, BLOCK_STORE_URL } from '../data/home';
 
 interface Props {
   lang?: SupportedLang;
@@ -11,658 +10,1084 @@ interface Props {
 
 const { lang = 'tr' } = Astro.props;
 const t = translations[lang] || translations.en;
-const playUrl = 'https://play.google.com/store/apps/details?id=com.gardiyan.app';
-
+const c = homeCopy[lang] || homeCopy.en;
 const r = routes(lang);
-const m = mockup[lang] || mockup.en;
-const latestNews = (newsByLang[lang] || newsByLang.en).slice(0, 3);
-const newsUrl = r.news;
+const isRtl = lang === 'ar';
 
-const steps = t.steps.items;
-const heroAnswer = lang === 'tr' || lang === 'en' ? HERO_ANSWER[lang] : null;
+const news = (newsByLang[lang] || newsByLang.en).slice(0, 3);
+const [leadNews, ...sideNews] = news;
 
 const guides = lang === 'tr' ? [
-  { href: r.guide('ekran-suresi'), meta: '6 dk', title: 'Ekran süreni gerçekten anla', text: 'Sürekli telefon kullanımının dikkat ve günlük ritim üzerindeki etkisini gör.' },
-  { href: r.guide('klasik-limitler-neden-yetmez'), meta: '5 dk', title: 'Yumuşak limitler neden yetmez?', text: 'Bir uyarının dürtü anında neden kolayca yok sayıldığını keşfet.' },
-  { href: r.guide('dikkat-uyku-ve-rutinler'), meta: '7 dk', title: 'Uyku ve dikkatini koru', text: 'Yalnızca iradeye güvenmeden daha sakin akşam rutinleri kur.' }
-] : [
-  { href: r.guide('ekran-suresi'), meta: '6 min', title: 'Understand your screen time', text: 'See what constant phone use does to focus and daily rhythm.' },
-  { href: r.guide('klasik-limitler-neden-yetmez'), meta: '5 min', title: 'Why soft limits are easy to ignore', text: 'Explore why a warning is often not enough at the moment of temptation.' },
-  { href: r.guide('dikkat-uyku-ve-rutinler'), meta: '7 min', title: 'Protect sleep and attention', text: 'Build calmer evening routines without relying on willpower alone.' }
-];
+  { href: r.guide('ekran-suresi'), meta: '6 dk', title: 'Ekran süreni gerçekten anla' },
+  { href: r.guide('klasik-limitler-neden-yetmez'), meta: '5 dk', title: 'Yumuşak limitler neden yetmez?' },
+  { href: r.guide('dikkat-uyku-ve-rutinler'), meta: '7 dk', title: 'Uyku ve dikkatini koru' }
+] : lang === 'en' ? [
+  { href: r.guide('ekran-suresi'), meta: '6 min', title: 'Understand your screen time' },
+  { href: r.guide('klasik-limitler-neden-yetmez'), meta: '5 min', title: 'Why soft limits are easy to ignore' },
+  { href: r.guide('dikkat-uyku-ve-rutinler'), meta: '7 min', title: 'Protect sleep and attention' }
+] : [];
 
-const pageTitles: Record<SupportedLang, { title: string; desc: string }> = {
-  tr: {
-    title: 'Limitra App Block | Ekran Süresini Kontrol Et, Uygulama Engelleyici ve Dijital Denge',
-    desc: 'Limitra App Block ile ekran süreni kontrol et, uygulama kullanımını sınırla ve dijital alışkanlıklarını daha bilinçli şekilde yönet.'
-  },
-  en: {
-    title: 'Limitra App Block | Screen Time Control & App Blocker',
-    desc: 'Control screen time, block distracting apps, and build digital discipline with Limitra App Block.'
-  },
-  es: {
-    title: 'Limitra App Block | Bloqueador de aplicaciones y control de tiempo de pantalla',
-    desc: 'Controla el tiempo de pantalla, bloquea apps que distraen y construye disciplina digital con Limitra App Block para Android.'
-  },
-  fr: {
-    title: 'Limitra App Block | Bloqueur d’applications et contrôle du temps d’écran',
-    desc: 'Maîtrisez votre temps d’écran, bloquez les applications distrayantes et renforcez votre discipline numérique avec Limitra App Block.'
-  },
-  de: {
-    title: 'Limitra App Block | App-Blocker und Bildschirmzeit begrenzen',
-    desc: 'Kontrollieren Sie Ihre Bildschirmzeit, blockieren Sie ablenkende Apps und bauen Sie digitale Disziplin auf mit Limitra App Block.'
-  },
-  pt: {
-    title: 'Limitra App Block | Bloqueador de aplicativos e controle de tempo de tela',
-    desc: 'Controle o tempo de tela, bloqueie aplicativos distrativos e construa disciplina digital com o Limitra App Block para Android.'
-  },
-  it: {
-    title: 'Limitra App Block | Blocco app e controllo del tempo di utilizzo',
-    desc: 'Controlla il tempo di utilizzo dello smartphone, blocca le app che distraggono e crea una sana disciplina digitale con Limitra App Block.'
-  },
-  ar: {
-    title: 'Limitra App Block | تطبيق حظر التطبيقات والتحكم في وقت الشاشة والانضباط الرقمي',
-    desc: 'تحكم في وقت الشاشة، واحظر التطبيقات المشتتة، وابنِ انضباطاً رقمياً حقيقياً مع تطبيق Limitra App Block لأجهزة أندرويد.'
-  },
-  id: {
-    title: 'Limitra App Block | Pemblokir aplikasi dan pengontrol waktu layar Android',
-    desc: 'Kendalikan waktu layar, blokir aplikasi yang mengganggu, dan bangun disiplin digital yang nyata bersama Limitra App Block.'
-  },
-  fil: {
-    title: 'Limitra App Block | App blocker at kontrol sa oras sa screen para sa Android',
-    desc: 'Kontrolin ang oras sa screen, i-block ang mga nakakaabalang app, at palakasin ang iyong digital na disiplina gamit ang Limitra App Block.'
-  },
-  th: {
-    title: 'Limitra App Block | ตัวบล็อกแอปและควบคุมเวลาหน้าจอสำหรับ Android',
-    desc: 'ควบคุมเวลาหน้าจอ บล็อกแอปที่รบกวนสมาธิ และสร้างวินัยดิจิทัลอย่างยั่งยืนด้วย Limitra App Block สำหรับ Android'
-  }
+const [n1, n2, n3] = c.social.names;
+const toast = c.phone.toast.replace('{name}', n1);
+const heroQuote = c.quotes.items[0];
+const nightQuote = c.quotes.items[2];
+
+const friends = [
+  { name: n1, frame: 'gold', app: 'Instagram', used: 18, limit: 30, status: 'on', best: 112 },
+  { name: n2, frame: 'teal', app: 'TikTok', used: 52, limit: 60, status: 'near', best: 45 },
+  { name: n3, frame: 'none', app: 'YouTube', used: 74, limit: 60, status: 'over', best: 9 }
+] as const;
+const statusLabel = { on: c.social.on, near: c.social.near, over: c.social.over };
+
+const handles = ['atlas', 'mavi.kare', 'kuzey.foto', 'rota', 'studio.k', 'ada', 'pixel.gun', 'lumen', 'sahil', 'nokta', 'ufuk', 'orbit', 'kare.kare', 'yol'];
+const feedPosts = handles.map((handle, i) => ({ handle, art: (i % 6) + 1, likes: 120 + ((i * 37) % 900) }));
+const miniPosts = feedPosts.slice(0, 6);
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: c.faq.items.map((item) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: { '@type': 'Answer', text: item.a }
+  }))
 };
-
-const currentMeta = pageTitles[lang] || pageTitles.en;
 ---
 
-<Layout
-  title={currentMeta.title}
-  description={currentMeta.desc}
-  lang={lang}
->
+<Layout title={c.meta.title} description={c.meta.desc} lang={lang} jsonLd={faqSchema}>
+  <!-- GİRİŞ: Limitra Social önde -->
   <section class="hero">
-    <div class="hero-glow glow-one"></div>
-    <div class="hero-glow glow-two"></div>
     <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="eyebrow"><span class="signal-dot"></span>{t.hero.badge}</span>
-        <h1>{t.hero.h1Line1}<br /><em>{t.hero.h1Line2}</em></h1>
-        {heroAnswer && <p class="hero-answer">{heroAnswer}</p>}
-        <p class="hero-lead">
-          {t.hero.lead}
-        </p>
+        <h1>
+          <span class="h1-line">{c.hero.h1a}</span>
+          <em class="h1-line h1-accent">{c.hero.h1b}</em>
+        </h1>
+        <p class="hero-lead">{c.hero.lead}</p>
         <div class="hero-actions">
-          <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-            <span>{t.hero.ctaPrimary}</span><span aria-hidden="true">↗</span>
+          <a href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer" class="play">
+            <svg class="play-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.8v16.4c0 .8.9 1.3 1.6.9l13-8.2c.6-.4.6-1.4 0-1.8l-13-8.2C6.9 2.5 6 3 6 3.8Z" /></svg>
+            <span>{c.hero.cta}</span>
           </a>
-          <a href={r.howItWorks} class="text-link">{t.hero.ctaSecondary} <span aria-hidden="true">→</span></a>
+          <span class="hero-note">{c.hero.note}</span>
         </div>
-        <div class="hero-trust" aria-label="Ürün özellikleri">
-          <span><i></i>{t.hero.trustOnDevice}</span>
-          <span><i></i>{t.hero.trustNoAds}</span>
-          <span><i></i>{t.hero.trustAndroid}</span>
-        </div>
-      </div>
-
-      <div class="product-visual" aria-label={m.visualAria}>
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="phone-shell">
-          <div class="phone-top"><span>9:41</span><span class="phone-sensors">● ◔ ▰</span></div>
-          <div class="app-head">
-            <div>
-              <span class="app-kicker"><img src="/logo.png" alt="" class="kicker-logo" /> LIMITRA</span>
-              <strong>{m.greeting}</strong>
-            </div>
-            <span class="profile-dot">A</span>
-          </div>
-          <div class="focus-card">
-            <div class="focus-top">
-              <span>{m.todaysFocus}</span>
-              <strong>62%</strong>
-            </div>
-            <div class="progress-track"><span></span></div>
-            <div class="focus-bottom"><span>{m.protectedMinutes}</span><span>{m.goal}</span></div>
-          </div>
-          <div class="app-section-title"><strong>{m.activeLimits}</strong><span>{m.edit}</span></div>
-          <div class="limit-row">
-            <span class="app-icon blue">S</span>
-            <div><strong>{m.socialMedia}</strong><small>{m.socialUsage}</small></div>
-            <span class="time-pill">{m.socialLeft}</span>
-          </div>
-          <div class="limit-row">
-            <span class="app-icon coral">V</span>
-            <div><strong>{m.shortVideos}</strong><small>{m.videoUsage}</small></div>
-            <span class="time-pill">{m.videoLeft}</span>
-          </div>
-          <div class="streak-card">
-            <span class="streak-icon">7</span>
-            <div><strong>{m.streakTitle}</strong><small>{m.streakNote}</small></div>
-          </div>
-          <div class="app-nav"><span class="active">●</span><span>■</span><span>◆</span></div>
-        </div>
-        <div class="float-card float-left"><span class="float-icon">✓</span><div><strong>{m.boundaryActive}</strong><small>{m.protectedUntil}</small></div></div>
-        <div class="float-card float-right"><span class="float-number">38</span><div><strong>{m.minutesLabel}</strong><small>{m.savedToday}</small></div></div>
-        <p class="visual-note">{m.visualNote}</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="principles" aria-label={t.principles.title}>
-    <div class="container principle-grid">
-      <div><span>01</span><p><strong>{t.principles.p1Title}</strong>{t.principles.p1Desc}</p></div>
-      <div><span>02</span><p><strong>{t.principles.p2Title}</strong>{t.principles.p2Desc}</p></div>
-      <div><span>03</span><p><strong>{t.principles.p3Title}</strong>{t.principles.p3Desc}</p></div>
-    </div>
-  </section>
-
-  <section class="moment-section">
-    <div class="container moment-grid">
-      <div class="moment-copy">
-        <span class="eyebrow light"><span class="signal-dot"></span>{t.problem.kicker}</span>
-        <h2>{t.problem.title}</h2>
-        <p>{t.problem.desc}</p>
-      </div>
-      <div class="moment-card">
-        <span class="moment-label">{t.problem.loopLabel}</span>
-        <div class="moment-row"><strong>{t.problem.t1Time}</strong><span>{t.problem.t1Text}</span></div>
-        <div class="moment-line"><i></i></div>
-        <div class="moment-row"><strong>{t.problem.t2Time}</strong><span>{t.problem.t2Text}</span></div>
-        <div class="moment-pause"><img src="/logo.png" alt="Limitra App Block Logo" class="moment-logo" /><span class="moment-brand">Limitra App Block</span><strong>{t.problem.pauseTitle}</strong></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="steps-section" id="how-it-works">
-    <div class="container">
-      <div class="section-heading">
-        <div><span class="eyebrow"><span class="signal-dot"></span>{t.steps.kicker}</span><h2>{t.steps.title}</h2></div>
-        <p>{t.steps.subtitle}</p>
-      </div>
-      <div class="steps-grid">
-        {steps.map((step) => (
-          <article class="step-card">
-            <span>{step.num}</span>
-            <div class="step-glyph" aria-hidden="true"><i></i><i></i><i></i></div>
-            <h3>{step.title}</h3>
-            <p>{step.text}</p>
-          </article>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="feature-section">
-    <div class="container feature-grid">
-      <div class="feature-copy">
-        <span class="eyebrow"><span class="signal-dot"></span>{t.features.kicker}</span>
-        <h2>{t.features.title}</h2>
-        <p>{t.features.desc}</p>
-        <ul class="check-list">
-          {t.features.checks.map((check) => (
-            <li><span>✓</span>{check}</li>
-          ))}
-        </ul>
-        <a href={r.howItWorks} class="text-link">{t.features.exploreBtn} <span aria-hidden="true">→</span></a>
-      </div>
-
-      <div class="insight-panel">
-        <div class="panel-tabs"><span class="active">{m.tabDiscipline}</span><span>{m.tabTimeline}</span></div>
-        <div class="streak-summary">
-          <div><span>{m.currentStreak}</span><strong>7 <small>{m.daysUnit}</small></strong></div>
-          <span class="status-ring">7</span>
-        </div>
-        <div class="day-grid" aria-hidden="true">
-          {Array.from({ length: 21 }, (_, index) => <span class:list={{ today: index === 20, missed: index === 8 || index === 15 }}>{index + 1}</span>)}
-        </div>
-        <div class="panel-legend"><span><i class="done"></i>{m.legendKept}</span><span><i class="miss"></i>{m.legendMissed}</span><span><i class="current"></i>{m.legendToday}</span></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="privacy-section">
-    <div class="container privacy-card">
-      <div class="privacy-mark" aria-hidden="true"><span></span></div>
-      <div class="privacy-copy">
-        <span class="eyebrow light"><span class="signal-dot"></span>{t.privacy.kicker}</span>
-        <h2>{t.privacy.title}</h2>
-        <p>{t.privacy.desc}</p>
-      </div>
-      <div class="privacy-points">
-        <div><strong>{t.privacy.point1Title}</strong><span>{t.privacy.point1Desc}</span></div>
-        <div><strong>{t.privacy.point2Title}</strong><span>{t.privacy.point2Desc}</span></div>
-        <div><strong>{t.privacy.point3Title}</strong><span>{t.privacy.point3Desc}</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Dünya Basınından Gelişmeler Bölümü -->
-  <section class="home-news-section">
-    <div class="container">
-      <div class="section-heading news-home-heading">
-        <div>
-          <span class="eyebrow"><span class="signal-dot"></span>{t.newsHome.kicker}</span>
-          <h2>{t.newsHome.title}</h2>
-        </div>
-        <a href={newsUrl} class="text-link">
-          {t.newsHome.allNews} <span aria-hidden="true">→</span>
+        <a href="#app-block" class="hero-alt">
+          <span>{c.hero.alt}</span>
+          <strong>{c.hero.altLink} <span class="arrow" aria-hidden="true">→</span></strong>
         </a>
       </div>
 
-      <div class="home-news-grid">
-        {latestNews.map((item) => (
-          <article class="home-news-card">
-            <div class="home-news-meta">
-              <span class="home-news-cat">{item.category}</span>
-              <span class="home-news-date">{item.date}</span>
+      <div class="stage" data-hero aria-hidden="true">
+        <div class="stage-disc"></div>
+        <div class="phone">
+          <div class="screen">
+            <div class="statusbar"><span>9:41</span><span class="status-dots"><i></i><i></i><i></i></span></div>
+            <div class="usage">
+              <div class="usage-app">
+                <span class="tile tile-ig">I</span>
+                <div><strong>Instagram</strong><small>{c.phone.limit}</small></div>
+              </div>
+              <p class="usage-label">{c.phone.today}</p>
+              <p class="usage-time"><span data-hero-time>26:40</span><small>/ 30:00</small></p>
+              <div class="meter"><span data-hero-meter></span></div>
             </div>
-            <h3>
-              <a href={r.newsItem(item.slug)}>{item.title}</a>
-            </h3>
-            <p>{item.summary}</p>
-            <div class="home-news-footer">
-              <span class="home-news-source">{item.source}</span>
-              <a href={r.newsItem(item.slug)} class="home-news-link">
-                {t.newsHome.read} &rarr;
-              </a>
+            <div class="mini-feed">
+              <div class="mini-track">
+                {[...miniPosts, ...miniPosts].map((post) => (
+                  <div class="mini-post">
+                    <div class="post-head"><i class={`avatar art-${post.art}`}></i><span>@{post.handle}</span></div>
+                    <div class={`post-art art-${post.art}`}></div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </article>
-        ))}
+            <div class="lock" data-hero-lock>
+              <span class="tile tile-ig lock-tile">I</span>
+              <strong class="lock-app">Instagram</strong>
+              <span class="lock-msg">{c.phone.locked}</span>
+              <span class="lock-rule"></span>
+              <p class="lock-quote">{heroQuote.q}</p>
+              <span class="lock-cite">{heroQuote.a}</span>
+              <span class="lock-back">{c.phone.back}</span>
+            </div>
+          </div>
+        </div>
+        <div class="chip chip-friend">
+          <span class="ring ring-gold"><span>{n1.slice(0, 1)}</span></span>
+          <span class="chip-text">{toast}</span>
+          <i class="dot-ok"></i>
+        </div>
+        <div class="chip chip-streak">
+          <svg class="streak-ring" viewBox="0 0 44 44"><circle cx="22" cy="22" r="18" class="track" /><circle cx="22" cy="22" r="18" class="fill" /></svg>
+          <span class="streak-num">12</span>
+          <span class="chip-text">{c.phone.streak}</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="guides-section">
+  <!-- DENE: ziyaretçi kilidi kendisi tetikler -->
+  <section class="trial" id="dene">
+    <div class="container trial-grid">
+      <div class="trial-copy">
+        <h2>{c.demo.title}</h2>
+        <p>{c.demo.lead}</p>
+        <div class="trial-actions">
+          <button type="button" class="btn-ink" data-trial-auto>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v13m0 0-5-5m5 5 5-5M5 20h14" /></svg>
+            {c.demo.auto}
+          </button>
+          <button type="button" class="btn-line" data-trial-reset disabled>{c.demo.reset}</button>
+        </div>
+        <p class="trial-after">{c.demo.after}</p>
+      </div>
+
+      <div class="trial-device">
+        <div class="phone" data-trial data-quotes={JSON.stringify(c.quotes.items)} data-locked-text={c.phone.locked}>
+          <div class="screen">
+            <div class="trial-bar">
+              <div class="trial-bar-row">
+                <span class="tile tile-ig small">I</span>
+                <span class="trial-bar-label">{c.demo.remaining}</span>
+                <strong data-trial-clock>0:15</strong>
+              </div>
+              <div class="meter meter-live"><span data-trial-meter></span></div>
+            </div>
+            <div class="feed" data-trial-feed tabindex="0" role="region" aria-label={c.demo.hint}>
+              {feedPosts.map((post) => (
+                <article class="post">
+                  <div class="post-head"><i class={`avatar art-${post.art}`}></i><span>@{post.handle}</span></div>
+                  <div class={`post-art art-${post.art}`}></div>
+                  <div class="post-actions" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z" /></svg>
+                    <svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l.9-4.4A8 8 0 1 1 20 12Z" /></svg>
+                    <svg viewBox="0 0 24 24"><path d="m21 3-9.5 9.5M21 3l-6.5 18-3-8.5L3 9.5 21 3Z" /></svg>
+                    <span>{post.likes}</span>
+                  </div>
+                  <div class="post-lines" aria-hidden="true"><i></i><i></i></div>
+                </article>
+              ))}
+            </div>
+            <div class="lock" data-trial-lock>
+              <span class="tile tile-ig lock-tile">I</span>
+              <strong class="lock-app">Instagram</strong>
+              <span class="lock-msg">{c.phone.locked}</span>
+              <span class="lock-rule"></span>
+              <p class="lock-quote" data-trial-quote>{c.quotes.items[0].q}</p>
+              <span class="lock-cite" data-trial-cite>{c.quotes.items[0].a}</span>
+              <span class="lock-back">{c.phone.back}</span>
+            </div>
+          </div>
+        </div>
+        <p class="trial-hint" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3v18m0-18-4 4m4-4 4 4m-4 14-4-4m4 4 4-4" /></svg>
+          {c.demo.hint}
+        </p>
+        <p class="sr-only" aria-live="polite" data-trial-live></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL: birlikte hesap verebilirlik -->
+  <section class="social" id="social">
+    <div class="container social-grid">
+      <div class="social-copy">
+        <p class="product-mark"><img src="/logo.png" alt="" width="28" height="28" />Limitra Social</p>
+        <h2>{c.social.title}</h2>
+        <p class="social-lead">{c.social.lead}</p>
+        <dl class="points">
+          {c.social.points.map((point) => (
+            <div>
+              <dt>{point.t}</dt>
+              <dd>{point.d}</dd>
+            </div>
+          ))}
+        </dl>
+        <a href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer" class="play">
+          <svg class="play-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.8v16.4c0 .8.9 1.3 1.6.9l13-8.2c.6-.4.6-1.4 0-1.8l-13-8.2C6.9 2.5 6 3 6 3.8Z" /></svg>
+          <span>{c.hero.cta}</span>
+        </a>
+      </div>
+
+      <div class="friends" aria-hidden="true">
+        <div class="friends-head">
+          <strong>{c.social.screenTitle}</strong>
+          <span>{c.social.screenSub}</span>
+        </div>
+        <ul class="friends-list">
+          {friends.map((f) => (
+            <li class={`friend is-${f.status}`}>
+              <span class={`ring ring-${f.frame}`}><span>{f.name.slice(0, 1)}</span></span>
+              <div class="friend-main">
+                <div class="friend-top">
+                  <strong>{f.name}</strong>
+                  <span class={`status status-${f.status}`}>{statusLabel[f.status]}</span>
+                </div>
+                <div class="friend-usage">
+                  <span>{f.app}</span>
+                  <span>{f.used}/{f.limit} {c.social.min}</span>
+                </div>
+                <div class="friend-meter"><span style={`--w:${Math.min(f.used / f.limit, 1) * 100}%`}></span></div>
+              </div>
+              <div class="friend-best"><strong>{f.best}</strong><span>{c.social.days}</span></div>
+            </li>
+          ))}
+        </ul>
+        <div class="friends-id">
+          <span>{c.social.idLabel}</span>
+          <strong>#52917463</strong>
+          <svg viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5" /><path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8" /></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SÖZLER + ortak çekirdek -->
+  <section class="quotes">
     <div class="container">
-      <div class="section-heading guides-heading">
-        <div><span class="eyebrow"><span class="signal-dot"></span>{t.guides.kicker}</span><h2>{t.guides.title}</h2></div>
-        <a href={r.guides} class="text-link">{t.guides.allGuides} <span aria-hidden="true">→</span></a>
-      </div>
-      <div class="guides-grid">
-        {guides.map((guide, index) => (
-          <a href={guide.href} class="guide-card">
-            <div class={`guide-visual visual-${index + 1}`}><span>{String(index + 1).padStart(2, '0')}</span><i></i></div>
-            <span class="guide-meta">{guide.meta}</span>
-            <h3>{guide.title}</h3>
-            <p>{guide.text}</p>
-            <span class="guide-arrow" aria-hidden="true">→</span>
-          </a>
+      <figure class="quote-stage" data-quotes-rotator>
+        {c.quotes.items.map((item, i) => (
+          <blockquote class:list={['quote', { 'is-active': i === 0 }]} data-quote={i}>
+            <p>{item.q}</p>
+            <cite>{item.a}</cite>
+          </blockquote>
         ))}
+      </figure>
+      <div class="quote-dots">
+        {c.quotes.items.map((item, i) => (
+          <button type="button" class:list={['quote-dot', { 'is-active': i === 0 }]} data-quote-dot={i} aria-label={`${item.a}: ${item.q}`} aria-pressed={i === 0 ? 'true' : 'false'}></button>
+        ))}
+      </div>
+      <p class="quotes-caption">{c.quotes.caption}</p>
+
+      <div class="core">
+        <h2>{c.core.title}</h2>
+        <ul class="core-list">
+          {c.core.items.map((item) => (
+            <li><strong>{item.t}</strong><span>{item.d}</span></li>
+          ))}
+        </ul>
       </div>
     </div>
   </section>
 
-  <section class="final-cta">
-    <div class="container cta-card">
-      <div class="cta-orb orb-a"></div><div class="cta-orb orb-b"></div>
-      <span class="eyebrow light"><span class="signal-dot"></span>{t.finalCta.kicker}</span>
-      <h2>{t.finalCta.title}</h2>
-      <p>{t.finalCta.desc}</p>
-      <a href={playUrl} target="_blank" rel="noopener noreferrer" class="btn cta-button">{t.finalCta.btn} <span aria-hidden="true">↗</span></a>
-      <small>{t.finalCta.androidNote}</small>
+  <!-- APP BLOCK: ışıkları kapat -->
+  <section class="night" id="app-block">
+    <div class="container night-grid">
+      <div class="night-copy">
+        <p class="product-mark"><img src="/logo.png" alt="" width="28" height="28" />Limitra App Block</p>
+        <h2>{c.block.title}</h2>
+        <p class="night-lead">{c.block.lead}</p>
+        <dl class="ledger" data-ledger>
+          {c.block.ledger.map((key, i) => (
+            <div style={`--i:${i}`}>
+              <dt>{key}</dt>
+              <dd>{c.block.none}</dd>
+            </div>
+          ))}
+        </dl>
+        <figure class="manifest">
+          <figcaption>{blockProof[lang] ?? blockProof.en}</figcaption>
+          <pre dir="ltr"><code>&lt;uses-permission
+    android:name="android.permission.<mark>INTERNET</mark>"
+    tools:node="<mark>remove</mark>" /&gt;</code></pre>
+        </figure>
+        <div class="night-actions">
+          <a href={BLOCK_STORE_URL} target="_blank" rel="noopener noreferrer" class="btn-gold">
+            <svg class="play-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.8v16.4c0 .8.9 1.3 1.6.9l13-8.2c.6-.4.6-1.4 0-1.8l-13-8.2C6.9 2.5 6 3 6 3.8Z" /></svg>
+            {c.block.cta}
+          </a>
+          <a href={r.whatIs} class="night-link">{c.block.more} <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="night-visual" aria-hidden="true">
+        <p class="night-quote">
+          <span>{c.block.quote}</span>
+          <em>{c.block.answer}</em>
+        </p>
+        <div class="phone phone-night">
+          <div class="screen">
+            <div class="statusbar"><span>23:14</span><span class="status-dots"><i></i><i></i><i></i></span></div>
+            <div class="night-lock">
+              <span class="night-brand">Limitra App Block</span>
+              <span class="tile tile-yt lock-tile">Y</span>
+              <strong class="lock-app">YouTube</strong>
+              <span class="lock-msg">{c.phone.locked}</span>
+              <span class="lock-rule"></span>
+              <p class="lock-quote">{nightQuote.q}</p>
+              <span class="lock-cite">{nightQuote.a}</span>
+              <span class="lock-back">{c.phone.back}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KARŞILAŞTIRMA -->
+  <section class="compare">
+    <div class="container">
+      <h2>{c.compare.title}</h2>
+      <table class="cmp">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col"><span class="cmp-app cmp-social">Limitra Social</span></th>
+            <th scope="col"><span class="cmp-app cmp-block">Limitra App Block</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          {c.compare.rows.map((row) => (
+            <tr>
+              <th scope="row">{row.k}</th>
+              {[row.s, row.b].map((cell) => (
+                <td>
+                  {cell === true ? (
+                    <span class="mark mark-yes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" /></svg><span class="sr-only">{c.compare.yes}</span></span>
+                  ) : cell === false ? (
+                    <span class="mark mark-no"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 12h10" /></svg><span class="sr-only">{c.compare.no}</span></span>
+                  ) : (
+                    cell
+                  )}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <div class="cmp-actions">
+        <a href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer" class="cmp-cta cmp-cta-social">{c.compare.ctaS}</a>
+        <a href={BLOCK_STORE_URL} target="_blank" rel="noopener noreferrer" class="cmp-cta cmp-cta-block">{c.compare.ctaB}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SSS -->
+  <section class="faq">
+    <div class="container faq-grid">
+      <h2>{c.faq.title}</h2>
+      <div class="faq-list">
+        {c.faq.items.map((item, i) => (
+          <details open={i === 0}>
+            <summary>{item.q}<span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>{item.a}</p>
+          </details>
+        ))}
+        <a href={r.faq} class="faq-more">{t.nav.faq} <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABERLER -->
+  {leadNews && (
+    <section class="news">
+      <div class="container">
+        <div class="news-head">
+          <h2>{t.newsHome.title}</h2>
+          <a href={r.news} class="news-all">{t.newsHome.allNews} <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+        <div class="news-grid">
+          <article class="news-lead">
+            <div class="news-meta"><span>{leadNews.category}</span><time>{leadNews.date}</time></div>
+            <h3><a href={r.newsItem(leadNews.slug)}>{leadNews.title}</a></h3>
+            <p>{leadNews.summary}</p>
+            <span class="news-source">{leadNews.source}</span>
+          </article>
+          <div class="news-side">
+            {sideNews.map((item) => (
+              <article class="news-item">
+                <div class="news-meta"><span>{item.category}</span><time>{item.date}</time></div>
+                <h3><a href={r.newsItem(item.slug)}>{item.title}</a></h3>
+                <span class="news-source">{item.source}</span>
+              </article>
+            ))}
+          </div>
+        </div>
+        {guides.length > 0 && (
+          <div class="guides">
+            <div class="guides-head">
+              <h3>{t.guides.title}</h3>
+              <a href={r.guides}>{t.guides.allGuides} <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+            <ul>
+              {guides.map((g) => (
+                <li><a href={g.href}><span class="guide-title">{g.title}</span><span class="guide-meta">{g.meta}</span></a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  <!-- SON ÇAĞRI -->
+  <section class="final">
+    <div class="container final-inner">
+      <h2>{c.final.title}</h2>
+      <p>{c.final.lead}</p>
+      <a href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer" class="play play-lg">
+        <svg class="play-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.8v16.4c0 .8.9 1.3 1.6.9l13-8.2c.6-.4.6-1.4 0-1.8l-13-8.2C6.9 2.5 6 3 6 3.8Z" /></svg>
+        <span>{c.hero.cta}</span>
+      </a>
+      <a href="#app-block" class="final-alt">{c.final.alt} <span class="arrow" aria-hidden="true">→</span></a>
     </div>
   </section>
 </Layout>
 
+<script>
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // 1) Giriş telefonu: sayaç limite ulaşır, kilit ekranı iner, döngü tekrar başlar.
+  const hero = document.querySelector<HTMLElement>('[data-hero]');
+  if (hero) {
+    const timeEl = hero.querySelector<HTMLElement>('[data-hero-time]');
+    const meterEl = hero.querySelector<HTMLElement>('[data-hero-meter]');
+    const START = 1600;
+    const LIMIT = 1800;
+    const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+    const paint = (s: number) => {
+      if (timeEl) timeEl.textContent = fmt(s);
+      if (meterEl) meterEl.style.transform = `scaleX(${s / LIMIT})`;
+      hero.classList.toggle('is-near', s / LIMIT > 0.94);
+    };
+
+    if (reduceMotion) {
+      paint(LIMIT);
+      hero.classList.add('is-locked');
+    } else {
+      let visible = true;
+      let raf = 0;
+      let phaseStart = 0;
+      let locked = false;
+      const RUN_MS = 3800;
+      const HOLD_MS = 5200;
+      const tick = (now: number) => {
+        if (!phaseStart) phaseStart = now;
+        const elapsed = now - phaseStart;
+        if (!locked) {
+          const p = Math.min(elapsed / RUN_MS, 1);
+          paint(START + (LIMIT - START) * p);
+          if (p >= 1) {
+            locked = true;
+            phaseStart = now;
+            hero.classList.add('is-locked');
+          }
+        } else if (elapsed > HOLD_MS) {
+          locked = false;
+          phaseStart = now;
+          hero.classList.remove('is-locked');
+          paint(START);
+        }
+        if (visible) raf = requestAnimationFrame(tick);
+      };
+      new IntersectionObserver(([entry]) => {
+        visible = entry.isIntersecting;
+        cancelAnimationFrame(raf);
+        if (visible) {
+          phaseStart = 0;
+          raf = requestAnimationFrame(tick);
+        }
+      }).observe(hero);
+    }
+  }
+
+  // 2) Dene: kaydırma "süreyi" harcar; bitince kilit gelir.
+  const trial = document.querySelector<HTMLElement>('[data-trial]');
+  if (trial) {
+    const feed = trial.querySelector<HTMLElement>('[data-trial-feed]')!;
+    const meter = trial.querySelector<HTMLElement>('[data-trial-meter]')!;
+    const clock = trial.querySelector<HTMLElement>('[data-trial-clock]')!;
+    const quoteEl = trial.querySelector<HTMLElement>('[data-trial-quote]')!;
+    const citeEl = trial.querySelector<HTMLElement>('[data-trial-cite]')!;
+    const live = document.querySelector<HTMLElement>('[data-trial-live]');
+    const autoBtn = document.querySelector<HTMLButtonElement>('[data-trial-auto]');
+    const resetBtn = document.querySelector<HTMLButtonElement>('[data-trial-reset]');
+    const quotes: Array<{ q: string; a: string }> = JSON.parse(trial.dataset.quotes || '[]');
+    const lockedText = trial.dataset.lockedText || '';
+    const BUDGET_PX = 2400;
+    const SECONDS = 15;
+    let used = 0;
+    let last = 0;
+    let locked = false;
+    let quoteIndex = 0;
+    let autoRaf = 0;
+
+    const render = () => {
+      const p = Math.min(used / BUDGET_PX, 1);
+      meter.style.transform = `scaleX(${1 - p})`;
+      clock.textContent = `0:${String(Math.ceil(SECONDS * (1 - p))).padStart(2, '0')}`;
+      trial.dataset.level = p > 0.9 ? 'bad' : p > 0.66 ? 'warn' : 'ok';
+    };
+
+    const stopAuto = () => {
+      cancelAnimationFrame(autoRaf);
+      autoRaf = 0;
+      trial.classList.remove('is-auto');
+    };
+
+    const lock = () => {
+      locked = true;
+      stopAuto();
+      const q = quotes[quoteIndex % quotes.length];
+      if (q) {
+        quoteEl.textContent = q.q;
+        citeEl.textContent = q.a;
+      }
+      quoteIndex += 1;
+      trial.classList.add('is-locked');
+      feed.setAttribute('tabindex', '-1');
+      if (live) live.textContent = lockedText;
+      if (autoBtn) autoBtn.disabled = true;
+      if (resetBtn) {
+        resetBtn.disabled = false;
+        resetBtn.focus({ preventScroll: true });
+      }
+    };
+
+    const reset = () => {
+      locked = false;
+      used = 0;
+      trial.classList.remove('is-locked');
+      feed.scrollTop = 0;
+      last = 0;
+      feed.setAttribute('tabindex', '0');
+      if (live) live.textContent = '';
+      if (autoBtn) autoBtn.disabled = false;
+      if (resetBtn) resetBtn.disabled = true;
+      render();
+    };
+
+    feed.addEventListener('scroll', () => {
+      const delta = Math.abs(feed.scrollTop - last);
+      last = feed.scrollTop;
+      if (locked) return;
+      used += delta;
+      if (resetBtn && used > 0) resetBtn.disabled = false;
+      render();
+      if (used >= BUDGET_PX) lock();
+    }, { passive: true });
+
+    autoBtn?.addEventListener('click', () => {
+      if (locked || autoRaf) return;
+      trial.classList.add('is-auto');
+      const step = () => {
+        feed.scrollTop += reduceMotion ? 60 : 9;
+        if (!locked) autoRaf = requestAnimationFrame(step);
+      };
+      autoRaf = requestAnimationFrame(step);
+    });
+
+    // Kullanıcı kendi kaydırırsa otomatik kaydırma durur.
+    feed.addEventListener('wheel', stopAuto, { passive: true });
+    feed.addEventListener('touchstart', stopAuto, { passive: true });
+    resetBtn?.addEventListener('click', reset);
+    render();
+  }
+
+  // 3) Sözler: 7 sn'de bir değişir; üstüne gelince durur.
+  const rotator = document.querySelector<HTMLElement>('[data-quotes-rotator]');
+  if (rotator) {
+    const items = Array.from(rotator.querySelectorAll<HTMLElement>('[data-quote]'));
+    const dots = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-quote-dot]'));
+    let index = 0;
+    let timer = 0;
+    const show = (i: number) => {
+      index = (i + items.length) % items.length;
+      items.forEach((el, n) => el.classList.toggle('is-active', n === index));
+      dots.forEach((el, n) => {
+        el.classList.toggle('is-active', n === index);
+        el.setAttribute('aria-pressed', String(n === index));
+      });
+    };
+    const start = () => {
+      if (reduceMotion) return;
+      window.clearInterval(timer);
+      timer = window.setInterval(() => show(index + 1), 7000);
+    };
+    dots.forEach((dot, n) => dot.addEventListener('click', () => { show(n); start(); }));
+    rotator.addEventListener('mouseenter', () => window.clearInterval(timer));
+    rotator.addEventListener('mouseleave', start);
+    start();
+  }
+
+  // 4) App Block defteri: görünür olunca satırlar sırayla "Yok" damgası alır.
+  const ledger = document.querySelector<HTMLElement>('[data-ledger]');
+  if (ledger) {
+    if (reduceMotion || !('IntersectionObserver' in window)) {
+      ledger.classList.add('is-in');
+    } else {
+      ledger.classList.add('is-armed');
+      const io = new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting) {
+          ledger.classList.add('is-in');
+          io.disconnect();
+        }
+      }, { threshold: 0.4 });
+      io.observe(ledger);
+    }
+  }
+</script>
+
 <style>
-  .hero {
-    position: relative;
-    overflow: hidden;
-    padding: clamp(4.5rem, 9vw, 8rem) 0 5rem;
-    background: radial-gradient(circle at 78% 28%, rgba(93, 140, 255, .14), transparent 31%), linear-gradient(180deg, #f9faff 0%, #f5f7fc 100%);
-  }
+  /* ---------- ortak parçalar ---------- */
+  section { position: relative; }
+  h2 { margin-top: 0; }
+  .arrow { display: inline-block; transition: transform .2s ease; }
+  :global([dir='rtl']) .arrow { transform: scaleX(-1); }
 
-  .hero-glow {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(2px);
-    pointer-events: none;
-  }
-
-  .glow-one { width: 24rem; height: 24rem; top: -12rem; left: -12rem; background: rgba(38, 103, 245, .07); }
-  .glow-two { width: 18rem; height: 18rem; right: -8rem; bottom: -8rem; border: 1px solid rgba(38, 103, 245, .16); }
-
-  .hero-grid {
-    position: relative;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(420px, .92fr);
+  .play {
+    display: inline-flex;
     align-items: center;
-    gap: clamp(3rem, 8vw, 7rem);
+    gap: .7rem;
+    min-height: 3.4rem;
+    border-radius: 999px;
+    background: var(--ink);
+    padding: .85rem 1.6rem .85rem 1.25rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: .98rem;
+    line-height: 1.2;
+    box-shadow: 0 14px 32px rgba(14, 23, 38, .18);
   }
+  .play:hover { background: var(--accent); color: #fff; transform: translateY(-2px); }
+  .play:active { transform: translateY(0); }
+  .play-glyph { width: 1.15rem; height: 1.15rem; flex: none; fill: currentColor; }
+  .play-lg { min-height: 3.8rem; padding-inline: 1.5rem 2rem; font-size: 1.05rem; }
 
-  .hero-grid > * {
-    min-width: 0;
+  .product-mark {
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    margin: 0 0 1.4rem;
+    color: var(--ink);
+    font-weight: 700;
+    font-size: .95rem;
   }
+  .product-mark img { border-radius: 8px; }
 
-  .eyebrow {
+  /* ---------- telefon çerçevesi ---------- */
+  .phone {
+    position: relative;
+    width: 300px;
+    height: 612px;
+    border: 10px solid var(--ink);
+    border-radius: 46px;
+    background: var(--ink);
+    box-shadow: 0 50px 90px -30px rgba(14, 23, 38, .45), 0 0 0 1px rgba(255, 255, 255, .06) inset;
+  }
+  .screen {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 36px;
+    background: #f3f5f9;
+    font-family: var(--font-body);
+    color: var(--ink);
+  }
+  .statusbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.8rem .4rem; font-size: .7rem; font-weight: 700; }
+  .status-dots { display: inline-flex; gap: 3px; }
+  .status-dots i { width: 4px; height: 9px; border-radius: 1px; background: currentColor; opacity: .75; }
+  .status-dots i:nth-child(1) { height: 5px; }
+  .status-dots i:nth-child(2) { height: 7px; }
+
+  .tile { display: grid; place-items: center; flex: none; width: 2.4rem; height: 2.4rem; border-radius: .8rem; color: #fff; font-weight: 800; font-size: .95rem; }
+  .tile.small { width: 1.6rem; height: 1.6rem; border-radius: .5rem; font-size: .7rem; }
+  .tile-ig { background: linear-gradient(135deg, #f7a23b, #e1306c 55%, #7b3fbf); }
+  .tile-yt { background: #e62117; }
+
+  .meter { height: 6px; overflow: hidden; border-radius: 6px; background: #e3e8f1; }
+  .meter span { display: block; height: 100%; border-radius: inherit; background: var(--accent); transform-origin: left center; transform: scaleX(.88); transition: background-color .3s ease; }
+  :global([dir='rtl']) .meter span { transform-origin: right center; }
+
+  /* kilit ekranı (Social: açık) */
+  .lock {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .35rem;
+    padding: 2rem 1.6rem;
+    background: #f3f5f9;
+    text-align: center;
+    transform: translateY(102%);
+    transition: transform .7s cubic-bezier(.2, .9, .25, 1);
+  }
+  .lock-tile { width: 3.4rem; height: 3.4rem; border-radius: 1.1rem; font-size: 1.3rem; margin-bottom: .5rem; }
+  .lock-app { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 500; }
+  .lock-msg { color: var(--bad); font-size: .8rem; font-weight: 700; }
+  .lock-rule { width: 2.2rem; height: 1px; margin: .9rem 0 .6rem; background: currentColor; opacity: .3; }
+  .lock-quote { margin: 0; font-family: var(--font-heading); font-style: italic; font-size: 1.12rem; line-height: 1.4; color: inherit; }
+  .lock-cite { margin-top: .5rem; font-size: .66rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; opacity: .65; }
+  .lock-back { margin-top: auto; font-size: .7rem; opacity: .7; }
+
+  /* gönderi sanatı: gerçek fotoğraf yerine soyut renk alanları */
+  .art-1 { background: linear-gradient(160deg, #f6c56b, #e7764b 60%, #b2405a); }
+  .art-2 { background: linear-gradient(200deg, #9ad3e6, #3e7fc1 55%, #1f3b78); }
+  .art-3 { background: radial-gradient(circle at 30% 70%, #f2e8d5 0 18%, transparent 19%), linear-gradient(170deg, #5aa58a, #1d5a4b); }
+  .art-4 { background: linear-gradient(135deg, #2b2a4c, #8e5bd8 60%, #f0a5c6); }
+  .art-5 { background: repeating-linear-gradient(90deg, #f1d9b5 0 18px, #e8c493 18px 36px); }
+  .art-6 { background: radial-gradient(circle at 70% 30%, #ffe9a8 0 12%, transparent 13%), linear-gradient(180deg, #ff9f6e, #5b3a6e); }
+
+  .post-head { display: flex; align-items: center; gap: .5rem; padding: .55rem .2rem; font-size: .72rem; font-weight: 700; }
+  .avatar { width: 1.5rem; height: 1.5rem; border-radius: 50%; }
+  .post-art { aspect-ratio: 1 / 1; border-radius: .9rem; }
+
+  /* ---------- GİRİŞ ---------- */
+  .hero { overflow: hidden; padding-block: clamp(3rem, 7vw, 6rem) clamp(4rem, 8vw, 7rem); background: var(--paper); }
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); align-items: center; gap: clamp(2.5rem, 6vw, 5rem); }
+  .hero h1 { margin: 0 0 1.6rem; font-size: clamp(3rem, 7vw, 5.9rem); line-height: .98; letter-spacing: -.03em; }
+  .h1-line { display: block; animation: rise .9s cubic-bezier(.2, .8, .2, 1) both; }
+  .h1-accent { color: var(--accent); font-style: italic; font-weight: 400; animation-delay: .12s; }
+  .hero-lead { max-width: 34rem; margin-bottom: 2.2rem; color: var(--text-secondary); font-size: clamp(1.05rem, 1.6vw, 1.2rem); line-height: 1.65; }
+  .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.4rem; }
+  .hero-note { color: var(--text-muted); font-size: .85rem; font-weight: 600; }
+  .hero-alt {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: .25rem .5rem;
+    margin-top: 2.6rem;
+    border-top: 1px solid var(--line);
+    padding-top: 1.2rem;
+    color: var(--text-secondary);
+    font-size: .92rem;
+  }
+  .hero-alt strong { color: var(--ink); font-weight: 700; }
+  .hero-alt:hover strong { color: var(--accent); }
+  .hero-alt:hover .arrow { transform: translateX(4px); }
+  :global([dir='rtl']) .hero-alt:hover .arrow { transform: scaleX(-1) translateX(4px); }
+
+  @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+  .stage { position: relative; display: grid; place-items: center; min-height: 660px; }
+  .stage-disc { position: absolute; width: min(520px, 100%); aspect-ratio: 1; border-radius: 50%; background: var(--accent-soft); }
+  .stage .phone { transform: rotate(-2deg); }
+  .usage { padding: .8rem 1.3rem 1rem; }
+  .usage-app { display: flex; align-items: center; gap: .7rem; }
+  .usage-app div { display: flex; flex-direction: column; line-height: 1.25; }
+  .usage-app strong { font-size: .95rem; }
+  .usage-app small { color: var(--text-muted); font-size: .7rem; font-weight: 600; }
+  .usage-label { margin: 1.1rem 0 0; color: var(--text-muted); font-size: .7rem; font-weight: 700; }
+  .usage-time { display: flex; align-items: baseline; gap: .4rem; margin: 0 0 .7rem; color: var(--ink); font-family: var(--font-heading); font-size: 3rem; line-height: 1.05; font-variant-numeric: tabular-nums; }
+  .usage-time small { color: var(--text-muted); font-size: 1rem; }
+  .stage.is-near .meter span { background: var(--bad); }
+  .mini-feed { height: 400px; overflow: hidden; padding: 0 1.1rem; mask-image: linear-gradient(180deg, #000 70%, transparent); }
+  .mini-track { animation: drift 16s linear infinite; }
+  .mini-post { margin-bottom: .8rem; }
+  @keyframes drift { to { transform: translateY(-50%); } }
+  .stage.is-locked .mini-track { animation-play-state: paused; }
+  .stage.is-locked .lock { transform: none; }
+
+  .chip {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+    max-width: 17rem;
+    border: 1px solid var(--line);
+    border-radius: 1.1rem;
+    background: #fff;
+    padding: .65rem .9rem .65rem .65rem;
+    box-shadow: 0 18px 40px -18px rgba(14, 23, 38, .35);
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .chip-friend { top: 47%; inset-inline-start: -2.5rem; animation: bob 6s ease-in-out infinite; }
+  .chip-streak { bottom: 13%; inset-inline-end: -.5rem; animation: bob 6s ease-in-out infinite reverse; }
+  @keyframes bob { 50% { transform: translateY(-8px); } }
+  .dot-ok { width: .55rem; height: .55rem; flex: none; border-radius: 50%; background: var(--ok); }
+  .streak-ring { width: 2.6rem; height: 2.6rem; transform: rotate(-90deg); }
+  .streak-ring circle { fill: none; stroke-width: 4; }
+  .streak-ring .track { stroke: var(--accent-soft); }
+  .streak-ring .fill { stroke: var(--accent); stroke-linecap: round; stroke-dasharray: 113; stroke-dashoffset: 30; }
+  .streak-num { position: absolute; inset-inline-start: .65rem; width: 2.6rem; text-align: center; font-family: var(--font-heading); font-size: 1rem; }
+
+  /* avatar çerçeveleri (seri ödülleri) */
+  .ring { position: relative; display: grid; place-items: center; flex: none; width: 2.7rem; height: 2.7rem; border-radius: 50%; background: var(--accent-soft); color: var(--accent-deep); font-family: var(--font-heading); font-size: 1.15rem; }
+  .ring::before { position: absolute; inset: -4px; border-radius: 50%; content: ''; }
+  .ring-gold::before { border: 2px dotted #c08a2e; }
+  .ring-teal::before { border: 2px solid transparent; background: conic-gradient(from 90deg, #2ec4b6, #3a86ff, #2ec4b6) border-box; -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+
+  /* ---------- DENE ---------- */
+  .trial { background: var(--paper-deep); border-block: 1px solid var(--line); }
+  .trial-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: clamp(2.5rem, 7vw, 6rem); }
+  .trial-copy h2 { max-width: 13ch; margin-bottom: 1.2rem; }
+  .trial-copy > p { max-width: 32rem; }
+  .trial-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin: 2rem 0 1.6rem; }
+  .btn-ink, .btn-line {
     display: inline-flex;
     align-items: center;
     gap: .55rem;
-    margin-bottom: 1.25rem;
-    color: var(--accent);
-    font-size: .72rem;
-    font-weight: 800;
-    letter-spacing: .12em;
-    text-transform: uppercase;
+    min-height: 3rem;
+    border-radius: 999px;
+    padding: .7rem 1.3rem;
+    font-weight: 700;
+    font-size: .92rem;
+    cursor: pointer;
+    transition: background-color .2s ease, color .2s ease, border-color .2s ease, opacity .2s ease;
   }
+  .btn-ink { border: 1px solid var(--ink); background: var(--ink); color: #fff; }
+  .btn-ink svg { width: 1.1rem; height: 1.1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .btn-ink:hover:not(:disabled) { background: var(--accent); border-color: var(--accent); }
+  .btn-line { border: 1px solid #c9c6bc; background: transparent; color: var(--ink); }
+  .btn-line:hover:not(:disabled) { border-color: var(--ink); }
+  .btn-ink:disabled, .btn-line:disabled { cursor: not-allowed; opacity: .45; }
+  .trial-after { color: var(--text-muted); font-size: .9rem; border-inline-start: 2px solid var(--line); padding-inline-start: .9rem; }
 
-  .eyebrow.light { color: #9fbbff; }
-  .signal-dot { width: .45rem; height: .45rem; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 .25rem color-mix(in srgb, currentColor 14%, transparent); }
+  .trial-device { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+  .trial-bar { position: relative; z-index: 2; padding: 1rem 1.2rem .8rem; background: #fff; border-bottom: 1px solid #e3e8f1; }
+  .trial-bar-row { display: flex; align-items: center; gap: .6rem; margin-bottom: .6rem; }
+  .trial-bar-label { flex: 1; color: var(--text-muted); font-size: .72rem; font-weight: 700; }
+  .trial-bar strong { font-family: var(--font-heading); font-size: 1.35rem; font-variant-numeric: tabular-nums; }
+  .meter-live span { transform: scaleX(1); transition: transform .12s linear, background-color .3s ease; }
+  [data-level='warn'] .meter-live span { background: #d98a1c; }
+  [data-level='bad'] .meter-live span { background: var(--bad); }
+  .feed { height: calc(100% - 78px); overflow-y: auto; overscroll-behavior: contain; padding: .2rem 1rem 1rem; scrollbar-width: none; }
+  .feed::-webkit-scrollbar { display: none; }
+  .feed:focus-visible { outline-offset: -4px; }
+  .post { margin-bottom: 1.1rem; }
+  .post-actions { display: flex; align-items: center; gap: .7rem; padding: .55rem .2rem .2rem; font-size: .72rem; font-weight: 700; }
+  .post-actions svg { width: 1.15rem; height: 1.15rem; fill: none; stroke: var(--ink); stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+  .post-actions span { margin-inline-start: auto; color: var(--text-muted); }
+  .post-lines { display: grid; gap: .35rem; padding: .3rem .2rem; }
+  .post-lines i { height: .45rem; border-radius: 1rem; background: #dfe4ec; }
+  .post-lines i:last-child { width: 60%; }
+  [data-trial].is-locked .lock { transform: none; }
+  [data-trial].is-locked .feed { overflow: hidden; }
+  .trial-hint { display: flex; align-items: center; gap: .4rem; margin: 0; color: var(--text-muted); font-size: .82rem; font-weight: 600; }
+  .trial-hint svg { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  [data-trial].is-locked ~ .trial-hint { visibility: hidden; }
 
-  .hero-copy h1 { max-width: 12ch; margin-bottom: 1.5rem; }
-  .hero-copy h1 em { color: var(--accent); font-style: normal; }
-  .hero-answer { max-width: 38rem; margin-bottom: 1rem; font-size: .95rem; line-height: 1.65; color: var(--text-secondary); }
-  .hero-lead { max-width: 38rem; margin-bottom: 2rem; font-size: clamp(1.05rem, 2vw, 1.2rem); line-height: 1.72; }
-  .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.25rem; }
+  /* ---------- SOCIAL ---------- */
+  .social { background: #fff; }
+  .social-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: clamp(2.5rem, 7vw, 6rem); }
+  .social-copy h2 { max-width: 14ch; margin-bottom: 1.2rem; }
+  .social-lead { max-width: 33rem; }
+  .points { display: grid; gap: 0; margin: 2rem 0 2.4rem; }
+  .points > div { display: grid; grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); gap: .4rem 1.5rem; border-top: 1px solid var(--line); padding: 1.05rem 0; }
+  .points > div:last-child { border-bottom: 1px solid var(--line); }
+  .points dt { font-family: var(--font-heading); font-size: 1.15rem; font-weight: 500; line-height: 1.3; }
+  .points dd { margin: 0; color: var(--text-secondary); font-size: .95rem; line-height: 1.6; }
 
-  .text-link { display: inline-flex; align-items: center; gap: .45rem; color: var(--text-primary); font-size: .9rem; font-weight: 700; min-height: 44px; padding-block: .25rem; }
-  .text-link:hover { gap: .7rem; color: var(--accent); }
+  .friends { border: 1px solid var(--line); border-radius: 2rem; background: #f3f5f9; padding: 1.6rem; box-shadow: 0 40px 80px -40px rgba(14, 23, 38, .3); }
+  .friends-head { display: flex; flex-direction: column; margin-bottom: 1.2rem; padding-inline: .3rem; }
+  .friends-head strong { font-family: var(--font-heading); font-size: 2.2rem; font-weight: 500; line-height: 1.1; }
+  .friends-head span { color: var(--text-muted); font-size: .9rem; }
+  .friends-list { margin: 0; padding: 0; list-style: none; border-radius: 1.3rem; background: #fff; border: 1px solid #e2e6ee; }
+  .friend { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.1rem; }
+  .friend + .friend { border-top: 1px solid #edf0f5; }
+  .friend-main { flex: 1; min-width: 0; }
+  .friend-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .3rem .6rem; }
+  .friend-top strong { font-size: .98rem; }
+  .status { border-radius: 999px; padding: .15rem .55rem; font-size: .7rem; font-weight: 800; white-space: nowrap; }
+  .status-on { background: var(--ok-soft); color: #127451; }
+  .status-near { background: var(--warn-soft); color: var(--warn); }
+  .status-over { background: var(--bad-soft); color: var(--bad); }
+  .friend-usage { display: flex; justify-content: space-between; gap: .5rem; margin: .25rem 0 .45rem; color: var(--text-muted); font-size: .76rem; font-weight: 600; }
+  .friend-meter { height: 5px; border-radius: 5px; background: #e8ecf3; overflow: hidden; }
+  .friend-meter span { display: block; width: var(--w); height: 100%; border-radius: inherit; background: #127451; }
+  .is-near .friend-meter span { background: #d98a1c; }
+  .is-over .friend-meter span { background: var(--bad); }
+  .friend-best { display: flex; flex-direction: column; align-items: flex-end; min-width: 3rem; line-height: 1.1; }
+  .friend-best strong { font-family: var(--font-heading); font-size: 1.4rem; font-weight: 500; }
+  .friend-best span { color: var(--text-muted); font-size: .68rem; font-weight: 600; }
+  .friends-id { display: flex; align-items: center; gap: .6rem; margin-top: 1rem; border-radius: 1.1rem; background: #fff; border: 1px dashed #c6d4fa; padding: .85rem 1.1rem; font-size: .85rem; }
+  .friends-id span { color: var(--text-muted); font-weight: 600; }
+  .friends-id strong { flex: 1; letter-spacing: .04em; }
+  .friends-id svg { width: 1.2rem; height: 1.2rem; fill: none; stroke: var(--accent); stroke-width: 1.8; }
 
-  .hero-trust { display: flex; flex-wrap: wrap; gap: .75rem 1.15rem; margin-top: 2rem; }
-  .hero-trust span { display: inline-flex; align-items: center; gap: .45rem; color: var(--text-muted); font-size: .75rem; font-weight: 600; }
-  .hero-trust i { width: .36rem; height: .36rem; border-radius: 50%; background: var(--green); }
+  /* ---------- SÖZLER ---------- */
+  .quotes { background: var(--paper); text-align: center; }
+  .quote-stage { position: relative; display: grid; max-width: 58rem; margin: 0 auto; }
+  .quote { grid-area: 1 / 1; margin: 0; opacity: 0; transform: translateY(10px); transition: opacity .8s ease, transform .8s ease; pointer-events: none; }
+  .quote.is-active { opacity: 1; transform: none; pointer-events: auto; }
+  .quote p { text-wrap: balance; margin: 0 0 1.4rem; color: var(--ink); font-family: var(--font-heading); font-style: italic; font-size: clamp(1.9rem, 4.6vw, 3.6rem); line-height: 1.15; letter-spacing: -.015em; }
+  .quote cite { color: var(--text-muted); font-style: normal; font-size: .8rem; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+  .quote-dots { display: flex; justify-content: center; gap: .2rem; margin-top: 1.6rem; }
+  .quote-dot { width: 44px; height: 44px; border: 0; background: transparent; cursor: pointer; position: relative; }
+  .quote-dot::after { position: absolute; inset: 50% auto auto 50%; width: 2rem; height: 3px; border-radius: 3px; background: #d3d0c6; content: ''; transform: translate(-50%, -50%); transition: background-color .3s ease; }
+  .quote-dot.is-active::after, .quote-dot:hover::after { background: var(--ink); }
+  .quotes-caption { max-width: 34rem; margin: 1rem auto 0; color: var(--text-muted); font-size: .95rem; }
 
-  .product-visual { position: relative; min-height: 630px; display: grid; place-items: center; }
-  .orbit { position: absolute; border: 1px solid rgba(38,103,245,.13); border-radius: 50%; }
-  .orbit-one { width: 32rem; height: 32rem; }
-  .orbit-two { width: 25rem; height: 25rem; border-style: dashed; }
+  .core { margin-top: clamp(4rem, 8vw, 6rem); border-top: 1px solid var(--line); padding-top: 2.4rem; text-align: start; }
+  .core h2 { margin-bottom: 1.8rem; font-size: clamp(1.6rem, 2.6vw, 2.1rem); }
+  .core-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; }
+  .core-list li { display: flex; flex-direction: column; gap: .4rem; padding-inline: 1.4rem; border-inline-start: 1px solid var(--line); }
+  .core-list li:first-child { padding-inline-start: 0; border-inline-start: 0; }
+  .core-list strong { font-family: var(--font-heading); font-style: italic; font-weight: 500; font-size: 1.25rem; line-height: 1.25; }
+  .core-list span { color: var(--text-secondary); font-size: .9rem; line-height: 1.55; }
 
-  .phone-shell {
-    position: relative;
-    z-index: 2;
-    width: 305px;
-    min-height: 590px;
-    overflow: hidden;
-    border: 7px solid #0b1730;
-    border-radius: 2.8rem;
-    background: #f8f9fd;
-    padding: .85rem 1rem 0;
-    box-shadow: 0 38px 90px rgba(15, 37, 89, .22), inset 0 0 0 1px rgba(255,255,255,.5);
-    transform: rotate(2.2deg);
-  }
+  /* ---------- APP BLOCK (gece) ---------- */
+  .night { overflow: hidden; background: var(--night); color: var(--cream); }
+  .night::before { position: absolute; inset: auto -10% -40% auto; width: 60rem; height: 60rem; border-radius: 50%; background: radial-gradient(circle, rgba(212, 165, 90, .16), transparent 60%); content: ''; pointer-events: none; }
+  .night-grid { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); align-items: center; gap: clamp(2.5rem, 7vw, 6rem); }
+  .night .product-mark { color: var(--gold); }
+  .night h2 { max-width: 14ch; margin-bottom: 1.3rem; color: var(--cream); }
+  .night-lead { max-width: 34rem; color: var(--night-muted); }
+  .ledger { margin: 2.2rem 0 1.8rem; max-width: 32rem; }
+  .ledger > div { display: flex; align-items: baseline; gap: .8rem; padding: .55rem 0; }
+  .ledger dt { color: var(--cream); font-weight: 600; font-size: .98rem; }
+  .ledger > div::after { order: 1; flex: 1; border-bottom: 1px dotted var(--night-line); content: ''; transform: translateY(-.25rem); }
+  .ledger dd { order: 2; margin: 0; color: var(--gold); font-family: var(--font-heading); font-style: italic; font-size: 1.2rem; }
+  .ledger.is-armed dd { opacity: 0; transform: scale(1.6) rotate(-6deg); }
+  .ledger.is-in dd { opacity: 1; transform: none; transition: opacity .35s ease, transform .5s cubic-bezier(.16, 1, .3, 1); transition-delay: calc(var(--i) * .16s + .1s); }
+  .manifest { max-width: 32rem; margin: 0 0 2.2rem; border: 1px solid var(--night-line); border-radius: 1rem; background: var(--night-raised); padding: 1rem 1.2rem; }
+  .manifest figcaption { margin-bottom: .55rem; color: var(--night-muted); font-size: .78rem; font-weight: 600; }
+  .manifest pre { margin: 0; overflow-x: auto; color: #d8cdb8; font-family: ui-monospace, 'Cascadia Code', Consolas, monospace; font-size: .8rem; line-height: 1.6; text-align: left; }
+  .manifest mark { background: rgba(212, 165, 90, .18); color: var(--gold); border-radius: 3px; padding: 0 .15rem; }
+  .night-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.6rem; }
+  .btn-gold { display: inline-flex; align-items: center; gap: .65rem; min-height: 3.3rem; border-radius: 999px; background: var(--gold); padding: .8rem 1.5rem .8rem 1.2rem; color: var(--night); font-weight: 800; font-size: .95rem; }
+  .btn-gold:hover { background: var(--cream); color: var(--night); transform: translateY(-2px); }
+  .night-link { color: var(--cream); font-weight: 700; font-size: .92rem; min-height: 44px; display: inline-flex; align-items: center; gap: .4rem; }
+  .night-link:hover { color: var(--gold); }
 
-  .phone-top { display: flex; justify-content: space-between; padding: 0 .25rem .9rem; color: #0b1730; font-size: .62rem; font-weight: 800; }
-  .phone-sensors { letter-spacing: .06em; }
-  .app-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
-  .app-head div { display: flex; flex-direction: column; }
-  .app-head strong { color: var(--text-primary); font-family: var(--font-heading); font-size: 1.25rem; }
-  .app-kicker { color: var(--accent); font-size: .55rem; font-weight: 800; letter-spacing: .16em; }
-  .profile-dot { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: .7rem; background: var(--accent-soft); color: var(--accent); font-size: .72rem; font-weight: 800; }
+  .night-visual { position: relative; display: flex; flex-direction: column; align-items: center; }
+  .night-quote { display: flex; flex-direction: column; align-self: stretch; margin: 0 0 1.8rem; color: var(--cream); font-family: var(--font-heading); font-size: clamp(1.8rem, 3.4vw, 2.7rem); line-height: 1.08; letter-spacing: -.02em; }
+  .night-quote em { color: var(--gold); font-weight: 400; }
+  .phone-night { border-color: #2a2622; background: #2a2622; box-shadow: 0 50px 100px -30px rgba(0, 0, 0, .8); transform: rotate(2deg); }
+  .phone-night .screen { background: #0f0d0c; color: var(--cream); }
+  .night-lock { display: flex; flex-direction: column; align-items: center; height: calc(100% - 40px); padding: 1rem 1.5rem 1.8rem; text-align: center; }
+  .night-brand { margin-bottom: auto; color: var(--night-muted); font-size: .7rem; font-weight: 700; letter-spacing: .08em; }
+  .night-lock .lock-tile { box-shadow: 0 0 0 6px #241f1b, 0 0 0 7px rgba(217, 87, 63, .6); }
+  .night-lock .lock-msg { color: #e0705a; }
+  .night-lock .lock-quote { margin-top: .2rem; color: var(--cream); }
+  .night-lock .lock-cite { color: var(--night-muted); }
+  .night-lock .lock-back { margin-top: auto; color: var(--night-muted); }
 
-  .focus-card { border-radius: 1.15rem; background: var(--surface-dark); padding: 1rem; box-shadow: 0 16px 28px rgba(9,22,47,.14); }
-  .focus-top, .focus-bottom { display: flex; justify-content: space-between; align-items: center; color: white; }
-  .focus-top span { font-size: .68rem; font-weight: 600; }
-  .focus-top strong { font-family: var(--font-heading); font-size: 1.05rem; }
-  .progress-track { height: .4rem; margin: .8rem 0 .55rem; overflow: hidden; border-radius: 1rem; background: rgba(255,255,255,.15); }
-  .progress-track span { display: block; width: 62%; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #5c8cff, #8dafff); }
-  .focus-bottom { color: #9eabc0; font-size: .52rem; }
+  /* ---------- KARŞILAŞTIRMA ---------- */
+  .compare { background: var(--paper); }
+  .compare h2 { margin-bottom: 2.4rem; }
+  .cmp { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  .cmp thead th { padding: 0 1rem 1rem; text-align: start; vertical-align: bottom; }
+  .cmp-app { display: inline-flex; align-items: center; gap: .55rem; font-family: var(--font-heading); font-size: clamp(1.15rem, 2vw, 1.5rem); font-weight: 500; }
+  .cmp-app::before { width: .7rem; height: .7rem; border-radius: 50%; content: ''; }
+  .cmp-social::before { background: var(--accent); }
+  .cmp-block::before { background: var(--night); box-shadow: 0 0 0 2px var(--gold) inset; }
+  .cmp tbody th, .cmp tbody td { border-top: 1px solid var(--line); padding: 1rem; text-align: start; vertical-align: top; }
+  .cmp tbody th { width: 30%; padding-inline-start: 0; color: var(--ink); font-weight: 700; }
+  .cmp tbody td { width: 35%; color: var(--text-secondary); }
+  .cmp tbody tr:last-child > * { border-bottom: 1px solid var(--line); }
+  .mark { display: inline-grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%; }
+  .mark svg { width: 1.1rem; height: 1.1rem; fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  .mark-yes { background: var(--accent-soft); }
+  .mark-yes svg { stroke: var(--accent-deep); }
+  .mark-no { background: var(--paper-deep); }
+  .mark-no svg { stroke: var(--text-muted); }
+  .cmp-actions { display: grid; grid-template-columns: 30% 35% 35%; padding-top: 1.4rem; }
+  .cmp-actions .cmp-cta-social { grid-column: 2; justify-self: start; margin-inline-start: 1rem; }
+  .cmp-actions .cmp-cta-block { grid-column: 3; justify-self: start; margin-inline-start: 1rem; }
+  .cmp-cta { display: inline-flex; align-items: center; min-height: 2.9rem; border-radius: 999px; padding: .6rem 1.2rem; font-weight: 700; font-size: .9rem; }
+  .cmp-cta-social { background: var(--accent); color: #fff; }
+  .cmp-cta-social:hover { background: var(--accent-deep); color: #fff; }
+  .cmp-cta-block { border: 1px solid var(--night); color: var(--night); }
+  .cmp-cta-block:hover { background: var(--night); color: var(--gold); }
 
-  .app-section-title { display: flex; justify-content: space-between; margin: 1.15rem 0 .65rem; font-size: .66rem; }
-  .app-section-title span { color: var(--accent); font-weight: 700; }
-  .limit-row { display: grid; grid-template-columns: 2rem 1fr auto; align-items: center; gap: .65rem; margin-bottom: .58rem; border: 1px solid var(--border-soft); border-radius: .9rem; background: white; padding: .68rem; box-shadow: 0 6px 16px rgba(22,43,78,.04); }
-  .limit-row > div { display: flex; min-width: 0; flex-direction: column; }
-  .limit-row strong { overflow: hidden; color: var(--text-primary); font-size: .62rem; text-overflow: ellipsis; white-space: nowrap; }
-  .limit-row small { color: var(--text-muted); font-size: .48rem; }
-  .app-icon { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: .65rem; color: white; font-size: .62rem; font-weight: 800; }
-  .app-icon.blue { background: linear-gradient(135deg, #2868f6, #74a0ff); }
-  .app-icon.coral { background: linear-gradient(135deg, #ff6b58, #ffad8f); }
-  .time-pill { border-radius: 1rem; background: var(--green-soft); padding: .28rem .42rem; color: var(--green); font-size: .5rem; font-weight: 800; }
+  /* ---------- SSS ---------- */
+  .faq { background: #fff; }
+  .faq-grid { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+  .faq-list details { border-top: 1px solid var(--line); }
+  .faq-list details:last-of-type { border-bottom: 1px solid var(--line); }
+  .faq-list summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 44px; padding: 1.2rem 0; color: var(--ink); font-family: var(--font-heading); font-size: 1.25rem; line-height: 1.35; cursor: pointer; list-style: none; }
+  .faq-list summary::-webkit-details-marker { display: none; }
+  .faq-list summary:hover { color: var(--accent); }
+  .faq-icon { position: relative; flex: none; width: 1.1rem; height: 1.1rem; }
+  .faq-icon::before, .faq-icon::after { position: absolute; top: 50%; left: 0; width: 100%; height: 1.5px; background: currentColor; content: ''; transition: transform .25s ease; }
+  .faq-icon::after { transform: rotate(90deg); }
+  details[open] .faq-icon::after { transform: rotate(0deg); }
+  .faq-list details p { max-width: 40rem; margin: 0 0 1.3rem; font-size: .98rem; }
+  .faq-more { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; margin-top: 1rem; color: var(--ink); font-weight: 700; }
+  .faq-more:hover { color: var(--accent); }
 
-  .streak-card { display: grid; grid-template-columns: 2.2rem 1fr; align-items: center; gap: .65rem; margin-top: .85rem; border-radius: 1rem; background: linear-gradient(135deg, #e9f8f1, #f6fbf8); padding: .8rem; }
-  .streak-card div { display: flex; flex-direction: column; }
-  .streak-card strong { color: #137c4b; font-size: .65rem; }
-  .streak-card small { color: #5c8a73; font-size: .49rem; }
-  .streak-icon { display: grid; width: 2.2rem; height: 2.2rem; place-items: center; border-radius: 50%; background: var(--green); color: white; font-size: .7rem; font-weight: 800; }
-  .app-nav { position: absolute; right: 0; bottom: 0; left: 0; display: flex; justify-content: space-around; border-top: 1px solid var(--border-soft); background: white; padding: .75rem 1rem 1rem; color: #a2adbe; font-size: .7rem; }
-  .app-nav .active { color: var(--accent); }
+  /* ---------- HABERLER ---------- */
+  .news { background: var(--paper); border-top: 1px solid var(--line); }
+  .news-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 1rem 2rem; margin-bottom: 2.4rem; }
+  .news-head h2 { max-width: 16ch; margin: 0; }
+  .news-all, .guides-head a { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; color: var(--ink); font-weight: 700; font-size: .92rem; }
+  .news-all:hover, .guides-head a:hover { color: var(--accent); }
+  .news-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3rem); }
+  .news-meta { display: flex; flex-wrap: wrap; gap: .3rem .9rem; margin-bottom: .7rem; color: var(--text-muted); font-size: .78rem; font-weight: 700; }
+  .news-meta span { color: var(--accent-deep); }
+  .news-lead { border-top: 3px solid var(--ink); padding-top: 1.4rem; }
+  .news-lead h3 { margin: 0 0 1rem; font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 500; line-height: 1.15; }
+  .news h3 a { color: var(--ink); background-image: linear-gradient(currentColor, currentColor); background-size: 0 1px; background-repeat: no-repeat; background-position: 0 100%; transition: background-size .3s ease, color .2s ease; }
+  .news h3 a:hover { color: var(--accent); background-size: 100% 1px; }
+  .news-lead p { max-width: 38rem; font-size: 1rem; }
+  .news-source { color: var(--text-muted); font-size: .8rem; font-weight: 600; }
+  .news-side { display: flex; flex-direction: column; }
+  .news-item { border-top: 1px solid var(--line); padding: 1.4rem 0; }
+  .news-item:first-child { border-top: 3px solid var(--ink); }
+  .news-item h3 { margin: 0 0 .7rem; font-size: 1.25rem; font-weight: 500; line-height: 1.3; }
+  .guides { margin-top: 3.5rem; }
+  .guides-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; margin-bottom: .6rem; }
+  .guides-head h3 { margin: 0; font-size: 1.3rem; font-weight: 500; }
+  .guides ul { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 1.5rem; }
+  .guides li a { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; min-height: 44px; border-top: 1px solid var(--line); padding: 1rem 0; color: var(--ink); }
+  .guides li a:hover { color: var(--accent); }
+  .guide-title { font-family: var(--font-heading); font-size: 1.1rem; line-height: 1.3; }
+  .guide-meta { flex: none; color: var(--text-muted); font-size: .78rem; font-weight: 700; }
 
-  .float-card { position: absolute; z-index: 3; display: flex; align-items: center; gap: .7rem; border: 1px solid rgba(255,255,255,.8); border-radius: 1rem; background: rgba(255,255,255,.86); padding: .75rem .9rem; box-shadow: 0 16px 35px rgba(24,44,83,.14); backdrop-filter: blur(14px); }
-  .float-card div { display: flex; flex-direction: column; }
-  .float-card strong { color: var(--text-primary); font-size: .68rem; }
-  .float-card small { color: var(--text-muted); font-size: .5rem; }
-  .float-left { left: 0; top: 25%; }
-  .float-right { right: -1rem; bottom: 19%; }
-  .float-icon { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: 50%; background: var(--green); color: white; font-weight: 800; }
-  .float-number { color: var(--accent); font-family: var(--font-heading); font-size: 1.65rem; font-weight: 700; line-height: 1; }
-  .visual-note { position: absolute; right: 0; bottom: 0; margin: 0; color: var(--text-muted); font-size: .62rem; }
+  /* ---------- SON ÇAĞRI ---------- */
+  .final { background: var(--paper); padding-top: 0; }
+  .final-inner { display: flex; flex-direction: column; align-items: center; border-top: 1px solid var(--line); padding-top: clamp(4rem, 9vw, 7rem); text-align: center; }
+  .final h2 { max-width: 20ch; margin-bottom: 1rem; font-size: clamp(2.6rem, 6vw, 4.8rem); line-height: 1; }
+  .final p { max-width: 30rem; margin-bottom: 2.2rem; font-size: 1.1rem; }
+  .final-alt { display: inline-flex; align-items: center; gap: .4rem; min-height: 44px; margin-top: 1.4rem; color: var(--text-secondary); font-weight: 600; font-size: .92rem; }
+  .final-alt:hover { color: var(--ink); }
 
-  .principles { border-block: 1px solid var(--border-soft); background: white; padding: 1.4rem 0; }
-  .principle-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
-  .principle-grid > div { display: grid; grid-template-columns: auto 1fr; gap: .8rem; border-right: 1px solid var(--border-color); padding: .35rem 2rem; }
-  .principle-grid > div:first-child { padding-left: 0; }
-  .principle-grid > div:last-child { border-right: 0; padding-right: 0; }
-  .principle-grid > div > span { color: var(--accent); font-family: var(--font-heading); font-size: .75rem; font-weight: 700; }
-  .principle-grid p { display: flex; flex-direction: column; margin: 0; font-size: .72rem; line-height: 1.5; }
-  .principle-grid strong { color: var(--text-primary); font-size: .9rem; }
-
-  .moment-section { background: var(--surface-dark); }
-  .moment-grid { display: grid; grid-template-columns: 1.05fr .8fr; align-items: center; gap: clamp(3rem, 8vw, 7rem); }
-  .moment-copy h2 { max-width: 13ch; margin: 0 0 1.5rem; color: white; }
-  .moment-copy p { max-width: 37rem; margin: 0; color: #9eabc0; font-size: 1.05rem; }
-  .moment-card { position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,.1); border-radius: 1.6rem; background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.035)); padding: 1.6rem; }
-  .moment-card::after { position: absolute; width: 12rem; height: 12rem; right: -5rem; top: -6rem; border-radius: 50%; background: rgba(38,103,245,.2); content: ''; filter: blur(10px); }
-  .moment-label { display: block; margin-bottom: 1.5rem; color: #7f90ae; font-size: .67rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-  .moment-row { position: relative; z-index: 1; display: grid; grid-template-columns: 4.2rem 1fr; gap: 1rem; align-items: center; }
-  .moment-row strong { color: #7da2ff; font-family: var(--font-heading); font-size: .85rem; }
-  .moment-row span { color: white; font-size: .92rem; }
-  .moment-line { position: relative; height: 3.5rem; margin-left: 1.85rem; border-left: 1px dashed rgba(255,255,255,.25); }
-  .moment-line i { position: absolute; top: 50%; left: -.28rem; width: .5rem; height: .5rem; border-radius: 50%; background: var(--coral); }
-  .moment-pause { display: flex; align-items: center; gap: .75rem; margin-top: 1.8rem; border-radius: 1rem; background: white; padding: .85rem 1rem; box-shadow: 0 10px 25px rgba(0,0,0,.15); }
-  .moment-logo { width: 2rem; height: 2rem; border-radius: .5rem; object-fit: cover; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
-  .moment-brand { border-radius: .45rem; background: #f0f2f5; padding: .35rem .55rem; color: #000000 !important; font-size: .68rem; font-weight: 800; border: 1px solid rgba(0,0,0,.08); }
-  .moment-pause strong { color: #000000; font-size: .78rem; line-height: 1.4; }
-
-  .steps-section { background: var(--bg-primary); }
-  .section-heading { display: grid; grid-template-columns: 1fr minmax(18rem, .55fr); align-items: end; gap: 3rem; margin-bottom: 3.5rem; }
-  .section-heading h2 { max-width: 13ch; margin: 0; }
-  .section-heading > p { margin: 0 0 .25rem; }
-  .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-  .step-card { position: relative; min-height: 22rem; overflow: hidden; border: 1px solid var(--border-color); border-radius: 1.6rem; background: white; padding: 1.5rem; transition: transform .25s ease, box-shadow .25s ease; }
-  .step-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
-  .step-card > span { color: var(--accent); font-family: var(--font-heading); font-size: .75rem; font-weight: 800; }
-  .step-card h3 { margin: 1.7rem 0 .75rem; }
-  .step-card p { margin: 0; font-size: .9rem; }
-  .step-glyph { position: relative; height: 7rem; margin: 1.5rem 0; border-radius: 1.1rem; background: var(--accent-soft); }
-  .step-glyph i { position: absolute; display: block; border-radius: .65rem; background: var(--accent); }
-  .step-card:nth-child(1) .step-glyph i:nth-child(1) { width: 3.3rem; height: 3.3rem; top: 1.9rem; left: calc(50% - 1.65rem); }
-  .step-card:nth-child(1) .step-glyph i:nth-child(2) { width: 1rem; height: 1rem; top: 1rem; left: 25%; background: #8cabff; }
-  .step-card:nth-child(1) .step-glyph i:nth-child(3) { width: .7rem; height: .7rem; right: 23%; bottom: 1rem; background: var(--coral); }
-  .step-card:nth-child(2) .step-glyph i:nth-child(1) { width: 70%; height: .65rem; top: 3.1rem; left: 15%; background: #ced9f4; }
-  .step-card:nth-child(2) .step-glyph i:nth-child(2) { width: 45%; height: .65rem; top: 3.1rem; left: 15%; }
-  .step-card:nth-child(2) .step-glyph i:nth-child(3) { width: 1.5rem; height: 1.5rem; top: 2.68rem; left: calc(60% - .75rem); border: .35rem solid white; }
-  .step-card:nth-child(3) .step-glyph i:nth-child(1) { width: 3.5rem; height: 4.2rem; top: 1.35rem; left: calc(50% - 1.75rem); border-radius: 1.8rem 1.8rem 1rem 1rem; }
-  .step-card:nth-child(3) .step-glyph i:nth-child(2) { width: 1.25rem; height: 1.25rem; top: 2.5rem; left: calc(50% - .625rem); border: .3rem solid white; background: transparent; }
-  .step-card:nth-child(3) .step-glyph i:nth-child(3) { width: .35rem; height: .75rem; top: 3.5rem; left: calc(50% - .175rem); background: white; }
-
-  .feature-section { background: white; }
-  .feature-grid { display: grid; grid-template-columns: .85fr 1fr; align-items: center; gap: clamp(3rem, 8vw, 7rem); }
-  .feature-copy h2 { max-width: 12ch; margin: 0 0 1.5rem; }
-  .check-list { display: flex; flex-direction: column; gap: .8rem; margin: 1.6rem 0 1.8rem; list-style: none; }
-  .check-list li { display: flex; align-items: center; gap: .7rem; color: var(--text-secondary); font-size: .88rem; }
-  .check-list span { display: grid; width: 1.5rem; height: 1.5rem; place-items: center; border-radius: 50%; background: var(--green-soft); color: var(--green); font-size: .72rem; font-weight: 800; }
-
-  .insight-panel { border: 1px solid var(--border-color); border-radius: 1.8rem; background: var(--bg-primary); padding: 1rem; box-shadow: var(--shadow-lg); }
-  .panel-tabs { display: flex; gap: .4rem; border-radius: 1rem; background: white; padding: .35rem; }
-  .panel-tabs span { flex: 1; border-radius: .7rem; padding: .6rem; color: var(--text-muted); text-align: center; font-size: .7rem; font-weight: 700; }
-  .panel-tabs .active { background: var(--surface-dark); color: white; }
-  .streak-summary { display: flex; align-items: center; justify-content: space-between; padding: 1.7rem .8rem 1.2rem; }
-  .streak-summary > div { display: flex; flex-direction: column; }
-  .streak-summary > div > span { color: var(--text-muted); font-size: .6rem; font-weight: 800; letter-spacing: .1em; }
-  .streak-summary strong { color: var(--text-primary); font-family: var(--font-heading); font-size: 2.5rem; line-height: 1.1; }
-  .streak-summary small { color: var(--text-muted); font-size: .75rem; }
-  .status-ring { display: grid; width: 4.1rem; height: 4.1rem; place-items: center; border: .5rem solid #d8e4ff; border-top-color: var(--accent); border-right-color: var(--accent); border-radius: 50%; color: var(--accent); font-family: var(--font-heading); font-weight: 700; }
-  .day-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: .55rem; border-radius: 1.2rem; background: white; padding: 1rem; }
-  .day-grid span { display: grid; aspect-ratio: 1; place-items: center; border-radius: .52rem; background: var(--green-soft); color: var(--green); font-size: .62rem; font-weight: 700; }
-  .day-grid .missed { background: #fff0ed; color: var(--coral); }
-  .day-grid .today { background: var(--accent); color: white; box-shadow: 0 5px 14px rgba(38,103,245,.25); }
-  .panel-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; padding: 1rem .5rem .25rem; }
-  .panel-legend span { display: flex; align-items: center; gap: .35rem; color: var(--text-muted); font-size: .55rem; }
-  .panel-legend i { width: .45rem; height: .45rem; border-radius: 50%; }
-  .panel-legend .done { background: var(--green); }
-  .panel-legend .miss { background: var(--coral); }
-  .panel-legend .current { background: var(--accent); }
-
-  .privacy-section { background: white; padding-top: 0; }
-  .privacy-card { position: relative; display: grid; grid-template-columns: auto 1fr .8fr; align-items: center; gap: 2rem; overflow: hidden; border-radius: 2rem; background: var(--surface-dark); padding: clamp(2rem, 5vw, 4rem); }
-  .privacy-card::after { position: absolute; width: 18rem; height: 18rem; right: -7rem; bottom: -10rem; border: 1px solid rgba(255,255,255,.09); border-radius: 50%; content: ''; }
-  .privacy-mark { display: grid; width: 5.2rem; height: 5.2rem; place-items: center; border: 1px solid rgba(255,255,255,.12); border-radius: 1.5rem; background: rgba(255,255,255,.06); }
-  .privacy-mark span { position: relative; width: 2.4rem; height: 2.2rem; border: 3px solid #83a7ff; border-radius: .65rem; }
-  .privacy-mark span::before { position: absolute; width: 1.25rem; height: 1.3rem; top: -1.35rem; left: .35rem; border: 3px solid #83a7ff; border-bottom: 0; border-radius: 1rem 1rem 0 0; content: ''; }
-  .privacy-copy h2 { margin: 0 0 1rem; color: white; }
-  .privacy-copy p { max-width: 38rem; margin: 0; color: #9eabc0; }
-  .privacy-points { position: relative; z-index: 1; display: flex; flex-direction: column; gap: .7rem; }
-  .privacy-points div { display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px solid rgba(255,255,255,.1); padding: .7rem 0; }
-  .privacy-points strong { color: white; font-size: .78rem; }
-  .privacy-points span { color: #7f90ae; font-size: .7rem; }
-
-  .home-news-section { background: #f2f5fb; border-top: 1px solid var(--border-soft); }
-  .news-home-heading { align-items: center; }
-  .home-news-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-  .home-news-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: white;
-    border: 1px solid var(--border-color);
-    border-radius: 1.5rem;
-    padding: 1.4rem;
-    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
-  }
-  .home-news-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-sm);
-    border-color: var(--accent-border);
-  }
-  .home-news-meta {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0.75rem;
-    font-size: 0.72rem;
-  }
-  .home-news-cat {
-    color: var(--accent);
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    background: var(--accent-soft);
-    padding: 0.2rem 0.55rem;
-    border-radius: var(--radius-full);
-  }
-  .home-news-date {
-    color: var(--text-muted);
-    font-weight: 500;
-  }
-  .home-news-card h3 {
-    margin: 0 0 0.6rem 0;
-    font-size: 1.15rem;
-    line-height: 1.35;
-  }
-  .home-news-card h3 a {
-    color: var(--text-primary);
-  }
-  .home-news-card h3 a:hover {
-    color: var(--accent);
-  }
-  .home-news-card p {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    line-height: 1.55;
-    margin-bottom: 1.25rem;
-    flex-grow: 1;
-  }
-  .home-news-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid var(--border-soft);
-    padding-top: 0.85rem;
-    font-size: 0.78rem;
-  }
-  .home-news-source {
-    color: var(--text-muted);
-    font-weight: 600;
-  }
-  .home-news-link {
-    color: var(--accent);
-    font-weight: 800;
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-    padding-inline: .25rem;
-  }
-
-  .guides-section { background: var(--bg-primary); }
-  .guides-heading { align-items: center; }
-  .guides-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-  .guide-card { position: relative; display: flex; flex-direction: column; border: 1px solid var(--border-color); border-radius: 1.5rem; background: white; padding: .85rem .85rem 1.35rem; color: var(--text-primary); }
-  .guide-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); color: var(--text-primary); }
-  .guide-visual { position: relative; height: 11rem; overflow: hidden; border-radius: 1rem; background: var(--surface-dark); }
-  .guide-visual span { position: absolute; z-index: 2; top: 1rem; left: 1rem; color: rgba(255,255,255,.7); font-family: var(--font-heading); font-size: .75rem; font-weight: 700; }
-  .guide-visual i, .guide-visual::before, .guide-visual::after { position: absolute; display: block; border-radius: 50%; content: ''; }
-  .visual-1 i { width: 7rem; height: 7rem; right: 2rem; top: 2rem; border: 1.2rem solid #4178f7; border-right-color: #9bb7ff; }
-  .visual-1::before { width: 1rem; height: 1rem; right: 5rem; top: 5rem; background: white; }
-  .visual-2 { background: #17223b; }
-  .visual-2 i { width: 6rem; height: 6rem; left: calc(50% - 3rem); top: 2.5rem; background: repeating-radial-gradient(circle, var(--coral) 0 .45rem, transparent .55rem 1rem); }
-  .visual-3 { background: #142c2c; }
-  .visual-3 i { width: 9rem; height: 9rem; right: -1rem; bottom: -2rem; border: 1px solid rgba(108,222,169,.45); box-shadow: 0 0 0 1.5rem rgba(108,222,169,.08), 0 0 0 3rem rgba(108,222,169,.05); }
-  .guide-meta { margin: 1.15rem 0 .2rem; color: var(--accent); font-size: .65rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-  .guide-card h3 { margin: .4rem 0 .65rem; font-size: 1.25rem; }
-  .guide-card p { margin: 0; font-size: .82rem; }
-  .guide-arrow { position: absolute; right: 1.4rem; bottom: 1.1rem; color: var(--accent); font-weight: 800; }
-
-  .final-cta { background: var(--bg-primary); padding-top: 0; }
-  .cta-card { position: relative; overflow: hidden; border-radius: 2.2rem; background: linear-gradient(135deg, #1858e6, #3979ff); padding: clamp(3rem, 8vw, 6rem) 2rem; text-align: center; box-shadow: 0 30px 80px rgba(38,103,245,.25); }
-  .cta-card h2 { margin: 0 0 1rem; color: white; }
-  .cta-card p { max-width: 32rem; margin: 0 auto 2rem; color: #dbe6ff; }
-  .cta-button { background: white; color: var(--accent); box-shadow: 0 15px 35px rgba(7,31,88,.2); }
-  .cta-button:hover { background: var(--surface-dark); color: white; }
-  .cta-card small { display: block; margin-top: 1rem; color: #bed0ff; font-size: .65rem; }
-  .cta-orb { position: absolute; border: 1px solid rgba(255,255,255,.18); border-radius: 50%; }
-  .orb-a { width: 22rem; height: 22rem; left: -10rem; top: -15rem; }
-  .orb-b { width: 18rem; height: 18rem; right: -6rem; bottom: -12rem; }
-
+  /* ---------- duyarlı düzen ---------- */
   @media (max-width: 980px) {
-    .hero-grid { grid-template-columns: 1fr; }
-    .hero-copy { max-width: 46rem; }
-    .product-visual { width: min(100%, 34rem); margin-inline: auto; }
-    .moment-grid, .feature-grid { grid-template-columns: 1fr; }
-    .moment-copy h2, .feature-copy h2 { max-width: 18ch; }
-    .privacy-card { grid-template-columns: auto 1fr; }
-    .privacy-points { grid-column: 1 / -1; }
-    .guides-grid, .home-news-grid { grid-template-columns: 1fr 1fr; }
+    .hero-grid, .social-grid, .night-grid { grid-template-columns: 1fr; }
+    .stage { min-height: 640px; }
+    .trial-grid { grid-template-columns: 1fr; }
+    .trial-copy h2 { max-width: 18ch; }
+    .friends { order: 2; }
+    .faq-grid, .news-grid { grid-template-columns: 1fr; }
+    .core-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.6rem 0; }
+    .core-list li:nth-child(3) { padding-inline-start: 0; border-inline-start: 0; }
+    .night-visual { order: 2; }
   }
 
-  @media (max-width: 760px) {
-    .principle-grid { grid-template-columns: 1fr; }
-    .principle-grid > div { border-right: 0; border-bottom: 1px solid var(--border-color); padding: 1rem 0; }
-    .principle-grid > div:last-child { border-bottom: 0; }
-    .section-heading { grid-template-columns: 1fr; gap: 1.25rem; }
-    .steps-grid, .guides-grid, .home-news-grid { grid-template-columns: 1fr; }
-    .step-card { min-height: auto; }
-    .privacy-card { grid-template-columns: 1fr; }
-    .privacy-points { grid-column: auto; }
+  @media (max-width: 640px) {
+    .hero h1 { font-size: clamp(2.7rem, 12.5vw, 3.6rem); }
+    .play { width: 100%; justify-content: center; }
+    .hero-note { width: 100%; text-align: center; }
+    .stage { min-height: 600px; margin-inline: -.25rem; }
+    .stage-disc { width: 92%; }
+    .phone { width: 272px; height: 560px; }
+    .chip { max-width: 13.5rem; font-size: .74rem; }
+    .chip-friend { top: 44%; inset-inline-start: 0; }
+    .chip-streak { bottom: 3%; inset-inline-end: 0; }
+    .usage-time { font-size: 2.6rem; }
+    .points > div { grid-template-columns: 1fr; }
+    .friends { padding: 1rem; border-radius: 1.5rem; }
+    .friends-head strong { font-size: 1.8rem; }
+    .friend { gap: .75rem; padding: .9rem .8rem; }
+    .ring { width: 2.3rem; height: 2.3rem; font-size: 1rem; }
+    .friend-best strong { font-size: 1.15rem; }
+    .core-list { grid-template-columns: 1fr; }
+    .core-list li { padding-inline: 0; border-inline-start: 0; border-top: 1px solid var(--line); padding-top: 1rem; }
+    .core-list li:first-child { border-top: 0; padding-top: 0; }
+    .btn-gold { width: 100%; justify-content: center; }
+    .manifest pre { font-size: .72rem; }
+
+    .cmp thead tr, .cmp tbody tr { display: grid; grid-template-columns: 1fr 1fr; column-gap: 1rem; }
+    .cmp thead td { display: none; }
+    .cmp-actions { grid-template-columns: 1fr 1fr; column-gap: 1rem; padding-top: 1rem; }
+    .cmp-actions .cmp-cta-social, .cmp-actions .cmp-cta-block { grid-column: auto; margin-inline-start: 0; }
+    .cmp thead th { padding: 0 0 .8rem; }
+    .cmp tbody th { grid-column: 1 / -1; width: auto; border-top: 1px solid var(--line); padding: 1rem 0 .3rem; }
+    .cmp tbody td { width: auto; border-top: 0; padding: .2rem 0 1rem; font-size: .9rem; }
+    .cmp tbody tr:last-child > * { border-bottom: 0; }
+    .cmp-cta { width: 100%; justify-content: center; text-align: center; }
+    .guides ul { grid-template-columns: 1fr; }
   }
 
-  @media (max-width: 520px) {
-    .hero { padding-top: 2.5rem; }
-    .hero-lead { display: none; }
-    .hero-actions { align-items: stretch; flex-direction: column; }
-    .hero-actions .text-link { justify-content: center; min-height: 44px; }
-    .product-visual { width: 100%; max-width: 100%; min-height: auto; margin-block: 0; }
-    .phone-shell { width: min(285px, calc(100vw - 3.5rem)); min-height: auto; padding-bottom: 3.5rem; }
-    .float-card { display: none; }
-    .orbit-one, .orbit-two { display: none; }
-    .moment-card { padding: 1.2rem; }
-    .moment-row { grid-template-columns: 3.5rem 1fr; }
-    .moment-line { margin-left: 1.55rem; }
-    .privacy-points div { align-items: flex-start; flex-direction: column; gap: .15rem; }
-    .day-grid { gap: .35rem; padding: .7rem; }
+  @media (prefers-reduced-motion: reduce) {
+    .h1-line, .chip, .mini-track { animation: none; }
   }
 </style>

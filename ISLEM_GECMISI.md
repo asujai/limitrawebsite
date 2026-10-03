@@ -1,5 +1,17 @@
 # İşlem Geçmişi
 
+## [2026-10-03 18:40] - Site Yeniden Tasarımı: Limitra Social + Limitra App Block
+
+* **Model:** Claude
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `src/data/home.ts` (11 dilde ana sayfa metinleri, mağaza bağlantıları, manifest kanıtı başlıkları)
+  - `[GÜNCELLENDİ]` `src/components/HomePage.astro` (baştan yazıldı), `src/components/Navigation.astro`, `src/components/Footer.astro`, `src/layouts/Layout.astro`, `src/styles/global.css`
+  - `[GÜNCELLENDİ]` `src/data/schema.ts` (Social düğümü, WebSite adı), `src/data/product-pages.ts`, `src/pages/sss.astro`, `src/pages/en/sss.astro` (görünür fiyat rakamları kaldırıldı)
+* **Yapılan İşlem:** İki uygulama (`gardiyan2`, `limitrasocial`) ve Play sayfaları incelendi; kullanıcı kararıyla Limitra Social (ücretsiz) öne, Limitra App Block gizlilik seçeneği olarak ikinci sıraya kondu, sitede fiyat rakamı gösterilmez, ürün adı her dilde "Limitra App Block". Uygulamalarla aynı tasarım dili kuruldu (Newsreader + Manrope, kâğıt/mürekkep/kobalt; App Block için espresso/altın gece paleti). Ana sayfa: animasyonlu giriş telefonu, ziyaretçinin kaydırarak kilidi tetiklediği 15 sn'lik demo, arkadaş durumları ekranı, dönen Stoacı sözler, App Block "Yok" defteri + `AndroidManifest.xml`'deki gerçek `INTERNET tools:node="remove"` satırı, karşılaştırma tablosu, SSS (FAQPage JSON-LD), haberler/rehberler. Stitch CLI ile bir konsept üretildi; yön doğrulandı, uydurma özellikleri (acil erişim vb.) alınmadı. Haber sistemi ve URL yapısı değişmedi.
+* **Doğrulama:** `npm run build` 476 sayfa, 0 hata; `npm run check:links` OK; ana sayfadaki ilk fiyat şeması `0.49 USD` (check:live uyumlu). Başsız Chrome ile masaüstü tam sayfa, Arapça (RTL) ve Tayca görüntüleri; tarayıcı panelinde 390 px'te `scrollWidth = 390`; demo kilidi (0:15 → 0:00, kilit + aria-live duyurusu) çalıştı; `detect.mjs` temiz.
+* **Bilinen Sorunlar:** `public/llms.txt`, `llms-full.txt`, `.well-known/agent-card.json` yalnız App Block'u anlatıyor ve fiyat içeriyor (makine-okunur; görünür sayfa değil). Rehber/iletişim/hukuk sayfaları 9 dilde hâlâ İngilizceye düşüyor.
+* **Sonraki Öneri:** Social için ayrı ürün sayfası ve makine-okunur dosyalara Social'ın eklenmesi (Claude); günlük haber akışı aynen sürer (Antigravity).
+
 ## [2026-10-02 22:20] - Günlük Haber Otomasyon Sınır Düzeltmesi ve 2 Ekim Haberi (ID 35)
 
 * **Model:** Antigravity

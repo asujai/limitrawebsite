@@ -1,13 +1,21 @@
 # Proje Son Durumu
 
 ## Genel Bilgiler
-- **Proje Adı:** Limitra Web (Limitra App Block)
+- **Proje Adı:** Limitra Web (Limitra Social + Limitra App Block)
 - **Teknoloji:** Astro 4.16, SSG (Static Site Generation), Vanilla CSS
 - **Canlı Adres / Alan Adı:** `https://limitra.online` (Canonical)
-- **Paket / App ID:** `com.gardiyan.app` (Google Play: Limitra App Block)
+- **Paket / App ID:** `com.limitra.socialprototype` (Limitra Social, ücretsiz, sitede önde) ve `com.gardiyan.app` (Limitra App Block, çevrimdışı/gizlilik seçeneği)
+- **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
+- **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-10-02)
+## Güncel Durum (2026-10-03)
+- **Site yeniden tasarımı: iki uygulama (Claude, 3 Ekim):**
+  - Ana sayfa baştan yazıldı (`src/components/HomePage.astro`, metinler `src/data/home.ts`, 11 dil). Sıra: Social girişi (canlı sayaç → kilit ekranı animasyonu) → ziyaretçinin kaydırıp kilidi kendisinin tetiklediği demo → Social arkadaş ekranı → Stoacı sözler + ortak çekirdek → App Block "gece" bölümü (Yok defteri + gerçek manifest satırı) → karşılaştırma tablosu → SSS (FAQPage JSON-LD) → haberler + rehberler → son çağrı.
+  - Gezinme: Limitra Social / App Block (ana sayfa çapaları) / Haberler / Rehberler / SSS; indirme düğmesi Social'a gider. Alt bilgi iki ürün grubuna ayrıldı, fiyatlandırma bağlantısı kaldırıldı.
+  - Görünür tüm `$0.49` ifadeleri kaldırıldı (`product-pages.ts`, `sss.astro`, `en/sss.astro`, `schema.ts` HERO_ANSWER). `/fiyatlandirma` sayfası rakamsız duruyor.
+  - JSON-LD: WebSite adı `Limitra`, Organization `sameAs` iki mağaza, yeni `#social-app` düğümü (ücretsiz).
+
 - **Günlük Haber Otomasyon Sınır Düzeltmesi ve 2 Ekim Haberi (ID 35) (Antigravity, 2 Ekim):**
   - Otomasyon sisteminin Windows 8.191 karakter sınırına takılması (`cmd.exe` / `The command line is too long`) kalıcı olarak giderildi: Prompt `scripts/daily-news-instructions.md` dosyasına taşındı, `sidecar.json` ve `scripts/check-daily-news.ps1` dosya referansıyla çalışacak şekilde optimize edildi.
   - Windows Görev Zamanlayıcı'daki `Limitra-Gunluk-Haber-Telafi` görevinin pilde çalışma kısıtı kaldırıldı (`DisallowStartIfOnBatteries=False`) ve kaçırılan görevlerin uyanışta telafisi (`StartWhenAvailable=True`) açıldı.
@@ -24,8 +32,10 @@
 - Toplam üretilen sayfa sayısı: 476 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Windows komut satırı sınırından ötürü çöken günlük haber sidecar prompt'u `scripts/daily-news-instructions.md` dosyasına taşınarak sadeleştirildi; Görev Zamanlayıcı batarya ayarları düzeltildi. 2 Ekim 2026 haberi (ID 35) 11 dilde eklendi, derlendi ve yayınlandı.
-- **Model:** Antigravity
+- **İşlem:** Site iki uygulamaya göre yeniden tasarlandı (Limitra Social önde, Limitra App Block gizlilik seçeneği); yeni tasarım sistemi tüm sayfalara uygulandı, fiyat rakamları kaldırıldı.
+- **Model:** Claude
+- **Doğrulama:** `npm run build` 476 sayfa / 0 hata, `npm run check:links` OK; masaüstü (1440), mobil (390, yatay taşma yok), Arapça RTL ve Tayca ekran görüntüsüyle kontrol edildi; demo kilidi tarayıcıda test edildi; tasarım tarayıcısı temiz.
+- **Sonraki adım:** Haber girişi aynı akışla sürer (Antigravity). İstenirse: Social için ayrı ürün sayfası, 9 dilde rehber/hukuk sayfası çevirisi, `public/llms*.txt` ve `agent-card.json` dosyalarına Social'ın eklenmesi.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
