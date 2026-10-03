@@ -34,7 +34,7 @@
 ## Son Yapılan İşlem
 - **İşlem:** Site iki uygulamaya göre yeniden tasarlandı (Limitra Social önde, Limitra App Block gizlilik seçeneği); yeni tasarım sistemi tüm sayfalara uygulandı, fiyat rakamları kaldırıldı.
 - **Model:** Claude
-- **Doğrulama:** `npm run build` 476 sayfa / 0 hata, `npm run check:links` OK; masaüstü (1440), mobil (390, yatay taşma yok), Arapça RTL ve Tayca ekran görüntüsüyle kontrol edildi; demo kilidi tarayıcıda test edildi; tasarım tarayıcısı temiz.
+- **Doğrulama:** `npm run build` 476 sayfa / 0 hata, `npm run check:links` OK; masaüstü (1440), mobil (390, yatay taşma yok), Arapça RTL ve Tayca ekran görüntüsüyle kontrol edildi; demo kilidi tarayıcıda test edildi; tasarım tarayıcısı temiz. `git push origin main` (`92cd649`), `npm run deploy:vps` → "Yayin tamamlandi", sürüm `20261003-183739`; `npm run check:live` → "Canli site guncel."
 - **Sonraki adım:** Haber girişi aynı akışla sürer (Antigravity). İstenirse: Social için ayrı ürün sayfası, 9 dilde rehber/hukuk sayfası çevirisi, `public/llms*.txt` ve `agent-card.json` dosyalarına Social'ın eklenmesi.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
