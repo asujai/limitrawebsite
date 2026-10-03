@@ -10,6 +10,10 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-10-03)
+- **JAMA Pediatrics Küresel Şemsiye Derlemesi ve 3 Ekim Haberi (ID 36) (Antigravity, 3 Ekim):**
+  - 64 ülkeden 2,8 milyondan fazla çocuğu ve 23 meta-analizi kapsayan dev şemsiye derleme 11 dilde eşzamanlı olarak eklendi. Ekran süresinin akademik başarı, dil gelişimi, dikkat eksikliği ve kaygı ile ilişkisi; ekran süresinin popülasyon düzeyinde değiştirilebilir bir risk faktörü oluşu aktarıldı.
+  - 487 statik sayfa 0 hata ile derlendi, sitemap 485 URL ile yenilendi, VPS'e deploy edildi (sürüm `20261003-221728`) ve canlıda doğrulandı (`check:live` OK).
+
 - **Site yeniden tasarımı: iki uygulama (Claude, 3 Ekim):**
   - Ana sayfa baştan yazıldı (`src/components/HomePage.astro`, metinler `src/data/home.ts`, 11 dil). Sıra: Social girişi (canlı sayaç → kilit ekranı animasyonu) → ziyaretçinin kaydırıp kilidi kendisinin tetiklediği demo → Social arkadaş ekranı → Stoacı sözler + ortak çekirdek → App Block "gece" bölümü (Yok defteri + gerçek manifest satırı) → karşılaştırma tablosu → SSS (FAQPage JSON-LD) → haberler + rehberler → son çağrı.
   - Gezinme: Limitra Social / App Block (ana sayfa çapaları) / Haberler / Rehberler / SSS; indirme düğmesi Social'a gider. Alt bilgi iki ürün grubuna ayrıldı, fiyatlandırma bağlantısı kaldırıldı.
@@ -29,13 +33,13 @@
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
-- Toplam üretilen sayfa sayısı: 476 statik sayfa, 0 hata, kırık iç bağlantı yok.
+- Toplam üretilen sayfa sayısı: 487 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Site iki uygulamaya göre yeniden tasarlandı (Limitra Social önde, Limitra App Block gizlilik seçeneği); yeni tasarım sistemi tüm sayfalara uygulandı, fiyat rakamları kaldırıldı.
-- **Model:** Claude
-- **Doğrulama:** `npm run build` 476 sayfa / 0 hata, `npm run check:links` OK; masaüstü (1440), mobil (390, yatay taşma yok), Arapça RTL ve Tayca ekran görüntüsüyle kontrol edildi; demo kilidi tarayıcıda test edildi; tasarım tarayıcısı temiz. `git push origin main` (`92cd649`), `npm run deploy:vps` → "Yayin tamamlandi", sürüm `20261003-183739`; `npm run check:live` → "Canli site guncel."
-- **Sonraki adım:** Haber girişi aynı akışla sürer (Antigravity). İstenirse: Social için ayrı ürün sayfası, 9 dilde rehber/hukuk sayfası çevirisi, `public/llms*.txt` ve `agent-card.json` dosyalarına Social'ın eklenmesi.
+- **İşlem:** 3 Ekim 2026 haberi (ID 36 - JAMA Pediatrics 64 ülke şemsiye derlemesi) 11 dilde eklendi, site haritası yenilendi, VPS'e dağıtıldı.
+- **Model:** Antigravity
+- **Doğrulama:** `npm run build` 487 sayfa / 0 hata, `npm run check:links` OK, `npm run deploy:vps` → "Yayin tamamlandi", sürüm `20261003-221728`; `npm run check:live` → "Canli site guncel."
+- **Sonraki adım:** Günlük haber akışının planlı şekilde sürdürülmesi.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
@@ -44,14 +48,13 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (474 URL).
-- `npm run build` → 476 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (485 URL).
+- `npm run build` → 487 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu (474 URL).
+- Sitemap ↔ üretilen sayfalar tam uyumlu (485 URL).
 - `git push origin main` → senkronize.
-
-- `npm run deploy:vps` → `Yayin tamamlandi`, son sürüm `20261002-222513`.
-- `npm run check:live` → canlı site güncel (ID 35 canlıda HTTP 200, fiyat 0.49 USD, app-ads.txt OK).
+- `npm run deploy:vps` → `Yayin tamamlandi`, son sürüm `20261003-221728`.
+- `npm run check:live` → canlı site güncel (ID 36 canlıda HTTP 200, fiyat 0.49 USD, app-ads.txt OK).
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:

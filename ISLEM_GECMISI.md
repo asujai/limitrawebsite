@@ -1,5 +1,23 @@
 # İşlem Geçmişi
 
+## [2026-10-03 22:20] - JAMA Pediatrics Küresel Şemsiye Derlemesi 11 Dilde Eklendi (ID 36)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR) ve 10 dildeki `src/data/news-*.json` (en, es, fr, de, pt, it, ar, id, fil, th)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs`
+  - `[GÜNCELLENDİ]` `public/sitemap.xml`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` ve `ISLEM_GECMISI.md`
+* **Yapılan İşlem:**
+  1. Günlük haber yönergeleri (`scripts/daily-news-instructions.md`) eksiksiz incelendi. Kilit kontrolü yapıldı; 2026-10-03 tarihli haberin henüz yayınlanmadığı teyit edildi.
+  2. JAMA Pediatrics dergisinde yayımlanan, Calgary Üniversitesi (Dr. Sheri Madigan ve Elizabeth Al-Jbouri) öncülüğünde 64 ülkeden 2,8 milyondan fazla çocuğu ve 23 meta-analizi kapsayan dev şemsiye derleme (umbrella review) araştırıldı.
+  3. Araştırma sonuçları (akademik başarı, dil gelişimi, dikkat eksikliği/hiperaktivite ve kaygı ilişkisi; korelasyon-nedensellik ayrımı; ekran süresinin popülasyon ölçeğinde değiştirilebilir bir çevresel faktör oluşu) bilimsel doğruluk kurallarına tam sadakatle 11 dilde hazırlandı ve sisteme eklendi (ID 36).
+  4. `npm run sitemap` ile 11 dilin yeni URL slug'ları site haritasına işlendi. `npm run build` ile 487 statik sayfa 0 hata ile derlendi, `npm run check:links` ile iç bağlantılar doğrulandı.
+  5. Değişiklikler GitHub `main` dalına push edildi (`97ed4f1`). İlk SSH denemesinde banner exchange zaman aşımı sonrası 2 dakikalık bekleme kuralı uygulandı; 2. denemede `npm run deploy:vps` ile canlı VPS'e atomik dağıtım tamamlandı (sürüm `20261003-221728`). `npm run check:live` ile canlıda HTTP 200, fiyat ve reklam doğrulama onaylandı.
+* **Doğrulama:** `npm run build` (487 sayfa, 0 hata), `npm run check:links` (OK), `npm run deploy:vps` (sürüm `20261003-221728`), `npm run check:live` ("Canli site guncel.").
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-03 18:40] - Site Yeniden Tasarımı: Limitra Social + Limitra App Block
 
 * **Model:** Claude
