@@ -1,5 +1,34 @@
 [
   {
+    "id": "36",
+    "slug": "jama-pediatrics-global-study-2-point-8-million-children-screen-time",
+    "title": "Landmark JAMA Pediatrics Study Across 64 Countries: Screen Time, Language Development, and Youth Mental Health Analyzed in 2.8 Million Children",
+    "summary": "Published in JAMA Pediatrics and synthesizing data from over 2.8 million children across 64 countries, a comprehensive umbrella review examines the link between screen time duration and child development. University of Calgary researchers found consistent associations with academic achievement, language acquisition, and attention difficulties, highlighting that while individual effects are modest, screen habits represent a critical, modifiable environmental factor at the population level.",
+    "content": [
+      "The most comprehensive synthesis to date regarding the developmental impacts of digital screen time on children and adolescents has been published in the medical literature. In a landmark umbrella review published in the American Medical Association's journal JAMA Pediatrics, researchers led by Elizabeth Al-Jbouri and Dr. Sheri Madigan from the University of Calgary brought together 23 independent meta-analyses spanning 64 countries and more than 2.8 million young people aged 18 and under. Drawing from this unprecedented global dataset, the study provides rigorous quantitative evidence on how screen duration intersects with cognitive, academic, and socio-emotional development.",
+      "The study's core findings demonstrate that longer durations of screen exposure are consistently associated with less favorable outcomes across several key domains of child development. Elevated screen time correlated with lower overall school achievement, weaker speech and language skills, increased internalizing symptoms (such as anxiety and depressive mood), and heightened externalizing behaviors (including attention difficulties/ADHD symptoms and aggression). Furthermore, the analysis revealed that interactive and portable devices—namely smartphones and computers—exhibited stronger ties to youth anxiety and mood challenges than passive television viewing.",
+      "Crucially, the authors emphasize the scientific distinction between association and causation. While the associations are statistically robust, the effect sizes at an individual level remain relatively modest, accounting for approximately 1% of the variance in children's emotional distress and academic performance. However, when scaled across entire populations, the cumulative impact of excessive screen exposure is comparable to or larger than traditional determinants of child development, such as socioeconomic status, parenting practices, or preterm birth. The researchers also noted the bidirectional nature of the relationship, as children struggling with emotional regulation may turn to screens as a coping mechanism.",
+      "Notably, the review highlighted that associations between screen duration and developmental difficulties have grown stronger in more recent studies. Experts attribute this trend to the structural evolution of media: passive broadcasts have been superseded by algorithmic infinite feeds, variable dopamine rewards, and pocket-sized devices engineered for compulsive engagement. Dr. Sheri Madigan and her colleagues underscored that unlike immutable biological or economic factors, screen exposure is a \"potentially modifiable factor\" that parents, schools, and policymakers can actively shape through evidence-based boundaries.",
+      "Developmental psychologists and pediatric experts emphasize that these findings call not for helpless panic, but for deliberate digital hygiene and practical boundary-setting. Establishing screen-free bedtimes, silencing push notifications during study hours, and capping daily recreational device time significantly protect cognitive focus. Purpose-built tools like Limitra App Block empower families and individuals to put these boundaries into practice—introducing intentional friction, eliminating algorithmic distractions, and turning digital discipline into an accessible daily reality."
+    ],
+    "source": "JAMA Pediatrics / University of Calgary",
+    "sourceUrl": "https://jamanetwork.com/journals/jamapediatrics",
+    "category": "Science & Health",
+    "date": "2026-10-03",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "JAMA Pediatrics",
+      "Screen Time",
+      "Child Development",
+      "Adolescent Mental Health",
+      "Academic Focus",
+      "University of Calgary",
+      "Digital Well-Being",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "35",
     "slug": "alabama-tiktok-100-million-dollar-child-safety-and-nighttime-curfew-settlement",
     "title": "Historic Legal Precedent in the US: Alabama Reaches $100 Million Settlement with TikTok; Nighttime Curfew and Mandatory Productive Pauses Introduced",
