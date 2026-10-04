@@ -10,6 +10,13 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-10-04)
+- **'Ekran Süresi Kontrolü' Yeni Kategorisi ve 6 Kapsamlı Uygulamalı Rehber 11 Dilde Entegre Edildi (Antigravity, 4 Ekim):**
+  - Arama motoru ve yapay zekâ sorgu analizine dayanarak kullanıcıların en çok arattığı 6 kritik acı noktası (Instagram Reels/kısa video sonsuz kaydırması, sınav ve akademik odaklanma, çocukların tablet/öfke krizleri, gece intikam ertelemesi, yerleşik dijital dengenin iflası ve gerçekçi dopamin detoksu) için yeni "Ekran Süresi Kontrolü" (*Screen Time Control*) kategorisi açıldı.
+  - Yerel sınav isimlerinden (YKS vb.) kaçınılarak global akademik standartlar (finaller, akademik projeler, yeterlilik sınavları) benimsendi.
+  - 6 derinlemesine, kanıta dayalı (Skinner değişken oranlı ödül, UT Austin Brain Drain, Stanford Dr. Anna Lembke, Roy Baumeister ego tükenmesi) rehber 11 dilde eşzamanlı olarak üretildi (IDs 57-62).
+  - Bilgi Merkezi ana sayfaları (`/bilgi-merkezi` ve `/en/bilgi-merkezi`), üst bölümde bu 6 rehberi öne çıkaran estetik kart ızgarasıyla zenginleştirildi; `NewsIndex.astro` filtre çubuğuna otomatik kategori sekmesi bağlandı.
+  - 773 statik sayfa 0 hata ile derlendi, sitemap 771 URL ile yenilendi (`npm run check:links` OK).
+
 - **Telefon Mockup'larına Gerçek Instagram & YouTube Vektör Logoları ve Akış Fotoğrafları Entegre Edildi (Antigravity, 4 Ekim):**
   - Hero ve Canlı Demo telefonlarındaki "I" harfleri resmi Instagram kamera SVG glifleriyle; App Block (Gece) telefonundaki "Y" harfi ise resmi YouTube play SVG ikonuyla değiştirildi.
   - Gönderi alanlarındaki yapay CSS renk gradyanları yerine sitenin tasarım paletine uyumlu, yüksek kaliteli ve optimize hafif (WebP) 6 adet gerçekçi fotoğraf ve profil avatarları bağlandı.
@@ -56,12 +63,12 @@
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
-- Toplam üretilen sayfa sayısı: 707 statik sayfa, 0 hata, kırık iç bağlantı yok.
+- Toplam üretilen sayfa sayısı: 773 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Telefon mockup'larına resmi Instagram & YouTube vektör logoları, estetik akış fotoğrafları ve gerçekçi arayüz detayları entegre edildi.
+- **İşlem:** 'Ekran Süresi Kontrolü' (Screen Time Control) yeni kategorisi ve 6 derin uygulamalı rehber (IDs 57-62) 11 dilde eşzamanlı olarak eklendi, Bilgi Merkezi ızgarası güncellendi.
 - **Model:** Antigravity
-- **Doğrulama:** `npm run build` 707 sayfa / 0 hata, `npm run check:links` OK, browser visual inspection tamamlandı.
+- **Doğrulama:** `npm run sitemap` (771 URL), `npm run build` 773 sayfa / 0 hata, `npm run check:links` OK.
 - **Sonraki adım:** Deploy kontrolü ve yayınlama.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -71,13 +78,11 @@
 - Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (485 URL).
-- `npm run build` → 487 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (771 URL).
+- `npm run build` → 773 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu (485 URL).
-- `git push origin main` → senkronize.
-- `npm run deploy:vps` → `Yayin tamamlandi`, son sürüm `20261003-221728`.
-- `npm run check:live` → canlı site güncel (ID 36 canlıda HTTP 200, fiyat 0.49 USD, app-ads.txt OK).
+- Sitemap ↔ üretilen sayfalar tam uyumlu (771 URL).
+- `git push origin main` → senkronize edilecek.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:

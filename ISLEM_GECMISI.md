@@ -1,5 +1,33 @@
 # İşlem Geçmişi
 
+## [2026-10-04 15:30] - 'Ekran Süresi Kontrolü' Yeni Kategorisi ve 6 Kapsamlı Uygulamalı Çözüm Rehberi 11 Dilde Entegre Edildi
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (ID 57-62 TR)
+  - `[GÜNCELLENDİ]` `src/data/news-{en,es,fr,de,pt,it,ar,id,fil,th}.json` (ID 57-62 10 dilde)
+  - `[GÜNCELLENDİ]` `src/pages/bilgi-merkezi/index.astro`
+  - `[GÜNCELLENDİ]` `src/pages/en/bilgi-merkezi/index.astro`
+  - `[GÜNCELLENDİ]` `public/sitemap.xml`
+  - `[YENİ]` `scripts/add-screen-time-control-guides.mjs`
+* **Yapılan İşlem:**
+  1. Arama motorları ve yapay zekâ sorgu analizine dayanarak kullanıcıların en yoğun arattığı acı noktaları (Reels/kısa video bağımlılığı, sınav ve akademik odaklanma, çocukların tablet krizleri, gece intikam ertelemesi, yerleşik dijital dengenin iflası ve gerçekçi dopamin detoksu) için yeni "Ekran Süresi Kontrolü" (*Screen Time Control*) kategorisi açıldı.
+  2. Kullanıcı direktifi doğrultusunda yerel terimlerden (YKS/KPSS vb.) tamamen kaçınılarak global akademik ve profesyonel sınav ölçeği (üniversite finalleri, akademik çalışmalar, yeterlilik sınavları) benimsendi.
+  3. 6 adet derinlemesine, kanıta ve bilimsel araştırmalara (B.F. Skinner değişken oranlı pekiştirme, UT Austin Brain Drain, Dr. Anna Lembke Stanford dopamin araştırması, Roy Baumeister ego tükenmesi kuramı) dayanan uygulamalı çözüm rehberi yazıldı:
+     - ID 57: Instagram Reels ve Kısa Videoların Sonsuz Döngüsünü Kırmak (5 Davranışsal Adım)
+     - ID 58: Sınavlara ve Akademik Çalışmalara Odaklanırken Telefonu Bırakamayanlar İçin Tavizsiz Kılavuz
+     - ID 59: Çocuğum Tableti ve Telefonu Bırakmıyor: Ebeveynler İçin Çatışmasız ve Net Dijital Sınırlar
+     - ID 60: Gece Yatakta Telefon Kaydırma (İntikam Ertelemesi): Uykuyu Geri Kazanmanın Yolları
+     - ID 61: Dahili Dijital Denge Sınırları Neden İşe Yaramaz? Şifreyi Kendin Bildiğin Sistemin İflası
+     - ID 62: Gerçekçi Dopamin Detoksu: Akıllı Telefonu Çöpe Atmadan Beyninizi Sıfırlamak
+  4. Agresif reklam dilinden kaçınılarak arama ve yapay zekâ motorlarına doğrudan cevap veren, Limitra ekosistemini (Limitra Social / Limitra App Block) çözümün doğal ve friksiyonel parçası olarak konumlandıran tarafsız bir üslup kullanıldı.
+  5. 11 dilin tamamında (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı yerelleştirme sağlandı; `NewsIndex.astro` filtre çubuğuna dinamik olarak "Ekran Süresi Kontrolü" / "Screen Time Control" sekmesi eklendi.
+  6. Bilgi Merkezi ana sayfaları (`/bilgi-merkezi` ve `/en/bilgi-merkezi`), üst bölümde bu 6 uygulamalı rehberi öne çıkaran estetik kart ızgarasıyla zenginleştirildi; altta temel analizler korundu.
+  7. `sitemap.xml` 771 URL ile güncellendi.
+* **Doğrulama:** `npm run sitemap` (OK), `npm run build` (773 sayfa, 0 hata), `npm run check:links` ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** DEPLOY BEKLİYOR: (Cenuta VPS port 22 SSH bağlantı zaman aşımı - banner exchange timeout).
+* **Sonraki Öneri:** VPS SSH bağlantısı açıldığında `npm run deploy:vps` ile canlıya gönderilmeli.
+
 ## [2026-10-04 14:08] - Telefon Mockup'larına Gerçek Instagram & YouTube Vektör Logoları ve Akış Fotoğrafları Entegre Edildi
 
 * **Model:** Antigravity

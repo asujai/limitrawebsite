@@ -1,7 +1,52 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 
-const guides = [
+const actionGuides = [
+  {
+    slug: "instagram-reels-ve-kisa-videolarin-sonsuz-dongusunu-kirmak",
+    title: "Instagram Reels ve Kısa Videoların Sonsuz Döngüsünü Kırmak",
+    desc: "Değişken ödül mekanizması ve algoritmik dopamin döngüsü beyni neden saatlerce esir alır? Sonsuz kaydırmayı iradeye güvenmeden durdurmanın 5 somut adımı.",
+    tag: "Sosyal Medya & Dopamin",
+    readTime: "6 dk"
+  },
+  {
+    slug: "ders-calisirken-ve-sinavlara-hazirlanirken-telefona-bakmamak-icin-tavizsiz-rehber",
+    title: "Sınavlara ve Akademik Çalışmalara Odaklanırken Telefonu Bırakamayanlar İçin Tavizsiz Kılavuz",
+    desc: "Büyük sınavlara ve akademik projelere hazırlanırken yaşanan 'bilişsel sızıntı' (Brain Drain) ve iradeye ihtiyaç bırakmayan çalışma ortamı protokolleri.",
+    tag: "Akademik Başarı & Sınavlar",
+    readTime: "6 dk"
+  },
+  {
+    slug: "cocugum-tableti-ve-telefonu-birakmiyor-ebeveynler-icin-kavgasiz-ekran-siniri",
+    title: "Çocuğum Tableti ve Telefonu Bırakmıyor: Ebeveynler İçin Çatışmasız ve Net Dijital Sınırlar",
+    desc: "Ekran elinden alındığında yaşanan öfke nöbetlerinin nörobiyolojik sebebi (dopamin çöküşü) ve ebeveyni 'kötü polis' yapmadan kuralı sisteme devretmenin yolları.",
+    tag: "Ebeveyn Denetimi & Aile",
+    readTime: "6 dk"
+  },
+  {
+    slug: "gece-yatakta-telefon-kaydirma-ve-intikam-ertelemesi-uykuyu-geri-kazanmak",
+    title: "Gece Yatakta Telefon Kaydırma (İntikam Ertelemesi): Uykuyu Geri Kazanmanın Yolları",
+    desc: "Gündüz saatlerinde kendine vakit ayıramayan zihnin gece uykudan çalarak ekrana sığınması psikolojisi ve melatonin üretimini koruyan katı kapanış protokolleri.",
+    tag: "Uyku Sağlığı & Melatonin",
+    readTime: "6 dk"
+  },
+  {
+    slug: "dahili-dijital-denge-sinirlari-neden-ise-yaramaz-sifreyi-kendin-bildigin-sistemin-iflasi",
+    title: "Dahili Dijital Denge Sınırları Neden İşe Yaramaz? Şifreyi Kendin Bildiğin Sistemin İflası",
+    desc: "Akıllı telefonlardaki yerleşik ekran süresi sayaçlarının ve kolayca uzatılabilen kilitlerin irade psikolojisi karşısında neden çöktüğü ve sürdürülebilir disiplin.",
+    tag: "İrade & Davranışsal Sürtünme",
+    readTime: "6 dk"
+  },
+  {
+    slug: "gercekci-dopamin-detoksu-akilli-telefonu-atmadan-beyni-sifirlamak",
+    title: "Gerçekçi Dopamin Detoksu: Akıllı Telefonu Çöpe Atmadan Beyninizi Sıfırlamak",
+    desc: "Aşırı uçlardaki 'mağara hayatı' fantezileri yerine modern hayatın akışını bozmadan dikkat, motivasyon ve odaklanma yeteneğini geri kazandıran bilimsel protokol.",
+    tag: "Dopamin Detoksu & Zihin",
+    readTime: "6 dk"
+  }
+];
+
+const foundationalGuides = [
   {
     slug: "ekran-suresi",
     title: "Ekran Süresi Nedir ve Hayatımızı Nasıl Etkiler?",
@@ -42,36 +87,62 @@ const guides = [
 ---
 
 <Layout 
-  title="Dijital İyi Oluş Bilgi Merkezi" 
-  description="Ekran süresi, sosyal medya kullanımı, dikkat yönetimi, sirkadiyen ritim ve dijital disiplin üzerine bilimsel temelli pratik rehberler."
+  title="Ekran Süresi Kontrolü ve Dijital Denge Bilgi Merkezi | Limitra" 
+  description="Sonsuz kaydırmayı durdurmak, sınavlara odaklanmak, çocuklara çatışmasız sınırlar koymak ve uykuyu geri kazanmak için uygulamalı çözümler."
 >
   <section class="portal-page">
     <div class="container content-width">
       <header class="portal-header">
-        <span class="badge">Rehberler & Analizler</span>
-        <h1>Dijital İyi Oluş Bilgi Merkezi</h1>
+        <span class="badge">Ekran Süresi Kontrolü</span>
+        <h1>Ekran Süresi Kontrolü ve Dijital Denge Rehberleri</h1>
         <p class="subtitle">
-          Ekran başında geçirdiğimiz süreyi ve dijital alışkanlıklarımızın zihnimiz üzerindeki etkilerini daha iyi anlamak için bilimsel araştırmalardan derlenen sade ve güvenilir kaynaklar.
+          Sonsuz video akışlarını durdurmak, sınavlara ve akademik çalışmalara odaklanmak, çocuklara kavgasız sınırlar koymak ve uykunuzu geri kazanmak için davranışsal ve uygulanabilir rehberler.
         </p>
       </header>
 
-      <div class="guides-list">
-        {guides.map((guide) => (
-          <a href={`/bilgi-merkezi/${guide.slug}`} class="guide-row">
-            <div class="row-num">{guide.num}</div>
-            <div class="row-content">
+      <!-- Action Guides Grid -->
+      <section class="action-section">
+        <h2 class="section-title">Uygulamalı Çözüm Rehberleri</h2>
+        <p class="section-desc">En sık karşılaşılan dijital bağımlılık tuzaklarına karşı iradeye dayanmayan, kanıtlanmış pratik adımlar.</p>
+
+        <div class="action-grid">
+          {actionGuides.map((guide) => (
+            <a href={`/haberler/${guide.slug}`} class="action-card">
+              <div class="card-meta">
+                <span class="card-tag">{guide.tag}</span>
+                <span class="card-read">{guide.readTime} okuma</span>
+              </div>
               <h3>{guide.title}</h3>
               <p>{guide.desc}</p>
-            </div>
-            <div class="row-arrow">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </div>
-          </a>
-        ))}
-      </div>
+              <span class="read-link">Rehberi İncele →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- Foundational Guides List -->
+      <section class="foundational-section">
+        <h2 class="section-title">Temel Bilimsel Analizler</h2>
+        <p class="section-desc">Ekran maruziyetinin sosyolojik, biyolojik ve davranışsal temellerini inceleyen arka plan yazıları.</p>
+
+        <div class="guides-list">
+          {foundationalGuides.map((guide) => (
+            <a href={`/bilgi-merkezi/${guide.slug}`} class="guide-row">
+              <div class="row-num">{guide.num}</div>
+              <div class="row-content">
+                <h3>{guide.title}</h3>
+                <p>{guide.desc}</p>
+              </div>
+              <div class="row-arrow">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
     </div>
   </section>
 </Layout>
@@ -83,14 +154,115 @@ const guides = [
   }
 
   .portal-header {
-    margin-bottom: var(--space-16);
+    margin-bottom: var(--space-12);
   }
 
   .subtitle {
     font-size: 1.125rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    margin-top: var(--space-2);
+    margin-top: var(--space-3);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: var(--space-2);
+    color: var(--ink);
+  }
+
+  .section-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-6);
+  }
+
+  .action-section {
+    margin-bottom: var(--space-16);
+  }
+
+  .action-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .action-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-6);
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .action-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .action-card .card-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-3);
+    font-size: 0.8rem;
+  }
+
+  .card-tag {
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.72rem;
+  }
+
+  .card-read {
+    color: var(--text-muted);
+  }
+
+  .action-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: var(--space-2);
+    color: var(--ink);
+    transition: color 0.2s ease;
+  }
+
+  .action-card:hover h3 {
+    color: var(--accent);
+  }
+
+  .action-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: var(--space-4);
+    flex-grow: 1;
+  }
+
+  .action-card .read-link {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .action-card:hover .read-link {
+    text-decoration: underline;
+  }
+
+  .foundational-section {
+    padding-top: var(--space-8);
+    border-top: 2px solid var(--border-soft);
   }
 
   .guides-list {
@@ -156,6 +328,9 @@ const guides = [
   }
 
   @media (max-width: 600px) {
+    .action-grid {
+      grid-template-columns: 1fr;
+    }
     .guide-row {
       position: relative;
     }

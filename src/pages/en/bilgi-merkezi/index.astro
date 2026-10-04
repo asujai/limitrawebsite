@@ -1,7 +1,52 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 
-const guides = [
+const actionGuides = [
+  {
+    slug: "breaking-the-infinite-loop-of-reels-and-short-videos",
+    title: "Breaking the Infinite Loop of Reels and Short Videos: 5 Behavioral Steps",
+    desc: "Why does the variable reward mechanism and algorithmic dopamine loop capture the brain for hours? 5 practical ways to stop infinite scrolling without relying on willpower.",
+    tag: "Social Media & Dopamine",
+    readTime: "6 min"
+  },
+  {
+    slug: "how-to-stop-checking-phone-while-studying-for-exams",
+    title: "Uncompromising Guide for Students Who Cannot Put Down Their Phone While Studying",
+    desc: "The cognitive drain behind constant distractions while preparing for academic exams, university finals, and professional tests—and study environment protocols that eliminate willpower.",
+    tag: "Academic Focus & Exams",
+    readTime: "6 min"
+  },
+  {
+    slug: "child-wont-put-down-tablet-conflict-free-screen-limits-for-parents",
+    title: "My Child Won't Put Down the Tablet: Conflict-Free and Clear Digital Boundaries for Parents",
+    desc: "What is the neurobiological root cause of tantrums when screens are taken away? How parents can eliminate toxic power struggles by delegating boundaries to an objective system.",
+    tag: "Parental Controls & Family",
+    readTime: "6 min"
+  },
+  {
+    slug: "revenge-bedtime-procrastination-reclaiming-sleep-from-night-scrolling",
+    title: "Revenge Bedtime Procrastination: How to Reclaim Sleep from Late-Night Phone Scrolling",
+    desc: "The psychological drivers behind stealing hours from essential sleep when daytime is consumed by obligations—and strict shutdown protocols to protect natural melatonin production.",
+    tag: "Sleep Hygiene & Melatonin",
+    readTime: "6 min"
+  },
+  {
+    slug: "why-built-in-screen-time-limits-fail-fallacy-of-knowing-your-password",
+    title: "Why Built-in Digital Wellbeing Limits Fail: The Fallacy of Knowing Your Own Password",
+    desc: "Why native smartphone screen-time timers and easily dismissable limits collapse against human willpower—and the behavioral mechanics of sustainable digital discipline.",
+    tag: "Willpower & Behavioral Friction",
+    readTime: "6 min"
+  },
+  {
+    slug: "realistic-dopamine-detox-reset-your-brain-without-quitting-smartphones",
+    title: "A Realistic Dopamine Detox: Resetting Your Brain Without Throwing Away Your Smartphone",
+    desc: "Instead of extreme, unsustainable 'digital monk' fantasies, a science-backed dopamine regulation protocol to reclaim attention, deep focus, and natural motivation in daily life.",
+    tag: "Dopamine Detox & Focus",
+    readTime: "6 min"
+  }
+];
+
+const foundationalGuides = [
   {
     slug: "ekran-suresi",
     title: "What is Screen Time and How Does It Affect Us?",
@@ -42,36 +87,63 @@ const guides = [
 ---
 
 <Layout 
-  title="Digital Well-Being Knowledge Center" 
-  description="Science-backed practical guides on screen time, social media use, focus management, circadian rhythm, and digital discipline."
+  title="Screen Time Control & Digital Balance Knowledge Center | Limitra" 
+  description="Actionable, science-backed guides to break endless scrolling, achieve deep exam focus, set conflict-free boundaries for children, and reclaim sleep."
+  lang="en"
 >
   <section class="portal-page">
     <div class="container content-width">
       <header class="portal-header">
-        <span class="badge">Guides & Analyses</span>
-        <h1>Digital Well-Being Knowledge Center</h1>
+        <span class="badge">Screen Time Control</span>
+        <h1>Screen Time Control & Digital Balance Guides</h1>
         <p class="subtitle">
-          Simple and reliable resources compiled from scientific research to help you better understand the time spent on screens and the effects of digital habits on our minds.
+          Practical, behavioral guides designed to halt algorithmic short-video rabbit holes, secure uncompromising focus for academic studies and exams, establish peaceful limits for children, and reclaim restful sleep.
         </p>
       </header>
 
-      <div class="guides-list">
-        {guides.map((guide) => (
-          <a href={`/en/bilgi-merkezi/${guide.slug}`} class="guide-row">
-            <div class="row-num">{guide.num}</div>
-            <div class="row-content">
+      <!-- Action Guides Grid -->
+      <section class="action-section">
+        <h2 class="section-title">Practical Action Guides</h2>
+        <p class="section-desc">Proven behavioral strategies that eliminate reliance on fragile willpower against modern digital traps.</p>
+
+        <div class="action-grid">
+          {actionGuides.map((guide) => (
+            <a href={`/en/news/${guide.slug}`} class="action-card">
+              <div class="card-meta">
+                <span class="card-tag">{guide.tag}</span>
+                <span class="card-read">{guide.readTime} read</span>
+              </div>
               <h3>{guide.title}</h3>
               <p>{guide.desc}</p>
-            </div>
-            <div class="row-arrow">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </div>
-          </a>
-        ))}
-      </div>
+              <span class="read-link">Read Guide →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- Foundational Guides List -->
+      <section class="foundational-section">
+        <h2 class="section-title">Foundational Scientific Analyses</h2>
+        <p class="section-desc">In-depth background analyses exploring the sociological, biological, and behavioral mechanics of screen exposure.</p>
+
+        <div class="guides-list">
+          {foundationalGuides.map((guide) => (
+            <a href={`/en/bilgi-merkezi/${guide.slug}`} class="guide-row">
+              <div class="row-num">{guide.num}</div>
+              <div class="row-content">
+                <h3>{guide.title}</h3>
+                <p>{guide.desc}</p>
+              </div>
+              <div class="row-arrow">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
     </div>
   </section>
 </Layout>
@@ -83,14 +155,115 @@ const guides = [
   }
 
   .portal-header {
-    margin-bottom: var(--space-16);
+    margin-bottom: var(--space-12);
   }
 
   .subtitle {
     font-size: 1.125rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    margin-top: var(--space-2);
+    margin-top: var(--space-3);
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: var(--space-2);
+    color: var(--ink);
+  }
+
+  .section-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-6);
+  }
+
+  .action-section {
+    margin-bottom: var(--space-16);
+  }
+
+  .action-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .action-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-6);
+    background: var(--surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .action-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .action-card .card-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-3);
+    font-size: 0.8rem;
+  }
+
+  .card-tag {
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.72rem;
+  }
+
+  .card-read {
+    color: var(--text-muted);
+  }
+
+  .action-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: var(--space-2);
+    color: var(--ink);
+    transition: color 0.2s ease;
+  }
+
+  .action-card:hover h3 {
+    color: var(--accent);
+  }
+
+  .action-card p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: var(--space-4);
+    flex-grow: 1;
+  }
+
+  .action-card .read-link {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-top: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .action-card:hover .read-link {
+    text-decoration: underline;
+  }
+
+  .foundational-section {
+    padding-top: var(--space-8);
+    border-top: 2px solid var(--border-soft);
   }
 
   .guides-list {
@@ -106,8 +279,6 @@ const guides = [
     border-bottom: 1px solid var(--border-color);
     transition: all 0.2s ease;
     gap: var(--space-4);
-    text-decoration: none;
-    color: inherit;
   }
 
   .guide-row:hover {
@@ -142,7 +313,6 @@ const guides = [
     font-size: 1.25rem;
     font-weight: 600;
     transition: color 0.2s ease;
-    line-height: 1.3;
   }
 
   .row-content p {
@@ -158,12 +328,15 @@ const guides = [
     padding-top: 0.25rem;
   }
 
-  @media (max-width: 768px) {
-    .guide-row {
-      gap: var(--space-2);
+  @media (max-width: 600px) {
+    .action-grid {
+      grid-template-columns: 1fr;
     }
-    .row-num {
-      width: 1.8rem;
+    .guide-row {
+      position: relative;
+    }
+    .row-arrow {
+      display: none;
     }
   }
 </style>
