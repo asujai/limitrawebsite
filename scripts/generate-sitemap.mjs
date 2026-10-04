@@ -56,7 +56,23 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>${base}/ekran-suresi-kontrolu</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
 `;
+
+for (const item of haberlerTr.filter(i => parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76)) {
+  xml += `  <url>
+    <loc>${base}/ekran-suresi-kontrolu/${item.slug}</loc>
+    <lastmod>${item.date || today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+`;
+}
 
 for (const item of haberlerTr) {
   xml += `  <url>
@@ -143,7 +159,23 @@ xml += `  <url>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>${base}/en/screen-time-control</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
 `;
+
+for (const item of newsEn.filter(i => parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76)) {
+  xml += `  <url>
+    <loc>${base}/en/screen-time-control/${item.slug}</loc>
+    <lastmod>${item.date || today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+`;
+}
 
 for (const item of newsEn) {
   xml += `  <url>
@@ -244,7 +276,23 @@ for (const lang of otherLangs) {
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>${base}/${lang}/screen-time-control</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
 `;
+
+  for (const item of newsMap[lang].filter(i => parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76)) {
+    xml += `  <url>
+    <loc>${base}/${lang}/screen-time-control/${item.slug}</loc>
+    <lastmod>${item.date || today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+`;
+  }
 
   for (const item of newsMap[lang]) {
     xml += `  <url>

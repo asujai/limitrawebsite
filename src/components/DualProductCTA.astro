@@ -1,0 +1,418 @@
+---
+import { type SupportedLang } from '../data/translations';
+import { SOCIAL_STORE_URL, BLOCK_STORE_URL } from '../data/home';
+
+interface Props {
+  lang?: SupportedLang;
+}
+
+const { lang = 'tr' } = Astro.props;
+
+const copy: Record<string, {
+  kicker: string;
+  title: string;
+  desc: string;
+  social: { badge: string; title: string; desc: string; cta: string };
+  block: { badge: string; title: string; desc: string; cta: string };
+}> = {
+  tr: {
+    kicker: 'LİMİTRA DİJİTAL DİSİPLİN EKOSİSTEMİ',
+    title: 'Daha Sakin ve Odaklanmış Bir Hayat İçin Kendi Sınırınızı Çizin',
+    desc: 'Teknolojiye karşı iradenizi tek başınıza tüketmeyin. İhtiyacınıza uygun Limitra çözümünü seçin:',
+    social: {
+      badge: 'Ücretsiz • Sosyal Hesap Verebilirlik',
+      title: 'Limitra Social',
+      desc: 'Arkadaşınla ortak ekran kilitleri oluştur. Birlikte kaydırmayı durdurun, sosyal hesap verebilirlik ile iradenizi birleştirin.',
+      cta: 'Google Play’den Ücretsiz İndir'
+    },
+    block: {
+      badge: 'Tavizsiz • Çevrimdışı Disiplin',
+      title: 'Limitra App Block',
+      desc: 'Şifre bilme yanılgısı yok, süre uzatma tuzağı yok. Cihazınızda %100 yerel ve katı kural motoruyla kesin sınırlar çekin.',
+      cta: 'App Block’u Google Play’de Gör'
+    }
+  },
+  en: {
+    kicker: 'LIMITRA DIGITAL DISCIPLINE ECOSYSTEM',
+    title: 'Take Charge of Your Digital Boundaries Today',
+    desc: 'Do not fight addictive algorithms with willpower alone. Choose the Limitra tool tailored to your focus style:',
+    social: {
+      badge: 'Free • Mutual Accountability',
+      title: 'Limitra Social',
+      desc: 'Create shared focus locks with a study partner. Stop mindless scrolling together through mutual accountability.',
+      cta: 'Download Free on Google Play'
+    },
+    block: {
+      badge: 'Uncompromising • Offline Privacy',
+      title: 'Limitra App Block',
+      desc: 'No passwords to bypass, no emergency snoozes. A strict on-device rule engine that locks apps until midnight.',
+      cta: 'View App Block on Google Play'
+    }
+  },
+  es: {
+    kicker: 'ECOSISTEMA DE DISCIPLINA DIGITAL LIMITRA',
+    title: 'Tome el control de sus límites digitales hoy mismo',
+    desc: 'No luche contra los algoritmos adictivos solo con fuerza de voluntad. Elija la herramienta Limitra adecuada:',
+    social: {
+      badge: 'Gratis • Responsabilidad Mutua',
+      title: 'Limitra Social',
+      desc: 'Cree bloqueos de concentración compartidos con un amigo. Detengan el scroll infinito juntos.',
+      cta: 'Descargar gratis en Google Play'
+    },
+    block: {
+      badge: 'Sin concesiones • Privacidad local',
+      title: 'Limitra App Block',
+      desc: 'Sin contraseñas que burlar ni prórrogas. Un motor estricto en el dispositivo que bloquea apps sin excusas.',
+      cta: 'Ver en Google Play'
+    }
+  },
+  fr: {
+    kicker: 'ÉCOSYSTÈME DE DISCIPLINE NUMÉRIQUE LIMITRA',
+    title: 'Prenez le contrôle de vos limites numériques aujourd’hui',
+    desc: 'Ne luttez pas contre les algorithmes addictifs avec votre seule volonté. Choisissez l’outil Limitra adapté :',
+    social: {
+      badge: 'Gratuit • Responsabilité partagée',
+      title: 'Limitra Social',
+      desc: 'Créez des verrous de concentration partagés avec un proche. Arrêtez le défilement infini ensemble.',
+      cta: 'Télécharger gratuitement sur Google Play'
+    },
+    block: {
+      badge: 'Intransigeant • Hors ligne & Privé',
+      title: 'Limitra App Block',
+      desc: 'Pas de mot de passe à contourner, pas de report. Un moteur de règles strict 100% sur l’appareil.',
+      cta: 'Voir sur Google Play'
+    }
+  },
+  de: {
+    kicker: 'LIMITRA DIGITALES DISZIPLIN-ÖKOSYSTEM',
+    title: 'Setzen Sie noch heute Ihre eigenen digitalen Grenzen',
+    desc: 'Kämpfen Sie nicht mit reiner Willenskraft gegen Algorithmen. Wählen Sie das passende Limitra-Werkzeug:',
+    social: {
+      badge: 'Kostenlos • Gegenseitige Verantwortung',
+      title: 'Limitra Social',
+      desc: 'Erstellen Sie gemeinsame Fokus-Sperren mit Freunden. Beenden Sie endloses Scrollen gemeinsam.',
+      cta: 'Kostenlos bei Google Play'
+    },
+    block: {
+      badge: 'Kompromisslos • Offline & Privat',
+      title: 'Limitra App Block',
+      desc: 'Keine Passwörter zum Umgehen, keine Verlängerungen. Eine strikte lokale Regel-Engine für Android.',
+      cta: 'Bei Google Play ansehen'
+    }
+  },
+  pt: {
+    kicker: 'ECOSSISTEMA DE DISCIPLINA DIGITAL LIMITRA',
+    title: 'Assuma o controle dos seus limites digitais hoje',
+    desc: 'Não lute contra algoritmos viciantes apenas com força de vontade. Escolha a ferramenta Limitra ideal:',
+    social: {
+      badge: 'Grátis • Responsabilidade Mútua',
+      title: 'Limitra Social',
+      desc: 'Crie bloqueios de foco compartilhados com amigos. Parem o scroll infinito juntos.',
+      cta: 'Baixar grátis no Google Play'
+    },
+    block: {
+      badge: 'Sem concessões • 100% Local',
+      title: 'Limitra App Block',
+      desc: 'Sem senhas para burlar, sem extensões de tempo. Motor rigoroso no dispositivo para bloquear distrações.',
+      cta: 'Ver no Google Play'
+    }
+  },
+  it: {
+    kicker: 'ECOSISTEMA DI DISCIPLINA DIGITALE LIMITRA',
+    title: 'Stabilisci oggi stesso i tuoi limiti digitali',
+    desc: 'Non combattere gli algoritmi solo con la forza di volontà. Scegli lo strumento Limitra più adatto a te:',
+    social: {
+      badge: 'Gratuito • Responsabilità Condivisa',
+      title: 'Limitra Social',
+      desc: 'Crea blocchi di concentrazione condivisi con un amico. Interrompete lo scrolling compulsivo insieme.',
+      cta: 'Scarica gratis su Google Play'
+    },
+    block: {
+      badge: 'Inflessibile • Locale & Sicuro',
+      title: 'Limitra App Block',
+      desc: 'Nessuna password da aggirare, nessuna proroga. Un motore di regole ferree direttamente sul dispositivo.',
+      cta: 'Vedi su Google Play'
+    }
+  },
+  ar: {
+    kicker: 'منظومة ليميترا للانضباط الرقمي',
+    title: 'ارسم حدودك الرقمية بنفسك اليوم لحياة أكثر هدوءاً',
+    desc: 'لا تقاوم الخوارزميات بقوة الإرادة وحدها. اختر الأداة المناسبة لأسلوب تركيزك:',
+    social: {
+      badge: 'مجاني • مسؤولية مشتركة',
+      title: 'Limitra Social',
+      desc: 'أنشئ أقفال تركيز مشتركة مع صديق للدراسة. أوقفوا التمرير اللانهائي معاً عبر الالتزام المتبادل.',
+      cta: 'تحميل مجاني من Google Play'
+    },
+    block: {
+      badge: 'صارم • خصوصية تامة بدون إنترنت',
+      title: 'Limitra App Block',
+      desc: 'بدون كلمات سر يمكن تجاوزها، وبدون تمديد للوقت. محرك قواعد صارم على جهازك لقفل التطبيقات فوراً.',
+      cta: 'عرض في Google Play'
+    }
+  },
+  id: {
+    kicker: 'EKOSISTEM DISIPLIN DIGITAL LIMITRA',
+    title: 'Ambil Kendali Batasan Digital Anda Hari Ini',
+    desc: 'Jangan melawan algoritma adiktif hanya dengan kemauan keras. Pilih alat Limitra yang sesuai kebutuhan Anda:',
+    social: {
+      badge: 'Gratis • Akuntabilitas Bersama',
+      title: 'Limitra Social',
+      desc: 'Buat kunci fokus bersama teman belajar. Hentikan scrolling tanpa henti bersama-sama.',
+      cta: 'Unduh Gratis di Google Play'
+    },
+    block: {
+      badge: 'Tegas • Privasi Offline',
+      title: 'Limitra App Block',
+      desc: 'Tanpa sandi yang bisa diakali, tanpa tombol tunda. Mesin aturan ketat di perangkat untuk memblokir distraksi.',
+      cta: 'Lihat di Google Play'
+    }
+  },
+  fil: {
+    kicker: 'LIMITRA DIGITAL DISCIPLINE ECOSYSTEM',
+    title: 'Pamahalaan ang Iyong Mga Hangganan sa Screen Ngayon',
+    desc: 'Huwag labanan ang mga addictive algorithm gamit lang ang willpower. Piliin ang Limitra tool para sa iyo:',
+    social: {
+      badge: 'Libre • Mutual Accountability',
+      title: 'Limitra Social',
+      desc: 'Gumawa ng shared focus locks kasama ang kaibigan. Itigil ang walang humpay na pag-scroll nang magkasama.',
+      cta: 'I-download nang Libre sa Google Play'
+    },
+    block: {
+      badge: 'Walang Kompromiso • Offline Privacy',
+      title: 'Limitra App Block',
+      desc: 'Walang password na pwedeng lusutan, walang snooze. Mahigpit na on-device rules engine para sa Android.',
+      cta: 'Tingnan sa Google Play'
+    }
+  },
+  th: {
+    kicker: 'ระบบนิเวศวินัยดิจิทัล LIMITRA',
+    title: 'กำหนดขอบเขตดิจิทัลของคุณตั้งแต่วันนี้เพื่อชีวิตที่สงบสุข',
+    desc: 'อย่าต่อสู้กับอัลกอริทึมที่เสพติดด้วยพลังใจเพียงลำพัง เลือกเครื่องมือ Limitra ที่เหมาะกับคุณ:',
+    social: {
+      badge: 'ฟรี • วินัยร่วมกับเพื่อน',
+      title: 'Limitra Social',
+      desc: 'สร้างการล็อกโฟกัสร่วมกับเพื่อนเพื่อรับผิดชอบต่อกัน หยุดการเลื่อนดูอย่างไร้จุดหมายไปด้วยกัน',
+      cta: 'ดาวน์โหลดฟรีบน Google Play'
+    },
+    block: {
+      badge: 'เด็ดขาด • ความเป็นส่วนตัวออฟไลน์',
+      title: 'Limitra App Block',
+      desc: 'ไม่มีรหัสผ่านให้หลีกเลี่ยง ไม่มีการต่อเวลา ระบบกฎเกณฑ์ที่เข้มงวดบนอุปกรณ์เพื่อตัดสิ่งรบกวน',
+      cta: 'ดูบน Google Play'
+    }
+  }
+};
+
+const c = copy[lang] || copy.en;
+---
+
+<div class="dual-cta-container">
+  <div class="dual-cta-card">
+    <div class="cta-header">
+      <span class="cta-kicker">{c.kicker}</span>
+      <h2>{c.title}</h2>
+      <p class="cta-subtitle">{c.desc}</p>
+    </div>
+
+    <div class="cta-grid">
+      <!-- Product 1: Limitra Social -->
+      <div class="product-box social-box">
+        <div class="box-top">
+          <span class="product-badge social-badge">{c.social.badge}</span>
+          <h3>{c.social.title}</h3>
+          <p class="product-desc">{c.social.desc}</p>
+        </div>
+        <div class="box-bottom">
+          <a href={SOCIAL_STORE_URL} target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+            <svg class="play-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+              <path d="M6 3.8v16.4c0 .8.9 1.3 1.6.9l13-8.2c.6-.4.6-1.4 0-1.8l-13-8.2C6.9 2.5 6 3 6 3.8Z" />
+            </svg>
+            <span>{c.social.cta}</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 2: Limitra App Block -->
+      <div class="product-box block-box">
+        <div class="box-top">
+          <span class="product-badge block-badge">{c.block.badge}</span>
+          <h3>{c.block.title}</h3>
+          <p class="product-desc">{c.block.desc}</p>
+        </div>
+        <div class="box-bottom">
+          <a href={BLOCK_STORE_URL} target="_blank" rel="noopener noreferrer" class="btn btn-gold-outline btn-full">
+            <span>{c.block.cta} ↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .dual-cta-container {
+    width: 100%;
+    margin-top: var(--space-12);
+  }
+
+  .dual-cta-card {
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, #eef3ff 0%, #f7f9fd 100%);
+    border: 1px solid var(--accent-border);
+    padding: clamp(2rem, 4vw, 3.25rem);
+    box-shadow: 0 4px 20px rgba(45, 91, 227, 0.04);
+  }
+
+  .cta-header {
+    text-align: center;
+    max-width: 44rem;
+    margin: 0 auto 2.25rem;
+  }
+
+  .cta-kicker {
+    display: inline-block;
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+  }
+
+  .cta-header h2 {
+    margin: 0 0 0.8rem 0;
+    font-size: clamp(1.5rem, 2.5vw, 2.1rem);
+    color: var(--ink);
+    line-height: 1.25;
+  }
+
+  .cta-subtitle {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .cta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 58rem;
+    margin: 0 auto;
+  }
+
+  .product-box {
+    background: #ffffff;
+    border: 1px solid rgba(45, 91, 227, 0.12);
+    border-radius: var(--radius-md);
+    padding: 1.85rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 4px 12px rgba(14, 23, 38, 0.03);
+  }
+
+  .product-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(45, 91, 227, 0.08);
+    border-color: var(--accent);
+  }
+
+  .product-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 0.25rem 0.65rem;
+    border-radius: var(--radius-full);
+    margin-bottom: 0.85rem;
+  }
+
+  .social-badge {
+    background: #eef3ff;
+    color: var(--accent);
+  }
+
+  .block-badge {
+    background: #fbf6ec;
+    color: #b38228;
+  }
+
+  .product-box h3 {
+    margin: 0 0 0.6rem 0;
+    font-size: 1.35rem;
+    color: var(--ink);
+  }
+
+  .product-desc {
+    margin: 0 0 1.5rem 0;
+    color: var(--text-secondary);
+    font-size: 0.94rem;
+    line-height: 1.55;
+  }
+
+  .box-bottom {
+    margin-top: auto;
+  }
+
+  .btn-full {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.85rem 1.25rem;
+    font-size: 0.94rem;
+  }
+
+  .btn-primary {
+    background: var(--accent);
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 4px 12px rgba(45, 91, 227, 0.24);
+    transition: background-color 0.2s, transform 0.2s;
+  }
+
+  .btn-primary:hover {
+    background: var(--accent-deep);
+    transform: translateY(-1px);
+  }
+
+  .btn-gold-outline {
+    background: #ffffff;
+    color: var(--ink);
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    text-decoration: none;
+    border: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+  }
+
+  .btn-gold-outline:hover {
+    background: #f7f9fd;
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-1px);
+  }
+
+  .play-icon {
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 768px) {
+    .cta-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .dual-cta-card {
+      padding: 1.5rem;
+    }
+  }
+</style>

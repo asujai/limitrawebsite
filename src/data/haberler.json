@@ -1,5 +1,415 @@
 [
   {
+    "id": "76",
+    "slug": "iradeni-zorlamadan-ekran-suresini-azaltmak-davranissal-surtunme-yasasi",
+    "title": "İradeni Zorlamadan Ekran Süresini Azaltmak: Davranışsal Sürtünme (Friction) Yasası",
+    "summary": "İnsan iradesine güvenmek neden her seferinde başarısızlıkla sonuçlanır? BJ Fogg davranış modeli ve sürtünme mimarisiyle ekrandan kurtulmanın bilimsel yolları.",
+    "content": [
+      "Pek çok insan ekran süresini azaltmayı bir 'irade savaşı' olarak görür: 'Bu sefer söz veriyorum, telefonuma bakmayacağım.' Ancak birkaç gün sonra, yorgun ve stresli bir anında kendini yine aynı sonsuz akışın içinde kaybolmuş bulur. Kendini suçlar, iradesiz olduğunu düşünür ve pes eder. Oysa sorun irade eksikliği değil, insan davranışının temel biyolojik prensiplerini yanlış anlamaktır.",
+      "Stanford Üniversitesi Davranış Tasarımı Laboratuvarı kurucusu Dr. BJ Fogg'un davranış modeline göre (B = MAP), bir eylemin gerçekleşmesi için üç unsurun aynı anda bir araya gelmesi gerekir: Motivasyon (Motivation), Yetenek/Kolaylık (Ability) ve Tetikleyici (Prompt). Bir eylem ne kadar kolaysa (yani önündeki fiziksel ve zihinsel 'sürtünme' ne kadar azsa), motivasyonunuz yerlerde sürünse dahi o eylemi yaparsınız. Akıllı telefon uygulamaları önlerindeki tüm sürtünmeleri sıfırlayarak (tek dokunuşla açılma, yüz tanıma, sonsuz kaydırma) iradenizi tamamen devre dışı bırakacak şekilde tasarlanmıştır.",
+      "James Clear'ın 'Atomik Alışkanlıklar' kitabında formüle ettiği gibi: Kötü bir alışkanlığı kırmak istiyorsanız, onu 'zorlaştırın' (sürtünmeyi artırın). Bir eyleme ulaşmak için gereken adım sayısı ve geçen süre arttıkça, beynin dürtüsel karar mekanizması duraksar ve mantıklı düşünen prefrontal korteks devreye girer. Sürtünme, iradeye ihtiyaç duymadan kötü alışkanlığı boğan en güçlü silahtır.",
+      "Birinci Adım: Fiziksel Sürtünme Eklemek. Telefonunuzu çalışma masanızda değil, başka bir odada, bir çekmecenin içinde veya yüksek bir rafta tutun. Telefona ulaşmak için ayağa kalkıp 15 adım atmak ve 20 saniye harcamak zorunda kaldığınızda, beynin anlık dürtüsü yüzde 70 oranında söner.",
+      "İkinci Adım: Dijital ve Sistemsel Sürtünme Kurmak. Sosyal medya uygulamalarından çıkış yapın ve şifreleri tarayıcıda otomatik doldurmayı kapatın. Her girişte karmaşık bir şifre girmek zorunda kalmak devasa bir sürtünmedir. Daha da etkilisi; günlük limit dolduğunda kendinize 'biraz daha süre' seçeneği tanımayan, tavizsiz kilit mekanizmaları kullanmaktır.",
+      "Üçüncü Adım: Sosyal Sürtünme (Hesap Verebilirlik). Bir davranışı tek başınıza yapmak ile bir başkasının denetiminde yapmak arasında uçurum vardır. Ortak bir kilit ekranı paylaşmak, kuralı bozduğunuzda bir arkadaşınıza karşı yaşayacağınız mahcubiyet gibi güçlü bir sosyal sürtünme oluşturur.",
+      "İradenizle teknoloji devlerinin algoritmalarına karşı tek başınıza savaşamazsınız. Limitra ekosistemi, sürtünme yasasını sizin lehinize işletir: Limitra App Block ile tavizsiz aşılmaz kalkanlar kurabilir, Limitra Social ile arkadaşınızla hesap verebilirlik duvarı örerek irade harcamadan özgürleşebilirsiniz."
+    ],
+    "source": "Stanford Davranış Tasarımı & BJ Fogg Modeli",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Davranışsal Sürtünme",
+      "BJ Fogg",
+      "İrade Psikolojisi",
+      "Ekran Süresi Kontrolü",
+      "Atomik Alışkanlıklar",
+      "Alışkanlık Değişimi"
+    ]
+  },
+  {
+    "id": "75",
+    "slug": "dumbphone-aptal-telefon-akimi-tuslu-telefona-gecenler-ne-yasiyor",
+    "title": "'Dumbphone' (Aptal Telefon) Akımı: Akıllı Telefondan Tuşlu Telefona Geçenler Ne Yaşıyor?",
+    "summary": "Dünya genelinde Z kuşağı ve profesyoneller arasında hızla yayılan minimalist tuşlu telefon devrimi neyi amaçlıyor? Akıllı telefonu çöpe atmadan aynı sadeliğe ulaşmanın yolları.",
+    "content": [
+      "Son yıllarda Kuzey Amerika ve Avrupa'da beklenmedik bir trend patlak verdi: Binlerce üniversite öğrencisi, yazılımcı, avukat ve sanatçı son model bin dolarlık akıllı telefonlarını çekmecelere kilitleyip sadece arama ve SMS yapabilen eski nesil tuşlu telefonlara (Dumbphone) geçiyor. Light Phone ve Punkt gibi minimalist cihazların satışları her yıl ikiye katlanıyor. İnsanlar ceplerinde taşıdıkları sınırsız internet bağlantısının kendilerini özgürleştirmek yerine esir aldığını fark ediyor.",
+      "Tuşlu telefona geçen kullanıcıların bildirdiği ilk ve en çarpıcı deneyim: 'Zamanın aniden yavaşlaması ve zihinsel dinginlik'. Gün içinde sürekli kontrol edilmesi gereken bildirimler, haber akışları ve beğeni sayıları ortadan kalktığında; beyin ilk 3-4 gün yoğun bir yoksunluk (huzursuzluk ve parmakların refleks olarak telefona gitmesi) yaşasa da birinci haftanın sonunda derin bir odaklanma ve sakinlik dalgası başlar.",
+      "Ancak modern hayatın gerçekleri tuşlu telefon kullanımını herkes için sürdürülebilir kılmaz. Bankacılık işlemleri, navigasyon, taksi çağırma, iki adımlı güvenlik doğrulamaları ve iş için gereken anlık mesajlaşma araçları akıllı telefonları vazgeçilmez bir altyapı haline getirmiştir. Akıllı telefonu tamamen hayatından çıkaran bir insan, modern dünyada ciddi pratik zorluklarla karşılaşabilir.",
+      "Akıllı Bir Telefonu 'Aptal Telefona' Dönüştürmenin Yolları: Radikal bir şekilde tuşlu telefona geçmek zorunda değilsiniz; akıllı telefonunuzun akıllılığını sizin lehinize törpüleyebilirsiniz. Telefonunuzdaki tüm tarayıcıları, sonsuz kaydırmalı akışları ve oyunları kaldırıp yalnızca araç niteliğindeki uygulamaları (Haritalar, Bankacılık, Taksi, Arama) bırakarak cihazı minimalist bir fonksiyona indirebilirsiniz.",
+      "İkinci Kritik Adım: Eğlence Uygulamalarına Katı Sınır Çekmek. Eğer sosyal medyayı tamamen silemiyorsanız, belirli saatler dışında veya günlük 20 dakikalık kota dolduğunda uygulamayı gece yarısına kadar tamamen erişilemez kılan sistemler kurmalısınız.",
+      "Amaç teknolojiden kaçıp mağaraya sığınmak değil; teknolojiyi efendi değil hizmetkâr kılmaktır. Limitra ekosistemi, telefonunuzun sunduğu faydalı imkanları korurken, dikkat dağıtan tuzakları tavizsiz kilitlerle devre dışı bırakarak cebinizde minimalist bir huzur yaratmanıza imkan tanır."
+    ],
+    "source": "Dijital Minimalizm & Tüketici Trendleri",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Dumbphone",
+      "Dijital Minimalizm",
+      "Tuşlu Telefon",
+      "Ekran Süresi Kontrolü",
+      "Zihinsel Dinginlik",
+      "Minimalist Yaşam"
+    ]
+  },
+  {
+    "id": "74",
+    "slug": "dijital-demans-ve-hafiza-zayiflamasi-ekrani-kaydetmenin-beyne-etkisi",
+    "title": "Dijital Demans ve Hafıza Zayıflaması: Bilgiyi Hatırlamak Yerine Ekranı Kaydetmenin Beyne Etkisi",
+    "summary": "Alman nörobilimci Dr. Manfred Spitzer'in kavramsallaştırdığı dijital demans nedir? Akıllı telefonlara hafıza devretmenin beynin nöroplastisitesi üzerindeki derin etkileri.",
+    "content": [
+      "En yakın arkadaşınızın veya eşinizin telefon numarasını ezbere biliyor musunuz? Ya da dün internette okuduğunuz ilginç bir makalenin ana fikrini kendi cümlelerinizle özetleyebilir misiniz? Çoğu insan için cevap ne yazık ki hayırdır. Günümüzde bir bilgiyi öğrenmek yerine ekran görüntüsü alıyor, bir yeri bulmak yerine harita uygulamasına güveniyor ve en basit hesaplamaları bile telefonumuza yaptırıyoruz.",
+      "Alman nörobilimci ve psikiyatrist Dr. Manfred Spitzer tarafından tıp literatürüne kazandırılan 'Dijital Demans' (Digital Dementia) kavramı; akıllı cihazlara aşırı zihinsel bağımlılığın sonucunda genç ve orta yaşlı bireylerde ortaya çıkan dikkat, konsantrasyon, hafıza ve yön bulma becerilerindeki erken bilişsel gerilemeyi tanımlar. Beyin, kullanılmayan kaslar gibi 'kullan ya da kaybet' (use it or lose it) nöroplastisite kuralıyla çalışır.",
+      "Bilişsel Dışsallaştırma (Cognitive Offloading) Tuzağı: İnsan beyni bilgiyi hatırlamak için çaba sarf ettiğinde sinapslar güçlenir ve hipokampus yeni nöral yollar örer. Ancak 'Nasılsa telefonda var, tıklar bakarım' düşüncesiyle bilgiyi ekrana devrettiğimizde, beyin derin işleme (deep processing) aşamasını atlar. Sonuç: Yüzeysel bir bilgi illüzyonu ve giderek körelen bir çalışma belleği.",
+      "Hafızayı ve Zihinsel Kapasiteyi Koruma Protokolü:",
+      "1. Aktif Hatırlama Egzersizleri: Aklınıza takılan bir bilgiyi veya ismi hemen telefonunuza sormayın. En az 2-3 dakika boyunca hafızanızı zorlayarak o bilgiyi zihninizin derinliklerinden çekip çıkarmaya çalışın.",
+      "2. Analog Not Tutma Alışkanlığı: Toplantılarda, derslerde veya önemli okumalarda ekran yerine kağıt ve kalem kullanın. El yazısıyla not almak, beynin bilgiyi filtrelemesini ve sentezlemesini zorunlu kılarak derin hafızaya kaydeder.",
+      "3. Ekran Bağımlılığını Azaltarak Hipokampusu Korumak: Günlük ekran süresini mekanik olarak sınırlamak, beynin serbest düşünme ve anıları pekiştirme süreçlerine nefes aldırır.",
+      "Teknoloji hafızanızın yerine geçmemeli, onu desteklemelidir. Limitra App Block ve Limitra Social'ın sunduğu tavizsiz sınırlar, beyninizi sürekli pasif alıcı konumundan çıkararak gerçek bilişsel gücünü geri kazanması için koruma alanı sağlar."
+    ],
+    "source": "Nörobilim & Dr. Manfred Spitzer Dijital Demans Raporu",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Dijital Demans",
+      "Hafıza Zayıflaması",
+      "Manfred Spitzer",
+      "Bilişsel Sağlık",
+      "Ekran Süresi Kontrolü",
+      "Nöroplastisite"
+    ]
+  },
+  {
+    "id": "73",
+    "slug": "iliskilerde-phubbing-birlikteyken-telefona-bakma-hastaligi-ve-cozumu",
+    "title": "Partnerle veya Arkadaşlar Arasında 'Phubbing': Birlikteyken Sürekli Telefona Bakma Hastalığı",
+    "summary": "Sevdiklerinizle otururken telefonu elden düşürememenin ilişkilerde yarattığı görünmez tahribat: Mikro-reddedilme psikolojisi ve yüz yüze varlığı koruma rehberi.",
+    "content": [
+      "Bir kafede masada oturan iki sevgiliye veya bir aile yemeğine bakın: Karşı karşıya oturmaktadırlar ancak gözleri birbirine değil, avuçlarının içindeki parlak dikdörtgen ekrana kilitlenmiştir. Karşı taraf bir şey anlatırken diğeri başını kaldırmadan 'Hı hı, dinliyorum seni' der ve kaydırmaya devam eder. Bu durum o kadar yaygınlaşmıştır ki modern sosyolojide 'Phone' (Telefon) ve 'Snubbing' (Görmezden gelme, tersleme) kelimelerinden türetilen 'Phubbing' adını almıştır.",
+      "Phubbing'in Nöropsikolojik Yıkımı: İnsan yüzü ve göz teması, evrimsel olarak güven, yakınlık ve duygusal bağ kurmanın temel mekanizmasıdır. Konuştuğunuz insan gözlerini sizden ayırıp telefonuna baktığında, beyninizin sosyal acı merkezi (anterior singulat korteks) hafif bir fiziksel darbe almış gibi uyarılır. Bu duruma 'mikro-reddedilme' denir. Karşı taraf bilinçli olarak hakaret etmese de bilinçaltınız şu mesajı alır: 'Şu an o ekrandaki yabancıların paylaşımları senin varlığından daha değerli.'",
+      "Araştırmalar, kronik phubbing'e maruz kalan çiftlerde ilişki doyumunun yüzde 40 oranında düştüğünü, depresyon ve yalnızlık hissinin katlanarak arttığını göstermektedir. Telefona bakmak sadece bir dikkat dağınıklığı değil, karşımızdaki insanın varlığını yok saymaktır.",
+      "İlişkileri Kurtarmak İçin Somut Dijital Protokoller:",
+      "1. 'Ters Yüz' Kuralı: Biriyle sohbet ederken, yemek yerken veya kahve içerken telefon asla masada görünür vaziyette durmamalıdır. Ekrana ters çevrilse bile masada duran bir telefon zihinsel olarak 'bölünmüş dikkat' yaratır. Telefonu cebinizde veya çantanızda tutun.",
+      "2. Akşam 'Ekransız Birliktelik' Saati: Evde her akşam en az 45 dakikalık ekransız bir sohbet veya ortak aktivite saati ilan edin.",
+      "3. Masada Telefon Yığını Oyunu: Arkadaş ortamlarında herkes telefonunu üst üste masanın ortasına koyar; ilk elini uzatan masanın hesabını öder.",
+      "Gerçek yakınlık, fiziksel olarak aynı odada bulunmak değil; zihinsel olarak bütünüyle orada olabilmektir. Limitra ekosistemi, sosyal anlarda telefonunuza katı kilitler koyarak sevdiklerinizle geçirdiğiniz anların bölünmesini kesin olarak engeller."
+    ],
+    "source": "İlişki Psikolojisi & Sosyolojik İletişim Araştırmaları",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Phubbing",
+      "İlişki İletişimi",
+      "Ekran Süresi Kontrolü",
+      "Bölünmüş Dikkat",
+      "Göz Teması",
+      "Sosyal Bağlar"
+    ]
+  },
+  {
+    "id": "72",
+    "slug": "sosyal-medyayi-gunde-30-dakikaya-indirmenin-ruh-sagligina-etkisi-upenn",
+    "title": "Sosyal Medya Kullanımını Günde 30 Dakikaya İndirmenin Ruh Sağlığına Etkisi (UPenn Araştırması)",
+    "summary": "Pennsylvania Üniversitesi'nin dönüm noktası niteliğindeki klinik deneyinin gösterdikleri: Günlük sosyal medya süresini 30 dakikayla sınırlandırmak kaygı ve depresyonu nasıl geriletiyor?",
+    "content": [
+      "Sosyal medyanın ruh sağlığını bozduğu yıllardır tartışılan bir konudur; ancak bu etkinin korelasyon mu yoksa doğrudan sebep-sonuç ilişkisi mi olduğu uzun süre kanıtlanamamıştı. Ta ki Pennsylvania Üniversitesi'nden Dr. Melissa G. Hunt ve ekibi prestijli 'Journal of Social and Clinical Psychology' dergisinde çığır açan deneysel araştırmalarını yayımlayana kadar.",
+      "Klinik Deneyin Tasarımı: Araştırmacılar yüzlerce katılımcıyı iki gruba ayırdı. Kontrol grubu sosyal medyayı (Instagram, Facebook, Snapchat) her zamanki gibi sınırsızca kullanmaya devam etti. Deney grubuna ise katı bir kural konuldu: Her platform için günlük 10 dakika, yani toplamda günde sadece 30 dakika kullanım kotası.",
+      "Sonuçlar Şaşırtıcı Derecede Net Çıktı: Sadece üç haftanın sonunda, kullanımını günlük 30 dakikayla sınırlayan deney grubunda yalnızlık hissi, kaygı seviyeleri ve klinik depresyon skorlarında istatistiksel olarak muazzam bir düşüş kaydedildi. En dramatik iyileşme ise 'Gelişmeleri Kaçırma Korkusu'nda (FOMO) görüldü.",
+      "Neden 30 Dakika? Beyin sosyal medyada ne kadar uzun süre kalırsa, başkalarının filtrelenmiş 'en mükemmel anları' ile kendi sıradan hayatı arasında o kadar çok haksız sosyal karşılaştırma yapar. Bu karşılaştırma bilinçaltında yetersizlik, kıskançlık ve kronik bir tatminsizlik üretir. Kullanım 30 dakikayla sınırlandığında, kişi sosyal medyayı bir kaçış ve bağımlılık aracı olarak değil, sadece pratik bir iletişim kanalı olarak kullanmaya başlar.",
+      "Bu Dengeyi Hayata Geçirmek İçin Somut Adım: Sosyal medya şirketlerinin yerleşik uyarı sayaçları 'biraz daha süre' seçeneği sunduğu için bu 30 dakikalık sınırı korumak imkansızdır. Kullanıcının günlük 30 dakika dolduğunda tavizsiz kapanan ve gece yarısına kadar açılmayan katı kural motorlarına ihtiyacı vardır.",
+      "Kendi ruh sağlığınızı algoritmaların insafına bırakmayın. Limitra App Block'un katı kota sistemiyle günlük toplam sürenizi 30 dakikaya kilitleyerek UPenn araştırmasında kanıtlanan zihinsel ferahlığı kendi hayatınızda deneyimleyebilirsiniz."
+    ],
+    "source": "Pennsylvania Üniversitesi (UPenn) & Klinik Psikoloji Dergisi",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "UPenn Araştırması",
+      "Sosyal Medya ve Depresyon",
+      "Ekran Süresi Sınırı",
+      "FOMO",
+      "Zihinsel Sağlık",
+      "Klinik Psikoloji"
+    ]
+  },
+  {
+    "id": "71",
+    "slug": "sikilma-yetenegini-yeniden-kazanmak-varsayilan-mod-agi-ve-yaraticilik",
+    "title": "Sıkılma Yeteneğini Yeniden Kazanmak: Beynin Varsayılan Mod Ağı (Default Mode Network) ve Yaratıcılık",
+    "summary": "Sürekli ekrana bakarak can sıkıntısını öldürmek neden yaratıcılığı ve orijinal fikirleri yok eder? Beynin varsayılan mod ağını uyandırmanın nörolojik faydaları.",
+    "content": [
+      "En son ne zaman hiçbir şey yapmadan, elinizde telefon olmadan, müzik veya podcast dinlemeden sadece oturdunuz ve boşluğa baktınız? Modern insan için 'can sıkıntısı' adeta tahammül edilemez bir tehlike, kaçınılması gereken bir boşluk haline geldi. Otobüs beklerken 30 saniye, asansörde 10 saniye, kırmızı ışıkta 20 saniye bile boş kalsak refleks olarak telefonu cebimizden çıkarıyoruz.",
+      "Oysa nörobilim, can sıkıntısının beynin en değerli evrimsel hediyelerinden biri olduğunu gösteriyor. İngiltere Central Lancashire Üniversitesi'nden Dr. Sandi Mann'ın araştırmaları, sıkılmanın beynin 'Varsayılan Mod Ağı'nı (Default Mode Network - DMN) aktive ettiğini kanıtlamıştır. DMN; dış dünyadan gelen uyarıcılara odaklanmadığımız, zihnimizin serbestçe gezindiği, geçmiş anılar ile geleceğe dair hayallerin harmanlandığı nöral bir merkezdir.",
+      "Ekranların Yaratıcılığı Öldürme Mekanizması: Telefonunuza baktığınız her saniye beyniniz 'dışsal dikkat' moduna kilitlenir. Dışarıdan sürekli hazır görüntü, metin ve ses pompalandığında zihin kendi iç sesini üretemez. İnsanlık tarihindeki en büyük sanatsal eserler, felsefi teoriler ve bilimsel buluşlar harıl harıl çalışırken değil; insanların pencereden dışarı bakarken, banyodayken veya doğada boş boş yürürken canlarının sıkıldığı anlarda doğmuştur.",
+      "Sıkılma Toleransını Yeniden Kazanma Egzersizleri:",
+      "1. 'Mikro Boşlukları' Koru: Gün içindeki 1-2 dakikalık beklemelerde (asansör, kuyruk, kahve sırası) telefona asla el sürmeme kuralı koyun. Sadece çevrenizdeki insanları, mimariyi veya gökyüzünü izleyin.",
+      "2. Kulaklıksız Yürüyüşler: Haftada en az iki kez telefonunuzu evde bırakarak veya sessize alarak kulaklıksız 30 dakikalık yürüyüş yapın. Bırakın zihniniz başıboş dolaşsın.",
+      "3. Zihinsel Çöp Boşaltma: Gün sonunda ekrana bakmak yerine elinize bir defter alıp serbest çağrışımla aklınıza gelenleri yazın.",
+      "Can sıkıntısı bir eksiklik değil, yaratıcı zekanın kuluçka evresidir. Limitra App Block ile dijital gürültüyü günün belirli saatlerinde tavizsiz susturarak beyninize en çok ihtiyaç duyduğu o derin yaratıcı sessizliği hediye edebilirsiniz."
+    ],
+    "source": "Nörobilim & Dr. Sandi Mann Yaratıcılık Araştırması",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Can Sıkıntısı",
+      "Default Mode Network",
+      "Yaratıcılık",
+      "Zihinsel Dinginlik",
+      "Ekran Süresi Kontrolü",
+      "Nörobilim"
+    ]
+  },
+  {
+    "id": "70",
+    "slug": "calisirken-telefon-masada-durursa-ne-olur-bilissel-sizinti-brain-drain",
+    "title": "Çalışırken Telefon Masada Durursa Ne Olur? 'Bilişsel Sızıntı' (Brain Drain) Deneyinin Gösterdikleri",
+    "summary": "Telefon kapalı ve sessizde olsa bile masada durduğunda zihinsel kapasitenin neden yüzde 20'si buharlaşır? UT Austin'in dönüm noktası deneyi ve somut çözümler.",
+    "content": [
+      "Çoğu öğrenci veya ofis çalışanı şu mantığı yürütür: 'Telefonumu sessize aldım, hatta ekranı alta gelecek şekilde masamın köşesine koydum. Bana hiçbir zararı yok, bildirim de gelmiyor.' Oysa Texas Üniversitesi Austin (UT Austin) tarafından yürütülen ve Journal of the Association for Consumer Research dergisinde yayımlanan dönüm noktası niteliğindeki araştırma, bu inancın tamamen bir yanılgı olduğunu bilimsel olarak ispatladı.",
+      "800 Kişilik Bilişsel Kapasite Deneyi: Araştırmacılar katılımcılara yüksek dikkat ve bellek gerektiren bilişsel testler uyguladı. Katılımcılar üç gruba ayrıldı: Birinci grubun telefonu masanın üzerinde yüzüstü duruyordu. İkinci grubun telefonu cebinde veya çantasındaydı. Üçüncü grubun telefonu ise tamamen başka bir odadaydı. Tüm telefonlar tamamen sessize alınmıştı.",
+      "Çarpıcı Sonuç: Telefonu başka odada olan grup, telefonu masanın üzerinde duran gruptan belirgin şekilde daha yüksek puanlar aldı. Telefonu cebinde olanlar ise arada kaldı. En çarpıcı bulgu ise şuydu: Katılımcılar telefonlarını hiç düşünmediklerini söyleseler dahi test sonuçları aradaki devasa zihinsel performans farkını net olarak ortaya koydu.",
+      "'Bilişsel Sızıntı' (Brain Drain) Nedir? Akıllı telefonlar beynimiz için o kadar güçlü bir ödül ve bağlantı simgesidir ki; görüş alanımızda durduğu sürece bilinçaltımız sürekli olarak 'Ona bakma, elini uzatma' emrini vermek için arka planda ciddi miktarda enerji harcar. Bu oto-kontrol çabası, çalışma belleğinizin (working memory) ve problem çözme kapasitenizin önemli bir kısmını tüketir. Telefon masadayken beyniniz adeta arka planda ağır bir virüs taraması yapan yavaşlamış bir bilgisayar gibidir.",
+      "Masanızı 'Analog Zirve' Kılma Protokolü:",
+      "1. Başka Oda Kuralı: Çalışma veya ders seanslarında telefon kesinlikle bulunduğunuz odanın dışında olmalıdır.",
+      "2. Görüş Alanını Temizlemek: Eğer telefonu başka odaya bırakamıyorsanız, en azından fermuarlı bir çantaya koyup dolabın içine kilitleyin. Görmediğiniz nesne beyninizde bilişsel sızıntı yaratamaz.",
+      "3. Limitra ile Sistemsel Güvence: Çalışma saatlerinde Limitra App Block ile dikkat dağıtıcı tüm uygulamaları mühürleyerek zihinsel enerjinizi yüzde yüz kapasiteyle işinize aktarabilirsiniz."
+    ],
+    "source": "Texas Üniversitesi Austin (UT Austin) & Tüketici Araştırmaları Dergisi",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Brain Drain",
+      "Bilişsel Sızıntı",
+      "UT Austin",
+      "Çalışma Belleği",
+      "Odaklanma",
+      "Ekran Süresi Kontrolü"
+    ]
+  },
+  {
+    "id": "69",
+    "slug": "ergenlerde-telefon-bagimliligi-ve-ekran-suresi-sozlesmesi-rehberi",
+    "title": "Ebeveynler İçin: Ergenlerde Telefon Bağımlılığı ve Ekran Süresi Sözleşmesi Nasıl Yapılır?",
+    "summary": "Ergenlik çağındaki gençlerle dijital dünya yüzünden sürekli kavga etmek yerine karşılıklı saygıya dayalı yazılı bir 'Aile Ekran Sözleşmesi' oluşturmanın rehberi.",
+    "content": [
+      "Çocukluktan ergenliğe geçişte ebeveyn-çocuk ilişkisindeki en büyük kriz alanı şüphesiz akıllı telefonlardır. Kapalı kapılar ardında saatlerce süren telefon görüşmeleri, sosyal medya akışlarında kaybolmalar ve ebeveynin her müdahalesinde patlak veren 'Bana hiç güvenmiyorsun!', 'Benim özel hayatım yok mu!' isyanları. Çoğu anne baba ya tamamen otoriterleşip telefonu zorla almakta ya da çaresizlikten tamamen teslim olmaktadır.",
+      "Ergen Beyninin İhtiyacı: Özerklik ve Adalet. Ergenlik döneminde beyin hızlı bir yeniden yapılanma sürecine girer; genç birey için akran onayı ve bağımsızlık hissi her şeyin önüne geçer. Casus yazılımlarla gizlice çocuğunu izleyen veya keyfi cezalarla telefonu yasaklayan ebeveynler, sadece çocuğun daha gizli ve aldatıcı yollara başvurmasına neden olur. Çözüm tek taraflı baskı değil; sınırları baştan net çizilmiş, iki tarafın da imzaladığı bir 'Aile Ekran Sözleşmesi'dir.",
+      "Sağlıklı Bir Ekran Sözleşmesinin Temel Maddeleri:",
+      "1. Kutsal Ekransız Alanlar: Akşam aile yemeklerinde ve gece yatarken yatak odalarında hiçbir aile bireyinin (anne ve baba dahil) telefonu olmayacaktır. Bu kural yetişkinler tarafından da harfiyen uygulanmalıdır; çünkü ergenler ebeveynlerinin sözlerini değil, eylemlerini taklit eder.",
+      "2. Günlük Adil Süre Kotası: Okul günleri için makul bir sosyal medya ve oyun süresi (örneğin günlük 60-90 dakika) belirlenir. Süre bittiğinde ergenin derslerine ve gerçek arkadaşlıklarına vakit ayırması beklenir.",
+      "3. Akademik Öncelik Protokolü: Ödevler, sınav hazırlıkları ve günlük sorumluluklar tamamlanmadan eğlence uygulamalarının kilidi açılmaz.",
+      "4. Kural İhlalinde Sakin ve Otomatik Yaptırım: Kural ihlal edildiğinde bağırma, hakaret veya duygusal patlamalar yerine; sözleşmede önceden yazılmış olan yaptırım (örneğin ertesi gün telefonun tamamen kapalı kalması) soğukkanlılıkla devreye girer.",
+      "Limitra ekosistemi, ebeveynlerin her gün çocuklarıyla yıpratıcı tartışmalara girmesini engeller; belirlenen kuralları tarafsız, tavizsiz ve nesnel bir biçimde işletir."
+    ],
+    "source": "Ergen Psikolojisi & Aile İçi İletişim Rehberleri",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Ergen Psikolojisi",
+      "Ekran Süresi Sözleşmesi",
+      "Dijital Ebeveynlik",
+      "Aile İçi İletişim",
+      "Ekran Süresi Kontrolü",
+      "Sınırlar"
+    ]
+  },
+  {
+    "id": "68",
+    "slug": "tiktok-ve-shorts-algoritmalari-nasil-calisir-mikro-odul-mimarisi",
+    "title": "TikTok ve Shorts Algoritmaları Nasıl Çalışır? İradeyi Devre Dışı Bırakan Mikro-Ödül Mimarisi",
+    "summary": "15 saniyelik dikey video formatı insan beynini neden hipnotize ediyor? Algoritmik kumarhane mantığı ve dikkat ekonomisinin nörobiyolojik şifreleri.",
+    "content": [
+      "TikTok, Instagram Reels ve YouTube Shorts: Bu üç platform son beş yılda insanlık tarihinin en hızlı yayılan ve en güçlü bağımlılık yaratan dijital formatını yarattı. Kullanıcılar 'Sadece 5 dakika bakıp çıkacağım' diyerek uygulamayı açar; ancak gözlerini açtıklarında 2 saatin buharlaştığını fark ederler. Bu durum bir tesadüf veya irade zayıflığı değil; Silikon Vadisi davranış bilimcileri tarafından kusursuzlaştırılmış bir nörolojik tuzaktır.",
+      "Algoritmik Kumarhane Mantığı (Değişken Oranlı Pekiştirme): Las Vegas'taki kumar makineleri insanı neden bağımlı yapar? Çünkü kolu her çektiğinizde ne kazanacağınızı bilemezsiniz; bazen hiçbir şey çıkmaz, bazen küçük bir ödül gelir, bazen de büyük ikramiye vurur. Kısa videolar da tam olarak bu 'dopamin piyangosu' mantığıyla çalışır. Parmağınızı yukarı kaydırdığınızda karşınıza sıkıcı bir video da çıkabilir, sizi kahkahaya boğacak veya şok edecek bir içerik de. Beyin bir sonraki kaydırmanın ne getireceğini bilmediği için sürekli 'bir tane daha' arzusuna kilitlenir.",
+      "Doğal Durdurma İşaretlerinin (Stopping Cues) Yok Edilmesi: Bir kitap okurken bölüm biter, bir film izlerken jenerik akar, bir gazete okurken sayfa tükenir. Bunlar insan beynine 'Artık durabilirsin' mesajı veren doğal sınırlardır. Dikey video formatında ise durdurma işareti tamamen silinmiştir; video bittiği anda yeni video otomatik başlar, akış sonsuza kadar akar.",
+      "Dikkati ve Zamanı Geri Kazanma Protokolleri:",
+      "1. Web Sürümüne Geçin veya Uygulamayı Silin: Dikey videoların en tehlikeli hali yerel mobil uygulamalardır. Uygulamayı silip yalnızca tarayıcı üzerinden açmak arayüze ciddi bir sürtünme katar.",
+      "2. Uzun Formatlı Tüketime Geri Dönün: Kısa videolar beynin dikkat süresini (attention span) mikroskobik düzeylere indirir. Bunun panzehiri; 45 dakikalık belgeseller izlemek, uzun podcast'ler dinlemek ve kağıt kitap okumaktır.",
+      "3. Limitra ile Mekanik Barikat: Bu algoritmalar iradeyle yenilemez. Günlük kotanız dolduğunda uygulamayı gece yarısına kadar tavizsiz kilitleyen Limitra App Block ile iradenizin tükendiği yerde mekanik bir set çekebilirsiniz."
+    ],
+    "source": "Davranış Nörobilimi & Dikkat Ekonomisi Analizleri",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "TikTok Algoritması",
+      "Shorts ve Reels",
+      "Değişken Ödül",
+      "Dopamin Tuzağı",
+      "Dikkat Süresi",
+      "Ekran Süresi Kontrolü"
+    ]
+  },
+  {
+    "id": "67",
+    "slug": "tuvalette-ve-banyoda-telefon-kullanma-aliskanligi-sessizligi-tolere-edememek",
+    "title": "Tuvalette ve Banyoda Telefon Kullanma Alışkanlığı: Boş Zamanı ve Sessizliği Tolere Edemeyen Beyin",
+    "summary": "Tuvalete telefonsuz gidememenin ardındaki psikolojik mikro-boşluk tahammülsüzlüğü ve bu masum görünen alışkanlığın hem zihinsel hem fiziksel bedelleri.",
+    "content": [
+      "Modern insanın en mahrem ve en yaygın alışkanlıklarından biri: Banyoya veya tuvalete giderken telefonu cebine koymak veya elinde taşımak. Yapılan küresel anketler, akıllı telefon kullanıcılarının yüzde 85'inden fazlasının tuvalette telefon kullandığını gösteriyor. Normal şartlarda 3-5 dakika sürecek bir biyolojik ihtiyaç, ekran başında kaydırılan videolar ve haberler yüzünden 20-30 dakikalık uzatılmış bir seansa dönüşüyor.",
+      "Nörolojik Neden: 'Mikro-Boşluk İntoleransı'. Neden 3 dakikalık bir tuvalet molasında bile kendimizle baş başa kalamıyoruz? Çünkü beynimiz sürekli düşük yoğunluklu dopamin uyarımına o kadar alıştı ki, en ufak bir sessizlik veya uyaransız an bilinçaltında hafif bir huzursuzluk ve panik dalgası yaratıyor. Tuvalette telefona sarılmak, aslında kendi düşüncelerimizle yüzleşmekten kaçmanın en ilkel yoludur.",
+      "Fiziksel Sağlık Bedeli: Gastroenterologlar ve cerrahlar, son yıllarda genç nüfusta hemoroid ve pelvik taban bozukluklarında görülen patlamayı doğrudan tuvalette telefon kullanımına bağlamaktadır. Klozette uzun süre oturup ekrana odaklanmak rektal damarlara binen basıncı artırarak ciddi fiziksel rahatsızlıklara davetiye çıkarır.",
+      "Alışkanlığı Kırmak İçin 3 Basit Adım:",
+      "1. Kesin Hijyen Sınırı: Telefonu banyo kapısının eşiğinden içeri sokmama kuralını evinizin katı bir yasası haline getirin. Banyo bir bilgi işlem merkezi değil, bir hijyen alanıdır.",
+      "2. Düşüncelerine Alan Aç: O birkaç dakikalık sessizliği beyninizin günün yorgunluğunu işlemesi için minik bir nefes alma molası olarak görün.",
+      "3. Cihazı Şarj Noktasına Sabitle: Telefonun gün boyu cebinizde gezmesini engelleyip onu masada bıraktığınızda bu refleks kendiliğinden kırılacaktır.",
+      "Limitra ekosistemi, telefonunuzun her an elinizin altında bir uzvunuz gibi yaşamasını engelleyerek gün içindeki mikro-bağımlılıkları kontrol altına almanızı sağlar."
+    ],
+    "source": "Sağlık Psikolojisi & Gastroenteroloji Raporları",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Tuvalette Telefon",
+      "Mikro Boşluk",
+      "Hemoroid ve Sağlık",
+      "Dijital Alışkanlıklar",
+      "Ekran Süresi Kontrolü",
+      "Zihinsel Farkındalık"
+    ]
+  },
+  {
+    "id": "66",
+    "slug": "sadece-2-dakika-bakacagim-yanilgisi-dikkatin-23-dakikalik-bedeli",
+    "title": "Ders ve İş Sırasında 'Sadece 2 Dakika Bakacağım' Yanılgısı: Dikkat Dağınıklığının 23 Dakikalık Bedeli",
+    "summary": "California Üniversitesi'nden Prof. Gloria Mark'ın araştırması: 30 saniyelik tek bir bildirim kontrolü derin odaklanmayı neden yarım saat boyunca felç eder?",
+    "content": [
+      "Yoğun bir çalışma veya ders seansının ortasındasınızdır. Zorlu bir paragrafa veya matematik problemine kafa yorarken masadaki telefonun ekranı aydınlanır. İçinizden bir ses fısıldar: 'Sadece 2 dakika bakıp kapatacağım, ne olabilir ki?' Mesaja bakarsınız, kısa bir yanıt yazarsınız ve telefonu geri koyarsınız. Ancak masaya döndüğünüzde az önce kafanızda kurduğunuz tüm zihinsel yapı yerle bir olmuştur.",
+      "Dikkat Dağınıklığının Bilimsel Maliyeti: California Üniversitesi Irvine'dan Prof. Dr. Gloria Mark'ın onlarca yıldır iş ve çalışma ortamlarında yürüttüğü titiz ölçümlere göre; bölünen bir insanın daha önceki derin odaklanma ve akış (flow) durumuna tam olarak geri dönebilmesi ortalama **23 dakika 15 saniye** sürmektedir. 30 saniyelik masum bir bakış, aslında çalışma gününüzün neredeyse yarım saatini çöpe atmaktadır.",
+      "'Dikkat Kalıntısı' (Attention Residue) Zehirlenmesi: Minnesota Üniversitesi'nden Sophie Leroy'un literatüre kazandırdığı bu kavrama göre; insan beyni A görevinden B görevine aniden geçtiğinde, dikkatinin tamamını hemen transfer edemez. Baktığınız mesaj, okuduğunuz haber başlığı veya gördüğünüz fotoğraf zihninizde bir 'kalıntı' bırakır. Siz fiziksel olarak kitaba baksanız da beyninizin bir kısmı hala arkada o mesaja ne cevap vereceğini düşünmeye devam eder.",
+      "Kesintisiz Odaklanma İçin 3 Tavizsiz Kural:",
+      "1. 'Bilişsel Kuluçka' Defteri: Çalışırken aklınıza gelen acil aramalar veya merak ettiğiniz konular için yanınızda boş bir kağıt tutun. Aklınıza gelen şeyi oraya yazın ve çalışmaya devam edin; seans bittiğinde topluca bakın.",
+      "2. 90 Dakikalık Tam İzolasyon Seansları: İnsan dikkati biyolojik olarak 90 dakikalık dalgalar halinde çalışır. Bu 90 dakika boyunca telefon kesinlikle sessizde ve başka bir odada olmalıdır.",
+      "3. Limitra ile İradeye İhtiyaç Duymayan Kilit: Limitra App Block ile çalışma saatlerinde tüm bildirimleri ve uygulamaları tek dokunuşla mühürleyin. Seçenek ortadan kalktığında beynin bölünme riski de sıfırlanır."
+    ],
+    "source": "UC Irvine & Prof. Gloria Mark Dikkat Araştırması",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Gloria Mark",
+      "Dikkat Kalıntısı",
+      "Derin Odaklanma",
+      "Akış Durumu",
+      "Çalışma Disiplini",
+      "Ekran Süresi Kontrolü"
+    ]
+  },
+  {
+    "id": "65",
+    "slug": "siyah-beyaz-ekran-modu-greyscale-ekran-suresini-azaltir-mi",
+    "title": "Siyah-Beyaz Ekran Modu (Greyscale) Ekran Süresini Azaltır mı? Görsel Dopamini Kırmanın Sınırları",
+    "summary": "Telefonu siyah-beyaza çevirmek ekran bağımlılığını gerçekten azaltır mı? Görsel algının dopamin salgısıyla ilişkisi ve tek başına neden yetersiz kaldığı.",
+    "content": [
+      "Dijital detoks topluluklarında en sık önerilen taktiklerden biri: 'Telefonunuzun erişilebilirlik ayarlarından renk filtrelerini açın ve ekranı siyah-beyaz (Greyscale / Gri Tonlama) yapın.' İlk bakışta son derece mantıklı bir stratejidir. Peki bu yöntem bilimsel olarak gerçekten işe yarıyor mu?",
+      "Renklerin Nörobiyolojisi: Neden Kumarhane Renkleri Kullanılıyor? İnsan beyninin görme korteksi, evrimsel olarak parlak ve canlı renklere karşı aşırı duyarlıdır (olgun meyveleri ve tehlikeleri fark etme refleksi). Silikon Vadisi tasarımcıları bu refleksi sömürerek bildirim balonlarını acil kırmızı (#FF3B30), Instagram ve oyun arayüzlerini ise parlak neon renklerle donatmıştır. Canlı renkler beyinde anında görsel bir dopamin salgısı tetikler.",
+      "Siyah-Beyaz Modun Etkisi: Center for Humane Technology araştırmaları, ekranı gri tonlamaya alan kullanıcıların ilk iki haftada günlük ekran sürelerinde yüzde 18 ila 24 arasında bir düşüş yaşadığını göstermektedir. Instagram, TikTok ve video oyunları siyah-beyaz olduğunda görsel çekiciliğini ve lezzetini büyük oranda kaybeder; beyin ekrana bakmayı sıkıcı bulmaya başlar.",
+      "Neden Tek Başına Yetersiz Kalır? Greyscale modunun en büyük zayıflığı, şifresini kendinizin bildiği bir kilit gibi olmasıdır. Kullanıcı güzel bir fotoğraf görmek veya video izlemek istediğinde ayarlar menüsüne girip 3 saniye içinde renkleri geri açar. İradeye dayanan her görsel kısıtlama, zihinsel yorgunluk anında iflas etmeye mahkumdur.",
+      "Doğru Formül: Görsel Sürtünmeyi Mekanik Kilitlerle Birleştirmek. Ekranı siyah-beyaz yapmak harika bir ilk adımdır; ancak arkasında tavizsiz bir kilit motoru yoksa etkisi geçicidir. Limitra App Block ile günlük kota dolduğunda uygulamayı tamamen kapatan bir sistem kurduğunuzda, görsel sürtünme mekanik disiplinle birleşerek kalıcı bir özgürlüğe dönüşür."
+    ],
+    "source": "Center for Humane Technology & Görsel Nörobilim",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Greyscale",
+      "Siyah Beyaz Ekran",
+      "Görsel Dopamin",
+      "Ekran Süresi Kontrolü",
+      "Dürtü Kontrolü",
+      "Davranışsal Tasarım"
+    ]
+  },
+  {
+    "id": "64",
+    "slug": "hayalet-titresim-sendromu-ve-bildirim-kaygisi-nobiyolojik-sebepler",
+    "title": "Hayalet Titreşim Sendromu ve Bildirim Kaygısı: Telefon Çalmadığı Halde Titriyor Sanmanın Nörolojisi",
+    "summary": "Cebinizde telefon titremediği halde titrediğini zannedip elinizi cebinize atıyor musunuz? Hayalet Titreşim Sendromu'nun ardındaki nörolojik aşırı tetikte olma durumu.",
+    "content": [
+      "Yürüyorsunuz veya masanızda oturuyorsunuz. Birdenbire bacağınızda belirgin bir titreşim hissediyorsunuz. Refleks olarak elinizi cebinize atıp telefonu çıkarıyorsunuz; fakat ekranda hiçbir arama, mesaj veya bildirim yok. Telefonunuz çalmamıştır bile. Bu deneyimi yaşadıysanız yalnız değilsiniz; akıllı telefon kullanıcılarının yüzde 80'inden fazlası bu durumu düzenli olarak tecrübe etmektedir.",
+      "Tıp literatüründe bu fenomene 'Hayalet Titreşim Sendromu' (Phantom Vibration Syndrome - PVS) adı verilir. Bu bir halüsinasyon değil, beynin duyusal filtreleme mekanizmasının (sensory gating) aşırı duyarlı hale gelmesidir. Beyniniz sürekli olarak gelebilecek acil bir mesajı, beğeniyi veya aramayı beklediği için en ufak bir kas seğirmesini, pantolon kumaşının sürtünmesini veya çevre gürültüsünü doğrudan 'telefon çalıyor' olarak yorumlar.",
+      "Antisipatuar (Beklenti) Dopamin Döngüsü: Bildirimler insan beyninde yüksek bir kaygı ve beklenti yaratır. Telefon her titrediğinde sosyal bir onay veya merak uyandırıcı bir bilgi alma ihtimali, sinir sistemini sürekli bir 'alarm' (fight-or-flight) halinde tutar. Bu kronik uyarılmışlık hali, kortizol seviyelerini yükselterek genel bir huzursuzluk ve odaklanamama tablosu oluşturur.",
+      "Hayalet Titreşimi Sona Erdirmenin 3 Kesin Yolu:",
+      "1. Titreşim Motorunu Tamamen Kapatın: Telefonunuzun titreşim özelliğini tüm uygulamalar için kapatın. Telefon ya çalsın ya da tamamen sessizde kalsın. Titreşimi kapatmak beynin o bölgedeki nöral tetikte olma halini birkaç gün içinde söndürür.",
+      "2. Taşıma Konumunu Değiştirin: Telefonu sürekli sağ ön cebinizde taşıyorsanız, çantanıza koyun veya masanın üzerine bırakın. Bacağınızdaki temas kesildiğinde duyusal yanılsama sona erer.",
+      "3. Toplu Bildirim Saatleri: Bildirimlerin sizi çağırmasına izin vermek yerine, günde sadece 3 kez (örneğin 12:00, 16:00, 19:00) bildirimleri topluca kontrol edin.",
+      "Limitra ekosistemi, telefonunuzun zihninizi sürekli rehin almasını engelleyen katı kilit ve odaklanma modlarıyla sinir sisteminize hak ettiği huzurlu sessizliği geri kazandırır."
+    ],
+    "source": "Nöroloji & Davranışsal Tıp Araştırmaları",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Hayalet Titreşim",
+      "Bildirim Kaygısı",
+      "Duyusal Filtreleme",
+      "Kortizol",
+      "Ekran Süresi Kontrolü",
+      "Nöroloji"
+    ]
+  },
+  {
+    "id": "63",
+    "slug": "sabah-ilk-is-telefona-bakma-aliskanligini-kirmak-ilk-1-saati-kurtarmak",
+    "title": "Sabah İlk İş Telefona Bakma Alışkanlığını Kırmak: Sabah Kortizolünü ve İlk 1 Saati Kurtarmak",
+    "summary": "Gözünüzü açar açmaz ekrana sarılmak günün geri kalanındaki motivasyonu nasıl sabote eder? Kortizol Uyanma Yanıtı (CAR) ve ekransız ilk 60 dakika protokolü.",
+    "content": [
+      "Sabah çalar saat çalar. Henüz gözlerinizi tam açamamışken, yarı uykulu bir halde elinizi komodine uzatır ve telefonu alırsınız. Alarmı susturduktan sonra hemen Instagram'ı, WhatsApp'ı, haber sitelerini veya döviz kurlarını açarsınız. 20 dakika boyunca yatakta yabancıların krizlerini, başarılarını ve negatif haberleri tüketirsiniz. Yataktan kalktığınızda dinlenmiş olmak yerine; zihniniz sisli, kaygılı ve daha güne başlamadan tükenmiş hissedersiniz.",
+      "Biyolojik Neden: 'Kortizol Uyanma Yanıtı' (CAR) Sabotajı. İnsan bedeni sabah uyandığında doğal olarak kortizol hormonu salgılar. Bu sağlıklı bir biyolojik süreçtir; bedeni ve zihni güne hazırlayan doğal bir yakıttır. Ancak gözünüzü açar açmaz yüzlerce bildirim ve dünya haberiyle karşılaştığınızda, bu doğal artış anormal bir stres sıçramasına dönüşür. Beyin daha uyanma evresindeki teta ve alfa dalgalarından doğrudan yüksek stresli beta dalgalarına fırlar. Gününüz proaktif değil, reaktif (başkalarının gündemine tepki veren) bir modda başlar.",
+      "İlk 1 Saatin Kutsallığı: Sabahın ilk 60 dakikası beynin en yüksek nöroplastisiteye sahip olduğu, günün odaklanma ve motivasyon tonunu belirleyen altın zaman dilimidir. Bu dilimi algoritmik çöplükle doldurduğunuzda, günün geri kalanında kitap okumak veya derin çalışmak imkansız hale gelir.",
+      "Sabahı Kurtarma Protokolü (İlk 60 Dakika):",
+      "1. Telefonu Yatak Odasından Çıkarın: Komodinin üzerinde duran bir telefona bakmamak imkansızdır. 10 liralık klasik bir pilli çalar saat alın ve telefonunuzu evin başka bir odasında şarj edin.",
+      "2. Doğal Işık ve Su Formülü: Uyanır uyanmaz büyük bir bardak su için ve pencereyi açarak 5-10 dakika doğal gün ışığına bakın. Bu, biyolojik saatinize günün başladığını haber verir ve kortizolü dengeler.",
+      "3. Limitra Sabah Kalkanı: Limitra App Block ile sosyal medya ve eğlence uygulamalarının sabah 09:00'dan önce açılmasını engelleyen katı bir kural belirleyin. Saat gelene kadar zihniniz sadece kendi hayatınıza odaklansın.",
+      "Sabahınızın kontrolünü teknoloji devlerine vermeyin. İlk 1 saati kendinize sakladığınızda, tüm gününüzün dinginliği ve üretkenliği kökten değişecektir."
+    ],
+    "source": "Sirkadiyen Nörobiyoloji & Stanford Uyku Laboratuvarı",
+    "sourceUrl": "https://limitra.online",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-04",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Sabah Rutini",
+      "Kortizol Uyanma Yanıtı",
+      "Ekran Süresi Kontrolü",
+      "Dijital Hijyen",
+      "Zihinsel Berraklık",
+      "Uyku ve Sağlık"
+    ]
+  },
+  {
     "id": "62",
     "slug": "gercekci-dopamin-detoksu-akilli-telefonu-atmadan-beyni-sifirlamak",
     "title": "Gerçekçi Dopamin Detoksu: Akıllı Telefonu Çöpe Atmadan Beyninizi Sıfırlamak",

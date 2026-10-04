@@ -1,5 +1,24 @@
 # İşlem Geçmişi
 
+## [2026-10-04 19:15] - 20 Ekran Süresi Kontrolü Rehberi, Ayrı Üst Menü Mimarisi ve Çift Ürünlü CTA Revizyonu
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `src/components/DualProductCTA.astro`, `src/components/ScreenTimeIndex.astro`
+  - `[YENİ]` `src/pages/ekran-suresi-kontrolu/index.astro`, `src/pages/ekran-suresi-kontrolu/[slug].astro`
+  - `[YENİ]` `src/pages/[es,fr,de,pt,it,ar,id,fil,th]/screen-time-control/index.astro` ve `[slug].astro` (10 dilde)
+  - `[GÜNCELLENDİ]` `src/components/Navigation.astro`, `src/components/Footer.astro`, `src/components/NewsIndex.astro`, `src/components/NewsArticle.astro`
+  - `[GÜNCELLENDİ]` `src/data/translations.ts`, `src/data/routes.ts`, `src/data/haberler.json`, `src/data/news-*.json` (11 dil)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml`, `scripts/generate-sitemap.mjs`
+* **Yapılan İşlem:**
+  1. **20 Kapsamlı Rehber Tamamlandı (IDs 57-76):** Kullanıcının istediği 20 uygulamalı rehberin eksik 14 tanesi bilimsel temellerle (Kortizol Uyanma Yanıtı, Hayalet Titreşim, Siyah-Beyaz ekran, Gloria Mark 23 dakika kuralı, tuvalette telefon alışkanlığı, TikTok mikro-ödül mimarisi, ergen ekran sözleşmesi, masada telefon Brain Drain, sıkılma ve Default Mode Network, UPenn 30 dk klinik deneyi, phubbing, dijital demans, dumbphone minimalist akımı, BJ Fogg davranışsal sürtünme) yerel sınav terimlerinden arındırılarak 11 dilde eşzamanlı üretildi.
+  2. **Üst Menü ve Kategori Ayrımı:** "Ekran Süresi Kontrolü" dünya basınından tamamen ayrıldı. Üst navigasyon çubuğuna (`Navigation.astro`) 11 dilde birinci sınıf ana başlık olarak eklendi (`/ekran-suresi-kontrolu` ve `/[lang]/screen-time-control`). "Dünya Basını" (`/haberler`) sayfasından rehberler ayıklandı, kategori filtreleri yalnızca küresel basın/meclis haberlerine odaklandı.
+  3. **Çift Ürünlü CTA Kartı Yenilendi (Kusursuz Görsel Denge):** Kullanıcının paylaştığı ekran görüntüsündeki boşluklu, asimetrik ve uyumsuz metinli CTA kutusu kaldırıldı. Yerine hem Limitra Social (arkadaşla hesap verebilirlik) hem de Limitra App Block (katı kural ve gizlilik) için yan yana dengeli, şık, boşluk bırakmayan modern çift ürünlü kart bileşeni (`DualProductCTA.astro`) entegre edildi.
+  4. **Sitemap & Derleme:** `public/sitemap.xml` 1,156 URL ile güncellendi, Astro 1,158 statik sayfayı 0 hata ile derledi (`npm run check:links` OK).
+* **Doğrulama:** `npm run build` (1158 sayfa, 0 hata), `npm run check:links` ("OK - kirik ic baglanti yok").
+* **Bilinen Sorunlar:** Yok.
+* **Sonraki Öneri:** Cloudflare'e deploy (`npm run deploy`) ve `npm run check:live` ile canlı doğrulama.
+
 ## [2026-10-04 18:55] - Barındırma Cenuta VPS'ten Cloudflare'e Taşındı
 
 * **Model:** Claude

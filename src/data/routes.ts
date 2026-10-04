@@ -18,6 +18,7 @@ import newsTh from './news-th.json';
  */
 export const SECTION_LANGS = {
   news: ['tr', 'en', 'es', 'fr', 'de', 'pt', 'it', 'ar', 'id', 'fil', 'th'] as SupportedLang[],
+  screenTimeControl: ['tr', 'en', 'es', 'fr', 'de', 'pt', 'it', 'ar', 'id', 'fil', 'th'] as SupportedLang[],
   guides: ['tr', 'en'] as SupportedLang[],
   contact: ['tr', 'en'] as SupportedLang[],
   legal: ['tr', 'en'] as SupportedLang[],
@@ -43,6 +44,7 @@ export type PageKey =
   | 'faq'
   | 'news'
   | 'newsItem'
+  | 'screenTimeControl'
   | 'guides'
   | 'guide'
   | 'contact'
@@ -134,6 +136,7 @@ export function parsePath(pathname: string): { lang: SupportedLang; key: PageKey
   if (sub === '') return { lang, key: 'home', slug: '' };
   if (sub === 'limitra') return { lang, key: 'howItWorks', slug: '' };
   if (sub === 'sss') return { lang, key: 'faq', slug: '' };
+  if (sub === 'ekran-suresi-kontrolu' || sub === 'screen-time-control') return { lang, key: 'screenTimeControl', slug: '' };
   if (sub === 'haberler' || sub === 'news') return { lang, key: 'news', slug: '' };
   if (sub.startsWith('haberler/')) return { lang, key: 'newsItem', slug: sub.slice('haberler/'.length) };
   if (sub.startsWith('news/')) return { lang, key: 'newsItem', slug: sub.slice('news/'.length) };
@@ -168,6 +171,8 @@ export function buildUrl(lang: SupportedLang, key: PageKey, slug = ''): string |
       return `${p}/limitra`;
     case 'faq':
       return `${p}/sss`;
+    case 'screenTimeControl':
+      return SECTION_LANGS.screenTimeControl.includes(lang) ? (lang === 'tr' ? '/ekran-suresi-kontrolu' : `${p}/screen-time-control`) : null;
     case 'news':
       return SECTION_LANGS.news.includes(lang) ? (lang === 'tr' ? '/haberler' : `${p}/news`) : null;
     case 'newsItem': {
@@ -219,6 +224,7 @@ export const routes = (lang: SupportedLang) => ({
   home: resolveUrl(lang, 'home'),
   howItWorks: resolveUrl(lang, 'howItWorks'),
   faq: resolveUrl(lang, 'faq'),
+  screenTimeControl: resolveUrl(lang, 'screenTimeControl'),
   news: resolveUrl(lang, 'news'),
   newsItem: (slug: string) => resolveUrl(lang, 'newsItem', slug),
   guides: resolveUrl(lang, 'guides'),

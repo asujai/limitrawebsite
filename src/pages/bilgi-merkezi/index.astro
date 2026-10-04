@@ -107,7 +107,7 @@ const foundationalGuides = [
 
         <div class="action-grid">
           {actionGuides.map((guide) => (
-            <a href={`/haberler/${guide.slug}`} class="action-card">
+            <a href={`/ekran-suresi-kontrolu/${guide.slug}`} class="action-card">
               <div class="card-meta">
                 <span class="card-tag">{guide.tag}</span>
                 <span class="card-read">{guide.readTime} okuma</span>
@@ -117,6 +117,13 @@ const foundationalGuides = [
               <span class="read-link">Rehberi İncele →</span>
             </a>
           ))}
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="/ekran-suresi-kontrolu" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.75rem; border-radius: 9999px; text-decoration: none; font-weight: 700; background: var(--accent); color: white;">
+            <span>Tüm 20 Ekran Süresi Kontrolü Rehberini İnceleyin</span>
+            <span>&rarr;</span>
+          </a>
         </div>
       </section>
 

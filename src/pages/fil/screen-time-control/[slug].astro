@@ -1,0 +1,17 @@
+---
+import NewsArticle from '../../../components/NewsArticle.astro';
+import newsList from '../../../data/news-fil.json';
+
+export function getStaticPaths() {
+  return newsList
+    .filter((item) => parseInt(item.id, 10) >= 57 && parseInt(item.id, 10) <= 76)
+    .map((item) => ({
+      params: { slug: item.slug },
+      props: { news: item }
+    }));
+}
+
+const { news } = Astro.props;
+---
+
+<NewsArticle news={news} lang="fil" />

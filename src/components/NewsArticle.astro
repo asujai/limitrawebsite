@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { type SupportedLang } from '../data/translations';
 import { newsByLang, type NewsArticleItem } from '../data/routes';
 import { newsUI } from '../data/news-ui';
-import { homeCopy, SOCIAL_STORE_URL, BLOCK_STORE_URL } from '../data/home';
+import DualProductCTA from './DualProductCTA.astro';
 
 interface Props {
   news: NewsArticleItem;
@@ -12,13 +12,26 @@ interface Props {
 
 const { news, lang = 'tr' } = Astro.props;
 const ui = newsUI[lang] || newsUI.en;
-const c = homeCopy[lang] || homeCopy.en;
 const newsList = newsByLang[lang] || newsByLang.en;
 
-const relatedNews = newsList.filter((h) => h.id !== news.id).slice(0, 2);
+const isScreenTimeControl = parseInt(news.id, 10) >= 57 && parseInt(news.id, 10) <= 76;
+const screenTimeIndexUrl = lang === 'tr' ? '/ekran-suresi-kontrolu' : `/${lang}/screen-time-control`;
 const newsIndexUrl = lang === 'tr' ? '/haberler' : `/${lang}/news`;
+const backUrl = isScreenTimeControl ? screenTimeIndexUrl : newsIndexUrl;
+
+const backText = isScreenTimeControl
+  ? (lang === 'tr' ? '← Tüm Ekran Süresi Kontrolü Rehberleri' : '← All Screen Time Control Guides')
+  : ui.article.backToNews;
+
+const relatedTitle = isScreenTimeControl
+  ? (lang === 'tr' ? 'İlgili Ekran Süresi Kontrolü Rehberleri' : 'Related Screen Time Control Guides')
+  : ui.article.relatedTitle;
+
+const relatedNews = isScreenTimeControl
+  ? newsList.filter((h) => h.id !== news.id && parseInt(h.id, 10) >= 57 && parseInt(h.id, 10) <= 76).slice(0, 3)
+  : newsList.filter((h) => h.id !== news.id && (parseInt(h.id, 10) < 57 || parseInt(h.id, 10) > 76)).slice(0, 3);
+
 const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${lang}/news/${slug}`;
-const solutionKicker = lang === 'tr' ? 'LİMİTRA DİJİTAL DİSİPLİN EKOSİSTEMİ' : 'LIMITRA DIGITAL BALANCE ECOSYSTEM';
 ---
 
 <Layout 
@@ -31,7 +44,7 @@ const solutionKicker = lang === 'tr' ? 'LİMİTRA DİJİTAL DİSİPLİN EKOSİST
   <article class="news-detail-page">
     <div class="container content-width">
       <header class="detail-header">
-        <a href={newsIndexUrl} class="back-link">{ui.article.backToNews}</a>
+        <a href={backUrl} class="back-link">{backText}</a>
         
         <div class="meta-row">
           <span class="cat-badge">{news.category}</span>
@@ -73,41 +86,13 @@ const solutionKicker = lang === 'tr' ? 'LİMİTRA DİJİTAL DİSİPLİN EKOSİST
         </div>
       )}
 
-      <!-- Solution Box -->
-      <div class="solution-box">
-        <div class="box-icon">
-          <img src="/logo.png" alt="Limitra Logo" width="52" height="52" class="solution-logo" />
-        </div>
-        <div class="box-text">
-          <span class="solution-kicker">{solutionKicker}</span>
-          <h3>{ui.article.solutionTitle}</h3>
-          <p>{ui.article.solutionDesc}</p>
-          <div class="solution-actions">
-            <a 
-              href={SOCIAL_STORE_URL} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              class="btn btn-primary"
-            >
-              <svg class="play-glyph" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M6 3.8v16.4c0 .8.9 1.3 1.6.9l13-8.2c.6-.4.6-1.4 0-1.8l-13-8.2C6.9 2.5 6 3 6 3.8Z" /></svg>
-              <span>Limitra Social ({c.hero.cta})</span>
-            </a>
-            <a 
-              href={BLOCK_STORE_URL} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              class="btn btn-gold-outline"
-            >
-              <span>Limitra App Block ({c.block.cta}) ↗</span>
-            </a>
-          </div>
-        </div>
-      </div>
+      <!-- Dual Product CTA Box -->
+      <DualProductCTA lang={lang} />
 
-      <!-- Related News -->
+      <!-- Related News / Guides -->
       {relatedNews.length > 0 && (
         <section class="related-section">
-          <h2>{ui.article.relatedTitle}</h2>
+          <h2>{relatedTitle}</h2>
           <div class="related-grid">
             {relatedNews.map((item) => (
               <a href={articleUrl(item.slug)} class="related-card">
@@ -253,90 +238,9 @@ const solutionKicker = lang === 'tr' ? 'LİMİTRA DİJİTAL DİSİPLİN EKOSİST
     font-weight: 500;
   }
 
-  /* Solution Box */
-  .solution-box {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1.5rem;
-    background: var(--surface-dark);
-    color: white;
-    border-radius: var(--radius-lg);
-    padding: clamp(1.8rem, 4vw, 2.5rem);
-    margin-bottom: var(--space-16);
-    box-shadow: var(--shadow-sm);
-  }
-
-  .solution-logo {
-    border-radius: 0.75rem;
-    object-fit: cover;
-  }
-
-  .box-text h3 {
-    color: white;
-    margin-top: 0;
-    margin-bottom: 0.6rem;
-    font-size: 1.35rem;
-  }
-
-  .box-text p {
-    color: #9cb1d4;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin-bottom: 1.25rem;
-  }
-
-  .solution-kicker {
-    display: inline-block;
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 0.4rem;
-  }
-
-  .solution-actions {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.85rem;
-    margin-top: 0.5rem;
-  }
-
-  .play-glyph {
-    flex-shrink: 0;
-  }
-
-  .btn-gold-outline {
-    display: inline-flex;
-    min-height: 3.25rem;
-    align-items: center;
-    justify-content: center;
-    padding: .78rem 1.45rem;
-    font-size: .94rem;
-    font-weight: 700;
-    line-height: 1.2;
-    border-radius: var(--radius-full);
-    border: 1px solid rgba(212, 165, 90, 0.45);
-    color: var(--gold);
-    background: rgba(212, 165, 90, 0.08);
-    text-decoration: none;
-    transition: all 0.2s ease;
-  }
-
-  .btn-gold-outline:hover {
-    background: rgba(212, 165, 90, 0.18);
-    border-color: var(--gold);
-    color: var(--cream);
-    transform: translateY(-2px);
-  }
-
-  .box-text strong {
-    color: white;
-  }
-
   /* Related */
   .related-section {
+    margin-top: var(--space-12);
     padding-top: var(--space-8);
     border-top: 1px solid var(--border-color);
   }

@@ -108,7 +108,7 @@ const foundationalGuides = [
 
         <div class="action-grid">
           {actionGuides.map((guide) => (
-            <a href={`/en/news/${guide.slug}`} class="action-card">
+            <a href={`/en/screen-time-control/${guide.slug}`} class="action-card">
               <div class="card-meta">
                 <span class="card-tag">{guide.tag}</span>
                 <span class="card-read">{guide.readTime} read</span>
@@ -118,6 +118,13 @@ const foundationalGuides = [
               <span class="read-link">Read Guide →</span>
             </a>
           ))}
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="/en/screen-time-control" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.75rem; border-radius: 9999px; text-decoration: none; font-weight: 700; background: var(--accent); color: white;">
+            <span>Explore All 20 Screen Time Control Guides</span>
+            <span>&rarr;</span>
+          </a>
         </div>
       </section>
 

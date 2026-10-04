@@ -27,6 +27,7 @@ export const translations: Record<SupportedLang, {
     home: string;
     howItWorks: string;
     news: string;
+    screenTimeControl: string;
     guides: string;
     faq: string;
     getApp: string;
@@ -118,6 +119,7 @@ export const translations: Record<SupportedLang, {
       home: 'Ana Sayfa',
       howItWorks: 'Nasıl çalışır?',
       news: 'Dünya Basını',
+      screenTimeControl: 'Ekran Süresi Kontrolü',
       guides: 'Rehberler',
       faq: 'SSS',
       getApp: 'Uygulamayı indir',
@@ -218,6 +220,7 @@ export const translations: Record<SupportedLang, {
       home: 'Home',
       howItWorks: 'How it works',
       news: 'Global News',
+      screenTimeControl: 'Screen Time Control',
       guides: 'Guides',
       faq: 'FAQ',
       getApp: 'Get the app',
@@ -318,6 +321,7 @@ export const translations: Record<SupportedLang, {
       home: 'Inicio',
       howItWorks: 'Cómo funciona',
       news: 'Prensa Global',
+      screenTimeControl: 'Control de Pantalla',
       guides: 'Guías',
       faq: 'Preguntas',
       getApp: 'Descargar app',
@@ -418,6 +422,7 @@ export const translations: Record<SupportedLang, {
       home: 'Accueil',
       howItWorks: 'Comment ça marche',
       news: 'Presse Mondiale',
+      screenTimeControl: 'Temps d\'Écran',
       guides: 'Guides',
       faq: 'FAQ',
       getApp: 'Télécharger',
@@ -518,6 +523,7 @@ export const translations: Record<SupportedLang, {
       home: 'Startseite',
       howItWorks: 'Funktionsweise',
       news: 'Weltnachrichten',
+      screenTimeControl: 'Bildschirmzeit',
       guides: 'Ratgeber',
       faq: 'FAQ',
       getApp: 'App holen',
@@ -618,6 +624,7 @@ export const translations: Record<SupportedLang, {
       home: 'Início',
       howItWorks: 'Como funciona',
       news: 'Imprensa Global',
+      screenTimeControl: 'Tempo de Tela',
       guides: 'Guias',
       faq: 'Perguntas',
       getApp: 'Baixar app',
@@ -718,6 +725,7 @@ export const translations: Record<SupportedLang, {
       home: 'Home',
       howItWorks: 'Come funziona',
       news: 'Stampa Mondiale',
+      screenTimeControl: 'Tempo Schermo',
       guides: 'Guide',
       faq: 'FAQ',
       getApp: 'Scarica l’app',
@@ -818,6 +826,7 @@ export const translations: Record<SupportedLang, {
       home: 'الرئيسية',
       howItWorks: 'كيف يعمل؟',
       news: 'أخبار العالم',
+      screenTimeControl: 'وقت الشاشة',
       guides: 'الدلائل',
       faq: 'الأسئلة الشائعة',
       getApp: 'تحميل التطبيق',
@@ -918,6 +927,7 @@ export const translations: Record<SupportedLang, {
       home: 'Beranda',
       howItWorks: 'Cara Kerja',
       news: 'Berita Global',
+      screenTimeControl: 'Waktu Layar',
       guides: 'Panduan',
       faq: 'Tanya Jawab',
       getApp: 'Unduh Aplikasi',
@@ -1018,6 +1028,7 @@ export const translations: Record<SupportedLang, {
       home: 'Tahanan',
       howItWorks: 'Paano Gumagana',
       news: 'Balitang Global',
+      screenTimeControl: 'Screen Time',
       guides: 'Mga Gabay',
       faq: 'Mga Tanong',
       getApp: 'I-download',
@@ -1118,6 +1129,7 @@ export const translations: Record<SupportedLang, {
       home: 'หน้าแรก',
       howItWorks: 'วิธีการทำงาน',
       news: 'ข่าวรอบโลก',
+      screenTimeControl: 'เวลาหน้าจอ',
       guides: 'คู่มือ',
       faq: 'คำถามที่พบบ่อย',
       getApp: 'ดาวน์โหลดแอป',

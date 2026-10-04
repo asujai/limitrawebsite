@@ -1,0 +1,387 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { type SupportedLang } from '../data/translations';
+import { newsByLang } from '../data/routes';
+import DualProductCTA from './DualProductCTA.astro';
+
+interface Props {
+  lang?: SupportedLang;
+}
+
+const { lang = 'tr' } = Astro.props;
+
+const copy: Record<string, {
+  pageTitle: string;
+  pageDesc: string;
+  badge: string;
+  title: string;
+  subtitle: string;
+  allCategory: string;
+  readTimeSuffix: string;
+  readGuide: string;
+  backHome: string;
+  categories: string[];
+}> = {
+  tr: {
+    pageTitle: 'Ekran Süresi Kontrolü ve Dijital Disiplin Rehberleri | Limitra',
+    pageDesc: 'Instagram Reels döngüsünü kırmak, ders ve sınavlara odaklanmak, çocuklara kavgasız sınırlar koymak ve uykuyu geri kazanmak için kanıta dayalı 20 pratik rehber.',
+    badge: 'Ekran Süresi Kontrolü • 20 Uygulamalı Protokol',
+    title: 'Ekran Süresi Kontrolü: Bilimsel Protokoller ve Pratik Çözüm Kılavuzları',
+    subtitle: 'Arama motorlarında ve yapay zekâda en çok aratılan ekran süresi sorunlarına; nörobiyoloji, davranışsal iktisat ve bilişsel psikolojiye dayanan tavizsiz 20 çözüm kılavuzu.',
+    allCategory: 'Tümü',
+    readTimeSuffix: 'okuma',
+    readGuide: 'Rehberi Oku',
+    backHome: '← Ana Sayfa',
+    categories: ['Tümü', 'Sosyal Medya & Dopamin', 'Akademik Odaklanma', 'Ebeveyn & Çocuk', 'Uyku & Biyoloji', 'Alışkanlık & İrade']
+  },
+  en: {
+    pageTitle: 'Screen Time Control & Digital Discipline Guides | Limitra',
+    pageDesc: '20 actionable, evidence-based guides to break short video loops, achieve deep academic focus, establish calm parenting boundaries, and reclaim restorative sleep.',
+    badge: 'Screen Time Control • 20 Practical Protocols',
+    title: 'Screen Time Control: Evidence-Based Protocols and Practical Action Guides',
+    subtitle: 'Comprehensive, science-backed solutions to the most frequent internet and AI queries on excessive screen time, digital fatigue, and habit design.',
+    allCategory: 'All',
+    readTimeSuffix: 'read',
+    readGuide: 'Read Guide',
+    backHome: '← Home',
+    categories: ['All', 'Social Media & Dopamine', 'Academic Focus', 'Parenting & Children', 'Sleep & Biology', 'Habits & Willpower']
+  }
+};
+
+const c = copy[lang] || copy.en;
+const allArticles = newsByLang[lang] || newsByLang.en;
+
+// Filter specifically the 20 Screen Time Control guides (IDs 57 to 76)
+const guides = allArticles.filter(n => {
+  const idNum = parseInt(n.id, 10);
+  return idNum >= 57 && idNum <= 76;
+});
+
+const homeUrl = lang === 'tr' ? '/' : `/${lang}`;
+const articleUrl = (slug: string) => lang === 'tr' ? `/ekran-suresi-kontrolu/${slug}` : `/${lang}/screen-time-control/${slug}`;
+---
+
+<Layout 
+  title={c.pageTitle}
+  description={c.pageDesc}
+  lang={lang}
+>
+  <section class="stc-portal">
+    <div class="container">
+      <header class="portal-header">
+        <a href={homeUrl} class="back-link">{c.backHome}</a>
+        <div class="header-badge">
+          <span class="pulse-dot"></span>
+          <span>{c.badge}</span>
+        </div>
+        <h1>{c.title}</h1>
+        <p class="subtitle">{c.subtitle}</p>
+      </header>
+
+      <!-- Category Filter Tabs -->
+      <div class="category-nav" role="tablist" aria-label="Filter guides">
+        {c.categories.map((cat, index) => (
+          <button 
+            type="button" 
+            class:list={['cat-btn', { active: index === 0 }]} 
+            data-filter={index === 0 ? 'all' : cat}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <!-- Guides Grid (20 Guides) -->
+      <div class="guides-grid">
+        {guides.map((item) => (
+          <article class="guide-card" data-card-tags={JSON.stringify(item.tags || [])}>
+            <div class="card-meta">
+              <span class="tag-pill">{item.tags?.[0] || item.category}</span>
+              <span class="read-pill">{item.readTime} {c.readTimeSuffix}</span>
+            </div>
+
+            <div class="card-main">
+              <h2>
+                <a href={articleUrl(item.slug)}>{item.title}</a>
+              </h2>
+              <p>{item.summary}</p>
+            </div>
+
+            <div class="card-foot">
+              <span class="card-source">{item.source}</span>
+              <a href={articleUrl(item.slug)} class="read-link">
+                <span>{c.readGuide}</span>
+                <span aria-hidden="true" class="arrow">&rarr;</span>
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <!-- Dual Product CTA -->
+      <DualProductCTA lang={lang} />
+    </div>
+  </section>
+</Layout>
+
+<script>
+  function setupGuideFiltering() {
+    const buttons = document.querySelectorAll('.cat-btn');
+    const cards = document.querySelectorAll('.guide-card');
+    if (!buttons.length || !cards.length) return;
+
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        buttons.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-filter') || 'all';
+
+        cards.forEach((card) => {
+          if (filter === 'all') {
+            (card as HTMLElement).style.display = '';
+            return;
+          }
+
+          const rawTags = card.getAttribute('data-card-tags') || '[]';
+          let tags: string[] = [];
+          try {
+            tags = JSON.parse(rawTags);
+          } catch (e) {
+            tags = [];
+          }
+
+          // Case-insensitive or substring tag match
+          const matches = tags.some((t: string) => 
+            t.toLowerCase().includes(filter.toLowerCase()) || 
+            filter.toLowerCase().includes(t.toLowerCase())
+          );
+
+          if (matches) {
+            (card as HTMLElement).style.display = '';
+          } else {
+            (card as HTMLElement).style.display = 'none';
+          }
+        });
+      });
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', setupGuideFiltering);
+  setupGuideFiltering();
+</script>
+
+<style>
+  .stc-portal {
+    padding-top: var(--space-8);
+    padding-bottom: var(--space-16);
+  }
+
+  .portal-header {
+    margin-bottom: var(--space-8);
+    max-width: 52rem;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+  }
+
+  .back-link:hover {
+    color: var(--accent);
+  }
+
+  .header-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: #eef3ff;
+    padding: 0.3rem 0.85rem;
+    border-radius: var(--radius-full);
+    margin-bottom: var(--space-4);
+    letter-spacing: 0.02em;
+  }
+
+  .pulse-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 0 rgba(45, 91, 227, 0.4);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(45, 91, 227, 0.5); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(45, 91, 227, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(45, 91, 227, 0); }
+  }
+
+  .portal-header h1 {
+    font-size: clamp(2rem, 3.5vw, 2.75rem);
+    line-height: 1.2;
+    margin: 0 0 var(--space-4) 0;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: var(--space-10);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .cat-btn {
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 600;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .cat-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: #f7f9fd;
+  }
+
+  .cat-btn.active {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: #ffffff;
+  }
+
+  .guides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: var(--space-12);
+  }
+
+  .guide-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .guide-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(14, 23, 38, 0.06);
+    border-color: var(--accent);
+  }
+
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .tag-pill {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: #eef3ff;
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-full);
+  }
+
+  .read-pill {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 600;
+  }
+
+  .card-main h2 {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.2rem;
+    line-height: 1.35;
+  }
+
+  .card-main h2 a {
+    color: var(--ink);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .guide-card:hover .card-main h2 a {
+    color: var(--accent);
+  }
+
+  .card-main p {
+    margin: 0 0 1.25rem 0;
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .card-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    margin-top: auto;
+  }
+
+  .card-source {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 55%;
+  }
+
+  .read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+    transition: gap 0.2s ease;
+  }
+
+  .guide-card:hover .read-link .arrow {
+    transform: translateX(3px);
+  }
+
+  .read-link .arrow {
+    transition: transform 0.2s ease;
+  }
+
+  @media (max-width: 640px) {
+    .guides-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
