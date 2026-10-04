@@ -10,8 +10,8 @@
   3. Uzun kaynakça metinlerinin "Oku →" bağlantısını alt satıra kırıp çizgiyi yukarı itmesini önlemek amacıyla `.source-tag` öğesine `flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;` ve HTML'e erişilebilirlik için `title={item.source}` eklendi. `.read-link` ise `flex-shrink: 0;` ile sabitlendi.
   4. Böylece tüm kartların footer yüksekliği eşitlendi ve yan yana duran kartlardaki ayırıcı çizgi (`border-top`) cetvelle çizilmiş gibi tek bir yatay hizada milimetrik simetriye kavuşturuldu.
 * **Doğrulama:** `npm run build` (707 sayfa, 0 hata), `npm run check:links` (OK).
-* **Bilinen Sorunlar:** Yok
-* **Sonraki Öneri:** Yok
+* **Bilinen Sorunlar:** DEPLOY BEKLİYOR: 95f00c6 (VPS SSH bağlantı zaman aşımı - port 22 banner exchange timeout. 3 kez 2'şer dakika arayla denendi, sunucu erişimi bekleniyor).
+* **Sonraki Öneri:** VPS SSH port 22 erişilebilir olduğunda `npm run deploy:vps` çalıştırılarak canlıya alınmalı.
 
 ## [2026-10-04 11:46] - Haber Kartı 'Oku' Bağlantısındaki Titreme ve Yazı Kaybolma Hatası Giderildi
 

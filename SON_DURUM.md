@@ -84,6 +84,7 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 8. `npm run check:live` ile canlıda HTTP 200 ve fiyat doğrulanır.
 
 ## Bilinen Sorunlar
+- DEPLOY BEKLİYOR: 95f00c6 (VPS SSH bağlantı zaman aşımı - port 22 banner exchange timeout. 3 kez 2'şer dakika arayla denendi, sunucu erişimi bekleniyor).
 - (Çözüldü 12 Eylül) Yayın süreci açığı: DoD, 7 adımlı sidecar kuralı, Windows Görev Zamanlayıcı yedeği ve canlı doğrulama (`check:live`) ile kalıcı olarak giderildi.
 - (Çözüldü 12 Eylül) Mobil üst bar taşması ve TRY fiyat: canlı sürüm `20260912-192034` ile giderildi.
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
