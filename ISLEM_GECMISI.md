@@ -1,5 +1,18 @@
 # İşlem Geçmişi
 
+## [2026-10-04 11:46] - Haber Kartı 'Oku' Bağlantısındaki Titreme ve Yazı Kaybolma Hatası Giderildi
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:** `[GÜNCELLENDİ]` `src/components/NewsIndex.astro`
+* **Yapılan İşlem:**
+  1. Haber kartlarındaki `.read-link` ("Oku") öğesinin `:hover` durumunda uygulanan `gap: 0.55rem` kuralı kaldırıldı; flexbox reflow ve genişlik değişiminden kaynaklanan titreme (jitter loop) ve yazı kaybolma/yanıp sönme hatası çözüldü.
+  2. Yazı metninin (`<span>Oku</span>`) sabit kalması, yalnızca ok simgesinin (`.arrow`) GPU hızlandırmalı `transform: translateX(4px)` ile pürüzsüzce kayması sağlandı.
+  3. `NewsIndex.astro` öne çıkan haber kartındaki (`.read-btn`) butonun bütününe uygulanan `translateX(4px)` kaldırılıp yalnızca içindeki `.arrow` simgesine aktarıldı.
+  4. Haber kartının (`.news-card`) alt ve üst kenarlarından fare girişi yapıldığında `translateY(-4px)` kalkışının tetiklediği fare sınırı kaybını (boundary oscillation) önlemek için kartın altına görünmez tampon (`::after` pseudo-element) eklendi.
+* **Doğrulama:** `npm run build` (707 sayfa, 0 hata), `npm run check:links` (OK).
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-04 11:15] - 20 Derin Araştırma Makalesi 11 Dilde Eklendi (ID 37-56) ve Çift Ürün Tasarımı Entegre Edildi
 
 * **Model:** Antigravity

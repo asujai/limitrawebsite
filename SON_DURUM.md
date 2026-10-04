@@ -10,6 +10,11 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-10-04)
+- **Haber Kartı 'Oku' Bağlantısındaki Titreme ve Yazı Kaybolma Hatası Giderildi (Antigravity, 4 Ekim):**
+  - Haber kartlarındaki `.read-link` ("Oku") bileşeninde `:hover` esnasında uygulanan dinamik `gap: 0.55rem` ve kart kenarındaki fare sınır osilasyonu giderildi.
+  - Metin konumu sabit tutularak sadece ok simgesi GPU ivmeli `translateX(4px)` ile hareketlendirildi, kart sınırına `::after` tamponu eklenerek kesintisiz ve stabil bir hover deneyimi sağlandı.
+  - 707 sayfa 0 hata ile derlendi (`npm run check:links` OK).
+
 - **20 Derin Araştırma Makalesi (ID 37-56) ve Çift Ürün Tasarım Entegrasyonu (Antigravity, 4 Ekim):**
   - Kullanıcının ilettiği `Ekran Bağımlılığı Üzerine 20 Araştırma` çalışması temelinde 20 derin araştırma makalesi (Phubbing, Brain Drain, 23 Dakika Kuralı, Yalnızlık Salgını, Silikon Vadisi Paradoksu, Meta Facebook Files, Popcorn Brain, Hayalet Titreşim, Gece Ekranı/Melatonin, Dumbphone Devrimi, Technoference, Dijital Demans, Ekran Apnesi, UPenn 30 Dk Kuralı, İntikam Ertelemesi, Kaygılı Nesil/Haidt, Doomscrolling, Oxford Brain Rot, Text Neck, Hesap Verebilirlik Ortaklığı) 11 dilde eşzamanlı olarak üretildi (IDs 37-56).
   - Sitedeki haber şablonu (`NewsArticle.astro`) ve haber portalı (`NewsIndex.astro`), yeni çift ürün stratejisine (Limitra Social - arkadaşla ortak kilit / Limitra App Block - katı kural ve gizlilik) ve Newsreader/Manrope tipografi sistemine entegre edildi.
