@@ -31,7 +31,7 @@ check(
 );
 
 if (failed) {
-  console.log('\nCanli site kaynak kodun gerisinde. Calistir: npm run deploy:vps');
+  console.log('\nCanli site kaynak kodun gerisinde. Calistir: npm run deploy');
   process.exit(1);
 }
 console.log('\nCanli site guncel.');

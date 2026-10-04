@@ -146,7 +146,7 @@ Her içerik için yayınlamadan önce aşağıdakileri kontrol et:
 2. `npm run check:links` (kırık bağlantı yok)
 3. `npm run sitemap`
 4. `git add -A && git commit -m "[antigravity] feat: <haber başlığı> (ID <n>)" && git push origin main`
-5. `npm run deploy:vps` → çıktıda "Yayin tamamlandi" görülmeden devam etme
+5. `npm run deploy` → çıktıda "Current Version ID" görülmeden devam etme
 6. `npm run check:live` → "Canli site guncel." görülmeden görevi bitirme
 7. `ISLEM_GECMISI.md` + `SON_DURUM.md` güncelle; kayıtta deploy sürüm numarasını yaz.
 

@@ -6,7 +6,7 @@
     "dev": "node scripts/copy-images.mjs && astro dev",
     "start": "node scripts/copy-images.mjs && astro dev",
     "build": "node scripts/copy-images.mjs && astro build",
-    "deploy:vps": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/deploy-vps.ps1",
+    "deploy:vps": "npm run deploy",
     "preview": "astro preview",
     "astro": "astro",
     "check:links": "node scripts/check-links.mjs",
@@ -14,9 +14,13 @@
     "check:news": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check-daily-news.ps1",
     "indexnow": "node scripts/indexnow.mjs",
     "report:bots": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/ai-bot-report.ps1",
-    "sitemap": "node scripts/generate-sitemap.mjs"
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "astro": "^4.16.12"
+  },
+  "devDependencies": {
+    "wrangler": "^4.147.0"
   }
 }

@@ -10,6 +10,7 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-10-04)
+- **Barındırma Cloudflare'e taşındı (Claude, 4 Ekim akşam):** Cenuta VPS sağlayıcı kaynaklı CPU steal (%55-78) ve günlük 8-91 dk donmalar yüzünden emekliye ayrıldı. Site artık Cloudflare Workers statik varlıklar olarak yayında (`wrangler.jsonc`, proje `limitra`, `limitra.online` + `www` özel alan adı). DNS Porkbun'dan Cloudflare'e geçti (nameserver `cleo`/`kira.ns.cloudflare.com`); e-posta (Porkbun yönlendirme, Resend DKIM/SPF/DMARC) ve Google doğrulama kayıtları korundu. AI bot politikaları üç grupta da "İzin ver", Bot Fight Mode / AI Labyrinth / managed robots.txt kapalı, Always Use HTTPS açık, `www` → kök 301 Redirect Rule. Yeni yayın komutu `npm run deploy` (`deploy:vps` artık buna takma ad). `public/_headers` ve `public/404.html` eklendi. Bekleyen tüm commit'ler (Bilgi Merkezi rehberleri, haberler, mockup'lar) bu yayınla canlıya çıktı.
 - **'Ekran Süresi Kontrolü' Yeni Kategorisi ve 6 Kapsamlı Uygulamalı Rehber 11 Dilde Entegre Edildi (Antigravity, 4 Ekim):**
   - Arama motoru ve yapay zekâ sorgu analizine dayanarak kullanıcıların en çok arattığı 6 kritik acı noktası (Instagram Reels/kısa video sonsuz kaydırması, sınav ve akademik odaklanma, çocukların tablet/öfke krizleri, gece intikam ertelemesi, yerleşik dijital dengenin iflası ve gerçekçi dopamin detoksu) için yeni "Ekran Süresi Kontrolü" (*Screen Time Control*) kategorisi açıldı.
   - Yerel sınav isimlerinden (YKS vb.) kaçınılarak global akademik standartlar (finaller, akademik projeler, yeterlilik sınavları) benimsendi.
@@ -92,20 +93,19 @@ Kullanıcı yeni bir haber veya konu paylaştığında:
 4. `npm run build` ile 0 hata doğrulanır.
 5. `npm run check:links` ile kırık bağlantı olmadığı teyit edilir.
 6. `git commit` ve `git push origin main` ile kaynak kod GitHub'a gönderilir.
-7. `npm run deploy:vps` ile derleme ve bağlantı kontrolü yeniden çalıştırılır; çıktı VPS'e atomik biçimde gönderilir ve son 5 sürüm geri dönüş için korunur.
+7. `npm run deploy` ile site derlenir ve Cloudflare'e yüklenir (çıktıda "Current Version ID"). Geri dönüş: `npx wrangler rollback`.
 8. `npm run check:live` ile canlıda HTTP 200 ve fiyat doğrulanır.
 
 ## Bilinen Sorunlar
-- DEPLOY BEKLİYOR: ecd45b2 (Cenuta VPS port 22 ve port 443 kilitli - SSH banner exchange timeout & HTTPS TLS handshake timeout. Deploy paketi 24MB'tan 6.6MB'a optimize edildi. Sunucu panelden yeniden başlatılınca deploy tamamlanacak).
 - (Çözüldü 12 Eylül) Yayın süreci açığı: DoD, 7 adımlı sidecar kuralı, Windows Görev Zamanlayıcı yedeği ve canlı doğrulama (`check:live`) ile kalıcı olarak giderildi.
 - (Çözüldü 12 Eylül) Mobil üst bar taşması ve TRY fiyat: canlı sürüm `20260912-192034` ile giderildi.
 - 9 yeni dilde (es, fr, de, pt, it, ar, id, fil, th) bilgi merkezi, iletişim ve hukuki sayfaların çevirisi henüz eklenmedi. Bağlantılar kırık değil; İngilizce sürüme düşer. Menü etiketi yerel, hedef sayfa İngilizce olur.
 - `public/og-limitra.png` sosyal paylaşım görseli eski uygulama arayüzünü gösteriyor.
-- Cenuta VPS daha önce yüksek yük altında SSH/HTTP yanıtı vermeyi durdurdu ve panelden normal yeniden başlatma gerektirdi. Yeniden başlatma sonrasında düşük yükle kararlı çalıştı; tekrar ederse sağlayıcıya destek kaydı açılmalı veya daha güvenilir bir barındırma katmanı değerlendirilmelidir.
+- Cenuta VPS artık kullanılmıyor; kullanıcı aboneliği iptal edebilir. Nginx'in AI bot log raporu (`report:bots`) VPS'e bağlıydı; yerine Cloudflare panelindeki AI Crawl Control metrikleri kullanılacak.
 
 ## Yol Haritası / Sıradaki İş
 - Günlük haber akışının Windows Görev Zamanlayıcı ve sidecar ile izlenmesi.
-- VPS kararlılığını izlemek; yanıt vermeme durumu tekrar ederse Cenuta destek kaydına saatler, yük değerleri ve ağ kesintisi kanıtlarıyla başvurmak.
+- `report:bots` betiğini Cloudflare AI Crawl Control verisine uyarlamak ya da emekliye ayırmak.
 - Netlify kopyasını şimdilik acil DNS geri dönüş noktası olarak korumak.
 - İhtiyaç halinde `public/og-limitra.png` sosyal paylaşım görselinin (Open Graph) yeni marka kimliğiyle güncellenmesi.
 - Yeni günlük haber ve içerik akışının sürdürülmesi.

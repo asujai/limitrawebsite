@@ -1,5 +1,14 @@
 # İşlem Geçmişi
 
+## [2026-10-04 18:55] - Barındırma Cenuta VPS'ten Cloudflare'e Taşındı
+
+* **Model:** Claude
+* **Etkilenen Dosyalar:** `[YENİ]` `wrangler.jsonc`, `public/_headers`, `public/404.html`; `[GÜNCELLENDİ]` `package.json`, `package-lock.json`, `.gitignore`, `AGENTS.md`, `SON_DURUM.md`, `scripts/check-live.mjs`, `scripts/daily-news-instructions.md`
+* **Yapılan İşlem:** VPS sağlık analizi (sar: CPU steal %55-78, 25 Eyl-4 Eki arasında ~50 donma penceresi; RAM/disk sorunsuz) sonrası kullanıcı onayıyla site Cloudflare Workers statik varlıklara taşındı. Cloudflare zone açıldı (ücretsiz), Porkbun nameserver'ları değiştirildi, DNS kayıtları (MX, Resend, DMARC, Google doğrulama) korundu, eski A kayıtları silinip `limitra.online` ve `www` özel alan adı olarak bağlandı. AI bot politikaları üç grupta İzin ver; Bot Fight Mode, AI Labyrinth, Bot Preference Sync kapalı; Always Use HTTPS açık; www→kök 301 kuralı. Wrangler'ın kendiliğinden eklediği `@astrojs/cloudflare` adaptörü ve `output: hybrid` geri alındı; site saf statik. Yayın komutu `npm run deploy` (`deploy:vps` takma ad).
+* **Doğrulama:** `npm run build` 773 sayfa 0 hata; `check:links` OK; `check:live` "Canli site guncel."; canlıda 11 dil, robots/llms/app-ads/sitemap 200, olmayan sayfa 404, www ve http 301; GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Googlebot, Google-Extended, bingbot, Applebot, CCBot, meta-externalagent, Amazonbot kimlikleriyle 200 ve gerçek içerik; MX/DKIM kayıtları genel DNS'te çözülüyor.
+* **Bilinen Sorunlar:** `report:bots` Nginx loguna bağlıydı, artık veri yok. Cloudflare dizin yönlendirmesi (`/en` → `/en/`) 307 döner (Nginx 301 dönüyordu); dahili bağlantılar zaten sondaki eğik çizgiyle.
+* **Sonraki Öneri:** Kullanıcı Cenuta aboneliğini iptal edebilir. Bot raporu için Cloudflare AI Crawl Control metrikleri kullanılmalı.
+
 ## [2026-10-04 16:30] - VPS Deploy Paketi Optimizasyonu ve Sunucu Kilitlenme Analizi
 
 * **Model:** Antigravity
