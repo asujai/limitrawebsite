@@ -1,5 +1,17 @@
 # İşlem Geçmişi
 
+## [2026-10-04 16:30] - VPS Deploy Paketi Optimizasyonu ve Sunucu Kilitlenme Analizi
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:** `[GÜNCELLENDİ]` `scripts/deploy-vps.ps1`, `SON_DURUM.md`, `ISLEM_GECMISI.md`
+* **Yapılan İşlem:**
+  1. VPS bağlantı sorunu derinlemesine analiz edildi: Port 22 (SSH) ve Port 443 (HTTPS) süreç seviyesinde yanıt vermiyor (`banner exchange timeout` ve Google dış sunucularından yapılan testte `TLS handshake timeout`). Sunucu ICMP ping'e yanıt verirken işletim sistemi daemon seviyesinde kilitlenmiş durumda.
+  2. Düşük kaynaklı (1GB RAM) VPS'in deploy sırasında bellek tükenmesine ve I/O kilitlenmesine girmesini önlemek amacıyla `scripts/deploy-vps.ps1` optimize edildi: Sitede doğrudan kullanılmayan 22 MB'lık ham ekran görüntüleri (`uygulama-goruntuleri/1.png..5.png`) yayın arşivinden hariç tutuldu (`--exclude="uygulama-goruntuleri"`). Paket boyutu 23.8 MB'tan 6.6 MB'a (%73 tasarruf) düşürüldü.
+  3. Sunucu tarafında mevcut sürümlerdeki görselleri koruyan akıllı senkronizasyon mantığı eklendi.
+* **Doğrulama:** Yerel tar arşivi testi (6.6 MB, exit code 0). Git senkronize edildi.
+* **Bilinen Sorunlar:** DEPLOY BEKLİYOR: ecd45b2 (Cenuta panelinden VPS'in bir kez reboot edilmesi gerekiyor).
+* **Sonraki Öneri:** VPS kontrol panelinden "Yeniden Başlat" yapıldıktan sonra `npm run deploy:vps` çalıştırılarak canlıya alma tamamlanacak.
+
 ## [2026-10-04 15:30] - 'Ekran Süresi Kontrolü' Yeni Kategorisi ve 6 Kapsamlı Uygulamalı Çözüm Rehberi 11 Dilde Entegre Edildi
 
 * **Model:** Antigravity
