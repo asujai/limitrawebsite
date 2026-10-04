@@ -10,6 +10,13 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-10-04)
+- **Telefon Mockup'larına Gerçek Instagram & YouTube Vektör Logoları ve Akış Fotoğrafları Entegre Edildi (Antigravity, 4 Ekim):**
+  - Hero ve Canlı Demo telefonlarındaki "I" harfleri resmi Instagram kamera SVG glifleriyle; App Block (Gece) telefonundaki "Y" harfi ise resmi YouTube play SVG ikonuyla değiştirildi.
+  - Gönderi alanlarındaki yapay CSS renk gradyanları yerine sitenin tasarım paletine uyumlu, yüksek kaliteli ve optimize hafif (WebP) 6 adet gerçekçi fotoğraf ve profil avatarları bağlandı.
+  - Gece bölümündeki YouTube telefonunun arkasına YouTube oynatıcı arayüzü (video küçük resmi, kırmızı ilerleme çubuğu, süre göstergesi ve kanal satırları) yerleştirilip üzerine buzlu cam (`backdrop-filter: blur(12px)`) kilit kartı oturtuldu.
+  - "Birlikte hesap verebilirlik" arkadaş kartlarındaki Instagram, TikTok ve YouTube etiketlerinin yanına resmi mini marka SVG ikonları eklendi.
+  - 707 sayfa 0 hata ile derlendi (`npm run check:links` OK).
+
 - **Haber Kartı Ayırıcı Çizgisi ve Footer Hiyerarşisi Simetrisi Hizalandı (Antigravity, 4 Ekim):**
   - Haber kartlarının alt ayırıcı çizgisinin (`border-top`) uzun kaynakça metinleri yüzünden farklı yüksekliklere zıplaması sorunu çözüldü.
   - `.news-card .card-footer` `flex-wrap: nowrap; min-height: 52px; margin-top: auto;` ile kilitlendi. `.source-tag` tek satır ve taşma durumunda `text-overflow: ellipsis` ile sınırlandırıldı (`title={item.source}` ile erişilebilirlik korundu), `.read-link` sabitlendi.
@@ -52,10 +59,10 @@
 - Toplam üretilen sayfa sayısı: 707 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** 20 derin araştırma makalesi (IDs 37-56) 11 dilde eklendi, çift ürün tasarım dili entegre edildi, site haritası 705 URL ile güncellendi.
+- **İşlem:** Telefon mockup'larına resmi Instagram & YouTube vektör logoları, estetik akış fotoğrafları ve gerçekçi arayüz detayları entegre edildi.
 - **Model:** Antigravity
-- **Doğrulama:** `npm run build` 707 sayfa / 0 hata, `npm run check:links` OK, `npm run deploy:vps` → "Yayin tamamlandi", sürüm `20261004-110730`; `npm run check:live` → "Canli site guncel."
-- **Sonraki adım:** Günlük haber akışının planlı şekilde sürdürülmesi.
+- **Doğrulama:** `npm run build` 707 sayfa / 0 hata, `npm run check:links` OK, browser visual inspection tamamlandı.
+- **Sonraki adım:** Deploy kontrolü ve yayınlama.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.

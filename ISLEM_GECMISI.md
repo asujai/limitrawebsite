@@ -1,5 +1,21 @@
 # İşlem Geçmişi
 
+## [2026-10-04 14:08] - Telefon Mockup'larına Gerçek Instagram & YouTube Vektör Logoları ve Akış Fotoğrafları Entegre Edildi
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/components/HomePage.astro`
+  - `[YENİ]` `public/mockup/*.webp` (6 adet estetik post görseli, 6 adet profil avatarı, 1 adet YouTube video küçük resmi)
+* **Yapılan İşlem:**
+  1. Hero ve Canlı Demo ("Dene") telefonlarındaki soyut "I" harfli kutucuklar, birebir resmi Instagram kamera SVG glifleriyle değiştirildi.
+  2. Gönderi alanlarındaki yapay CSS renk gradyanları (`.art-1`..`.art-6`) yerine sitenin tasarım paletine uyumlu, yüksek kaliteli ve optimize hafif (WebP) 6 adet gerçekçi fotoğraf ve profil avatarları bağlandı.
+  3. App Block (Gece) telefonundaki "Y" kutucuğu resmi YouTube play butonu SVG ikonuyla değiştirildi. Kilit ekranının arkasına YouTube oynatıcı arayüzü (video küçük resmi, kırmızı ilerleme çubuğu, süre göstergesi ve kanal satırları) yerleştirilip üzerine buzlu cam (`backdrop-filter: blur(12px)`) kilit kartı oturtularak gece kilitleme deneyimi gerçekçi hâle getirildi.
+  4. "Birlikte hesap verebilirlik" arkadaş kartlarındaki Instagram, TikTok ve YouTube etiketlerinin yanına resmi mini marka SVG ikonları eklendi.
+  5. Layout, CSS flex/grid hizalamaları ve JavaScript kilit/kaydırma mekanizmaları 11 dilin tamamında sıfır sapma ile korundu.
+* **Doğrulama:** `npm run build` (707 sayfa, 0 hata), `npm run check:links` (OK), browser preview ile Hero, Dene ve Gece telefonları görsel ekran görüntüsü denetiminden başarıyla geçirildi.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-04 12:41] - Haber Kartı Ayırıcı Çizgisi ve Footer Hiyerarşisi Simetrisi Hizalandı
 
 * **Model:** Antigravity

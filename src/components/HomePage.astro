@@ -40,7 +40,15 @@ const friends = [
 const statusLabel = { on: c.social.on, near: c.social.near, over: c.social.over };
 
 const handles = ['atlas', 'mavi.kare', 'kuzey.foto', 'rota', 'studio.k', 'ada', 'pixel.gun', 'lumen', 'sahil', 'nokta', 'ufuk', 'orbit', 'kare.kare', 'yol'];
-const feedPosts = handles.map((handle, i) => ({ handle, art: (i % 6) + 1, likes: 120 + ((i * 37) % 900) }));
+const feedPosts = handles.map((handle, i) => {
+  const num = (i % 6) + 1;
+  return {
+    handle,
+    img: `/mockup/post-${num}.webp`,
+    avatar: `/mockup/avatar-${num}.webp`,
+    likes: 120 + ((i * 37) % 900)
+  };
+});
 const miniPosts = feedPosts.slice(0, 6);
 
 const faqSchema = {
@@ -84,7 +92,9 @@ const faqSchema = {
             <div class="statusbar"><span>9:41</span><span class="status-dots"><i></i><i></i><i></i></span></div>
             <div class="usage">
               <div class="usage-app">
-                <span class="tile tile-ig">I</span>
+                <span class="tile tile-ig">
+                  <svg class="tile-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/></svg>
+                </span>
                 <div><strong>Instagram</strong><small>{c.phone.limit}</small></div>
               </div>
               <p class="usage-label">{c.phone.today}</p>
@@ -95,14 +105,19 @@ const faqSchema = {
               <div class="mini-track">
                 {[...miniPosts, ...miniPosts].map((post) => (
                   <div class="mini-post">
-                    <div class="post-head"><i class={`avatar art-${post.art}`}></i><span>@{post.handle}</span></div>
-                    <div class={`post-art art-${post.art}`}></div>
+                    <div class="post-head">
+                      <img class="avatar" src={post.avatar} alt="" width="24" height="24" loading="eager" />
+                      <span>@{post.handle}</span>
+                    </div>
+                    <img class="post-art" src={post.img} alt="" width="248" height="248" loading="eager" />
                   </div>
                 ))}
               </div>
             </div>
             <div class="lock" data-hero-lock>
-              <span class="tile tile-ig lock-tile">I</span>
+              <span class="tile tile-ig lock-tile">
+                <svg class="tile-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/></svg>
+              </span>
               <strong class="lock-app">Instagram</strong>
               <span class="lock-msg">{c.phone.locked}</span>
               <span class="lock-rule"></span>
@@ -147,17 +162,22 @@ const faqSchema = {
           <div class="screen">
             <div class="trial-bar">
               <div class="trial-bar-row">
-                <span class="tile tile-ig small">I</span>
+                <span class="tile tile-ig small">
+                  <svg class="tile-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/></svg>
+                </span>
                 <span class="trial-bar-label">{c.demo.remaining}</span>
                 <strong data-trial-clock>0:15</strong>
               </div>
               <div class="meter meter-live"><span data-trial-meter></span></div>
             </div>
             <div class="feed" data-trial-feed tabindex="0" role="region" aria-label={c.demo.hint}>
-              {feedPosts.map((post) => (
+              {feedPosts.map((post, idx) => (
                 <article class="post">
-                  <div class="post-head"><i class={`avatar art-${post.art}`}></i><span>@{post.handle}</span></div>
-                  <div class={`post-art art-${post.art}`}></div>
+                  <div class="post-head">
+                    <img class="avatar" src={post.avatar} alt="" width="24" height="24" loading={idx < 2 ? "eager" : "lazy"} />
+                    <span>@{post.handle}</span>
+                  </div>
+                  <img class="post-art" src={post.img} alt="" width="248" height="248" loading={idx < 2 ? "eager" : "lazy"} />
                   <div class="post-actions" aria-hidden="true">
                     <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z" /></svg>
                     <svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l.9-4.4A8 8 0 1 1 20 12Z" /></svg>
@@ -169,7 +189,9 @@ const faqSchema = {
               ))}
             </div>
             <div class="lock" data-trial-lock>
-              <span class="tile tile-ig lock-tile">I</span>
+              <span class="tile tile-ig lock-tile">
+                <svg class="tile-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/></svg>
+              </span>
               <strong class="lock-app">Instagram</strong>
               <span class="lock-msg">{c.phone.locked}</span>
               <span class="lock-rule"></span>
@@ -224,7 +246,18 @@ const faqSchema = {
                   <span class={`status status-${f.status}`}>{statusLabel[f.status]}</span>
                 </div>
                 <div class="friend-usage">
-                  <span>{f.app}</span>
+                  <span class="friend-app">
+                    {f.app === 'Instagram' && (
+                      <svg class="mini-app-icon icon-ig" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    )}
+                    {f.app === 'TikTok' && (
+                      <svg class="mini-app-icon icon-tt" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.47 6.27 6.27 0 0 0 1.86-4.46V8.75a8.18 8.18 0 0 0 4.91 1.62V6.92a4.8 4.8 0 0 1-1-.23z"/></svg>
+                    )}
+                    {f.app === 'YouTube' && (
+                      <svg class="mini-app-icon icon-yt" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    )}
+                    <span>{f.app}</span>
+                  </span>
                   <span>{f.used}/{f.limit} {c.social.min}</span>
                 </div>
                 <div class="friend-meter"><span style={`--w:${Math.min(f.used / f.limit, 1) * 100}%`}></span></div>
@@ -309,9 +342,32 @@ const faqSchema = {
         <div class="phone phone-night">
           <div class="screen">
             <div class="statusbar"><span>23:14</span><span class="status-dots"><i></i><i></i><i></i></span></div>
+            <div class="yt-mock" aria-hidden="true">
+              <div class="yt-player">
+                <img src="/mockup/yt-thumb.webp" alt="" width="260" height="146" class="yt-thumb" loading="lazy" />
+                <div class="yt-progress-track"><span class="yt-progress-fill"></span></div>
+                <div class="yt-time-pill">18:42 / 24:10</div>
+              </div>
+              <div class="yt-details">
+                <div class="yt-channel-row">
+                  <div class="yt-ch-avatar"></div>
+                  <div class="yt-ch-meta">
+                    <span class="yt-title-line"></span>
+                    <span class="yt-sub-line"></span>
+                  </div>
+                </div>
+                <div class="yt-actions-row">
+                  <div class="yt-btn-pill"></div>
+                  <div class="yt-btn-pill"></div>
+                  <div class="yt-btn-pill"></div>
+                </div>
+              </div>
+            </div>
             <div class="night-lock">
               <span class="night-brand">Limitra App Block</span>
-              <span class="tile tile-yt lock-tile">Y</span>
+              <span class="tile tile-yt lock-tile">
+                <svg viewBox="0 0 24 24" class="icon-play" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+              </span>
               <strong class="lock-app">YouTube</strong>
               <span class="lock-msg">{c.phone.locked}</span>
               <span class="lock-rule"></span>
@@ -695,6 +751,10 @@ const faqSchema = {
   .tile.small { width: 1.6rem; height: 1.6rem; border-radius: .5rem; font-size: .7rem; }
   .tile-ig { background: linear-gradient(135deg, #f7a23b, #e1306c 55%, #7b3fbf); }
   .tile-yt { background: #e62117; }
+  .tile-icon { width: 58%; height: 58%; display: block; }
+  .tile .icon-play { width: 56%; height: 56%; display: block; margin-inline-start: 2px; }
+  .lock-tile .tile-icon { width: 58%; height: 58%; }
+  .lock-tile .icon-play { width: 58%; height: 58%; margin-inline-start: 3px; }
 
   .meter { height: 6px; overflow: hidden; border-radius: 6px; background: #e3e8f1; }
   .meter span { display: block; height: 100%; border-radius: inherit; background: var(--accent); transform-origin: left center; transform: scaleX(.88); transition: background-color .3s ease; }
@@ -733,8 +793,8 @@ const faqSchema = {
   .art-6 { background: radial-gradient(circle at 70% 30%, #ffe9a8 0 12%, transparent 13%), linear-gradient(180deg, #ff9f6e, #5b3a6e); }
 
   .post-head { display: flex; align-items: center; gap: .5rem; padding: .55rem .2rem; font-size: .72rem; font-weight: 700; }
-  .avatar { width: 1.5rem; height: 1.5rem; border-radius: 50%; }
-  .post-art { aspect-ratio: 1 / 1; border-radius: .9rem; }
+  .avatar { width: 1.5rem; height: 1.5rem; border-radius: 50%; object-fit: cover; flex: none; }
+  .post-art { display: block; width: 100%; aspect-ratio: 1 / 1; border-radius: .9rem; object-fit: cover; }
 
   /* ---------- GİRİŞ ---------- */
   .hero { overflow: hidden; padding-block: clamp(3rem, 7vw, 6rem) clamp(4rem, 8vw, 7rem); background: var(--paper); }
@@ -889,6 +949,11 @@ const faqSchema = {
   .status-near { background: var(--warn-soft); color: var(--warn); }
   .status-over { background: var(--bad-soft); color: var(--bad); }
   .friend-usage { display: flex; justify-content: space-between; gap: .5rem; margin: .25rem 0 .45rem; color: var(--text-muted); font-size: .76rem; font-weight: 600; }
+  .friend-app { display: inline-flex; align-items: center; gap: .35rem; }
+  .mini-app-icon { width: .95rem; height: .95rem; flex: none; }
+  .mini-app-icon.icon-ig { color: #e1306c; }
+  .mini-app-icon.icon-tt { color: #000; }
+  .mini-app-icon.icon-yt { color: #e62117; }
   .friend-meter { height: 5px; border-radius: 5px; background: #e8ecf3; overflow: hidden; }
   .friend-meter span { display: block; width: var(--w); height: 100%; border-radius: inherit; background: #127451; }
   .is-near .friend-meter span { background: #d98a1c; }
@@ -950,12 +1015,40 @@ const faqSchema = {
   .night-quote { display: flex; flex-direction: column; align-self: stretch; margin: 0 0 1.8rem; color: var(--cream); font-family: var(--font-heading); font-size: clamp(1.8rem, 3.4vw, 2.7rem); line-height: 1.08; letter-spacing: -.02em; }
   .night-quote em { color: var(--gold); font-weight: 400; }
   .phone-night { border-color: #2a2622; background: #2a2622; box-shadow: 0 50px 100px -30px rgba(0, 0, 0, .8); transform: rotate(2deg); }
-  .phone-night .screen { background: #0f0d0c; color: var(--cream); }
-  .night-lock { display: flex; flex-direction: column; align-items: center; height: calc(100% - 40px); padding: 1rem 1.5rem 1.8rem; text-align: center; }
+  .phone-night .screen { position: relative; background: #0a0908; color: var(--cream); overflow: hidden; }
+  .yt-mock { padding: .4rem .9rem; opacity: .9; }
+  .yt-player { position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: .8rem; overflow: hidden; background: #000; box-shadow: 0 4px 16px rgba(0, 0, 0, .4); }
+  .yt-thumb { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .yt-progress-track { position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: rgba(255, 255, 255, .25); }
+  .yt-progress-fill { display: block; width: 72%; height: 100%; background: #ff0000; }
+  .yt-time-pill { position: absolute; bottom: 6px; right: 6px; padding: 2px 5px; border-radius: 4px; background: rgba(0, 0, 0, .8); color: #fff; font-size: .6rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .yt-details { padding: .75rem .2rem; display: flex; flex-direction: column; gap: .7rem; }
+  .yt-channel-row { display: flex; align-items: center; gap: .6rem; }
+  .yt-ch-avatar { width: 1.8rem; height: 1.8rem; border-radius: 50%; background: #26211d; flex: none; }
+  .yt-ch-meta { flex: 1; display: flex; flex-direction: column; gap: .35rem; }
+  .yt-title-line { height: .55rem; width: 85%; border-radius: 4px; background: #2a241f; display: block; }
+  .yt-sub-line { height: .45rem; width: 50%; border-radius: 4px; background: #1c1815; display: block; }
+  .yt-actions-row { display: flex; gap: .45rem; }
+  .yt-btn-pill { height: 1.5rem; width: 3.4rem; border-radius: 999px; background: #1f1b17; }
+
+  .night-lock {
+    position: absolute;
+    inset: 38px 0 0 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1.4rem 1.8rem;
+    text-align: center;
+    background: rgba(12, 10, 9, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
   .night-brand { margin-bottom: auto; color: var(--night-muted); font-size: .7rem; font-weight: 700; letter-spacing: .08em; }
-  .night-lock .lock-tile { box-shadow: 0 0 0 6px #241f1b, 0 0 0 7px rgba(217, 87, 63, .6); }
+  .night-lock .lock-tile { box-shadow: 0 0 0 6px #241f1b, 0 0 0 7px rgba(217, 87, 63, .6); margin-top: .4rem; }
   .night-lock .lock-msg { color: #e0705a; }
-  .night-lock .lock-quote { margin-top: .2rem; color: var(--cream); }
+  .night-lock .lock-quote { margin-top: .4rem; color: var(--cream); font-size: 1.05rem; }
   .night-lock .lock-cite { color: var(--night-muted); }
   .night-lock .lock-back { margin-top: auto; color: var(--night-muted); }
 
