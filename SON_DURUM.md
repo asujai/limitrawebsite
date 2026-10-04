@@ -43,8 +43,8 @@
 ## Son Yapılan İşlem
 - **İşlem:** 20 derin araştırma makalesi (IDs 37-56) 11 dilde eklendi, çift ürün tasarım dili entegre edildi, site haritası 705 URL ile güncellendi.
 - **Model:** Antigravity
-- **Doğrulama:** `npm run build` 707 sayfa / 0 hata, `npm run check:links` OK.
-- **Sonraki adım:** Deploy ve canlı site kontrolü.
+- **Doğrulama:** `npm run build` 707 sayfa / 0 hata, `npm run check:links` OK, `npm run deploy:vps` → "Yayin tamamlandi", sürüm `20261004-110730`; `npm run check:live` → "Canli site guncel."
+- **Sonraki adım:** Günlük haber akışının planlı şekilde sürdürülmesi.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
