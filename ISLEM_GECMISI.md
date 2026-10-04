@@ -13,8 +13,8 @@
   4. "Birlikte hesap verebilirlik" arkadaş kartlarındaki Instagram, TikTok ve YouTube etiketlerinin yanına resmi mini marka SVG ikonları eklendi.
   5. Layout, CSS flex/grid hizalamaları ve JavaScript kilit/kaydırma mekanizmaları 11 dilin tamamında sıfır sapma ile korundu.
 * **Doğrulama:** `npm run build` (707 sayfa, 0 hata), `npm run check:links` (OK), browser preview ile Hero, Dene ve Gece telefonları görsel ekran görüntüsü denetiminden başarıyla geçirildi.
-* **Bilinen Sorunlar:** Yok
-* **Sonraki Öneri:** Yok
+* **Bilinen Sorunlar:** DEPLOY BEKLİYOR: 8d2267f (VPS SSH bağlantı zaman aşımı - port 22 banner exchange timeout).
+* **Sonraki Öneri:** VPS SSH port 22 erişilebilir olduğunda `npm run deploy:vps` çalıştırılarak canlıya alınmalı.
 
 ## [2026-10-04 12:41] - Haber Kartı Ayırıcı Çizgisi ve Footer Hiyerarşisi Simetrisi Hizalandı
 
