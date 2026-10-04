@@ -41,7 +41,7 @@ try {
     if ($LASTEXITCODE -ne 0) { throw "Baglanti denetimi basarisiz oldu." }
 
     Write-Host "[3/5] Yayin paketi hazirlaniyor..."
-    tar -czf $localArchive -C (Join-Path $projectRoot "dist") .
+    tar --exclude="uygulama-goruntuleri" -czf $localArchive -C (Join-Path $projectRoot "dist") .
     if ($LASTEXITCODE -ne 0) { throw "Yayin paketi olusturulamadi." }
 
     Write-Host "[4/5] Paket sunucuya aktariliyor..."
@@ -58,7 +58,7 @@ try {
     if ($LASTEXITCODE -ne 0) { throw "Nginx yapilandirmasi dogrulanamadi; eski yapilandirma geri yuklendi." }
 
     Write-Host "[5/5] Yeni surum atomik olarak etkinlestiriliyor..."
-    $remoteCommand = "set -e; sudo mkdir -p '$remoteRelease'; sudo tar -xzf '$remoteArchive' -C '$remoteRelease'; sudo ln -sfn '$remoteRelease' /var/www/limitra/current; sudo nginx -t; sudo systemctl reload nginx; rm -f '$remoteArchive'; (sudo find /var/www/limitra/releases -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | tail -n +6 | cut -d' ' -f2- | xargs -r sudo rm -rf >/dev/null 2>&1 &)"
+    $remoteCommand = "set -e; sudo mkdir -p '$remoteRelease'; sudo tar -xzf '$remoteArchive' -C '$remoteRelease'; if [ -d /var/www/limitra/current/uygulama-goruntuleri ] && [ ! -d '$remoteRelease/uygulama-goruntuleri' ]; then sudo cp -r /var/www/limitra/current/uygulama-goruntuleri '$remoteRelease/'; fi; sudo ln -sfn '$remoteRelease' /var/www/limitra/current; sudo nginx -t; sudo systemctl reload nginx; rm -f '$remoteArchive'; (sudo find /var/www/limitra/releases -mindepth 1 -maxdepth 1 -type d -printf '%T@ %p\n' | sort -nr | tail -n +6 | cut -d' ' -f2- | xargs -r sudo rm -rf >/dev/null 2>&1 &)"
     & ssh @sshOptions $sshTarget $remoteCommand
     if ($LASTEXITCODE -ne 0) { throw "Sunucudaki yayin islemi basarisiz oldu." }
 
