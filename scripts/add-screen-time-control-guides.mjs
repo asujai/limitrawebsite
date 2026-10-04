@@ -605,11 +605,11 @@ for (const cfg of langConfigs) {
         title = 'ทำไมระบบจำกัดเวลาหน้าจอในตัวเครื่องถึงล้มเหลว: ความเข้าใจผิดของการรู้รหัสผ่านตัวเอง';
         summary = 'ทำไมตัวจับเวลาที่กดข้ามได้ง่ายถึงพ่ายแพ้ต่อพลังใจของมนุษย์ และพื้นฐานเชิงพฤติกรรมที่จะสร้างวินัยทางดิจิทัลได้อย่างแท้จริง';
       } else if (article.id === '60') {
-        slug = 'phrutsikam-phlat-wan-prakan-phrung-wela-non-thuang-khuen-kan-non-cak-kan-ไไไthai';
+        slug = 'phrutsikam-phlat-wan-prakan-phrung-wela-non-thuang-khuen-kan-non-thai';
         title = 'Revenge Bedtime Procrastination: ทวงคืนเวลานอนจากการไถมือถือตอนดึก';
         summary = 'จิตวิทยาเบื้องหลังการขโมยเวลานอนเมื่อกลางวันถูกกลืนกินด้วยภาระหน้าที่ และวิธีปกป้องการสร้างเมลาโทนินตามธรรมชาติ';
       } else if (article.id === '59') {
-        slug = 'luk-mai-yom-wang-tablet-khokamnot-na-co-thi-chatchen-lae-rai-khwam-khat-แยng';
+        slug = 'luk-mai-yom-wang-tablet-khokamnot-na-co-thi-chatchen-lae-rai-khwam-khat-yaeng';
         title = 'ลูกไม่ยอมวางแท็บเล็ต: วิธีกำหนดขอบเขตเวลาหน้าจอที่ชัดเจนและไร้การทะเลาะสำหรับพ่อแม่';
         summary = 'สาเหตุทางระบบประสาทที่ทำให้เด็กโมโหเมื่อถูกยึดหน้าจอ และวิธีที่ผู้ปกครองสามารถมอบหมายหน้าที่จำกัดเวลาให้ระบบโดยไม่ต้องเป็นคนใจร้าย';
       } else if (article.id === '58') {
