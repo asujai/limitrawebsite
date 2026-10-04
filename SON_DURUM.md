@@ -70,26 +70,28 @@
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
-- Toplam üretilen sayfa sayısı: 773 statik sayfa, 0 hata, kırık iç bağlantı yok.
+- Toplam üretilen sayfa sayısı: 1,158 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** 'Ekran Süresi Kontrolü' (Screen Time Control) yeni kategorisi ve 6 derin uygulamalı rehber (IDs 57-62) 11 dilde eşzamanlı olarak eklendi, Bilgi Merkezi ızgarası güncellendi.
+- **İşlem:** 20 Ekran Süresi Kontrolü Rehberi (11 dilde), Üst Menü Mimarisi ve Çift Ürünlü CTA Revizyonu tamamlanarak Cloudflare'e deploy edildi.
 - **Model:** Antigravity
-- **Doğrulama:** `npm run sitemap` (771 URL), `npm run build` 773 sayfa / 0 hata, `npm run check:links` OK.
-- **Sonraki adım:** Deploy kontrolü ve yayınlama.
+- **Sürüm / Deploy ID:** `41586798-943f-4210-a683-6489cf979b90` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run build` (1,158 sayfa / 0 hata), `npm run check:links` (OK), `npm run deploy` (1,160 dosya yüklendi), `npm run check:live` ("Canli site guncel.").
+- **Sonraki adım:** Yok.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
-- `SECTION_LANGS`: `news` bölümü 11 dilde tam aktiftir (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`). Diğer bölümler (`guides`, `contact`, `legal`, `product`) `tr` ve `en` olarak çalışır ve eksik dillerde `resolveUrl` güvenli bir şekilde İngilizce sürüme düşer.
+- `SECTION_LANGS`: `news` ve `screenTimeControl` bölümleri 11 dilde tam aktiftir (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`). Diğer bölümler (`guides`, `contact`, `legal`, `product`) `tr` ve `en` olarak çalışır ve eksik dillerde `resolveUrl` güvenli bir şekilde İngilizce sürüme düşer.
 - `buildUrl` yalnızca gerçekten var olan sayfayı döner; `hreflang` etiketleri bu sayede 11 dilde hatasız üretilir.
-- Haber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
+- Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (771 URL).
-- `npm run build` → 773 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,156 URL).
+- `npm run build` → 1,158 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- Sitemap ↔ üretilen sayfalar tam uyumlu (771 URL).
-- `git push origin main` → senkronize edilecek.
+- `npm run deploy` → Cloudflare sürümü `41586798-943f-4210-a683-6489cf979b90`.
+- `npm run check:live` → "Canli site guncel." (id 76, fiyat ve app-ads.txt doğrulandı).
+- `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı
 Kullanıcı yeni bir haber veya konu paylaştığında:

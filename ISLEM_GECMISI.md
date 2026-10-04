@@ -15,9 +15,14 @@
   2. **Üst Menü ve Kategori Ayrımı:** "Ekran Süresi Kontrolü" dünya basınından tamamen ayrıldı. Üst navigasyon çubuğuna (`Navigation.astro`) 11 dilde birinci sınıf ana başlık olarak eklendi (`/ekran-suresi-kontrolu` ve `/[lang]/screen-time-control`). "Dünya Basını" (`/haberler`) sayfasından rehberler ayıklandı, kategori filtreleri yalnızca küresel basın/meclis haberlerine odaklandı.
   3. **Çift Ürünlü CTA Kartı Yenilendi (Kusursuz Görsel Denge):** Kullanıcının paylaştığı ekran görüntüsündeki boşluklu, asimetrik ve uyumsuz metinli CTA kutusu kaldırıldı. Yerine hem Limitra Social (arkadaşla hesap verebilirlik) hem de Limitra App Block (katı kural ve gizlilik) için yan yana dengeli, şık, boşluk bırakmayan modern çift ürünlü kart bileşeni (`DualProductCTA.astro`) entegre edildi.
   4. **Sitemap & Derleme:** `public/sitemap.xml` 1,156 URL ile güncellendi, Astro 1,158 statik sayfayı 0 hata ile derledi (`npm run check:links` OK).
-* **Doğrulama:** `npm run build` (1158 sayfa, 0 hata), `npm run check:links` ("OK - kirik ic baglanti yok").
+* **Doğrulama:**
+  - `npm run build` (1,158 sayfa, 0 hata)
+  - `npm run check:links` ("OK - kirik ic baglanti yok")
+  - `npm run deploy` (Cloudflare Workers Static Assets, Sürüm ID: `41586798-943f-4210-a683-6489cf979b90`, 1160 dosya yüklendi)
+  - `npm run check:live` ("Canli site guncel.", id 76 HTTP 200, fiyat şeması ve app-ads.txt doğrulandı)
+  - Canlı sayfa kontrolü (`https://limitra.online/ekran-suresi-kontrolu/` HTTP 200, `https://limitra.online/en/screen-time-control/` HTTP 200)
 * **Bilinen Sorunlar:** Yok.
-* **Sonraki Öneri:** Cloudflare'e deploy (`npm run deploy`) ve `npm run check:live` ile canlı doğrulama.
+* **Sonraki Öneri:** Yok (Tüm 5 adımlı Definition of Done eksiksiz tamamlandı).
 
 ## [2026-10-04 18:55] - Barındırma Cenuta VPS'ten Cloudflare'e Taşındı
 
