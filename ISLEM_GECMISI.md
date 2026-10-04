@@ -1,5 +1,43 @@
 # İşlem Geçmişi
 
+## [2026-10-04 11:15] - 20 Derin Araştırma Makalesi 11 Dilde Eklendi (ID 37-56) ve Çift Ürün Tasarımı Entegre Edildi
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR) ve 10 dildeki `src/data/news-*.json` (en, es, fr, de, pt, it, ar, id, fil, th) — Her dosyaya 20 yeni kapsamlı makale eklendi (Toplam 56'şar makale)
+  - `[GÜNCELLENDİ]` `src/components/NewsArticle.astro` — Çözüm kutusu sitenin yeni çift ürün mimarisine (Limitra Social + Limitra App Block) ve Newsreader/Manrope tipografisine uyarlandı
+  - `[GÜNCELLENDİ]` `src/components/NewsIndex.astro` — Alt portal CTA kutusu çift uygulama mağaza aksiyonlarına uyarlandı
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` ve `public/sitemap.xml` — 705 URL ile güncellendi
+  - `[GÜNCELLENDİ]` `SON_DURUM.md` ve `ISLEM_GECMISI.md`
+* **Yapılan İşlem:**
+  1. Kullanıcının `haber20/` klasöründe ilettiği kapsamlı araştırma dokümanı (`Ekran Bağımlılığı Üzerine 20 Araştırma.pdf`) temel alınarak 20 adet derin araştırma makalesi yapılandırıldı:
+     - ID 37: Phubbing (Roberts & David, Baylor Üniversitesi, Computers in Human Behavior)
+     - ID 38: Brain Drain (Adrian Ward, UT Austin, JACR)
+     - ID 39: 23 Dakika 15 Saniye / Attention Span (Gloria Mark, UC Irvine)
+     - ID 40: Yalnızlık Salgını / 15 Sigara (Julianne Holt-Lunstad, BYU & US Surgeon General, PLOS Medicine)
+     - ID 41: Silikon Vadisi Paradoksu (Steve Jobs, Bill Gates, Waldorf Düşük Teknoloji, NYT)
+     - ID 42: Meta Facebook Files / %32 Beden Algısı (WSJ / Frances Haugen)
+     - ID 43: Popcorn Brain / Patlamış Mısır Beyni (David Levy, Washington Üniversitesi, Mindful Tech)
+     - ID 44: Hayalet Titreşim Sendromu / %89 (Michelle Drouin, Indiana-Purdue, Computers in Human Behavior)
+     - ID 45: Gece Ekranı ve Uyku / Melatonin (Charles Czeisler, Harvard Tıp Fakültesi, PNAS)
+     - ID 46: Z Kuşağının Sessiz İsyanı / Dumbphone Devrimi (Morning Consult / HMD Global)
+     - ID 47: Technoference / Ebeveyn Telefonunun Çocuk Davranışlarına Etkisi (Jenny Radesky, Michigan Üniversitesi, Child Development)
+     - ID 48: Dijital Demans / Zihinsel İşleri Telefona Devretmek (Manfred Spitzer, Ulm Üniversitesi, PNAS)
+     - ID 49: Sürekli Kısmi Dikkat ve Ekran Apnesi (Linda Stone)
+     - ID 50: UPenn 30 Dakika Sosyal Medya Deneyi (Melissa Hunt, JSCP)
+     - ID 51: İntikam Ertelemesi / Revenge Bedtime Procrastination (Floor Kroese, Utrecht Üniversitesi, Frontiers in Psychology)
+     - ID 52: Kaygılı Nesil / The Anxious Generation (Jonathan Haidt, NYU Stern, Penguin Press)
+     - ID 53: Doomscrolling ve Varoluşsal Kaygı (Reza Shabahang, Flinders Üniversitesi, CHBR)
+     - ID 54: Oxford 2024 Yılının Kelimesi: Brain Rot (Oxford University Press)
+     - ID 55: Text Neck / 27 Kilo Yük (Dr. Kenneth Hansraj, Surgical Technology International)
+     - ID 56: Hesap Verebilirlik Ortaklığı / %43'ten %76'ya Başarı (Dr. Gail Matthews, Dominican Üniversitesi)
+  2. 20 makale tüm istatistiki verileri, metodolojik çekinceleri, nörolojik açıklamaları ve çözüm önerileriyle birlikte 11 dile (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) tam editoryal akıcılıkla çevrildi.
+  3. `NewsArticle.astro` ve `NewsIndex.astro` bileşenlerindeki çözüm kutuları, sitenin yeni çift ürün stratejisine (Limitra Social - arkadaş grubuyla odak kilidi / Limitra App Block - katı kural ve çevrimdışı gizlilik) uygun biçimde buton ve stil açısından yenilendi.
+  4. `node scripts/generate-sitemap.mjs` ile 220 yeni URL site haritasına işlendi (toplam 705 URL). `npm run build` ile 707 statik sayfa 0 hata ile üretildi, `npm run check:links` ile 0 kırık bağlantı doğrulandı.
+* **Doğrulama:** `npm run build` (707 sayfa, 0 hata), `npm run check:links` (OK), site haritası 705 URL, tüm 11 JSON dosyasında 56'şar makale doğrulandı.
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-03 22:20] - JAMA Pediatrics Küresel Şemsiye Derlemesi 11 Dilde Eklendi (ID 36)
 
 * **Model:** Antigravity

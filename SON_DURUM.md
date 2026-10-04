@@ -9,7 +9,12 @@
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
-## Güncel Durum (2026-10-03)
+## Güncel Durum (2026-10-04)
+- **20 Derin Araştırma Makalesi (ID 37-56) ve Çift Ürün Tasarım Entegrasyonu (Antigravity, 4 Ekim):**
+  - Kullanıcının ilettiği `Ekran Bağımlılığı Üzerine 20 Araştırma` çalışması temelinde 20 derin araştırma makalesi (Phubbing, Brain Drain, 23 Dakika Kuralı, Yalnızlık Salgını, Silikon Vadisi Paradoksu, Meta Facebook Files, Popcorn Brain, Hayalet Titreşim, Gece Ekranı/Melatonin, Dumbphone Devrimi, Technoference, Dijital Demans, Ekran Apnesi, UPenn 30 Dk Kuralı, İntikam Ertelemesi, Kaygılı Nesil/Haidt, Doomscrolling, Oxford Brain Rot, Text Neck, Hesap Verebilirlik Ortaklığı) 11 dilde eşzamanlı olarak üretildi (IDs 37-56).
+  - Sitedeki haber şablonu (`NewsArticle.astro`) ve haber portalı (`NewsIndex.astro`), yeni çift ürün stratejisine (Limitra Social - arkadaşla ortak kilit / Limitra App Block - katı kural ve gizlilik) ve Newsreader/Manrope tipografi sistemine entegre edildi.
+  - 707 statik sayfa 0 hata ile derlendi, sitemap 705 URL ile yenilendi (`npm run check:links` OK).
+
 - **JAMA Pediatrics Küresel Şemsiye Derlemesi ve 3 Ekim Haberi (ID 36) (Antigravity, 3 Ekim):**
   - 64 ülkeden 2,8 milyondan fazla çocuğu ve 23 meta-analizi kapsayan dev şemsiye derleme 11 dilde eşzamanlı olarak eklendi. Ekran süresinin akademik başarı, dil gelişimi, dikkat eksikliği ve kaygı ile ilişkisi; ekran süresinin popülasyon düzeyinde değiştirilebilir bir risk faktörü oluşu aktarıldı.
   - 487 statik sayfa 0 hata ile derlendi, sitemap 485 URL ile yenilendi, VPS'e deploy edildi (sürüm `20261003-221728`) ve canlıda doğrulandı (`check:live` OK).
@@ -33,13 +38,13 @@
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
-- Toplam üretilen sayfa sayısı: 487 statik sayfa, 0 hata, kırık iç bağlantı yok.
+- Toplam üretilen sayfa sayısı: 707 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** 3 Ekim 2026 haberi (ID 36 - JAMA Pediatrics 64 ülke şemsiye derlemesi) 11 dilde eklendi, site haritası yenilendi, VPS'e dağıtıldı.
+- **İşlem:** 20 derin araştırma makalesi (IDs 37-56) 11 dilde eklendi, çift ürün tasarım dili entegre edildi, site haritası 705 URL ile güncellendi.
 - **Model:** Antigravity
-- **Doğrulama:** `npm run build` 487 sayfa / 0 hata, `npm run check:links` OK, `npm run deploy:vps` → "Yayin tamamlandi", sürüm `20261003-221728`; `npm run check:live` → "Canli site guncel."
-- **Sonraki adım:** Günlük haber akışının planlı şekilde sürdürülmesi.
+- **Doğrulama:** `npm run build` 707 sayfa / 0 hata, `npm run check:links` OK.
+- **Sonraki adım:** Deploy ve canlı site kontrolü.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.

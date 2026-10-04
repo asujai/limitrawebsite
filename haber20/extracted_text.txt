@@ -1,0 +1,1156 @@
+=== PAGE 1 ===
+Ekran Bağımlılığı Üzerine 20 Araştırma
+ Oct 4, 2026  ·  @abdullah göksu
+Yayın öncesi not (yayımlamadan önce bu bölümü sil)
+Metinler orijinal kaynaklarla karşılaştırıldı. Aşağıdaki hatalar düzeltildi; doğrulanamayan
+iddialar ya çıkarıldı ya da çekinceyle sunuldu.
+# Orijinal metindeki ifade Yapılan düzeltme
+1 %36,6 "klinik düzeyde depresif", %22,6
+"şiddetli kavga"
+Çalışma "en azından zaman zaman
+depresif hissetme" ve "çatışma" diyor;
+klinik tanı yok. Beyin bölgesi iddiası bu
+çalışmaya ait değil, ayrı bir araştırmaya
+dayandırıldı.
+2 "IQ düşüyor" Ölçülen şey çalışma belleği ve akıcı zekâ.
+Sonraki tekrar çalışmalarının karışık
+sonuçları eklendi.
+3 "Dikkat kalıntısı" Gloria Mark'a ait; 23 dk
+15 sn "bir bildirim" sonrası
+Kavram Sophie Leroy'a (2009) ait. 23 dk 15
+sn, bölünen işe geri dönüş süresi;
+bildirime özgü değil.
+4 Z kuşağı "%60 / günde 4+ saat" istatistiği Kaynağı bulunamadı, çıkarıldı. %26–29
+ayrı bir 2015 meta-analizinden; "15 sigara"
+karşılaştırması ABD Genel Cerrahı
+raporuna atfedildi.
+5 Jobs iPad'i "tamamen yasakladı"; Meta
+yöneticileri Waldorf'ta
+Jobs "kullanmadılar, sınırlıyoruz" dedi.
+NYT haberi Google, Apple, Yahoo, HP ve
+eBay çalışanlarını sayıyor.
+6 "Ergenlerin %13'ü intihar düşüncesini
+Instagram'a bağladı"
+Doğrusu: intihar düşüncesi bildiren
+gençlerin İngiltere'de %13'ü, ABD'de
+%6'sı. Algoritma iddiası Haugen'in iddiası
+olarak sunuldu.
+7 D2 reseptör azalması kısa videoyla
+kanıtlanmış gibi
+Madde bağımlılığı araştırmalarından gelen
+bir bulgu; kısa video için hipotez olarak
+sunuldu.
+8 Duygusal tükenmişlik bulgusu Bu çalışmada yok; çıkarıldı.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 1 of 34
+
+=== PAGE 2 ===
+Altıncı ve on altıncı maddeler intihar ve kendine zarar konularına değiniyor. Bu sayfaların
+sonuna metinde hazır duran destek notunu eklemen önerilir.
+# Orijinal metindeki ifade Yapılan düzeltme
+9 "REM uykusunu 90 dakika geciktiriyor" 1,5 saat kayan şey melatonin ritmi. REM
+süresi azalıp zamanlaması gecikti. Başlık
+düzeltildi.
+10 %148 satış artışı; Counterpoint ve FT
+kaynaklı
+Rakam zayıf bir kaynağa dayanıyor,
+çekinceyle sunuldu. Counterpoint/FT atfı
+doğrulanamadı. %16 / %28 Morning
+Consult anketine ait.
+11 Radesky, Pediatrics, 172 aile Technoference çalışması: McDaniel &
+Radesky, Child Development 2018, 170
+aile. Boylamsal takip: Pediatric Research
+2018.
+12 Gençlerde demans benzeri belirtiler
+"tırmanıyor"
+Epidemiyolojik kanıtı yok. "Dijital demans"
+klinik bir tanı değil.
+13 %80 ekran apnesi Stone'un hakemsiz, gayriresmî gözlemi
+olarak belirtildi. Baş ağrısı nedenselliği
+çıkarıldı.
+14 "Hayat tatmini fırladı" Çalışmada böyle bir bulgu yok; çıkarıldı.
+15 Ego tükenmesi kesin gerçek gibi Büyük tekrar çalışmalarında
+doğrulanamadığı belirtildi.
+16 %188 / %167 tüm ergen kızlar için 10–14 yaş kızlar; %188 kendine zarar
+nedeniyle acil servis başvuruları.
+Nedensellik tartışması eklendi.
+17 Mizantropi tüm katılımcılarda Yalnızca İran örnekleminde anlamlı çıktı.
+19 Yılda 1.000–1.400 saat Hansraj'ın hesabı 700–1.400 saat. Fıtık ve
+migren nedenselliği yumuşatıldı.
+20 ATD/ASTD %10 → %95 skalası Özgün çalışması bulunamıyor; çıkarıldı.
+Yerine Gail Matthews'un %43 → %76
+bulgusu kondu.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 2 of 34
+
+=== PAGE 3 ===
+1. Phubbing: Telefon Yüzünden "Görünmez" Olan Partner
+Partnerinizin yanındayken telefona dalmak, ilişkiyi sessizce aşındırıyor. Baylor
+Üniversitesi'nin araştırmasında katılımcıların %46,3'ü partnerinin bunu düzenli olarak
+yaptığını söyledi.
+Kavram nereden geliyor?
+"Phubbing", İngilizce "phone" (telefon) ve "snubbing" (yok sayma, hor görme)
+sözcüklerinin birleşiminden doğdu. Terim 2012'de Avustralya'da, Macquarie Sözlüğü için
+yürütülen bir kampanyayla yaygınlaştı. Anlamı basit: Biriyle fiziksel olarak birlikteyken
+dikkatini telefona vermek.
+Araştırma
+Baylor Üniversitesi Hankamer İşletme Fakültesi'nden Prof. James A. Roberts ve Dr.
+Meredith E. David, bulgularını 2016'da Computers in Human Behavior dergisinin 54.
+cildinde yayımladı. Makalenin başlığı dikkat çekici: "Hayatım, cep telefonumun dikkatini
+dağıtan bir şey haline geldi."
+Çalışma iki aşamadan oluştu ve toplam 453 ABD'li yetişkini kapsadı. İlk aşamada partner
+phubbing'ini ölçen bir ölçek geliştirildi. İkinci aşamada bu davranışın ilişki ve ruh hâli
+üzerindeki etkisi incelendi.
+Bulgular
+Katılımcıların %46,3'ü partnerinin kendisini telefon yüzünden yok saydığını bildirdi.
+%22,6'sı bu durumun ilişkisinde çatışmaya yol açtığını söyledi.
+%36,6'sı en azından zaman zaman kendini depresif hissettiğini belirtti.
+İlişkisinden "çok memnun" olduğunu söyleyenlerin oranı yalnızca %32'ydi.
+Araştırmacılar bir zincir tespit etti. Phubbing çatışmayı artırıyor, çatışma ilişki doyumunu
+düşürüyor. Düşen ilişki doyumu genel yaşam doyumunu, o da depresif duygulara açıklığı
+etkiliyor.
+Bir not: %36,6'lık oran klinik bir depresyon tanısı değil, katılımcıların kendi beyanına
+dayanıyor. Bu bir anket çalışması olduğu için bulgular kesin neden-sonuç değil, güçlü
+bağlantılar olarak okunmalı.
+Neden bu kadar acıtıyor?
+İnsan, karşısındakinin ilgisini kaybetmeyi bir tür dışlanma olarak algılar. UCLA'dan Naomi
+Eisenberger ve ekibinin 2003'te Science dergisinde yayımladığı deneyde, sosyal dışlanma
+yaşayan kişilerin beyninde dorsal anterior singulat korteks aktive oldu. Bu bölge fiziksel
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 3 of 34
+
+=== PAGE 4 ===
+acının duygusal boyutunda da rol oynuyor.
+Phubbing'in kendisi beyin görüntülemeyle test edilmiş değil. Yine de bu bulgular, kısa
+süreliğine görmezden gelinmenin bile neden bu kadar iğneleyici hissettirdiğini anlamaya
+yardım ediyor. Telefona kayan her bakış, karşıdaki kişiye "şu an senden daha önemli bir şey
+var" mesajı verir.
+Gündelik hayattan bir sahne
+Akşam yemeğinde ya da yatakta yan yana oturan bir çift düşünün. Biri gününü heyecanla
+anlatırken diğeri başını sallıyor, ama başparmağı Reels akışında. "Seni dinliyorum" dese bile
+göz teması yok.
+Bir kez yaşandığında bu küçük bir kırgınlıktır. Her akşam tekrarlandığında ise "anlatmaya
+değmez" düşüncesine dönüşür. İlişkilerdeki uzaklaşma çoğu zaman büyük kavgalarla değil,
+böyle tekrar eden küçük anlarla başlar.
+Ne yapılabilir?
+Yemek masası ve yatak odası için ortak bir "telefonsuz alan" kuralı koyun.
+Telefonu masaya koymak yerine görüş alanı dışına bırakın.
+Bir mesaja bakmanız gerekiyorsa bunu söyleyin: "Bir saniye, beklenen bir iş mesajı var."
+Partnerinize phubbing'i suçlama diliyle değil, ihtiyaç diliyle anlatın: "Seninle konuşurken
+gözlerini görmek istiyorum."
+Limitra Social ile
+İrade, yemek masasında ya da yatakta telefona uzanma dürtüsünü her zaman bastıramaz.
+Limitra Social, çiftlerin ve arkadaşların buluşmalarda telefonlarını ortak bir kilit oturumuna
+(Shared Focus Lock) almasını sağlar. Masaya oturulduğunda kilit başlar; iki taraf da
+ekrandan kurtulup birbirine bakar. Kural tek kişinin değil ikisinin ortak kararı olduğu için,
+kimse "kontrolcü" taraf durumuna düşmez.
+2. "Brain Drain": Masada Ters Duran Telefon Bile Zihinsel
+Kapasiteyi Azaltıyor
+Telefonunuz sessizde ve ekranı aşağı dönük olsa bile, sadece görüş alanında durması
+zihinsel performansı düşürebilir. Teksas Üniversitesi'nin deneyinde telefonu başka odada
+bırakanlar, telefonu masasında tutanlardan daha iyi sonuç aldı.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 4 of 34
+
+=== PAGE 5 ===
+Araştırma
+Deney, Teksas Üniversitesi Austin McCombs İşletme Fakültesi'nden Dr. Adrian F. Ward
+liderliğinde yapıldı. Ekipte Kristen Duke, Ayelet Gneezy ve Maarten W. Bos da vardı.
+Sonuçlar 2017'de Journal of the Association for Consumer Research dergisinde "Brain
+Drain" başlığıyla yayımlandı.
+İlk deneye 520 üniversite öğrencisi katıldı. Katılımcılar rastgele üç gruba ayrıldı:
+1. Telefon masada, ekranı aşağı dönük.
+2. Telefon cepte ya da çantada.
+3. Telefon tamamen başka bir odada.
+Tüm telefonlar sessize alındı ve deney boyunca hiç çalmadı. Katılımcılar iki teste girdi:
+Çalışma belleğini ölçen OSpan testi ve akıcı zekâyı ölçen Raven Matrisleri.
+Bulgular
+Telefonu başka odada olan grup, özellikle çalışma belleği kapasitesinde, telefonu masada
+olan gruptan anlamlı biçimde daha iyi performans gösterdi. Cep ya da çanta grubu ikisinin
+arasında kaldı. Yani telefon fiziksel olarak uzaklaştıkça performans arttı.
+En dikkat çekici nokta şu: Katılımcıların çoğu, telefonun yerinin performanslarını
+etkilediğini düşünmüyordu. İkinci deneyde ise telefona en bağımlı olduklarını söyleyen
+kişilerin bu etkiden daha çok zarar gördüğü görüldü.
+Mekanizma: Dikkatin gizli vergisi
+Araştırmacıların açıklaması dikkat kontrolüne dayanıyor. Telefon, hayatımızın merkezinde
+duran ve önemli bilgiler taşıyan bir nesne. Bu yüzden beyin, onu fark etmeden bir "öncelikli
+uyarıcı" olarak izler.
+Telefonu kontrol etmeme çabası da zihinsel kaynak harcar. Bu kaynak, o an çözmeye
+çalıştığınız soruya ya da yazdığınız koda gitmesi gereken kapasiteden eksilir. Telefona hiç
+bakmasanız bile bedel ödenir.
+Bilimsel çekince
+Bu deney çok sık alıntılanıyor, ancak sonraki bazı tekrar çalışmaları etkiyi daha zayıf buldu
+ya da doğrulayamadı. Bu nedenle bulguyu "telefon IQ'yu düşürür" diye değil, "telefonun
+yakınlığı zihinsel kapasiteden pay alabilir" diye okumak daha doğru.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 5 of 34
+
+=== PAGE 6 ===
+Gündelik hayattan bir sahne
+Sınava çalışan bir öğrenci ya da kod yazan bir yazılımcı, telefonunu masanın kenarına ters
+koyar. Kendini "bakmıyorum ki" diye ikna eder. Zor bir soruya geldiğinde ise odaklanmakta
+zorlanır ve neden zorlandığını bilmez.
+Ne yapılabilir?
+Derin çalışma sırasında telefonu mümkünse başka bir odaya bırakın.
+Mümkün değilse en azından çantaya koyun ve görüş alanından çıkarın.
+Telefonu çalışma masası yerine kapının yanında şarj edin.
+Limitra App Block ile
+Telefonu her zaman başka odaya bırakamazsınız; iş ya da aile için ulaşılabilir kalmanız
+gerekebilir. Limitra App Block'un Sert Kilit (Strict Mode) özelliği, dikkat dağıtan
+uygulamaları belirlediğiniz süre boyunca açılamaz hâle getirir. Uygulamalara zaten
+ulaşılamıyorsa, "bir bakayım mı" pazarlığı da anlamsızlaşır. Böylece telefonu yanınızda
+tutarken dikkatinizi işinize bırakabilirsiniz.
+3. Bölünen Dikkatin Bedeli: Yarım Kalan İşe Dönmek Ortalama 23
+Dakika 15 Saniye Sürüyor
+Bir ekranda kesintisiz kalma süremiz 2004'te ortalama 150 saniyeydi; bugün yalnızca 47
+saniye. Bölünen bir işe geri dönmek ise ortalama 23 dakikayı buluyor.
+Araştırmacı
+Kaliforniya Üniversitesi Irvine Bilişim Bölümü'nden Prof. Dr. Gloria Mark, yaklaşık yirmi
+yıldır bilgi işçilerinin dikkatini inceliyor. İlk çalışmalarında araştırmacılar, çalışanları
+kronometreyle bire bir izledi. Sonraki yıllarda bilgisayar kayıt yazılımları ve sensörlerle
+ölçüm yapıldı. Mark, bulgularını 2023'te yayımlanan Attention Span (Dikkat Süresi)
+kitabında bir araya getirdi.
+Bulgular
+2004'te insanlar bir ekranda geçiş yapmadan ortalama 150 saniye (2,5 dakika)
+kalıyordu.
+2012'de bu süre 75 saniyeye indi.
+Son yıllardaki ölçümlerde ortalama yalnızca 47 saniye.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 6 of 34
+
+=== PAGE 7 ===
+Mark'ın 2000'lerin ortasındaki saha çalışmalarına göre, bölünen bir işe geri dönmek
+ortalama 23 dakika 15 saniye sürüyor. Bu sürede kişi doğrudan eski işine dönmüyor; araya
+genellikle iki farklı iş daha giriyor. E-posta kontrolü, başka bir sekme ya da kısa bir
+mesajlaşma bunlara örnek.
+Bu rakam yalnızca bildirimlerle ilgili değil. Mark'ın çalışmalarında bölünmelerin önemli bir
+kısmı dışarıdan değil, kişinin kendisinden geliyor. Yani dışarıdan gelen kesintiye alışan
+zihin, bir süre sonra kendini de bölmeye başlıyor.
+Dikkat kalıntısı
+Minnesota Üniversitesi'nden Dr. Sophie Leroy, 2009'da "dikkat kalıntısı" (attention
+residue) kavramını tanımladı. Bir işten diğerine geçtiğinizde, zihninizin bir kısmı önceki işte
+takılı kalır. Bu kalıntı ne kadar fazlaysa, yeni işteki performans o kadar düşer.
+Bildirime bakmak 10 saniye sürer, ama zihin o mesajı hemen bırakmaz. Rapora
+döndüğünüzde gözleriniz satırlarda, aklınızın bir köşesi ise cevaplanmayı bekleyen
+mesajdadır.
+Gündelik hayattan bir sahne
+Rapor hazırlarken ekrana "Ahmet bir fotoğraf paylaştı" bildirimi düşer. Bakmak 10 saniye
+sürer. Arkasından iki mesaja cevap verilir, bir haber okunur. Rapora dönüldüğünde 20
+dakika geçmiştir ve en zor kısım, nerede kalındığını yeniden toparlamaktır.
+Ne yapılabilir?
+Çalışma saatlerinde günü 60–90 dakikalık odak bloklarına bölün.
+Mesaj ve e-postaları sürekli değil, belirli saatlerde toplu olarak kontrol edin.
+Bir işi bırakmadan önce "nerede kaldım, sırada ne var" notunu tek cümleyle yazın; geri
+dönüş kolaylaşır.
+Limitra App Block ile
+Gün boyunca sürekli bildirim alan biri, mesai boyunca kesintisiz derin odak yaşayamaz.
+Limitra App Block ile çalışma saatlerinde kesintisiz bloklar kurun ve dikkat dağıtan
+uygulamaları o süre boyunca kilitleyin. 47 saniyelik parçalanmış döngüden çıkıp uzun,
+verimli çalışma sağlayın.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 7 of 34
+
+=== PAGE 8 ===
+4. Yalnızlık Salgını: Sosyal Kopukluk Sigara Kadar Riskli
+Zayıf sosyal bağlar erken ölüm riskini, sigara ve alkol gibi bilinen risk faktörleriyle
+kıyaslanabilir düzeyde artırıyor. Bu sonuca, yaklaşık 300 bin kişiyi kapsayan bir meta-analiz
+ulaştı.
+Araştırma
+Brigham Young Üniversitesi'nden Prof. Dr. Julianne Holt-Lunstad ve ekibi, 2010'da PLOS
+Medicine dergisinde çok sık alıntılanan bir meta-analiz yayımladı. Çalışma 148 araştırmayı
+ve toplam 308.849 katılımcıyı bir araya getirdi. Katılımcılar ortalama 7,5 yıl boyunca takip
+edilmişti.
+Bulgular
+Güçlü sosyal ilişkileri olanların takip süresince hayatta kalma olasılığı yaklaşık %50
+daha yüksekti.
+Zayıf sosyal bağların etkisi sigara ve alkolün etkisiyle kıyaslanabilir düzeydeydi.
+Bu etki fiziksel hareketsizlik ve obezitenin etkisinden daha büyüktü.
+Aynı ekip 2015'te Perspectives on Psychological Science dergisinde ikinci bir meta-analiz
+yayımladı. Buna göre kendini yalnız hissetmek erken ölüm olasılığını %26, sosyal izolasyon
+%29, tek başına yaşamak ise %32 artırıyor.
+2023'te ABD Genel Cerrahı Dr. Vivek Murthy, yalnızlığı bir halk sağlığı sorunu ilan eden bir
+danışma raporu yayımladı. Raporda sosyal kopukluğun ölüm riski üzerindeki etkisi, günde
+15 sigaraya kadar içmenin etkisine benzetildi.
+Gençler neden bu kadar yalnız?
+Birkaç büyük anket, gençlerin en yalnız grup olduğunu gösteriyor. Cigna'nın 2018'de 20 bini
+aşkın ABD'li yetişkinle yaptığı ankette en yüksek yalnızlık puanı Z kuşağındaydı. Harvard'ın
+Making Caring Common projesinin 2021 raporunda ise 18–25 yaş arası gençlerin %61'i ciddi
+yalnızlık yaşadığını bildirdi.
+Sosyal medyanın bu tablodaki payı hâlâ tartışılıyor ve tek başına bir neden olarak
+görülmemeli. Yine de deneysel çalışmalar, sosyal medya süresini azaltmanın yalnızlık
+hissini düşürebildiğini gösteriyor (bkz. 14. madde). Beğeniler ve yorumlar bağlantı hissi
+verir; ama ses tonu, göz teması ve fiziksel yakınlığın yerini tutmaz.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 8 of 34
+
+=== PAGE 9 ===
+Gündelik hayattan bir sahne
+Cuma akşamı, odasında yatakta Instagram kaydıran bir genç. Ekranda herkes bir yerlerde
+eğleniyor, gülüyor. Saatlerce bakar; ekranı kapattığında odadaki sessizlik, dışarıda kalmışlık
+hissiyle birlikte çöker.
+Ne yapılabilir?
+Haftada en az bir kez, bir arkadaşınızla yüz yüze buluşmayı sabit bir plan hâline getirin.
+Bir gönderiyi beğenmek yerine o kişiyi arayın ya da sesli mesaj gönderin.
+Ortak bir hobi, kurs ya da gönüllülük grubu gibi düzenli tekrar eden sosyal ortamlar
+arayın.
+Limitra Social ile
+Sosyal medya bağlantı hissi verir, ama çoğu zaman bizi dijital vitrinlerin önünde yalnız
+bırakır. Limitra Social, dijital detoksu tek başına çekilen bir ceza olmaktan çıkarır. Gerçek
+arkadaşlarınızla ortak kilit başlatın; ekrandan çıkıp yüz yüze buluşmanın tadını birlikte
+çıkarın.
+5. Silikon Vadisi Paradoksu: Teknolojiyi Üretenler Kendi
+Çocuklarına Ekranı Sınırlıyor
+Dünyanın en bağımlılık yapıcı ürünlerinden bazılarını tasarlayan isimler, kendi evlerinde
+ekran süresine sıkı kurallar koyuyor. Steve Jobs, Bill Gates ve Silikon Vadisi çalışanlarının
+tercih ettiği bir okul bunun en bilinen örnekleri.
+Steve Jobs: "Evde teknolojiyi sınırlıyoruz"
+The New York Times muhabiri Nick Bilton, 2010 sonunda Jobs'a çocuklarının iPad'i çok
+sevip sevmediğini sordu. Jobs'un cevabı şaşırtıcıydı: Çocukları iPad'i hiç kullanmamıştı ve
+aile evde teknoloji kullanımını sınırlıyordu. Bilton bu konuşmayı 2014'te yayımladığı "Steve
+Jobs Düşük Teknolojili Bir Ebeveyndi" başlıklı yazısında aktardı.
+Aynı yazıda Jobs'un biyografisini yazan Walter Isaacson'ın gözlemi de yer alıyor. Isaacson'a
+göre aile akşam yemeklerinde kitapları, tarihi ve gündemi konuşuyordu; masada kimse
+iPad ya da bilgisayar çıkarmıyordu.
+Bill Gates: 14 yaşından önce telefon yok
+Bill Gates, 2017'de İngiliz Mirror gazetesine verdiği röportajda çocuklarına 14 yaşına kadar
+cep telefonu almadığını anlattı. Ailede akşam yemeklerinde telefon kullanılmasına da izin
+verilmiyordu. Gates, çocuklarının yaşıtlarından önce telefon istediğini de açıkça söyledi.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 9 of 34
+
+=== PAGE 10 ===
+Waldorf okulu: Ekransız sınıflar
+The New York Times'tan Matt Richtel, 2011'de Kaliforniya Los Altos'taki Waldorf School of
+the Peninsula'yı haberleştirdi. Habere göre okuldaki öğrencilerin yaklaşık dörtte üçünün
+ebeveynleri teknoloji sektöründe çalışıyordu. Aralarında eBay'in teknoloji direktörü ile
+Google, Apple, Yahoo ve Hewlett-Packard çalışanları vardı.
+Okulun alt sınıflarında bilgisayar kullanılmıyordu. Çocuklar kalem ve kağıt, örgü şişleri ve
+zaman zaman çamurla çalışıyordu. Okulun yaklaşımına göre ekranlar, yaratıcı düşünmeyi,
+hareketi ve insan etkileşimini zayıflatıyordu.
+Chamath Palihapitiya'nın itirafı
+Facebook'ta kullanıcı büyümesinden sorumlu eski yönetici Chamath Palihapitiya, Kasım
+2017'de Stanford'da bir konuşma yaptı. Dopamin odaklı kısa vadeli geri bildirim
+döngülerinin toplumun işleyişini yıprattığını söyledi. Kendi çocuklarının bu platformları
+kullanmasına izin vermediğini de ekledi. Palihapitiya daha sonra Facebook'un dünyada
+iyiliğe de hizmet ettiğini belirterek sözlerini yumuşattı.
+Bunu nasıl okumalı?
+Bu örnekler bilimsel bir çalışma değil, belgelenmiş bireysel tercihler. Yine de önemli bir şey
+söylüyorlar: Bu ürünlerin nasıl çalıştığını en iyi bilen insanlar, kendi çocuklarını korumak için
+iradeye değil, kurallara güveniyor.
+Gündelik hayattan bir sahne
+Sıradan bir aile, susması için üç yaşındaki çocuğunun eline YouTube açık bir tablet verir.
+Aynı saatlerde, o videoları öneren sistemleri geliştiren bir mühendis, evde çocuğuna tahta
+bloklarla kule yaptırıyor olabilir.
+Ne yapılabilir?
+Çocuklar için ekran süresini "ne zaman, nerede, ne kadar" sorularıyla yazılı bir aile
+kuralına dönüştürün.
+Yemek masasını tüm aile için telefonsuz alan yapın; kuralı önce ebeveynler uygulasın.
+İlk akıllı telefon yaşını, çocuğunuzun arkadaşlarının aileleriyle birlikte konuşun.
+Limitra ile
+Dünyayı bağımlı eden teknolojiyi üretenler, önce kendi ailelerini koruyor. Siz de dev
+sunucular ve algoritmalar karşısında savunmasız kalmak zorunda değilsiniz. Limitra, Silikon
+Vadisi'nin kendi evlerinde uyguladığı ekran disiplinini cebinize taşır.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 10 of 34
+
+=== PAGE 11 ===
+6. Meta'nın Sızan İç Araştırmaları: Instagram'ın Genç Kızların
+Beden Algısını Kötüleştirdiğini Biliyorlardı
+Facebook'un (bugünkü adıyla Meta) kendi araştırmacıları, Instagram'ın bazı genç
+kullanıcıların ruh sağlığına zarar verebildiğini yıllar önce tespit etmişti. Bu belgeler 2021'de
+kamuoyuna sızdı.
+İfşaatın arka planı
+The Wall Street Journal, 14 Eylül 2021'de "The Facebook Files" (Facebook Dosyaları)
+dizisinin bir parçası olarak şirket içi belgeleri yayımladı. Belgelerin kaynağı eski Facebook
+ürün yöneticisi Frances Haugen'di. Haugen, 5 Ekim 2021'de ABD Senatosu'nda ifade verdi.
+Belgelerde neler vardı?
+Mart 2020 tarihli bir iç sunuma göre, beden algısı konusunda kendini kötü hisseden
+genç kızların %32'si Instagram'ın onları daha da kötü hissettirdiğini söyledi.
+2019 tarihli bir slaytta, şirketin genç kızların üçte birinde beden algısı sorunlarını
+kötüleştirdiği ifade ediliyordu.
+İntihar düşünceleri bildiren gençler arasında, bu düşünceyi Instagram'a bağlayanların
+oranı İngiltere'de %13, ABD'de %6'tı.
+ABD'deki erkek gençlerin %14'ü de Instagram'ın kendileri hakkında daha kötü
+hissettirdiğini belirtti.
+Araştırmacılar özellikle keşfet sayfasını, yalnızca en iyi anların paylaşıldığı kültürü ve
+uygulamanın bağımlılık yapıcı doğasını risk olarak görmüştü. Bu özelliklerin birbirini
+besleyerek bir "mükemmel fırtına" yarattığını yazmışlardı.
+Meta ne dedi?
+Instagram, araştırmaların arkasında durduğunu, ancak WSJ'nin sınırlı bulgulara
+odaklandığını savundu. Şirkete göre sosyal medyanın refah üzerindeki etkisine dair
+bilimsel bulgular karışıktı. Pek çok gencin zor zamanlarında Instagram'ı destekleyici
+bulduğunu da vurguladı.
+Haugen ise şirketin kullanıcı güvenliği yerine büyüme ve etkileşimi öncelikli tuttuğunu
+iddia etti. İfşaattan kısa süre sonra Instagram, 13 yaş altı çocuklar için planladığı "Instagram
+Kids" projesini durdurduğunu açıkladı.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 11 of 34
+
+=== PAGE 12 ===
+Bunu nasıl okumalı?
+Bu bulgular şirket içi anketlere ve odak gruplarına dayanıyor; hakemli bilimsel yayın
+değiller. Ancak önemleri başka bir yerden geliyor: Riskleri dışarıdan eleştirmenler değil,
+platformun kendi araştırmacıları tespit etmişti.
+Gündelik hayattan bir sahne
+15 yaşında bir genç kız, odasında filtrelerle kusursuzlaştırılmış akran fotoğraflarına bakıyor.
+Aynaya baktığında kendini yetersiz hissediyor. Akış ise ona benzer içerikleri göstermeye
+devam ediyor.
+Ne yapılabilir?
+Kendinizi kötü hissettiren hesapları sessize alın ya da takibi bırakın.
+Çocuğunuzla filtrelerin ve düzenlenmiş fotoğrafların nasıl çalıştığını birlikte konuşun.
+Keşfet ve kısa video akışlarına ayrılan süreyi bilinçli olarak sınırlayın.
+Limitra App Block ile
+Ticari algoritmaların önceliği sizin ya da çocuklarınızın ruh sağlığı değil, dikkatinizi
+platformda tutmaktır. Limitra App Block ile yorucu gelen platformlara günlük katı limitler
+koyun. Sınırı algoritma değil, siz belirleyin.
+Destek notu: Kendinizi çok kötü hissediyorsanız ya da kendinize zarar vermeyi
+düşünüyorsanız, lütfen yalnız kalmayın. Acil durumda 112'yi arayın; güvendiğiniz biriyle
+ya da bir ruh sağlığı uzmanıyla konuşun.
+7. "Popcorn Brain" (Patlamış Mısır Beyni): Hızlı Videolar Neden
+Yavaş Hayatı Sıkıcı Kılıyor?
+Sürekli hızlı uyaranlara alışan zihin, yavaş akışlı gerçek hayata tahammül etmekte
+zorlanabiliyor. "Patlamış mısır beyni" mecazı bu durumu anlatmak için kullanılıyor.
+Kavram
+Terim, Washington Üniversitesi Bilgi Fakültesi'nden Prof. David M. Levy'nin 2011 civarında
+kullandığı ve medyada yaygınlaşan bir mecaz. Levy, sürekli çevrimiçi olmanın zihni tavadaki
+mısır taneleri gibi bir uyarıcıdan diğerine sıçratır hâle getirdiğini anlatmak istiyordu. Levy,
+2016'da yayımlanan Mindful Tech kitabında da teknolojiyle daha bilinçli bir ilişki kurma
+üzerine yazdı.
+Önemli bir not: "Popcorn brain" tıbbi bir tanı değil, bir deneyimi anlatan popüler bir ifade.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 12 of 34
+
+=== PAGE 13 ===
+Mekanizma: Değişken ödül
+Kısa video platformlarının bağlayıcılığı, davranış bilimindeki en güçlü öğrenme
+biçimlerinden birine dayanıyor: değişken ödül. Psikolog B. F. Skinner'ın deneyleri, ödülün ne
+zaman geleceği belirsiz olduğunda davranışın en inatçı hâlini aldığını gösterdi. Kumar
+makineleri de aynı prensiple çalışır.
+Her kaydırma, bir sonraki videonun çok komik, çok şaşırtıcı ya da sıkıcı olabileceği bir
+"çekiliş" gibidir. Beynin ödül beklentisiyle ilişkili dopamin sistemi, tam da bu belirsizlikte en
+aktif hâline gelir.
+Dopamin dengesi: Ne biliyoruz, ne bilmiyoruz?
+Madde bağımlılığı araştırmalarında, sürekli yoğun uyarılan beynin dopamin D2
+reseptörlerini azalttığı gösterildi. Bu da gündelik ödüllerin daha sönük hissedilmesine yol
+açabiliyor. Benzer bir sürecin aşırı kısa video tüketiminde de işleyebileceği düşünülüyor;
+ancak bu henüz insanlarda doğrudan kanıtlanmış değil, bir hipotez.
+Kesin olan şu: Birçok kişi, yoğun kısa video tüketiminden sonra kitap okumakta, bir dersi
+dinlemekte ya da uzun bir sohbete odaklanmakta zorlandığını anlatıyor. Bu deneyimin
+bilimsel açıklaması hâlâ netleşiyor, ama deneyimin kendisi çok yaygın.
+Gündelik hayattan bir sahne
+Eline kitap alan biri üçüncü paragrafta sıkılır ve eli telefona gider. Film izlerken bile aynı
+anda telefonda bir şeyler kaydırmadan duramaz. Tek bir şeyin yavaşça gelişmesini
+beklemek, ona neredeyse fiziksel bir huzursuzluk verir.
+Ne yapılabilir?
+Günde 20–30 dakikalık "yavaş" bir aktivite planlayın: kitap, yürüyüş, el işi.
+Film izlerken telefonu başka odaya bırakın; tek ekran kuralı koyun.
+Sıkılmaya tahammülü yeniden öğrenin: Kuyrukta beklerken telefonu çıkarmayın.
+Limitra App Block ile
+Patlamış mısır beyni bir karakter zaafı değil, alışkanlıkla şekillenen bir zihinsel eğilim. Bu
+eğilimi kırmanın yolu, zihne yeniden sıkılmayı ve beklemeyi öğretmekten geçer. Limitra
+App Block ile kısa video platformlarını çalışma ve okuma saatlerinde kilitleyin; derin
+okumanın keyfine yeniden yer açın.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 13 of 34
+
+=== PAGE 14 ===
+8. Hayalet Titreşim: Telefon Titreşmediği Hâlde Neden Titremiş
+Gibi Hissediyoruz?
+Üniversite öğrencileriyle yapılan bir araştırmada katılımcıların %89'u, telefonları
+titreşmediği hâlde titreşim hissettiğini söyledi. Bu deneyim o kadar yaygın ki artık adı var:
+hayalet titreşim.
+Araştırma
+Indiana-Purdue Üniversitesi Fort Wayne'den Dr. Michelle Drouin ve ekibi, bulgularını
+2012'de Computers in Human Behavior dergisinde yayımladı. Çalışmaya 290 lisans
+öğrencisi katıldı. Araştırmacılar hem bu deneyimin ne kadar yaygın olduğunu hem de hangi
+psikolojik özelliklerle ilişkili olduğunu inceledi.
+Bulgular
+Katılımcıların %89'u en az bir kez hayalet titreşim yaşadığını bildirdi.
+Bu deneyimi yaşayanlar onu ortalama iki haftada bir kez hissediyordu.
+Çoğu kişi bundan pek rahatsız olmuyordu.
+Mesajlara duygusal olarak daha güçlü tepki verenler ise bu titreşimlerden daha çok
+rahatsız oluyordu.
+Tek çalışma da bu değil. 2010'da BMJ dergisinde yayımlanan bir araştırmada, bir ABD
+hastanesindeki sağlık çalışanlarının yaklaşık üçte ikisi benzer hayalet titreşimler yaşadığını
+bildirmişti.
+Neden oluyor?
+Hayalet titreşim tıbbi bir hastalık değil. En yaygın açıklama, "sinyal algılama" kuramına
+dayanıyor. Beyin, önemli sayılan bir sinyali kaçırmamak için alarm eşiğini düşürür. Bunun
+bedeli, daha sık "yanlış alarm" vermektir.
+Kumaşın sürtünmesi ya da hafif bir kas seğirmesi, bildirim beklentisiyle tetikte olan beyin
+tarafından titreşim olarak yorumlanabilir. Yani bu, telefonun dikkatimizde ne kadar yer
+kapladığının bedensel bir işareti.
+Gündelik hayattan bir sahne
+Toplantının ortasında ya da yolda yürürken bacağınızda net bir titreşim hissedip elinizi
+cebinize atarsınız. Ekran boştur. Bir saat sonra aynı şey tekrar olur.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 14 of 34
+
+=== PAGE 15 ===
+Ne yapılabilir?
+Önemsiz uygulamaların bildirimlerini tamamen kapatın; yalnızca insanlardan gelenleri
+açık bırakın.
+Telefonu bir süre cep yerine çantada taşıyın.
+Titreşim yerine sessiz moda geçin ve mesajları belirli aralıklarla kontrol edin.
+Limitra App Block ile
+Sinir sisteminiz 7/24 tetikte yaşamak için tasarlanmadı. Limitra App Block ile telefonunuza
+günlük "sessizlik pencereleri" koyun. Uygulamaların o saatlerde kilitli olduğunu
+bildiğinizde, beklenti azalır ve beynin sürekli alarm durumunda kalmasına gerek kalmaz.
+9. Gece Ekranı ve Uyku: Biyolojik Saat 1,5 Saat Geri Kayıyor
+Yatmadan önce ışık yayan bir ekranda okumak, uyku hormonu melatonini yarıdan fazla
+bastırabiliyor ve iç saati 1,5 saat kaydırabiliyor. Harvard'ın kontrollü laboratuvar deneyi
+bunu ölçtü.
+Araştırma
+Deney, Brigham and Women's Hastanesi Uyku ve Sirkadiyen Bozukluklar Bölümü'nde
+yapıldı. Ekipte Dr. Anne-Marie Chang ve bölüm başkanı Prof. Dr. Charles A. Czeisler vardı.
+Sonuçlar 2015'te PNAS (Proceedings of the National Academy of Sciences) dergisinde
+yayımlandı.
+12 sağlıklı yetişkin, iki hafta boyunca laboratuvarda kaldı. Beş akşam yatmadan önce dört
+saat boyunca iPad'de kitap okudular. Diğer beş akşam aynı süre basılı kitap okudular.
+Uykuları polisomnografiyle kaydedildi, kan örnekleriyle melatonin düzeyleri ölçüldü.
+Bulgular
+Ekran okuyan grupta akşam melatonin düzeyi ortalama %55 bastırıldı; basılı kitapta
+bastırma görülmedi.
+Melatoninin yükselmeye başladığı saat, yani biyolojik gece, yaklaşık 1,5 saat ileri kaydı.
+Katılımcılar uykuya daha geç daldı ve akşam daha az uykulu hissetti.
+REM uykusunun süresi azaldı ve zamanlaması gecikti.
+Sabah daha geç ayıldılar ve daha az zinde hissettiler.
+Toplam uyku süresinde iki koşul arasında fark yoktu. Yani sorun yalnızca "daha az uyumak"
+değil; uykunun zamanlaması ve yapısı değişiyor.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 15 of 34
+
+=== PAGE 16 ===
+Mekanizma
+Ekranlar, kısa dalga boylu mavi ışık açısından zengindir. Gözdeki ışığa duyarlı hücreler bu
+ışığı "gündüz" sinyali olarak algılar. Beynin biyolojik saati de buna göre melatonin salgısını
+erteler.
+Bilimsel çekince
+Deneyde katılımcılar her akşam dört saat, yüksek parlaklıkta okudu ve örneklem küçüktü.
+Gündelik kullanımda etkinin büyüklüğü ekranın parlaklığına, süresine ve kişiye göre
+değişir. Ayrıca uykuyu yalnızca ışık değil, içeriğin heyecanı ve "bir video daha" döngüsü de
+etkiler.
+Gündelik hayattan bir sahne
+Saat 23:00'te yatağa girip "on dakika bakıp uyuyacağım" dersiniz. Bir bakarsınız saat 00:45
+olmuş. Sabah alarm çaldığında, sekiz saat yatakta kalmış olsanız bile kendinizi hiç
+dinlenmemiş gibi hissedersiniz.
+Ne yapılabilir?
+Uyku uzmanlarının sık önerdiği gibi, yatmadan en az 30–60 dakika önce ekranları
+bırakın.
+Telefonu yatak odası dışında şarj edin; alarm için ayrı bir saat kullanın.
+Akşam saatlerinde gece modu ve düşük parlaklık kullanın; ama bunun etkiyi tamamen
+ortadan kaldırmadığını unutmayın.
+Limitra App Block ile (Gece Kilidi)
+Yatakta, günün sonunda yorgun düşmüş bir zihinle algoritmalara direnmek zordur. Limitra
+App Block'un otomatik Gece Kilidi (Curfew) özelliğiyle, örneğin her akşam 22:30'da dikkat
+dağıtan uygulamaları kilitleyin. Kararı gündüz, dinç bir kafayla verin; gece uygulamasını
+Limitra'ya bırakın.
+10. Z Kuşağının Sessiz İsyanı: "Aptal Telefon" (Dumbphone) Merakı
+Artıyor
+Akıllı telefonla büyüyen nesil, tuşlu ve internetsiz telefonlara yeniden ilgi gösteriyor.
+ABD'de Z kuşağı yetişkinlerinin %16'sı bir dumbphone'u olduğunu, %28'i ise edinmek
+istediğini söylüyor.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 16 of 34
+
+=== PAGE 17 ===
+Rakamlar ne söylüyor?
+Araştırma şirketi Morning Consult'un anketine göre, ABD'deki Z kuşağı yetişkinlerinin
+%16'sı halihazırda bir dumbphone kullanıyor. Bu oran tüm kuşaklar arasında en yüksek.
+Aynı ankette Z kuşağının %28'i böyle bir telefona ilgi duyduğunu söyledi. Bu oran X
+kuşağının (%13) ve Baby Boomer'ların (%9) iki katından fazla.
+SEMrush verilerine göre "dumbphone" kelimesinin Google aramaları 2018–2021
+arasında %89 arttı.
+Haberlerde sıkça 18–24 yaş grubunda 2021–2024 arasında %148'lik bir satış artışından da
+söz ediliyor. Ancak bu rakamın dayandığı kaynak güçlü değil; bu yüzden temkinle okunmalı.
+Dumbphone'lar hâlâ toplam telefon pazarının küçük bir dilimi.
+Neden ilgi görüyor?
+Bu telefonlara yönelen gençlerin ortak dertleri belli: sürekli kaydırma, bildirim yorgunluğu,
+uyku ve odak sorunları. Tuşlu telefon, sosyal medyayı fiziksel olarak imkânsız kılarak irade
+ihtiyacını ortadan kaldırıyor. Bir kısmı için işin bir de nostalji ve estetik tarafı var.
+Pratikteki çıkmaz
+Modern hayatın önemli bir kısmı akıllı telefona bağlı. Mobil bankacılık, iki adımlı doğrulama
+kodları, haritalar, QR kodlu ödemeler ve okul ya da iş grupları bunların başında geliyor.
+Tamamen tuşlu telefona geçmek bu yüzden çoğu kişi için sürdürülebilir olmuyor.
+Gündelik hayattan bir sahne
+Zihinsel huzur için tuşlu telefon alan bir üniversite öğrencisi, kampüste ders gruplarındaki
+duyuruları kaçırır. Yemekhanede QR kod okutamaz, banka onay kodunu alamaz. Birkaç gün
+sonra çekmecedeki akıllı telefonuna geri döner.
+Ne yapılabilir?
+Telefonunuzdaki uygulamaları "zorunlu" (banka, harita, iletişim) ve "isteğe bağlı" olarak
+ikiye ayırın.
+Ana ekrandan isteğe bağlı uygulamaları kaldırın; yalnızca zorunlular kalsın.
+Ekranı gri tonlamaya almak gibi basit ayarları deneyin; renkler ekranı daha çekici kılar.
+Limitra App Block ile
+Zihinsel huzur için tuşlu bir telefon almanız gerekmiyor. Limitra App Block, Android
+telefonunuzu belirlediğiniz saatlerde yalnızca bankacılık, harita ve temel iletişim
+uygulamalarının çalıştığı minimalist bir cihaza dönüştürür. Akıllı telefonun gerekli tarafı
+kalır, bağımlılık yapan tarafı kilitlenir.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 17 of 34
+
+=== PAGE 18 ===
+11. "Technoference": Ebeveynin Telefonu, Çocuğun Davranışını
+Etkiliyor
+Ebeveynlerin çocuklarıyla vakit geçirirken telefona dalması, çocuklardaki davranış
+sorunlarıyla ilişkili bulundu. Araştırmacılar bu duruma "technoference" (teknolojik
+müdahale) adını veriyor.
+Kavram
+"Technoference" terimi, "technology" (teknoloji) ve "interference" (araya girme)
+sözcüklerinden türetildi. Teknolojik cihazların yüz yüze ilişkileri gündelik olarak bölmesini
+anlatıyor. Kavramı aile araştırmacısı Dr. Brandon T. McDaniel yaygınlaştırdı.
+Araştırmalar
+McDaniel ve Michigan Üniversitesi Tıp Fakültesi'nden çocuk gelişim uzmanı Dr. Jenny
+Radesky, 2018'de Child Development dergisinde bir çalışma yayımladı. 170 iki ebeveynli
+aileden anne ve babalar, cihazların çocuklarıyla etkileşimlerini ne sıklıkla böldüğünü ve
+çocuklarının davranışlarını bildirdi.
+Aynı ekip 2018'de Pediatric Research dergisinde, aileleri birkaç ay boyunca izleyen bir takip
+çalışması da yayımladı. Radesky'nin 2014'te Pediatrics dergisindeki gözlem çalışmasında
+ise fast food restoranlarındaki ebeveynler gözlemlendi. Telefona daha çok dalan
+ebeveynlerin çocuklarına daha sert tepki verdiği görüldü.
+Bulgular
+Daha fazla technoference bildiren ailelerde, çocuklarda öfke patlamaları, algınganlık ve
+huzursuzluk gibi "dışa dönük" davranışlar daha sık görüldü.
+İçe kapanma ve kolay üzülme gibi "içe dönük" sorunlarla da ilişki bulundu.
+Takip çalışması, ilişkinin iki yönlü olabileceğini gösterdi. Çocuğunun davranışlarıyla
+zorlanan ebeveynler de telefona daha çok sığınıyordu.
+Bu iki yönlü döngü önemli: Stresli ebeveyn telefona kaçıyor, ilgisiz kalan çocuk daha çok
+zorluyor, bu da ebeveyni yeniden telefona itiyor. Bulgular ilişkiseldir; tek başına telefonu
+çocuğun tüm davranışlarının nedeni sayamayız.
+"Donuk Yüz" deneyiyle bağlantı
+Gelişim psikoloğu Dr. Edward Tronick'in 1970'lerdeki "Still Face" (Donuk Yüz) deneyleri, bu
+tablonun anlaşılmasına yardım ediyor. Annesi birden ifadesiz ve tepkisiz bir yüze
+büründüğünde, bebek önce ilgi çekmeye çalışıyor, sonra huzursuzlanıp ağlıyordu.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 18 of 34
+
+=== PAGE 19 ===
+Ekrana dalan bir ebeveynin yüzü de benzer bir ifadesizlik taşıyabilir. Bu yüzden çocuklar,
+ebeveynin dikkatini geri kazanmak için bazen olumsuz davranışlara başvurur.
+Gündelik hayattan bir sahne
+Salıncakta çocuğunu sallarken diğer eliyle telefonda haber akışını kaydıran bir baba.
+Çocuk "Baba, bana bak!" diye bağırır; babası başını kaldırmaz. Çocuk salıncaktan inip
+kumdaki bir arkadaşını iter. Çünkü olumsuz ilgi bile, hiç ilgi görmemekten iyidir.
+Ne yapılabilir?
+Çocukla oyun, yemek ve uyku öncesi rutinleri telefonsuz zaman ilan edin.
+Telefona bakmanız gerekiyorsa çocuğunuza ne yaptığınızı söyleyin: "Dedene mesaj
+atıyorum, bir dakika."
+Kendi stresinizi fark edin; telefon çoğu zaman yorgunluktan kaçışın aracıdır.
+Limitra App Block ile
+Çocuklar söylediklerinizden çok nereye baktığınızı hatırlar. Limitra App Block ile örneğin
+akşam 18:00–21:00 arasını "Aile Zamanı" olarak kilitleyin. Dikkatinizi bildirimlere değil,
+çocuklarınıza ayırın.
+12. "Dijital Demans": Zihinsel İşleri Telefona Devretmenin Bedeli
+Yol bulmayı, hatırlamayı ve hesaplamayı tamamen telefona bırakmak, bu becerileri
+zayıflatabilir. Bu fikir "dijital demans" adıyla popülerleşti; ancak terimin kendisi klinik bir
+tanı değil.
+Kavram
+Alman psikiyatrist Prof. Dr. Manfred Spitzer, 2012'de Digitale Demenz (Dijital Demans) adlı
+çok satan bir kitap yayımladı. Spitzer, Ulm Üniversitesi Psikiyatri Kliniği'nin başındaydı.
+Kitabında, zihinsel işlevleri dijital cihazlara devretmenin özellikle gençlerde öğrenmeyi ve
+hafızayı zayıflattığını savundu.
+Kitap büyük ilgi gördü, ama bilim insanlarından eleştiri de aldı. Eleştirmenler, Spitzer'in
+kanıtları seçici kullandığını ve dili gereğinden sert tuttuğunu savundu. Bu nedenle "dijital
+demans" ifadesini bir hastalık değil, bir uyarı mecazı olarak okumak gerekir.
+Bilim ne diyor?
+Beyindeki "kullan ya da kaybet" ilkesine dair güçlü kanıtlar var:
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 19 of 34
+
+=== PAGE 20 ===
+Londra taksi şoförleri: University College London'dan Eleanor Maguire ve ekibinin
+2000'de PNAS'ta yayımladığı çalışmada, şehrin karmaşık sokaklarını ezberleyen taksi
+şoförlerinin hipokampusunun arka bölümü daha büyüktü. Mesleki deneyim arttıkça bu
+büyüklük de artıyordu.
+GPS kullanımı: McGill Üniversitesi'nden Louisa Dahmani ve Véronique Bohbot'un
+2020'de Scientific Reports'ta yayımladığı çalışmada, GPS'e daha çok güvenen kişilerin
+mekansal hafızası daha zayıftı. Üç yıl sonra tekrar test edilen katılımcılarda, GPS
+kullanımı arttıkça düşüşün de belirginleştiği görüldü.
+Araştırmacılar, ulaşılabileceğini bildiğimiz bilgiyi daha az hatırladığımızı da gösterdi. Bu
+eğilime "bilişsel yük devri" (cognitive offloading) deniyor. Yük devri her zaman kötü değil;
+zihni başka işlere serbest bırakabilir. Sorun, her şeyi devredip hiçbir beceriyi
+çalıştırmamakta.
+Bilimsel çekince
+20'li ve 30'lu yaşlardaki insanlarda demans benzeri belirtilerin arttığını gösteren
+epidemiyolojik bir veri yok. Unutkanlık ve dikkat dağınıklığı şikayetleri yaygın olsa da
+bunları demansla eşitlemek yanlış olur.
+Gündelik hayattan bir sahne
+Kendi semtinde üç sokak ötedeki dükkana giderken bile navigasyonu açan, en basit
+hesapta hesap makinesine uzanan biri. Annesinin telefon numarasını ezbere bilmiyor.
+Zihinsel kasları kullanılmadıkça, en küçük zorlukta pes etmeye daha yatkın hâle geliyor.
+Ne yapılabilir?
+Bildiğiniz yerlere navigasyonsuz gidin; yeni bir rotayı önce haritada inceleyip sonra
+ezberden deneyin.
+En yakınlarınızın telefon numaralarını ezberleyin.
+Küçük hesapları kafadan yapın; okuduklarınızı kendi cümlelerinizle özetleyin.
+Limitra App Block ile
+Zihinsel becerilerinizi çalıştırmadığınızda, onlar da zayıflar. Limitra App Block ile ekran
+sürenizi sınırlayarak zihninize kendi başına düşünme, hatırlama ve yol bulma fırsatı verin.
+Zihinsel keskinliğinizi korumak, gündelik küçük egzersizlerle başlar.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 20 of 34
+
+=== PAGE 21 ===
+13. Sürekli Kısmi Dikkat ve "Ekran Apnesi": Ekrana Bakarken
+Nefesimizi Tutuyor muyuz?
+Birçok insan e-posta okurken ya da mesaj yazarken farkında olmadan nefesini tutuyor
+veya çok sığ nefes alıyor. Bu gözlemi ilk dile getiren isim, Apple ve Microsoft'ta çalışmış
+teknoloji yöneticisi Linda Stone.
+Linda Stone kimdir?
+Linda Stone, 1980'ler ve 1990'larda Apple'da, ardından Microsoft'ta çalıştı. Microsoft'ta
+sanal dünyalar ve sosyal bilgi işlemeyle ilgili araştırma ekiplerini yönetti. Teknolojinin insan
+dikkati üzerindeki etkisini anlatan iki kavramı popülerleştirdi.
+1. Sürekli kısmi dikkat (Continuous Partial Attention)
+Stone bu kavramı 1998'de tanımladı. Sürekli kısmi dikkat, çoklu görevle aynı şey değil.
+Çoklu görevde amaç daha fazla iş bitirmektir. Sürekli kısmi dikkatte ise amaç hiçbir şeyi
+kaçırmamaktır.
+Zihin, bir radar gibi her şeyi yüzeysel olarak tarar ama hiçbir şeye tam olarak odaklanmaz.
+Stone'a göre bu durum kısa vadede uyanık hissettirir; uzun vadede ise sürekli bir alarm hâli
+ve yorgunluk yaratır.
+2. E-posta ve ekran apnesi
+Stone 2008'de "e-posta apnesi" kavramını ortaya attı, daha sonra bunu "ekran apnesi"
+olarak genişletti. Kendi deneyiminden yola çıkarak, e-posta okurken nefesini tuttuğunu
+fark etmişti. Ardından bilgisayar başındaki insanları gözlemledi.
+Stone'un aktardığına göre gözlemlediği kişilerin büyük çoğunluğu, sıkça dile getirilen
+rakamla yaklaşık %80'i, ekran başında nefesini tutuyor ya da sığ nefes alıyordu. Önemli bir
+not: Bu bulgu hakemli bir bilimsel çalışma değil, Stone'un gayriresmî gözlemi.
+Neden önemli olabilir?
+Nefes tutma ve sığ göğüs solunumu, vücudun stres tepkisiyle ilişkili solunum biçimleridir.
+Yavaş ve derin nefesin ise sakinleşmeyle ilgili parasempatik sinir sistemini desteklediği
+biliniyor. Ekran apnesinin uzun vadeli sağlık etkileri henüz araştırılmadı; ancak nefese
+dikkat etmek, ekran başındaki gerginliği fark etmenin basit bir yoludur.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 21 of 34
+
+=== PAGE 22 ===
+Gündelik hayattan bir sahne
+Bilgisayar başında gelen kutusunu okurken aniden derin bir iç çektiğinizi fark edersiniz.
+Omuzlarınız kulaklarınıza doğru kalkmış, çeneniz sıkılmıştır. Saatlerdir oturuyorsunuz ama
+sanki koşmuş gibi yorgunsunuz.
+Ne yapılabilir?
+Her saat başı bir dakika ekrandan uzaklaşın ve birkaç yavaş, derin nefes alın.
+E-posta açmadan önce bir nefes alıp verin; bunu küçük bir alışkanlık hâline getirin.
+"Her şeye yetişmeliyim" hissini azaltmak için kontrol saatlerini önceden belirleyin.
+Limitra App Block ile
+Sürekli "bir şey kaçıracak mıyım" tetikte hâli, zihni ve bedeni yorar. Limitra App Block ile
+derin çalışma ve tam mola pencereleri oluşturun. Ekrandan gerçekten uzaklaştığınız
+anlarda nefesiniz de doğal ritmine dönebilir.
+14. Pennsylvania Üniversitesi Deneyi: Sosyal Medyayı Günde 30
+Dakikaya İndirmek Yalnızlığı ve Depresif Belirtileri Azaltıyor
+Sosyal medyayı tamamen silmek gerekmiyor olabilir. Üç hafta boyunca platform başına
+günde 10 dakika sınırına uyan öğrencilerde yalnızlık ve depresif belirtiler belirgin biçimde
+azaldı.
+Neden önemli bir çalışma?
+Sosyal medya ile ruh sağlığı arasındaki araştırmaların çoğu korelasyonel; yani iki şeyin
+birlikte görüldüğünü gösteriyor, hangisinin diğerine yol açtığını değil. Bu çalışma ise kişileri
+rastgele gruplara ayırarak neden-sonuç ilişkisini deneysel olarak test eden ilk
+çalışmalardan biri.
+Araştırma
+Pennsylvania Üniversitesi'nden psikolog Dr. Melissa G. Hunt ve ekibi, sonuçları 2018'de
+Journal of Social and Clinical Psychology dergisinde yayımladı. Makalenin başlığı "No More
+FOMO" (Artık FOMO Yok) idi. Çalışmaya 143 lisans öğrencisi katıldı.
+Öğrenciler önce bir hafta boyunca normal kullanımlarını kaydetti. Ardından rastgele iki
+gruba ayrıldılar:
+1. Kontrol grubu sosyal medyayı her zamanki gibi kullandı.
+2. Deney grubu Facebook, Instagram ve Snapchat'i platform başına günde 10 dakika,
+toplamda 30 dakika ile sınırladı.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 22 of 34
+
+=== PAGE 23 ===
+Kullanım süresi, telefonların kendi pil ve kullanım kayıtlarından alınan ekran görüntüleriyle
+nesnel olarak takip edildi. Deney üç hafta sürdü.
+Bulgular
+Sınırlı grupta yalnızlık ve depresif belirtiler kontrol grubuna göre anlamlı ölçüde azaldı.
+Bu azalma, çalışmaya daha yüksek depresif belirtilerle başlayanlarda özellikle belirgindi.
+Her iki grupta da kaygı ve FOMO (bir şeyleri kaçırma korkusu) azaldı. Araştırmacılar
+bunu, kullanımı izlemenin kendisinin farkındalık yaratmasına bağladı.
+Hunt'ın yorumu basitti: Başkalarının kusursuz görünen hayatlarına daha az bakmak, kendi
+hayatını küçümseme hissini de azaltıyor.
+Bilimsel çekince
+Katılımcılar tek bir üniversiteden, yalnızca iPhone kullanan öğrencilerdi ve deney üç hafta
+sürdü. Ölçülen şey klinik tanı değil, depresif belirti düzeyiydi. Sonuçlar umut verici, ama
+farklı yaş gruplarında ve daha uzun sürelerde tekrar edilmesi gerekiyor.
+Gündelik hayattan bir sahne
+Günde üç saatini başkalarının tatil fotoğraflarını izleyerek geçiren biri, bu süreyi yarım
+saate indiriyor. Arta kalan iki buçuk saatte yürüyüşe çıkıyor ya da bir arkadaşıyla
+buluşuyor. Bir süre sonra kendi hayatını başkalarının vitrinleriyle kıyaslamayı daha az
+yaptığını fark ediyor.
+Ne yapılabilir?
+Önce bir hafta boyunca gerçek kullanım sürenizi ölçün; tahmininizle karşılaştırın.
+En çok zaman aldığınız üç platform için günlük süre sınırı belirleyin.
+Sosyal medyayı "boş anların doldurucusu" olmaktan çıkarıp günün belirli saatlerine
+yerleştirin.
+Limitra App Block ile
+Sosyal medyayı tamamen silmek zorunda değilsiniz; bu deney sınırlamanın da işe
+yarayabildiğini gösteriyor. Ancak 30. dakikada kendi kendine çıkış yapmak çoğu insan için
+zordur. Limitra App Block kotanızı takip eder ve süre dolduğunda uygulamayı kilitler.
+15. "İntikam Ertelemesi": Gündüzün Hesabını Geceden Sormak
+Gün boyu kendine vakit ayıramayan birçok insan, gece yatakta saatlerce telefon
+kaydırarak bu zamanı "geri almaya" çalışıyor. Bedeli ise uykudan ödeniyor.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 23 of 34
+
+=== PAGE 24 ===
+Kavramın kökeni
+"Yatma vaktini erteleme" (bedtime procrastination) kavramını ilk kez Utrecht
+Üniversitesi'nden Dr. Floor Kroese ve ekibi tanımladı. Ekip, bulgularını 2014'te Frontiers in
+Psychology dergisinde yayımladı. Tanım şu: Ortada dış bir engel yokken, planlanan saatte
+yatağa gitmemek.
+"İntikam" kısmı ise Çin'den geliyor. Çince bàofùxìng áoyè ( 報復性熬夜 ), uzun mesai saatleri
+nedeniyle gündüz kendine zamanı kalmayan çalışanların gece geç saatlere kadar uyanık
+kalmasını anlatıyor. İfade 2020'de sosyal medyada İngilizce "revenge bedtime
+procrastination" olarak yayıldı.
+Bulgular ve psikolojik dinamik
+Kroese ve ekibi, yatma vaktini erteleyen kişilerin daha az uyuduğunu ve kendini daha
+yorgun hissettiğini gösterdi. Bu ertelemenin öz düzenleme, yani kendini yönetme
+güçlükleriyle ilişkili olduğunu buldular.
+Dinamik tanıdık: Gün boyunca başkalarının taleplerine yetişen bir kişi, gece "artık benim
+zamanım" der. Uyumak bu zamanı bitirmek anlamına geldiği için, kişi farklı bir şey istemese
+bile kaydırmaya devam eder.
+"İrade tükeniyor mu?"
+Bu durum sıkça "ego tükenmesi" kuramıyla açıklanır: İradenin gün boyu harcanan sınırlı bir
+kaynak olduğu fikri. Ancak bu kuram, 2016'daki büyük çok merkezli bir tekrar çalışması
+başta olmak üzere, son yıllarda ciddi biçimde sorgulandı.
+Daha sağlam bir açıklama şu: Gece yorgunken uzun vadeli hedefler (sabah dinç uyanmak)
+ile anlık ödüller (bir video daha) arasındaki dengede anlık ödül daha kolay kazanır. Sonsuz
+akış tasarımı da doğal bir durma noktası sunmadığı için bu dengeyi daha da bozar.
+Gündelik hayattan bir sahne
+Bütün gün toplantılarla ve iş baskısıyla geçen bir çalışan, 23:30'da yatağa girer. "Bugün
+kendim için hiçbir şey yapmadım" diyerek telefona uzanır. Saate baktığında 02:30
+olmuştur. Hem suçluluk duyar hem de sabah kalkmakta zorlanır.
+Ne yapılabilir?
+Kendinize ait zamanı geceye bırakmayın; akşam erken bir saatte küçük de olsa "benim
+zamanım" ayırın.
+Yatmadan önceki saat için ekransız bir ritüel belirleyin: kitap, duş, müzik.
+Kaçırdığınız uyku saatini suçlulukla değil, bir sonraki akşamı planlamak için kullanın.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 24 of 34
+
+=== PAGE 25 ===
+Limitra App Block ile
+Gece yatakta, günün tüm yorgunluğuyla sonsuz akışa karşı direnmek zordur. Limitra App
+Block'un otomatik kilit kuralı, örneğin saat 23:00'te devreye girer ve dikkat dağıtan
+uygulamaları sizin yerinize kapatır. Kararı gündüz verirsiniz, gece yalnızca uygulanır.
+16. "Kaygılı Nesil": Jonathan Haidt ve Çocukluğun Yeniden
+Kablolanması
+Sosyal psikolog Jonathan Haidt'e göre 2010'larda çocukluk, "oyun temelli" olmaktan çıkıp
+"telefon temelli" hâle geldi. Haidt, gençlerdeki ruh sağlığı krizinin bu dönüşümle başladığını
+savunuyor.
+Kitap ve yazar
+Jonathan Haidt, New York Üniversitesi Stern İşletme Fakültesi'nde sosyal psikolog. The
+Anxious Generation (Kaygılı Nesil) adlı kitabı Mart 2024'te yayımlandı ve uzun süre The
+New York Times çok satanlar listesinde kaldı. Haidt, kitabında ABD Hastalık Kontrol
+Merkezleri (CDC) verileri başta olmak üzere çok sayıda ülkeden epidemiyolojik veriye
+dayanıyor.
+"Büyük Yeniden Kablolanma"
+Haidt, 2010–2015 arasını "Büyük Yeniden Kablolanma" (The Great Rewiring) olarak
+adlandırıyor. Bu yıllarda akıllı telefonlar, ön kameralar ve sürekli erişilen sosyal medya
+ergenlerin hayatının merkezine yerleşti. Aynı dönemde ebeveynler, çocuklarının gerçek
+dünyada gözetimsiz oynamasını giderek daha çok sınırladı.
+Haidt'in deyişiyle, çocukları gerçek dünyada aşırı korurken sanal dünyada yeterince
+korumadık.
+Kitapta öne çıkan veriler
+Haidt'in aktardığı ABD verilerine göre 2010'dan 2020'lerin başına:
+10–14 yaş arası kızlarda kendine zarar verme nedeniyle acil servise başvurular yaklaşık
+%188 arttı.
+Aynı yaş grubundaki kızlarda intihar oranı yaklaşık %167 arttı.
+Erkek çocuklarda da artışlar görüldü, ancak kızlardaki artış daha keskindi.
+Haidt'in dört önerisi
+1. Lise çağından önce, yani yaklaşık 14 yaşından önce akıllı telefon yok.
+2. 16 yaşından önce sosyal medya yok.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 25 of 34
+
+=== PAGE 26 ===
+3. Telefonsuz okullar: Telefonlar ders saatleri boyunca kilitli dolapta ya da çantada.
+4. Gerçek dünyada daha fazla özgürlük, serbest oyun ve sorumluluk.
+Haidt, bu adımların en çok toplu uygulandığında işe yaradığını vurguluyor. Tek bir aile tek
+başına kural koyduğunda, çocuk arkadaşlarından dışlanma riskiyle karşılaşıyor; okul ya da
+veli grubu birlikte karar verdiğinde bu sorun ortadan kalkıyor.
+Bilimsel tartışma
+Haidt'in tezi güçlü bir etki yarattı, ama tüm bilim insanları aynı fikirde değil. Gelişim
+psikoloğu Candice Odgers, 2024'te Nature dergisindeki değerlendirmesinde mevcut
+verilerin bu kadar güçlü bir nedensellik iddiasını desteklemediğini savundu. Bazı
+araştırmacılar da sosyal medyanın ortalama etkisinin küçük olduğunu, ekonomik ve sosyal
+faktörlerin de rol oynadığını hatırlatıyor.
+Yine de Haidt'in önerileri dünya genelinde okullarda ve ailelerde hızla benimseniyor.
+Tartışma, sorun olup olmadığından çok, etkinin büyüklüğü ve nedenin tam olarak ne olduğu
+üzerine.
+Gündelik hayattan bir sahne
+Parkta buluşan bir grup genç, konuşmak ya da oynamak yerine yan yana oturup sessizce
+telefonlarına bakıyor. Fiziksel olarak bir aradalar, ama aralarında neredeyse hiç etkileşim
+yok.
+Ne yapılabilir?
+Çocuğunuzun sınıfındaki diğer ailelerle ilk akıllı telefon yaşını birlikte konuşun.
+Okul yönetimiyle telefonsuz okul politikalarını gündeme getirin.
+Çocuğunuza yaşına uygun gözetimsiz serbest zaman ve küçük sorumluluklar tanıyın.
+Limitra Social ile
+Haidt'in de vurguladığı gibi, bu sorundan tek bir çocuk tek başına çıkamaz; arkadaş baskısı
+güçlüdür. Limitra Social, arkadaş gruplarının ve ailelerin ekran sınırlarını birlikte koymasını
+sağlar. Birlikte kilitleyin; "bir tek ben dışarıda kalırım" korkusunu ortadan kaldırın.
+Destek notu: Kendinizi çok kötü hissediyorsanız ya da kendinize zarar vermeyi
+düşünüyorsanız, lütfen yalnız kalmayın. Acil durumda 112'yi arayın; güvendiğiniz biriyle
+ya da bir ruh sağlığı uzmanıyla konuşun.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 26 of 34
+
+=== PAGE 27 ===
+17. "Doomscrolling": Kötü Haber Kaydırmak Varoluşsal Kaygıyla
+Bağlantılı
+Sosyal medyada sürekli felaket ve kriz haberleri kaydırmak, ölüm, anlam ve hayatın
+kontrolü üzerine yoğun kaygılarla ilişkili bulundu. Bu sonuç, iki farklı kültürden 800
+üniversite öğrencisiyle yapılan bir araştırmadan geliyor.
+Kavram
+"Doomscrolling", İngilizce "doom" (kıyamet, felaket) ve "scrolling" (kaydırma)
+sözcüklerinden oluşuyor. Kişiyi üzse de olumsuz haberleri durmaksızın kaydırmaya devam
+etmeyi anlatıyor. Kelime özellikle 2020'de, pandemi döneminde yaygınlaştı.
+Araştırma
+Avustralya'daki Flinders Üniversitesi'nden Reza Shabahang ve ekibi, çalışmayı 2024'te
+Computers in Human Behavior Reports dergisinde yayımladı. Araştırmacılar, ABD (bireyci
+bir Batı kültürü) ve İran'dan (kolektif bir Doğu kültürü) toplam 800 üniversite öğrencisine
+anket uyguladı. Doomscrolling’i varoluşsal açıdan inceleyen ilk çalışma olduğu belirtiliyor.
+Bulgular
+Doomscrolling, her iki ülkede de varoluşsal kaygıyla ilişkiliydi: ölüm, yaşamın anlamı ve
+hayat üzerindeki kontrol hakkında yoğun endişeler.
+İran örnekleminde doomscrolling, mizantropinin (insanlardan hoşlanmama, insanlara
+güvensizlik) da anlamlı bir yordayıcısıydı. ABD örnekleminde bu ilişki aynı güçte
+görülmedi.
+Araştırmacılar bu tabloyu "ikincil travma" (vicarious trauma) kavramıyla açıklıyor. Yani kişi
+travmatik olayı bizzat yaşamasa da, o olaya dair görüntü ve bilgilere sürekli maruz kalmak
+kaygı ve umutsuzluk gibi travma benzeri tepkilere yol açabiliyor.
+Bilimsel çekince
+Bu bir anket çalışması ve bulgular ilişkisel. Yani doomscrolling'in kaygıya mı yol açtığı,
+yoksa zaten kaygılı olanların mı daha çok kötü haber tükettiği kesin olarak bilinmiyor.
+Büyük olasılıkla ikisi birbirini besleyen bir döngü oluşturuyor.
+Gündelik hayattan bir sahne
+Sabah uyanır uyanmaz 45 dakika boyunca savaş ve felaket görüntülerini kaydıran biri.
+Yataktan kalktığında dünyaya karşı derin bir güvensizlik ve çaresizlik hisseder. Güne
+başlama enerjisi daha ilk saatte tükenmiştir.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 27 of 34
+
+=== PAGE 28 ===
+Ne yapılabilir?
+Haberleri akış yerine günde bir ya da iki kez, güvenilir bir kaynaktan, belirli bir süreyle
+okuyun.
+Güne telefonla değil, başka bir rutinle başlayın; ilk haber kontrolünü kahvaltıdan
+sonraya bırakın.
+Kendinizi çaresiz hissettiğiniz bir konu için somut, küçük bir adım bulun: bağış,
+gönüllülük ya da yakınlarınızla konuşmak.
+Limitra App Block ile
+Dünyadan haberdar olmak ile algoritmanın panik döngüsünde ruh sağlığını kaybetmek aynı
+şey değil. Limitra App Block ile haber ve sosyal medya uygulamalarınıza günlük sınırlar
+koyun. Bilgilenmeye devam edin, ama kendi belirlediğiniz süre içinde.
+18. Oxford'un 2024 Yılının Kelimesi: "Brain Rot" (Beyin Çürümesi)
+Oxford Üniversitesi Yayınevi, 2024 yılının kelimesi olarak "brain rot" ifadesini seçti. Bu
+seçim, insanların çevrimiçi tüketimin zihinlerine etkisinden duyduğu kaygının dile
+yansıması olarak yorumlandı.
+Seçim nasıl yapıldı?
+Oxford University Press, kararı 2 Aralık 2024'te duyurdu. Seçimde 37 bini aşkın kişinin
+katıldığı bir kamuoyu oylaması ve sözlük ekibinin kullanım verisi analizi birlikte
+değerlendirildi. Finale kalan diğer kelimeler arasında "demure", "dynamic pricing", "lore",
+"romantasy" ve "slop" vardı.
+Tanım
+Oxford'un tanımına göre brain rot, bir kişinin zihinsel ya da entelektüel durumunda
+varsayılan bir bozulmadır. Bu bozulma, özellikle önemsiz veya zorlayıcı olmayan içeriklerin,
+günümüzde özellikle çevrimiçi içeriklerin aşırı tüketilmesinin sonucu olarak görülür. Aynı
+ifade, bu bozulmaya yol açtığı düşünülen içerikleri anlatmak için de kullanılıyor.
+Tanımdaki "varsayılan" (supposed) kelimesi önemli. Brain rot tıbbi bir durum değil;
+toplumun kendi deneyimini adlandırmak için kullandığı kültürel bir ifade.
+Rakamlar ve tarihçe
+Oxford'a göre ifadenin kullanım sıklığı 2023'ten 2024'e %230 arttı.
+İfade özellikle TikTok başta olmak üzere sosyal medyada, Z ve Alfa kuşakları arasında
+yayıldı.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 28 of 34
+
+=== PAGE 29 ===
+İlginç bir ayrıntı: Oxford'a göre ifadenin bilinen ilk kaydı 1854'e, Henry David
+Thoreau'nun Walden kitabına dayanıyor. Thoreau, toplumun karmaşık fikirleri
+küçümseyip basit olanı tercih etmesini eleştirirken bu ifadeyi kullanmıştı.
+Neden önemli?
+Brain rot'un sıradan bir argo olmaktan çıkıp yılın kelimesi olması, kaygının artık uzmanlarla
+sınırlı olmadığını gösteriyor. İfadeyi en çok kullananlar, bu içerikleri en çok tüketen
+gençlerin kendisi. Bu da bir tür öz eleştiri ve farkındalık olarak okunabilir.
+Gündelik hayattan bir sahne
+Saatlerce anlamsız kısa videolar izleyen biri, telefonu kapattığında bir arkadaşına gününü
+anlatmakta zorlanır. Kelimeler akılına gelmez, düşünceleri dağınıktır. Gülerek "beynim
+çürüdü resmen" der; ama içten içe bunun bir şaka olmadığını hisseder.
+Ne yapılabilir?
+Tükettiklerinizin bir kısmını bilinçli olarak "zorlayıcı" içeriklerle değiştirin: uzun bir
+makale, belgesel ya da kitap.
+Kısa video uygulamalarını ana ekranınızdan kaldırın; açmak için bir adım fazlası
+gereksin.
+Gün sonunda öğrendiğiniz tek bir şeyi birine anlatın ya da not edin.
+Limitra ile
+"Brain rot" esprili bir ifade, ama arkasındaki kaygı gerçek. Zihninizi bu akıştan korumak için
+içerik tüketimine bilinçli sınırlar koymak gerekir. Limitra ile anlamsız akışları belirlediğiniz
+saatlerde kilitleyin; o zamanı üretmeye ve öğrenmeye ayırın.
+19. "Text Neck" (Mesaj Boynu): Telefona 60 Derece Eğilmek Boyna
+Yaklaşık 27 Kilo Yük Bindiriyor
+Başımızı telefona doğru eğdikçe boynumuza binen yük katlanarak artıyor. Bir bilgisayar
+modeline göre 60 derecelik eğilm, boyna yaklaşık 27 kilogramlık bir yük bindiriyor.
+Araştırma
+New York'taki omurga cerrahı Dr. Kenneth K. Hansraj, hesaplamalarını 2014'te Surgical
+Technology International dergisinde yayımladı. Hansraj, başın farklı eğim açılarında boyun
+omurlarına binen kuvveti bir bilgisayar modeliyle hesapladı.
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 29 of 34
+
+=== PAGE 30 ===
+Bulgular
+Hansraj, 60 derecedeki yükü boynunda sekiz yaşında bir çocuğu taşımaya benzetti.
+Hesabına göre, telefona günde 2–4 saat bu şekilde bakan biri, yılda 700 ila 1.400 saati eğik
+boyunla geçiriyor.
+Bilimsel çekince
+Bu değerler canlı insanlarda ölçülmedi, bir bilgisayar modeliyle hesaplandı. Ayrıca eğik
+duruşun kalıcı hasara yol açtığı hâlâ tartışmalı. Örneğin 2018'de European Spine Journal'da
+yayımlanan bir çalışma, genç yetişkinlerde "text neck" duruşu ile boyun ağrısı arasında
+anlamlı bir ilişki bulamadı.
+Uzmanların çoğu ise asıl sorunun eğilmenin kendisi değil, aynı pozisyonda saatlerce
+hareketsiz kalmak olduğunu düşünüyor. Uzun süreli statik duruş kas yorgunluğuna,
+gerginliğe ve rahatsızlığa katkıda bulunabilir.
+Gündelik hayattan bir sahne
+Metroda, durakta ya da kafede çenesi neredeyse göğsüne değen insanlar. Akşam olunca
+ense ve omuzlarının gergin olduğunu, sırtlarının yandığını söylerler. Gün boyunca kaç saati
+bu pozisyonda geçirdiklerini ise hiç hesaplamamışlardır.
+Ne yapılabilir?
+Telefonu başınızı eğmek yerine göz hizanıza yakın kaldırın.
+Uzun okumaları telefonda değil, uygun yükseklikte bir ekranda yapın.
+Her yarım saatte bir boynunuzu ve omuzlarınızı hareket ettirin; pozisyon değiştirin.
+Sürekli ya da şiddetli boyun ağrısı yaşıyorsanız bir hekime ya da fizyoterapiste
+başvurun.
+Başın eğim açısı Boyna binen yaklaşık yük
+0° (dik duruş) 4,5–5,5 kg
+15° 12 kg
+30° 18 kg
+45° 22 kg
+60° 27 kg
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 30 of 34
+
+=== PAGE 31 ===
+Limitra App Block ile
+Mesele sadece zamanınız değil, bedeninizin gün boyu takıldığı pozisyon da. Limitra App
+Block ile ekrana gömülü geçen saatleri kısaltın. Başınızı kaldırın, etrafınıza bakın,
+boynunuza mola verin.
+20. Hesap Verebilirlik Ortaklığı: Hedefi Bir Arkadaşla Paylaşmak
+Başarı Oranını %43'ten %76'ya Çıkardı
+Bir hedefi yalnızca düşünenler ile ilerlemelerini her hafta bir arkadaşına raporlayanlar
+arasında büyük fark var. Dominican Üniversitesi'nin çalışmasında başarı oranı %43'ten
+%76'ya yükseldi.
+Çalışmanın ilginç hikayesi
+Kaliforniya'daki Dominican Üniversitesi'nden psikoloji profesörü Dr. Gail Matthews, iş
+dünyasında sıkça anlatılan bir efsanenin peşine düştü. Efsaneye göre Yale'de yapılan bir
+çalışmada hedeflerini yazan mezunlar, yazmayanlardan on kat fazla kazanmıştı. Matthews
+böyle bir çalışmanın hiç var olmadığını fark etti ve konuyu kendisi test etmeye karar verdi.
+Araştırma
+Matthews, dünyanın farklı yerlerinden girişimci, avukat, eğitimci, sanatçı ve yöneticiler gibi
+farklı meslek gruplarından katılımcılar topladı. Başlangıçta 267 kişi katıldı, çalışmayı 149 kişi
+tamamladı. Katılımcılar beş gruba ayrıldı:
+1. Hedeflerini yalnızca düşündüler.
+2. Hedeflerini yazıya döktüler.
+3. Hedeflerini yazdılar ve her biri için somut eylem adımları belirlediler.
+4. Bunların hepsini yapıp eylem adımlarını destekçi bir arkadaşlarına gönderdiler.
+5. Hepsini yaptılar ve ek olarak o arkadaşlarına her hafta ilerleme raporu gönderdiler.
+Dört hafta sonunda katılımcıların hedeflerine ulaşıp ulaşmadıkları ya da yolu en az yarılayıp
+yarılamadıkları değerlendirildi.
+Bulgular
+Grup Hedefine ulaşan ya da yolu yarılayan
+1. Yalnızca düşünenler %43
+4. Arkadaşına taahhütte bulunanlar %64
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 31 of 34
+
+=== PAGE 32 ===
+Matthews'a göre çalışma üç aracın işe yaradığını gösteriyor: hedefi yazmak, somut
+eylemlere bağlanmak ve birine hesap vermek. En büyük sıçrama, ilerlemenin düzenli
+olarak biriyle paylaşıldığı grupta görüldü.
+Neden işe yarıyor?
+İnsanlar sosyal varlıklardır ve verdikleri sözü tutmama konusunda başkalarının gözünde
+küçük düşmekten kaçınırlar. Kendinize verdiğiniz sözü kimse görmez; bir arkadaşa
+verdiğiniz sözün ise sosyal bir bedeli vardır. Haftalık rapor da hedefi gündemde tutar ve
+sapmaları erken fark ettirir.
+Bilimsel çekince
+Matthews'un çalışması bir konferansta sunuldu, hakemli bir dergide yayımlanmadı.
+Örneklem küçük ve süre kısa. İnternette sıkça paylaşılan "%10'dan %95'e" şeklindeki skala
+ise genellikle ATD'ye (eski adıyla ASTD) atfediliyor; ancak bu skalanın dayandığı özgün bir
+çalışma bulunamıyor. Bu yüzden o rakamlar burada kullanılmadı.
+Gündelik hayattan bir sahne
+Tek başına dijital detoks yapmaya karar veren biri iki gün sonra bozar, çünkü kimse görmez.
+Ama iki yakın arkadaş "Akşam 20:00–23:00 arası telefonlar kilitli, bozan kahveleri ısmarlar"
+diye anlaştığında durum değişir. Her akşam birbirlerine kısa bir mesajla haber verirler ve
+ikisi de kilidi açmamak için daha fazla çaba gösterir.
+Ne yapılabilir?
+Ekran hedefinizi somut yazın: "Akşam 21:00'den sonra sosyal medya yok" gibi.
+Bu hedefi güvendiğiniz bir arkadaşınıza gönderin.
+Her hafta aynı gün, o arkadaşınıza kısa bir ilerleme raporu verin.
+Limitra Social ile
+İrade tek başına kırılgandır; birlikte çok daha güçlüdür. Limitra Social, tam da bu hesap
+verebilirlik fikri üzerine kurulu. Arkadaşınızla ortak kilit başlatın, ilerlemenizi birlikte görün.
+Ekran bağımlılığıyla tek başınıza mücadele etmek zorunda değilsiniz.
+Grup Hedefine ulaşan ya da yolu yarılayan
+5. Arkadaşına haftalık rapor verenler %76
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 32 of 34
+
+=== PAGE 33 ===
+Kaynakça
+Bağlantı verilen kaynaklar bu doküman hazırlanırken kontrol edildi. Diğerleri yayın
+bilgileriyle verildi; yayımlamadan önce DOI ya da bağlantı eklemen önerilir.
+1. Roberts, J. A. & David, M. E. (2016). My life has become a major distraction from my
+cell phone. Computers in Human Behavior, 54. · Eisenberger, N. I. ve ark. (2003). Does
+rejection hurt? Science.
+2. Ward, A. F., Duke, K., Gneezy, A. & Bos, M. W. (2017). Brain Drain. Journal of the
+Association for Consumer Research, 2(2).
+3. Mark, G. (2023). Attention Span. Hanover Square Press. · Leroy, S. (2009). Why is it so
+hard to do my work? Organizational Behavior and Human Decision Processes.
+4. Holt-Lunstad, J., Smith, T. B. & Layton, J. B. (2010). Social relationships and mortality
+risk. PLOS Medicine. · Holt-Lunstad ve ark. (2015). Perspectives on Psychological
+Science. · U.S. Surgeon General (2023). Our Epidemic of Loneliness and Isolation. ·
+Cigna (2018) Loneliness Index. · Harvard Making Caring Common (2021). Loneliness in
+America.
+5. Bilton, N. (2014). Steve Jobs Was a Low-Tech Parent. The New York Times. · Richtel, M.
+(2011). A Silicon Valley School That Doesn't Compute. The New York Times.
+6. CNBC: WSJ'nin Facebook belgeleri haberi (14 Eylül 2021) · Wells, G., Horwitz, J. &
+Seetharaman, D. (2021). Facebook Knows Instagram Is Toxic for Teen Girls. The Wall
+Street Journal.
+7. Levy, D. M. (2016). Mindful Tech. Yale University Press.
+8. Drouin, M., Kaiser, D. H. & Miller, D. A. (2012). Phantom vibrations among
+undergraduates. Computers in Human Behavior, 28(4). · Rothberg, M. B. ve ark. (2010).
+BMJ.
+9. Chang, A.-M., Aeschbach, D., Duffy, J. F. & Czeisler, C. A. (2015). Evening use of light-
+emitting eReaders negatively affects sleep. PNAS, 112(4)
+10. Gazelle: Z kuşağı ve dumbphone verileri (Morning Consult anketi ve %148 iddiası)
+11. McDaniel, B. T. & Radesky, J. S. (2018). Technoference. Child Development, 89(1). ·
+McDaniel & Radesky (2018). Pediatric Research. · Radesky, J. S. ve ark. (2014).
+Pediatrics.
+12. Spitzer, M. (2012). Digitale Demenz. Droemer. · Maguire, E. A. ve ark. (2000). PNAS. ·
+Dahmani, L. & Bohbot, V. D. (2020). Scientific Reports.
+13. Linda Stone'un "continuous partial attention" ve "email apnea" yazıları
+(lindastone.net; The Huffington Post, 2008).
+14. Hunt, M. G., Marx, R., Lipson, C. & Young, J. (2018). No More FOMO. Journal of Social
+and Clinical Psychology, 37(10).
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 33 of 34
+
+=== PAGE 34 ===
+15. Kroese, F. M. ve ark. (2014). Bedtime procrastination. Frontiers in Psychology. ·
+Hagger, M. S. ve ark. (2016). Ego depletion çok merkezli tekrar çalışması. Perspectives
+on Psychological Science.
+16. Haidt, J. (2024). The Anxious Generation. Penguin Press. · Odgers, C. L. (2024). The
+great rewiring: is social media really behind an epidemic of teenage mental illness?
+Nature.
+17. Flinders Üniversitesi çalışmasının özeti (Open Forum) · Shabahang, R. ve ark. (2024).
+Computers in Human Behavior Reports. DOI: 10.1016/j.chbr.2024.100438
+18. Oxford University Press (2 Aralık 2024). Oxford Word of the Year 2024: brain rot.
+(corp.oup.com)
+19. Hansraj, K. K. (2014). Assessment of stresses in the cervical spine caused by
+posture and position of the head. Surgical Technology International, 25. · Damasceno, G.
+M. ve ark. (2018). European Spine Journal.
+20. Black Enterprise: Gail Matthews çalışması ve Yale efsanesi · Illinois blog: grup
+sonuçları (%43 / %62–64 / %76)
+Ekran Bağımlılığı Üzerine 20 Araştırma
+Page 34 of 34
+
