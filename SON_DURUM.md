@@ -10,6 +10,12 @@
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 
 ## Güncel Durum (2026-10-04)
+- **Haber Kartı Ayırıcı Çizgisi ve Footer Hiyerarşisi Simetrisi Hizalandı (Antigravity, 4 Ekim):**
+  - Haber kartlarının alt ayırıcı çizgisinin (`border-top`) uzun kaynakça metinleri yüzünden farklı yüksekliklere zıplaması sorunu çözüldü.
+  - `.news-card .card-footer` `flex-wrap: nowrap; min-height: 52px; margin-top: auto;` ile kilitlendi. `.source-tag` tek satır ve taşma durumunda `text-overflow: ellipsis` ile sınırlandırıldı (`title={item.source}` ile erişilebilirlik korundu), `.read-link` sabitlendi.
+  - Yan yana duran tüm kartların ayırıcı çizgileri ve "Oku →" bağlantıları milimetrik olarak aynı yatay doğrultuya hizalandı.
+  - 707 sayfa 0 hata ile derlendi (`npm run check:links` OK).
+
 - **Haber Kartı 'Oku' Bağlantısındaki Titreme ve Yazı Kaybolma Hatası Giderildi (Antigravity, 4 Ekim):**
   - Haber kartlarındaki `.read-link` ("Oku") bileşeninde `:hover` esnasında uygulanan dinamik `gap: 0.55rem` ve kart kenarındaki fare sınır osilasyonu giderildi.
   - Metin konumu sabit tutularak sadece ok simgesi GPU ivmeli `translateX(4px)` ile hareketlendirildi, kart sınırına `::after` tamponu eklenerek kesintisiz ve stabil bir hover deneyimi sağlandı.

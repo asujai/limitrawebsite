@@ -95,7 +95,7 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
             </h3>
             <p class="summary">{item.summary}</p>
             <div class="card-footer">
-              <span class="source-tag">{item.source}</span>
+              <span class="source-tag" title={item.source}>{item.source}</span>
               <a href={articleUrl(item.slug)} class="read-link">
                 <span>{ui.index.read}</span>
                 <span aria-hidden="true" class="arrow">&rarr;</span>
@@ -360,7 +360,7 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
     margin-bottom: var(--space-6);
   }
 
-  .card-footer {
+  .featured-card .card-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -488,19 +488,30 @@ const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${l
 
   .news-card .card-footer {
     border-top: 1px solid var(--border-soft);
-    padding-top: 0.75rem;
+    padding-top: 0.85rem;
+    margin-top: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 0.75rem;
+    flex-wrap: nowrap;
+    min-height: 52px;
   }
 
   .source-tag {
     font-size: 0.8rem;
     color: var(--text-muted);
     font-weight: 600;
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.4;
   }
 
   .read-link {
+    flex-shrink: 0;
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;

@@ -1,5 +1,18 @@
 # İşlem Geçmişi
 
+## [2026-10-04 12:41] - Haber Kartı Ayırıcı Çizgisi ve Footer Hiyerarşisi Simetrisi Hizalandı
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:** `[GÜNCELLENDİ]` `src/components/NewsIndex.astro`
+* **Yapılan İşlem:**
+  1. Genel `.card-footer` kuralındaki `flex-wrap: wrap` özelliği öne çıkan karta (`.featured-card .card-footer`) özel olacak şekilde sınırlandırıldı.
+  2. Haber ızgarasındaki kartların alt kısmı (`.news-card .card-footer`) için `flex-wrap: nowrap; min-height: 52px; margin-top: auto;` kuralları tanımlandı.
+  3. Uzun kaynakça metinlerinin "Oku →" bağlantısını alt satıra kırıp çizgiyi yukarı itmesini önlemek amacıyla `.source-tag` öğesine `flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;` ve HTML'e erişilebilirlik için `title={item.source}` eklendi. `.read-link` ise `flex-shrink: 0;` ile sabitlendi.
+  4. Böylece tüm kartların footer yüksekliği eşitlendi ve yan yana duran kartlardaki ayırıcı çizgi (`border-top`) cetvelle çizilmiş gibi tek bir yatay hizada milimetrik simetriye kavuşturuldu.
+* **Doğrulama:** `npm run build` (707 sayfa, 0 hata), `npm run check:links` (OK).
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-04 11:46] - Haber Kartı 'Oku' Bağlantısındaki Titreme ve Yazı Kaybolma Hatası Giderildi
 
 * **Model:** Antigravity
