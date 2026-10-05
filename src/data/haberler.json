@@ -1,5 +1,34 @@
 [
   {
+    "id": "77",
+    "slug": "kaliforniya-sb-976-bagimlilik-yapan-algoritmik-akis-ve-gece-bildirim-yasagi",
+    "title": "Kaliforniya'dan Sosyal Medya Algoritmalarına Darbe: SB 976 Yasası ile Reşit Olmayanlara Bağımlılık Yapan Akışlar ve Gece Bildirimleri Yasaklandı",
+    "summary": "Kaliforniya Valisi Gavin Newsom tarafından onaylanan SB 976 'Çocuklarımızı Sosyal Medya Bağımlılığından Koruma Yasası', teknoloji devlerinin reşit olmayanlara algoritmik öneri akışı sunmasını ve okul ile uyku saatlerinde bildirim göndermesini veli onayı olmadan yasaklıyor. Silikon Vadisi'nin merkezinde yürürlüğe giren düzenleme, platformları kronolojik akışa ve varsayılan gizlilik ayarlarına dönmeye zorluyor.",
+    "content": [
+      "Silikon Vadisi'nin evi olan Kaliforniya, sosyal medya devlerinin çocuk ve gençlerin dikkatini hedef alan algoritmik tasarımlarına karşı küresel çapta emsal teşkil edecek tarihi bir yasal adıma imza attı. Eyalet Senatörü Nancy Skinner tarafından hazırlanan ve Vali Gavin Newsom tarafından imzalanarak yasalaşan Senato Tasarısı 976 (SB 976 — Protecting Our Kids from Social Media Addiction Act), platformların reşit olmayan kullanıcılara ebeveynlerinin doğrulanabilir açık onayı olmadan bağımlılık yapıcı akış (addictive feed) sunmasını resmen yasaklıyor. Düzenleme, dijital platformların kullanıcı etkileşimini yapay zekâ algoritmalarıyla azamiye çıkarma modeline doğrudan hukuki bir set çekiyor.",
+      "Yeni yasanın getirdiği en kritik değişiklik, 'bağımlılık yapıcı akış' kavramının yasal çerçeveye oturtulması oldu. Yasa metnine göre; kullanıcının geçmiş davranışları, izleme süreleri ve etkileşim verileri taranarak oluşturulan kişiselleştirilmiş öneri akışları yerine, gençlerin yalnızca bizzat takip ettikleri kişilerin paylaşımlarını kronolojik sırada görmeleri zorunlu kılınıyor. Platformlar, veli izni bulunmadığı takdirde gençlerin ana akışını otomatik olarak kronolojik düzene döndürmek ve profillerini varsayılan olarak gizli (private) konuma almakla yükümlü hale geliyor.",
+      "SB 976 yalnızca içerik akışını değil, dikkati bölmeyi amaçlayan bildirim mimarisini de katı kurallara bağlıyor. Yasa kapsamında sosyal medya şirketlerinin, veli onayı olmaksızın reşit olmayan kullanıcılara ders saatleri olan 08:00 ile 15:00 arasında ve gece uyku dilimi olan 00:00 ile 06:00 saatleri arasında push bildirim göndermesi yasaklandı. Böylece hem okullardaki dikkat dağınıklığının hem de ergenlerde yaygınlaşan gece yatakta telefon kaydırma (intikam ertelemesi) alışkanlığının önüne geçilmesi hedefleniyor.",
+      "Kaliforniya Başsavcılığı'nın yaş doğrulama ve veli izni yönetmeliklerini hazırlamasıyla kademeli olarak uygulamaya girecek olan yasa, teknoloji endüstrisi lobi kuruluşlarının yargı başvurularıyla karşılaşsa da dünya genelindeki yasa koyucular için bir dönüm noktası olarak değerlendiriliyor. Uzmanlar, daha önce eyalette kabul edilen okul içi telefon yasağı (AB 3216) ile birleştiğinde Kaliforniya'nın, hem cihaz kullanımını hem de algoritmik bağımlılık mekanizmalarını çift taraflı denetim altına alan ilk eyalet haline geldiğine dikkat çekiyor.",
+      "Yasal düzenlemeler platformların çalışma biçimini değiştirmek için kritik bir zemin oluştursa da kuralların tam olarak hayata geçirilmesi ve küresel ölçekte yayılması zaman gerektiriyor. Bu geçiş sürecinde kullanıcıların ve ebeveynlerin kendi dijital sağlıklarını korumak adına aktif tedbirler alması önemini koruyor. Limitra ekosistemi, kullanıcıların akıllı telefonlarında dikkat dağıtıcı algoritmik uygulamaları kendi belirledikleri katı sürelerle sınırlandırmalarına ve Limitra App Block'un tavizsiz kalkanları veya Limitra Social'ın hesap verebilirlik ortaklığı sayesinde bildirim bombardımanından uzak, dingin bir zihin alanı inşa etmelerine destek veriyor."
+    ],
+    "source": "Kaliforniya Eyalet Valiliği / SB 976 Resmi Metni",
+    "sourceUrl": "https://gov.ca.gov",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-10-05",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Kaliforniya SB 976",
+      "Sosyal Medya Bağımlılığı",
+      "Algoritmik Akış Yasağı",
+      "Gavin Newsom",
+      "Nancy Skinner",
+      "Gece Bildirim Kısıtı",
+      "Ekran Süresi",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "76",
     "slug": "iradeni-zorlamadan-ekran-suresini-azaltmak-davranissal-surtunme-yasasi",
     "title": "İradeni Zorlamadan Ekran Süresini Azaltmak: Davranışsal Sürtünme (Friction) Yasası",

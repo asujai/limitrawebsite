@@ -1,5 +1,34 @@
 [
   {
+    "id": "77",
+    "slug": "california-sb-976-larangan-algoritma-adiktif-dan-notifikasi-malam-untuk-anak",
+    "title": "California Batasi Algoritma Media Sosial: Undang-Undang SB 976 Larang Feed Adiktif dan Notifikasi Malam untuk Anak di Bawah Umur",
+    "summary": "Ditandatangani oleh Gubernur California Gavin Newsom, UU SB 976 'Protecting Our Kids from Social Media Addiction Act' melarang platform menyajikan feed berbasis algoritma kepada anak di bawah umur serta mengirimkan notifikasi saat jam sekolah dan waktu tidur tanpa izin orang tua yang terverifikasi. Regulasi asal Silicon Valley ini mewajibkan urutan kronologis dan akun privat secara default.",
+    "content": [
+      "California, pusat Silicon Valley, mencatat tonggak sejarah baru dalam membatasi desain algoritma yang dirancang perusahaan teknologi untuk memikat perhatian anak-anak dan remaja. Disusun oleh Senator Nancy Skinner dan disahkan oleh Gubernur Gavin Newsom, Undang-Undang SB 976 ('Protecting Our Kids from Social Media Addiction Act') secara resmi melarang platform online memberikan 'feed adiktif' kepada pengguna di bawah umur tanpa persetujuan terverifikasi dari orang tua. Aturan ini secara langsung membatasi model bisnis monetisasi atensi yang didorong kecerdasan buatan.",
+      "Poin paling mendasar dari undang-undang baru ini adalah penetapan batasan hukum atas 'feed adiktif'. Alih-alih menyajikan rekomendasi hasil pemindaian perilaku dan riwayat tontonan, platform diwajibkan hanya menampilkan unggahan dari akun yang secara sadar diikuti oleh anak, disusun secara runtut kronologis. Tanpa izin orang tua, akun remaja juga wajib diatur ke mode privat secara otomatis sejak awal.",
+      "SB 976 tidak hanya mengatur alur konten, tetapi juga membatasi arsitektur notifikasi yang memecah konsentrasi. Regulasi ini melarang pengiriman push notification kepada pengguna di bawah umur antara pukul 08.00 hingga 15.00 (jam sekolah) dan antara pukul 00.00 hingga 06.00 (waktu tidur malam) tanpa izin orang tua. Langkah ini ditujukan untuk memulihkan fokus belajar sekaligus mengatasi kebiasaan begadang menatap layar (revenge bedtime procrastination).",
+      "Meski menghadapi gugatan hukum dari asosiasi industri teknologi menjelang penerbitan petunjuk teknis oleh Jaksa Agung California, undang-undang ini dipandang sebagai preseden global. Bersama undang-undang bebas ponsel di sekolah (AB 3216) yang disahkan sebelumnya, California menjadi wilayah pertama yang menerapkan regulasi ganda: mengawasi kehadiran fisik ponsel di sekolah dan membatasi manipulasi algoritma di dalam aplikasi.",
+      "Kendati regulasi pemerintah sangat krusial, implementasi penuh hingga ke tingkat internasional membutuhkan waktu bertahap. Selama masa transisi ini, langkah proaktif mandiri tetap menjadi kunci perlindungan kesehatan digital. Ekosistem Limitra hadir memberikan kendali langsung bagi pengguna dan keluarga: melalui perlindungan ketat Limitra App Block dan kemitraan akuntabilitas Limitra Social, siapa saja dapat menghentikan bombardir notifikasi dan meraih kembali ketenangan mental."
+    ],
+    "source": "Kantor Gubernur Gavin Newsom / Teks Resmi SB 976",
+    "sourceUrl": "https://gov.ca.gov",
+    "category": "Kebijakan Pemerintah & Hukum",
+    "date": "2026-10-05",
+    "readTime": "5 menit",
+    "featured": false,
+    "tags": [
+      "California SB 976",
+      "Kecanduan Media Sosial",
+      "Larangan Feed Algoritma",
+      "Gavin Newsom",
+      "Nancy Skinner",
+      "Jam Malam Notifikasi",
+      "Waktu Layar",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "76",
     "slug": "reducing-screen-time-without-willpower-the-law-of-behavioral-friction-id",
     "title": "Reducing Screen Time Without Willpower: The Universal Law of Behavioral Friction",

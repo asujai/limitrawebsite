@@ -1,5 +1,34 @@
 [
   {
+    "id": "77",
+    "slug": "california-sb-976-prohibe-algoritmos-adictivos-y-notificaciones-nocturnas-menores",
+    "title": "California frena los algoritmos de redes sociales: La ley SB 976 prohíbe feeds adictivos y notificaciones nocturnas a menores",
+    "summary": "Firmada por el gobernador de California Gavin Newsom, la ley SB 976 'Protecting Our Kids from Social Media Addiction Act' prohíbe a las plataformas ofrecer feeds algorítmicos a menores y enviar notificaciones en horario escolar o de descanso sin consentimiento parental verificable. Surgida en Silicon Valley, obliga al feed cronológico y perfiles privados por defecto.",
+    "content": [
+      "California, sede de Silicon Valley, ha aprobado una legislación histórica frente a los diseños algorítmicos con los que las tecnológicas capturan la atención de niños y adolescentes. Redactada por la senadora estatal Nancy Skinner y promulgada por el gobernador Gavin Newsom, la ley SB 976 ('Protecting Our Kids from Social Media Addiction Act') prohíbe legalmente a las plataformas suministrar un 'feed adictivo' a usuarios menores de 18 años sin el consentimiento paterno verificable. La norma pone un freno directo al modelo que maximiza la permanencia mediante algoritmos predictivos.",
+      "La transformación más significativa de la ley radica en la definición jurídica de 'feed adictivo'. Conforme al texto legislativo, en lugar de sugerencias personalizadas basadas en el historial de navegación y datos de interacción, las plataformas deben limitar los contenidos para menores a aquellos compartidos exclusivamente por cuentas que siguen, mostrados en estricto orden cronológico. Sin la autorización expresa de los padres, las redes deben activar automáticamente el orden cronológico y configurar las cuentas como privadas de manera predeterminada.",
+      "La ley SB 976 no solo regula el flujo de contenido, sino también la insistencia de las alertas. Prohíbe el envío de notificaciones push a menores entre las 08:00 y las 15:00 horas (jornada escolar habitual) y entre las 00:00 y las 06:00 horas (ventana de descanso nocturno), salvo autorización expresa de los progenitores. Esta disposición busca frenar tanto la desconcentración en las aulas como el fenómeno de la postergación del sueño (venganza del sueño) en los jóvenes.",
+      "A medida que la Fiscalía General de California elabore los reglamentos de verificación de edad y consentimiento, y pese a los litigios planteados por asociaciones de la industria tecnológica, la ley marca un precedente global. Sumada a la reciente ley de escuelas libres de teléfonos (AB 3216), California se convierte en el primer territorio en abordar de forma conjunta tanto el uso del dispositivo físico como los mecanismos algorítmicos de retención.",
+      "Si bien los marcos regulatorios son indispensables para transformar las prácticas del sector, su implantación efectiva a nivel mundial requerirá tiempo. Mientras tanto, la autoprotección digital sigue siendo fundamental. Herramientas como Limitra ofrecen a las familias soluciones inmediatas y prácticas: con los bloqueos estrictos de Limitra App Block y el compromiso mutuo de Limitra Social, es posible neutralizar la sobrecarga de notificaciones y recuperar la serenidad y concentración frente al bombardeo digital."
+    ],
+    "source": "Oficina del Gobernador Gavin Newsom / SB 976",
+    "sourceUrl": "https://gov.ca.gov",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-10-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "California SB 976",
+      "Adicción a Redes Sociales",
+      "Prohibición de Feeds Algorítmicos",
+      "Gavin Newsom",
+      "Nancy Skinner",
+      "Límite de Notificaciones",
+      "Tiempo de Pantalla",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "76",
     "slug": "reducing-screen-time-without-willpower-the-law-of-behavioral-friction-es",
     "title": "Reducing Screen Time Without Willpower: The Universal Law of Behavioral Friction",

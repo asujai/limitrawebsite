@@ -1,5 +1,34 @@
 [
   {
+    "id": "77",
+    "slug": "californie-sb-976-interdit-flux-algorithmiques-addictifs-notifications-nocturnes-mineurs",
+    "title": "La Californie encadre les algorithmes des réseaux sociaux : La loi SB 976 interdit les flux addictifs et les notifications nocturnes pour les mineurs",
+    "summary": "Promulguée par le gouverneur de Californie Gavin Newsom, la loi SB 976 'Protecting Our Kids from Social Media Addiction Act' interdit aux plateformes d'imposer des flux algorithmiques aux mineurs et d'envoyer des notifications durant les heures de classe et de sommeil sans accord parental vérifiable. Adoptée au cœur de la Silicon Valley, elle impose un affichage chronologique et des comptes privés par défaut.",
+    "content": [
+      "La Californie, berceau de la Silicon Valley, vient de franchir une étape législative historique contre les techniques algorithmiques déployées par les géants de la tech pour capter l'attention des jeunes. Portée par la sénatrice Nancy Skinner et promulguée par le gouverneur Gavin Newsom, la loi SB 976 ('Protecting Our Kids from Social Media Addiction Act') interdit formellement aux réseaux sociaux de fournir un 'flux addictif' aux mineurs sans consentement vérifiable des parents. Ce texte s'attaque frontalement au modèle économique de la captation continue de l'attention.",
+      "La mesure maîtresse de cette législation repose sur la définition juridique du 'flux addictif'. Plutôt que des recommandations hyper-ciblées générées à partir du comportement et de l'historique de visionnage, les plateformes sont contraintes de basculer par défaut les mineurs vers un flux strictement chronologique des comptes qu'ils ont choisi de suivre. Sans approbation parentale préalable, les réseaux devront également basculer les profils des adolescents en mode privé par défaut.",
+      "La loi SB 976 encadre également de manière rigoureuse l'envoi de notifications intrusives. Les plateformes ont désormais interdiction d'adresser des notifications push aux utilisateurs mineurs entre 8h00 et 15h00 (horaires scolaires) ainsi qu'entre minuit et 6h00 du matin (période de sommeil), sans autorisation parentale explicite. L'objectif est double : restaurer l'attention dans les salles de classe et combattre la procrastination nocturne du coucher chez les adolescents.",
+      "Bien que la mise en œuvre soit progressive sous l'égide du procureur général de Californie et contestée par les groupes de pression du secteur numérique, les juristes y voient un tournant décisif. Conjuguée à la loi interdisant les téléphones dans les établissements scolaires (AB 3216), la Californie instaure ainsi un double verrou : l'un physique dans les écoles, l'autre architectural au cœur des algorithmes.",
+      "Si les avancées législatives tracent la voie, leur application effective prendra du temps à l'échelle internationale. D'ici là, la mise en place d'une hygiène numérique personnelle demeure essentielle pour préserver le bien-être cognitif. Des applications ciblées comme Limitra permettent d'instaurer des barrières immédiates et infranchissables : grâce à Limitra App Block et aux engagements partagés de Limitra Social, chacun peut couper court aux sollicitations algorithmiques et retrouver un quotidien apaisé."
+    ],
+    "source": "Cabinet du Gouverneur Gavin Newsom / SB 976",
+    "sourceUrl": "https://gov.ca.gov",
+    "category": "Politiques publiques et lois",
+    "date": "2026-10-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Californie SB 976",
+      "Addiction aux réseaux sociaux",
+      "Interdiction des flux algorithmiques",
+      "Gavin Newsom",
+      "Nancy Skinner",
+      "Couvre-feu notifications",
+      "Temps d'écran",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "76",
     "slug": "reducing-screen-time-without-willpower-the-law-of-behavioral-friction-fr",
     "title": "Reducing Screen Time Without Willpower: The Universal Law of Behavioral Friction",

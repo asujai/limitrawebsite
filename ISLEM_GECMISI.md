@@ -1,5 +1,7 @@
 # İşlem Geçmişi
 
+- **[2026-10-04 22:08]** Günlük Haber Otomasyonu: Atlandı (Bugünün haberi/içeriği zaten mevcut [ID 76, 2026-10-04]; günlük yayın kilidi tetiklendi). Canlı site doğrulandı (`npm run check:live` OK).
+
 ## [2026-10-04 19:15] - 20 Ekran Süresi Kontrolü Rehberi, Ayrı Üst Menü Mimarisi ve Çift Ürünlü CTA Revizyonu
 
 * **Model:** Antigravity

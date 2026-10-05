@@ -1,5 +1,34 @@
 [
   {
+    "id": "77",
+    "slug": "california-sb-976-pagbabawal-sa-nakakahumaling-na-algorithm-at-gabi-notipikasyon-sa-kabataan",
+    "title": "California Nililimitahan ang Algorithm ng Social Media: Ipinagbabawal ng Batas SB 976 ang Nakakahumaling na Feed at Notipikasyon sa Gabi para sa Kabataan",
+    "summary": "Nilagdaan ni California Governor Gavin Newsom ang batas SB 976 'Protecting Our Kids from Social Media Addiction Act' na nagbabawal sa mga platform na magbigay ng algorithmic recommendation feed sa mga menor de edad at magpadala ng notipikasyon sa oras ng klase at pagtulog nang walang pahintulot ng magulang. Pinipilit nito ang chronological feed at default private accounts sa Silicon Valley.",
+    "content": [
+      "Nagsagawa ng makasaysayang hakbang ang California, tahanan ng Silicon Valley, laban sa mga algorithm na ginagamit ng mga higante sa social media upang bihagin ang atensyon ng mga bata at kabataan. Sa pangunguna ni State Senator Nancy Skinner at paglagda ni Governor Gavin Newsom, ang Senate Bill 976 (SB 976 — Protecting Our Kids from Social Media Addiction Act) ay opisyal nang nagbabawal sa mga platform na magbigay ng 'addictive feed' sa mga menor de edad nang walang beripikadong pahintulot ng magulang. Ito ay direktang pagharang sa modelo ng labis na pagpapanatili ng atensyon gamit ang AI.",
+      "Ang pinakamahalagang pagbabagong dala ng batas ay ang ligal na kahulugan ng 'addictive feed'. Sa halip na maghain ng mga personalized na rekomendasyon batay sa kasaysayan ng panonood at gawi ng user, inaatasan ang mga platform na ipakita lamang sa kabataan ang mga post mula sa mga taong personal nilang sinusundan, na nakaayos sa kronolohikal na pagkakasunod-sunod. Kung walang pahintulot ng magulang, kailangan ding awtomatikong gawing pribado (private) ang kanilang mga account bilang default.",
+      "Hindi lamang nilalaman ang saklaw ng SB 976, kundi maging ang sistema ng mga nakakagambalang notipikasyon. Ipinagbawal ang pagpapadala ng push notifications sa mga menor de edad mula 8:00 AM hanggang 3:00 PM (oras ng pasok sa paaralan) at mula hatinggabi 12:00 hanggang 6:00 AM (oras ng pagtulog) nang walang pahintulot ng magulang. Layunin nitong maiwasan ang pagkawala ng pokus sa klase at ang pagpupuyat sa pag-scroll sa gabi.",
+      "Bagama't nahaharap sa mga apela mula sa mga grupo sa industriya ng teknolohiya bago ilabas ang mga panuntunan ng California Attorney General, kinikilala ang batas bilang isang pandaigdigang pamantayan. Kasabay ng naunang batas laban sa paggamit ng telepono sa paaralan (AB 3216), ang California ang naging unang estado na nagpataw ng dobleng proteksyon: pagkontrol sa pisikal na device at pagpigil sa mga nakakahumaling na algorithm.",
+      "Bagama't mahalaga ang mga batas, kailangan ng panahon upang tuluyan itong maipatupad sa buong daigdig. Sa kasalukuyan, nananatiling mahalaga ang aktibong pagkilos ng mga magulang at indibidwal para protektahan ang sariling kalusugang digital. Nagbibigay ang Limitra ng agarang solusyon sa mga smartphone: sa pamamagitan ng matitibay na harang ng Limitra App Block at kasunduan sa Limitra Social, madaling matuldukan ang walang tigil na notipikasyon at mapanatili ang kapayapaan ng pag-iisip."
+    ],
+    "source": "Tanggapan ni Governor Gavin Newsom / Opisyal na Batas SB 976",
+    "sourceUrl": "https://gov.ca.gov",
+    "category": "Mga Patakaran ng Pamahalaan at Batas",
+    "date": "2026-10-05",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "California SB 976",
+      "Adiksyon sa Social Media",
+      "Pagbabawal sa Algorithmic Feed",
+      "Gavin Newsom",
+      "Nancy Skinner",
+      "Curfew sa Notipikasyon",
+      "Screen Time",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "76",
     "slug": "reducing-screen-time-without-willpower-the-law-of-behavioral-friction-fil",
     "title": "Reducing Screen Time Without Willpower: The Universal Law of Behavioral Friction",
