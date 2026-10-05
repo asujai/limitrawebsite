@@ -8,6 +8,12 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-05)
+- **Kaliforniya SB 976 Yasası ile Reşit Olmayanlara Algoritmik Akış ve Gece Bildirim Yasağı Haberi 11 Dilde Yayında (Antigravity, 5 Ekim):**
+  - Kaliforniya Valisi Gavin Newsom tarafından onaylanan ve Eyalet Senatörü Nancy Skinner tarafından hazırlanan SB 976 ("Protecting Our Kids from Social Media Addiction Act") yasası detaylandırıldı. Yasa; sosyal medya devlerinin veli onayı olmadan reşit olmayanlara algoritmik tavsiye akışı sunmasını yasaklıyor, kronolojik akışı ve varsayılan gizlilik ayarlarını zorunlu kılıyor, okul saatlerinde (08:00-15:00) ve uyku saatlerinde (00:00-06:00) bildirim gönderilmesini engelliyor.
+  - 11 dilde (TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH) eşzamanlı olarak üretildi (ID 77).
+  - 1,169 statik sayfa 0 hata ile derlendi, sitemap 1,167 URL ile güncellendi (`npm run check:links` OK).
+  - Cloudflare'e yüklendi (Sürüm ID: `6dfc70be-61fa-4da5-ba09-bd9305d4c582`) ve canlıda doğrulandı (`npm run check:live` OK).
 
 ## Güncel Durum (2026-10-04)
 - **20 Ekran Süresi Kontrolü Rehberi, Ayrı Üst Menü Mimarisi ve Çift Ürünlü CTA Revizyonu (Antigravity, 4 Ekim):**
@@ -70,13 +76,13 @@
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
-- Toplam üretilen sayfa sayısı: 1,158 statik sayfa, 0 hata, kırık iç bağlantı yok.
+- Toplam üretilen sayfa sayısı: 1,169 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** 20 Ekran Süresi Kontrolü Rehberi (11 dilde), Üst Menü Mimarisi ve Çift Ürünlü CTA Revizyonu tamamlanarak Cloudflare'e deploy edildi.
+- **İşlem:** Kaliforniya SB 976 Yasası ile Reşit Olmayanlara Algoritmik Akış ve Gece Bildirim Yasağı Haberi (ID 77, 11 dilde) tamamlanarak Cloudflare'e deploy edildi.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `41586798-943f-4210-a683-6489cf979b90` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run build` (1,158 sayfa / 0 hata), `npm run check:links` (OK), `npm run deploy` (1,160 dosya yüklendi), `npm run check:live` ("Canli site guncel.").
+- **Sürüm / Deploy ID:** `6dfc70be-61fa-4da5-ba09-bd9305d4c582` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run build` (1,169 sayfa / 0 hata), `npm run check:links` (OK), `npm run deploy` (648 dosya yüklendi), `npm run check:live` ("Canli site guncel.").
 - **Sonraki adım:** Yok.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -86,11 +92,11 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,156 URL).
-- `npm run build` → 1,158 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,167 URL).
+- `npm run build` → 1,169 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run deploy` → Cloudflare sürümü `41586798-943f-4210-a683-6489cf979b90`.
-- `npm run check:live` → "Canli site guncel." (id 76, fiyat ve app-ads.txt doğrulandı).
+- `npm run deploy` → Cloudflare sürümü `6dfc70be-61fa-4da5-ba09-bd9305d4c582`.
+- `npm run check:live` → "Canli site guncel." (id 77, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı

@@ -1,5 +1,27 @@
 # İşlem Geçmişi
 
+## [2026-10-05 22:38] - Kaliforniya SB 976 Yasası ile Reşit Olmayanlara Algoritmik Akış ve Gece Bildirim Yasağı Haberi (ID 77)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (ID 77 TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (ID 77 10 dilde: en, es, fr, de, pt, it, ar, id, fil, th)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml`, `scripts/generate-sitemap.mjs`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`, `SON_DURUM.md`
+* **Yapılan İşlem:**
+  1. **Günlük Haber Araştırması ve Üretimi (ID 77):** Kaliforniya Valisi Gavin Newsom tarafından imzalanan ve Eyalet Senatörü Nancy Skinner tarafından hazırlanan SB 976 ("Protecting Our Kids from Social Media Addiction Act") yasası detaylandırıldı. Yasa; sosyal medya platformlarının reşit olmayanlara algoritmik tavsiye akışı sunmasını veli onayı olmaksızın yasaklıyor, kronolojik akışı ve varsayılan gizlilik ayarlarını zorunlu kılıyor, okul saatlerinde (08:00-15:00) ve uyku saatlerinde (00:00-06:00) bildirim gönderilmesini engelliyor.
+  2. **11 Dilde Senkronize İçerik:** Haber TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL ve TH dillerinde özgün, doğal ve terminolojiye uygun olarak hazırlandı; ilgili kategorisi ("Devlet Düzenlemeleri & Yasalar") ve etiketleriyle tüm haber JSON dosyalarına eklendi.
+  3. **Sitemap & Derleme:** `scripts/generate-sitemap.mjs` bugünün tarihiyle (`2026-10-05`) güncellendi, `sitemap.xml` 1,167 URL ile yenilendi, Astro 1,169 statik sayfayı 0 hata ile derledi (`npm run check:links` OK).
+  4. **Yayın & Canlı Doğrulama:** Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `6dfc70be-61fa-4da5-ba09-bd9305d4c582`), `npm run check:live` ile canlıda HTTP 200 ve fiyat doğrulaması eksiksiz onaylandı.
+* **Doğrulama:**
+  - `npm run build` (1,169 sayfa, 0 hata)
+  - `npm run check:links` ("OK - kirik ic baglanti yok.")
+  - `npm run sitemap` (1,167 URL)
+  - `npm run deploy` (Cloudflare Workers Static Assets, Sürüm ID: `6dfc70be-61fa-4da5-ba09-bd9305d4c582`, 648 dosya yüklendi)
+  - `npm run check:live` ("Canli site guncel.", ID 77 HTTP 200, fiyat şeması ve app-ads.txt doğrulandı)
+* **Bilinen Sorunlar:** Yok.
+* **Sonraki Öneri:** Yok (Definition of Done eksiksiz sağlandı).
+
 - **[2026-10-04 22:08]** Günlük Haber Otomasyonu: Atlandı (Bugünün haberi/içeriği zaten mevcut [ID 76, 2026-10-04]; günlük yayın kilidi tetiklendi). Canlı site doğrulandı (`npm run check:live` OK).
 
 ## [2026-10-04 19:15] - 20 Ekran Süresi Kontrolü Rehberi, Ayrı Üst Menü Mimarisi ve Çift Ürünlü CTA Revizyonu
