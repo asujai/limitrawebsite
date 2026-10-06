@@ -82,14 +82,14 @@
 - **Yapay zekâ ve arama görünürlüğü (GEO/AEO) sayfaları devrede:** `/nedir`, `/nasil-calisir`, `/agent-discovery` ve İngilizce karşılıkları aktif.
 - **Makine-okunur keşif yüzeyleri:** `public/.well-known/agent-card.json`, `public/llms.txt`, `public/llms-full.txt` ve `public/app-ads.txt` güncel.
 - **SEO & Structured Data:** Her sayfada BreadcrumbList ve SoftwareApplication ($0.49 USD Offer) JSON-LD grafı.
-- Toplam üretilen sayfa sayısı: 1,169 statik sayfa, 0 hata, kırık iç bağlantı yok.
+- Toplam üretilen sayfa sayısı: 1,499 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Haber 20 klasöründeki 20 yeni içerik (IDs 78-97) 11 dilde hazırlanıp entegre edildi, rehber sayısı 30'a çıkarıldı.
+- **İşlem:** Haber 20 klasöründeki 20 yeni içerik (IDs 78-97) 11 dilde hazırlanıp entegre edildi, rehber sayısı 30'a çıkarıldı ve canlıya alındı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** Cloudflare Workers Static Assets (deploy edilecek)
-- **Doğrulama:** `npm run build` (1,499 sayfa / 0 hata), `npm run check:links` (OK), `npm run sitemap` (1,497 URL).
-- **Sonraki adım:** Deploy ve canlı doğrulama.
+- **Sürüm / Deploy ID:** `aba081c5-8762-4a91-8eaf-d2c4fa380bab` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run build` (1,499 sayfa / 0 hata), `npm run check:links` (OK), `npm run sitemap` (1,497 URL), `npm run deploy` (989 dosya yüklendi), `npm run check:live` ("Canli site guncel.").
+- **Sonraki adım:** Yok.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
@@ -101,8 +101,8 @@
 - `npm run sitemap` → sitemap.xml güncellendi (1,497 URL).
 - `npm run build` → 1,499 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run deploy` → Cloudflare sürümü `6dfc70be-61fa-4da5-ba09-bd9305d4c582`.
-- `npm run check:live` → "Canli site guncel." (id 77, fiyat ve app-ads.txt doğrulandı).
+- `npm run deploy` → Cloudflare sürümü `aba081c5-8762-4a91-8eaf-d2c4fa380bab`.
+- `npm run check:live` → "Canli site guncel." (id 97, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı
