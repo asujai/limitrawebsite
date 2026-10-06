@@ -8,6 +8,12 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-06)
+- **Haber 20 Klasöründeki 20 Yeni İçerik 11 Dilde Entegre Edildi (Antigravity, 6 Ekim):**
+  - Kullanıcının `haber20/Untitled.md` ("Limitra İçerik Zenginleştirme Planı: 20 Doğrulanmış Haber ve Yazı") çalışması temel alınarak; 10 yeni Dünya Basını haberi (IDs 78-87) ve 10 yeni Ekran Süresi Kontrolü rehberi (IDs 88-97) 11 dilde eşzamanlı olarak üretildi ve yayına alındı.
+  - Ekran Süresi Kontrolü rehber havuzu 20'den 30'a genişletildi (`ScreenTimeIndex.astro`, `[slug].astro` filtreleri ve sitemap güncellendi).
+  - Toplam 1,499 statik sayfa 0 hata ile derlendi, sitemap 1,497 URL ile yenilendi (`npm run check:links` OK).
+
 ## Güncel Durum (2026-10-05)
 - **Kaliforniya SB 976 Yasası ile Reşit Olmayanlara Algoritmik Akış ve Gece Bildirim Yasağı Haberi 11 Dilde Yayında (Antigravity, 5 Ekim):**
   - Kaliforniya Valisi Gavin Newsom tarafından onaylanan ve Eyalet Senatörü Nancy Skinner tarafından hazırlanan SB 976 ("Protecting Our Kids from Social Media Addiction Act") yasası detaylandırıldı. Yasa; sosyal medya devlerinin veli onayı olmadan reşit olmayanlara algoritmik tavsiye akışı sunmasını yasaklıyor, kronolojik akışı ve varsayılan gizlilik ayarlarını zorunlu kılıyor, okul saatlerinde (08:00-15:00) ve uyku saatlerinde (00:00-06:00) bildirim gönderilmesini engelliyor.
@@ -79,11 +85,11 @@
 - Toplam üretilen sayfa sayısı: 1,169 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Kaliforniya SB 976 Yasası ile Reşit Olmayanlara Algoritmik Akış ve Gece Bildirim Yasağı Haberi (ID 77, 11 dilde) tamamlanarak Cloudflare'e deploy edildi.
+- **İşlem:** Haber 20 klasöründeki 20 yeni içerik (IDs 78-97) 11 dilde hazırlanıp entegre edildi, rehber sayısı 30'a çıkarıldı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `6dfc70be-61fa-4da5-ba09-bd9305d4c582` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run build` (1,169 sayfa / 0 hata), `npm run check:links` (OK), `npm run deploy` (648 dosya yüklendi), `npm run check:live` ("Canli site guncel.").
-- **Sonraki adım:** Yok.
+- **Sürüm / Deploy ID:** Cloudflare Workers Static Assets (deploy edilecek)
+- **Doğrulama:** `npm run build` (1,499 sayfa / 0 hata), `npm run check:links` (OK), `npm run sitemap` (1,497 URL).
+- **Sonraki adım:** Deploy ve canlı doğrulama.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
@@ -92,8 +98,8 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,167 URL).
-- `npm run build` → 1,169 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,497 URL).
+- `npm run build` → 1,499 sayfa, 0 hata.
 - `npm run check:links` → "OK - kirik ic baglanti yok."
 - `npm run deploy` → Cloudflare sürümü `6dfc70be-61fa-4da5-ba09-bd9305d4c582`.
 - `npm run check:live` → "Canli site guncel." (id 77, fiyat ve app-ads.txt doğrulandı).

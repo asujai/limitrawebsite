@@ -14,10 +14,10 @@ const ui = newsUI[lang] || newsUI.en;
 const rawNewsList = newsByLang[lang] || newsByLang.en;
 
 // Dünya Basını yalnızca küresel haberler, meclis kararları ve bilimsel araştırmaları içerir.
-// 'Ekran Süresi Kontrolü' uygulamalı rehberleri ayrı bir ana başlık altındadır.
+// 'Ekran Süresi Kontrolü' uygulamalı rehberleri ayrı bir ana başlık altındadır (IDs 57-76 ve 88-97).
 const newsList = rawNewsList.filter(n => {
   const idNum = parseInt(n.id, 10);
-  return idNum < 57 || idNum > 76;
+  return (idNum < 57 || idNum > 76) && (idNum < 88 || idNum > 97);
 });
 
 const allCategory = ui.index.allCategory;

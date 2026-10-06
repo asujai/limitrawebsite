@@ -24,10 +24,10 @@ const copy: Record<string, {
 }> = {
   tr: {
     pageTitle: 'Ekran Süresi Kontrolü ve Dijital Disiplin Rehberleri | Limitra',
-    pageDesc: 'Instagram Reels döngüsünü kırmak, ders ve sınavlara odaklanmak, çocuklara kavgasız sınırlar koymak ve uykuyu geri kazanmak için kanıta dayalı 20 pratik rehber.',
-    badge: 'Ekran Süresi Kontrolü • 20 Uygulamalı Protokol',
+    pageDesc: 'Instagram Reels döngüsünü kırmak, ders ve sınavlara odaklanmak, çocuklara kavgasız sınırlar koymak ve uykuyu geri kazanmak için kanıta dayalı 30 pratik rehber.',
+    badge: 'Ekran Süresi Kontrolü • 30 Uygulamalı Protokol',
     title: 'Ekran Süresi Kontrolü: Bilimsel Protokoller ve Pratik Çözüm Kılavuzları',
-    subtitle: 'Arama motorlarında ve yapay zekâda en çok aratılan ekran süresi sorunlarına; nörobiyoloji, davranışsal iktisat ve bilişsel psikolojiye dayanan tavizsiz 20 çözüm kılavuzu.',
+    subtitle: 'Arama motorlarında ve yapay zekâda en çok aratılan ekran süresi sorunlarına; nörobiyoloji, davranışsal iktisat ve bilişsel psikolojiye dayanan tavizsiz 30 çözüm kılavuzu.',
     allCategory: 'Tümü',
     readTimeSuffix: 'okuma',
     readGuide: 'Rehberi Oku',
@@ -36,8 +36,8 @@ const copy: Record<string, {
   },
   en: {
     pageTitle: 'Screen Time Control & Digital Discipline Guides | Limitra',
-    pageDesc: '20 actionable, evidence-based guides to break short video loops, achieve deep academic focus, establish calm parenting boundaries, and reclaim restorative sleep.',
-    badge: 'Screen Time Control • 20 Practical Protocols',
+    pageDesc: '30 actionable, evidence-based guides to break short video loops, achieve deep academic focus, establish calm parenting boundaries, and reclaim restorative sleep.',
+    badge: 'Screen Time Control • 30 Practical Protocols',
     title: 'Screen Time Control: Evidence-Based Protocols and Practical Action Guides',
     subtitle: 'Comprehensive, science-backed solutions to the most frequent internet and AI queries on excessive screen time, digital fatigue, and habit design.',
     allCategory: 'All',
@@ -51,10 +51,10 @@ const copy: Record<string, {
 const c = copy[lang] || copy.en;
 const allArticles = newsByLang[lang] || newsByLang.en;
 
-// Filter specifically the 20 Screen Time Control guides (IDs 57 to 76)
+// Filter specifically the 30 Screen Time Control guides (IDs 57-76 and 88-97)
 const guides = allArticles.filter(n => {
   const idNum = parseInt(n.id, 10);
-  return idNum >= 57 && idNum <= 76;
+  return (idNum >= 57 && idNum <= 76) || (idNum >= 88 && idNum <= 97);
 });
 
 const homeUrl = lang === 'tr' ? '/' : `/${lang}`;

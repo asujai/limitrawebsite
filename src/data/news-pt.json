@@ -1,5 +1,535 @@
 [
   {
+    "id": "97",
+    "slug": "estrategia-pre-compromisso-por-que-bloqueios-externos-superam-forca-vontade",
+    "title": "A estratégia do Pré-Compromisso: Por que bloqueios externos vencem a força de vontade",
+    "summary": "Estudo de Dan Ariely na Psychological Science comprova que limites flexíveis impostos a si mesmo sempre falham, enquanto barreiras externas inflexíveis eliminam a procrastinação.",
+    "content": [
+      "Almost every smartphone user has whispered the familiar rationalization: 'I will just check notifications for two minutes.' Inevitably, those two minutes expand into an hour of passive algorithmic consumption. The user emerges feeling guilty and defeated, blaming a lack of personal willpower. Yet behavioral economics reveals that the flaw lies not in personal character, but in attempting to negotiate during the active moment of temptation.",
+      "In a seminal paper published in Psychological Science, behavioral economists Dan Ariely and Klaus Wertenbroch tested procrastination and task performance across three structural deadline conditions. In one group, deadlines were rigidly dictated by the professor (inflexible external constraint); in the second, students chose their own binding deadlines (self-imposed pre-commitment); in the third, students had total freedom to submit anytime before semester end.",
+      "The findings provided profound insights into human decision-making: students who self-imposed deadlines substantially outperformed those given total freedom, proving that individuals inherently recognize their self-control vulnerabilities. Crucially, however, the highest grades and lowest delays belonged to the group with externally enforced, inflexible constraints.",
+      "The scientific takeaway for screen management is unequivocal: internal resolutions made during fatigue quickly surrender to engineered digital dopamine. Sustainable focus requires delegating boundaries to an uncompromising, external commitment device that severs access before willpower deteriorates.",
+      "The Limitra ecosystem operationalizes Ariely's pre-commitment framework: Limitra App Block creates rigid, non-negotiable boundaries that terminate access automatically, while Limitra Social introduces external social friction through transparent accountability partnerships."
+    ],
+    "source": "Dan Ariely & Klaus Wertenbroch (Psychological Science)",
+    "sourceUrl": "https://stafforini.com/works/ariely-2002-procrastination-deadlines-performance/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Pré-Compromisso",
+      "Dan Ariely",
+      "Economia Comportamental",
+      "Procrastinação",
+      "Limitra App Block"
+    ]
+  },
+  {
+    "id": "96",
+    "slug": "presenca-celular-quarto-destruicao-arquitetura-sono-quarto-livre-telas",
+    "title": "Celular no quarto e destruição do sono: O protocolo científico do quarto livre de telas",
+    "summary": "Meta-análise no JAMA Pediatrics comprova que a simples presença do smartphone ao alcance da cama fragmenta o sono profundo, inibe a melatonina e causa exaustão matinal.",
+    "content": [
+      "Retiring to bed after an exhausting day only to reach for a glowing smartphone on the nightstand has become modern society's most prevalent—and biologically catastrophic—evening habit. What begins as harmless bedtime decompression rapidly mutates into circadian sabotage.",
+      "A landmark systematic review and meta-analysis led by Dr. Ben Carter of Cardiff University, published in JAMA Pediatrics, pooled rigorous clinical evidence across thousands of young participants. The synthesis demonstrated that both active bedtime device usage and mere passive device accessibility in the bedroom environment are strongly associated with inadequate sleep duration, poor sleep quality, and daytime somnolence.",
+      "One of the study's most profound revelations was the 'presence effect': even when devices were left untouched, keeping a smart screen within arm's reach maintained the sympathetic nervous system in a state of hyper-arousal, anticipating phantom notifications and impairing restorative slow-wave sleep.",
+      "Compounding the psychological anticipation, short-wavelength blue light directly suppresses pineal melatonin secretion, delaying circadian onset by up to 90 minutes and fragmenting crucial REM phases necessary for memory consolidation.",
+      "Reclaiming restorative sleep requires declaring the bedroom a strict analog sanctuary. Limitra App Block facilitates this biological boundary by enforcing automated, unbreakable application shutdowns at 10:30 PM, preventing late-night scrolling and restoring morning cognitive clarity."
+    ],
+    "source": "Carter et al. (JAMA Pediatrics 2016)",
+    "sourceUrl": "https://orca.cardiff.ac.uk/91557/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Arquitetura do Sono",
+      "JAMA Pediatrics",
+      "Celular na Cama",
+      "Melatonina",
+      "Limitra App Block"
+    ]
+  },
+  {
+    "id": "95",
+    "slug": "verificacao-compulsiva-redes-sociais-alteracao-desenvolvimento-cerebral-jovens",
+    "title": "Verificação compulsiva de redes e desenvolvimento cerebral em adolescentes: Descobertas do JAMA",
+    "summary": "Estudo de neuroimagem longitudinal por 3 anos mostra que checar o celular mais de 15 vezes ao dia hipersensibiliza áreas cerebrais de recompensa e aprovação social em jovens.",
+    "content": [
+      "An adolescent checking their phone dozens of times per day is frequently dismissed as simple curiosity or adolescent distraction. However, modern functional neuroimaging demonstrates that this compulsive reflex fundamentally alters the developmental trajectory of the teenage brain.",
+      "In a breakthrough longitudinal fMRI study led by Maria Maza and colleagues at the University of North Carolina at Chapel Hill, published in JAMA Pediatrics, researchers tracked neural responses across a cohort of middle school students over three consecutive years to observe how checking frequency reshapes brain maturation.",
+      "The findings uncovered distinct neurodevelopmental divergences: adolescents engaging in habitual checking (over 15 times daily) demonstrated a progressive hypersensitivity in neural regions governing reward anticipation and social feedback—specifically the ventral striatum, amygdala, and anterior insula. Conversely, peers with non-habitual checking profiles exhibited typical, balanced neural maturation.",
+      "The researchers caution that heightened neural sensitivity to digital approval primes developing minds for chronic social anxiety, emotional lability, and an inability to tolerate sustained, low-stimulus cognitive endeavors such as deep academic study.",
+      "Limitra provides the decisive behavioral friction needed to extinguish this habit: Limitra App Block caps open frequencies and limits session availability, while Limitra Social introduces calm accountability that decouples youth self-worth from instant algorithmic validation."
+    ],
+    "source": "Maza et al. (JAMA Pediatrics 2023)",
+    "sourceUrl": "https://www.psypost.org/habitual-checking-of-social-media-linked-to-altered-brain-development-in-young-adolescents/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Desenvolvimento Cerebral",
+      "JAMA Pediatrics",
+      "Ressonância fMRI",
+      "Uso Compulsivo",
+      "Limitra App Block"
+    ]
+  },
+  {
+    "id": "94",
+    "slug": "desativar-redes-sociais-quatro-semanas-tempo-presencial-bem-estar",
+    "title": "Desativar redes sociais por 4 semanas: Resgatando o tempo presencial e o bem-estar subjetivo",
+    "summary": "Grande ensaio controlado da NBER com 2.844 pessoas provou que pausar as redes sociais por 4 semanas traz ganhos profundos de felicidade e reduz o uso compulsivo a longo prazo.",
+    "content": [
+      "Stepping away from social media networks often feels like an impossible sacrifice in a hyper-connected era. Common anxieties whisper: 'If I disconnect, I will miss crucial news and become socially alienated.' Yet the largest randomized controlled trial conducted on digital deactivation definitively dispels these assumptions.",
+      "Conducted by economists Hunt Allcott (Stanford) and Luca Braghieri (NYU) and published via the National Bureau of Economic Research (NBER), the study examined 2,844 active Facebook users. A randomized treatment group deactivated their accounts for four weeks, with verified deactivation tracking alongside detailed daily subjective wellbeing and time-use surveys.",
+      "The findings were definitive: four weeks of deactivation generated substantial, statistically significant improvements in subjective wellbeing, emotional stability, and overall life satisfaction, while reducing depressive symptoms. Freed hours were redirected into face-to-face interactions with family, active socializing, and personal hobbies.",
+      "Crucially, the intervention created durable habit transformation: even after the four-week trial concluded and participants were free to resume unrestricted browsing, their daily usage remained permanently lower than baseline levels. The structured break dismantled compulsive checking reflexes.",
+      "This clinical evidence demonstrates that temporary, rigid boundaries reset cognitive baselines. Limitra App Block lets you implement a decisive four-week focus protocol today, while Limitra Social introduces mutual accountability to help you sustain real-world presence."
+    ],
+    "source": "Allcott et al. (NBER & American Economic Review)",
+    "sourceUrl": "https://www.nber.org/papers/w25514.pdf",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Ensaio NBER",
+      "Detox 4 Semanas",
+      "Bem-Estar Real",
+      "Conexão Humana",
+      "Limitra Social"
+    ]
+  },
+  {
+    "id": "93",
+    "slug": "agrupar-notificacoes-tres-vezes-ao-dia-ciencia-foco-reducao-estresse",
+    "title": "Agrupar notificações 3 vezes ao dia: A ciência do foco, redução do estresse e calma digital",
+    "summary": "Experimento de campo no Computers in Human Behavior prova que receber notificações em três lotes previsíveis diários melhora a concentração e corta destravamentos inúteis.",
+    "content": [
+      "The average smartphone user receives between 60 and 100 push notifications each day. Every ping, vibration, or ambient glow interrupts ongoing cognitive tasks, instantly triggering an urgent impulse: 'What just happened?' Even if the alert is ignored, the resulting attention residue severely fragments deep mental concentration.",
+      "In an innovative field experiment led by Nick Fitz and published in Computers in Human Behavior, researchers investigated whether restructuring notification timing could alleviate digital fatigue. Participants were assigned to varied notification delivery protocols: continuous real-time delivery, hourly batches, or clustered delivery three times per day (morning, midday, and evening).",
+      "The findings were definitive: participants who received notifications batched into three predictable intervals reported significantly higher daily focus, superior productivity, and lower overall stress levels compared to baseline conditions. Crucially, hourly batching failed to yield benefits, merely conditioning users to anticipate clockwork interruptions.",
+      "Users in the 3-times-daily protocol unlocked their devices far less frequently, fundamentally transforming their relationship with technology from reactive responsiveness into intentional engagement.",
+      "The Limitra ecosystem operationalizes this focused protocol: Limitra App Block lets you mute non-critical communications during deep work hours, creating predictable digital sanctuaries that protect cognitive energy throughout the day."
+    ],
+    "source": "Fitz et al. (Computers in Human Behavior 2019)",
+    "sourceUrl": "https://communities.springernature.com/posts/batching-notifications-can-improve-attention-well-being-and-productivity",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Notificações em Lote",
+      "Redução de Estresse",
+      "Foco Profundo",
+      "Tempo de Tela",
+      "Limitra App Block"
+    ]
+  },
+  {
+    "id": "92",
+    "slug": "planejamento-se-entao-intencoes-implementacao-parar-scroll-compulsivo",
+    "title": "Planejamento 'Se-Então': Usando intenções de implementação para conter o scroll compulsivo",
+    "summary": "Metanálise de Peter Gollwitzer com 94 estudos mostra que pré-programar ações no formato 'Se X acontecer, farei Y' dobra a probabilidade de manter metas de tempo de tela.",
+    "content": [
+      "Most individuals attempting to curtail excessive screen time begin their mornings with vague, abstract aspirations: 'I will use my phone less today.' However, by mid-afternoon, when mental fatigue sets in or a notification sounds, these abstract resolutions evaporate as fingers compulsively tap social media icons. Willpower surrenders to context-dependent triggers.",
+      "In a definitive meta-analysis synthesizing 94 independent tests across 63 studies (exhibiting a robust effect size of d = 0.65), psychologist Peter Gollwitzer and Paschal Sheeran demonstrated that closing the gap between intention and action requires 'Implementation Intentions'. The cognitive architecture follows an elegant formula: 'If [Critical Cue occurs], then I will [Target Action].'",
+      "When the brain is precoded with an explicit If-Then plan, it eliminates the necessity for real-time deliberation. The situational cue automatically triggers the intended response without expending executive control: 'If I sit at my desk, then I will place my phone in a closed drawer', or 'If I reach for social media, then I will encounter my screen barrier and drink a glass of water.'",
+      "Empirical trials show that implementation intentions dramatically strengthen habitual automaticity, converting impulsive digital reaching into disciplined pauses.",
+      "The Limitra ecosystem provides the mechanical foundation for your If-Then architecture: Limitra App Block guarantees that when temptation strikes, an unbreakable screen lock halts the automated loop, while Limitra Social anchors that commitment through mutual accountability."
+    ],
+    "source": "Peter Gollwitzer & Paschal Sheeran (Advances in Experimental Social Psychology)",
+    "sourceUrl": "https://siliconcanals.com/t-implementation-intentions-when-where-how-goal-achievement/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Planos Se-Então",
+      "Peter Gollwitzer",
+      "Intenções de Implementação",
+      "Foco",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "91",
+    "slug": "quanto-tempo-leva-criar-habito-mito-21-dias-versus-ciencia-66-dias",
+    "title": "Quanto tempo leva para criar um hábito? O mito dos 21 dias versus os 66 dias da ciência",
+    "summary": "Estudo da Dra. Phillippa Lally (UCL) comprova que transformar uma ação em hábito automático leva em média 66 dias, estabelecendo um plano realista contra o uso excessivo de telas.",
+    "content": [
+      "Among the most persistent urban myths in modern self-help culture is the claim that 'it takes exactly 21 days to form or break a habit.' Countless individuals attempt digital detoxes, endure two weeks of painful deprivation, and promptly capitulate on day 22 when compulsive urges persist, assuming they possess flawed willpower. Yet the 21-day premise lacks empirical foundation.",
+      "In a definitive study published in the European Journal of Social Psychology, health psychologist Dr. Phillippa Lally and her research team at University College London (UCL) tracked 96 participants adopting daily health behaviors over 84 days. The team calculated that reaching peak behavioral automaticity requires an average of 66 days.",
+      "Crucially, the study discovered wide individual variation, ranging from 18 to 254 days depending on task complexity. Furthermore, occasional lapses did not derail long-term habit formation, provided individuals quickly resumed baseline routines.",
+      "This neurobiological reality offers vital reassurance for screen time management: neural pathways reinforced through years of algorithmic stimulation cannot be rewired in three short weeks. Achieving genuine digital serenity requires structural protection sustained across two to three months.",
+      "Limitra supports users throughout this 66-day neurodevelopmental recalibration: Limitra App Block maintains rigid application boundaries when motivation inevitably wanes, while Limitra Social provides peer reinforcement that cements lifelong digital discipline."
+    ],
+    "source": "Dr. Phillippa Lally et al. (UCL & European Journal of Social Psychology)",
+    "sourceUrl": "https://bps.org.uk/research-digest/how-form-habit",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Hábito 66 Dias",
+      "Phillippa Lally",
+      "UCL",
+      "Mito 21 Dias",
+      "Disciplina Digital",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "90",
+    "slug": "modelo-nugu-limitacao-grupo-smartphones-poder-responsabilidade-mutua",
+    "title": "O modelo NUGU: Limitação coletiva do smartphone e o poder da cobrança mútua entre amigos",
+    "summary": "Pesquisa do KAIST na conferência ACM CSCW comprova por que a força de vontade individual falha ao desligar o celular, e como a prestação de contas mútua gera disciplina consistente.",
+    "content": [
+      "What occurs when you impose private screen limits on yourself? In moments of evening fatigue, a subtle voice rationalizes: 'Nobody is watching; 15 extra minutes won't hurt.' Secrecy and isolation are the primary enablers of bad habits; when a restriction is known only to you, breaking it carries zero social consequence.",
+      "In an influential study presented at ACM CSCW, researchers Minsam Ko and colleagues at KAIST investigated this behavioral vulnerability. Surveying 114 participants, they observed that while users frequently attempted mechanical fixes like powering down or hiding devices, individual self-control deficits consistently eroded these solo tactics.",
+      "To solve this problem, the team engineered NUGU, a collaborative application where peer groups established collective usage targets and transparently monitored each other's screen time and limit infractions. The field trials revealed that shared visibility generated unmatched adherence rates compared to individual usage controls.",
+      "Post-study interviews revealed that social friction—the gentle embarrassment of letting a trusted partner down combined with collaborative celebration—provided the vital psychological buffer that solo willpower could never supply.",
+      "This empirical breakthrough forms the conceptual cornerstone of Limitra Social. Rather than fighting predatory tech algorithms in solitary isolation, Limitra Social links your daily limit with a trusted accountability partner: when boundaries are respected, digital victory is shared."
+    ],
+    "source": "Ko et al. (KAIST & ACM CSCW 2015)",
+    "sourceUrl": "https://ic.kaist.ac.kr/files/papers/ko2015nugu.pdf",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Modelo NUGU",
+      "Estudo KAIST",
+      "Cobrança Mútua",
+      "Fricção Social",
+      "Limitra Social"
+    ]
+  },
+  {
+    "id": "89",
+    "slug": "limiar-tres-horas-diarias-redes-sociais-problemas-internalizantes-jovens",
+    "title": "O limiar de 3 horas: Ligação entre uso pesado de redes sociais e sofrimento psíquico em jovens",
+    "summary": "Pesquisa da Johns Hopkins no JAMA Psychiatry com 6.595 adolescentes revela que mais de 3 horas diárias eleva significativamente o risco de isolamento, ansiedade e depressão.",
+    "content": [
+      "In modern digital wellbeing discussions, the most pressing practical query from parents and self-improving individuals is simple: 'Exactly how much screen time constitutes a clinically meaningful risk?' In an age of endless scroll feeds, identifying an evidence-backed operational threshold is critical.",
+      "A major longitudinal study conducted by Dr. Kira Riehm and colleagues at the Johns Hopkins Bloomberg School of Public Health, published in JAMA Psychiatry, tracked 6,595 adolescents aged 12 to 17 over a full calendar year. The team analyzed daily reported social media usage alongside prospective internalizing problems, specifically anxiety, depressive symptoms, and social withdrawal.",
+      "The findings uncovered a clear empirical tipping point: adolescents spending three hours or more per day on social media exhibited the highest prospective risk for internalizing problems alone compared to non-users. Even accounting for baseline mental health, exceeding the 3-hour threshold actively predicted deteriorating emotional stability one year later.",
+      "The authors highlighted that heavy engagement systematically crowds out restorative sleep, real-world physical exercise, and face-to-face emotional bonding, recommending that families establish definitive daily ceilings between 60 and 90 minutes.",
+      "Limitra provides the precise operational ceiling recommended by clinical researchers: Limitra App Block allows you to configure strict daily 1.5-hour caps across social media platforms, locking access automatically before you breach the 3-hour danger zone."
+    ],
+    "source": "Riehm et al. (Johns Hopkins & JAMA Psychiatry)",
+    "sourceUrl": "https://hub.jhu.edu/2019/09/11/social-media-teen-mental-health/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Limiar 3 Horas",
+      "Johns Hopkins",
+      "JAMA Psychiatry",
+      "Saúde Emocional",
+      "Limitra App Block"
+    ]
+  },
+  {
+    "id": "88",
+    "slug": "experimento-vicio-digital-31-por-cento-tempo-tela-falha-autocontrole",
+    "title": "O experimento do 'Vício Digital': 31% do tempo nas redes sociais decorre de falha no autocontrole",
+    "summary": "Estudo de economistas de Stanford e Harvard revela que quase um terço do tempo em redes sociais é compulsivo e não intencional, exigindo bloqueadores externos rigorosos.",
+    "content": [
+      "At the end of each day, millions of smartphone owners glance at their screen time dashboards with disbelief: 'Did I genuinely waste four hours scrolling today? That was never my intention.' The massive chasm between intentional technology use and actual compulsive screen time has now been definitively quantified by economic science.",
+      "In a pioneering study titled 'Digital Addiction', economists Matthew Gentzkow (Stanford), Hunt Allcott (Stanford), and Lena Song (Harvard), published via the National Bureau of Economic Research (NBER), engineered an empirical model measuring habit formation and self-control failures in mobile application usage.",
+      "The researchers determined that an astonishing 31% of all social media screen time is directly attributable to self-control failure. In practical terms, an individual spending three hours daily on feeds loses roughly one full hour every single day to mindless, compulsive scrolling that produces immediate post-session regret.",
+      "Crucially, the study proved the transformative power of mechanical 'commitment devices'. When participants used external tools that enforced rigid usage ceilings, their daily consumption dropped immediately, and this behavioral correction persisted even after trials concluded. The authors concluded that relying solely on unaided willpower against engineered digital habits is mathematically doomed.",
+      "The Limitra ecosystem was designed specifically to eliminate that 31% regret window: Limitra App Block steps in with unbreakable app barriers when executive willpower wanes, while Limitra Social uses transparent peer accountability to keep you grounded."
+    ],
+    "source": "Allcott, Gentzkow & Song (NBER & American Economic Review)",
+    "sourceUrl": "https://conference.nber.org/conf_papers/f157494.pdf",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-06",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Vício Digital",
+      "Estudo NBER",
+      "Autocontrole",
+      "Tempo de Tela",
+      "Disciplina",
+      "Limitra App Block"
+    ]
+  },
+  {
+    "id": "87",
+    "slug": "estudo-oxford-nature-tecnologia-explica-apenas-0-4-por-cento-bem-estar-jovem",
+    "title": "Estudo de Oxford na Nature: Uso de tecnologia explica menos de 0,4% do bem-estar dos adolescentes",
+    "summary": "Pesquisa histórica de Oxford com 355 mil adolescentes prova que telas explicam apenas 0,4% do bem-estar emocional; a perda crítica é de sono reparador e vínculos reais.",
+    "content": [
+      "A landmark study conducted by Oxford University researchers Amy Orben and Andrew Przybylski, published in Nature Human Behaviour, rigorously investigated the association between digital screen engagement and adolescent wellbeing. Analyzing three massive datasets encompassing 355,358 participants across the UK and the US, the team brought empirical clarity to pervasive cultural panics over youth technology consumption.",
+      "Employing specification curve analysis, the researchers determined that digital technology usage accounted for no more than 0.4% of the variance in adolescent wellbeing. By comparison, irregular sleep habits and skipping breakfast exerted notably stronger negative associations, while peer bullying proved 4.3 times more detrimental than digital exposure.",
+      "These empirical conclusions do not suggest that excessive screen engagement is benign; rather, they demonstrate that harm is driven by displacement. When unstructured screen time steals restorative nighttime sleep, physical exercise, and face-to-face peer sociality, adolescent emotional stability deteriorates rapidly.",
+      "The authors advocate shifting focus away from simplistic moral panic toward targeted boundaries: safeguarding nocturnal sleep windows, protecting academic immersion, and shielding young minds from manipulative algorithmic loops.",
+      "The Limitra ecosystem embraces this balanced philosophy: Limitra App Block enforces rigorous, uncompromised barriers during critical sleep and focus intervals, while Limitra Social harnesses mutual accountability to foster genuine digital moderation."
+    ],
+    "source": "Oxford University (ORA) & Nature Human Behaviour",
+    "sourceUrl": "https://ora.ox.ac.uk",
+    "category": "Ciência e saúde",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Oxford",
+      "Orben Przybylski",
+      "Bem-Estar Juvenil",
+      "Ciência de Telas",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "86",
+    "slug": "turkstat-relatorio-tecnologia-infantil-internet-91-por-cento-smartphones",
+    "title": "Relatório de TIC Infantil: Uso de Internet chega a 91,3% entre 6 e 15 anos",
+    "summary": "Dados governamentais mostram que 91,3% das crianças de 6 a 15 anos navegam na web, com posse de smartphones batendo 86,2% na faixa de 11 a 15 anos.",
+    "content": [
+      "The Turkish Statistical Institute (TurkStat) released its dedicated 'Research on Information and Communication Technology Usage in Children', offering comprehensive official metrics on digital immersion among the country's youth. The data revealed that internet penetration among children aged 6 to 15 surged from 82.7% in 2021 to 91.3% in recent surveys.",
+      "Device distribution statistics highlight rapid mobile adoption: mobile phone usage reached 66.3% among ages 6-10, climbing to 86.2% for adolescents aged 11-15. Furthermore, 63.8% of surveyed children reported exclusive individual ownership of at least one connected smart device within their household.",
+      "Online activities are overwhelmingly dominated by streaming entertainment: 83.9% of connected minors regularly watch short and long-form video content, 75.0% utilize the internet for school homework, and 72.7% engage in online gaming, followed closely by social networking feeds.",
+      "Child development specialists point out that complete disconnection is unfeasible in modern society; however, implementing automated, friction-backed screen limits on personal devices is critical to safeguarding attention spans, sleep schedules, and emotional resilience.",
+      "Limitra equips families with proactive digital governance tools: Limitra App Block enforces scheduled, unbreakable locks during evening homework and bedtime hours, while Limitra Social empowers teenagers with transparent peer accountability."
+    ],
+    "source": "TÜİK (Türkiye İstatistik Kurumu)",
+    "sourceUrl": "https://data.tuik.gov.tr",
+    "category": "Escolas e juventude",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "TurkStat",
+      "Internet Infantil",
+      "Smartphones Menores",
+      "Tempo de Tela",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "85",
+    "slug": "pew-research-2025-um-em-cada-cinco-adolescentes-quase-constantemente-tiktok-youtube",
+    "title": "Pew Research 2025: Um em cada cinco jovens usa TikTok e YouTube 'quase constantemente'",
+    "summary": "Pesquisa nacional nos EUA revela que 21% dos adolescentes navegam no TikTok e 20% no YouTube de forma quase permanente, gerando perda crônica de foco.",
+    "content": [
+      "The Pew Research Center released its comprehensive national report, 'Teens, Social Media, and Technology', surveying 1,458 adolescents aged 13-17 alongside their parents. The findings illustrate that teen digital engagement has transitioned from periodic checking into perpetual, uninterrupted immersion.",
+      "According to the survey, 21% of American teens report using TikTok 'almost constantly', up from 16% in 2022. Similarly, 20% report using YouTube with the same unbroken frequency, underscoring the formidable behavioral momentum of short and long-form video recommendations. Daily usage rates remain overwhelming, with 93% visiting YouTube and 63% using TikTok regularly.",
+      "Researchers observed that algorithmic feeds engineered around hyper-personalized novelty create constant micro-interruptions throughout the school day, family mealtimes, and late-night rest periods, fragmenting cognitive stamina.",
+      "Cognitive psychologists note that when one-fifth of adolescents are perpetually tethered to notifications, voluntary willpower alone is insufficient to recover sustained focus without structural barriers.",
+      "The Limitra ecosystem delivers that structural boundary: Limitra App Block introduces impenetrable session lockouts when time limits expire, while Limitra Social uses mutual peer oversight to help users interrupt the compulsive scroll."
+    ],
+    "source": "Pew Research Center",
+    "sourceUrl": "https://www.pewresearch.org",
+    "category": "Escolas e juventude",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Pew Research",
+      "TikTok",
+      "YouTube",
+      "Uso Compulsivo",
+      "Geração Z",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "84",
+    "slug": "estudo-lancet-smart-schools-proibicao-celular-escola-saude-mental",
+    "title": "Estudo Lancet SMART Schools: Proibição de celulares na escola não cura a saúde mental de adolescentes",
+    "summary": "Investigação com 1.227 jovens no The Lancet Regional Health Europe prova que proibir smartphones nas aulas não reduz ansiedade nem insônia sem limites noturnos no lar.",
+    "content": [
+      "A landmark empirical investigation published in The Lancet Regional Health Europe—the SMART Schools study—critically evaluated the mental health impact of restrictive secondary school mobile phone policies on adolescent psychological wellbeing.",
+      "The researchers examined 1,227 pupils aged 12-15 across 30 secondary schools in England (20 enforcing restrictive phone prohibitions and 10 permitting usage). The study found no statistically significant evidence that school-day phone bans reduced adolescent anxiety, depressive symptoms, problematic social media usage, or sleep disturbances.",
+      "While the authors noted that institutional bans maintain educational decorum and reduce in-class distractions, they emphasized that the primary psychological toll of digital hyperconnectivity occurs outside the classroom—predominantly during unsupervised evening and nighttime hours.",
+      "The findings suggest that daytime restrictions often lead to compensatory evening bingeing. Consequently, meaningful mental health improvements require structural digital hygiene interventions directly embedded into after-school home routines.",
+      "Limitra bridges this after-school gap: Limitra App Block allows users and families to configure strict, automated limits for evening and bedtime hours, while Limitra Social provides peer accountability that persists long after the school bell rings."
+    ],
+    "source": "Lancet Regional Health Europe (SMART Schools)",
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11850730/",
+    "category": "Ciência e saúde",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Lancet",
+      "SMART Schools",
+      "Celular na Escola",
+      "Saúde Mental",
+      "Higiene Digital",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "83",
+    "slug": "instagram-teen-accounts-lembretes-60-minutos-modo-sono-noturno",
+    "title": "Instagram lança 'Teen Accounts': Avisos de 60 minutos e modo repouso noturno",
+    "summary": "A Meta estabeleceu perfis privados padrão para menores de 18 anos, com avisos de encerramento após 60 minutos e silenciamento de notificações das 22h às 7h.",
+    "content": [
+      "Facing mounting legislative scrutiny and consumer protection lawsuits worldwide, Meta launched 'Instagram Teen Accounts', representing the company's most extensive structural reconfiguration for minor accounts to date across major Western markets.",
+      "Under the updated framework, users under 18 are placed into private accounts by default, with messaging restricted strictly to approved connections and sensitive content filters elevated to maximum thresholds. Central to the wellbeing updates is an integrated time-management feature: once adolescents accumulate 60 minutes of daily usage, Instagram triggers a persistent full-screen exit nudge.",
+      "Complementing the daytime prompt, a mandatory 'Sleep Mode' activates automatically between 10:00 PM and 7:00 AM, silencing push notifications and dispatching auto-replies informing contacts that the user is offline. Parents obtain enhanced dashboard visibility into cumulative usage hours and messaging partners.",
+      "However, behavioral psychologists and addiction specialists note a critical structural flaw: the 60-minute alert can be bypassed with a single tap. Advisory warnings that rely on an exhausted adolescent's voluntary willpower consistently fail against variable-reward recommendation feeds.",
+      "The Limitra ecosystem provides the missing mechanical enforcement: Limitra App Block shuts down designated apps completely once time expires without optional extensions, while Limitra Social introduces real-world social friction through peer accountability."
+    ],
+    "source": "Meta Newsroom & PrimeTel",
+    "sourceUrl": "https://about.fb.com/news",
+    "category": "Escolas e juventude",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Instagram Teen Accounts",
+      "Meta",
+      "Modo Sono",
+      "Tempo de Tela",
+      "Juventude Digital",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "82",
+    "slug": "australia-primeiro-mes-proibicao-redes-sociais-4-7-milhoes-contas-fechadas",
+    "title": "Primeiro mês de proibição de redes sociais na Austrália: 4,7 milhões de contas encerradas",
+    "summary": "A autoridade de segurança digital da Austrália (eSafety) revela que plataformas desativaram 4,7 milhões de contas de menores de 16 anos nos primeiros 30 dias de lei.",
+    "content": [
+      "One month following the historic enforcement of Australia's Online Safety Amendment prohibiting access to major social media platforms for minors under 16, initial compliance metrics have revealed sweeping consequences across the digital landscape. Official data released by Australia's eSafety Commissioner indicates that platforms deactivated roughly 4.7 million underage accounts during the first 30 days.",
+      "The legislation imposes fines of up to AU$49.5 million on technology companies failing to take reasonable steps to prevent underage usage, intentionally absolving parents and minors of any legal liability. Meta alone reported disabling over 550,000 Australian accounts believed to belong to minors.",
+      "eSafety Commissioner Julie Inman Grant noted that while initial deactivations represent unprecedented industry action, enforcement remains in its developmental phase. Regulators are actively monitoring potential migration toward smaller, unvetted applications and circumvention via VPN networks.",
+      "Australian policymakers maintained that the statute's fundamental purpose is not digital isolation, but rather safeguarding vulnerable youth from predatory algorithms, engineered addiction loops, and escalating mental health crises.",
+      "While state enforcement reshapes industry boundaries, individual digital autonomy remains essential: Limitra App Block empowers individuals to establish unyielding boundaries on their personal devices, while Limitra Social leverages transparent peer partnerships to maintain focus voluntarily."
+    ],
+    "source": "Reuters & Australian eSafety Commissioner",
+    "sourceUrl": "https://www.esafety.gov.au",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Austrália",
+      "eSafety",
+      "Menores de 16",
+      "Encerramento de Contas",
+      "Saúde Digital",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "81",
+    "slug": "comissao-europeia-diretrizes-dsa-artigo-28-proibicao-streaks-menores",
+    "title": "Comissão Europeia emite diretrizes do DSA: Proibição de 'streaks' e designs viciantes a menores",
+    "summary": "Sob o artigo 28 da Lei de Serviços Digitais, a UE restringe travas psicológicas de retenção como sequências de Snapchat e feeds sem fim voltados a jovens.",
+    "content": [
+      "The European Commission adopted its official enforcement guidelines pursuant to Article 28 of the Digital Services Act (DSA), establishing stringent youth protection standards across all online platforms accessible to minors within the European single market.",
+      "A centerpiece of the regulatory framework is the aggressive restriction of manipulative 'persuasive design' architectures. The Commission explicitly targeted 'streak' mechanics—popularized by platforms like Snapchat—which exploit loss aversion by compelling daily consecutive check-ins. The guidelines mandate that such gamified engagement loops, alongside invasive push alerts, must be disabled for underage users.",
+      "Additionally, the document demands rigorous age assurance methodologies, default high-privacy profiles, strict commercial marketing boundaries, and algorithmic transparency that eliminates addictive recommendation traps in favor of chronological delivery.",
+      "European regulators reiterated that digital products must respect adolescent neurodevelopment, prohibiting engagement-maximization mechanics that treat youth attention spans as commercial commodities.",
+      "Limitra directly counters persuasive application architecture: Limitra App Block introduces impenetrable session lockouts that sever addictive infinite scroll feeds, while Limitra Social channels human connection into authentic mutual discipline rather than gamified streaks."
+    ],
+    "source": "European Commission & European Audiovisual Observatory",
+    "sourceUrl": "https://digital-strategy.ec.europa.eu",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Comissão Europeia",
+      "DSA Artigo 28",
+      "Streaks",
+      "Design Viciante",
+      "Proteção de Jovens",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "80",
+    "slug": "dinamarca-acordo-proibir-redes-sociais-menores-15-anos-mitid",
+    "title": "Dinamarca fecha acordo de coalizão para proibir redes sociais a menores de 15 anos",
+    "summary": "A Dinamarca avança para banir redes sociais abaixo dos 15 anos de idade com suporte da infraestrutura de identificação digital MitID e proteção à saúde mental.",
+    "content": [
+      "In a pioneering Scandinavian policy breakthrough, the Danish government announced a broad coalition agreement aimed at barring children under the age of 15 from operating accounts on commercial social media networks.",
+      "Under the announced consensus, social network providers will be legally compelled to enforce the 15-year threshold. Parents may grant exceptional consent only for adolescents aged 13 and older following an individualized verification protocol.",
+      "Enforcement will integrate Denmark's national digital credential ecosystem, MitID, alongside privacy-preserving age-assurance APIs, ensuring platforms verify user eligibility without compromising or harvesting personal identity data.",
+      "Danish leadership stressed that commercial platforms systematically monetize adolescent vulnerability and disrupt circadian rest, making robust state-backed youth safeguards an ethical necessity.",
+      "Denmark's initiative highlights how digital discipline is becoming an urgent global standard. Limitra brings that precise governance directly to individual devices: Limitra App Block provides strict app limits, while Limitra Social delivers transparent peer accountability."
+    ],
+    "source": "Danish Ministry of Justice & Daily Ittefaq",
+    "sourceUrl": "https://www.justitsministeriet.dk",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Dinamarca",
+      "Menores de 15 anos",
+      "MitID",
+      "Redes Sociais",
+      "Saúde Digital",
+      "Limitra"
+    ]
+  },
+  {
+    "id": "79",
+    "slug": "virginia-sb-854-limite-obrigatorio-uma-hora-diaria-menores-16",
+    "title": "Virgínia aprova SB 854: Limite obrigatório de 1 hora diária por rede social para menores de 16",
+    "summary": "A lei SB 854 impõe um teto rígido de 60 minutos diários por plataforma para jovens abaixo de 16 anos na Virgínia, exigindo comprovação parental e verificação etária.",
+    "content": [
+      "The Commonwealth of Virginia enacted landmark digital wellbeing legislation establishing strict temporal ceilings on youth technology consumption. Passing the Senate 40-0 and the House of Delegates 97-0, Senate Bill 854 (SB 854) mandates platform-enforced screen time limits for minors.",
+      "Under the statutory terms, commercial social media services must restrict users under 16 years of age to no more than 60 minutes per platform per calendar day, unless a parent or legal guardian provides verifiable affirmative consent. Once the 1-hour quota expires, access must automatically lock out until the next day.",
+      "Furthermore, SB 854 obligates platforms to execute reliable age-verification measures across their user base to maintain compliance. Although technology industry trade associations filed legal challenges, state officials maintain that protecting adolescent sleep and cognitive development justifies statutory intervention.",
+      "Legal and educational analysts observe that Virginia's 'one-hour rule' transitions public policy from ambiguous advisory warnings into definitive, mathematically enforced operational boundaries.",
+      "You do not need to wait for state legislation to reclaim your time. Limitra App Block allows you to enforce rigid 1-hour boundaries on addictive applications today, while Limitra Social uses transparent peer partnerships to keep daily goals intact."
+    ],
+    "source": "Virginia General Assembly & Senate Bill 854",
+    "sourceUrl": "https://law.lis.virginia.gov",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Virgínia SB 854",
+      "Limite 1 hora",
+      "Redes Sociais",
+      "Tempo de Tela",
+      "Juventude Digital",
+      "Limitra App Block"
+    ]
+  },
+  {
+    "id": "78",
+    "slug": "turquia-proibicao-redes-sociais-menores-15-anos-diario-oficial",
+    "title": "Turquia restringe redes sociais para menores de 15 anos com publicação no Diário Oficial",
+    "summary": "A nova legislação proíbe o fornecimento de serviços de redes sociais a menores de 15 anos sem verificação rigorosa de idade e supervisão familiar compulsória.",
+    "content": [
+      "The Republic of Turkey enacted unprecedented nationwide statutory protections designed to shield children from algorithmic exploitation and predatory online environments. Passed by the Grand National Assembly (TBMM) and promulgated in the Official Gazette, the law prohibits social network providers from offering services to children under 15 years of age.",
+      "Pursuant to the legislative mandates, platforms must establish differentiated, protective operational environments for adolescents aged 15 and older, completely separating youth profiles from adult algorithmic recommendation engines and unvetted content streams.",
+      "Social network providers face stringent statutory compliance duties: deploying robust, verifiable age-assurance protocols, integrating granular parental oversight controls, and eliminating unrated or predatory gaming modules from youth feeds. The Information and Communication Technologies Authority (BTK) is finalizing regulatory secondary legislation.",
+      "Pediatricians and legal scholars observe that while statutory restrictions represent a vital institutional foundation, home-level device boundaries remain essential to ensure complete digital hygiene across evenings and weekends.",
+      "Limitra empowers users and families with immediate, practical device governance: Limitra App Block enforces unbreakable operational restrictions on high-distraction apps, while Limitra Social fosters collaborative accountability between parents, peers, and partners."
+    ],
+    "source": "Resmi Gazete & TBMM",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-06",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Turquia",
+      "Redes Sociais",
+      "Limite 15 anos",
+      "Proteção Infantil",
+      "Tempo de Tela",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "77",
     "slug": "california-sb-976-proibe-feeds-algoritmicos-viciantes-e-notificacoes-noturnas-menores",
     "title": "Califórnia restringe algoritmos de redes sociais: Lei SB 976 proíbe feeds viciantes e notificações noturnas para menores",

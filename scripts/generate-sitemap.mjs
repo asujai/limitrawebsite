@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const base = 'https://limitra.online';
-const today = '2026-10-05';
+const today = '2026-10-06';
 
 const dataDir = path.resolve('src/data');
 
@@ -64,7 +64,7 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
 `;
 
-for (const item of haberlerTr.filter(i => parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76)) {
+for (const item of haberlerTr.filter(i => (parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76) || (parseInt(i.id, 10) >= 88 && parseInt(i.id, 10) <= 97))) {
   xml += `  <url>
     <loc>${base}/ekran-suresi-kontrolu/${item.slug}</loc>
     <lastmod>${item.date || today}</lastmod>
@@ -167,7 +167,7 @@ xml += `  <url>
   </url>
 `;
 
-for (const item of newsEn.filter(i => parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76)) {
+for (const item of newsEn.filter(i => (parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76) || (parseInt(i.id, 10) >= 88 && parseInt(i.id, 10) <= 97))) {
   xml += `  <url>
     <loc>${base}/en/screen-time-control/${item.slug}</loc>
     <lastmod>${item.date || today}</lastmod>
@@ -284,7 +284,7 @@ for (const lang of otherLangs) {
   </url>
 `;
 
-  for (const item of newsMap[lang].filter(i => parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76)) {
+  for (const item of newsMap[lang].filter(i => (parseInt(i.id, 10) >= 57 && parseInt(i.id, 10) <= 76) || (parseInt(i.id, 10) >= 88 && parseInt(i.id, 10) <= 97))) {
     xml += `  <url>
     <loc>${base}/${lang}/screen-time-control/${item.slug}</loc>
     <lastmod>${item.date || today}</lastmod>

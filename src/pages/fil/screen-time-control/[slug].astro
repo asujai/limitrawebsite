@@ -4,7 +4,7 @@ import newsList from '../../../data/news-fil.json';
 
 export function getStaticPaths() {
   return newsList
-    .filter((item) => parseInt(item.id, 10) >= 57 && parseInt(item.id, 10) <= 76)
+    .filter((item) => (parseInt(item.id, 10) >= 57 && parseInt(item.id, 10) <= 76) || (parseInt(item.id, 10) >= 88 && parseInt(item.id, 10) <= 97))
     .map((item) => ({
       params: { slug: item.slug },
       props: { news: item }

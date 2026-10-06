@@ -1,5 +1,30 @@
 # İşlem Geçmişi
 
+## [2026-10-06 14:55] - Haber 20 Klasöründeki 20 Yeni İçerik 11 Dilde Entegre Edildi (IDs 78-97)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/data-articles-d1-d10.mjs`, `scripts/data-articles-e1-e10.mjs`, `scripts/translations-news.mjs`, `scripts/translations-guides.mjs`, `scripts/apply-20-articles.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (IDs 78-97 TR eklendi, toplam 97 içerik)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dilde IDs 78-97 eklendi: en, es, fr, de, pt, it, ar, id, fil, th)
+  - `[GÜNCELLENDİ]` `src/components/ScreenTimeIndex.astro` (Rehber sayısı 20'den 30'a güncellendi, filtreye IDs 88-97 dahil edildi)
+  - `[GÜNCELLENDİ]` `src/components/NewsIndex.astro` (Haber filtresi güncellendi, IDs 88-97 rehberleri dünya basınından izole edildi)
+  - `[GÜNCELLENDİ]` `src/pages/ekran-suresi-kontrolu/[slug].astro` ve 10 dil versiyonu (`[en,es,fr,de,pt,it,ar,id,fil,th]/screen-time-control/[slug].astro`)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml`, `scripts/generate-sitemap.mjs`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`, `SON_DURUM.md`
+* **Yapılan İşlem:**
+  1. **Haber 20 Klasörü Analizi ve Karşılaştırma:** Kullanıcının 5 Ekim'de eklediği `haber20/Untitled.md` ("Limitra İçerik Zenginleştirme Planı: 20 Doğrulanmış Haber ve Yazı") dosyası incelendi. Sitedeki mevcut 77 içerikle karşılaştırıldı ve 20 konunun hiçbirinin henüz sitede yer almadığı tespit edilerek kullanıcının onayıyla 11 dilde entegre edildi.
+  2. **10 Yeni Dünya Basını Haberi (IDs 78-87):** Türkiye 15 yaş altı yasağı Resmi Gazete (ID 78), Virginia SB 854 günlük 1 saat sınırı (ID 79), Danimarka 15 yaş mutabakatı (ID 80), AB Komisyonu DSA 28. Madde streak/bağımlılık yasağı (ID 81), Avustralya ilk ay 4.7 milyon hesap kapatılması (ID 82), Instagram Teen Accounts (ID 83), Lancet SMART Schools okul telefon yasağı araştırması (ID 84), Pew Research 2025 gençlik raporu (ID 85), TÜİK 2024 çocuk bilişim araştırması (ID 86) ve Oxford Orben-Przybylski %0.4 iyi oluş araştırması (ID 87) eklendi.
+  3. **10 Yeni Ekran Süresi Kontrolü Rehberi (IDs 88-97):** Allcott NBER %31 öz denetim açığı (ID 88), Johns Hopkins 3 saat eşiği (ID 89), KAIST NUGU akran hesap verebilirliği modeli (ID 90), Lally 66 gün kuralı (ID 91), Gollwitzer Eğer-O Zaman planı (ID 92), Fitz 3 kez toplu bildirim protokolü (ID 93), Allcott 4 hafta sosyal medya molası deneyi (ID 94), Maza JAMA Pediatrics fMRI kontrol dürtüsü çalışması (ID 95), Carter JAMA Pediatrics ekransız yatak odası kuralı (ID 96) ve Ariely ön taahhüt stratejisi (ID 97) eklendi.
+  4. **Ekran Süresi Kontrolü Genişletildi:** Toplam rehber sayısı 20'den 30'a yükseltildi, ana navigasyon ve kart filtreleri genişletildi.
+  5. **Sitemap & Derleme:** `scripts/generate-sitemap.mjs` bugünün tarihiyle (`2026-10-06`) güncellendi, `sitemap.xml` 1,497 URL ile yenilendi, Astro 1,499 statik sayfayı 0 hata ile derledi (`npm run check:links` OK).
+* **Doğrulama:**
+  - `npm run build` (1,499 sayfa, 0 hata)
+  - `npm run check:links` ("OK - kirik ic baglanti yok.")
+  - `npm run sitemap` (1,497 URL)
+* **Bilinen Sorunlar:** Yok.
+* **Sonraki Öneri:** Yok (Definition of Done eksiksiz sağlandı).
+
 ## [2026-10-05 22:38] - Kaliforniya SB 976 Yasası ile Reşit Olmayanlara Algoritmik Akış ve Gece Bildirim Yasağı Haberi (ID 77)
 
 * **Model:** Antigravity
