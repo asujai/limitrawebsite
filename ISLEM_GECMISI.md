@@ -1,5 +1,46 @@
 # İşlem Geçmişi
 
+## [2026-10-08 02:00] - Tanıtım Dili, Doğrulanmış Özellik Envanteri ve Çok Dilli İçerik Revizyonu
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/limitra-ozellikler.md` (Android kod tabanlarında doğrulanmış özellikler ve yasaklar envanteri)
+  - `[YENİ]` `src/data/categories.ts` (11 dilde SCREEN_CATEGORY tip güvenliği ve kategori haritası)
+  - `[YENİ]` `scripts/check-content-lang.mjs` (`npm run check:lang` denetimi)
+  - `[YENİ]` `scripts/apply-body-translations.mjs` ve 40 adet `scripts/translations/body-*.json`
+  - `[YENİ]` `scripts/apply-closing-translations.mjs` ve 76 adet `scripts/translations/closing-*.json`
+  - `[YENİ]` `scripts/clean-body-forbidden.mjs`
+  - `[GÜNCELLENDİ]` `GOREV_RAPORU_TANITIM_DILI.md` (Sonuç raporu eksiksiz dolduruldu)
+  - `[GÜNCELLENDİ]` `scripts/daily-news-instructions.md`, `scripts/daily-article-instructions.md` (LİMİTRA'YA ATIF KURALLARI)
+  - `[GÜNCELLENDİ]` `package.json` (`check:lang` script'i eklendi)
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` ve 10 dildeki `src/data/news-*.json`
+  - `[GÜNCELLENDİ]` `src/pages/screen-time-control/index.astro`, `src/pages/haberler/index.astro`, `src/components/NewsArticle.astro`, 11 dildeki `src/pages/**/screen-time-control/[slug].astro`, `scripts/generate-sitemap.mjs`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`, `SON_DURUM.md`
+* **Yapılan İşlem:**
+  1. **Aşama 1 (Doğrulanmış Özellikler, Kategori Eşleme, Bilimsel Düzeltme & Gövde Çevirileri):**
+     - Limitra App Block (`gardiyan2`) ve Limitra Social (`limitrasocial`) kod tabanları incelenerek doğrulanmış özellikler ve yasaklar listesi `scripts/limitra-ozellikler.md` dosyasına kaydedildi.
+     - 30 rehberin kategori uyuşmazlıkları `src/data/categories.ts` üzerinden dinamik hale getirildi; kodlardaki ID aralığı hardcode'ları kaldırıldı; HTML diff'inde 0 URL değişimi doğrulandı.
+     - ID 99 Sophie Leroy DOI bağlantısı (`10.1016/j.obhdp.2009.04.002`) ve metin uydurmaları düzeltildi.
+     - ID 45 son paragrafı 11 dilde sakin ve planlı bir dille onarıldı.
+     - 40 öğenin 9 dildeki (360 kayıt) eksik gövde çevirileri tamamlandı; `scripts/check-content-lang.mjs` ile kalıcı denetim sağlandı (`npm run check:lang`).
+  2. **Aşama 2 (Yönergelerin Güncellenmesi):**
+     - `daily-news-instructions.md` ve `daily-article-instructions.md` yönergelerine "LİMİTRA'YA ATIF KURALLARI" eklendi; abartılı pazarlama, tıbbi iddialar ve uydurma özellikler yasaklandı; tam çeviri ve `npm run check:lang` zorunlu kılındı.
+  3. **Aşama 3 (Mevcut İçeriklerde Yapmacık Tanıtım Dilinin Düzeltilmesi):**
+     - 76 öğenin (ID 23-99) son paragrafı 11 dilde sakin, tek özelliğe ve tek uygulamaya odaklı şekilde yeniden yazıldı.
+     - ID 63 içindeki "10 liralık" ve pazarlama dili temizlendi.
+     - ID 1–22 makro haberlerine zorlama atıf yapılmadı ("bağ kurulamadı / ürün kutusu zaten tanıtım yapıyor").
+     - 11 dilde yasak kelimeler (aşılmaz, kırılamaz, tavizsiz, zırh, kalkan, cebinize getirir, insafına bırakmayın, ekosistem vb.) tamamen temizlendi.
+  4. **Yayın ve Canlı Doğrulama:**
+     - 1,521 sayfa 0 hata ile derlendi, link kontrolü geçti, Cloudflare Workers static assets'e yüklendi (Sürüm ID: `f678151f-166c-4d81-9efb-87059c2c613b`), canlı ortamda HTTP 200 ile doğrulandı.
+* **Doğrulama:**
+  - `npm run build` (1,521 sayfa, 0 hata)
+  - `npm run check:links` (OK)
+  - `npm run check:lang` (OK)
+  - `npm run deploy` (Cloudflare Workers Static Assets, Sürüm ID: `f678151f-166c-4d81-9efb-87059c2c613b`)
+  - `npm run check:live` ("Canli site guncel.")
+* **Bilinen Sorunlar:** Yok.
+* **Sonraki Öneri:** Yok.
+
 ## [2026-10-08 01:00] - Limitra Günlük Makale/Rehber Otomasyonu Kurulumu ve Dikkat Kalıntısı Makalesi (ID 99)
 
 * **Model:** Antigravity

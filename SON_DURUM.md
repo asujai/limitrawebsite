@@ -9,6 +9,15 @@
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 ## Güncel Durum (2026-10-08)
+- **Tanıtım Dili, Doğrulanmış Özellik Envanteri ve Çok Dilli İçerik Revizyonu (Antigravity, 8 Ekim):**
+  - Android kod tabanları (`gardiyan2` ve `limitrasocial`) taranarak doğrulanmış özellikler ve yasaklar envanteri `scripts/limitra-ozellikler.md` olarak çıkarıldı.
+  - 30 rehberin kategori haritası 11 dilde `src/data/categories.ts` üzerinden dinamik hale getirildi; ID filtreleri temizlendi (0 URL diff).
+  - ID 99 Sophie Leroy DOI (`10.1016/j.obhdp.2009.04.002`) ve metin uydurmaları düzeltildi; ID 45 son paragrafı 11 dilde onarıldı.
+  - 40 içeriğin 9 dildeki eksik gövde çevirileri tamamlandı; `scripts/check-content-lang.mjs` (`npm run check:lang`) ile otomasyonlara koruma kuralı bağlandı.
+  - Günlük otomasyon yönergelerine (`daily-news-instructions.md` ve `daily-article-instructions.md`) bağlayıcı "LİMİTRA'YA ATIF KURALLARI" entegre edildi.
+  - 76 içeriğin son paragrafı 11 dilde sakin ve somut bağlarla yeniden yazıldı; yasak/abartılı kelimeler (aşılmaz, kırılamaz, tavizsiz, zırh, kalkan, cebinize getirir, insafına bırakmayın, ekosistem vb.) tüm dillerde temizlendi.
+  - 1,521 statik sayfa 0 hata ile derlendi, Cloudflare'e yüklendi (Sürüm ID: `f678151f-166c-4d81-9efb-87059c2c613b`) ve canlıda doğrulandı (`npm run check:live` OK).
+
 - **Limitra Günlük Makale ve Rehber Otomasyonu Kuruldu & ID 99 11 Dilde Yayında (Antigravity, 8 Ekim):**
   - İkinci otonom yayın hattı olan `Limitra Günlük Makale ve Rehber` oluşturuldu (her gün saat 12:00 Europe/Istanbul, `~/.gemini/config/sidecars/limitra-gunluk-makale/sidecar.json` ve `scripts/daily-article-instructions.md`).
   - Doğrulanmış bilimsel araştırmalar ve saygın kitap analizleri odağında Dr. Sophie Leroy'un 'Dikkat Kalıntısı' (Attention Residue - 2009) deneyi ve Cal Newport'un *Deep Work* analizi 11 dilde eşzamanlı olarak üretildi (ID 99).

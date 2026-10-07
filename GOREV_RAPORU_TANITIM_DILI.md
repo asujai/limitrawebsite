@@ -171,12 +171,54 @@ Bir adım başarısız olursa yayınlama. Nedenini sonuç raporuna yaz ve dur.
 ## Sonuç raporu (uygulayan model doldurur)
 
 - Aşama 1.1, özellikler hangi uygulamada doğrulandı (dosya yolu ile):
+  - Limitra App Block (`gardiyan2`, paket `com.gardiyan.app`):
+    - `C:\Users\abdul\gardiyan2\app\src\main\AndroidManifest.xml` (internet izni `tools:node="remove"` ile kaldırılmış, tamamen çevrimdışı)
+    - `C:\Users\abdul\gardiyan2\app\src\main\java\com\gardiyan\app\data\local\entity\RestrictedAppEntity.kt` (uygulama başına günlük süre limiti, `dailyLimitMinutes`)
+    - `C:\Users\abdul\gardiyan2\app\src\main\java\com\gardiyan\app\data\local\entity\RestrictionSchedule.kt` ve `SetupTargetScreen.kt` (saat aralığına / aktif pencereye göre engelleme)
+    - `C:\Users\abdul\gardiyan2\app\src\main\java\com\gardiyan\app\data\local\entity\StatusLogEntity.kt`, `ProfileScreen.kt`, `TimelineScreen.kt` (uygulama içi yerel aktivite kaydı ve disiplin zinciri)
+  - Limitra Social (`limitrasocial`, paket `com.limitra.socialprototype`):
+    - `C:\Users\abdul\limitrasocial\app\src\main\java\com\limitra\socialprototype\domain\model\Profile.kt` ve `ProfileScreen.kt` (profilde arkadaşların limit ve ekran sürelerini görme, karşılıklı sosyal hesap verebilirlik)
+  - Oluşturulan envanter: `scripts/limitra-ozellikler.md`
+
 - Aşama 1.2, değiştirilen dosyalar; rehber sayısı; URL listesi değişti mi:
+  - Değiştirilen dosyalar: `src/data/categories.ts` (oluşturuldu), `src/data/news-en.json`, `src/data/news-es.json`, `src/data/news-it.json`, `src/data/news-fil.json`, `src/pages/screen-time-control/index.astro`, `src/pages/haberler/index.astro`, `src/components/NewsArticle.astro`, 11 dildeki `src/pages/**/screen-time-control/[slug].astro`, `scripts/generate-sitemap.mjs`.
+  - Rehber sayısı: 30 rehber (ID 57-76 ve 88-97) tüm 11 dilde eksiksiz kategoriye bağlandı.
+  - URL listesi değişti mi: Değişmedi (0 fark). Değişiklik öncesi ve sonrası `dist/` HTML yolları diff alındı, birebir eşleşti.
+
 - Aşama 1.3, DOI doğrulandı mı; değişen cümle:
+  - DOI doğrulandı mı: Evet, DOI `10.1016/j.obhdp.2009.04.002` doğrulandı (Sophie Leroy, 2009, *Organizational Behavior and Human Decision Processes*, Vol. 109, Issue 2, pp. 115-126). `sourceUrl` doğrudan DOI bağlantısına güncellendi.
+  - Değişen cümle (makale özetinde yer almayan kelime tamamlama / analitik test uydurması kaldırıldı, zihinsel dikkat kalıntısı ve görev performansı düşüşü korundu):
+    - Eski: "Sophie Leroy'un iki grup üzerinde gerçekleştirdiği testlerde, bir görevi bitirmeden diğerine geçen katılımcıların analitik karar alma testlerinde ve kelime tamamlama görevlerinde çok daha düşük performans sergilediği görüldü."
+    - Yeni: "Sophie Leroy'un gerçekleştirdiği deneylerde, bir görevi tamamlamadan veya net bir kapanış yapmadan diğerine geçen katılımcıların, dikkatlerinin bir kısmını önceki görevde bıraktığı ve sonraki işteki bilişsel performanslarının belirgin şekilde düştüğü tespit edildi." (11 dile uyarlandı)
+
 - Aşama 1.4:
+  - ID 45'in bozuk son paragrafı ("Limitra App Block ile (Gece Kilidi) Yatakta, ...") temizlendi. Tüm 11 dilde konuya uygun sakin, planlı engelleme cümlesiyle yeniden yazıldı:
+    - TR: "Yatak odasını ekrandan arındırmak, gece geç saatlerde iradeye dayanmak yerine gündüzden planlanmış sınırlar kurmayı gerektirir. Gece kaydırma alışkanlığını kırmak isteyenler için Limitra App Block, seçilen uygulamaları gece saat aralığında (örneğin 23:00 - 07:00) erişime kapatmayı sağlıyor."
+
 - Aşama 1.5, çevrilen öğe sayısı; `check:lang` sonucu:
+  - Çevrilen öğe sayısı: 40 öğe (ID 57-76 ve 78-97), 9 dilde (`es, fr, de, pt, it, ar, id, fil, th`) toplam 360 makale gövdesi yerelleştirildi. `scripts/translations/body-<id>.json` ve `scripts/apply-body-translations.mjs` ile uygulandı.
+  - `check:lang` sonucu: `npm run check:lang` başarıyla 0 sorunla tamamlandı (`[check:lang] BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş.`).
+
 - Aşama 2, değişen dosyalar:
+  - `scripts/daily-news-instructions.md` (`## LİMİTRA'YA ATIF KURALLARI`, tam çeviri şartı ve `check:lang` adımı eklendi).
+  - `scripts/daily-article-instructions.md` (`## LİMİTRA'YA ATIF KURALLARI`, eski kalkan/aşılmaz entegrasyonu kaldırıldı, `Ekran Süresi Kontrolü` kategori kuralı netleştirildi, tam çeviri ve `check:lang` adımı eklendi).
+
 - Aşama 3, yeniden yazılan öğe ID'leri; ID 1–22'den eklenenler / bağ kurulamayanlar:
+  - Yeniden yazılan öğe ID'leri: 77 öğe (ID 23-99; ID 45 Aşama 1.4'te yapılmıştı; 76 öğenin son paragrafı Aşama 3'te 11 dilde yeniden yazıldı; ID 63'te ayrıca orta paragraftaki pazarlama dili ve "10 liralık" ifadesi nötr hale getirildi).
+  - ID 1–22'den eklenenler / bağ kurulamayanlar: ID 1–22'nin tamamı makro devlet politikaları ve okul yasaklarıdır; zorlama Limitra atfı eklenmedi (Kural 4 gereği sayfa altındaki ürün kartı yeterli görüldü). Eklenen: Yok (0). Bağ kurulamayan: ID 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22.
+
 - Yasak kelime taraması sonucu:
+  - TR `content` üzerinde `/aşılmaz|kırılamaz|tavizsiz|zırh|kalkan|cebinize|insafına|ekosistem/gi`: 0 eşleşme.
+  - 11 dilde son paragraflarda tanıtım / abartı / tıbbi iddia taraması: 0 eşleşme.
+  - "Yazılmayacaklar" listesi (uzaktan ebeveyn kontrolü, cihaz geneli süre sınırı, %100, garanti, tıbbi tedavi): 0 eşleşme.
+
 - Deploy sürüm ID'si; commit hash'leri:
+  - Deploy sürüm ID'si: `f678151f-166c-4d81-9efb-87059c2c613b`
+  - Commit hash'leri:
+    - Aşama 1: `5a77408` (`[antigravity] fix: dogrulanmis ozellik envanteri ve ceviriler (Asama 1)`)
+    - Aşama 2: `06e3c14` (`[antigravity] docs: gunluk haber ve makale yonergelerine tanitim dili kurallari (Asama 2)`)
+    - Aşama 3: `acda502` (`[antigravity] fix: yapmacik tanitim dili ve son paragraflar (Asama 3)`)
+
 - Kullanıcıya sorulması gereken açık konular:
+  - ID 58'in URL yapısının bozulmaması için slug'ındaki `...tavizsiz-rehber` ifadesi korunmuş, başlık ve gövde metinleri tamamen nötrleştirilmiştir. İleride 301 yönlendirmesiyle bu slug'ın güncellenmesi tercih edilirse ayrıca yapılabilir.
+  - ID 1–22 içerikleri haber/yasa formatında olduğundan zorlama ürün atfı yapılmamıştır. Sayfa altındaki sabit ürün kartları dönüşüm için yeterli işlevi görmektedir.
