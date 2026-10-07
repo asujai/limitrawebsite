@@ -1,5 +1,32 @@
 [
   {
+    "id": "99",
+    "slug": "residuo-de-atencao-custo-olhar-celular-cal-newport-sophie-leroy",
+    "title": "O custo invisível de uma olhada rápida no celular: O experimento de 'Resíduo de Atenção' de Sophie Leroy e Cal Newport",
+    "summary": "Olhar para o telefone por meros segundos durante o estudo ou trabalho prejudica o foco cognitivo por vários minutos. A pesquisa comprovada sobre o Resíduo de Atenção e a análise de Deep Work.",
+    "content": [
+      "Muitas pessoas acreditam que verificar uma notificação ou responder a uma mensagem rápida de três segundos no celular não afeta sua produtividade. A sensação subjetiva de retorno imediato à tarefa contraria as leis da memória de trabalho. A neurociência evidencia que a atenção humana não funciona como um interruptor liga-desliga, exigindo tempo e energia consideráveis para redirecionar seu foco.",
+      "Em um estudo pioneiro liderado pela psicóloga organizacional Dra. Sophie Leroy (Universidade de Washington), mediu-se o impacto cognitivo direto da transição entre diferentes tarefas. Por meio de avaliações de capacidade dedutiva e testes analíticos, Leroy comprovou empiricamente o fenômeno denominado 'Resíduo de Atenção' (Attention Residue).",
+      "As descobertas de Leroy revelam que, ao interromper a Tarefa A para checar uma Tarefa B inacabada (uma notificação ou mensagem), a atenção não se desloca de forma estanque. Ao retornar à Tarefa A, parte substancial dos recursos cerebrais permanece retida na tarefa anterior, reduzindo a velocidade de processamento e aumentando erros analíticos.",
+      "Em seu livro 'Deep Work' (Foco Profundo), o cientista da computação Cal Newport destaca esse experimento para ilustrar o maior entrave da atualidade: o problema não é apenas o tempo total na tela, mas a fragmentação constante da mente. Conferir o celular dezenas de vezes ao dia por 'um segundo' aprisiona o cérebro em uma névoa contínua de resíduo atencional.",
+      "As conclusões de Leroy e Newport comprovam que depender da pura força de vontade é ineficaz diante de algoritmos persuasivos. A única solução viável consiste em erguer barreiras estruturais externas. O ecossistema Limitra foi concebido para essa blindagem: o Limitra App Block bloqueia aplicativos distratores com rigor absoluto, enquanto o Limitra Social utiliza o compromisso compartilhado com um parceiro para proteger sua clareza mental."
+    ],
+    "source": "Dr. Sophie Leroy (University of Washington) & Cal Newport (Deep Work)",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S074959780900038X",
+    "category": "Ciência e saúde",
+    "date": "2026-10-08",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Resíduo de Atenção",
+      "Sophie Leroy",
+      "Cal Newport",
+      "Deep Work",
+      "Capacidade Cognitiva",
+      "Limitra"
+    ]
+  },
+  {
     "id": "98",
     "slug": "comissao-europeia-proposta-kids-act-proibicao-menores-13-limite-1-hora",
     "title": "Comissão Europeia apresenta proposta do 'EU KIDS Act': Proibição para menores de 13 anos e limite de 1 hora diária",

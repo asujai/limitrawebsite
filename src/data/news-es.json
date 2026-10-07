@@ -1,5 +1,32 @@
 [
   {
+    "id": "99",
+    "slug": "residuo-de-atencion-costo-mirar-telefono-cal-newport-sophie-leroy",
+    "title": "El costo oculto de mirar el teléfono un instante: El experimento de 'Residuo de Atención' de Sophie Leroy y Cal Newport",
+    "summary": "Mirar el teléfono solo un par de segundos mientras trabajas no es una pausa inocua: paraliza el rendimiento cognitivo durante minutos. El estudio científico sobre el residuo de atención y el análisis de Deep Work.",
+    "content": [
+      "Muchas personas asumen que revisar una notificación o un mensaje rápido en el teléfono durante tres o cuatro segundos no perjudica su concentración. La impresión de 'solo miré un segundo y volví al trabajo' se opone frontalmente al funcionamiento de la memoria de trabajo. La neurociencia y la psicología cognitiva han comprobado que el foco atencional no actúa como un interruptor instantáneo, sino que exige una notable inercia para reorientarse.",
+      "En una célebre investigación dirigida por la Dra. Sophie Leroy (Universidad de Washington), se midió con precisión el desgaste mental que se produce al alternar entre distintas tareas. A través de pruebas de decisión analítica y resolución léxica, Leroy demostró experimentalmente la existencia del 'Residuo de Atención' (Attention Residue).",
+      "Los resultados revelaron que cuando una persona interrumpe la Tarea A para atender brevemente la Tarea B (un mensaje o alerta), la atención no migra de forma limpia. Al regresar a la Tarea A, una fracción considerable de los recursos cognitivos permanece atrapada en la tarea secundaria. Este residuo satura la memoria operativa y eleva los errores en labores intelectuales complejas.",
+      "En su obra 'Deep Work' (Céntrate), el profesor Cal Newport toma como pilar este experimento para explicar el agotamiento mental contemporáneo: el daño no radica únicamente en los minutos totales frente a la pantalla, sino en la fragmentación continua. Mirar el móvil cincuenta veces al día 'un solo segundo' sume al cerebro en una niebla permanente de residuo atencional.",
+      "La conclusión de Leroy y Newport demuestra que confiar en la fuerza de voluntad en pleno trabajo es insuficiente. La solución exige barreras estructurales que impidan las microcomprobaciones impulsivas. El ecosistema Limitra responde a este desafío: con Limitra App Block puedes blindar tus periodos de concentración eliminando la tentación de mirar el móvil, y con Limitra Social cuentas con la supervisión mutua de un compañero para salvaguardar tu claridad mental."
+    ],
+    "source": "Dr. Sophie Leroy (University of Washington) & Cal Newport (Deep Work)",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S074959780900038X",
+    "category": "Ciencia y salud",
+    "date": "2026-10-08",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Residuo de Atención",
+      "Sophie Leroy",
+      "Cal Newport",
+      "Deep Work",
+      "Capacidad Cognitiva",
+      "Limitra"
+    ]
+  },
+  {
     "id": "98",
     "slug": "comision-europea-propuesta-kids-act-prohibicion-menores-13-limite-1-hora",
     "title": "La Comisión Europea presenta la propuesta 'EU KIDS Act': Prohibición para menores de 13 años y límite de 1 hora diaria",

@@ -1,5 +1,32 @@
 [
   {
+    "id": "99",
+    "slug": "residuo-di-attenzione-costo-occhiata-telefono-cal-newport-sophie-leroy",
+    "title": "Il costo nascosto di una rapida occhiata allo smartphone: L'esperimento sul 'Residuo di Attenzione' di Sophie Leroy e Cal Newport",
+    "summary": "Controllare il telefono anche solo per pochi secondi durante il lavoro paralizza l'efficienza cognitiva per minuti. La ricerca scientifica sull'Attention Residue e l'analisi di Cal Newport in Deep Work.",
+    "content": [
+      "Molte persone ritengono che lanciare un'occhiata fugace di tre secondi a una notifica o a un messaggio non comprometta la concentrazione. L'impressione soggettiva di riprendere subito il lavoro è un inganno psicologico smentito dai meccanismi della memoria di lavoro. Le neuroscienze dimostrano che l'attenzione non si attiva a comando immediato, ma necessita di una forte inerzia per cambiare direzione.",
+      "In una ricerca fondamentale condotta dalla psicologa delle organizzazioni Dr. Sophie Leroy (Università di Washington), è stata misurata con rigore la penalizzazione cognitiva derivante dal passaggio da un'attività all'altra. Attraverso test lessicali e decisionali, Leroy ha documentato il fenomeno scientifico del 'Residuo di Attenzione' (Attention Residue).",
+      "I dati dimostrano che quando una persona passa dall'Attività A a un'Attività B irrisolta (un messaggio o un avviso social), l'attenzione non si trasferisce in modo pulito. Anche tornando all'Attività A, una frazione considerevole di banda cognitiva rimane intrappolata sulla seconda incombenza, riducendo la memoria operativa e aumentando il tasso di errore.",
+      "Nel celebre saggio 'Deep Work', Cal Newport utilizza questo esperimento per denunciare la più grande vulnerabilità del lavoratore moderno: il danno non è dato solo dai minuti trascorsi sullo schermo, ma dalla continua micro-frammentazione della coscienza. Guardare il telefono cinquanta volte al giorno per 'un istante' condanna il cervello a una perenne foschia cognitiva.",
+      "L'evidenza di Leroy e Newport prova che affidarsi alla sola forza di volontà è una strategia fallimentare. L'unica risposta efficace risiede in vincoli meccanici che impediscano i controlli impulsivi. L'ecosistema Limitra nasce per fornire questa tutela: Limitra App Block blocca in modo inderogabile le app distraenti durante le sessioni di studio e lavoro, mentre Limitra Social sfrutta la responsabilità condivisa con un amico per garantire una mente limpida e focalizzata."
+    ],
+    "source": "Dr. Sophie Leroy (University of Washington) & Cal Newport (Deep Work)",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S074959780900038X",
+    "category": "Scienza e salute",
+    "date": "2026-10-08",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Residuo di Attenzione",
+      "Sophie Leroy",
+      "Cal Newport",
+      "Deep Work",
+      "Capacità Cognitiva",
+      "Limitra"
+    ]
+  },
+  {
     "id": "98",
     "slug": "commissione-europea-proposta-kids-act-divieto-under-13-limite-1-ora",
     "title": "La Commissione Europea presenta la proposta 'EU KIDS Act': Divieto sotto i 13 anni e tetto di 1 ora al giorno",

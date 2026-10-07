@@ -1,5 +1,32 @@
 [
   {
+    "id": "99",
+    "slug": "aufmerksamkeitsrueckstand-smartphone-blick-cal-newport-sophie-leroy",
+    "title": "Die versteckten Kosten eines kurzen Blicks aufs Handy: Sophie Leroys Experiment zum 'Aufmerksamkeitsrückstand' und Cal Newport",
+    "summary": "Während der Arbeit nur für wenige Sekunden aufs Smartphone zu schauen, unterbricht nicht nur die Konzentration – es hemmt die kognitive Leistungsfähigkeit für Minuten. Dr. Sophie Leroys Forschung zum Attention Residue und Cal Newports Deep-Work-Analyse.",
+    "content": [
+      "Viele Menschen glauben, dass ein flüchtiger Blick von drei Sekunden auf eine Benachrichtigung oder eine Nachricht keine nennenswerten kognitiven Einbußen nach sich zieht. Das Gefühl, sofort wieder nahtlos an die Arbeit anknüpfen zu können, widerspricht jedoch der Arbeitsweise des menschlichen Arbeitsgedächtnisses. Die Kognitionsforschung belegt seit Jahrzehnten, dass Aufmerksamkeit kein Schalter ist, der beliebig umgelegt werden kann, sondern beträchtliche Trägheit aufweist.",
+      "In einer wegweisenden Studie der Organisationspsychologin Dr. Sophie Leroy (University of Washington / University of Minnesota) wurde experimentell gemessen, welche Leistungseinbußen beim Wechsel zwischen Aufgaben entstehen. Durch standardisierte Wort- und Analyseprüfungen wies Leroy das Phänomen des 'Aufmerksamkeitsrückstands' (Attention Residue) wissenschaftlich nach.",
+      "Leroys Daten belegen: Wechselt eine Person von Aufgabe A zu einer unvollendeten Aufgabe B (etwa einer Mitteilung auf dem Smartphone), wandert die Aufmerksamkeit nicht vollständig mit. Kehrt man anschließend zu Aufgabe A zurück, bleibt ein relevanter Teil der kognitiven Ressourcen an Aufgabe B gebunden. Dieser Rückstand verengt das Arbeitsgedächtnis und erhöht die Fehleranfälligkeit bei analytischen Aufgaben deutlich.",
+      "In seinem Bestseller 'Deep Work' (Konzentriert arbeiten) macht Informatikprofessor Cal Newport dieses Experiment zum Kern seiner Argumentation: Das zentrale Problem moderner Wissensarbeit sind nicht nur die summierten Minuten am Bildschirm, sondern die permanente Fragmentierung des Denkens. Wer fünfzig Mal am Tag 'nur kurz' aufs Telefon schaut, zwingt sein Gehirn in einen dauerhaften kognitiven Nebel.",
+      "Die Befunde von Leroy und Newport zeigen, dass Willenskraft allein gegen die Verlockungen digitaler Geräte scheitert. Notwendig sind externe, kompromisslose Mechanismen, die den Griff zum Handy mechanisch unterbinden. Das Limitra-Ökosystem setzt genau hier an: Limitra App Block sperrt ablenkende Apps während intensiver Arbeitsphasen verbindlich ab, während Limitra Social durch verbindliche Partnerschaften für echte Verbindlichkeit und klare geistige Frische sorgt."
+    ],
+    "source": "Dr. Sophie Leroy (University of Washington) & Cal Newport (Deep Work)",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S074959780900038X",
+    "category": "Wissenschaft & Gesundheit",
+    "date": "2026-10-08",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "Aufmerksamkeitsrückstand",
+      "Sophie Leroy",
+      "Cal Newport",
+      "Deep Work",
+      "Kognitive Kapazität",
+      "Limitra"
+    ]
+  },
+  {
     "id": "98",
     "slug": "eu-kommission-kids-act-entwurf-verbot-unter-13-und-1-stunde-tageslimit",
     "title": "EU-Kommission legt 'EU KIDS Act' vor: Social-Media-Verbot unter 13 und tägliches 1-Stunden-Limit",

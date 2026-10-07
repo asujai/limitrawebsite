@@ -1,5 +1,32 @@
 [
   {
+    "id": "99",
+    "slug": "residu-ng-atensyon-halaga-ng-panandaliang-tingin-cal-newport-sophie-leroy",
+    "title": "Ang Nakatagong Halaga ng Panandaliang Tingin sa Telepono: Eksperimento sa 'Attention Residue' nina Sophie Leroy at Cal Newport",
+    "summary": "Ang pagsulyap sa telepono nang ilang segundo habang nag-aaral o nagtatrabaho ay hindi lamang simpleng paghinto—pinapabagal nito ang utak sa loob ng ilang minuto. Ang pananaliksik ni Dr. Sophie Leroy at pagsusuri sa Deep Work.",
+    "content": [
+      "Maraming tao ang naniniwalang ang pagsilip sa notification o text sa loob ng tatlong segundo ay walang masamang epekto sa konsentrasyon. Ang pakiramdam na 'sumulyap lang ako at nagpatuloy agad' ay salungat sa tunay na operasyon ng working memory ng tao. Pinatutunayan ng neuroscience na ang atensyon ay hindi parang switch ng ilaw, kundi nangangailangan ng sapat na oras upang ganap na makatutok.",
+      "Sa isang mahalagang pag-aaral ng organizational psychologist na si Dr. Sophie Leroy (University of Washington), sinukat ang pagbaba ng kakayahan ng isip sa tuwing lumilipat ng gawain. Sa pamamagitan ng mga analytical tests, napatunayan ni Leroy ang penomenon na tinatawag na 'Attention Residue' (Residu ng Atensyon).",
+      "Ayon sa mga natuklasan ni Dr. Leroy, kapag lumipat ang isang tao mula sa Gawain A patungo sa Gawain B na hindi pa tapos (tulad ng isang mensahe o alerto), hindi ganap na lumilipat ang kanyang isip. Sa pagbabalik sa Gawain A, may bahagi pa rin ng atensyon ang naiiwang nakakabit sa Gawain B. Ang residung ito ay nagpapaliit sa kapasidad ng utak at nagpapataas ng pagkakamali.",
+      "Sa kanyang tanyag na aklat na 'Deep Work', ginamit ng computer scientist na si Cal Newport ang eksperimentong ito upang ipaliwanag ang karamdaman ng modernong lipunan: ang tunay na suliranin ay hindi lamang ang kabuuang oras sa screen, kundi ang paulit-ulit na pagkakaputol-putol ng atensyon. Ang pagtingin sa telepono nang limampung beses sa isang araw ay nagdudulot ng permanenteng ulap sa pag-iisip.",
+      "Ipinapakita ng pag-aaral nina Leroy at Newport na hindi sapat ang simpleng tibay ng loob. Kinakailangan ang panlabas at matatag na harang upang pigilan ang mga biglaang silip. Dinisenyo ang Limitra para dito: pinapatupad ng Limitra App Block ang mahigpit na lock sa mga nakakaabalang app habang nag-aaral, at ang Limitra Social ay nagbibigay ng pananagutan kasama ang isang kaibigan upang mapanatiling malinaw at matalas ang iyong isip."
+    ],
+    "source": "Dr. Sophie Leroy (University of Washington) & Cal Newport (Deep Work)",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S074959780900038X",
+    "category": "Agham at Kalusugan",
+    "date": "2026-10-08",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Attention Residue",
+      "Sophie Leroy",
+      "Cal Newport",
+      "Deep Work",
+      "Kakayahang Kognitibo",
+      "Limitra"
+    ]
+  },
+  {
     "id": "98",
     "slug": "komisyon-ng-europa-panukalang-kids-act-bawal-wala-pang-13-limit-1-oras",
     "title": "Inilunsad ng Komisyon ng Europa ang 'EU KIDS Act': Bawal sa Edad Mababa sa 13 at May Limitasyong 1 Oras Bawat Araw",

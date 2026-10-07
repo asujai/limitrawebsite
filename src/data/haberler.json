@@ -1,5 +1,33 @@
 [
   {
+    "id": "99",
+    "slug": "dikkat-kalintisi-attention-residue-cal-newport-ve-sophie-leroy-deneyi",
+    "title": "Telefona Bir Anlık Bakmanın Gizli Maliyeti: Sophie Leroy'un 'Dikkat Kalıntısı' Deneyi ve Cal Newport",
+    "summary": "Çalışırken veya ders çalışırken sadece birkaç saniyeliğine telefona bakmak bile dikkatinizi bölmez; beyninizi dakikalarca felç eder. Dr. Sophie Leroy'un kanıtladığı 'Dikkat Kalıntısı' (Attention Residue) ve Cal Newport'un Deep Work analizi.",
+    "content": [
+      "Pek çok insan, zorlu bir görev üzerinde çalışırken telefonuna gelen bir mesaja veya bildirime sadece 3-5 saniyeliğine göz atıp hemen işine geri döndüğünde hiçbir bilişsel kayıp yaşamadığını düşünür. 'Ben hızlıca baktım ve işime devam ettim' hissi, beynin çalışma belleği (working memory) dinamikleriyle taban tabana zıttır. Nörobilim ve örgütsel davranış araştırmaları, beynin odaklanma mekanizmasının anında açılıp kapanabilen bir düğme olmadığını; aksine ağır bir geminin yön değiştirmesi gibi yüksek atalet gerektirdiğini onlarca yıldır kanıtlamaktadır.",
+      "Minnesota ve Washington Üniversitelerinde görev yapan örgütsel psikolog Dr. Sophie Leroy tarafından yayımlanan ve örgütsel davranış literatüründe klasikleşen çığır açıcı deneyde, insanların bir görevden diğerine geçerken bilişsel kapasitelerinin nasıl etkilendiği ölçüldü. Leroy, denekleri iki farklı çalışma grubuna ayırdı ve görev geçişleri arasındaki zihinsel performansı kelime tamamlama ve analitik karar verme testleriyle sınadı. Araştırma sonucunda tıp ve yönetim literatürüne geçen temel kavram doğrulandı: 'Dikkat Kalıntısı' (Attention Residue).",
+      "Dr. Leroy'un bulgularına göre; bir kişi Görev A'dan (örneğin ders çalışma, rapor hazırlama veya kodlama) henüz tam bitmemiş bir Görev B'ye (gelen bir WhatsApp mesajı, e-posta veya sosyal medya bildirimi) geçtiğinde, zihinsel odağı Görev B'ye tamamen taşınamaz. Daha da kritiği, kişi Görev A'ya geri döndüğünde bile dikkatinin kayda değer bir parçası Görev B'de takılı kalır. Bu bilişsel kalıntı; çalışma belleğinin kapasitesini daraltır, mantıksal çıkarım hızını yavaşlatır ve derin odaklanma gerektiren analitik işlerde hata payını dramatik biçimde artırır.",
+      "Yazar ve bilgisayar bilimci Cal Newport, dünyaca ünlü 'Deep Work' (Pürdikkat) kitabında bu deneyi merkeze alarak modern bilgi çalışanlarının en büyük yanılgısını ortaya koyar: Sorun, telefona ayrılan dakikaların toplamı değil; gün boyunca dikkatin sürekli mikro parçalara bölünerek kalıcı bir 'dikkat kalıntısı' sisi içinde yaşanmasıdır. Günde 50 kez 'sadece bir saniye' telefona bakmak, beynin hiçbir zaman tam bilişsel kapasitesine ulaşamamasına ve kronik bir zihinsel yorgunluğa yol açar.",
+      "Leroy ve Newport'un bu bilimsel kanıtı, anlık iradeye güvenmenin neden yetersiz olduğunu gösterir. Çözüm; dikkati bölecek uyaranları fiziksel ve mekanik olarak erişilmez kılmaktır. Limitra ekosistemi bu zırhı kurmak için tasarlanmıştır: Limitra App Block ile derin odaklanma saatlerinizde tavizsiz kilitler devreye sokarak 'bir saniyelik' bakış dürtüsünü kaynağında durdurabilir, Limitra Social ile bir çalışma arkadaşınıza hesap verebilirlik taahhüdü vererek dikkatinizin kalıntısız ve berrak kalmasını güvence altına alabilirsiniz."
+    ],
+    "source": "Dr. Sophie Leroy (University of Washington) & Cal Newport (Deep Work)",
+    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S074959780900038X",
+    "category": "Bilim & Sağlık",
+    "date": "2026-10-08",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Dikkat Kalıntısı",
+      "Sophie Leroy",
+      "Cal Newport",
+      "Deep Work",
+      "Pürdikkat",
+      "Bilişsel Kapasite",
+      "Limitra"
+    ]
+  },
+  {
     "id": "98",
     "slug": "ab-komisyonu-kids-act-yasa-tasarisi-13-yas-alti-yasak-ve-gunluk-1-saat-siniri",
     "title": "Avrupa Komisyonu'ndan Tarihi 'EU KIDS Act' Tasarısı: 13 Yaş Altına Sosyal Medya Yasağı ve Günlük 1 Saat Sınırı",
