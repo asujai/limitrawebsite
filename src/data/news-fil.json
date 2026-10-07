@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "komisyon-ng-europa-panukalang-kids-act-bawal-wala-pang-13-limit-1-oras",
+    "title": "Inilunsad ng Komisyon ng Europa ang 'EU KIDS Act': Bawal sa Edad Mababa sa 13 at May Limitasyong 1 Oras Bawat Araw",
+    "summary": "Inaprubahan ng Komisyon ng Europa ang makasaysayang panukalang 'EU KIDS Act' upang protektahan ang kabataan sa nakakahumaling na disenyo ng social media. Ipinagbabawal nito ang paggamit sa edad mababa sa 13, nagtatakda ng mini-account na may 1 oras na limit para sa edad 13-15, at ipinagbabawal ang infinite scroll.",
+    "content": [
+      "Opisyal na inilabas ng Komisyon ng Europa ang panukalang batas na 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy) upang magtakda ng iisang pamantayan sa kaligtasan ng kabataan sa digital world sa 27 bansa ng European Union. Saklaw ng panukala ang mga social network, video sharing platforms, online games, app stores, at mga AI chatbot.",
+      "Sentro sa panukala ang baitang-baitang na edad para sa paggamit: ganap na ipinagbabawal sa mga batang wala pang 13 taong gulang ang paggamit ng social media. Para sa mga kabataang edad 13 hanggang 15, inoobliga ang mga platform na magpatupad ng 'mini-accounts' sa ilalim ng gabay ng magulang, na may limitadong features at awtomatikong 1 oras na maximum screen time bawat araw. Ang edad 15 pataas ay maaaring magkaroon ng sariling account ngunit protektado pa rin ng mga panuntunang pangkaligtasan.",
+      "Ipinagbabawal din ng panukala ang mga 'addictive design features' para sa mga menor de edad alinsunod sa 'safety by design'. Kabilang dito ang walang tigil na pag-scroll (infinite scrolling), panggabing push notifications, streak reward systems, at mga gastusin sa laro (loot boxes). Bukod dito, inilipat ang responsibilidad ng pagpapatunay sa mga kumpanya ng teknolohiya upang patunayang ligtas ang kanilang mga sistema bago papasukin ang kabataan.",
+      "Upang mapatunayan ang edad nang hindi nalalabag ang pribadong impormasyon, iniaatas ng Komisyon ang paggamit ng cryptographic tools tulad ng zero-knowledge proofs. Bukas ang pampublikong konsultasyon hanggang Nobyembre 26, 2026, bago ang pinal na pag-apruba sa European Parliament at Council ng EU.",
+      "Pinapatunayan ng hakbang ng Europa na hindi sapat ang sariling disiplina laban sa mga mapanlinlang na algorithm. Hatid ng Limitra ang proteksyong ito sa iyong device: gamit ang Limitra App Block, maaari kang magtakda ng matibay na 1 oras na harang sa mga nakakaabalang app, habang ang Limitra Social ay nagbibigay ng kasama sa pananagutan upang mapanatili ang iyong kalayaan mula sa digital addiction."
+    ],
+    "source": "Komisyon ng Europa & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Mga Patakaran ng Pamahalaan at Batas",
+    "date": "2026-10-07",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Komisyon ng Europa",
+      "EU KIDS Act",
+      "Social Media",
+      "Infinite Scrolling",
+      "Screen Time Limit",
+      "Kaligtasan ng Kabataan",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "estratehiya-ng-pre-commitment-bakit-ang-panlabas-na-app-lock-ang-tatalo-sa-tukso",
     "title": "Ang Estratehiya ng Pre-Commitment: Bakit Talo ng Matibay na Locks ang Mahinang Willpower",

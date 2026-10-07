@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "eu-kommission-kids-act-entwurf-verbot-unter-13-und-1-stunde-tageslimit",
+    "title": "EU-Kommission legt 'EU KIDS Act' vor: Social-Media-Verbot unter 13 und tägliches 1-Stunden-Limit",
+    "summary": "Die Europäische Kommission hat den Gesetzesentwurf 'EU KIDS Act' zum Schutz Minderjähriger verabschiedet. Vorgesehen sind ein vollständiges Verbot unter 13 Jahren, elterliche 'Mini-Konten' mit 1 Stunde Tageslimit für 13- bis 15-Jährige sowie das Verbot von endlosem Scrollen.",
+    "content": [
+      "Die Europäische Kommission hat den Verordnungsentwurf 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy) offiziell angenommen, um den Schutz von Kindern und Jugendlichen im Internet EU-weit zu vereinheitlichen. Die vorgeschlagenen Vorschriften gelten verbindlich für soziale Netzwerke, Videoplattformen, Online-Spiele, App-Stores und KI-basierte Chatbots in allen 27 Mitgliedstaaten.",
+      "Kernstück der Initiative ist ein gestuftes Altersmodell: Kindern unter 13 Jahren wird der Zugang zu Social-Media-Diensten vollständig untersagt. Für Jugendliche zwischen 13 und 15 Jahren müssen Plattformen elterlich beaufsichtigte 'Mini-Konten' bereitstellen, die über reduzierte Funktionen und eine strikte, systemweite Begrenzung auf maximal eine Stunde Nutzungszeit pro Tag verfügen. Ab 15 Jahren ist ein eigenes Konto erlaubt, unterliegt jedoch weiterhin umfassenden Schutzvorgaben.",
+      "Besonders wegweisend ist das Verbot suchtfördernder Designmuster im Sinne des 'Safety-by-Design'-Prinzips. Endloses Scrollen (Infinite Scrolling), manipulative Push-Nachrichten in den Nachtstunden, Gamification-Elemente wie 'Streaks' sowie versteckte Kauffallen werden für Minderjährige untersagt. Zudem kehrt der Entwurf die Beweislast um: Technologieunternehmen müssen künftig nachweisen, dass ihre Dienste das Wohl von Kindern nicht beeinträchtigen.",
+      "Um das Alter der Nutzer datenschutzkonform zu verifizieren, setzt die Kommission auf moderne kryptografische Verfahren wie Zero-Knowledge-Proofs. Die öffentliche Konsultation läuft bis zum 26. November 2026, bevor der Vorschlag vom Europäischen Parlament und dem Rat der Europäischen Union beraten und verabschiedet wird.",
+      "Die EU-Initiative unterstreicht, dass bloße Willenskraft gegen hochgradig optimierte Algorithmen selten ausreicht. Limitra setzt genau diese Schutzmechanismen direkt auf Ihrem Gerät um: Mit Limitra App Block sperren Sie ablenkende Apps verlässlich nach Erreichen Ihres Tageslimits, während Limitra Social Sie mit einem Partner verbindet, um gemeinsame digitale Disziplin zu leben."
+    ],
+    "source": "Europäische Kommission & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Regierungspolitik & Gesetze",
+    "date": "2026-10-07",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "EU-Kommission",
+      "EU KIDS Act",
+      "Social Media Verbot",
+      "Endloses Scrollen",
+      "Bildschirmzeit Limit",
+      "Jugendschutz",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "pre-commitment-strategie-warum-externe-sperren-die-willenskraft-schlagen",
     "title": "Die Pre-Commitment-Strategie: Warum externe Sperren die reine Willenskraft besiegen",

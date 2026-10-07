@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "ab-komisyonu-kids-act-yasa-tasarisi-13-yas-alti-yasak-ve-gunluk-1-saat-siniri",
+    "title": "Avrupa Komisyonu'ndan Tarihi 'EU KIDS Act' Tasarısı: 13 Yaş Altına Sosyal Medya Yasağı ve Günlük 1 Saat Sınırı",
+    "summary": "Avrupa Komisyonu, çocukları algoritmik tuzaklardan korumak için 'EU KIDS Act' yasa teklifini kabul etti. Tasarı; 13 yaş altına tam yasak, 13-15 yaşa ebeveyn denetimli 'mini hesap' ve günlük azami 1 saat süre sınırı getiriyor.",
+    "content": [
+      "Avrupa Komisyonu, üye ülkeler arasındaki dağınık çocuk güvenliği düzenlemelerini tek bir çatı altında toplamak ve gençleri dijital platformların yıpratıcı etkilerinden korumak amacıyla 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy) adlı kapsamlı yasa teklifini resmen kabul etti. Taslak düzenleme; sosyal ağlar, kısa video platformları, çevrim içi oyunlar ve üretken yapay zekâ sohbet botlarını doğrudan kapsayan katı bir kademeli erişim modeli getiriyor.",
+      "Yasa tasarısının merkezinde üç aşamalı bir yaş mimarisi yer alıyor: 13 yaşın altındaki çocukların sosyal medya hizmetlerine erişimi tamamen yasaklanıyor. 13 ila 15 yaş arasındaki gençler için ise yalnızca bir ebeveyn veya vasinin gözetiminde oluşturulabilen 'mini hesap' (mini-accounts) modeli zorunlu kılınıyor. Bu hesaplar kısıtlı işlevlere sahip olacak ve sistem düzeyinde günlük azami 1 saatlik kullanım tavanı uygulanacak. 15 yaş ve üzeri kullanıcılar bağımsız hesap açabilecek olsa da tüm platformlar reşit olmayanlara karşı tasarım güvenliği yükümlülüklerine tabi tutulacak.",
+      "Tasarının en devrimci maddelerinden biri, 'tasarım yoluyla güvenlik' (safety-by-design) ilkesi kapsamında bağımlılık yaratan özelliklerin yasaklanmasıdır. Düzenleme yürürlüğe girdiğinde; kullanıcıları ekranda rehin tutan sonsuz kaydırma (infinite scrolling), gece gönderilen dürtüsel bildirimler, streak (seri tamamlama) döngüleri ve harcama tuzakları (loot box) reşit olmayanların kullanımına kapatılacak. Ayrıca platformlar, hizmetlerinin çocuklar için güvenli olduğunu kanıtlamakla yasal olarak yükümlü kılınarak ispat yükü doğrudan teknoloji şirketlerine yüklenecek.",
+      "Komisyon, yaş doğrulamasının kullanıcı gizliliğini ihlal etmemesi için 'sıfır bilgi kanıtı' (zero-knowledge proof) teknolojisini şart koşuyor. 26 Kasım 2026 tarihine kadar kamuoyu istişaresine açık olan tasarı, Avrupa Parlamentosu ve AB Konseyi'nin onay sürecinin ardından 27 üye ülkede doğrudan bağlayıcı bir tüzük olarak yürürlüğe girecek.",
+      "Avrupa Birliği'nin benimsediği bu yaklaşım, ekran süresini denetimsiz iradeye bırakmanın küresel bir halk sağlığı riskine dönüştüğünü tescilliyor. Limitra ekosistemi, AB'nin hedeflediği bu koruma duvarını bugünden cebinize getirir: Limitra App Block ile kendinize ve ailenize günlük 1 saatlik tavizsiz kullanım tavanları belirleyebilir, Limitra Social ile bir hesap verebilirlik ortağı eşliğinde bağımlılık yapan algoritmik akışların kontrolünü elinize alabilirsiniz."
+    ],
+    "source": "Avrupa Komisyonu (European Commission) & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-10-07",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "AB Komisyonu",
+      "EU KIDS Act",
+      "Sosyal Medya Yasağı",
+      "Sonsuz Kaydırma",
+      "1 Saat Sınırı",
+      "Tasarım Yoluyla Güvenlik",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "on-taahhut-stratejisi-dis-kuralin-ve-kilit-mekanizmasinin-gucu",
     "title": "Ön Taahhüt (Pre-Commitment) Stratejisi: Dış Kuralın ve Kilit Mekanizmasının Bilimsel Gücü",

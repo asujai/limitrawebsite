@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "comissao-europeia-proposta-kids-act-proibicao-menores-13-limite-1-hora",
+    "title": "Comissão Europeia apresenta proposta do 'EU KIDS Act': Proibição para menores de 13 anos e limite de 1 hora diária",
+    "summary": "A Comissão Europeia aprovou a histórica proposta do 'EU KIDS Act' para blindar menores contra designs viciantes. O projeto determina veto total abaixo dos 13 anos, 'mini-contas' supervisionadas com teto diário de 1 hora para jovens de 13 a 15 anos e o fim da rolagem infinita.",
+    "content": [
+      "A Comissão Europeia adotou formalmente a proposta legislativa 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy), com o intuito de estabelecer regras harmonizadas de proteção à infância digital em toda a União Europeia. O regulamento abrange redes sociais, plataformas de vídeo, jogos online, lojas de aplicativos e assistentes conversacionais de inteligência artificial nos 27 Estados-membros.",
+      "O pilar central da proposta é uma estrutura etária escalonada: crianças menores de 13 anos ficam totalmente proibidas de utilizar redes sociais. Para a faixa de 13 a 15 anos incompletos, as plataformas deverão fornecer 'mini-contas' gerenciadas por responsáveis legais, dotadas de recursos simplificados e uma restrição automatizada de uso diário de no máximo uma hora. Usuários a partir de 15 anos poderão gerir contas individuais, sob rigorosas exigências de segurança padrão.",
+      "A regulação combate diretamente mecanismos de retenção dopaminérgica sob o conceito de 'segurança por design'. Padrões que exploram a vulnerabilidade infantil, como a rolagem infinita (infinite scrolling), alertas noturnos disruptivos, incentivos contínuos de ofensivas ('streaks') e microtransações predatórias, serão banidos para menores. Além disso, inverte-se o ônus da prova: caberá às empresas de tecnologia comprovar a segurança prévia de seus ecossistemas.",
+      "Para assegurar a conferência etária com estrita preservação da privacidade dos cidadãos, a Comissão preconiza o uso de provas de conhecimento zero (zero-knowledge proofs). A consulta pública fica aberta até 26 de novembro de 2026, seguindo então para deliberação conjunta no Parlamento Europeu e no Conselho da UE.",
+      "Essa movimentação regulatória confirma que depender unicamente do autocontrole contra feeds viciantes é um beco sem saída. A solução do Limitra materializa essa blindagem: o Limitra App Block impõe bloqueios mecânicos intransponíveis após o limite diário selecionado, e o Limitra Social une você a um parceiro de responsabilidade mútua para manter a clareza mental e o foco."
+    ],
+    "source": "Comissão Europeia & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-07",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Comissão Europeia",
+      "EU KIDS Act",
+      "Redes Sociais",
+      "Rolagem Infinita",
+      "Tempo de Tela",
+      "Proteção Infantil",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "estrategia-pre-compromisso-por-que-bloqueios-externos-superam-forca-vontade",
     "title": "A estratégia do Pré-Compromisso: Por que bloqueios externos vencem a força de vontade",

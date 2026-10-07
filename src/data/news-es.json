@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "comision-europea-propuesta-kids-act-prohibicion-menores-13-limite-1-hora",
+    "title": "La Comisión Europea presenta la propuesta 'EU KIDS Act': Prohibición para menores de 13 años y límite de 1 hora diaria",
+    "summary": "La Comisión Europea adoptó la histórica propuesta legislativa 'EU KIDS Act' para proteger a los menores del diseño adictivo. El texto contempla la prohibición total para menores de 13 años, 'mini-cuentas' supervisadas con límite diario de 1 hora para jóvenes de 13 a 15 años y el fin del scroll infinito.",
+    "content": [
+      "La Comisión Europea ha presentado oficialmente la propuesta legislativa 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy), un marco regulatorio integral destinado a armonizar las normativas de seguridad digital infantil en los 27 países miembros. El reglamento abarca redes sociales, plataformas de vídeo, videojuegos en línea, tiendas de aplicaciones y chatbots conversacionales de inteligencia artificial.",
+      "El núcleo del proyecto legislativo establece un modelo de acceso escalonado por edades: los menores de 13 años tendrán prohibido el acceso a redes sociales. Para adolescentes de 13 a 15 años, las plataformas deberán habilitar 'mini-cuentas' supervisadas por padres o tutores, con funciones restringidas y un límite diario estricto de una hora de uso. A partir de los 15 años se permitirán cuentas independientes, siempre bajo estrictas medidas de protección por diseño.",
+      "Entre sus disposiciones más contundentes, la normativa prohíbe los patrones de diseño adictivos para menores. Mecanismos como el desplazamiento infinito (infinite scrolling), las notificaciones automáticas nocturnas, las rachas de recompensas (streaks) y las compras compulsivas quedarán vetados. Además, la propuesta invierte la carga de la prueba, obligando a las empresas tecnológicas a demostrar activamente que sus entornos son seguros antes de acoger a menores.",
+      "La Comisión estipula que la verificación de edad se realice mediante soluciones criptográficas que protejan la privacidad, como las pruebas de conocimiento cero (zero-knowledge proofs). La consulta pública permanecerá abierta hasta el 26 de noviembre de 2026, antes de que el texto pase al Parlamento Europeo y al Consejo de la UE para su tramitación definitiva.",
+      "Esta iniciativa comunitaria confirma que combatir los algoritmos extractivos con mera fuerza de voluntad resulta insuficiente. El ecosistema Limitra pone estas barreras a tu alcance: con Limitra App Block puedes fijar un límite inquebrantable de 1 hora en aplicaciones recreativas, y con Limitra Social cuentas con el poder de un compañero de responsabilidad para romper los hábitos de navegación compulsiva."
+    ],
+    "source": "Comisión Europea & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-10-07",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Comisión Europea",
+      "EU KIDS Act",
+      "Redes Sociales",
+      "Scroll Infinito",
+      "Límite de Pantalla",
+      "Seguridad por Diseño",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "estrategia-pre-compromiso-por-que-bloqueos-externos-superan-fuerza-voluntad",
     "title": "La estrategia del Pre-Compromiso: Por qué los bloqueos externos superan a la fuerza de voluntad",

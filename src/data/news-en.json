@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "eu-commission-kids-act-proposal-under-13-ban-daily-1-hour-limit",
+    "title": "European Commission Unveils 'EU KIDS Act' Proposal: Social Media Ban Under 13 and Daily 1-Hour Cap",
+    "summary": "The European Commission has adopted the landmark 'EU KIDS Act' proposal to shield minors from manipulative platform design. The draft mandates a complete ban under 13, parental 'mini-accounts' with a 1-hour daily cap for ages 13–15, and an outlaw on infinite scrolling.",
+    "content": [
+      "The European Commission has officially presented the 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy), a landmark legislative proposal designed to harmonize youth digital safety rules across all 27 member states. The regulation covers social media networks, video-sharing platforms, online gaming, app stores, and generative AI conversational chatbots under strict safety-by-design standards.",
+      "At the heart of the draft regulation is a graduated age framework: children under the age of 13 are completely barred from opening social media accounts. For teens aged 13 to under 15, platforms must implement guardian-supervised 'mini-accounts' with restricted features and an automated daily time limit of one hour. Minors aged 15 and older will be permitted independent accounts, though platforms must still enforce robust default protections.",
+      "Crucially, the proposal outlaws dopamine-exploiting addictive design patterns for minors. Features such as infinite scrolling feeds, manipulative late-night notifications, gamified streak rewards, and in-game spending traps will be strictly prohibited. Furthermore, the regulation reverses the legal burden of proof, requiring technology corporations to actively demonstrate that their platforms are safe and age-appropriate before offering services to young users.",
+      "To enforce these safeguards without compromising user privacy, the Commission mandates privacy-preserving age verification, leveraging zero-knowledge proof technologies. The proposal is open for public consultation until November 26, 2026, before proceeding through formal legislative negotiations in the European Parliament and the Council of the European Union.",
+      "The European Union's regulatory push validates a growing global consensus: relying purely on self-control against predatory algorithmic feeds is unsustainable. Limitra delivers this essential boundary architecture today: with Limitra App Block, you can enforce an unyielding daily 1-hour cap on distracting apps, while Limitra Social empowers you to pair with a peer accountability partner to defeat digital inertia."
+    ],
+    "source": "European Commission & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Government Policies & Laws",
+    "date": "2026-10-07",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "European Commission",
+      "EU KIDS Act",
+      "Social Media Ban",
+      "Infinite Scrolling",
+      "1-Hour Screen Limit",
+      "Safety by Design",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "pre-commitment-strategy-why-external-locks-beat-willpower",
     "title": "The Pre-Commitment Strategy: Why External Deadlines and Rigid Locks Beat Willpower",

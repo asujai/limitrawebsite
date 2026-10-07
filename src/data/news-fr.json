@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "commission-europeenne-kids-act-interdiction-moins-13-ans-limite-1-heure",
+    "title": "La Commission Européenne dévoile le 'EU KIDS Act' : Interdiction avant 13 ans et plafond d'une heure quotidienne",
+    "summary": "La Commission européenne a adopté la proposition législative 'EU KIDS Act' pour protéger les jeunes des designs addictifs. Le projet prévoit une interdiction sous 13 ans, des 'mini-comptes' parentaux plafonnés à 1 heure par jour entre 13 et 15 ans et la fin du défilement infini.",
+    "content": [
+      "La Commission européenne a adopté officiellement la proposition de règlement 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy), visant à harmoniser la protection des mineurs dans l'espace numérique au sein des 27 États membres. Ce texte encadre strictement les réseaux sociaux, plateformes de partage vidéo, jeux en ligne, magasins d'applications et agents conversationnels d'intelligence artificielle.",
+      "Le projet repose sur un système d'accès progressif : l'accès aux réseaux sociaux est rigoureusement interdit aux enfants de moins de 13 ans. Pour la tranche d'âge de 13 à 15 ans, les plateformes devront proposer des 'mini-comptes' sous contrôle parental, aux fonctionnalités restreintes et soumis à une limitation automatisée d'une heure d'écran par jour. Dès 15 ans, les jeunes pourront détenir un compte autonome, mais sous le régime strict de la sécurité dès la conception.",
+      "Le règlement frappe directement les ressorts neuro-ergonomiques favorisant la dépendance numérique. Le défilement infini (infinite scrolling), les notifications tardives incitatives, les mécanismes de séries (streaks) et les micro-transactions addictives seront proscrits pour les mineurs. De plus, la charge de la preuve est renversée : ce sont désormais les géants de la tech qui doivent apporter la preuve préalable de l'innocuité de leurs interfaces.",
+      "Afin de garantir cette vérification d'âge sans porter atteinte à la vie privée, le dispositif s'appuiera sur des technologies préservant la confidentialité telles que les preuves à divulgation nulle de connaissance (zero-knowledge proofs). La consultation publique est ouverte jusqu'au 26 novembre 2026 avant l'examen par le Parlement européen et le Conseil de l'UE.",
+      "Cette impulsion européenne démontre qu'une volonté individuelle désarmée ne peut rivaliser avec des flux prédateurs. Limitra concrétise cette discipline numérique au quotidien : Limitra App Block permet d'instaurer un plafond ferme d'une heure sur vos applications chronophages, tandis que Limitra Social vous associe à un allié de confiance pour reprendre durablement le contrôle de votre attention."
+    ],
+    "source": "Commission Européenne & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Politiques publiques et lois",
+    "date": "2026-10-07",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Commission Européenne",
+      "EU KIDS Act",
+      "Réseaux Sociaux",
+      "Défilement Infini",
+      "Temps d'Écran",
+      "Protection des Mineurs",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "strategie-pre-engagement-pourquoi-verrous-externes-battent-volonte-humaine",
     "title": "La stratégie du Pré-Engagement : Pourquoi les verrous externes surpassent la simple volonté",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "98",
+    "slug": "commissione-europea-proposta-kids-act-divieto-under-13-limite-1-ora",
+    "title": "La Commissione Europea presenta la proposta 'EU KIDS Act': Divieto sotto i 13 anni e tetto di 1 ora al giorno",
+    "summary": "La Commissione Europea ha adottato la proposta di legge 'EU KIDS Act' per tutelare i minori dalle dinamiche digitali persuasive. Previsti il divieto assoluto sotto i 13 anni, 'mini-account' genitoriali limitati a 1 ora quotidiana tra i 13 e i 15 anni e lo stop allo scorrimento infinito.",
+    "content": [
+      "La Commissione Europea ha formalizzato la proposta di regolamento denominata 'EU KIDS Act' (Keeping Internet Digital Spaces Accountable and Trustworthy), volta a unificare le tutele per l'infanzia e l'adolescenza nel contesto digitale dei 27 paesi dell'Unione. Il provvedimento copre in modo organico social network, servizi di condivisione video, giochi online, store digitali e sistemi di intelligenza artificiale conversazionale.",
+      "L'architettura normativa si fonda su un accesso progressivo scandito dall'età: i minori di 13 anni non potranno accedere ai social network. Per la fascia tra i 13 e i 15 anni, i servizi dovranno predisporre 'mini-account' collegati e supervisionati dai genitori, caratterizzati da funzioni essenziali e da un tetto orario non negoziabile di un'ora al giorno. A partire dai 15 anni sarà consentito l'account autonomo, pur mantenendo standard restrittivi di protezione dei dati e sicurezza per impostazione predefinita.",
+      "Sul fronte della 'sicurezza per progettazione' (safety by design), il testo dichiara guerra ai pattern che inducono dipendenza compulsiva. Vengono vietati per i minori lo scorrimento continuo e infinito (infinite scrolling), le notifiche push durante le ore notturne, le meccaniche premianti basate sulle serie consecutive ('streaks') e gli acquisti ingannevoli. La norma inverte inoltre l'onere della prova, obbligando le big tech a certificare l'innocuità dei propri algoritmi.",
+      "La verifica dell'età anagrafica dovrà avvenire nel rispetto scrupoloso della privacy attraverso tecnologie crittografiche a conoscenza zero (zero-knowledge proofs). La consultazione pubblica resterà aperta fino al 26 novembre 2026, preludio al dibattito legislativo presso il Parlamento Europeo e il Consiglio dell'UE.",
+      "La determinazione delle istituzioni europee dimostra che l'autodisciplina non basta per arginare architetture concepite per catturare l'attenzione. Limitra traduce questo principio in protezione pratica: Limitra App Block vi consente di impostare un blocco ferreo al superamento dell'ora quotidiana, mentre Limitra Social vi affianca a un amico fidato per condividere traguardi di autentico distacco digitale."
+    ],
+    "source": "Commissione Europea & Reuters",
+    "sourceUrl": "https://ec.europa.eu/commission/presscorner/",
+    "category": "Politiche governative e leggi",
+    "date": "2026-10-07",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Commissione Europea",
+      "EU KIDS Act",
+      "Social Network",
+      "Scorrimento Infinito",
+      "Tempo Schermo",
+      "Sicurezza Minori",
+      "Limitra"
+    ]
+  },
+  {
     "id": "97",
     "slug": "strategia-pre-impegno-perche-blocchi-esterni-battono-forza-volonta",
     "title": "La strategia del Pre-Impegno: Perché i blocchi esterni battono sempre la forza di volontà",

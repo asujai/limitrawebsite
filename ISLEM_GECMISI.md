@@ -1,5 +1,30 @@
 # İşlem Geçmişi
 
+## [2026-10-07 22:15] - Avrupa Komisyonu 'EU KIDS Act' Yasa Tasarısı 11 Dilde Yayında (ID 98)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-98.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (ID 98 TR eklendi, toplam 98 içerik)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dilde ID 98 eklendi: en, es, fr, de, pt, it, ar, id, fil, th)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs`, `public/sitemap.xml`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`, `SON_DURUM.md`
+* **Yapılan İşlem:**
+  1. **Doğrulanmış Günlük İçerik Araştırması (ID 98):** Avrupa Komisyonu tarafından kabul edilen ve kamuoyu istişaresi 26 Kasım 2026'ya kadar süren "EU KIDS Act" (Keeping Internet Digital Spaces Accountable and Trustworthy) yasa tasarısı detaylandırıldı. Tasarı; 13 yaş altına tam sosyal medya yasağı, 13-15 yaş arasına ebeveyn denetimli 'mini hesap' modeli ve günlük azami 1 saat kullanım tavanı getiriyor. 'Tasarım yoluyla güvenlik' (safety-by-design) ilkesiyle sonsuz kaydırma (infinite scrolling), gece bildirimleri, streak ödülleri ve oyun içi harcama tuzakları yasaklanıyor; ispat yükü teknoloji devlerine aktarılıyor.
+  2. **11 Dilde Senkronize İçerik:** TR, EN, ES, FR, DE, PT, IT, AR, ID, FIL ve TH dillerinde yerel terminolojiye ve SEO kurallarına uygun olarak özgün hazırlandı, kategorisi ('Devlet Düzenlemeleri & Yasalar') ve etiketleriyle tüm haber JSON dosyalarına eklendi.
+  3. **Sitemap & Derleme:** `scripts/generate-sitemap.mjs` bugünün tarihiyle (`2026-10-07`) güncellendi, `sitemap.xml` 1,508 URL ile yenilendi, Astro 1,510 statik sayfayı 0 hata ile derledi (`npm run check:links` OK).
+  4. **Yayın & Canlı Doğrulama:** Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `8376aed4-63e6-4849-8bd0-c801eb083515`, 989 dosya yüklendi), `npm run check:live` ile canlıda HTTP 200, fiyat şeması ve app-ads.txt eksiksiz doğrulandı.
+* **Doğrulama:**
+  - `npm run build` (1,510 sayfa, 0 hata)
+  - `npm run check:links` ("OK - kirik ic baglanti yok.")
+  - `npm run sitemap` (1,508 URL)
+  - `npm run deploy` (Cloudflare Workers Static Assets, Sürüm ID: `8376aed4-63e6-4849-8bd0-c801eb083515`)
+  - `npm run check:live` ("Canli site guncel.", ID 98 HTTP 200, fiyat şeması ve app-ads.txt doğrulandı)
+* **Bilinen Sorunlar:** Yok.
+* **Sonraki Öneri:** Yok (Definition of Done eksiksiz sağlandı).
+
+- **[2026-10-06 22:08]** Günlük Haber Otomasyonu: Atlandı (Bugünün haberi/içeriği zaten mevcut [ID 97, 2026-10-06]; günlük yayın kilidi tetiklendi). Canlı site doğrulandı (`npm run check:live` OK).
+
 ## [2026-10-06 14:55] - Haber 20 Klasöründeki 20 Yeni İçerik 11 Dilde Entegre Edildi (IDs 78-97)
 
 * **Model:** Antigravity
