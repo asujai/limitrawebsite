@@ -92,10 +92,10 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Avrupa Komisyonu 'EU KIDS Act' yasa tasarısı (ID 98) 11 dilde hazırlanıp entegre edildi ve canlıya alındı.
+- **İşlem:** Günlük haber otomasyonu sağlık denetimi yapıldı; sidecar ve talimat dosyalarındaki kalıntı VPS referansları Cloudflare ile senkronize edildi.
 - **Model:** Antigravity
 - **Sürüm / Deploy ID:** `8376aed4-63e6-4849-8bd0-c801eb083515` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run build` (1,510 sayfa / 0 hata), `npm run check:links` (OK), `npm run sitemap` (1,508 URL), `npm run deploy` (989 dosya yüklendi), `npm run check:live` ("Canli site guncel.").
+- **Doğrulama:** `npm run check:links` (OK), `npm run check:live` ("Canli site guncel.", ID 98 HTTP 200), Görev Zamanlayıcı (Sonuç 0).
 - **Sonraki adım:** Yok.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi

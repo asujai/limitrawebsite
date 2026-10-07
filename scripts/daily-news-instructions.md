@@ -5,7 +5,7 @@ Limitra web sitesinin haberler ve makaleler bölümünü günlük olarak güncel
 ## GÜNLÜK YAYIN KİLİDİ (KESİNLİKLE İLK ADIMDA KONTROL ET)
 İşleme başlamadan önce İLK OLARAK `src/data/haberler.json` dosyasını oku ve en üstteki (en son yayınlanan) haberin `date` değerini kontrol et.
 - Bugünün tarihi ile bu haberin tarihi aynıysa (yani bugün için zaten bir haber yayınlanmışsa):
-  KESİNLİKLE yeni bir haber/makale üretme, dosyaları değiştirme, build alma, commit atma ve VPS'e deploy yapma.
+  KESİNLİKLE yeni bir haber/makale üretme, dosyaları değiştirme, build alma, commit atma ve deploy yapma.
   "Bugünün haberi zaten mevcut olduğu için yeni içerik üretilmedi." diyerek görevi hemen başarıyla sonlandır. Haber yoksa veya atlandıysa bile bu oturumun sonucunu (üretildi / atlandı / hata) tek satırla `ISLEM_GECMISI.md`'ye yaz.
 - Yalnızca en son haberin tarihi bugünden daha eskiyse (yani bugün henüz haber yayınlanmamışsa) yeni içerik hazırlama sürecine devam et.
 
