@@ -6,13 +6,13 @@
     "summary": "Checking your phone for just a few seconds while working doesn't simply pause your focus—it impairs cognitive performance for minutes. Dr. Sophie Leroy's groundbreaking research on 'Attention Residue' and Cal Newport's Deep Work analysis.",
     "content": [
       "Many people believe that glancing at a phone notification or a quick message for just three to five seconds causes negligible cognitive harm. The subjective sensation of 'I just checked it for a second and immediately resumed my task' directly contradicts the fundamental architecture of human working memory. Decades of neuroscience and cognitive research confirm that human attention does not toggle like an instant light switch; rather, it functions like a heavy vessel that requires immense momentum and time to reorient.",
-      "In a landmark study published by organizational psychologist Dr. Sophie Leroy (University of Washington / University of Minnesota), researchers directly quantified the cognitive penalty incurred when switching between tasks. By evaluating participants across word-completion and analytical decision-making paradigms, Leroy scientifically verified the phenomenon known as 'Attention Residue.'",
+      "In a landmark study published by organizational psychologist Dr. Sophie Leroy, researchers investigated the cognitive consequences and performance costs of switching between work tasks. Across two experimental studies examining task transitions, Leroy demonstrated the phenomenon known as 'Attention Residue.'",
       "Dr. Leroy demonstrated that when an individual shifts from Task A (such as writing an analytical report or studying) to an unresolved Task B (such as a fleeting email or social alert), their attention does not cleanly transition. More critically, when they return to Task A, a significant portion of their attentional bandwidth remains stuck on Task B. This lingering residue drastically constricts working memory capacity, slows deductive reasoning, and elevates error rates during cognitively demanding endeavors.",
       "In his acclaimed book 'Deep Work', computer scientist Cal Newport highlights Leroy's experiment to diagnose the defining vulnerability of modern knowledge workers: the problem is not solely the total minutes lost to a screen, but the chronic fragmentation of focus. Checking a device fifty times a day for 'just a second' immerses the brain in a perpetual haze of attention residue, preventing it from ever operating at peak analytical depth.",
       "The scientific verdict from Leroy and Newport proves why relying on raw willpower during high-stakes work is a losing proposition. The only reliable countermeasure is introducing systematic structural boundaries that neutralize impulse checks before they occur. Limitra provides this defensive framework: Limitra App Block enforces absolute application lockdowns to eliminate the urge for a momentary peek, while Limitra Social leverages peer accountability to protect cognitive bandwidth and preserve uninterrupted focus."
     ],
-    "source": "Dr. Sophie Leroy (University of Washington) & Cal Newport (Deep Work)",
-    "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S074959780900038X",
+    "source": "Sophie Leroy (2009), Organizational Behavior and Human Decision Processes & Cal Newport (Deep Work)",
+    "sourceUrl": "https://doi.org/10.1016/j.obhdp.2009.04.002",
     "category": "Science & Health",
     "date": "2026-10-08",
     "readTime": "5 min",
@@ -646,7 +646,8 @@
       "Screen Time Control",
       "Atomic Habits",
       "Habit Change"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "75",
@@ -670,7 +671,8 @@
       "Screen Time Control",
       "Mental Peace",
       "Minimalist Living"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "74",
@@ -696,7 +698,8 @@
       "Cognitive Health",
       "Screen Time Control",
       "Neuroplasticity"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "73",
@@ -722,7 +725,8 @@
       "Micro-Rejection",
       "Eye Contact",
       "Social Connection"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "72",
@@ -746,7 +750,8 @@
       "FOMO",
       "Mental Health",
       "Clinical Psychology"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "71",
@@ -772,7 +777,8 @@
       "Mental Clarity",
       "Screen Time Control",
       "Neuroscience"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "70",
@@ -798,7 +804,8 @@
       "Working Memory",
       "Deep Focus",
       "Screen Time Control"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "69",
@@ -824,7 +831,8 @@
       "Adolescent Psychology",
       "Screen Time Control",
       "Healthy Boundaries"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "68",
@@ -849,7 +857,8 @@
       "Dopamine Traps",
       "Attention Span",
       "Screen Time Control"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "67",
@@ -875,7 +884,8 @@
       "Digital Habits",
       "Screen Time Control",
       "Mindfulness"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "66",
@@ -901,7 +911,8 @@
       "Flow State",
       "Productivity",
       "Screen Time Control"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "65",
@@ -924,7 +935,8 @@
       "Screen Time Control",
       "Impulse Control",
       "Behavioral Design"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "64",
@@ -950,7 +962,8 @@
       "Cortisol",
       "Screen Time Control",
       "Neurology"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "63",
@@ -976,7 +989,8 @@
       "Digital Hygiene",
       "Mental Clarity",
       "Sleep and Health"
-    ]
+    ],
+    "category": "Screen Time Control"
   },
   {
     "id": "62",
@@ -1495,7 +1509,7 @@
       "Digital screens emit high concentrations of short-wavelength blue light. Intrinsically photosensitive retinal ganglion cells in the human eye register this wavelength as direct daylight, prompting the suprachiasmatic nucleus—the master circadian clock in the hypothalamus—to halt melatonin synthesis.",
       "In the experimental setting, participants read on high-brightness tablets for four hours, and the sample size was relatively small. In daily life, the magnitude of the disruption depends on screen brightness, exposure duration, and individual biology. Moreover, sleep is disrupted not merely by photic stimulation, but by the psychological arousal and dopamine loops of infinite algorithmic video feeds.",
       "You climb into bed at 11:00 PM intending to scroll for just ten minutes. Before you know it, the clock reads 12:45 AM. When the alarm sounds the next morning, you feel exhausted and sluggish, as if you had barely slept at all despite spending eight hours in bed.",
-      "As sleep physicians routinely recommend, step away from screens at least 30 to 60 minutes before bedtime. Charge your phone outside the bedroom and rely on an analog alarm clock. Enable warm night modes and lower display brightness in the evening, recognizing that color shifting reduces but does not completely eliminate circadian suppression. Resisting algorithmic feeds with an exhausted late-night brain is a losing battle. With Limitra App Block's automated Night Lock (Curfew) feature, program your phone to shut down distracting apps automatically at 10:30 PM. Make the healthy choice during the day when your mind is clear, and let Limitra enforce it at night."
+      "As sleep physicians routinely recommend, step away from screens at least 30 to 60 minutes before bedtime. Charge your phone outside the bedroom and rely on an analog alarm clock. Enable warm night modes and lower display brightness in the evening, recognizing that color shifting reduces but does not completely eliminate circadian suppression. For those who find it hard to step away late at night, Limitra App Block allows you to block selected apps during a scheduled time window (such as 10:30 PM to 7:00 AM) to protect your sleep."
     ],
     "source": "Harvard Medical School / PNAS",
     "sourceUrl": "https://doi.org/10.1073/pnas.1418490112",

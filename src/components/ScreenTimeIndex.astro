@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { type SupportedLang } from '../data/translations';
 import { newsByLang } from '../data/routes';
+import { SCREEN_CATEGORY } from '../data/categories';
 import DualProductCTA from './DualProductCTA.astro';
 
 interface Props {
@@ -24,10 +25,10 @@ const copy: Record<string, {
 }> = {
   tr: {
     pageTitle: 'Ekran Süresi Kontrolü ve Dijital Disiplin Rehberleri | Limitra',
-    pageDesc: 'Instagram Reels döngüsünü kırmak, ders ve sınavlara odaklanmak, çocuklara kavgasız sınırlar koymak ve uykuyu geri kazanmak için kanıta dayalı 30 pratik rehber.',
-    badge: 'Ekran Süresi Kontrolü • 30 Uygulamalı Protokol',
+    pageDesc: 'Instagram Reels döngüsünü kırmak, ders ve sınavlara odaklanmak, çocuklara kavgasız sınırlar koymak ve uykuyu geri kazanmak için kanıta dayalı pratik rehberler.',
+    badge: 'Ekran Süresi Kontrolü • Uygulamalı Protokoller',
     title: 'Ekran Süresi Kontrolü: Bilimsel Protokoller ve Pratik Çözüm Kılavuzları',
-    subtitle: 'Arama motorlarında ve yapay zekâda en çok aratılan ekran süresi sorunlarına; nörobiyoloji, davranışsal iktisat ve bilişsel psikolojiye dayanan tavizsiz 30 çözüm kılavuzu.',
+    subtitle: 'Arama motorlarında ve yapay zekâda en çok aratılan ekran süresi sorunlarına; nörobiyoloji, davranışsal iktisat ve bilişsel psikolojiye dayanan çözüm kılavuzları.',
     allCategory: 'Tümü',
     readTimeSuffix: 'okuma',
     readGuide: 'Rehberi Oku',
@@ -36,8 +37,8 @@ const copy: Record<string, {
   },
   en: {
     pageTitle: 'Screen Time Control & Digital Discipline Guides | Limitra',
-    pageDesc: '30 actionable, evidence-based guides to break short video loops, achieve deep academic focus, establish calm parenting boundaries, and reclaim restorative sleep.',
-    badge: 'Screen Time Control • 30 Practical Protocols',
+    pageDesc: 'Actionable, evidence-based guides to break short video loops, achieve deep academic focus, establish calm parenting boundaries, and reclaim restorative sleep.',
+    badge: 'Screen Time Control • Practical Protocols',
     title: 'Screen Time Control: Evidence-Based Protocols and Practical Action Guides',
     subtitle: 'Comprehensive, science-backed solutions to the most frequent internet and AI queries on excessive screen time, digital fatigue, and habit design.',
     allCategory: 'All',
@@ -51,11 +52,8 @@ const copy: Record<string, {
 const c = copy[lang] || copy.en;
 const allArticles = newsByLang[lang] || newsByLang.en;
 
-// Filter specifically the 30 Screen Time Control guides (IDs 57-76 and 88-97)
-const guides = allArticles.filter(n => {
-  const idNum = parseInt(n.id, 10);
-  return (idNum >= 57 && idNum <= 76) || (idNum >= 88 && idNum <= 97);
-});
+// Filter specifically Screen Time Control guides by category
+const guides = allArticles.filter(n => n.category === SCREEN_CATEGORY[lang]);
 
 const homeUrl = lang === 'tr' ? '/' : `/${lang}`;
 const articleUrl = (slug: string) => lang === 'tr' ? `/ekran-suresi-kontrolu/${slug}` : `/${lang}/screen-time-control/${slug}`;

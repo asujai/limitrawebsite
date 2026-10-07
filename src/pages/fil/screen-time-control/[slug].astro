@@ -1,10 +1,11 @@
 ---
 import NewsArticle from '../../../components/NewsArticle.astro';
 import newsList from '../../../data/news-fil.json';
+import { SCREEN_CATEGORY } from '../../../data/categories';
 
 export function getStaticPaths() {
   return newsList
-    .filter((item) => (parseInt(item.id, 10) >= 57 && parseInt(item.id, 10) <= 76) || (parseInt(item.id, 10) >= 88 && parseInt(item.id, 10) <= 97))
+    .filter((item) => item.category === SCREEN_CATEGORY.fil)
     .map((item) => ({
       params: { slug: item.slug },
       props: { news: item }

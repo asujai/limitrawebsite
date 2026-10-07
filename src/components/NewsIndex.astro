@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { type SupportedLang } from '../data/translations';
 import { newsByLang } from '../data/routes';
+import { SCREEN_CATEGORY } from '../data/categories';
 import { newsUI } from '../data/news-ui';
 import DualProductCTA from './DualProductCTA.astro';
 
@@ -14,11 +15,8 @@ const ui = newsUI[lang] || newsUI.en;
 const rawNewsList = newsByLang[lang] || newsByLang.en;
 
 // Dünya Basını yalnızca küresel haberler, meclis kararları ve bilimsel araştırmaları içerir.
-// 'Ekran Süresi Kontrolü' uygulamalı rehberleri ayrı bir ana başlık altındadır (IDs 57-76 ve 88-97).
-const newsList = rawNewsList.filter(n => {
-  const idNum = parseInt(n.id, 10);
-  return (idNum < 57 || idNum > 76) && (idNum < 88 || idNum > 97);
-});
+// 'Ekran Süresi Kontrolü' uygulamalı rehberleri ayrı bir ana başlık altındadır.
+const newsList = rawNewsList.filter(n => n.category !== SCREEN_CATEGORY[lang]);
 
 const allCategory = ui.index.allCategory;
 const categories = [allCategory, ...Array.from(new Set(newsList.map(n => n.category)))];

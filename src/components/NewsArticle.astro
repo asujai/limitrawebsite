@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { type SupportedLang } from '../data/translations';
 import { newsByLang, type NewsArticleItem } from '../data/routes';
+import { SCREEN_CATEGORY } from '../data/categories';
 import { newsUI } from '../data/news-ui';
 import DualProductCTA from './DualProductCTA.astro';
 
@@ -14,7 +15,7 @@ const { news, lang = 'tr' } = Astro.props;
 const ui = newsUI[lang] || newsUI.en;
 const newsList = newsByLang[lang] || newsByLang.en;
 
-const isScreenTimeControl = parseInt(news.id, 10) >= 57 && parseInt(news.id, 10) <= 76;
+const isScreenTimeControl = news.category === SCREEN_CATEGORY[lang];
 const screenTimeIndexUrl = lang === 'tr' ? '/ekran-suresi-kontrolu' : `/${lang}/screen-time-control`;
 const newsIndexUrl = lang === 'tr' ? '/haberler' : `/${lang}/news`;
 const backUrl = isScreenTimeControl ? screenTimeIndexUrl : newsIndexUrl;
@@ -28,8 +29,8 @@ const relatedTitle = isScreenTimeControl
   : ui.article.relatedTitle;
 
 const relatedNews = isScreenTimeControl
-  ? newsList.filter((h) => h.id !== news.id && parseInt(h.id, 10) >= 57 && parseInt(h.id, 10) <= 76).slice(0, 3)
-  : newsList.filter((h) => h.id !== news.id && (parseInt(h.id, 10) < 57 || parseInt(h.id, 10) > 76)).slice(0, 3);
+  ? newsList.filter((h) => h.id !== news.id && h.category === SCREEN_CATEGORY[lang]).slice(0, 3)
+  : newsList.filter((h) => h.id !== news.id && h.category !== SCREEN_CATEGORY[lang]).slice(0, 3);
 
 const articleUrl = (slug: string) => lang === 'tr' ? `/haberler/${slug}` : `/${lang}/news/${slug}`;
 ---
