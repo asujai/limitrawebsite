@@ -8,6 +8,13 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-08)
+- **Limitra Günlük Makale ve Rehber Otomasyonu Kuruldu & ID 99 11 Dilde Yayında (Antigravity, 8 Ekim):**
+  - İkinci otonom yayın hattı olan `Limitra Günlük Makale ve Rehber` oluşturuldu (her gün saat 12:00 Europe/Istanbul, `~/.gemini/config/sidecars/limitra-gunluk-makale/sidecar.json` ve `scripts/daily-article-instructions.md`).
+  - Doğrulanmış bilimsel araştırmalar ve saygın kitap analizleri odağında Dr. Sophie Leroy'un 'Dikkat Kalıntısı' (Attention Residue - 2009) deneyi ve Cal Newport'un *Deep Work* analizi 11 dilde eşzamanlı olarak üretildi (ID 99).
+  - 1,521 statik sayfa 0 hata ile derlendi, sitemap güncellendi.
+  - Cloudflare Workers static assets'e yüklendi (Sürüm ID: `d96bc684-9acd-4be4-880c-fb6d6f419205`) ve canlıda doğrulandı (`npm run check:live` OK, ID 99 HTTP 200).
+
 ## Güncel Durum (2026-10-07)
 - **Avrupa Komisyonu 'EU KIDS Act' Yasa Tasarısı 11 Dilde Yayında (Antigravity, 7 Ekim):**
   - Avrupa Komisyonu tarafından resmen kabul edilen "EU KIDS Act" (Keeping Internet Digital Spaces Accountable and Trustworthy) yasa tasarısı detaylandırıldı. Tasarı; 13 yaş altına tam sosyal medya yasağı, 13-15 yaş arasına ebeveyn gözetimli 'mini hesap' ve günlük azami 1 saat süre tavanı getiriyor. 'Tasarım yoluyla güvenlik' (safety-by-design) ilkesiyle sonsuz kaydırma (infinite scrolling), gece bildirimleri, streak ödülleri ve harcama tuzakları yasaklanıyor; ispat yükü teknoloji devlerine aktarılıyor.
@@ -92,11 +99,11 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Günlük haber otomasyonu sağlık denetimi yapıldı; sidecar ve talimat dosyalarındaki kalıntı VPS referansları Cloudflare ile senkronize edildi.
+- **İşlem:** Limitra Günlük Makale ve Rehber otomasyonu kuruldu; test çalıştırmasında ID 99 makalesi (Dikkat Kalıntısı & Deep Work) 11 dilde üretilip Cloudflare'e canlı yayınlandı ve izinler yapılandırıldı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `8376aed4-63e6-4849-8bd0-c801eb083515` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run check:links` (OK), `npm run check:live` ("Canli site guncel.", ID 98 HTTP 200), Görev Zamanlayıcı (Sonuç 0).
-- **Sonraki adım:** Yok.
+- **Sürüm / Deploy ID:** `d96bc684-9acd-4be4-880c-fb6d6f419205` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run check:links` (OK), `npm run check:live` ("Canli site guncel.", ID 99 HTTP 200).
+- **Sonraki adım:** Kullanıcının Automations Dashboard üzerinden `Limitra Günlük Makale ve Rehber` otomasyonunu etkinleştirmesi.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.

@@ -1,5 +1,32 @@
 # İşlem Geçmişi
 
+## [2026-10-08 01:00] - Limitra Günlük Makale/Rehber Otomasyonu Kurulumu ve Dikkat Kalıntısı Makalesi (ID 99)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `~/.gemini/config/sidecars/limitra-gunluk-makale/sidecar.json`
+  - `[YENİ]` `scripts/daily-article-instructions.md`
+  - `[YENİ]` `scripts/add-article-99.mjs`
+  - `[GÜNCELLENDİ]` `scripts/daily-news-instructions.md` (Günlük kilit kapsamı ayrıştırıldı)
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (ID 99 TR eklendi, toplam 99 içerik)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dilde ID 99 eklendi: en, es, fr, de, pt, it, ar, id, fil, th)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml`
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`, `SON_DURUM.md`
+* **Yapılan İşlem:**
+  1. **İkinci Otomasyon Mimarisi Kuruldu:** Kullanıcının talebi doğrultusunda güncel haberler dışındaki kanıtlanmış bilimsel araştırmalar, kitap analizleri, felsefi ve davranışsal çözüm protokollerini günlük olarak işleyecek `Limitra Günlük Makale ve Rehber` (`limitra-gunluk-makale`) otomasyonu oluşturuldu. Çalışma zamanı her gün öğlen saat 12:00 (`CRON_TZ=Europe/Istanbul 0 12 * * *`) olarak belirlendi.
+  2. **Yönerge ve Kilit Güvenliği:** `scripts/daily-article-instructions.md` yönergesi oluşturuldu. Uydurma/kurgusal içerik yasağı, 11 dil standardı, Limitra entegrasyonu ve 7 adımlı otonom yayın akışı tanımlandı. Mevcut 22:00 haber otomasyonuyla çakışmaması için `daily-news-instructions.md` dosyasındaki günlük kilit mantığı kategori bazlı olarak netleştirildi.
+  3. **Test Çalıştırması ve Doğrulanmış İçerik (ID 99):** Otomasyon izinlerinin doğrulanması için ilk test yayını olarak Dr. Sophie Leroy'un klasikleşen 'Dikkat Kalıntısı' (Attention Residue - 2009) deneyi ve Cal Newport'un *Deep Work* kitabındaki analizi temel alınarak hazırlanan derinlemesine bilimsel makale 11 dilde eşzamanlı olarak üretildi ve yayına alındı.
+  4. **Derleme, Test ve Canlı Yayın:** 1,521 statik sayfa 0 hata ile derlendi, sitemap güncellendi, Cloudflare Workers'a deploy edildi (Sürüm ID: `d96bc684-9acd-4be4-880c-fb6d6f419205`) ve canlı ortamda `check:live` (HTTP 200) ile doğrulandı.
+  5. **İzin Yapılandırması:** `sidecar.json` test çalıştırmasında doğrulanan yetkiler (`command(node)`, `command(npm run build)`, `command(npm run check:links)`, `command(npm run sitemap)`, `command(git)`, `command(npm run deploy)`, `command(npm run check:live)`, çalışma alanı URI'si) ile güncellendi.
+* **Doğrulama:**
+  - `npm run build` (1,521 sayfa, 0 hata)
+  - `npm run check:links` ("OK - kirik ic baglanti yok.")
+  - `npm run sitemap` (Başarılı)
+  - `npm run deploy` (Cloudflare Workers Static Assets, Sürüm ID: `d96bc684-9acd-4be4-880c-fb6d6f419205`)
+  - `npm run check:live` ("Canli site guncel.", ID 99 HTTP 200)
+* **Bilinen Sorunlar:** Yok.
+* **Sonraki Öneri:** Kullanıcının Automations Dashboard üzerinden `Limitra Günlük Makale ve Rehber` otomasyonunu etkinleştirmesi.
+
 ## [2026-10-07 23:10] - Günlük Haber Otomasyonu Sağlık Denetimi ve Sidecar Yapılandırma Senkronizasyonu
 
 * **Model:** Antigravity
