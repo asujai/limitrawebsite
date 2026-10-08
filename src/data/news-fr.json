@@ -1,5 +1,32 @@
 [
   {
+    "id": "100",
+    "slug": "senat-philippines-adopte-smart-kids-act-interdiction-reseaux-sociaux-moins-18-ans",
+    "title": "Le Sénat des Philippines adopte le SMART KIDS Act : Restriction des réseaux sociaux pour les moins de 18 ans",
+    "summary": "Le Sénat des Philippines a adopté en troisième lecture le projet de loi SB 2424 (SMART KIDS Act) par 16 voix contre 1, interdisant aux mineurs de moins de 18 ans d'ouvrir ou d'utiliser un compte sur les réseaux sociaux à haut risque.",
+    "content": [
+      "Le Sénat des Philippines a adopté en troisième et dernière lecture, par 16 voix contre 1, le projet de loi sénatorial n° 2424 intitulé SMART KIDS Act (Safe Media Access and Responsible Technology for Kids in Digital Spaces Act). Ce texte majeur vise à prémunir les jeunes contre l'exploitation en ligne, les contenus violents et les mécanismes de dépendance numérique en interdisant aux moins de 18 ans la création ou l'accès à des comptes sur des plateformes numériques qualifiées de services à haut risque.",
+      "Porté par le sénateur Robinhood Padilla, le projet cible principalement les réseaux sociaux grand public et les applications de vidéos courtes régies par des flux algorithmiques. Afin de ne pas entraver les besoins de communication essentiels et l'apprentissage, la loi prévoit des exemptions claires pour la messagerie instantanée privée directe sans diffusion publique, les services de courrier électronique, les plateformes scolaires et éducatives ainsi que les jeux en ligne sans fonctionnalités de réseautage social.",
+      "Le dispositif impose aux plateformes numériques d'intégrer des mécanismes stricts de vérification de l'âge reposant sur des pièces d'identité officielles. Soucieux de préserver la vie privée des utilisateurs, le législateur interdit expressément aux entreprises de conserver une copie des documents une fois le contrôle effectué. Les plateformes en infraction s'exposent à des amendes administratives allant de 5 à 20 millions de pesos philippins par infraction, tandis que les parents facilitant délibérément le contournement des règles pourront être astreints à des travaux d'intérêt général et à des formations parentales au numérique.",
+      "Seule opposante au texte, la sénatrice Risa Hontiveros a fait valoir qu'une interdiction indifférenciée jusqu'à 18 ans ne tient pas compte du développement de l'autonomie chez les adolescents et risque de limiter leur accès légitime à l'information. Le texte va désormais faire l'objet d'une commission mixte avec la Chambre des représentants avant d'être transmis au président Ferdinand Marcos Jr. pour signature.",
+      "Face aux initiatives législatives des États, de nombreux usagers privilégient des repères concrets pour organiser leur quotidien numérique. Limitra App Block permet de fixer des limites de temps quotidiennes indépendantes sur les applications sélectionnées afin d'aider à garder le contrôle sur le temps d'écran."
+    ],
+    "source": "Sénat des Philippines (Senate of the Philippines) & ABS-CBN News",
+    "sourceUrl": "https://legacy.senate.gov.ph",
+    "category": "Politiques publiques et lois",
+    "date": "2026-10-08",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Sénat des Philippines",
+      "SMART KIDS Act",
+      "Régulation des réseaux sociaux",
+      "Moins de 18 ans",
+      "Vérification de l'âge",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "99",
     "slug": "residu-attentionnel-cout-coup-doeil-telephone-cal-newport-sophie-leroy",
     "title": "Le coût caché d'un coup d'œil furtif au téléphone : L'expérience du « résidu attentionnel » de Sophie Leroy et Cal Newport",

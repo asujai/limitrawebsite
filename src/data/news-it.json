@@ -1,5 +1,32 @@
 [
   {
+    "id": "100",
+    "slug": "senato-filippine-approva-smart-kids-act-divieto-social-media-under-18",
+    "title": "Il Senato delle Filippine approva lo SMART KIDS Act: Stop ai social media per i minori di 18 anni",
+    "summary": "Il Senato delle Filippine ha approvato in terza lettura il disegno di legge SB 2424 (SMART KIDS Act) con 16 voti favorevoli e 1 contrario, vietando ai minori di 18 anni l'apertura e l'uso di account sui social ad alto rischio.",
+    "content": [
+      "Il Senato delle Filippine ha approvato in terza e ultima lettura il disegno di legge n. 2424, noto come SMART KIDS Act (Safe Media Access and Responsible Technology for Kids in Digital Spaces Act), con una maggioranza di 16 voti favorevoli e 1 contrario. Il provvedimento istituisce rigide tutele per salvaguardare bambini e adolescenti da abusi online, contenuti dannosi e dinamiche algoritmiche persuasive, vietando ai minori di 18 anni la creazione e il mantenimento di account sulle piattaforme digitali classificate ad alto rischio.",
+      "Promosso dal senatore Robinhood Padilla, il testo riguarda specificamente i social network e le piattaforme di video brevi governate da feed algoritmici. Al fine di preservare le necessità didattiche e di comunicazione essenziale, la normativa esclude espressamente i servizi di messaggistica privata diretta privi di canali pubblici, le caselle e-mail, i portali educativi riconosciuti, i siti di informazione e i videogiochi privi di componenti di rete sociale.",
+      "La legge impone ai fornitori digitali di implementare rigorosi sistemi di verifica dell'età basati su documenti di identità ufficiali. Per tutelare la riservatezza degli utenti, le piattaforme non possono conservare copie dei documenti una volta conclusa la procedura. Le aziende inadempienti rischiano sanzioni amministrative da 5 a 20 milioni di pesos filippini per violazione, mentre i genitori che agevolano intenzionalmente l'elusione del blocco possono incorrere in multe e percorsi formativi di genitorialità digitale.",
+      "La senatrice Risa Hontiveros ha espresso l'unico voto contrario, evidenziando che un divieto totale fino ai 18 anni non tiene conto della graduale autonomia dei giovani e rischia di limitare l'accesso a fonti formative legittime. Il testo passerà ora al vaglio di una commissione bicamerale con la Camera dei Rappresentanti prima della firma finale del presidente Ferdinand Marcos Jr.",
+      "Parallelamente all'introduzione di tutele legislative, molti utenti e famiglie scelgono di adottare regole pratiche e dirette sui propri dispositivi. Limitra App Block consente di configurare limiti giornalieri indipendenti per specifiche applicazioni, aiutando a monitorare e gestire in modo equilibrato il tempo trascorso sullo schermo."
+    ],
+    "source": "Senato delle Filippine (Senate of the Philippines) & ABS-CBN News",
+    "sourceUrl": "https://legacy.senate.gov.ph",
+    "category": "Politiche governative e leggi",
+    "date": "2026-10-08",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Senato delle Filippine",
+      "SMART KIDS Act",
+      "Regolamentazione social media",
+      "Minori di 18 anni",
+      "Verifica dell'età",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "99",
     "slug": "residuo-di-attenzione-costo-occhiata-telefono-cal-newport-sophie-leroy",
     "title": "Il costo nascosto di una rapida occhiata allo smartphone: L'esperimento sul 'Residuo di Attenzione' di Sophie Leroy e Cal Newport",

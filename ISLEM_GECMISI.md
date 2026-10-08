@@ -1,5 +1,7 @@
 # İşlem Geçmişi
 
+- **[2026-10-08 12:01]** Günlük Makale ve Rehber Otomasyonu: Atlandı (Bugünün makalesi zaten mevcut [ID 99, 2026-10-08, 'Bilim & Sağlık']; günlük yayın kilidi tetiklendi). Canlı site doğrulandı (`npm run check:live` OK).
+
 ## [2026-10-08 02:00] - Tanıtım Dili, Doğrulanmış Özellik Envanteri ve Çok Dilli İçerik Revizyonu
 
 * **Model:** Antigravity

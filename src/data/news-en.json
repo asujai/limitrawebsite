@@ -1,5 +1,32 @@
 [
   {
+    "id": "100",
+    "slug": "philippines-senate-approves-smart-kids-act-social-media-ban-under-18",
+    "title": "Philippines Senate Passes SMART KIDS Act: Landmark Bill Restricts Social Media Under 18",
+    "summary": "The Philippine Senate has approved Senate Bill No. 2424 (SMART KIDS Act) on third and final reading in a 16–1 vote, prohibiting minors under 18 from creating or accessing accounts on high-risk social media platforms.",
+    "content": [
+      "The Senate of the Philippines has approved Senate Bill No. 2424, titled the Safe Media Access and Responsible Technology for Kids in Digital Spaces (SMART KIDS) Act, on its third and final reading with a decisive 16–1 vote. The landmark measure establishes stringent safeguards to protect minors from digital harms, predatory exploitation, and compulsive online behaviors by prohibiting individuals under the age of 18 from creating or maintaining accounts on platforms designated as high-risk digital services.",
+      "Sponsored by Senator Robinhood Padilla, the legislation focuses specifically on social networks, algorithmic short-video services, and social platforms driven by user-generated public content. To safeguard educational and functional digital needs, the bill explicitly exempts one-on-one direct messaging services, email providers, accredited learning portals, news media websites, and online games that do not feature public social networking components.",
+      "Under the provisions of the bill, digital platform operators are legally obligated to establish robust age-assurance mechanisms, requiring official government identification or verified digital credentials to confirm user age. To protect citizen privacy, platforms are strictly prohibited from retaining copies of submitted identification documents once verification is complete. Non-compliant service providers face substantial administrative penalties ranging from ₱5 million to ₱20 million per violation, while parents or guardians who knowingly assist minors in bypassing the age safeguards may face fines, mandatory community service, and compulsory attendance in digital parenting programs.",
+      "Senator Risa Hontiveros cast the lone dissenting vote, contending that an absolute prohibition across all minors under 18 is overly restrictive and fails to account for the evolving maturity and educational agency of older adolescents. The bill will now proceed to a bicameral conference committee to resolve differences with parallel measures from the House of Representatives before being submitted to President Ferdinand Marcos Jr. for final enactment.",
+      "As governments pursue broader statutory frameworks, individuals and families seeking clearer boundaries often adopt focused personal tools. Limitra App Block provides independent daily time limits on selected applications to help manage screen time and reduce unintended digital distraction."
+    ],
+    "source": "Senate of the Philippines & ABS-CBN News",
+    "sourceUrl": "https://legacy.senate.gov.ph",
+    "category": "Government Policies & Laws",
+    "date": "2026-10-08",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Philippines Senate",
+      "SMART KIDS Act",
+      "Social Media Regulation",
+      "Under 18 Restriction",
+      "Age Verification",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "99",
     "slug": "attention-residue-cost-of-brief-checks-cal-newport-sophie-leroy",
     "title": "The Hidden Cost of a Brief Glance: Sophie Leroy's 'Attention Residue' Experiment and Cal Newport",
