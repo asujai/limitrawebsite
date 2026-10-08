@@ -9,6 +9,13 @@
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 ## Güncel Durum (2026-10-08)
+- **Filipinler Senatosu SMART KIDS Act Yasa Tasarısı 11 Dilde Yayında (Antigravity, 8 Ekim Akşamı):**
+  - Filipinler Senatosu'nun 8 Ekim 2026'da 16-1 oyla kabul ettiği 2424 sayılı SMART KIDS Act (Safe Media Access and Responsible Technology for Kids in Digital Spaces Act) yasa tasarısı detaylandırıldı. Tasarı; 18 yaşın altındaki bireylere yüksek riskli sosyal medya platformlarında hesap açma yasağı, devlet kimlikleriyle yaş doğrulama zorunluluğu (kimlik kopyalarını saklama yasağıyla), platformlara ihlal başına ₱5M–₱20M idari para cezaları ve kasten delmeye yardım eden velilere yaptırımlar getiriyor.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (ID 100).
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve uygulama başına süre limiti özelliği anıldı.
+  - 1,532 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (`npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yüklendi (Sürüm ID: `af35e19b-6015-458c-83c3-138b3438208b`) ve canlıda doğrulandı (`npm run check:live` OK, ID 100 HTTP 200).
+
 - **Tanıtım Dili, Doğrulanmış Özellik Envanteri ve Çok Dilli İçerik Revizyonu (Antigravity, 8 Ekim):**
   - Android kod tabanları (`gardiyan2` ve `limitrasocial`) taranarak doğrulanmış özellikler ve yasaklar envanteri `scripts/limitra-ozellikler.md` olarak çıkarıldı.
   - 30 rehberin kategori haritası 11 dilde `src/data/categories.ts` üzerinden dinamik hale getirildi; ID filtreleri temizlendi (0 URL diff).

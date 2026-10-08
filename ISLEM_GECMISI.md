@@ -1,5 +1,33 @@
 # İşlem Geçmişi
 
+## [2026-10-08 22:20] - Filipinler Senatosu SMART KIDS Act Yasa Tasarısı 11 Dilde Yayında (ID 100)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-100.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-08 yapıldı)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-08 için haber kategorisinde içerik olmadığı teyit edildi).
+  - Filipinler Senatosu'nun 8 Ekim 2026 tarihinde 3. ve nihai okumada 16-1 oyla kabul ettiği 2424 sayılı Senato Tasarısı (SMART KIDS Act - Safe Media Access and Responsible Technology for Kids in Digital Spaces) araştırıldı ve doğrulandı.
+  - Tasarının 18 yaş altına yüksek riskli sosyal medya platformlarını yasaklayan düzenlemesi, yaş doğrulama ve veri gizliliği kuralları, idari para cezaları ile istisnaları (1-1 özel mesajlaşma, eğitim, e-posta) detaylandırıldı.
+  - Limitra'ya atıf kurallarına tam uyularak son paragrafta sakin bir dille yalnız Limitra App Block ve uygulama başına günlük kullanım süresi limiti özelliği anıldı; yasak kelimeler ve abartılı ifadeler kullanılmadı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eksiksiz ve bağımsız yerel gövde metinleriyle üretildi.
+  - 1,532 statik sayfa 0 hata ile derlendi, sitemap 11 dildeki yeni slug'larla güncellendi.
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `af35e19b-6015-458c-83c3-138b3438208b`) ve canlıda doğrulandı (`npm run check:live` OK, HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,532 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run deploy` (Current Version ID: `af35e19b-6015-458c-83c3-138b3438208b`)
+  - `npm run check:live` (Canli site guncel. - ID 100 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 - **[2026-10-08 12:01]** Günlük Makale ve Rehber Otomasyonu: Atlandı (Bugünün makalesi zaten mevcut [ID 99, 2026-10-08, 'Bilim & Sağlık']; günlük yayın kilidi tetiklendi). Canlı site doğrulandı (`npm run check:live` OK).
 
 ## [2026-10-08 02:00] - Tanıtım Dili, Doğrulanmış Özellik Envanteri ve Çok Dilli İçerik Revizyonu
