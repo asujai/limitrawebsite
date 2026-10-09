@@ -1,5 +1,33 @@
 [
   {
+    "id": "101",
+    "slug": "italya-ipinagbawal-ang-cellphone-sa-paaralan-pati-sa-pag-aaral",
+    "title": "Ipinagbawal ng Italya ang mga Cellphone sa Paaralan: Hindi Na Pwede sa Klase Kahit para sa Pag-aaral",
+    "summary": "Pinalawak ng Kagawaran ng Edukasyon ng Italya ang pagbabawal sa mga smartphone hanggang sa senior high school habang may klase. Tinanggal sa bagong direktiba ang mga pedagogical exemption at ibinabalik ang paggamit ng paper diary at sulat-kamay.",
+    "content": [
+      "Ipinatupad ng Kagawaran ng Edukasyon at Merit ng Italya (Ministero dell'Istruzione e del Merito) ang mahigpit na mga limitasyon sa paggamit ng mobile phone sa mga paaralan upang protektahan ang cognitive development, konsentrasyon, at personal na pakikipagkapwa ng mga mag-aaral. Sa pamamagitan ng opisyal na kautusan mula kay Education Minister Giuseppe Valditara, ang pagbabawal sa mga smartphone, smartwatch, at wireless earphone tuwing oras ng klase ay sumasaklaw na ngayon sa elementarya, junior high, at senior high school sa buong bansa.",
+      "Ang pinakatampok na bahagi ng patakaran ay ang pagtatanggal sa mga dating pedagogical exemption. Ayon sa direktiba, hindi na maaaring gamitin ang personal na cellphone sa silid-aralan kahit pa para sa layuning pang-edukasyon o didaktiko sa pahintulot ng guro. Nilinaw ng kagawaran na kung kailangan ng mga digital na kagamitan sa pag-aaral, dapat gumamit ng mga nakalaang tablet o computer ng paaralan sa ilalim ng direktang gabay ng guro. Ang tanging pinapayagan ay ang mga mag-aaral na may kapansanan o specific learning disabilities na nangangailangan ng assistive technology.",
+      "Nakabatay ang desisyon sa mga pananaliksik mula sa OECD, World Health Organization, at National Institute of Health ng Italya (Istituto Superiore di Sanità) na nagpapatunay na ang presensya pa lamang ng smartphone sa klase ay nagpapahina sa working memory, sumisira sa focus, at nagdudulot ng pagkabalisa sa kabataan. Binigyang-diin ni Minister Valditara ang kahalagahan ng tradisyonal na pamamaraan ng pag-aaral at inirekomenda ang pagbabalik ng paper diary (diario cartaceo) upang mapanatili ang kasanayan sa pagsusulat gamit ang kamay.",
+      "Ang hakbang ng Italya ay bahagi ng lumalaking pandaigdigang kilusan na binigyang-diin sa Global Education Monitoring report ng UNESCO, kung saan 114 na bansa na ang nagpapatupad ng pambansang regulasyon laban sa cellphone sa mga paaralan. Naglalagay ngayon ang mga paaralan sa Italya ng mga locker at lalagyan sa silid-aralan upang manatiling nakatago ang mga aparato, na nagbabalik sa masiglang kwentuhan at laro sa oras ng recess.",
+      "Para sa mga nais maglagay ng malinaw na hangganan laban sa mga nakakadistrang abiso sa oras ng klase o pag-aaral, nagbibigay ang Limitra App Block ng pagharang ayon sa takdang oras sa mga napiling application upang mapanatili ang matalas na pokus."
+    ],
+    "source": "Kagawaran ng Edukasyon at Merit ng Italya & ANSA",
+    "sourceUrl": "https://www.miur.gov.it",
+    "category": "Mga Paaralan at Kabataan",
+    "date": "2026-10-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Italya",
+      "Kagawaran ng Edukasyon",
+      "Giuseppe Valditara",
+      "Bawal ang Cellphone sa Paaralan",
+      "Konsentrasyon sa Klase",
+      "Digital Discipline",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "100",
     "slug": "senado-ng-pilipinas-ipinasa-ang-smart-kids-act-bawal-social-media-wala-pang-18",
     "title": "Ipinasa ng Senado ng Pilipinas ang SMART KIDS Act: Pagbabawal sa Social Media sa Edad 18 Pababa",

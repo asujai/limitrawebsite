@@ -1,5 +1,33 @@
 [
   {
+    "id": "101",
+    "slug": "italy-bans-smartphones-in-schools-including-educational-use",
+    "title": "Italy Enacts Strict School Smartphone Ban: Devices Barred from Classrooms Even for Educational Use",
+    "summary": "The Italian Ministry of Education and Merit has expanded its smartphone ban to high schools during instruction hours. The ministerial directive removes exceptions for didactic use, promoting a return to paper diaries and focused classroom learning.",
+    "content": [
+      "The Italian Ministry of Education and Merit (Ministero dell'Istruzione e del Merito) has implemented comprehensive restrictions on mobile phone usage across all schools to protect students' cognitive development, attention span, and in-person social interaction. Following ministerial directives issued by Minister Giuseppe Valditara, the prohibition on smartphones, smartwatches, and wireless earbuds during instructional hours now covers primary, middle, and upper secondary schools nationwide.",
+      "The most significant aspect of the policy is the removal of previous pedagogical exceptions. Under the directive, personal mobile phones cannot be used in classrooms even for didactic or educational purposes with teacher permission. The ministry specifies that when digital tools are necessary for curriculum activities, schools must use dedicated tablets or computers under direct teacher supervision. Exemptions remain strictly limited to students with disabilities or specific learning disorders (DSA) who rely on assistive technologies.",
+      "The directive cites scientific findings from the OECD, the World Health Organization, and the Italian National Institute of Health (Istituto Superiore di Sanità), which indicate that the mere presence of smartphones during class diminishes working memory, shortens attention spans, and exacerbates digital dependency. Minister Valditara emphasized the enduring value of traditional learning practices, recommending the revival of physical paper diaries (diario cartaceo) to help students strengthen handwriting habits and organizational memory.",
+      "Italy's policy aligns with a growing international trend highlighted in UNESCO's Global Education Monitoring reports, which document that 114 countries worldwide now enforce national restrictions on smartphones in educational environments. Italian schools are implementing designated storage lockers and classroom deposit boxes, aiming to encourage face-to-face peer conversations and active play during recess and passing periods.",
+      "For individuals seeking to establish clear boundaries against distracting notifications during school or study hours, Limitra App Block provides scheduled time-window restrictions on selected applications to help sustain deep focus."
+    ],
+    "source": "Italian Ministry of Education and Merit & ANSA",
+    "sourceUrl": "https://www.miur.gov.it",
+    "category": "Schools & Youth",
+    "date": "2026-10-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Italy",
+      "Ministry of Education",
+      "Giuseppe Valditara",
+      "School Phone Ban",
+      "Classroom Distraction",
+      "Digital Wellbeing",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "100",
     "slug": "philippines-senate-approves-smart-kids-act-social-media-ban-under-18",
     "title": "Philippines Senate Passes SMART KIDS Act: Landmark Bill Restricts Social Media Under 18",

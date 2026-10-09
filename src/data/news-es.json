@@ -1,5 +1,33 @@
 [
   {
+    "id": "101",
+    "slug": "italia-prohibe-telefonos-moviles-escuelas-incluido-uso-educativo",
+    "title": "Italia prohíbe los teléfonos móviles en las escuelas: Se restringen las pantallas incluso para uso educativo",
+    "summary": "El Ministerio de Educación de Italia amplió la prohibición de teléfonos inteligentes a las escuelas secundarias durante el horario lectivo. La directiva elimina las excepciones para fines didácticos e impulsa el regreso a los diarios escolares en papel.",
+    "content": [
+      "El Ministerio de Educación y del Mérito de Italia (Ministero dell'Istruzione e del Merito) ha establecido restricciones exhaustivas sobre el uso de teléfonos móviles en los centros educativos con el fin de proteger el desarrollo cognitivo, la capacidad de concentración y la interacción personal de los alumnos. De acuerdo con las directivas oficiales impulsadas por el ministro Giuseppe Valditara, la prohibición de teléfonos inteligentes, relojes inteligentes y auriculares inalámbricos durante las horas de clase abarca la educación primaria, secundaria obligatoria y bachillerato en todo el país.",
+      "El aspecto más relevante de la nueva normativa radica en la supresión de las anteriores excepciones pedagógicas. Según las instrucciones ministeriales, los teléfonos personales no pueden emplearse en el aula ni siquiera con fines didácticos o educativos autorizados por el docente. El ministerio establece que, cuando sea imprescindible utilizar herramientas digitales en el aprendizaje, se recurra a tabletas u ordenadores escolares bajo la supervisión directa del profesor. La única excepción se reserva para estudiantes con necesidades educativas especiales o trastornos específicos del aprendizaje que requieran dispositivos de apoyo.",
+      "La medida se fundamenta en evidencias científicas de la OCDE, la Organización Mundial de la Salud y el Instituto Superior de Sanidad de Italia, que señalan que la presencia del teléfono en clase reduce la memoria de trabajo, fragmenta la atención y acentúa el aislamiento en los adolescentes. El ministro Valditara defendió la vigencia de los métodos tradicionales de aprendizaje y recomendó el regreso al diario escolar en papel (diario cartaceo) para fortalecer la escritura a mano y la memoria organizativa.",
+      "La iniciativa italiana refleja una corriente global destacada por el informe de seguimiento de la educación de la UNESCO, según el cual 114 países han adoptado políticas nacionales que limitan los teléfonos en las escuelas. Los centros educativos italianos están implementando taquillas de custodia y cajas en las aulas para asegurar que los dispositivos permanezcan guardados, fomentando la conversación directa y la actividad física durante los recreos.",
+      "Para quienes desean mantener una distancia clara frente a las distracciones digitales durante las horas lectivas o de estudio, Limitra App Block permite configurar bloqueos por franja horaria en aplicaciones seleccionadas, ayudando a preservar la concentración."
+    ],
+    "source": "Ministerio de Educación y del Mérito de Italia & ANSA",
+    "sourceUrl": "https://www.miur.gov.it",
+    "category": "Escuelas y juventud",
+    "date": "2026-10-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Italia",
+      "Ministerio de Educación",
+      "Giuseppe Valditara",
+      "Prohibición de móviles en escuelas",
+      "Atención escolar",
+      "Bienestar digital",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "100",
     "slug": "senado-filipinas-aprueba-smart-kids-act-prohibicion-redes-menores-18",
     "title": "El Senado de Filipinas aprueba la SMART KIDS Act: Histórica restricción de redes sociales para menores de 18 años",

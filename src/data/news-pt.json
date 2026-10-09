@@ -1,5 +1,33 @@
 [
   {
+    "id": "101",
+    "slug": "italia-proibe-telemoveis-escolas-incluindo-uso-pedagogico",
+    "title": "Itália proíbe telemóveis nas escolas: Ecrãs afastados das salas mesmo para fins pedagógicos",
+    "summary": "O Ministério da Educação de Itália alargou a proibição de smartphones ao ensino secundário durante o horário letivo. A diretiva revoga exceções didáticas e incentiva o regresso às agendas de papel e à escrita manual.",
+    "content": [
+      "O Ministério da Educação e do Mérito de Itália (Ministero dell'Istruzione e del Merito) estabeleceu restrições rigorosas à utilização de telemóveis nas escolas com o objetivo de proteger o desenvolvimento cognitivo, a concentração e a convivência presencial dos estudantes. De acordo com as diretivas assinadas pelo ministro Giuseppe Valditara, a proibição de smartphones, smartwatches e auriculares sem fios durante as aulas aplica-se agora desde o ensino primário até ao ensino secundário em todo o país.",
+      "O ponto central da nova orientação é o fim das exceções pedagógicas prévias. Segundo a norma, os telemóveis pessoais não podem ser utilizados na sala de aula mesmo para finalidades didáticas sob autorização do professor. O ministério determinou que, caso sejam necessárias ferramentas digitais no processo de ensino, devem ser utilizados computadores ou tablets institucionais sob supervisão direta do docente. Apenas alunos com deficiência ou perturbações específicas de aprendizagem mantêm permissão para usar dispositivos de apoio.",
+      "A medida fundamenta-se em estudos da OCDE, da Organização Mundial da Saúde e do Instituto Superior de Saúde de Itália, que comprovam que a proximidade de smartphones reduz a memória de trabalho, encurta o foco e intensifica o cansaço mental dos jovens. O ministro Valditara sublinhou a importância dos métodos tradicionais de estudo e aconselhou a retoma das agendas escolares em papel (diario cartaceo) para exercitar a escrita manual e a retenção de informação.",
+      "A decisão italiana enquadra-se no panorama global reportado pela UNESCO, que assinala que 114 países contam atualmente com diretrizes nacionais de restrição ao uso de telemóveis nas escolas. Os estabelecimentos italianos estão a disponibilizar cacifos e caixas de recolha nas salas para assegurar que os aparelhos fiquem guardados, incentivando conversas presenciais e atividades ao ar livre nos intervalos.",
+      "Para quem pretende criar um intervalo digital bem definido durante o período de aulas ou de estudo, o Limitra App Block permite configurar bloqueios por intervalo de horário em aplicações selecionadas, ajudando a manter o foco."
+    ],
+    "source": "Ministério da Educação e do Mérito de Itália & ANSA",
+    "sourceUrl": "https://www.miur.gov.it",
+    "category": "Escolas e juventude",
+    "date": "2026-10-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Itália",
+      "Ministério da Educação",
+      "Giuseppe Valditara",
+      "Proibição de telemóveis na escola",
+      "Foco escolar",
+      "Bem-estar digital",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "100",
     "slug": "senado-filipinas-aprova-smart-kids-act-proibicao-redes-menores-18",
     "title": "Senado das Filipinas aprova o SMART KIDS Act: Restrição de redes sociais para menores de 18 anos",

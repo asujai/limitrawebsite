@@ -1,5 +1,33 @@
 [
   {
+    "id": "101",
+    "slug": "italie-interdiction-smartphones-ecole-y-compris-usage-pedagogique",
+    "title": "L'Italie interdit les smartphones à l'école : Écrans proscrits en classe même pour motif pédagogique",
+    "summary": "Le ministère italien de l'Éducation a étendu l'interdiction des smartphones aux lycées pendant les heures de cours. La directive supprime les dérogations pédagogiques et encourage le retour au cahier de textes papier et à la prise de notes manuscrite.",
+    "content": [
+      "Le ministère italien de l'Éducation et du Mérite (Ministero dell'Istruzione e del Merito) a instauré des restrictions strictes sur l'usage des téléphones mobiles dans les établissements scolaires afin de préserver les facultés cognitives, l'attention et les interactions directes entre élèves. Conformément aux circulaires officielles signées par le ministre Giuseppe Valditara, l'interdiction des smartphones, montres connectées et écouteurs sans fil durant le temps scolaire s'applique désormais de l'école primaire jusqu'au lycée sur l'ensemble du territoire national.",
+      "L'élément central de cette directive réside dans la suppression des dérogations pédagogiques antérieures. Désormais, les téléphones portables personnels ne peuvent plus être utilisés en classe, même à des fins didactiques ou éducatives supervisées par l'enseignant. Le ministère stipule que si des supports numériques s'avèrent nécessaires pour une séquence pédagogique, les établissements doivent privilégier des tablettes ou ordinateurs dédiés sous la conduite directe du professeur. Seuls les élèves en situation de handicap ou présentant des troubles spécifiques de l'apprentissage (DSA) bénéficient d'une exception au titre de technologies d'assistance.",
+      "Cette décision s'appuie sur des rapports de l'OCDE, de l'Organisation mondiale de la santé et de l'Institut supérieur de la santé italien, démontrant que la proximité d'un smartphone altère la mémoire de travail, disperse l'attention et accentue la fatigue numérique chez les adolescents. Le ministre Valditara a également encouragé le retour au cahier de textes papier (diario cartaceo) pour réhabiliter l'écriture manuscrite et soutenir l'organisation personnelle sans écran.",
+      "La démarche de l'Italie s'inscrit dans un mouvement international mis en lumière par l'UNESCO, dont le rapport mondial recense désormais 114 pays appliquant des restrictions sur les téléphones à l'école. Les établissements italiens installent des casiers et des boîtes de dépôt afin de garantir que les appareils restent hors de portée, stimulant les échanges spontanés et les activités partagées lors des récréations.",
+      "Pour instaurer une pause numérique structurée pendant les heures de cours ou de révision, Limitra App Block permet de planifier des plages horaires de blocage sur les applications choisies afin de protéger le temps de concentration."
+    ],
+    "source": "Ministère italien de l'Éducation et du Mérite & ANSA",
+    "sourceUrl": "https://www.miur.gov.it",
+    "category": "Écoles et jeunesse",
+    "date": "2026-10-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Italie",
+      "Ministère de l'Éducation",
+      "Giuseppe Valditara",
+      "Interdiction portable école",
+      "Attention scolaire",
+      "Bien-être numérique",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "100",
     "slug": "senat-philippines-adopte-smart-kids-act-interdiction-reseaux-sociaux-moins-18-ans",
     "title": "Le Sénat des Philippines adopte le SMART KIDS Act : Restriction des réseaux sociaux pour les moins de 18 ans",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "101",
+    "slug": "italia-stop-smartphone-a-scuola-vietati-in-classe-anche-per-uso-didattico",
+    "title": "Stop agli smartphone nelle scuole italiane: Dispositivi vietati in classe anche per fini didattici",
+    "summary": "Il Ministero dell'Istruzione e del Merito ha esteso il divieto dei telefoni cellulari alle scuole superiori durante l'orario di lezione. La circolare elimina le deroghe didattiche e rilancia il diario cartaceo e la scrittura a mano.",
+    "content": [
+      "Il Ministero dell'Istruzione e del Merito (MIM) ha reso pienamente operative le disposizioni volte a limitare l'uso dei telefoni cellulari all'interno delle istituzioni scolastiche, con l'obiettivo di tutelare lo sviluppo cognitivo, l'attenzione e la socialità degli studenti. Seguendo le direttive emanate dal ministro Giuseppe Valditara, il divieto di utilizzo di smartphone, smartwatch e auricolari wireless durante le ore di lezione coinvolge l'intero percorso formativo, dalla scuola primaria fino alla scuola secondaria di secondo grado.",
+      "Il punto più rilevante della normativa riguarda l'eliminazione delle precedenti deroghe per attività didattiche. Secondo la circolare ministeriale, i telefoni cellulari personali non possono più essere utilizzati in classe neppure a fini educativi o didattici con il consenso del docente. Il Ministero ha chiarito che l'impiego di strumenti digitali per finalità di apprendimento deve avvenire esclusivamente tramite tablet o computer forniti dalla scuola e sotto la diretta guida degli insegnanti. L'unica eccezione rimane valida per gli alunni con disabilità o disturbi specifici dell'apprendimento (DSA) certificati da PEI o PDP.",
+      "Il provvedimento richiama i dati diffusi dall'OCSE, dall'Organizzazione Mondiale della Sanità e dall'Istituto Superiore di Sanità, evidenziando come la presenza costante degli schermi riduca la memoria di lavoro, frammenti la concentrazione e alimenti ansia e isolamento nei più giovani. Il ministro Valditara ha inoltre ribadito il valore pedagogico degli strumenti tradizionali, raccomandando il ritorno al diario cartaceo per riscoprire l'abitudine alla scrittura manuale e stimolare la memoria organizzativa.",
+      "L'iniziativa italiana si inserisce in un quadro internazionale ben delineato dall'ultimo rapporto di monitoraggio dell'UNESCO, che rileva come 114 Paesi nel mondo abbiano adottato politiche nazionali di limitazione dello smartphone nelle aule. Negli istituti italiani si moltiplicano contenitori dedicati e armadietti per custodire i dispositivi fino al termine delle lezioni, restituendo valore alla conversazione diretta e alla ricreazione condivisa.",
+      "Per chi desidera proteggere la propria concentrazione durante le ore di scuola o nei momenti dedicati allo studio, Limitra App Block consente di impostare finestre orarie di blocco sulle applicazioni selezionate, aiutando a ridurre le distrazioni digitali."
+    ],
+    "source": "Ministero dell'Istruzione e del Merito & ANSA",
+    "sourceUrl": "https://www.miur.gov.it",
+    "category": "Scuole e gioventù",
+    "date": "2026-10-09",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Italia",
+      "Ministero dell'Istruzione",
+      "Giuseppe Valditara",
+      "Divieto smartphone scuola",
+      "Attenzione in classe",
+      "Benessere digitale",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "100",
     "slug": "senato-filippine-approva-smart-kids-act-divieto-social-media-under-18",
     "title": "Il Senato delle Filippine approva lo SMART KIDS Act: Stop ai social media per i minori di 18 anni",
