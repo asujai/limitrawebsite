@@ -1,5 +1,34 @@
 # İşlem Geçmişi
 
+## [2026-10-09 22:25] - İtalya Okullarda Kapsamlı Cep Telefonu Yasağı 11 Dilde Yayında (ID 101)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-101.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-09 yapıldı)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-09 için haber kategorisinde içerik olmadığı teyit edildi).
+  - İtalya Eğitim ve Liyakat Bakanlığı'nın (Ministero dell'Istruzione e del Merito - MIM) Bakan Giuseppe Valditara imzalı resmî genelgeleri (nota ministeriale n. 5274 ve circolare n. 3392) incelendi ve doğrulandı.
+  - İlkokul, ortaokul ve liselerde tüm okul günü boyunca ders saatlerinde sınıfta akıllı telefon, akıllı saat ve kablosuz kulaklık kullanımını yasaklayan karar; özellikle 'eğitsel ve didaktik amaçlı kullanım' istisnasının da kaldırılması, kâğıt ajanda ve el yazısının teşvik edilmesi ile UNESCO GEM Raporu verisi (dünya genelinde 114 ülkenin okullarda kısıtlama uygulaması) detaylandırıldı.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir dille yalnız Limitra App Block ve saat aralığına göre engelleme (Restriction Schedule / saat aralığı ayarı) özelliği anıldı; yasak kelimeler, abartılı ifadeler veya tıbbi iddialar kullanılmadı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eksiksiz ve bağımsız yerel gövde metinleriyle üretildi.
+  - 1,543 statik sayfa 0 hata ile derlendi, sitemap 11 dildeki yeni slug'larla güncellendi.
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `a27611f3-ebf1-4985-acda-f43bc077746d`) ve canlıda doğrulandı (`npm run check:live` OK, HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,543 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` ([OK] Bugünün haberi zaten yayınlanmış - ID 101, 2026-10-09)
+  - `npm run deploy` (Current Version ID: `a27611f3-ebf1-4985-acda-f43bc077746d`)
+  - `npm run check:live` (Canli site guncel. - ID 101 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-08 22:20] - Filipinler Senatosu SMART KIDS Act Yasa Tasarısı 11 Dilde Yayında (ID 100)
 
 * **Model:** Antigravity
