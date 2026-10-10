@@ -1,5 +1,32 @@
 # İşlem Geçmişi
 
+## [2026-10-10 22:21] - Fransa'da Okullarda 'Dijital Mola' (Pause Numérique) Haberi 11 Dilde Yayında (ID 103)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-103.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (11 yeni rota eklendi, toplam 1,574 URL)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-10 için haber kategorisinde içerik olmadığı teyit edildi).
+  - Fransa Milli Eğitim Bakanlığı'nın (Ministère de l'Éducation nationale) 2018'deki çantada kapalı tutma kuralının yetersiz kalması üzerine ortaokul ve liselerde başlattığı 'Pause Numérique' (Dijital Mola / Portable en Pause) uygulaması detaylandırıldı. Öğrencilerin sabah girişte cihazlarını kilitli dolaplara teslim etmesi, teneffüsler ve öğle arası dahil tüm gün ekranlardan tamamen izole edilmesi, siber zorbalık olaylarında azalma ve yüz yüze sosyalleşmede artış verileri incelendi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir dille yalnız Limitra App Block ve saat aralığına göre engelleme (Restriction Schedule) özelliği anıldı; yasak kelimeler, abartılı iddialar veya tıbbi ifadeler kullanılmadı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eksiksiz ve bağımsız yerel gövde metinleriyle üretildi (`category: Okullar & Gençlik`, ID 103).
+  - 1,576 statik sayfa 0 hata ile derlendi, sitemap 11 yeni slug ile güncellendi.
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `fca9126d-eb1f-49c3-921f-fcf512fe6be6`) ve canlıda doğrulandı (`npm run check:live` OK, ID 103 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,576 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` ([OK] Bugünün haberi zaten yayınlanmış - ID 103, 2026-10-10)
+  - `npm run deploy` (Current Version ID: `fca9126d-eb1f-49c3-921f-fcf512fe6be6`)
+  - `npm run check:live` (Canli site guncel. - ID 103 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-10 12:12] - Dürtü Sörfü ve 10 Dakika Kuralı Rehberi 11 Dilde Yayında (ID 102)
 
 * **Model:** Antigravity
