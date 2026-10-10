@@ -8,6 +8,15 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-10)
+- **Dürtü Sörfü ve 10 Dakika Kuralı Rehberi 11 Dilde Yayında (Antigravity, 10 Ekim):**
+  - Davranış bilimci Nir Eyal'in *Indistractable* çalışmasında ortaya koyduğu 'İçsel Tetikleyiciler' (Internal Triggers) ve can sıkıntısı, belirsizlik, bilişsel sürtünme gibi zihinsel rahatsızlıklardan kaçış refleksi incelendi.
+  - Dr. G. Alan Marlatt'ın (Washington Üniversitesi) klinik bağımlılık araştırmalarına dayanan 'Dürtü Sörfü' (Urge Surfing) metodolojisi ve Daniel Wegner'in beyaz ayı etkisine karşı '10 Dakika Kuralı' pratik protokolü detaylandırıldı.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 102).
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve seçilen uygulamalara bağımsız günlük süre limitleri belirleme özelliği anıldı.
+  - 1,565 statik sayfa 0 hata ile derlendi, sitemap 22 yeni rota ile güncellendi (1,563 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı ve canlıda doğrulandı (`npm run check:live` OK, ID 102 HTTP 200).
+
 ## Güncel Durum (2026-10-09)
 - **İtalya Okullarda Kapsamlı Cep Telefonu Yasağı 11 Dilde Yayında (Antigravity, 9 Ekim):**
   - İtalya Eğitim ve Liyakat Bakanlığı'nın (Ministero dell'Istruzione e del Merito - MIM) Bakan Giuseppe Valditara imzalı resmî genelgeleri (nota ministeriale n. 5274 ve circolare n. 3392) detaylandırıldı. Karar; ilkokul ve ortaokulların ardından liselerde de ders saatlerinde cep telefonu, akıllı saat ve kablosuz kulaklık kullanımını yasaklıyor. Önceki pedagojik istisnalar da kaldırılarak sınıfta "didaktik amaçlı" kılıfına son verildi; dijital eğitim sadece öğretmen gözetimindeki tablet ve PC'lerle sınırlandı ve kâğıt ajandalara (diario cartaceo) dönüş teşvik edildi. UNESCO GEM Raporu'nun 114 ülke kısıtlama verisiyle zenginleştirildi.
@@ -123,11 +132,11 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** İtalya okullarda kapsamlı cep telefonu yasağı haberi (ID 101) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,543 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
+- **İşlem:** Dürtü Sörfü ve 10 Dakika Kuralı Rehberi (ID 102) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,565 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `a27611f3-ebf1-4985-acda-f43bc077746d` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,543 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run check:live` ("Canli site guncel.", ID 101 HTTP 200).
-- **Sonraki adım:** Yok. Günlük haber otomasyonu ve yayın döngüsü eksiksiz tamamlandı.
+- **Sürüm / Deploy ID:** Cloudflare Workers Static Assets yayını
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,565 sayfa, 0 hata), `npm run check:links` (OK), `npm run deploy` (OK), `npm run check:live` ("Canli site guncel.", ID 102 HTTP 200).
+- **Sonraki adım:** Yok. Günlük makale/rehber otomasyonu ve yayın döngüsü eksiksiz tamamlandı.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.
@@ -136,13 +145,12 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,541 URL).
-- `npm run build` → 1,543 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,563 URL).
+- `npm run build` → 1,565 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 101, 2026-10-09).
-- `npm run deploy` → Cloudflare sürümü `a27611f3-ebf1-4985-acda-f43bc077746d`.
-- `npm run check:live` → "Canli site guncel." (id 101, fiyat ve app-ads.txt doğrulandı).
+- `npm run deploy` → Cloudflare Workers yayını.
+- `npm run check:live` → "Canli site guncel." (id 102, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı

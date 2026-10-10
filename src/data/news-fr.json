@@ -1,5 +1,33 @@
 [
   {
+    "id": "102",
+    "slug": "le-surf-des-pulsions-et-la-regle-des-10-minutes-pour-maitriser-son-telephone",
+    "title": "Le surf des pulsions et la règle des 10 minutes : Rompre le réflexe impulsif de consulter son téléphone",
+    "summary": "La véritable raison qui nous pousse à saisir notre téléphone en plein travail n'est pas la technologie, mais un réflexe de fuite face à l'inconfort mental. Analyse des déclencheurs internes de Nir Eyal et protocole d'Urge Surfing d'Alan Marlatt.",
+    "content": [
+      "En pleine rédaction d'un rapport, pendant des révisions ou face à un problème complexe, beaucoup d'entre nous se surprennent soudain à déverrouiller leur smartphone et à faire défiler un fil d'actualité. Cette impulsion survient rarement à cause d'une sonnerie ou d'une notification ; même lorsque l'appareil est en mode silencieux absolu, l'esprit semble attiré par un fil invisible. On y voit souvent un manque de discipline personnelle. Pourtant, comme le démontre l'analyste comportemental Nir Eyal dans son ouvrage 'Indistractable', la source première de la distraction ne provient pas des alertes extérieures, mais du besoin viscéral du cerveau de fuir un inconfort émotionnel.",
+      "La psychologie évolutionniste enseigne que notre cerveau recherche en permanence l'homéostasie. Tout comme le corps frissonne lorsqu'il a froid ou réclame de la nourriture lorsqu'il a faim pour dissiper un malaise physique, l'esprit cherche une échappatoire immédiate face à l'ennui, au doute, à la fatigue ou à la résistance intellectuelle devant une tâche difficile. Face à ces 'déclencheurs internes' (internal triggers), le smartphone est devenu le calmant émotionnel le plus rapide de l'histoire. Dès que nous butons sur une phrase ardue, le cerveau choisit le réflexe du shoot de dopamine facile plutôt que l'effort de réflexion.",
+      "Tenter de réprimer brutalement cette envie en se répétant 'je ne dois pas y toucher' provoque ce que les psychologues appellent la 'théorie des processus ironiques' (l'effet de l'ours blanc), où l'interdiction décuple l'obsession. Pour désamorcer ce mécanisme, Nir Eyal s'appuie sur le 'surf des pulsions' (Urge Surfing), une méthode conçue par le psychologue clinicien Dr G. Alan Marlatt à l'Université de Washington. Les recherches de Marlatt ont démontré qu'une pulsion compulsive ne croît pas indéfiniment : elle ressemble à une vague océanique qui monte, atteint une crête en quelques minutes, puis s'éteint naturellement si l'on n'y cède pas immédiatement.",
+      "La mise en pratique concrète de cette découverte est la 'règle des 10 minutes'. Lorsque vous ressentez l'envie irrépressible de vérifier votre téléphone pendant une session de travail, ne vous l'interdisez pas catégoriquement, car l'interdit nourrit le désir. Adoptez plutôt cette consigne : 'Je peux regarder mon écran, mais pas tout de suite ; j'attends exactement 10 minutes'. Durant cet intervalle, observez votre malaise intérieur sans jugement, comme un simple spectateur. En laissant la vague monter sans agir, la tension s'apaise généralement en trois à cinq minutes, vous permettant de replonger sans heurt dans votre concentration.",
+      "Apprendre à observer ses pulsions internes permet de transformer notre rapport aux écrans en une démarche délibérée et sereine. Pour ceux qui souhaitent poser des limites concrètes à l'utilisation impulsive des réseaux durant leurs sessions d'étude ou de travail, Limitra App Block permet de fixer une durée d'utilisation quotidienne indépendante pour chaque application ciblée afin de préserver l'attention."
+    ],
+    "source": "Nir Eyal (Indistractable) & Dr. Alan Marlatt Dürtü Sörfü Araştırması",
+    "sourceUrl": "https://www.nirandfar.com/indistractable/",
+    "category": "Contrôle du Temps d'Écran",
+    "date": "2026-10-10",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Surf des pulsions",
+      "Règle des 10 minutes",
+      "Nir Eyal",
+      "Déclencheurs internes",
+      "Alan Marlatt",
+      "Contrôle du temps d'écran",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "101",
     "slug": "italie-interdiction-smartphones-ecole-y-compris-usage-pedagogique",
     "title": "L'Italie interdit les smartphones à l'école : Écrans proscrits en classe même pour motif pédagogique",

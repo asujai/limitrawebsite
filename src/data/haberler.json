@@ -1,5 +1,33 @@
 [
   {
+    "id": "102",
+    "slug": "durtu-sorfu-ve-10-dakika-kurali-telefona-uzanma-refleksini-kirmak",
+    "title": "Dürtü Sörfü ve 10 Dakika Kuralı: Telefona Uzanma Refleksini Kırmak",
+    "summary": "Bir iş üzerinde çalışırken elinizin istemsizce telefona gitmesinin ardındaki asıl sebep teknoloji değil, zihinsel rahatsızlıktan kaçma refleksidir. Nir Eyal'in 'İçsel Tetikleyiciler' analizi ve Dr. Alan Marlatt'ın 'Dürtü Sörfü' (Urge Surfing) protokolü.",
+    "content": [
+      "Bir rapor hazırlarken, ders çalışırken veya zorlu bir analitik görev üzerindeyken çoğumuz aniden ekran kilidini açıp sosyal medya akışında kaybolduğumuzu fark ederiz. Bu durum genellikle telefonun titremesi veya yeni bir bildirim gelmesi yüzünden yaşanmaz; bildirimlerin tamamen kapalı olduğu anlarda bile zihin adeta görünmez bir iple telefona çekilir. Pek çok insan bunu bir irade zayıflığı veya teknoloji bağımlılığı olarak etiketler. Oysa davranış bilimci Nir Eyal'in 'Indistractable' (Kancadan Kurtulmak) çalışmasında ortaya koyduğu gibi, dikkat dağınıklığının temel kaynağı dışsal bildirimler değil; insan beyninin rahatsız edici duygulardan kaçma mekanizmasıdır.",
+      "Evrimsel psikolojiye göre insan beyni sürekli olarak homeostazı (iç dengeyi) korumaya çalışır. Vücut üşüdüğünde titreyerek, acıktığında yemek arayarak nasıl fiziksel rahatsızlığı gidermeye çalışıyorsa; zihin de can sıkıntısı, belirsizlik, yalnızlık, karmaşık bir işle karşılaşınca yaşanan yetersizlik hissi veya bilişsel sürtünme gibi rahatsız edici içsel duygulardan anında kaçmak ister. Akıllı telefonlar, bu 'içsel tetikleyiciler' (internal triggers) karşısında insanlık tarihinin gördüğü en erişilebilir duygusal yatıştırıcı haline gelmiştir. Zor bir cümleyi yazarken takıldığınız o 5 saniyelik mikro rahatsızlık anında, beyin problemi çözmek yerine zahmetsiz bir dopamin vuruşu için telefona uzanmayı refleks haline getirir.",
+      "Bu dürtüyü yok etmeye çalışmak veya 'asla bakmayacağım' diyerek iradeyle bastırmak, psikolojide 'ironik süreç kuramı' (beyaz ayı etkisi) olarak bilinen geri tepmeye yol açar; bastırılan arzu zihinde daha da büyür. Bu kısır döngüyü kırmak için Nir Eyal, Washington Üniversitesi Bağımlılık Davranışları Araştırma Merkezi'nden klinik psikolog Dr. G. Alan Marlatt'ın geliştirdiği 'Dürtü Sörfü' (Urge Surfing) metodolojisini önerir. Marlatt'ın klinik deneylerle kanıtladığı gibi, zihinsel bir aşerme veya dürtü sonsuza dek yükselen bir eğri değildir; okyanustaki bir dalgaya benzer. Dürtü başlar, birkaç dakika içinde tepe noktasına (kret) ulaşır ve eğer eyleme dökülmezse nörolojik olarak kaçınılmaz biçimde sönümlenir.",
+      "Bu mekanizmanın pratik uygulaması '10 Dakika Kuralı' olarak adlandırılır. Çalışma sırasında elinizin telefona gitmek üzere olduğunu hissettiğiniz an kendinize eylemi yasaklamazsınız; çünkü yasak arzuyu besler. Bunun yerine şu kuralı işletirsiniz: 'Telefona bakabilirim, ancak şu an değil; tam 10 dakika sonra.' Bu 10 dakikalık bekleme penceresinde elinizi masadan çeker, hissettiğiniz o içsel huzursuzluğu (örneğin yazmaktan sıkılma veya odaklanma yorgunluğu) bir yabancı gibi gözlemlersiniz. Dürtüyü yargılamadan izlediğinizde, dopamin dalgası genellikle 3 ila 5 dakika içinde doruk noktasına ulaşıp kendiliğinden çekilir. Süre dolduğunda ise beyniniz o anlık dürtüsel girdaptan çıkmış ve derin çalışma akışına geri dönmüş olur.",
+      "Zihinsel dürtüleri fark edip yönetmeyi öğrenmek, dijital araçlarla kurulan ilişkiyi reaktif bir bağımlılıktan bilinçli bir tercihe dönüştürür. Çalışma saatlerinde veya gün içinde dürtüsel olarak telefona uzanma alışkanlığını sınırlandırmak isteyenler için Limitra App Block, seçilen uygulamalara bağımsız günlük süre limitleri tanımlayarak dikkati korumaya yardımcı oluyor."
+    ],
+    "source": "Nir Eyal (Indistractable) & Dr. Alan Marlatt Dürtü Sörfü Araştırması",
+    "sourceUrl": "https://www.nirandfar.com/indistractable/",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-10",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Dürtü Sörfü",
+      "10 Dakika Kuralı",
+      "Nir Eyal",
+      "İçsel Tetikleyiciler",
+      "Alan Marlatt",
+      "Ekran Süresi Kontrolü",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "101",
     "slug": "italya-okullarda-cep-telefonu-yasagi-egitsel-kullanim-dahil-sinifta-ekransiz-donem",
     "title": "İtalya'da Okullarda Kapsamlı Telefon Yasağı: Eğitsel Amaçlı Kullanım Dahil Sınıflardan Ekranlar Kaldırıldı",

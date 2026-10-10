@@ -1,5 +1,33 @@
 [
   {
+    "id": "102",
+    "slug": "urge-surfing-and-the-10-minute-rule-breaking-the-impulsive-phone-habit",
+    "title": "Urge Surfing and the 10-Minute Rule: Breaking the Reflex to Check Your Phone",
+    "summary": "The root cause of reaching for your phone while working is not technology itself, but a reflex to escape mental discomfort. An analysis of Nir Eyal's 'Internal Triggers' and Dr. Alan Marlatt's clinical 'Urge Surfing' protocol.",
+    "content": [
+      "While drafting a report, studying, or tackling a demanding analytical task, many of us suddenly realize we have unlocked our phone and are scrolling through a social feed. This impulse rarely stems from a phone vibration or an incoming alert; even when notifications are completely silenced, the mind seems pulled toward the device by an invisible tether. Most people dismiss this as personal weakness or tech addiction. However, as behavioral designer Nir Eyal demonstrates in his seminal work 'Indistractable', the primary source of distraction is not external triggers, but the brain's innate drive to escape unpleasant emotions.",
+      "Evolutionary psychology explains that the human brain constantly strives for homeostasis. Just as the body shivers when cold and searches for sustenance when hungry to alleviate physical discomfort, the mind seeks immediate relief from uncomfortable internal states such as boredom, uncertainty, fatigue, or cognitive friction when confronted with a complex assignment. Smartphones have become the most accessible psychological pacifier in history against these 'internal triggers'. At the micro-moment of friction when you struggle to formulate a difficult sentence, the brain defaults to grabbing the phone for frictionless dopamine instead of persisting with the problem.",
+      "Attempting to suppress this impulse or forcing yourself never to look at your device backfires through what cognitive psychologists term 'ironic process theory' (the white bear effect), where active suppression amplifies the underlying desire. To dismantle this cycle, Eyal recommends 'Urge Surfing', a methodology pioneered by clinical psychologist Dr. G. Alan Marlatt at the University of Washington's Addictive Behaviors Research Center. As Marlatt's clinical research proved, cravings and impulsive urges do not escalate indefinitely; they behave like ocean waves. An urge gathers momentum, crests within several minutes, and if not acted upon, naturally subsides through neurological extinction.",
+      "The practical protocol derived from this insight is known as the '10-Minute Rule'. When you feel the familiar impulse to grab your phone during work, you do not forbid yourself from checking it, as outright prohibition reinforces the temptation. Instead, you establish a simple condition: 'I can look at my phone, but not right now; I must wait exactly 10 minutes.' During this 10-minute interval, you step back and observe the internal discomfort—such as boredom or mental restlessness—as an objective bystander. By observing the craving without judgment, the dopamine wave usually crests and dissipates within three to five minutes, allowing you to return smoothly to deep cognitive flow.",
+      "Learning to recognize and navigate internal impulses transforms our relationship with digital devices from reactive compulsion into intentional control. For individuals seeking to establish structured boundaries against impulsive phone checking during work or study sessions, Limitra App Block allows users to define independent daily time limits on selected applications to help preserve cognitive focus."
+    ],
+    "source": "Nir Eyal (Indistractable) & Dr. Alan Marlatt Dürtü Sörfü Araştırması",
+    "sourceUrl": "https://www.nirandfar.com/indistractable/",
+    "category": "Screen Time Control",
+    "date": "2026-10-10",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Urge Surfing",
+      "10-Minute Rule",
+      "Nir Eyal",
+      "Internal Triggers",
+      "Alan Marlatt",
+      "Screen Time Control",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "101",
     "slug": "italy-bans-smartphones-in-schools-including-educational-use",
     "title": "Italy Enacts Strict School Smartphone Ban: Devices Barred from Classrooms Even for Educational Use",

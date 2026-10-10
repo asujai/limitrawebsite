@@ -3,21 +3,27 @@
   <!-- Turkish Routes -->
   <url>
     <loc>https://limitra.online/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/haberler</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/ekran-suresi-kontrolu</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/ekran-suresi-kontrolu/durtu-sorfu-ve-10-dakika-kurali-telefona-uzanma-refleksini-kirmak</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ekran-suresi-kontrolu/on-taahhut-stratejisi-dis-kuralin-ve-kilit-mekanizmasinin-gucu</loc>
@@ -198,6 +204,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/haberler/durtu-sorfu-ve-10-dakika-kurali-telefona-uzanma-refleksini-kirmak</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/haberler/italya-okullarda-cep-telefonu-yasagi-egitsel-kullanim-dahil-sinifta-ekransiz-donem</loc>
@@ -807,139 +819,139 @@
   </url>
   <url>
     <loc>https://limitra.online/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/bilgi-merkezi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/bilgi-merkezi/ekran-suresi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://limitra.online/bilgi-merkezi/sosyal-medya-ve-kisa-video</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://limitra.online/bilgi-merkezi/dikkat-uyku-ve-rutinler</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://limitra.online/bilgi-merkezi/ekran-suresini-azaltma-yontemleri</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://limitra.online/bilgi-merkezi/klasik-limitler-neden-yetmez</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://limitra.online/bilgi-merkezi/daha-net-uygulama-sinirlari</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://limitra.online/fiyatlandirma</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/karsilastirma</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/degisiklik-gunlugu</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/nedir</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/nasil-calisir</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/agent-discovery</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/stayfree-alternatifi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/appblock-alternatifi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/yourhour-alternatifi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/digital-wellbeing-alternatifi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/forest-alternatifi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/iletisim</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://limitra.online/gizlilik-politikasi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://limitra.online/kullanim-sartlari</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -947,21 +959,27 @@
   <!-- English Routes -->
   <url>
     <loc>https://limitra.online/en</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/en/screen-time-control/urge-surfing-and-the-10-minute-rule-breaking-the-impulsive-phone-habit</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/pre-commitment-strategy-why-external-locks-beat-willpower</loc>
@@ -1025,85 +1043,85 @@
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -1142,6 +1160,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/en/news/urge-surfing-and-the-10-minute-rule-breaking-the-impulsive-phone-habit</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/italy-bans-smartphones-in-schools-including-educational-use</loc>
@@ -1295,85 +1319,85 @@
   </url>
   <url>
     <loc>https://limitra.online/en/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/teen-smartphone-addiction-healthy-screen-time-contract-guide</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/just-checking-for-two-minutes-myth-23-minute-attention-cost</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/phantom-vibration-syndrome-notification-anxiety-neurobiology</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1751,139 +1775,139 @@
   </url>
   <url>
     <loc>https://limitra.online/en/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/bilgi-merkezi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/bilgi-merkezi/ekran-suresi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/bilgi-merkezi/sosyal-medya-ve-kisa-video</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/bilgi-merkezi/dikkat-uyku-ve-rutinler</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/bilgi-merkezi/ekran-suresini-azaltma-yontemleri</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/bilgi-merkezi/klasik-limitler-neden-yetmez</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/bilgi-merkezi/daha-net-uygulama-sinirlari</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/pricing</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/compare</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/changelog</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/what-is-limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/how-it-works</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/agent-discovery</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/stayfree-alternative</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/appblock-alternative</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/yourhour-alternative</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/digital-wellbeing-alternative</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/forest-alternative</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/iletisim</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/gizlilik-politikasi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://limitra.online/en/kullanim-sartlari</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1891,21 +1915,27 @@
   <!-- Spanish Routes -->
   <url>
     <loc>https://limitra.online/es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/es/screen-time-control/surf-de-impulsos-y-la-regla-de-los-10-minutos-para-frenar-el-movil</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/estrategia-pre-compromiso-por-que-bloqueos-externos-superan-fuerza-voluntad</loc>
@@ -1969,85 +1999,85 @@
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -2086,6 +2116,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/es/news/surf-de-impulsos-y-la-regla-de-los-10-minutos-para-frenar-el-movil</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/italia-prohibe-telefonos-moviles-escuelas-incluido-uso-educativo</loc>
@@ -2239,85 +2275,85 @@
   </url>
   <url>
     <loc>https://limitra.online/es/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-es</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2695,13 +2731,13 @@
   </url>
   <url>
     <loc>https://limitra.online/es/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/es/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2709,21 +2745,27 @@
   <!-- French Routes -->
   <url>
     <loc>https://limitra.online/fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/fr/screen-time-control/le-surf-des-pulsions-et-la-regle-des-10-minutes-pour-maitriser-son-telephone</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/strategie-pre-engagement-pourquoi-verrous-externes-battent-volonte-humaine</loc>
@@ -2787,85 +2829,85 @@
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -2904,6 +2946,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/fr/news/le-surf-des-pulsions-et-la-regle-des-10-minutes-pour-maitriser-son-telephone</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/italie-interdiction-smartphones-ecole-y-compris-usage-pedagogique</loc>
@@ -3057,85 +3105,85 @@
   </url>
   <url>
     <loc>https://limitra.online/fr/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-fr</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3513,13 +3561,13 @@
   </url>
   <url>
     <loc>https://limitra.online/fr/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/fr/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3527,21 +3575,27 @@
   <!-- German Routes -->
   <url>
     <loc>https://limitra.online/de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/de/screen-time-control/urge-surfing-und-die-10-minuten-regel-den-impulsiven-smartphone-griff-stoppen</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/pre-commitment-strategie-warum-externe-sperren-die-willenskraft-schlagen</loc>
@@ -3605,85 +3659,85 @@
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -3722,6 +3776,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/de/news/urge-surfing-und-die-10-minuten-regel-den-impulsiven-smartphone-griff-stoppen</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/italien-smartphone-verbot-schulen-auch-fuer-unterrichtszwecke</loc>
@@ -3875,85 +3935,85 @@
   </url>
   <url>
     <loc>https://limitra.online/de/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-de</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4331,13 +4391,13 @@
   </url>
   <url>
     <loc>https://limitra.online/de/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/de/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4345,21 +4405,27 @@
   <!-- Portuguese Routes -->
   <url>
     <loc>https://limitra.online/pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/pt/screen-time-control/surf-de-impulsos-e-a-regra-dos-10-minutos-para-controlar-o-telemovel</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/estrategia-pre-compromisso-por-que-bloqueios-externos-superam-forca-vontade</loc>
@@ -4423,85 +4489,85 @@
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -4540,6 +4606,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/pt/news/surf-de-impulsos-e-a-regra-dos-10-minutos-para-controlar-o-telemovel</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/italia-proibe-telemoveis-escolas-incluindo-uso-pedagogico</loc>
@@ -4693,85 +4765,85 @@
   </url>
   <url>
     <loc>https://limitra.online/pt/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-pt</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5149,13 +5221,13 @@
   </url>
   <url>
     <loc>https://limitra.online/pt/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/pt/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5163,21 +5235,27 @@
   <!-- Italian Routes -->
   <url>
     <loc>https://limitra.online/it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/it/screen-time-control/urge-surfing-e-la-regola-dei-10-minuti-per-interrompere-il-riflesso-dello-smartphone</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/strategia-pre-impegno-perche-blocchi-esterni-battono-forza-volonta</loc>
@@ -5241,85 +5319,85 @@
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -5358,6 +5436,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/it/news/urge-surfing-e-la-regola-dei-10-minuti-per-interrompere-il-riflesso-dello-smartphone</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/italia-stop-smartphone-a-scuola-vietati-in-classe-anche-per-uso-didattico</loc>
@@ -5511,85 +5595,85 @@
   </url>
   <url>
     <loc>https://limitra.online/it/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-it</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5967,13 +6051,13 @@
   </url>
   <url>
     <loc>https://limitra.online/it/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/it/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5981,21 +6065,27 @@
   <!-- Arabic Routes -->
   <url>
     <loc>https://limitra.online/ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/ar/screen-time-control/rakb-amwaj-al-raghba-wa-qaidat-al-ashr-daqaiq-likasr-adat-tafaqqud-al-hatif</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/istratijiyat-al-iltizam-al-musbaq-limadha-tatafawwaq-al-quyud-al-kharijiya-ala-al-irada</loc>
@@ -6059,85 +6149,85 @@
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -6176,6 +6266,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/ar/news/rakb-amwaj-al-raghba-wa-qaidat-al-ashr-daqaiq-likasr-adat-tafaqqud-al-hatif</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/italya-tahzur-al-hawatil-al-thakiyya-fi-al-madaris-hatta-lil-aghrad-al-talimiyya</loc>
@@ -6329,85 +6425,85 @@
   </url>
   <url>
     <loc>https://limitra.online/ar/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-ar</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -6785,13 +6881,13 @@
   </url>
   <url>
     <loc>https://limitra.online/ar/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/ar/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -6799,21 +6895,27 @@
   <!-- Indonesian Routes -->
   <url>
     <loc>https://limitra.online/id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/id/screen-time-control/urge-surfing-dan-aturan-10-menit-menghentikan-refleks-membuka-ponsel</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/strategi-pra-komitmen-mengapa-kunci-eksternal-kalahkan-tekad-kemauan</loc>
@@ -6877,85 +6979,85 @@
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -6994,6 +7096,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/id/news/urge-surfing-dan-aturan-10-menit-menghentikan-refleks-membuka-ponsel</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/italia-larang-ponsel-di-sekolah-termasuk-untuk-keperluan-belajar</loc>
@@ -7147,85 +7255,85 @@
   </url>
   <url>
     <loc>https://limitra.online/id/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-id</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -7603,13 +7711,13 @@
   </url>
   <url>
     <loc>https://limitra.online/id/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/id/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -7617,21 +7725,27 @@
   <!-- Filipino Routes -->
   <url>
     <loc>https://limitra.online/fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/fil/screen-time-control/urge-surfing-at-ang-10-minutong-tuntunin-sa-pagkontrol-ng-telepono</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/estratehiya-ng-pre-commitment-bakit-ang-panlabas-na-app-lock-ang-tatalo-sa-tukso</loc>
@@ -7695,85 +7809,85 @@
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -7812,6 +7926,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/fil/news/urge-surfing-at-ang-10-minutong-tuntunin-sa-pagkontrol-ng-telepono</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/italya-ipinagbawal-ang-cellphone-sa-paaralan-pati-sa-pag-aaral</loc>
@@ -7965,85 +8085,85 @@
   </url>
   <url>
     <loc>https://limitra.online/fil/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-fil</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -8421,13 +8541,13 @@
   </url>
   <url>
     <loc>https://limitra.online/fil/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/fil/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -8435,21 +8555,27 @@
   <!-- Thai Routes -->
   <url>
     <loc>https://limitra.online/th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/th/screen-time-control/kan-to-khluen-khwam-yak-lae-kot-10-nathi-yut-phrittikam-yip-thorasap-doi-mai-ru-tua</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/pre-commitment-strategy-why-external-locks-beat-willpower-th</loc>
@@ -8513,85 +8639,85 @@
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/teen-smartphone-addiction-healthy-screen-time-contract-guide-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/just-checking-for-two-minutes-myth-23-minute-attention-cost-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/grayscale-screen-mode-does-black-and-white-reduce-screen-time-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/phantom-vibration-syndrome-notification-anxiety-neurobiology-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/screen-time-control/stop-checking-phone-first-thing-in-morning-cortisol-protocol-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -8630,6 +8756,12 @@
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://limitra.online/th/news/kan-to-khluen-khwam-yak-lae-kot-10-nathi-yut-phrittikam-yip-thorasap-doi-mai-ru-tua</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/italy-bans-smartphones-in-schools-including-educational-use-th</loc>
@@ -8783,85 +8915,85 @@
   </url>
   <url>
     <loc>https://limitra.online/th/news/reducing-screen-time-without-willpower-the-law-of-behavioral-friction-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/the-dumbphone-movement-what-happens-when-you-switch-to-a-feature-phone-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/digital-dementia-and-memory-atrophy-cognitive-offloading-effects-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/phubbing-in-relationships-phone-snubbing-damage-and-how-to-fix-it-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/limiting-social-media-to-30-minutes-a-day-upenn-mental-health-study-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/reclaiming-the-ability-to-be-bored-default-mode-network-and-creativity-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/what-happens-when-phone-is-on-desk-brain-drain-cognitive-cost-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/teen-smartphone-addiction-healthy-screen-time-contract-guide-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/how-tiktok-and-shorts-algorithms-hijack-the-brain-micro-reward-architecture-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/using-phone-on-the-toilet-inability-to-tolerate-boredom-and-silence-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/just-checking-for-two-minutes-myth-23-minute-attention-cost-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/grayscale-screen-mode-does-black-and-white-reduce-screen-time-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/phantom-vibration-syndrome-notification-anxiety-neurobiology-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/news/stop-checking-phone-first-thing-in-morning-cortisol-protocol-th</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -9239,13 +9371,13 @@
   </url>
   <url>
     <loc>https://limitra.online/th/limitra</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://limitra.online/th/sss</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -9253,19 +9385,19 @@
   <!-- Legal & Utilities -->
   <url>
     <loc>https://limitra.online/limitra-social/privacy</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://limitra.online/limitra-social/terms</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://limitra.online/limitra-social/delete-account</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

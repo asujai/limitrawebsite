@@ -1,5 +1,33 @@
 [
   {
+    "id": "102",
+    "slug": "surf-de-impulsos-e-a-regra-dos-10-minutos-para-controlar-o-telemovel",
+    "title": "Surf de impulsos e a regra dos 10 minutos: Como travar o reflexo automático de pegar no telemóvel",
+    "summary": "O verdadeiro motivo para pegarmos no telemóvel durante o trabalho não é a tecnologia, mas a fuga ao desconforto mental. A análise de gatilhos internos de Nir Eyal e o protocolo clínico de Alan Marlatt.",
+    "content": [
+      "A meio da redação de um relatório, do estudo ou de uma tarefa intelectual exigente, muitas pessoas dão por si a desbloquear o telemóvel e a navegar num feed de redes sociais sem perceber como lá chegaram. Este impulso raramente nasce de uma vibração ou notificação; mesmo com o aparelho em silêncio total, a mente parece puxada para o ecrã. Quase sempre rotulamos isso como falta de força de vontade. Contudo, como o especialista em comportamento Nir Eyal demonstra no livro 'Indistractable', a raiz da distração não está nos estímulos externos, mas na tentativa do cérebro de escapar a emoções desconfortáveis.",
+      "A psicologia evolutiva explica que o cérebro humano procura incessantemente a homeostase. Da mesma forma que o corpo treme de frio ou procura comida com a fome para repor o equilíbrio, a mente procura alívio imediato para sensações como o tédio, a incerteza, o cansaço ou a fricção cognitiva perante uma tarefa difícil. O smartphone tornou-se a chupeta emocional mais acessível da história contra esses 'gatilhos internos' (internal triggers). No instante em que surge um bloqueio criativo, o cérebro recorre automaticamente ao telemóvel para obter dopamina fácil em vez de insistir no raciocínio.",
+      "Tentar reprimir esse desejo à força ('não vou olhar de maneira nenhuma') ativa a 'teoria dos processos irónicos' (o efeito do urso branco), em que a proibição direta faz disparar a obsessão mental. Para desarmar esse ciclo, Eyal recorre ao 'surf de impulsos' (Urge Surfing), metodologia criada pelo psicólogo clínico Dr. G. Alan Marlatt no Centro de Investigação de Comportamentos Aditivos da Universidade de Washington. Marlatt provou clinicamente que uma vontade impulsiva não sobe eternamente; comporta-se como uma onda no mar. A urgência cresce, atinge uma crista em poucos minutos e, se não for alimentada, desvanece-se por extinção neurológica.",
+      "A aplicação prática desta descoberta é a chamada 'regra dos 10 minutos'. Quando sentir a urgência de pegar no telemóvel a meio do trabalho, não se proíba categoricamente de o fazer, pois a proibição agrava a vontade. Em vez disso, estabeleça um acordo simples: 'Posso ver o telemóvel, mas não agora; vou esperar exatamente 10 minutos'. Durante esses minutos, afaste as mãos e observe a inquietação ou o tédio como um observador neutro. Ao surfar a onda sem reagir de imediato, o pico de dopamina dissipa-se normalmente em três a cinco minutos, permitindo regressar ao trabalho profundo.",
+      "Aprender a reconhecer e a observar os impulsos internos transforma a nossa relação com os ecrãs de uma compulsão reativa numa escolha deliberada. Para quem procura estabelecer barreiras concretas contra o impulso de abrir redes sociais durante o horário de trabalho ou estudo, o Limitra App Block permite configurar limites diários de tempo independentes para aplicações selecionadas, ajudando a proteger a concentração."
+    ],
+    "source": "Nir Eyal (Indistractable) & Dr. Alan Marlatt Dürtü Sörfü Araştırması",
+    "sourceUrl": "https://www.nirandfar.com/indistractable/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-10",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Surf de impulsos",
+      "Regra dos 10 minutos",
+      "Nir Eyal",
+      "Gatilhos internos",
+      "Alan Marlatt",
+      "Controle de Tempo de Tela",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "101",
     "slug": "italia-proibe-telemoveis-escolas-incluindo-uso-pedagogico",
     "title": "Itália proíbe telemóveis nas escolas: Ecrãs afastados das salas mesmo para fins pedagógicos",

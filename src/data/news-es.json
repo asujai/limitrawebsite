@@ -1,5 +1,33 @@
 [
   {
+    "id": "102",
+    "slug": "surf-de-impulsos-y-la-regla-de-los-10-minutos-para-frenar-el-movil",
+    "title": "El 'surf de impulsos' y la regla de los 10 minutos: Cómo frenar el hábito involuntario de mirar el móvil",
+    "summary": "El motivo principal por el que miramos el móvil mientras trabajamos no es la tecnología, sino el impulso de huir de una incomodidad mental. El análisis de los desencadenantes internos de Nir Eyal y el protocolo clínico del doctor Alan Marlatt.",
+    "content": [
+      "Al redactar un informe, estudiar o realizar una tarea analítica compleja, muchos descubren de repente que han desbloqueado el teléfono y están navegando sin rumbo por una red social. Este impulso rara vez surge por una vibración o una notificación entrante; incluso con las alertas silenciadas, la mente parece arrastrada hacia la pantalla por un hilo invisible. La mayoría lo atribuye a una falta de fuerza de voluntad. Sin embargo, como explica el especialista en comportamiento Nir Eyal en su obra 'Indistractable', la raíz de la distracción no reside en los estímulos externos, sino en el mecanismo cerebral para huir de emociones incómodas.",
+      "La psicología evolutiva señala que el cerebro humano busca constantemente la homeostasis. Del mismo modo que el cuerpo tiembla con el frío o busca alimento con el hambre para corregir el malestar físico, la mente intenta escapar de inmediato de sensaciones incómodas como el aburrimiento, la incertidumbre, el cansancio o la fricción cognitiva ante un reto exigente. Los teléfonos inteligentes se han convertido en el calmante emocional más accesible frente a estos 'desencadenantes internos'. En el instante en que nos atascamos con una idea difícil, el cerebro recurre por inercia al móvil para obtener dopamina sin esfuerzo en lugar de resolver la dificultad.",
+      "Intentar reprimir este impulso prohibiéndonos tocar la pantalla suele provocar el 'efecto del oso blanco' (teoría del proceso irónico), donde la negación multiplica el deseo reprimido. Para desactivar esta dinámica, Eyal propone el 'surf de impulsos' (Urge Surfing), técnica desarrollada por el psicólogo clínico Dr. G. Alan Marlatt en el Centro de Investigación de Conductas Adictivas de la Universidad de Washington. Marlatt demostró empíricamente que los impulsos no crecen de forma indefinida; funcionan como olas marinas. La urgencia surge, alcanza su punto álgido en pocos minutos y, si no se cede ante ella, se desvanece de manera natural.",
+      "La aplicación práctica de este principio se traduce en la 'regla de los 10 minutos'. Cuando sientas la necesidad urgente de tomar el móvil durante tus horas de trabajo, no te impongas una negativa absoluta, ya que eso incrementa la tentación. En su lugar, aplica esta pauta: 'Puedo consultar el teléfono, pero no ahora mismo; esperaré exactamente 10 minutos'. Durante esa pausa, observa la inquietud interna o el aburrimiento con curiosidad y sin juzgarte. Al contemplar la ola sin reaccionar, el pico de dopamina suele descender en tres a cinco minutos, permitiéndote recuperar la concentración profunda de forma natural.",
+      "Reconocer y gestionar los impulsos internos permite transformar el uso de la tecnología de una compulsión reactiva en una decisión consciente. Para quienes desean fijar límites claros frente a las distracciones durante sus rutinas de estudio o trabajo, Limitra App Block permite configurar límites de tiempo diarios independientes para aplicaciones seleccionadas, ayudando a preservar la atención mental."
+    ],
+    "source": "Nir Eyal (Indistractable) & Dr. Alan Marlatt Dürtü Sörfü Araştırması",
+    "sourceUrl": "https://www.nirandfar.com/indistractable/",
+    "category": "Control de Tiempo en Pantalla",
+    "date": "2026-10-10",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Surf de impulsos",
+      "Regla de 10 minutos",
+      "Nir Eyal",
+      "Desencadenantes internos",
+      "Alan Marlatt",
+      "Control de tiempo en pantalla",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "101",
     "slug": "italia-prohibe-telefonos-moviles-escuelas-incluido-uso-educativo",
     "title": "Italia prohíbe los teléfonos móviles en las escuelas: Se restringen las pantallas incluso para uso educativo",

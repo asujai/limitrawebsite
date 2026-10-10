@@ -1,5 +1,33 @@
 # İşlem Geçmişi
 
+## [2026-10-10 12:12] - Dürtü Sörfü ve 10 Dakika Kuralı Rehberi 11 Dilde Yayında (ID 102)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-102.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-10 yapıldı)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (22 yeni rota eklendi, toplam 1,563 URL)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-10 için rehber/makale kategorisinde içerik olmadığı teyit edildi).
+  - Davranış bilimci Nir Eyal'in *Indistractable* (Kancadan Kurtulmak) çalışmasında detaylandırdığı 'İçsel Tetikleyiciler' (Internal Triggers), zihinsel rahatsızlıktan kaçış refleksi ve homeostaz dinamikleri incelendi.
+  - Dr. G. Alan Marlatt'ın Washington Üniversitesi Bağımlılık Davranışları Araştırma Merkezi'nde geliştirdiği 'Dürtü Sörfü' (Urge Surfing) metodolojisi ve Daniel Wegner'in ironik süreç kuramına (beyaz ayı etkisi) karşı '10 Dakika Kuralı' pratik davranışsal protokolü detaylandırıldı.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir dille yalnız Limitra App Block ve uygulama başına bağımsız günlük süre limiti özelliği anıldı; yasak kelimeler, abartılı ifadeler veya tıbbi iddialar kullanılmadı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eksiksiz ve bağımsız yerel gövde metinleriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 102).
+  - 1,565 statik sayfa 0 hata ile derlendi, sitemap 11 dildeki yeni slug'lar ve rotalarla güncellendi.
+  - Cloudflare Workers statik varlıklarına deploy edildi ve canlıda doğrulandı (`npm run check:live` OK, HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,565 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run deploy` (Cloudflare Workers Static Assets yayını)
+  - `npm run check:live` (Canli site guncel. - ID 102 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-09 22:25] - İtalya Okullarda Kapsamlı Cep Telefonu Yasağı 11 Dilde Yayında (ID 101)
 
 * **Model:** Antigravity
