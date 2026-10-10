@@ -1,5 +1,33 @@
 [
   {
+    "id": "103",
+    "slug": "france-pause-numerique-etablissements-scolaires-smartphones-verrouilles-physiquement",
+    "title": "France : La « Pause numérique » généralisée, les smartphones mis à l'écart physiquement à l'école",
+    "summary": "Le ministère de l'Éducation nationale déploie le dispositif « Portable en pause ». Dépassant la loi de 2018, les élèves doivent déposer leurs téléphones dans des casiers ou pochettes sécurisées dès leur arrivée, bannissant les écrans tout au long de la journée scolaire.",
+    "content": [
+      "Le ministère de l'Éducation nationale et de la Jeunesse a généralisé le déploiement du dispositif « Pause numérique » (ou « Portable en pause »), conçu pour restaurer l'attention des élèves, pacifier le climat scolaire et prévenir le cyberharcèlement. Cette initiative vient parfaire la législation de 2018 — qui imposait l'extinction des téléphones dans les cartables — en instaurant une véritable mise à l'écart physique des appareils dès le franchissement des grilles de l'établissement.",
+      "Selon le cadre réglementaire applicable dans les collèges et lycées, les élèves sont tenus de déposer smartphones, montres connectées et écouteurs dans des casiers individuels, des pochettes magnétiques verrouillées ou des boîtes dédiées dès leur arrivée. L'accès aux équipements reste strictement interdit durant les cours, les interclasses, les récréations et la pause méridienne, la restitution n'intervenant qu'à la sortie des cours. Seuls les élèves bénéficiant d'aménagements médicaux ou porteurs de handicap conservent leurs outils d'assistance.",
+      "Les bilans établis par les autorités académiques soulignent que le simple fait de conserver un appareil éteint dans son sac entretient une charge mentale et une attente permanente de notifications. L'expérimentation a prouvé que la consigne physique met fin aux consultations furtives dans les couloirs ou sanitaires, apaise les tensions nées sur les réseaux sociaux et favorise une écoute active en classe, avec un recul sensible des faits de harcèlement en ligne au sein des établissements.",
+      "Chefs d'établissement et psychologues scolaires observent que l'éloignement matériel des écrans a réanimé la convivialité dans les cours de récréation. Privés du réflexe d'isolement numérique, les adolescents renouent avec la discussion directe, la lecture au CDI et les activités sportives partagées. Le règlement intérieur confère en outre au personnel éducatif l'autorité nécessaire pour confisquer tout appareil non déposé jusqu'à la rencontre avec les représentants légaux.",
+      "Pour instaurer une coupure numérique ciblée pendant les heures de cours ou les temps d'étude personnelle, Limitra App Block permet de planifier des plages horaires de blocage sur les applications choisies afin de préserver la concentration."
+    ],
+    "source": "Ministère de l'Éducation nationale et de la Jeunesse & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Écoles et jeunesse",
+    "date": "2026-10-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "France",
+      "Éducation nationale",
+      "Pause numérique",
+      "Portable en pause",
+      "Interdiction smartphone",
+      "Climat scolaire",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "102",
     "slug": "le-surf-des-pulsions-et-la-regle-des-10-minutes-pour-maitriser-son-telephone",
     "title": "Le surf des pulsions et la règle des 10 minutes : Rompre le réflexe impulsif de consulter son téléphone",

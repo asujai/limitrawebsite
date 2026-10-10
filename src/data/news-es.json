@@ -1,5 +1,33 @@
 [
   {
+    "id": "103",
+    "slug": "francia-pausa-digital-escuelas-telefonos-bloqueados-fisicamente",
+    "title": "Francia implementa la 'Pausa Digital' en las escuelas: Móviles bloqueados físicamente durante toda la jornada",
+    "summary": "El Ministerio de Educación de Francia refuerza la prohibición de pantallas con el programa 'Pause Numérique'. Los alumnos deben depositar sus teléfonos en taquillas o estuches bloqueados al entrar al centro educativo, eliminando el uso de pantallas incluso en los recreos.",
+    "content": [
+      "El Ministerio de Educación Nacional de Francia (Ministère de l'Éducation nationale) ha extendido el dispositivo de 'Pausa Digital' (Pause Numérique) con el objetivo de proteger la concentración de los alumnos, mejorar la convivencia escolar y frenar el ciberacoso. Esta medida supera las deficiencias de la ley aprobada en 2018 —que permitía a los estudiantes conservar los teléfonos apagados en sus mochilas— al exigir una separación física obligatoria de los terminales durante toda la jornada lectiva.",
+      "De acuerdo con las directrices ministeriales en colegios e institutos, los estudiantes deben depositar sus teléfonos móviles, relojes inteligentes y auriculares en casilleros seguros, fundas con cierre magnético o cajas colectivas nada más ingresar al recinto. El acceso a los dispositivos queda totalmente vetado durante las horas de clase, los cambios de aula y los períodos de recreo y almuerzo, devolviéndose únicamente a la salida. Se contemplan excepciones estrictas para alumnos con dispositivos médicos de monitorización o necesidades educativas especiales.",
+      "Los informes del ministerio destacan que la presencia pasiva del teléfono en la mochila perpetúa una alerta mental constante y la tentación permanente de comprobar notificaciones. Las experiencias piloto demostraron que la custodia física impidió grabaciones no autorizadas en baños y pasillos, atenuó las disputas nacidas en redes sociales y restableció el foco durante las clases magistrales, registrándose un descenso significativo de los incidentes de acoso digital.",
+      "Directores y pedagogos franceses subrayan que retirar físicamente los teléfonos ha reactivado la vida social en los patios. Al desaparecer el reflejo automático de mirar una pantalla, los estudiantes han retomado las charlas cara a cara, la lectura en bibliotecas y las actividades deportivas en los descansos. La normativa otorga además amparo formal a los docentes para retener los dispositivos que incumplan la norma hasta la intervención familiar.",
+      "Para quienes desean evitar que las notificaciones interrumpan las horas lectivas o las sesiones de trabajo intenso, Limitra App Block permite configurar bloqueos por franja horaria en aplicaciones seleccionadas, ayudando a proteger la concentración."
+    ],
+    "source": "Ministerio de Educación Nacional de Francia & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Escuelas y juventud",
+    "date": "2026-10-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Francia",
+      "Ministerio de Educación",
+      "Pausa Digital",
+      "Prohibición de móviles",
+      "Atención escolar",
+      "Acoso escolar",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "102",
     "slug": "surf-de-impulsos-y-la-regla-de-los-10-minutos-para-frenar-el-movil",
     "title": "El 'surf de impulsos' y la regla de los 10 minutos: Cómo frenar el hábito involuntario de mirar el móvil",

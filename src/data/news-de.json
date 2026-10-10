@@ -1,5 +1,33 @@
 [
   {
+    "id": "103",
+    "slug": "frankreich-digitale-pause-schulen-smartphones-physisch-eingeschlossen",
+    "title": "Frankreich führt 'Digitale Pause' an Schulen ein: Smartphones werden tagsüber physisch weggesperrt",
+    "summary": "Das französische Bildungsministerium weitet das Programm 'Pause Numérique' aus. Schüler müssen ihre Mobiltelefone beim Betreten der Schule in Schließfächern oder sicheren Taschen hinterlegen, sodass Bildschirme während des gesamten Schultags tabu bleiben.",
+    "content": [
+      "Das französische Bildungsministerium (Ministère de l'Éducation nationale) hat das Programm 'Pause Numérique' (Digitale Pause) landesweit ausgebaut, um die Konzentrationsfähigkeit der Schüler zu stärken, das Schulklima zu verbessern und Cybermobbing einzudämmen. Die Maßnahme schließt die Lücken des Gesetzes von 2018 — das lediglich vorschrieb, Handys ausgeschaltet in der Schultasche zu lassen —, indem sie eine strikte physische Trennung von Smartphones und vernetzten Geräten während des gesamten Schultags festlegt.",
+      "Gemäß den ministeriellen Richtlinien an Mittel- und Oberstufenschulen müssen Schüler ihre Mobiltelefone, Smartwatches und kabellosen Kopfhörer beim Betreten des Schulgeländes in Schließfächern, magnetisch verschließbaren Taschen oder Sammelboxen abgeben. Der Zugriff auf persönliche Geräte ist während des Unterrichts, in den Pausen und während der Mittagszeit vollständig untersagt; die Rückgabe erfolgt erst bei Verlassen der Schule. Strenge Ausnahmen gelten ausschließlich für Schüler mit medizinischen Überwachungsgeräten oder besonderem Förderbedarf.",
+      "Evaluierungsberichte der Schulbehörden heben hervor, dass selbst ein stummgeschaltetes Telefon in der Tasche eine dauerhafte kognitive Belastung und Erwartungshaltung erzeugt. Die Testergebnisse aus Modellschulen belegten, dass die physische Aufbewahrung heimliche Handynutzung auf Toiletten, unerlaubte Videoaufnahmen und Konflikte aus sozialen Medien wirksam verhindert hat. Lehrkräfte meldeten eine deutlich höhere Aufmerksamkeit im Unterricht und einen spürbaren Rückgang digitaler Schikanen.",
+      "Schulleiter und Pädagogen betonen, dass der Verzicht auf Bildschirme das soziale Miteinander auf den Schulhöfen wiederbelebt hat. Ohne den automatischen Griff zum Display finden Schüler wieder zu persönlichen Gesprächen, gemeinsamen Spielen und Bewegung in den Pausen zurück. Die Schulordnung gibt den Lehrkräften zudem die rechtliche Befugnis, nicht abgegebene Geräte bis zu einem Elterngespräch einzubehalten.",
+      "Wer störende Mitteilungen während der Schul- oder Arbeitszeit zuverlässig ausschließen möchte, kann mit Limitra App Block feste Zeitfenster für ausgewählte Anwendungen definieren und so die eigene Konzentration schützen."
+    ],
+    "source": "Französisches Bildungsministerium (Ministère de l'Éducation nationale) & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Schulen & Jugend",
+    "date": "2026-10-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Frankreich",
+      "Bildungsministerium",
+      "Digitale Pause",
+      "Pause Numérique",
+      "Handyverbot Schule",
+      "Konzentration",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "102",
     "slug": "urge-surfing-und-die-10-minuten-regel-den-impulsiven-smartphone-griff-stoppen",
     "title": "Urge Surfing und die 10-Minuten-Regel: Den automatischen Griff zum Smartphone stoppen",

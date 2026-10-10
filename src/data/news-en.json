@@ -1,5 +1,33 @@
 [
   {
+    "id": "103",
+    "slug": "france-schools-digital-pause-phones-physically-locked-away",
+    "title": "France Implements 'Digital Pause' in Schools: Smartphones Physically Locked Away During the Day",
+    "summary": "The French Ministry of National Education has expanded the 'Pause Numérique' policy, requiring students to store smartphones in secure lockers upon arrival. Moving beyond the 2018 backpack rule, the measure eliminates screen distraction throughout the entire school day.",
+    "content": [
+      "The French Ministry of National Education (Ministère de l'Éducation nationale) has expanded its nationwide 'Pause Numérique' (Digital Pause) program, aimed at reclaiming student attention, improving classroom dynamics, and curbing cyberbullying. The initiative addresses the limitations of France's 2018 legislation—which required devices to remain turned off inside schoolbags—by establishing a strict standard of physical separation from smartphones and connected wearables throughout the school day.",
+      "Under the policy across middle and high schools, students must surrender their smartphones, smartwatches, and wireless gadgets into dedicated lockers, lockable pouches, or secure homeroom storage boxes upon entering the premises. Access to personal devices remains prohibited across instructional periods, passing intervals, and lunch breaks. Devices are returned only when students leave school at the end of the day. Strict exceptions are preserved solely for students with medical monitoring requirements or specific educational accommodations.",
+      "Evaluation findings published by educational authorities emphasize that simply carrying a silent phone in a backpack maintains continuous cognitive load and anticipatory distraction. Field data from pilot institutions showed that physical storage effectively stopped clandestine hallway browsing, unauthorized bathroom recording, and peer harassment. Schools reported measurable improvements in student attentiveness and a noticeable decline in online bullying incidents during campus hours.",
+      "School administrators and educational psychologists noted that eliminating personal screens restored social vitality to school grounds. Without the default reflex of staring into screens during breaks, students re-engaged in spontaneous face-to-face conversations, board games, library reading, and outdoor recreation. The regulatory framework also grants faculty clear legal authority to confiscate unauthorized devices until parent collection if rules are breached.",
+      "For individuals seeking to eliminate distracting notifications during school hours or focused study blocks, Limitra App Block provides scheduled time-window restrictions on selected applications to help preserve mental clarity."
+    ],
+    "source": "French Ministry of National Education & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Schools & Youth",
+    "date": "2026-10-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "France",
+      "Ministry of Education",
+      "Digital Pause",
+      "Pause Numérique",
+      "School Phone Ban",
+      "Classroom Focus",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "102",
     "slug": "urge-surfing-and-the-10-minute-rule-breaking-the-impulsive-phone-habit",
     "title": "Urge Surfing and the 10-Minute Rule: Breaking the Reflex to Check Your Phone",

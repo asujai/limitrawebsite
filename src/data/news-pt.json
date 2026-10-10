@@ -1,5 +1,33 @@
 [
   {
+    "id": "103",
+    "slug": "franca-pausa-digital-escolas-telemoveis-bloqueados-fisicamente",
+    "title": "França implementa 'Pausa Digital' nas escolas: Telemóveis guardados e bloqueados durante todo o dia",
+    "summary": "O Ministério da Educação de França reforça a proibição de ecrãs através do programa 'Pause Numérique'. Os alunos devem depositar os aparelhos em cacifos ou bolsas de segurança à entrada da escola, impedindo o uso de telemóveis mesmo nos intervalos.",
+    "content": [
+      "O Ministério da Educação Nacional de França (Ministère de l'Éducation nationale) expandiu o programa 'Pausa Digital' (Pause Numérique) a nível nacional para fortalecer o foco dos estudantes, pacificar o ambiente escolar e combater o ciberbullying. A diretriz supera as fragilidades da legislação de 2018 — que apenas exigia manter os telemóveis desligados nas mochilas — ao instaurar a separação física obrigatória de dispositivos eletrónicos durante todo o horário letivo.",
+      "De acordo com os regulamentos em vigor nas escolas básicas e secundárias, os alunos devem entregar smartphones, relógios inteligentes e auriculares em cacifos seguros, bolsas com fecho magnético ou caixas coletivas logo à chegada ao estabelecimento. O acesso aos equipamentos permanece proibido nas salas de aula, nos intervalos e durante o almoço, sendo devolvidos apenas no final do dia. Mantêm-se exceções restritas para estudantes que necessitam de dispositivos para monitorização de saúde ou apoio educativo especial.",
+      "Os relatórios de avaliação do ministério sublinham que manter o telemóvel na mochila, ainda que silencioso, gera uma carga cognitiva contínua e expectativa permanente de notificações. As escolas-piloto demonstraram que o depósito físico erradicou o uso clandestino nos corredores e casas de banho, mitigou tensões originadas em redes sociais e devolveu a atenção às aulas, resultando numa redução expressiva dos incidentes de intimidação virtual.",
+      "Diretores escolares e psicólogos destacam que a retirada física dos ecrãs resgatou a convivência presencial nos recreios. Sem a tentação imediata dos dispositivos, os jovens voltaram a dialogar frente a frente, frequentar bibliotecas e praticar atividades físicas nos intervalos. O regulamento interno faculta ainda aos docentes a prerrogativa legal de reter qualquer equipamento não declarado até comparência dos encarregados de educação.",
+      "Para quem pretende criar um intervalo digital bem definido durante as aulas ou períodos de estudo intenso, o Limitra App Block permite configurar bloqueios por intervalo de horário em aplicações selecionadas, ajudando a manter o foco."
+    ],
+    "source": "Ministério da Educação Nacional de França & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Escolas e juventude",
+    "date": "2026-10-10",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "França",
+      "Ministério da Educação",
+      "Pausa Digital",
+      "Proibição de telemóveis",
+      "Foco escolar",
+      "Ciberbullying",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "102",
     "slug": "surf-de-impulsos-e-a-regra-dos-10-minutos-para-controlar-o-telemovel",
     "title": "Surf de impulsos e a regra dos 10 minutos: Como travar o reflexo automático de pegar no telemóvel",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "103",
+    "slug": "fransada-okullarda-dijital-mola-telefonlar-fiziksel-olarak-kilitleniyor",
+    "title": "Fransa'da Okullarda 'Dijital Mola': Telefonlar Sınıfa Girmeden Fiziksel Olarak Kilitleniyor",
+    "summary": "Fransa Milli Eğitim Bakanlığı, okullarda telefonların çantada kapalı tutulması kuralının yetersiz kalması üzerine 'Pause Numérique' uygulamasını başlattı. Öğrenciler sabah okula girdiklerinde telefonlarını kilitli dolaplara teslim ediyor ve tüm gün ekrandan tamamen izole ediliyor.",
+    "content": [
+      "Fransa Milli Eğitim Bakanlığı (Ministère de l'Éducation nationale), çocukların ve gençlerin dikkat kapasitesini artırmak, sınıf içi huzuru sağlamak ve akran zorbalığını azaltmak amacıyla 'Pause Numérique' (Dijital Mola) uygulamasını ülke çapında genişletti. 2018 yılında yürürlüğe giren ve cihazların okul bahçesinde dahi çantada kapalı tutulmasını öngören yasal çerçevenin sahadaki denetim zorlukları nedeniyle yetersiz kalması üzerine, yeni sistemle birlikte cihazların fiziksel olarak okul kapısında izole edilmesi ilkesi benimsendi.",
+      "Yeni düzenlemeye göre ortaokul ve liselerde öğrenciler okula girdikleri andan itibaren akıllı telefonlarını, akıllı saatlerini ve internet bağlantılı cihazlarını güvenli dolaplara, kilitli manyetik kılıflara veya özel sınıf kutularına teslim ediyor. Gün boyunca, teneffüsler ve öğle yemekleri de dahil olmak üzere öğrencilerin telefonlarına erişimi tamamen engelleniyor. Cihazlar yalnızca okul çıkışında öğrencilere iade ediliyor. Yalnızca sağlık takip cihazı (örneğin diyabet monitörü) kullanan veya özel eğitime ihtiyaç duyan öğrenciler için istisna uygulanıyor.",
+      "Fransa Eğitim Bakanlığı'nın yayımladığı değerlendirme raporlarında, öğrencilerin telefonları çantalarında bulundurmasının dahi sürekli bir bildirim beklentisi ve zihinsel meşguliyet yarattığı vurgulandı. Tuvaletlerde gizlice sosyal medyaya bakma, teneffüslerde video çekip akranlarıyla alay etme ve ders esnasında gizli mesajlaşma gibi problemlerin fiziksel kilit sistemiyle ortadan kalktığı belirtildi. Pilot okullarda yapılan incelemeler, uygulamanın hayata geçirilmesiyle birlikte siber zorbalık olaylarında belirgin bir düşüş ve teneffüslerde yüz yüze sohbet ve fiziksel aktivitede artış sağlandığını gösterdi.",
+      "Fransız okul yöneticileri ve psikologlar, akıllı telefonların sadece sınıftaki akademik başarıyı değil, okulun sosyal dokusunu da aşındırdığına dikkat çekiyor. Telefonların fiziksel olarak toplanması, gençlerin ders aralarında ekranlara dalmak yerine birbiriyle konuşmasını, kütüphaneleri kullanmasını ve spor yapmasını teşvik ediyor. Düzenleme, okul kurallarını ihlal ederek telefonunu teslim etmeyen öğrencilerin cihazlarına gün sonuna veya veli görüşmesine kadar el konulmasına da yasal dayanak sağlıyor.",
+      "Okul saatlerinde veya yoğun çalışma aralıklarında bildirimlerin dikkat dağıtmasını engellemek isteyenler için Limitra App Block, seçilen uygulamalara belirli saat aralıklarında erişim kısıtlaması getirerek odaklanmayı korumaya yardımcı oluyor."
+    ],
+    "source": "Fransa Milli Eğitim Bakanlığı (Ministère de l'Éducation nationale) & Le Monde",
+    "sourceUrl": "https://www.education.gouv.fr",
+    "category": "Okullar & Gençlik",
+    "date": "2026-10-10",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Fransa",
+      "Milli Eğitim Bakanlığı",
+      "Pause Numérique",
+      "Okulda Telefon Yasağı",
+      "Dijital Mola",
+      "Siber Zorbalık",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "102",
     "slug": "durtu-sorfu-ve-10-dakika-kurali-telefona-uzanma-refleksini-kirmak",
     "title": "Dürtü Sörfü ve 10 Dakika Kuralı: Telefona Uzanma Refleksini Kırmak",
