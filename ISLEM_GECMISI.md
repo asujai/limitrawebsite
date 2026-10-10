@@ -23,7 +23,7 @@
   - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
   - `npm run build` (1,565 sayfa, 0 hata)
   - `npm run check:links` (OK - kırık iç bağlantı yok)
-  - `npm run deploy` (Cloudflare Workers Static Assets yayını)
+  - `npm run deploy` (Current Version ID: `1110a5fa-79a0-4e91-8851-098fd574f1f4`)
   - `npm run check:live` (Canli site guncel. - ID 102 HTTP 200)
 * **Bilinen Sorunlar:** Yok
 * **Sonraki Öneri:** Yok

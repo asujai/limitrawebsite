@@ -134,8 +134,8 @@
 ## Son Yapılan İşlem
 - **İşlem:** Dürtü Sörfü ve 10 Dakika Kuralı Rehberi (ID 102) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,565 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** Cloudflare Workers Static Assets yayını
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,565 sayfa, 0 hata), `npm run check:links` (OK), `npm run deploy` (OK), `npm run check:live` ("Canli site guncel.", ID 102 HTTP 200).
+- **Sürüm / Deploy ID:** `1110a5fa-79a0-4e91-8851-098fd574f1f4` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,565 sayfa, 0 hata), `npm run check:links` (OK), `npm run deploy` (Current Version ID: `1110a5fa-79a0-4e91-8851-098fd574f1f4`), `npm run check:live` ("Canli site guncel.", ID 102 HTTP 200).
 - **Sonraki adım:** Yok. Günlük makale/rehber otomasyonu ve yayın döngüsü eksiksiz tamamlandı.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -149,7 +149,7 @@
 - `npm run build` → 1,565 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run deploy` → Cloudflare Workers yayını.
+- `npm run deploy` → Cloudflare sürümü `1110a5fa-79a0-4e91-8851-098fd574f1f4`.
 - `npm run check:live` → "Canli site guncel." (id 102, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
