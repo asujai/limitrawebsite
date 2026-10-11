@@ -9,6 +9,13 @@
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 ## Güncel Durum (2026-10-11)
+- **Florida HB 3 Yasası ile 14 Yaş Altına Sosyal Medya Yasağı 11 Dilde Yayında (Antigravity, 11 Ekim Akşamı):**
+  - Florida Valisi Ron DeSantis tarafından onaylanan ve Eyalet Meclisi Başkanı Paul Renner öncülüğünde yasalaşan House Bill 3 (HB 3 - Reşit Olmayanlar İçin Çevrim İçi Koruma) düzenlemesi detaylandırıldı. 14 yaş altındaki çocukların bağımlılık yapıcı algoritmik platformlarda hesap açmasının kesin olarak yasaklanması, 14 ve 15 yaşındaki gençler için doğrulanabilir ebeveyn onayı zorunluluğu, mevcut hesapların tespiti ve silinmesi, ihlal başına 50.000 dolara varan adli para cezaları işlendi.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 105).
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve uygulama başına günlük süre limiti özelliği anıldı.
+  - 1,609 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,607 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `59b43d5c-e88e-4867-a295-f644bd3b1132`) ve canlıda doğrulandı (`npm run check:live` OK, ID 105 HTTP 200).
+
 - **Roy Baumeister'ın 'Ego Tükenmesi' ve Karar Yorgunluğu Rehberi 11 Dilde Yayında (Antigravity, 11 Ekim):**
   - Sosyal psikolog Prof. Dr. Roy F. Baumeister'ın Case Western Reserve ve Florida State üniversitelerinde yürüttüğü ve 1998'de *Journal of Personality and Social Psychology* dergisinde yayımlanan çığır açıcı özdenetim araştırmaları (turp ve çikolata deneyi) ile 'Ego Tükenmesi' (Ego Depletion) modeli incelendi.
   - Gün boyu verilen yüzlerce mikro kararın prefrontal korteksteki irade rezervini tüketerek 'Karar Yorgunluğu'na (Decision Fatigue) yol açması ve akşam saatlerinde algoritmik akışlara karşı zihinsel frenlerin neden iflas ettiği bilimsel mekanizmasıyla detaylandırıldı.
@@ -149,10 +156,10 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Fransa'da Okullarda 'Dijital Mola' (Pause Numérique) Haberi (ID 103) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,576 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
+- **İşlem:** Florida HB 3 Yasası ile 14 Yaş Altına Sosyal Medya Yasağı Haberi (ID 105) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,609 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `fca9126d-eb1f-49c3-921f-fcf512fe6be6` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,576 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `fca9126d-eb1f-49c3-921f-fcf512fe6be6`), `npm run check:live` ("Canli site guncel.", ID 103 HTTP 200).
+- **Sürüm / Deploy ID:** `59b43d5c-e88e-4867-a295-f644bd3b1132` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,609 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `59b43d5c-e88e-4867-a295-f644bd3b1132`), `npm run check:live` ("Canli site guncel.", ID 105 HTTP 200).
 - **Sonraki adım:** Yok. Günlük haber otomasyonu ve yayın döngüsü eksiksiz tamamlandı.
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -162,13 +169,13 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,574 URL).
-- `npm run build` → 1,576 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,607 URL).
+- `npm run build` → 1,609 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 103, 2026-10-10)
-- `npm run deploy` → Cloudflare sürümü `fca9126d-eb1f-49c3-921f-fcf512fe6be6`.
-- `npm run check:live` → "Canli site guncel." (id 103, fiyat ve app-ads.txt doğrulandı).
+- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 105, 2026-10-11)
+- `npm run deploy` → Cloudflare sürümü `59b43d5c-e88e-4867-a295-f644bd3b1132`.
+- `npm run check:live` → "Canli site guncel." (id 105, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı

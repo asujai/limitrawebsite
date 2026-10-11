@@ -1,5 +1,33 @@
 # İşlem Geçmişi
 
+## [2026-10-11 22:20] - Florida HB 3 Yasası ile 14 Yaş Altına Sosyal Medya Yasağı 11 Dilde Yayında (ID 105)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-105.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,607 URL, yeni rotalar eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-11 için 'Devlet Düzenlemeleri & Yasalar' veya 'Okullar & Gençlik' kategorisinde haber olmadığı teyit edildi).
+  - Florida Valisi Ron DeSantis tarafından onaylanan ve Eyalet Temsilciler Meclisi Başkanı Paul Renner öncülüğünde yasalaşan House Bill 3 (HB 3 - Reşit Olmayanlar İçin Çevrim İçi Koruma) düzenlemesi araştırıldı.
+  - 14 yaş altındaki çocukların bağımlılık yapıcı algoritmik platformlarda hesap açmasının kesin olarak yasaklanması, 14 ve 15 yaşındaki gençler için doğrulanabilir ebeveyn onayı zorunluluğu, mevcut hesapların silinmesi ve ihlal başına 50.000 dolara varan adli para cezaları detaylandırıldı.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir dille yalnız Limitra App Block ve seçilen uygulamalara bağımsız günlük süre limitleri belirleme özelliği anıldı; yasak kelimeler, abartılı ifadeler veya tıbbi iddialar kullanılmadı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eksiksiz ve bağımsız yerel gövde metinleriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 105).
+  - 1,609 statik sayfa 0 hata ile derlendi, sitemap 11 yeni slug ile güncellendi (`npm run check:lang`, `npm run check:links` OK).
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `59b43d5c-e88e-4867-a295-f644bd3b1132`) ve canlıda doğrulandı (`npm run check:live` OK, ID 105 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,609 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` (OK - Bugünün haberi zaten yayınlanmış, ID 105)
+  - `npm run deploy` (Current Version ID: `59b43d5c-e88e-4867-a295-f644bd3b1132`)
+  - `npm run check:live` (Canli site guncel. - ID 105 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-11 12:10] - Roy Baumeister'ın 'Ego Tükenmesi' ve Karar Yorgunluğu Rehberi 11 Dilde Yayında (ID 104)
 
 * **Model:** Antigravity
