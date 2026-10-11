@@ -1,5 +1,33 @@
 [
   {
+    "id": "105",
+    "slug": "floride-loi-hb-3-interdiction-reseaux-sociaux-moins-14-ans",
+    "title": "Floride : Adoption de la loi historique HB 3 interdisant les réseaux sociaux aux moins de 14 ans",
+    "summary": "Promulguée par le gouverneur Ron DeSantis, la loi floridienne HB 3 interdit aux enfants de moins de 14 ans d'ouvrir des comptes sur les plateformes algorithmiques addictives. Elle impose l'accord parental pour les 14-15 ans et prévoit des amendes jusqu'à 50 000 dollars.",
+    "content": [
+      "L'État de Floride a adopté un dispositif législatif majeur pour protéger la santé mentale des mineurs face aux architectures numériques addictives des géants de la technologie. La loi « House Bill 3 » (HB 3 - Protections en ligne pour les mineurs), portée par le président de la Chambre des représentants Paul Renner et promulguée par le gouverneur Ron DeSantis, interdit formellement l'accès aux réseaux sociaux algorithmiques aux enfants de moins de 14 ans.",
+      "Le texte instaure un cadre protecteur à deux niveaux pour encadrer les adolescents. Les plateformes intégrant des fonctionnalités de captation addictive ne peuvent plus créer de comptes pour les moins de 14 ans et ont l'obligation légale de supprimer les comptes existants appartenant à cette tranche d'âge. Pour les jeunes de 14 et 15 ans, l'inscription est subordonnée au consentement explicite et vérifiable des parents ou tuteurs. Sur demande des représentants légaux ou du mineur, les services doivent procéder à la suppression irrévocable du compte sous dix jours ouvrés.",
+      "La loi cible en priorité les mécanismes d'ingénierie comportementale conçus pour maximiser le temps passé devant l'écran plutôt que les contenus eux-mêmes. Sont directement visés le défilement infini (infinite scrolling), la lecture vidéo automatique, les notifications push permanentes et les compteurs d'engagement personnel tels que les mentions 'j'aime'. En application de la loi sur les pratiques commerciales trompeuses et déloyales de Floride, les entreprises défaillantes s'exposent à des amendes civiles pouvant atteindre 50 000 dollars par infraction.",
+      "Pédiatres, psychologues pour enfants et associations de parents ont salué cette initiative, soulignant que l'immersion précoce dans les flux algorithmiques engendre un manque de sommeil chronique, une fragmentation de l'attention et une hausse de l'anxiété. Les parlementaires ont insisté sur le fait que le texte encadre des techniques d'accoutumance commerciale sans restreindre la liberté d'expression. Cette loi constitue une référence nationale alors que plusieurs autres États élaborent des restrictions d'âge comparables.",
+      "Au-delà des cadres réglementaires, instaurer des limites concrètes au quotidien demeure essentiel. Limitra App Block permet de définir des limites de temps quotidiennes indépendantes pour les applications choisies, facilitant ainsi la maîtrise du temps d'écran directement sur l'appareil."
+    ],
+    "source": "Chambre des représentants de Floride & Bureau du Gouverneur",
+    "sourceUrl": "https://www.flgov.com",
+    "category": "Politiques publiques et lois",
+    "date": "2026-10-11",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Floride",
+      "HB 3",
+      "Interdiction réseaux sociaux",
+      "Moins de 14 ans",
+      "Ron DeSantis",
+      "Flux algorithmiques",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "104",
     "slug": "epuisement-de-lego-roy-baumeister-et-le-piege-des-ecrans-le-soir",
     "title": "Le modèle d'« épuisement de l'ego » de Roy Baumeister : Pourquoi notre volonté s'effondre le soir devant les écrans",

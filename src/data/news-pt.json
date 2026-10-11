@@ -1,5 +1,33 @@
 [
   {
+    "id": "105",
+    "slug": "florida-lei-hb-3-proibicao-redes-sociais-menores-14-anos",
+    "title": "Decisão histórica na Flórida: Lei HB 3 proíbe redes sociais para menores de 14 anos",
+    "summary": "Sancionada pelo governador Ron DeSantis, a lei HB 3 da Flórida proíbe que menores de 14 anos possuam contas em plataformas com algoritmos viciantes. O texto exige aval dos pais para jovens de 14 e 15 anos e estipula multas de até 50 mil dólares por infração.",
+    "content": [
+      "O estado da Flórida aprovou uma das legislações mais abrangentes dos Estados Unidos para resguardar a saúde mental infantojuvenil e conter os modelos predatórios de engajamento digital. O projeto de lei House Bill 3 (HB 3 - Proteções Online para Menores), defendido pelo presidente da Câmara Paul Renner e sancionado pelo governador Ron DeSantis, proíbe expressamente menores de 14 anos de criarem contas em redes sociais baseadas em algoritmos de recomendação.",
+      "A legislação estabelece um sistema de proteção em duas fases para blindar crianças e adolescentes. Plataformas que utilizam recursos projetados para prender a atenção estão impedidas de cadastrar usuários com menos de 14 anos e devem identificar e encerrar imediatamente as contas existentes dessa faixa etária. Para jovens de 14 e 15 anos, o acesso exige consentimento formal e comprovável dos pais ou responsáveis. A pedido da família ou do jovem, os dados e a conta devem ser excluídos definitivamente em até dez dias úteis.",
+      "O foco da lei recai sobre a engenharia de design persuasivo dos aplicativos, e não sobre a manifestação de conteúdos. São alvo direto da regulamentação mecanismos como rolagem infinita (infinite scroll), reprodução automática de vídeos, notificações em tempo real e métricas de validação como contadores de curtidas e visualizações. Sob a Lei de Práticas Comerciais Enganosas da Flórida, empresas que descumprirem as verificações de idade enfrentam penalidades civis de até 50 mil dólares por ocorrência.",
+      "Médicos pediatras, psicólogos infantis e entidades de pais apoiaram amplamente a determinação, alertando que a exposição precoce a fluxos algorítmicos alimenta privação crônica de sono, fragmentação atencional e quadros de ansiedade. Os parlamentares ressaltaram que a lei protege vulnerabilidades psicológicas sem restringir a liberdade de comunicação. A medida estabelece uma referência de âmbito nacional que vem inspirando outros estados norte-americanos a debaterem limites etários semelhantes.",
+      "Paralelamente às salvaguardas legais, estabelecer parâmetros claros na rotina diária continua sendo indispensável. O Limitra App Block permite definir limites diários de tempo independentes para aplicativos selecionados, auxiliando na gestão saudável do uso do aparelho diretamente no próprio celular."
+    ],
+    "source": "Câmara dos Representantes da Flórida & Gabinete do Governador",
+    "sourceUrl": "https://www.flgov.com",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-11",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Flórida",
+      "HB 3",
+      "Proibição de redes sociais",
+      "Menores de 14 anos",
+      "Ron DeSantis",
+      "Algoritmos viciantes",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "104",
     "slug": "esgotamento-do-ego-de-roy-baumeister-e-a-armadilha-noturna-do-celular",
     "title": "O modelo de 'esgotamento do ego' de Roy Baumeister: Por que nossa força de vontade desmorona à noite diante das telas",

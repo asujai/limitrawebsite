@@ -1,5 +1,33 @@
 [
   {
+    "id": "105",
+    "slug": "florida-gesetz-hb-3-social-media-verbot-unter-14",
+    "title": "Historischer Beschluss in Florida: Gesetz HB 3 verbietet soziale Medien für Kinder unter 14 Jahren",
+    "summary": "Das von Gouverneur Ron DeSantis unterzeichnete Gesetz HB 3 untersagt Kindern unter 14 Jahren die Kontoführung auf algorithmischen Plattformen. Für 14- und 15-Jährige ist eine elterliche Zustimmung erforderlich, bei Verstößen drohen Strafen von bis zu 50.000 Dollar.",
+    "content": [
+      "Der US-Bundesstaat Florida hat eines der weitreichendsten Kinderschutzgesetze im digitalen Raum verabschiedet, um die psychische Gesundheit junger Menschen vor suchterzeugenden Plattformmechanismen zu schützen. Das Gesetz „House Bill 3“ (HB 3 – Online-Schutz für Minderjährige), initiiert von Parlamentspräsident Paul Renner und unterzeichnet von Gouverneur Ron DeSantis, verbietet Kindern unter 14 Jahren die Nutzung von Social-Media-Plattformen mit algorithmischen Empfehlungs-Feeds.",
+      "Die Neuregelung führt ein zweistufiges Altersmodell ein, um Jugendliche gezielt abzusichern. Plattformen mit bindenden Verhaltensmustern dürfen keine neuen Profile für unter 14-Jährige anlegen und sind verpflichtet, bestehende Konten dieser Altersgruppe vollständig zu löschen. Für 14- und 15-jährige Jugendliche ist ein aktives und nachprüfbares Einverständnis der Erziehungsberechtigten zwingend vorgeschrieben. Auf Verlangen der Eltern oder der Jugendlichen müssen Benutzerkonten innerhalb von zehn Werktagen dauerhaft entfernt werden.",
+      "Der juristische Hebel setzt nicht bei Inhalten oder Meinungsäußerungen an, sondern bei technischen Manipulationsstrukturen zur Verlängerung der Verweildauer. Das Gesetz zielt explizit auf Endlos-Scrolling (Infinite Scroll), automatische Videowiedergabe, permanente Push-Mitteilungen und öffentliche Interaktionszähler wie Likes ab. Nach dem Gesetz gegen unlautere Handelspraktiken in Florida drohen Technologieunternehmen bei mangelhafter Altersverifikation oder wissentlicher Duldung zivilrechtliche Bußgelder von bis zu 50.000 US-Dollar pro Verstoß.",
+      "Kinderärzte, Entwicklungspsychologen und Elterninitiativen begrüßten die Initiative ausdrücklich und wiesen darauf hin, dass die frühe Aussetzung gegenüber algorithmischen Feeds zu gravierendem Schlafmangel, Konzentrationsverlust und erhöhter Ängstlichkeit führt. Die Gesetzgeber betonten, dass die Maßnahme kommerzielle Gewöhnungseffekte reguliert, ohne verfassungsrechtliche Grundrechte zu verletzen. Florida setzt damit einen Maßstab, an dem sich derzeit mehrere US-Bundesstaaten orientieren.",
+      "Neben gesetzlichen Rahmenbedingungen bleibt es im Alltag entscheidend, verlässliche persönliche Nutzungsregeln aufzustellen. Limitra App Block ermöglicht es, unabhängige tägliche Zeitlimits für ausgewählte Anwendungen festzulegen und so den Bildschirmkonsum direkt auf dem Gerät im Gleichgewicht zu halten."
+    ],
+    "source": "Repräsentantenhaus von Florida & Büro des Gouverneurs",
+    "sourceUrl": "https://www.flgov.com",
+    "category": "Regierungspolitik & Gesetze",
+    "date": "2026-10-11",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "Florida",
+      "HB 3",
+      "Social-Media-Verbot",
+      "Unter 14 Jahre",
+      "Ron DeSantis",
+      "Algorithmische Feeds",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "104",
     "slug": "roy-baumeister-ego-depletion-und-die-abendliche-smartphone-falle",
     "title": "Das Modell der 'Ego-Depletion' von Roy Baumeister: Warum unsere Willenskraft abends kapituliert",

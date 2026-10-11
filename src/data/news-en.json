@@ -1,5 +1,33 @@
 [
   {
+    "id": "105",
+    "slug": "florida-hb-3-law-social-media-ban-under-14",
+    "title": "Florida Enacts Landmark HB 3 Law: Social Media Banned for Children Under 14",
+    "summary": "Signed by Governor Ron DeSantis, Florida House Bill 3 strictly prohibits children under 14 from creating accounts on addictive algorithmic platforms. The legislation mandates parental consent for 14- and 15-year-olds and imposes penalties of up to $50,000 per violation.",
+    "content": [
+      "The State of Florida has enacted one of the most comprehensive digital safety frameworks in the United States, designed to safeguard youth mental health and rein in addictive platform designs. Championed by Florida House Speaker Paul Renner and signed into law by Governor Ron DeSantis, House Bill 3 (HB 3 - Online Protections for Minors) establishes a definitive ban on social media accounts for children under the age of 14 on platforms utilizing algorithmic recommendation feeds.",
+      "The legislation introduces a structured two-tiered age framework to protect adolescents. Platforms featuring addictive engagement designs are strictly barred from opening accounts for users under 14, and tech companies are legally required to terminate any existing accounts held by this demographic. For 14- and 15-year-olds, account creation and maintenance require verifiable parental or guardian consent. Upon request by a parent or minor, platforms must permanently delete user accounts and associated personal data within ten business days.",
+      "A central component of HB 3 is its focus on engagement-maximizing system architecture rather than specific speech or content. The statute specifically targets platforms employing features such as infinite scrolling, autoplay video loops, algorithmic recommendation feeds, real-time push notifications, and personal engagement metrics like likes and view counts. Under the Florida Deceptive and Unfair Trade Practices Act, companies failing to implement reasonable age assurance or knowingly permitting unauthorized accounts face civil penalties of up to $50,000 per violation.",
+      "Child health advocates, pediatricians, and educators have widely welcomed the measures, citing mounting evidence that early immersion in algorithmic media drives severe sleep deprivation, fragmented attention spans, and elevated anxiety. State lawmakers stressed that the statute respects First Amendment boundaries by regulating commercial habit-forming design elements rather than expressive speech. The legislation serves as an influential national precedent as numerous other states advance similar age-based digital protections.",
+      "Alongside legislative safeguards, establishing clear and practical boundaries in daily screen use remains vital. Limitra App Block provides independent daily time limits on selected applications, helping users manage their device habits directly on the phone."
+    ],
+    "source": "Florida House of Representatives & Executive Office of the Governor",
+    "sourceUrl": "https://www.flgov.com",
+    "category": "Government Policies & Laws",
+    "date": "2026-10-11",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Florida",
+      "HB 3",
+      "Social Media Ban",
+      "Under 14",
+      "Ron DeSantis",
+      "Algorithmic Feeds",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "104",
     "slug": "roy-baumeister-ego-depletion-decision-fatigue-evening-screen-trap",
     "title": "Roy Baumeister's 'Ego Depletion' Model: Why Our Willpower Collapses at Night and Surrenders to Screens",

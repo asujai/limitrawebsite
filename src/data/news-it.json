@@ -1,5 +1,33 @@
 [
   {
+    "id": "105",
+    "slug": "florida-legge-hb-3-divieto-social-media-sotto-14-anni",
+    "title": "Svolta storica in Florida: La legge HB 3 vieta i social media ai minori di 14 anni",
+    "summary": "Firmata dal governatore Ron DeSantis, la legge HB 3 della Florida proibisce ai minori di 14 anni l'apertura di profili su piattaforme algoritmiche persuasive. Obbligo di consenso genitoriale per i 14-15enni e sanzioni fino a 50.000 dollari per violazione.",
+    "content": [
+      "Lo Stato della Florida ha approvato una delle leggi più incisive degli Stati Uniti per proteggere il benessere psicologico dei minori e porre un freno ai modelli di design digitale basati sulla dipendenza. La legge House Bill 3 (HB 3 - Protezioni online per i minori), promossa dal presidente della Camera Paul Renner e firmata dal governatore Ron DeSantis, vieta formalmente ai minori di 14 anni il possesso di account su piattaforme social governate da algoritmi predittivi.",
+      "La disciplina istituisce un doppio livello di garanzia anagrafica a tutela dei giovanissimi. I servizi online dotati di schemi persuasivi non possono attivare nuovi account per gli utenti sotto i 14 anni e sono obbligati a individuare e cancellare i profili già registrati di questa fascia d'età. Per i ragazzi di 14 e 15 anni la permanenza sui social è consentita unicamente previa autorizzazione verificabile dei genitori. Su richiesta dei familiari o del minore, i gestori devono provvedere alla rimozione definitiva dei dati entro dieci giorni lavorativi.",
+      "Il cardine della misura risiede nell'architettura tecnologica studiata per generare dipendenza, anziché sulla censura di specifici messaggi. La legge interviene contro lo scorrimento infinito (infinite scrolling), l'avvio automatico dei video, le notifiche push assidue e i contatori di gradimento personale come like e visualizzazioni. In base alla legge contro le pratiche commerciali sleali della Florida, le società che omettono controlli anagrafici adeguati rischiano sanzioni civili fino a 50.000 dollari per ciascuna infrazione.",
+      "Pediatri, neuropsichiatri infantili e associazioni scolastiche hanno accolto con favore la riforma, ricordando come l'esposizione precoce alle timeline algoritmiche comprometta i ritmi del sonno, frantumi la concentrazione e alimenti stati d'ansia. I promotori hanno chiarito che il provvedimento argina tecniche commerciali di assuefazione tutelando i diritti costituzionali. La legge funge ora da modello apripista per numerosi altri Stati americani intenzionati a porre limiti stringenti per i minori.",
+      "Accanto agli interventi legislativi, definire limiti pratici e costanti nella vita di tutti i giorni rimane essenziale. Limitra App Block consente di impostare limiti di tempo giornalieri indipendenti per le applicazioni selezionate, aiutando a regolare l'uso dello schermo direttamente dal dispositivo."
+    ],
+    "source": "Camera dei Rappresentanti della Florida & Ufficio del Governatore",
+    "sourceUrl": "https://www.flgov.com",
+    "category": "Politiche governative e leggi",
+    "date": "2026-10-11",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Florida",
+      "HB 3",
+      "Divieto social media",
+      "Under 14",
+      "Ron DeSantis",
+      "Algoritmi persuasivi",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "104",
     "slug": "esaurimento-dell-ego-di-roy-baumeister-e-la-trappola-serale-dello-smartphone",
     "title": "Il modello di 'esaurimento dell'ego' di Roy Baumeister: Perché la nostra forza di volontà crolla la sera davanti agli schermi",
