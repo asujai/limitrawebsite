@@ -8,6 +8,16 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-11)
+- **Roy Baumeister'ın 'Ego Tükenmesi' ve Karar Yorgunluğu Rehberi 11 Dilde Yayında (Antigravity, 11 Ekim):**
+  - Sosyal psikolog Prof. Dr. Roy F. Baumeister'ın Case Western Reserve ve Florida State üniversitelerinde yürüttüğü ve 1998'de *Journal of Personality and Social Psychology* dergisinde yayımlanan çığır açıcı özdenetim araştırmaları (turp ve çikolata deneyi) ile 'Ego Tükenmesi' (Ego Depletion) modeli incelendi.
+  - Gün boyu verilen yüzlerce mikro kararın prefrontal korteksteki irade rezervini tüketerek 'Karar Yorgunluğu'na (Decision Fatigue) yol açması ve akşam saatlerinde algoritmik akışlara karşı zihinsel frenlerin neden iflas ettiği bilimsel mekanizmasıyla detaylandırıldı.
+  - Baumeister ve John Tierney'nin *Willpower: Rediscovering the Greatest Human Strength* eserine dayanan proaktif çevre mimarisi ve akşam ekran krizini önleme protokolü detaylandırıldı.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 104).
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve saat aralığına göre engelleme (Restriction Schedule) özelliği anıldı.
+  - 1,598 statik sayfa 0 hata ile derlendi, sitemap 11 yeni slug ve ekran kontrolü rotalarıyla güncellendi (1,596 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `00c151de-a468-450d-aa18-2fdbf104a6e2`) ve canlıda doğrulandı (`npm run check:live` OK, ID 104 HTTP 200).
+
 ## Güncel Durum (2026-10-10)
 - **Fransa'da Okullarda 'Dijital Mola' (Pause Numérique) 11 Dilde Yayında (Antigravity, 10 Ekim Akşamı):**
   - Fransa Milli Eğitim Bakanlığı'nın (Ministère de l'Éducation nationale) ortaokul ve liselerde başlattığı 'Pause Numérique' (Portable en Pause) uygulaması detaylandırıldı. 2018'deki çantada kapalı tutma kuralının yetersiz kalması üzerine benimsenen yeni sistemle; öğrencilerin sabah girişte cihazlarını kilitli dolaplara teslim etmesi, teneffüsler ve öğle arası dahil tüm gün ekranlardan tamamen izole edilmesi, siber zorbalık olaylarında azalma ve yüz yüze sosyalleşmede artış verileri işlendi.

@@ -1,5 +1,34 @@
 # İşlem Geçmişi
 
+## [2026-10-11 12:10] - Roy Baumeister'ın 'Ego Tükenmesi' ve Karar Yorgunluğu Rehberi 11 Dilde Yayında (ID 104)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-104.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-11 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,596 URL, yeni rotalar eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-11 için rehber/makale kategorisinde içerik olmadığı teyit edildi).
+  - Sosyal psikolog Prof. Dr. Roy F. Baumeister'ın Case Western Reserve ve Florida State üniversitelerinde yürüttüğü ve 1998'de *Journal of Personality and Social Psychology* dergisinde yayımlanan çığır açıcı özdenetim araştırmaları (turp ve çikolata deneyi) ile 'Ego Tükenmesi' (Ego Depletion) modeli incelendi.
+  - Gün boyu verilen yüzlerce mikro kararın prefrontal korteksteki irade rezervini tüketerek 'Karar Yorgunluğu'na (Decision Fatigue) yol açması ve akşam saatlerinde algoritmik akışlara karşı zihinsel frenlerin neden iflas ettiği bilimsel mekanizmasıyla detaylandırıldı.
+  - Baumeister ve John Tierney'nin *Willpower: Rediscovering the Greatest Human Strength* eserine dayanan proaktif çevre mimarisi ve akşam ekran krizini önleme protokolü oluşturuldu.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir dille yalnız Limitra App Block ve saat aralığına göre engelleme (Restriction Schedule) özelliği anıldı; yasak kelimeler, abartılı ifadeler veya tıbbi iddialar kullanılmadı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eksiksiz ve bağımsız yerel gövde metinleriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 104).
+  - 1,598 statik sayfa 0 hata ile derlendi, sitemap 11 dildeki yeni slug'lar ve rotalarla güncellendi (`npm run check:lang`, `npm run check:links` OK).
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `00c151de-a468-450d-aa18-2fdbf104a6e2`) ve canlıda doğrulandı (`npm run check:live` OK, ID 104 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,598 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run deploy` (Current Version ID: `00c151de-a468-450d-aa18-2fdbf104a6e2`)
+  - `npm run check:live` (Canli site guncel. - ID 104 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-10 22:21] - Fransa'da Okullarda 'Dijital Mola' (Pause Numérique) Haberi 11 Dilde Yayında (ID 103)
 
 * **Model:** Antigravity
