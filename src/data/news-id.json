@@ -1,5 +1,33 @@
 [
   {
+    "id": "104",
+    "slug": "model-ego-depletion-roy-baumeister-mengapa-tekad-runtuh-malam-hari",
+    "title": "Model 'Ego Depletion' Roy Baumeister: Mengapa Tekad Kita Runtuh di Malam Hari dan Menyerah pada Layar Ponsel?",
+    "summary": "Mengapa orang yang sangat fokus sepanjang hari tidak berdaya menghentikan scrolling di tempat tidur bukan karena kelemahan karakter, melainkan terkurasnya cadangan biologis tekad. Panduan mencegah krisis layar malam hari berdasarkan riset Roy Baumeister tentang kelelahan ego dan kelelahan keputusan.",
+    "content": [
+      "Bagi banyak orang, momen paling paradoks dalam sehari terjadi saat malam tiba. Seseorang yang bangun pagi, menyelesaikan laporan rumit, mengelola rapat yang menegangkan, dan menunjukkan disiplin diri luar biasa sepanjang jam kerja dapat berubah menjadi sosok yang sama sekali berbeda pada pukul sepuluh malam. Niat sederhana untuk 'hanya melihat ponsel lima menit sebelum tidur' dengan cepat larut menjadi berjam-jam scrolling tanpa henti di media sosial; tatapan terkunci pada layar dan malam berakhir larut disertai perasaan bersalah yang mendalam. Orang-orang sering menganggap hal ini sebagai kelemahan karakter atau kegagalan moral. Namun, temuan eksperimental dari psikolog sosial Prof. Dr. Roy F. Baumeister membuktikan bahwa masalah sesungguhnya bukanlah karakter yang lemah, melainkan terkurasnya sumber daya energi biologis yang terbatas.",
+      "Dalam penelitian penting tahun 1998 yang diterbitkan di 'Journal of Personality and Social Psychology', dilakukan di Case Western Reserve University dan Florida State University, Baumeister dan timnya membuktikan bahwa pengendalian diri bukanlah kebajikan tanpa batas, melainkan berfungsi layaknya otot yang mengalami kelelahan saat terus digunakan. Dalam eksperimen terkenal yang melibatkan lobak dan kue cokelat panggang, peserta yang diharuskan menahan godaan aroma kue dan hanya memakan lobak mentah menyerah saat mengerjakan teka-teki geometri yang mustahil dipecahkan hanya dalam 8 menit, sedangkan kelompok kontrol bertahan rata-rata 21 menit. Baumeister menamai kondisi penurunan psikologis ini sebagai 'Ego Depletion' (Pengurasan Ego).",
+      "Mekanisme pengendalian diri di otak terus-menerus membakar energi sepanjang hari. Mulai dari memilih pakaian di pagi hari dan menyusun tanggapan email yang cermat, hingga menahan kekesalan di jalan raya dan mengabaikan gangguan di tempat kerja, setiap keputusan mikro menyedot energi dari korteks prefrontal. Proses kumulatif ini, yang dikenal dalam psikologi sebagai 'Kelelahan Keputusan' (Decision Fatigue), melumpuhkan rem mental menjelang malam. Pada pukul 22.00, mengambil smartphone menghadapkan pikiran yang lelah pada arus algoritma yang dirancang oleh ribuan insinyur untuk menahan perhatian selama mungkin. Mengharapkan tekad yang terkuras untuk melawan godaan tersebut sendirian adalah hal yang secara biologis tidak realistis.",
+      "Sebagaimana diuraikan Roy Baumeister dan John Tierney dalam karya mereka 'Willpower: Rediscovering the Greatest Human Strength', individu yang tampak memiliki pengendalian diri luar biasa bukanlah mereka yang terus-menerus bertarung melawan godaan secara heroik. Sebaliknya, mereka menyadari keterbatasan tekad dan menata lingkungan mereka agar terhindar dari godaan ketika lelah. Menghindari jebakan scrolling malam hari tidak membutuhkan pengerahan tekad lebih keras di larut malam, melainkan penerapan batasan lingkungan yang otomatis. Mengurangi keputusan sepele di siang hari, memajukan tugas berat ke pagi hari, dan menetapkan batasan mekanis yang jelas untuk perangkat pada malam hari menjadi fondasi pendekatan ini.",
+      "Bagi mereka yang ingin melindungi waktu istirahat malam dari jebakan algoritma tanpa harus bergantung pada tekad yang sudah terkuras, Limitra App Block memungkinkan pengguna menerapkan pembatasan akses pada aplikasi tertentu dalam rentang jam yang ditentukan guna mendukung malam yang tenang dan bebas layar."
+    ],
+    "source": "Roy Baumeister (Willpower) & Journal of Personality and Social Psychology",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.74.5.1252",
+    "category": "Kontrol Waktu Layar",
+    "date": "2026-10-11",
+    "readTime": "6 mnt",
+    "featured": false,
+    "tags": [
+      "Roy Baumeister",
+      "Ego Depletion",
+      "Kelelahan Keputusan",
+      "Kekuatan Tekad",
+      "Kontrol Waktu Layar",
+      "Korteks Prefrontal",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "103",
     "slug": "prancis-jeda-digital-sekolah-ponsel-dikunci-secara-fisik",
     "title": "Prancis Terapkan 'Jeda Digital' di Sekolah: Ponsel Pintar Dikunci Fisik Sepanjang Hari Belajar",

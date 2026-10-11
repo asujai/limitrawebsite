@@ -1,5 +1,33 @@
 [
   {
+    "id": "104",
+    "slug": "roy-baumeister-ego-depletion-und-die-abendliche-smartphone-falle",
+    "title": "Das Modell der 'Ego-Depletion' von Roy Baumeister: Warum unsere Willenskraft abends kapituliert",
+    "summary": "Dass Menschen nach einem hochproduktiven Arbeitstag abends stundenlang am Smartphone hängenbleiben, liegt nicht an mangelnder Selbstdisziplin, sondern an erschöpften biologischen Willensressourcen. Wie Roy Baumeisters Forschung zu Ego-Depletion und Entscheidungsmüdigkeit hilft, abendliche Bildschirmkrisen zu verhindern.",
+    "content": [
+      "Für viele Menschen ist der späte Abend der widersprüchlichste Moment des Tages. Jemand, der früh aufsteht, anspruchsvolle Berichte verfasst, schwierige Besprechungen meistert und tagsüber vorbildliche Selbstdisziplin an den Tag legt, verwandelt sich um 22:00 Uhr auf dem Sofa in eine völlig andere Person. Der Vorsatz, 'nur noch fünf Minuten vor dem Schlafen' auf das Smartphone zu schauen, mündet in stundenlosem Scrollen durch endlose Feeds. Der Blick bleibt wie gefesselt am Display haften, und das Licht wird schließlich weit nach Mitternacht unter schweren Schuldgefühlen gelöscht. Dieses Verhalten wird häufig als Charakterschwäche abgetan. Doch experimentelle Erkenntnisse des Sozialpsychologen Prof. Dr. Roy F. Baumeister belegen, dass nicht ein schwacher Wille die Ursache ist, sondern ein biologisch geleerter Energiespeicher.",
+      "In einer wegweisenden Studie aus dem Jahr 1998 im 'Journal of Personality and Social Psychology', durchgeführt an der Case Western Reserve University und der Florida State University, wiesen Baumeister und sein Team nach, dass Willenskraft keine unbegrenzte Tugend ist, sondern wie ein Muskel bei Beanspruchung ermüdet. Im berühmten Radieschen-Kekse-Experiment gaben Probanden, die dem Duft frisch gebackener Schokoladenkekse widerstehen und stattdessen rohe Radieschen essen mussten, bei einer unlösbaren Geometrieaufgabe bereits nach 8 Minuten auf, während die Kontrollgruppe durchschnittlich 21 Minuten durchhielt. Baumeister prägte für dieses psychologische Phänomen den Begriff 'Ego-Depletion' (Ich-Erschöpfung).",
+      "Das menschliche Steuerungssystem im Gehirn verbraucht im Laufe eines Tages kontinuierlich Energie. Von der morgendlichen Kleidungswahl über diplomatische Antworten im Berufsalltag bis hin zum Unterdrücken von Frustration und dem Ausblenden von Störungen: Jede einzelne Mikroentscheidung schwächt die Kapazitäten des präfrontalen Kortex. Dieser Prozess, der in der Psychologie als 'Entscheidungsmüdigkeit' (Decision Fatigue) bekannt ist, setzt die mentalen Bremsen gegen Abend schrittweise außer Kraft. Wer um 22:00 Uhr zum Smartphone greift, liefert ein erschöpftes Gehirn hochentwickelten Algorithmen aus, die gezielt auf maximale Verweildauer optimiert sind. Zu erwarten, dass reine Willenskraft in diesem Moment standhält, widerspricht der menschlichen Biologie.",
+      "Wie Roy Baumeister und John Tierney in ihrem Standardwerk 'Willpower: Rediscovering the Greatest Human Strength' darlegen, zeichnen sich besonders disziplinierte Menschen nicht durch ständige heroische Willensanstrengungen aus. Sie gestalten vielmehr ihre Umgebung so, dass sie Versuchungen gar nicht erst ausgesetzt sind, wenn ihre geistigen Reserven erschöpft sind. Die Lösung für die abendliche Smartphone-Falle liegt daher nicht in noch mehr Willensanstrengung zu später Stunde, sondern in vorausschauenden äußeren Rahmenbedingungen. Unwichtige Alltagsentscheidungen zu automatisieren, anstrengende Aufgaben in den Vormittag zu verlegen und feste technische Schranken für den Abend zu definieren, bildet das Fundament dieses Konzepts.",
+      "Wer seine abendliche Erholung nicht einer erschöpften Willenskraft überlassen und seine Nachtruhe vor algorithmischen Feeds schützen möchte, kann mit Limitra App Block feste Zeitfenster für Zugriffsbeschränkungen auf ausgewählte Anwendungen einrichten, um den Abend bildschirmfrei und gelassen zu verbringen."
+    ],
+    "source": "Roy Baumeister (Willpower) & Journal of Personality and Social Psychology",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.74.5.1252",
+    "category": "Bildschirmzeit-Kontrolle",
+    "date": "2026-10-11",
+    "readTime": "6 Min.",
+    "featured": false,
+    "tags": [
+      "Roy Baumeister",
+      "Ego-Depletion",
+      "Entscheidungsmüdigkeit",
+      "Willenskraft",
+      "Bildschirmzeit-Kontrolle",
+      "Präfrontaler Kortex",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "103",
     "slug": "frankreich-digitale-pause-schulen-smartphones-physisch-eingeschlossen",
     "title": "Frankreich führt 'Digitale Pause' an Schulen ein: Smartphones werden tagsüber physisch weggesperrt",

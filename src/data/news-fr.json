@@ -1,5 +1,33 @@
 [
   {
+    "id": "104",
+    "slug": "epuisement-de-lego-roy-baumeister-et-le-piege-des-ecrans-le-soir",
+    "title": "Le modèle d'« épuisement de l'ego » de Roy Baumeister : Pourquoi notre volonté s'effondre le soir devant les écrans",
+    "summary": "Ceux qui font preuve d'une concentration exemplaire au travail mais ne parviennent pas à lâcher leur téléphone au lit ne manquent pas de volonté : leur réservoir biologique d'autocontrôle est simplement vidé. Analyse de l'épuisement de l'ego et de la fatigue décisionnelle selon Roy Baumeister.",
+    "content": [
+      "Pour beaucoup d'entre nous, le moment le plus paradoxal de la journée survient en soirée. Une personne capable de se lever tôt, de rédiger des synthèses complexes, de gérer des réunions tendues et de faire preuve d'une rigueur absolue toute la journée devient méconnaissable vers 22 heures. Partie avec l'intention de « regarder juste cinq minutes avant de dormir », elle se retrouve happée pendant deux heures par le défilement d'un fil d'actualité, incapable d'éteindre l'écran, avant de sombrer dans le remords. On attribue couramment cette dérive à un manque de courage ou de discipline. Pourtant, les recherches du professeur Roy F. Baumeister prouvent qu'il ne s'agit pas d'une faiblesse morale, mais de l'épuisement d'un stock d'énergie biologique bien réel.",
+      "Dans une étude majeure parue en 1998 dans le 'Journal of Personality and Social Psychology', menée à l'Université Case Western Reserve et à l'Université d'État de Floride, Baumeister et son équipe ont démontré que la volonté ne constitue pas une ressource infinie, mais fonctionne comme un muscle sujet à la fatigue. Lors de la célèbre expérience opposant des radis crus à des biscuits au chocolat fraîchement cuits, les sujets contraints de résister à la tentation du chocolat pour grignoter des radis ont abandonné un casse-tête géométrique insoluble en 8 minutes seulement, contre 21 minutes pour le groupe témoin. Baumeister a baptisé cette baisse de régime psychologique « l'épuisement de l'ego » (Ego Depletion).",
+      "Le cortex préfrontal sollicite en continu ses capacités d'inhibition tout au long de la journée. Qu'il s'agisse de choisir sa tenue matinale, de formuler une réponse professionnelle nuancée, de réprimer son agacement dans les transports ou de filtrer les sollicitations professionnelles, chaque microdécision entame le réservoir d'autorégulation. Ce phénomène, connu sous le nom de « fatigue décisionnelle » (Decision Fatigue), désactive les freins cérébraux à l'approche de la nuit. À 22 heures, saisir son smartphone place un cerveau épuisé face à des algorithmes conçus par des centaines d'ingénieurs pour maximiser la rétention. Espérer qu'une volonté à plat puisse résister à cette stimulation par la seule contrainte mentale est illusoire.",
+      "Comme le soulignent Roy Baumeister et John Tierney dans leur ouvrage 'Willpower: Rediscovering the Greatest Human Strength', les individus qui semblent dotés d'une autodiscipline d'acier ne passent pas leur vie à lutter contre leurs pulsions. Ils anticipent l'épuisement de leur volonté en agençant leur cadre de vie de manière à éliminer les tentations superflues. Pour enrayer la captation nocturne des écrans, la solution ne réside pas dans un surcroît d'effort mental tardif, mais dans l'instauration de barrières environnementales automatiques. Réduire les microdécisions diurnes, programmer les tâches clés le matin et définir des limites mécaniques pour les appareils le soir forment le socle d'un repos préservé.",
+      "Pour ceux qui souhaitent préserver leurs soirées des flux algorithmiques sans compter sur une volonté épuisée en fin de journée, Limitra App Block permet de programmer des plages horaires de restriction sur les applications sélectionnées afin de favoriser des nuits paisibles et déconnectées."
+    ],
+    "source": "Roy Baumeister (Willpower) & Journal of Personality and Social Psychology",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.74.5.1252",
+    "category": "Contrôle du Temps d'Écran",
+    "date": "2026-10-11",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Roy Baumeister",
+      "Épuisement de l'ego",
+      "Fatigue décisionnelle",
+      "Force de volonté",
+      "Contrôle du Temps d'Écran",
+      "Cortex préfrontal",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "103",
     "slug": "france-pause-numerique-etablissements-scolaires-smartphones-verrouilles-physiquement",
     "title": "France : La « Pause numérique » généralisée, les smartphones mis à l'écart physiquement à l'école",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "104",
+    "slug": "roy-baumeister-ego-tukenmesi-ve-karar-yorgunlugu-aksam-ekran-tuzagi",
+    "title": "Roy Baumeister'ın 'Ego Tükenmesi' Modeli: Gün Sonunda İrademiz Neden Çöker ve Telefona Teslim Oluruz?",
+    "summary": "Gündüz saatlerinde işine odaklanan bireylerin akşam yatakta saatlerce telefon kaydırmayı durduramamasının nedeni zayıf karakter değil, biyolojik olarak tükenen irade rezervidir. Roy Baumeister'ın 'Ego Tükenmesi' (Ego Depletion) ve karar yorgunluğu araştırmaları ışığında akşam ekran krizini önleme rehberi.",
+    "content": [
+      "Pek çok insan için günün en çelişkili anı akşam saatleridir. Sabah erken uyanıp iş yerinde veya okulda karmaşık raporlar hazırlayan, zorlu toplantılarda dürtülerini kontrol eden ve gün boyunca yüksek disiplin sergileyen biri, akşam saat 22:00'de koltuğa veya yatağa uzandığında bambaşka birine dönüşür. 'Yalnızca beş dakika bakıp uyuyacağım' düşüncesiyle açılan sosyal medya akışında saatler erir; zihin ekrandan gözünü ayıramaz ve gece yarısı derin bir suçluluk ve pişmanlık duygusuyla kapanır. İnsanlar bu tabloyu genellikle zayıf irade veya ahlaki bir yetersizlik olarak değerlendirir. Oysa sosyal psikolojinin en saygın kuramcılarından Prof. Dr. Roy F. Baumeister'ın deneysel bulguları, meselenin karakter zayıflığı değil, tükenen biyolojik bir enerji havuzu olduğunu kanıtlamaktadır.",
+      "Case Western Reserve Üniversitesi ve Florida State Üniversitesi'nde yürütülen ve 1998 yılında 'Journal of Personality and Social Psychology' dergisinde yayımlanan çığır açıcı deneyde Baumeister ve ekibi, iradenin sınırsız bir zihinsel güç değil, çalışan bir kas gibi yorulan sınırlı bir kaynak olduğunu ortaya koydu. Ünlü 'turp ve çikolata' deneyinde, taze pişmiş çikolatalı kurabiyelerin kokusu altında bırakılan ancak sadece çiğ turp yemelerine izin verilen deneklerin, çözülmesi imkansız bir geometri bulmacası karşısında mücadele etme süreleri ölçüldü. Çikolata arzusunu bastırmak için iradelerini tüketen grup sadece 8 dakika içinde pes ederken; hiçbir baştan çıkarıcıya direnmek zorunda kalmayan kontrol grubu ortalama 21 dakika boyunca çaba göstermeye devam etti. Baumeister bu olguyu 'Ego Tükenmesi' (Ego Depletion) olarak adlandırdı.",
+      "İnsanın öz denetim mekanizması gün boyu sürekli enerji harcar. Sabah giyeceğiniz kıyafeti seçmekten gelen bir e-postayı yanıtlama biçiminize, trafikte öfkenizi yutmaktan işteki dikkat dağıtıcıları savuşturmaya kadar verilen her mikro karar prefrontal korteksteki irade rezervinden eksiltir. Psikolojide 'Karar Yorgunluğu' (Decision Fatigue) olarak tanımlanan bu süreç, akşama doğru zihinsel fren mekanizmasını neredeyse tamamen devre dışı bırakır. Saat 22:00 olduğunda elinize aldığınız akıllı telefon, binlerce nörobilimci ve algoritma mühendisi tarafından dikkatinizi maksimum sürede tutmak için tasarlanmış devasa bir baştan çıkarıcıdır. Tükenmiş bir iradenin, biyolojik olarak en savunmasız anında bu uyarım bombardımanına tek başına direnmesini beklemek gerçekçi değildir.",
+      "Roy Baumeister ve gazeteci John Tierney'nin 'Willpower: Rediscovering the Greatest Human Strength' adlı eserinde vurguladığı üzere, hayatta en yüksek öz denetime sahip görünen insanlar sürekli irade mücadelesi verenler değildir. Aksine bu kişiler, iradenin tükeneceğini bilerek ortamlarını baştan tasarlayan ve kendilerini baştan çıkarıcı durumlarla baş başa bırakmayanlardır. Akşam saatlerindeki ekran krizini çözmenin yolu daha fazla irade göstermeye çalışmak değil, iradeye ihtiyaç bırakmayan çevresel kurallar koymaktır. Gün içindeki gereksiz mikro kararları rutinleştirerek zihinsel enerjiyi korumak, yorucu işleri sabah saatlerine çekmek ve akşam saatlerinde teknoloji kullanımına peşinen net sınırlar çekmek bu protokolün temelini oluşturur.",
+      "Akşam saatlerinde tükenen iradeye güvenmek yerine dinlenme saatlerini algoritmik akışlardan korumak isteyenler için Limitra App Block, seçilen uygulamalara belirli saat aralıklarında erişim kısıtlaması getirerek geceyi ekransız ve dingin geçirmeye yardımcı oluyor."
+    ],
+    "source": "Roy Baumeister (Willpower) & Journal of Personality and Social Psychology",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.74.5.1252",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-11",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Roy Baumeister",
+      "Ego Tükenmesi",
+      "Karar Yorgunluğu",
+      "İrade Gücü",
+      "Ekran Süresi Kontrolü",
+      "Prefrontal Korteks",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "103",
     "slug": "fransada-okullarda-dijital-mola-telefonlar-fiziksel-olarak-kilitleniyor",
     "title": "Fransa'da Okullarda 'Dijital Mola': Telefonlar Sınıfa Girmeden Fiziksel Olarak Kilitleniyor",

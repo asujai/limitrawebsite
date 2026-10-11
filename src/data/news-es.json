@@ -1,5 +1,33 @@
 [
   {
+    "id": "104",
+    "slug": "el-agotamiento-del-ego-de-roy-baumeister-y-la-trampa-nocturna-del-movil",
+    "title": "El modelo de 'agotamiento del ego' de Roy Baumeister: Por qué nuestra fuerza de voluntad colapsa de noche frente a las pantallas",
+    "summary": "Quienes mantienen una concentración impecable durante el día pero no pueden dejar de mirar el móvil en la cama no sufren una falta de carácter, sino un agotamiento biológico de su reserva de autocontrol. Guía basada en las investigaciones de Roy Baumeister sobre el agotamiento del ego y la fatiga por decisión.",
+    "content": [
+      "Para muchas personas, el momento más desconcertante de la jornada llega al anochecer. Alguien que madruga, elabora informes exigentes, gestiona reuniones complejas y mantiene una estricta autodisciplina durante todo el día, se transforma en alguien irreconocible a las diez de la noche. La idea de 'mirar solo cinco minutos antes de dormir' se convierte en horas de navegación involuntaria por redes sociales; la mirada queda atrapada en la pantalla y la noche concluye con una profunda sensación de culpa y frustración. La sociedad suele catalogar esto como pereza o debilidad moral. Sin embargo, las investigaciones del doctor Roy F. Baumeister demuestran que no se trata de una falta de carácter, sino de una reserva biológica de energía que se ha agotado por completo.",
+      "En un célebre estudio publicado en 1998 en el 'Journal of Personality and Social Psychology', Baumeister y su equipo descubrieron que el autocontrol no es una cualidad moral ilimitada, sino un recurso finito que se fatiga igual que un músculo. En el famoso experimento de los rábanos y las galletas recién horneadas, los participantes a quienes se obligó a resistir el aroma del chocolate y comer únicamente rábanos se rindieron ante un rompecabezas irresoluble en apenas 8 minutos, mientras que el grupo de control persistió durante una media de 21 minutos. Baumeister denominó a esta vulnerabilidad psicológica 'agotamiento del ego' (Ego Depletion).",
+      "El mecanismo cerebral de autorregulación gasta recursos de manera constante durante el día. Desde decidir qué ropa vestir o cómo responder a un correo delicado, hasta contener una molestia en el tráfico y filtrar las distracciones del trabajo, cada microdecisión consume energía de la corteza prefrontal. Este desgaste progresivo, conocido en psicología como 'fatiga por decisión' (Decision Fatigue), desactiva los frenos inhibitorios del cerebro al llegar la noche. A las 22:00, el teléfono inteligente representa una trampa diseñada por expertos para retener la atención. Exigirle a una mente biológicamente extenuada que resista esa marea algorítmica apoyándose solo en la fuerza de voluntad resulta insostenible.",
+      "Como explican Roy Baumeister y John Tierney en su libro 'Willpower: Rediscovering the Greatest Human Strength', las personas con mayor disciplina no son las que libran batallas titánicas constantes, sino las que estructuran su entorno para no tener que decidir cuando están cansadas. Para frenar el uso compulsivo de pantallas por la noche, la solución no consiste en exigirle más esfuerzo a una mente exhausta, sino en establecer barreras ambientales automáticas. Simplificar las decisiones cotidianas, afrontar las prioridades a primera hora y fijar normas claras y anticipadas para los dispositivos electrónicos constituyen los pilares de este enfoque.",
+      "Para quienes buscan proteger sus horas de descanso frente a las redes sociales sin depender de una fuerza de voluntad agotada por la noche, Limitra App Block permite aplicar restricciones de acceso a aplicaciones seleccionadas en intervalos horarios definidos, facilitando noches serenas y libres de pantallas."
+    ],
+    "source": "Roy Baumeister (Willpower) & Journal of Personality and Social Psychology",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.74.5.1252",
+    "category": "Control de Tiempo en Pantalla",
+    "date": "2026-10-11",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Roy Baumeister",
+      "Agotamiento del ego",
+      "Fatiga por decisión",
+      "Fuerza de voluntad",
+      "Control de Tiempo en Pantalla",
+      "Corteza prefrontal",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "103",
     "slug": "francia-pausa-digital-escuelas-telefonos-bloqueados-fisicamente",
     "title": "Francia implementa la 'Pausa Digital' en las escuelas: Móviles bloqueados físicamente durante toda la jornada",

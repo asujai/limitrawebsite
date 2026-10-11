@@ -1,5 +1,33 @@
 [
   {
+    "id": "104",
+    "slug": "roy-baumeister-ego-depletion-decision-fatigue-evening-screen-trap",
+    "title": "Roy Baumeister's 'Ego Depletion' Model: Why Our Willpower Collapses at Night and Surrenders to Screens",
+    "summary": "Why professionals who demonstrate impeccable focus during the workday cannot stop scrolling in bed is not a flaw in character, but an exhausted biological willpower reservoir. A guide to preventing evening screen crises through Roy Baumeister's research on Ego Depletion and decision fatigue.",
+    "content": [
+      "For many people, the most paradoxical part of the day occurs in the evening. An individual who wakes up early, writes demanding reports, navigates stressful meetings, and exercises rigorous self-discipline from nine to five turns into someone unrecognizable at 10 PM. Opening social media with the fleeting intention of 'checking for just five minutes before sleep' spiraled into hours of mindless scrolling. The mind remains glued to the glass, and the lights are finally turned off past midnight under heavy feelings of guilt and frustration. Most people label this as personal weakness or moral failing. Yet experimental findings from social psychologist Dr. Roy F. Baumeister demonstrate that the problem is not deficient character, but an exhausted biological energy pool.",
+      "In a landmark 1998 study published in the 'Journal of Personality and Social Psychology', conducted at Case Western Reserve University and Florida State University, Baumeister and his colleagues revealed that self-control does not function as an infinite virtue, but as a muscle that fatigues with exertion. In the famous 'radish and chocolate' experiment, participants sat before fresh-baked chocolate chip cookies but were instructed to consume only raw radishes. When subsequently challenged with an unsolvable geometry puzzle, those who had exhausted their willpower resisting the cookies surrendered after just 8 minutes, whereas the control group persevered for an average of 21 minutes. Baumeister termed this psychological exhaustion 'Ego Depletion'.",
+      "The executive mechanism of human self-regulation consumes energy continuously throughout the day. From selecting your clothes in the morning and phrasing delicate email responses to holding back irritation in traffic and filtering out workplace distractions, every single micro-choice siphons energy from the prefrontal cortex. This cumulative process, known as 'Decision Fatigue', gradually incapacitates mental braking mechanisms by evening. By 10 PM, picking up a smartphone places an exhausted mind directly in front of infinite feeds engineered by thousands of specialists to capture human attention. Expecting an ego-depleted brain to resist such potent stimulation relying solely on willpower is biologically unrealistic.",
+      "As Roy Baumeister and John Tierney explain in their seminal work 'Willpower: Rediscovering the Greatest Human Strength', individuals who demonstrate exceptional self-control are not constantly winning heroic internal battles. Instead, they recognize that willpower is easily exhausted and proactively architect their environments to avoid tempting situations altogether. Overcoming evening doomscrolling requires establishing external boundaries that do not rely on late-night mental resistance. Consolidating trivial daytime decisions, shifting demanding tasks to earlier hours, and setting automated environmental guardrails around evening device usage form the foundation of this protocol.",
+      "For individuals who prefer not to rely on depleted evening willpower to protect their resting hours from algorithmic feeds, Limitra App Block allows users to enforce access restrictions on selected applications during specified time intervals to preserve nighttime calm."
+    ],
+    "source": "Roy Baumeister (Willpower) & Journal of Personality and Social Psychology",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.74.5.1252",
+    "category": "Screen Time Control",
+    "date": "2026-10-11",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Roy Baumeister",
+      "Ego Depletion",
+      "Decision Fatigue",
+      "Willpower",
+      "Screen Time Control",
+      "Prefrontal Cortex",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "103",
     "slug": "france-schools-digital-pause-phones-physically-locked-away",
     "title": "France Implements 'Digital Pause' in Schools: Smartphones Physically Locked Away During the Day",

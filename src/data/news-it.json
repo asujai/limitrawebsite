@@ -1,5 +1,33 @@
 [
   {
+    "id": "104",
+    "slug": "esaurimento-dell-ego-di-roy-baumeister-e-la-trappola-serale-dello-smartphone",
+    "title": "Il modello di 'esaurimento dell'ego' di Roy Baumeister: Perché la nostra forza di volontà crolla la sera davanti agli schermi",
+    "summary": "Chi mostra una concentrazione ferrea al lavoro ma non riesce a smettere di scorrere lo smartphone a letto non manca di carattere: ha semplicemente esaurito la riserva biologica di autocontrollo. La guida di prevenzione basata sulle ricerche di Roy Baumeister su Ego Depletion e affaticamento decisionale.",
+    "content": [
+      "Per molti il momento più contraddittorio della giornata si verifica a tarda sera. Una persona capace di svegliarsi presto, stilare relazioni complesse, gestire riunioni delicate e mantenere una ferrea autodisciplina per tutto il giorno si trasforma in un individuo irriconoscibile verso le 22:00. Il proposito di 'dare solo una rapida occhiata prima di dormire' sfocia in ore di navigazione passiva sui social media; lo sguardo resta incollato allo schermo e la giornata si chiude a notte fonda tra rimpianti e sensi di colpa. Si tende spesso a liquidare questo fenomeno come semplice pigrizia o debolezza d'animo. Tuttavia, le ricerche sperimentali del professor Roy F. Baumeister dimostrano che la vera causa non è una mancanza di carattere, bensì il naturale esaurimento di un serbatoio biologico di energia.",
+      "In un celebre studio del 1998 pubblicato sul 'Journal of Personality and Social Psychology', condotto presso la Case Western Reserve University e la Florida State University, Baumeister e il suo team hanno evidenziato che la forza di volontà non è una risorsa inesauribile, ma si comporta come un muscolo che si affatica con l'uso. Nel famoso esperimento dei ravanelli e dei biscotti al cioccolato appena sfornati, i soggetti costretti a reprimere il desiderio del dolce per consumare solo ravanelli si sono arresi di fronte a un rompicapo geometrico irrisolvibile in soli 8 minuti, contro i 21 minuti del gruppo di controllo. Baumeister definì questo stato di stanchezza psichica 'esaurimento dell'ego' (Ego Depletion).",
+      "Il sistema esecutivo di autoregolazione spende energie costantemente durante le ore di veglia. Dalla scelta dell'abbigliamento al mattino alla stesura di un'email formale, dal controllo dell'irritazione nel traffico alla gestione delle interruzioni lavorative, ogni singola microdecisione intacca le riserve della corteccia prefrontale. Questo processo, noto come 'affaticamento decisionale' (Decision Fatigue), disattiva progressivamente i freni inibitori verso sera. Alle 22:00, impugnare uno smartphone espone una mente esausta a flussi algoritmici perfezionati da centinaia di ingegneri per massimizzare il tempo di permanenza. Pretendere che una volontà svuotata resista a tali stimoli facendo affidamento solo su se stessa è biologicamente insostenibile.",
+      "Come illustrano Roy Baumeister e John Tierney nel libro 'Willpower: Rediscovering the Greatest Human Strength', le persone che ottengono i migliori risultati nell'autocontrollo non sono quelle che combattono continue battaglie interiori, ma quelle che organizzano in anticipo il proprio ambiente per non doversi trovare di fronte a tentazioni quando le energie scarseggiano. Per arginare l'uso compulsivo dello smartphone la sera, la soluzione non consiste nell'esigere uno sforzo disperato a tarda ora, ma nell'introdurre barriere ambientali predefinite. Automatizzare le scelte minori, concentrare le priorità al mattino e fissare confini tecnologici netti per la notte rappresentano i pilastri di questa strategia.",
+      "Per chi desidera difendere le proprie ore di riposo dalle distrazioni digitali senza dover fare affidamento su una forza di volontà ormai esausta a fine giornata, Limitra App Block consente di impostare restrizioni di accesso su applicazioni selezionate in determinate fasce orarie, favorendo notti serene e lontane dagli schermi."
+    ],
+    "source": "Roy Baumeister (Willpower) & Journal of Personality and Social Psychology",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.74.5.1252",
+    "category": "Controllo Tempo Schermo",
+    "date": "2026-10-11",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Roy Baumeister",
+      "Esaurimento dell'ego",
+      "Affaticamento decisionale",
+      "Forza di volontà",
+      "Controllo Tempo Schermo",
+      "Corteccia prefrontale",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "103",
     "slug": "francia-pausa-digitale-scuole-smartphone-custoditi-fisicamente",
     "title": "Francia, 'Pausa Digitale' nelle scuole: Smartphone chiusi fisicamente all'ingresso per tutto il giorno",
