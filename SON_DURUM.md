@@ -8,6 +8,15 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-12)
+- **Cal Newport'ın 30 Günlük 'Dijital Temizlik' (Digital Declutter) Protokolü 11 Dilde Yayında (Antigravity, 12 Ekim):**
+  - Georgetown Üniversitesi Bilgisayar Bilimleri Bölümü'nden Prof. Cal Newport'un 2019 tarihli *Digital Minimalism: Choosing a Focused Life in a Noisy World* eserinde 1.600'ü aşkın katılımcıyla test ettiği 'Dijital Minimalizm' felsefesi ve 30 Günlük 'Dijital Temizlik' (Digital Declutter) protokolü detaylandırıldı.
+  - Bildirimleri kapatmak veya ekranı griye almak gibi yüzeysel ipuçlarının dikkat mühendisliği karşısında hızla etkisiz kaldığı, zorunlu olmayan tüm dijital teknolojilerin 30 gün boyunca tamamen askıya alınması, boşalan vaktin 'Yüksek Nitelikli Boş Zaman' (High-Quality Leisure: fiziksel üretim, kitap, spor, derin yüz yüze ilişkiler) ile doldurulması ve 30 gün sonunda 3 katı filtreyle (değer katkısı, en iyi araç olma, net operasyonel kural) yeniden entegrasyon adımları incelendi.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 106).
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve süzgeçten geçen uygulamalara bağımsız günlük süre limitleri koyma özelliği anıldı.
+  - 1,631 statik sayfa 0 hata ile derlendi, sitemap 22 yeni rota ile güncellendi (1,629 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `9ed9579e-d851-49cb-a779-67ad12413889`) ve canlıda doğrulandı (`npm run check:live` OK, ID 106 HTTP 200).
+
 ## Güncel Durum (2026-10-11)
 - **Florida HB 3 Yasası ile 14 Yaş Altına Sosyal Medya Yasağı 11 Dilde Yayında (Antigravity, 11 Ekim Akşamı):**
   - Florida Valisi Ron DeSantis tarafından onaylanan ve Eyalet Meclisi Başkanı Paul Renner öncülüğünde yasalaşan House Bill 3 (HB 3 - Reşit Olmayanlar İçin Çevrim İçi Koruma) düzenlemesi detaylandırıldı. 14 yaş altındaki çocukların bağımlılık yapıcı algoritmik platformlarda hesap açmasının kesin olarak yasaklanması, 14 ve 15 yaşındaki gençler için doğrulanabilir ebeveyn onayı zorunluluğu, mevcut hesapların tespiti ve silinmesi, ihlal başına 50.000 dolara varan adli para cezaları işlendi.
@@ -169,13 +178,13 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,607 URL).
-- `npm run build` → 1,609 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,629 URL).
+- `npm run build` → 1,631 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 105, 2026-10-11)
-- `npm run deploy` → Cloudflare sürümü `59b43d5c-e88e-4867-a295-f644bd3b1132`.
-- `npm run check:live` → "Canli site guncel." (id 105, fiyat ve app-ads.txt doğrulandı).
+- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 106, 2026-10-12)
+- `npm run deploy` → Cloudflare sürümü `9ed9579e-d851-49cb-a779-67ad12413889`.
+- `npm run check:live` → "Canli site guncel." (id 106, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı

@@ -1,5 +1,35 @@
 # İşlem Geçmişi
 
+## [2026-10-12 12:10] - Cal Newport'ın 30 Günlük 'Dijital Temizlik' Protokolü 11 Dilde Yayında (ID 106)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-106.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-12 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,629 URL, 22 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-12 için rehber/makale kategorisinde içerik olmadığı teyit edildi).
+  - Georgetown Üniversitesi Bilgisayar Bilimleri Bölümü'nden Prof. Cal Newport'un 2019 tarihli *Digital Minimalism: Choosing a Focused Life in a Noisy World* eserinde 1.600'ü aşkın katılımcıyla test ettiği 30 Günlük 'Dijital Temizlik' (Digital Declutter) protokolü ve 'Dijital Minimalizm' felsefesi detaylandırıldı.
+  - Bildirimleri kapatmak gibi mikro ipuçlarının dikkat mühendisliğine karşı yetersizliği, zorunlu olmayan teknolojilerin 30 gün boyunca askıya alınması, boşalan zamanın 'Yüksek Nitelikli Boş Zaman' (High-Quality Leisure: fiziksel üretim, kitap, spor, derin yüz yüze ilişkiler) ile doldurulması ve 30 gün sonunda 3 katı filtreyle (değer katkısı, en iyi araç olma, net operasyonel kural) yeniden entegrasyon adımları adım adım rehberleştirildi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve süzgeçten geçen uygulamalara bağımsız günlük süre limitleri koyma özelliği anıldı; yasak kelimeler, abartılı ifadeler veya sağlık iddiaları kullanılmadı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 106).
+  - 1,631 statik sayfa 0 hata ile derlendi, sitemap 22 yeni rota ile güncellendi (1,629 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - GitHub'a commit'lendi ve push'landı (`[antigravity] feat: Cal Newport Dijital Minimalizm 30 Gun Protokolu (ID 106)`).
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `9ed9579e-d851-49cb-a779-67ad12413889`) ve canlıda doğrulandı (`npm run check:live` OK, ID 106 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,631 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` (OK - Bugünün haberi zaten yayınlanmış, ID 106)
+  - `npm run deploy` (Current Version ID: `9ed9579e-d851-49cb-a779-67ad12413889`)
+  - `npm run check:live` (Canli site guncel. - ID 106 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-11 22:20] - Florida HB 3 Yasası ile 14 Yaş Altına Sosyal Medya Yasağı 11 Dilde Yayında (ID 105)
 
 * **Model:** Antigravity
