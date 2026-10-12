@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turki-regulasi-media-sosial-larangan-bawah-15-tahun-jadwal-2027",
+    "title": "Era Baru Media Sosial di Turki: Larangan Total Usia di Bawah 15 Tahun, Layanan Terpisah 15–18 Tahun, dan Tenggat 2027",
+    "summary": "Diterbitkan dalam Lembaran Negara pada 10 Oktober 2026, peraturan baru Turki secara tegas melarang akses media sosial bagi anak di bawah usia 15 tahun dan menerapkan model layanan terpisah untuk usia 15–18 tahun dengan akun privat, tanpa scroll tanpa henti, dan kendali orang tua. Verifikasi token e-Government wajib tuntas sebelum 31 Maret 2027.",
+    "content": [
+      "Turki secara resmi memberlakukan salah satu kerangka regulasi paling komprehensif untuk melindungi keselamatan dan kesejahteraan generasi muda di ranah digital. Diterbitkan dalam Lembaran Negara (Nomor 33396) pada 10 Oktober 2026, 'Peraturan tentang Penyediaan Layanan Terpisah Khusus Anak dan Verifikasi Usia oleh Penyedia Jaringan Sosial' menetapkan kewajiban mengikat dan jadwal waktu ketat bagi platform teknologi. Dirancang oleh Badan Keamanan Siber Kepresidenan, aturan ini melarang keras penyediaan akun media sosial bagi anak di bawah usia 15 tahun serta membentuk lingkungan digital khusus bagi remaja usia 15 hingga 18 tahun.",
+      "Fondasi teknis dari regulasi ini bertumpu pada mekanisme jaminan usia yang menjamin privasi pengguna tanpa mengorbankan kerahasiaan data pribadi. Saat pembuatan akun baru atau validasi profil yang sudah ada, verifikasi usia dilakukan melalui 'token verifikasi usia' terenkripsi yang diterbitkan melalui portal administrasi digital nasional (e-Devlet). Melalui prinsip minimasi data tanpa pengungkapan identitas ini, perusahaan media sosial tidak menerima nomor identitas kependudukan, nama asli, atau tanggal lahir; mereka hanya menerima bukti kriptografis yang memastikan pengguna memenuhi ambang batas usia 15 atau 18 tahun.",
+      "Bagi remaja berusia 15 hingga 18 tahun, platform diwajibkan menyediakan 'layanan terpisah ramah anak'. Akun pada kategori ini wajib disetel privat secara bawaan dan fitur siaran langsung (live streaming) dinonaktifkan. Regulasi melarang keras penayangan iklan berbasis profil perilaku, sinkronisasi buku kontak, serta fitur antarmuka adiktif seperti infinite scroll (gulir tanpa batas) dan pemutaran video otomatis. Remaja hanya dapat menerima pesan langsung dari kontak yang saling mengikuti, dan orang tua harus disediakan dasbor berbahasa Turki untuk membatasi waktu layar dan mengawasi pengeluaran berbayar.",
+      "Peraturan ini mulai berlaku efektif pada 1 November 2026, dengan jadwal masa transisi yang ditetapkan bagi akun-akun yang saat ini telah beroperasi. Penyedia media sosial dan pengguna diberi waktu hingga 31 Maret 2027 untuk menyelesaikan verifikasi usia melalui e-Devlet. Setiap akun yang belum terverifikasi atau terbukti milik anak di bawah usia 15 tahun pada tenggat waktu tersebut wajib ditutup secara permanen oleh pihak platform.",
+      "Kendati regulasi pemerintah menetapkan pagar pengaman penting bagi korporasi teknologi, membangun kedisiplinan layar yang sehat dalam keseharian tetap membutuhkan kesadaran mandiri. Bagi pengguna yang ingin menegakkan batasan nyata pada gawainya, Limitra App Block menyediakan batas waktu harian independen per aplikasi langsung di ponsel, sementara Limitra Social memungkinkan sesama teman melihat target limit dan durasi penggunaan satu sama lain secara transparan untuk membangun akuntabilitas rekan sebaya."
+    ],
+    "source": "Lembaran Negara Republik Turki (Edisi 33396) & Badan Keamanan Siber Kepresidenan",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Kebijakan Pemerintah & Hukum",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Regulasi Media Sosial Turki",
+      "Larangan di Bawah 15 Tahun",
+      "Lembaran Negara",
+      "Token Verifikasi Usia",
+      "Tenggat 2027",
+      "Layanan Terpisah",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-minimalisme-digital-protokol-30-hari",
     "title": "Protokol 'Pembersihan Digital' 30 Hari Cal Newport: Menjinakkan Kekacauan Layar Tanpa Meninggalkan Teknologi",

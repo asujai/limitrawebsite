@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turkiye-sosyal-medya-yonetmeligi-15-yas-siniri-ve-2027-takvimi",
+    "title": "Türkiye'de Sosyal Medyada Yeni Dönem: 15 Yaş Altına Tam Yasak, 15-18 Yaşa Ayrıştırılmış Hizmet ve 2027 Takvimi",
+    "summary": "10 Ekim 2026 tarihli Resmî Gazete'de yayımlanan yönetmelikle Türkiye'de 15 yaş altındaki çocuklara sosyal medya platformları tamamen kapatılıyor; 15-18 yaş grubuna ise gizli hesap, sonsuz kaydırma yasağı ve ebeveyn denetimli 'ayrıştırılmış hizmet' modeli getiriliyor. e-Devlet üzerinden yaş doğrulama belirteci zorunlu kılınırken, mevcut hesaplar için son tarih 31 Mart 2027 olarak belirlendi.",
+    "content": [
+      "Türkiye, çocukların ve gençlerin çevrim içi güvenliğini teminat altına almak amacıyla dijital platformlara yönelik en somut ve kapsamlı uygulama adımlarından birini resmen başlattı. 10 Ekim 2026 tarihli ve 33396 sayılı Resmî Gazete'de yayımlanan 'Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik', sosyal medya platformlarına reşit olmayan bireyler için katı yükümlülükler ve bağlayıcı bir takvim getirdi. Cumhurbaşkanlığı Siber Güvenlik Başkanlığı tarafından hazırlanan düzenleme, 15 yaşını doldurmamış çocuklara sosyal ağ hizmeti sunulmasını kesin olarak yasaklarken, 15-18 yaş aralığı için korumalı bir dijital ekosistem kuruyor.",
+      "Düzenlemenin teknik omurgasını, kullanıcı gizliliğini ihlal etmeden yaş teyidi sağlayan yenilikçi bir altyapı oluşturuyor. Sosyal ağlara kayıt aşamasında veya mevcut hesapların teyidinde yaş doğrulaması, e-Devlet Kapısı üzerinden üretilecek şifreli bir 'yaş doğrulama belirteci' (token) aracılığıyla gerçekleştirilecek. Bu mekanizma sayesinde sosyal medya şirketlerine T.C. kimlik numarası, ad, soyad veya doğum tarihi gibi hassas kişisel veriler aktarılmayacak; platforma yalnızca kullanıcının 15 yaş veya 18 yaş sınırını aşıp aşmadığına dair kriptografik bir onay iletilecek.",
+      "Yönetmelik, 15 yaşını doldurmuş ancak 18 yaşını tamamlamamış gençler için 'çocuklara özgü ayrıştırılmış hizmet' modelini şart koşuyor. Bu gruptaki kullanıcıların hesapları varsayılan olarak gizli tutulacak ve canlı yayın açma yetkileri engellenecek. Platformların kişiselleştirilmiş reklam göstermesi, rehber eşleştirmesi yapması ve kullanıcıyı ekrana bağlayan 'sonsuz kaydırma' (otomatik içerik akışı) özelliğini kullanması tamamen yasaklanıyor. Gençler yalnızca karşılıklı takipleştikleri kişilerden doğrudan mesaj alabilecek; ebeveynlere ise çocuklarının ekran süresini kısıtlama, harcamalarını denetleme ve hesap ayarlarını yönetme yetkisi veren Türkçe destekli araçlar sunulacak.",
+      "Yeni yönetmelik 1 Kasım 2026 tarihinde resmen yürürlüğe giriyor. Platformlarda hâlihazırda açık bulunan mevcut hesaplar için ise kapsamlı bir geçiş takvimi belirlendi: Sosyal ağ sağlayıcıları ve kullanıcıların yaş doğrulama süreçlerini en geç 31 Mart 2027 tarihine kadar tamamlaması gerekiyor. Bu tarihe kadar e-Devlet Kapısı üzerinden doğrulanmayan veya 15 yaşın altında olduğu tespit edilen tüm kullanıcı hesapları platformlar tarafından istisnasız kapatılacak.",
+      "Yasal düzenlemeler platform seviyesinde bağlayıcı kurallar getirirken, günlük hayatta dengeli ve bilinçli ekran rutinleri inşa etmek bireysel farkındalık gerektiriyor. Seçilen uygulamalara bağımsız günlük süre limitleri koymak isteyenler için Limitra App Block cihaz üzerinden doğrudan denetim sağlarken; Limitra Social ise eklenen arkadaşların kullanım ve limit sürelerini karşılıklı şeffaflıkla görmesine imkân tanıyarak ortak bir akran sorumluluğu oluşturuyor."
+    ],
+    "source": "Resmî Gazete (Sayı: 33396) & Cumhurbaşkanlığı Siber Güvenlik Başkanlığı",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-10-12",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Türkiye Sosyal Medya Yönetmeliği",
+      "15 Yaş Sınırı",
+      "Resmî Gazete",
+      "e-Devlet Yaş Doğrulama",
+      "2027 Takvimi",
+      "Ayrıştırılmış Hizmet",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-dijital-minimalizm-30-gun-protokolu",
     "title": "Cal Newport'ın 30 Günlük 'Dijital Temizlik' Protokolü: Teknolojiyi Terk Etmeden Ekran Kaosunu Dizginlemek",

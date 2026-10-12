@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turquia-regulacion-redes-sociales-prohibicion-menores-15-anios-calendario-2027",
+    "title": "Nueva era digital en Turquía: Veto total a redes sociales para menores de 15 años, servicio segregado de 15 a 18 y plazo hasta 2027",
+    "summary": "Publicado en el Boletín Oficial de Turquía el 10 de octubre de 2026, el nuevo reglamento prohíbe el acceso a redes sociales a menores de 15 años e impone un servicio protegido para jóvenes de 15 a 18 años con cuentas privadas, sin scroll infinito y con control parental. La verificación mediante token de e-Gobierno será obligatoria antes del 31 de marzo de 2027.",
+    "content": [
+      "Turquía ha puesto en marcha oficialmente una de las normativas más ambiciosas en materia de protección de menores en el entorno digital. El 'Reglamento sobre la Prestación de Servicios Segregados para Niños y Verificación de Edad por Proveedores de Redes Sociales', publicado el 10 de octubre de 2026 en el Boletín Oficial (N.º 33396), fija obligaciones estrictas y plazos perentorios para las plataformas tecnológicas. Elaborada por la Presidencia de Ciberseguridad, la norma prohíbe taxativamente la prestación de servicios de redes sociales a niños menores de 15 años y articula un régimen de acceso diferenciado para adolescentes de 15 a 18 años.",
+      "El pilar técnico de la normativa radica en un procedimiento de comprobación de edad que preserva la privacidad del usuario. Al registrarse o revalidar una cuenta existente, la edad se verificará mediante un 'token de verificación de edad' criptográfico expedido a través del portal nacional de administración electrónica (e-Devlet). Gracias a este sistema de divulgación nula de datos, las empresas de redes sociales no reciben números de identidad, nombres ni fechas de nacimiento; únicamente reciben una confirmación cifrada que acredita si el titular cumple los umbrales de 15 o 18 años.",
+      "Para los jóvenes de entre 15 y 18 años, las plataformas están obligadas a proporcionar un 'servicio segregado específico para menores'. Sus cuentas serán privadas de forma predeterminada y tendrán vedada la emisión de vídeos en directo. Se prohíbe terminantemente la publicidad personalizada, la sincronización de libretas de contactos y las interfaces de retención compulsiva como el scroll infinito y la reproducción automática. Solo podrán recibir mensajes directos de personas a las que sigan mutuamente, debiendo ofrecerse a los padres paneles en turco para fijar límites de tiempo de pantalla, autorizar transacciones y gestionar la configuración.",
+      "La normativa entrará en vigor el 1 de noviembre de 2026, estableciendo un calendario transitorio para el censo de cuentas actuales. Los proveedores de redes sociales y los usuarios dispondrán hasta el 31 de marzo de 2027 para completar la validación de edad por e-Devlet. Todas aquellas cuentas activas que no hayan sido acreditadas o pertenezcan a menores de 15 años en dicha fecha límite deberán ser canceladas de forma definitiva por las plataformas.",
+      "Más allá de las exigencias legales impuestas a las plataformas, construir hábitos digitales equilibrados en el día a día requiere un compromiso personal y familiar constante. Para fijar barreras concretas en el propio dispositivo, Limitra App Block permite establecer límites de tiempo diarios independientes por aplicación, mientras que Limitra Social facilita que los amigos compartan de forma transparente sus límites y tiempos de uso para cultivar una sana responsabilidad mutua."
+    ],
+    "source": "Boletín Oficial de la República de Turquía (N.º 33396) & Presidencia de Ciberseguridad",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Turquía Regulación Redes Sociales",
+      "Prohibición Menores 15",
+      "Boletín Oficial",
+      "Token Verificación Edad",
+      "Plazo 2027",
+      "Servicio Segregado",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-minimalismo-digital-protocolo-30-dias",
     "title": "El protocolo de 'desintoxicación digital' de 30 días de Cal Newport: Cómo frenar el caos de las pantallas sin renunciar a la tecnología",

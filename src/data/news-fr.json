@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turquie-reglementation-reseaux-sociaux-interdiction-moins-15-ans-calendrier-2027",
+    "title": "Nouvelle ère en Turquie : Réseaux sociaux interdits aux moins de 15 ans, service protégé de 15 à 18 ans et échéance en 2027",
+    "summary": "Publié au Journal officiel turc le 10 octobre 2026, un nouveau règlement interdit formellement l'accès aux réseaux sociaux aux enfants de moins de 15 ans et instaure un modèle de service restreint pour les 15-18 ans (profil privé, arrêt du défilement infini, supervision parentale). Une vérification d'âge par jeton étatique devient obligatoire d'ici le 31 mars 2027.",
+    "content": [
+      "La Turquie vient de franchir une étape décisive dans l'encadrement des géants du numérique au profit de la protection de l'enfance. Publié le 10 octobre 2026 au Journal officiel (numéro 33396), le 'Règlement relatif à la fourniture de services différenciés adaptés aux enfants et à la vérification de l'âge par les fournisseurs de réseaux sociaux' impose des obligations strictes aux plateformes en ligne. Élaboré par la Présidence de la cybersécurité, ce texte interdit catégoriquement aux réseaux sociaux de fournir leurs services aux mineurs de moins de 15 ans et encadre rigoureusement l'expérience des jeunes âgés de 15 à 18 ans.",
+      "Le dispositif repose sur une innovation technique majeure garantissant le respect scrupuleux de la vie privée. La vérification de l'âge lors de l'inscription ou de la mise en conformité des comptes s'effectue via un 'jeton d'attestation d'âge' chiffré généré sur le portail public national e-Devlet. Grâce à cette approche sans divulgation de données personnelles, les entreprises technologiques n'ont aucunement accès au numéro d'identité, au nom ou à la date de naissance des utilisateurs; elles reçoivent simplement une confirmation cryptographique attestant que l'usager a franchi le seuil d'âge requis de 15 ou 18 ans.",
+      "Pour la tranche d'âge de 15 à 18 ans, les opérateurs doivent déployer un 'service différencié dédié aux enfants'. Les comptes y sont paramétrés en mode privé par défaut et la diffusion de vidéos en direct est prohibée. La réglementation proscrit formellement la publicité comportementale ciblée, la synchronisation du répertoire téléphonique ainsi que les designs addictifs tels que le défilement infini et la lecture automatique des contenus. Les adolescents ne peuvent recevoir de messages privés que de leurs contacts mutuels, et des outils de contrôle en langue turque doivent être fournis aux parents pour plafonner le temps d'écran et superviser les dépenses.",
+      "Le règlement entrera officiellement en application le 1er novembre 2026, avec un calendrier de transition précis pour les comptes préexistants. Les plateformes et les usagers ont jusqu'au 31 mars 2027 pour régulariser l'authentification de l'âge par e-Devlet. Tous les comptes qui n'auront pas été certifiés ou qui s'avéreront appartenir à des enfants de moins de 15 ans à cette date butoir seront définitivement supprimés par les réseaux sociaux.",
+      "Si les interventions législatives imposent des garde-fous salutaires aux plateformes, l'instauration d'un équilibre numérique au quotidien demeure une démarche active et personnelle. Pour définir des limites claires sur son smartphone, Limitra App Block propose des plafonds de temps quotidiens indépendants pour chaque application, tandis que Limitra Social permet à un cercle d'amis de consulter mutuellement leurs quotas et durées d'utilisation en toute transparence pour s'encourager mutuellement."
+    ],
+    "source": "Journal officiel de la République de Turquie (n° 33396) & Présidence de la cybersécurité",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Politiques publiques et lois",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Turquie Réseaux Sociaux",
+      "Interdiction Moins de 15 Ans",
+      "Journal Officiel",
+      "Vérification Âge e-Devlet",
+      "Calendrier 2027",
+      "Service Protégé",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-minimalisme-digital-protocole-30-jours",
     "title": "Le protocole de 30 jours de « grand nettoyage numérique » de Cal Newport : Dompter le chaos des écrans sans renoncer à la technologie",

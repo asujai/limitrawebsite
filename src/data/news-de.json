@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "tuerkei-soziale-medien-verordnung-verbot-unter-15-und-zeitplan-2027",
+    "title": "Neue Ära in der Türkei: Social-Media-Verbot für unter 15-Jährige, geschützter Dienst für 15- bis 18-Jährige und Frist bis 2027",
+    "summary": "Mit der im Amtsblatt vom 10. Oktober 2026 veröffentlichten Verordnung verbietet die Türkei Kindern unter 15 Jahren den Zugang zu sozialen Medien. Für 15- bis 18-Jährige gilt ein restriktiver Dienst mit privaten Profilen, ohne Endlos-Scrollen und mit elterlicher Kontrolle. Bis zum 31. März 2027 müssen alle Konten per staatlichem Token verifiziert sein.",
+    "content": [
+      "Die Türkei hat eines der weitreichendsten regulatorischen Maßnahmenpakete zum Schutz von Kindern und Jugendlichen im Internet offiziell in Kraft gesetzt. Die im Amtsblatt (Ausgabe 33396) vom 10. Oktober 2026 veröffentlichte 'Verordnung über die Bereitstellung kindgerechter getrennter Dienste und Altersverifikation durch soziale Netzwerke' legt verbindliche Pflichten für Plattformbetreiber fest. Das von der Präsidentschaft für Cybersicherheit erarbeitete Regelwerk untersagt Anbietern sozialer Medien die Bereitstellung von Konten für Kinder unter 15 Jahren und schafft für Jugendliche zwischen 15 und 18 Jahren einen streng reglementierten Rahmen.",
+      "Das technische Herzstück des Gesetzes bildet ein datenschutzfreundliches Verfahren zur verlässlichen Altersfeststellung. Bei der Registrierung oder Überprüfung bestehender Profile wird das Alter über ein kryptografisches 'Altersverifikations-Token' des staatlichen Bürgerportals (e-Devlet) bestätigt. Durch dieses datensparsame Zero-Knowledge-Prinzip erhalten Tech-Konzerne weder Ausweisnummern noch Klarnamen oder Geburtsdaten, sondern ausschließlich einen mathematischen Nachweis darüber, ob der Nutzer die Altersgrenze von 15 beziehungsweise 18 Jahren erfüllt.",
+      "Für Heranwachsende im Alter von 15 bis 18 Jahren schreibt die Verordnung ein 'kinderspezifisches getrenntes Dienstmodell' vor. Profile in dieser Kategorie sind standardmäßig privat und Live-Streaming-Funktionen sind deaktiviert. Plattformen ist es untersagt, personalisierte Werbung auszuspielen, Telefonbuchabgleiche durchzuführen oder suchtfördernde Mechanismen wie Infinite Scrolling und Autoplay einzusetzen. Jugendliche dürfen nur Direktnachrichten von bestätigten gegenseitigen Kontakten empfangen; Eltern müssen überdies deutsch- und türkischsprachige Kontroll-Dashboards erhalten, um Bildschirmzeiten und Ausgaben zu verwalten.",
+      "Die Verordnung tritt am 1. November 2026 formell in Kraft. Für bereits bestehende Nutzerkonten gilt eine verbindliche Übergangsfrist: Plattformen und Anwender müssen die Altersverifikation über e-Devlet bis spätestens 31. März 2027 vollständig abschließen. Alle Accounts, die bis zu dieser Frist nicht verifiziert wurden oder deren Inhaber nachweislich jünger als 15 Jahre sind, müssen von den Anbietern ausnahmslos gelöscht werden.",
+      "Während gesetzliche Rahmenbedingungen die Plattformen in die Pflicht nehmen, erfordert ein gesunder digitaler Lebensstil auch eigenverantwortliche Routinen im Alltag. Wer klare Grenzen auf dem eigenen Smartphone ziehen möchte, kann mit Limitra App Block eigenständige tägliche Zeitlimits für ausgewählte Apps festlegen; Limitra Social hingegen ermöglicht es Freunden, ihre Nutzungszeiten und Limits transparent zu teilen und so gegenseitige Verbindlichkeit zu schaffen."
+    ],
+    "source": "Amtsblatt der Republik Türkei (Ausgabe 33396) & Präsidentschaft für Cybersicherheit",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Regierungspolitik & Gesetze",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Türkei Soziale Medien Verordnung",
+      "Verbot unter 15 Jahren",
+      "Amtsblatt",
+      "e-Devlet Altersverifikation",
+      "Frist 2027",
+      "Jugendschutz",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-digitaler-minimalismus-30-tage-protokoll",
     "title": "Cal Newports 30-Tage-Protokoll für «digitales Ausmisten»: Bildschirm-Chaos ordnen, ohne der Technologie zu entfliehen",

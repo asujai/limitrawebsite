@@ -9,6 +9,13 @@
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 ## Güncel Durum (2026-10-12)
+- **Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) 11 Dilde Yayında (Antigravity, 12 Ekim Öğle):**
+  - Türkiye'de 10 Ekim 2026 tarihli ve 33396 sayılı Resmî Gazete'de yayımlanan 'Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik' detaylandırıldı.
+  - 15 yaşını doldurmamış çocuklara sosyal ağ hizmeti sunulmasının kesin olarak yasaklanması; hesap açılışlarında e-Devlet Kapısı üzerinden tek kullanımlık, şifreli ve anonim 'yaş doğrulama belirteci' (token) zorunluluğu; 15-18 yaş aralığı için varsayılan gizli hesap, canlı yayın açma yasağı, kişiselleştirilmiş reklam yasağı, sonsuz kaydırma yasağı ve ebeveyn denetimli 'ayrıştırılmış hizmet' modeli; 1 Kasım 2026 yürürlük tarihi ve mevcut hesapların doğrulanması için son tarih olan 31 Mart 2027 geçiş takvimi işlendi.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 107).
+  - Limitra atıf kurallarına ve kullanıcı talebine tam uyularak son paragrafta sakin bir üslupla hem Limitra App Block (cihaz üzerinde uygulama başına günlük süre limiti) hem de Limitra Social (arkadaşlarla şeffaf kullanım takibi ve akran sorumluluğu) uygulamalarına doğal bağ kuruldu.
+  - 1,642 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,640 URL, `npm run check:links` ve `npm run check:lang` OK).
+
 - **Cal Newport'ın 30 Günlük 'Dijital Temizlik' (Digital Declutter) Protokolü 11 Dilde Yayında (Antigravity, 12 Ekim):**
   - Georgetown Üniversitesi Bilgisayar Bilimleri Bölümü'nden Prof. Cal Newport'un 2019 tarihli *Digital Minimalism: Choosing a Focused Life in a Noisy World* eserinde 1.600'ü aşkın katılımcıyla test ettiği 'Dijital Minimalizm' felsefesi ve 30 Günlük 'Dijital Temizlik' (Digital Declutter) protokolü detaylandırıldı.
   - Bildirimleri kapatmak veya ekranı griye almak gibi yüzeysel ipuçlarının dikkat mühendisliği karşısında hızla etkisiz kaldığı, zorunlu olmayan tüm dijital teknolojilerin 30 gün boyunca tamamen askıya alınması, boşalan vaktin 'Yüksek Nitelikli Boş Zaman' (High-Quality Leisure: fiziksel üretim, kitap, spor, derin yüz yüze ilişkiler) ile doldurulması ve 30 gün sonunda 3 katı filtreyle (değer katkısı, en iyi araç olma, net operasyonel kural) yeniden entegrasyon adımları incelendi.
@@ -165,11 +172,12 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Florida HB 3 Yasası ile 14 Yaş Altına Sosyal Medya Yasağı Haberi (ID 105) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,609 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
+- **İşlem:** Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) Haberi (ID 107) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,642 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `59b43d5c-e88e-4867-a295-f644bd3b1132` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,609 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `59b43d5c-e88e-4867-a295-f644bd3b1132`), `npm run check:live` ("Canli site guncel.", ID 105 HTTP 200).
-- **Sonraki adım:** Yok. Günlük haber otomasyonu ve yayın döngüsü eksiksiz tamamlandı.
+- **Sürüm / Deploy ID:** Cloudflare Workers Static Assets (Deploy aşamasında)
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,642 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy`, `npm run check:live` ("Canli site guncel.", ID 107 HTTP 200).
+- **Sonraki adım:** Yok. Kullanıcı talebi ve yayın döngüsü eksiksiz tamamlandı.
+
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
 - Tüm iç bağlantılar `src/data/routes.ts` üzerinden üretilir. Bileşenlerde elle URL kurulmaz.

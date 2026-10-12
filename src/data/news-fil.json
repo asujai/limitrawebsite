@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turkey-regulasyon-sa-social-media-bawal-sa-baba-ng-15-anyos-timeline-2027",
+    "title": "Bagong Yugto sa Turkey: Ganap na Pagbabawal sa Social Media sa Baba ng 15 Anyos, Protektadong Serbisyo sa 15–18, at Deadline sa 2027",
+    "summary": "Inilathala sa Official Gazette noong Oktubre 10, 2026, mahigpit na ipinagbabawal ng bagong batas sa Turkey ang paggamit ng social media sa mga wala pang 15 taong gulang, habang nagpapatupad ng 'segregated service' para sa edad 15–18 na may default private profiles, bawal ang infinite scroll, at may gabay ng magulang. Mandatory ang e-Government token verification bago sumapit ang Marso 31, 2027.",
+    "content": [
+      "Pormal nang ipinatupad ng Turkey ang isa sa pinakakomprehensibong patakaran sa buong daigdig upang protektahan ang kaligtasan at kapakanan ng kabataan sa online platforms. Inilathala sa Official Gazette (Isyu 33396) noong Oktubre 10, 2026, ang 'Regulasyon sa Pagkakaloob ng Nakahiwalay na Serbisyong Pambata at Pagpapatunay ng Edad ng mga Social Network Provider' ay nagtatakda ng mahigpit na panuntunan at takdang petsa para sa mga kumpanya ng teknolohiya. Binuo ng Presidential Cyber Security Presidency, ganap nitong ipinagbabawal ang paggamit ng social media sa mga batang wala pang 15 taong gulang at lumilikha ng ligtas na espasyo para sa kabataang may edad 15 hanggang 18.",
+      "Ang pangunahing teknikal na sandigan ng batas ay isang ligtas na pamamaraan ng age verification na nagpapanatili ng privacy ng bawat mamamayan. Sa pagbubukas ng bagong account o muling pagpapatunay ng lumang profile, ang edad ay kumpirmado gamit ang isang encrypted 'age verification token' na nagmumula sa pambansang e-Government portal (e-Devlet). Sa pamamagitan ng pamamaraang ito, hindi nakakatanggap ang mga social network ng national ID number, tunay na pangalan, o petsa ng kapanganakan; tanging isang cryptographic proof lamang ang naipapasa na nagpapatunay na naabot ng user ang edad na 15 o 18 taon.",
+      "Para sa mga kabataang edad 15 hanggang 18, inaatasan ang mga platform na magbigay ng 'child-specific segregated service'. Ang mga profile ay awtomatikong nakatakda sa private mode at hindi pinapayagan ang live streaming. Mahigpit ding ipinagbabawal ang personalized advertising, pag-sync ng contact list, at mga nakakahumaling na disenyo tulad ng infinite scroll at autoplay videos. Maaari lamang makatanggap ang mga kabataan ng direct messages mula sa kapwa nila pinaunlakang contacts, habang kailangang magkaloob ang mga kumpanya ng dashboard sa wikang Turkish para sa mga magulang upang limitahan ang oras sa screen at pamahalaan ang mga bayarin.",
+      "Magiging epektibo ang regulasyon sa Nobyembre 1, 2026, kalakip ang itinakdang transition period para sa mga kasalukuyang gumagamit. May palugit ang mga platform at mamamayan hanggang Marso 31, 2027 upang makumpleto ang pagpapatunay ng edad sa pamamagitan ng e-Devlet. Ang lahat ng kasalukuyang account na hindi mapatunayan o mapatunayang pagmamay-ari ng batang wala pang 15 taong gulang sa nasabing takdang petsa ay tuluyang isasara ng mga tagapagbigay ng serbisyo.",
+      "Bagama't nagpapatupad ang pamahalaan ng mahahalagang proteksyon sa antas ng mga platform, ang pagtatatag ng maayos at balanseng gawi sa screen sa pang-araw-araw na buhay ay nangangailangan pa rin ng sariling disiplina. Para sa mga nagnanais maglagay ng malinaw na limitasyon sa kanilang telepono, ang Limitra App Block ay nagbibigay ng mga independiyenteng pang-araw-araw na limitasyon sa oras para sa bawat piling app, habang ang Limitra Social naman ay nagbibigay-daan sa magkakaibigan na makita ang limitasyon at oras ng paggamit ng isa't isa nang may bukas na transparency upang magtulungan sa pagdidisiplina."
+    ],
+    "source": "Official Gazette ng Republika ng Turkey (Isyu 33396) & Cyber Security Presidency",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Mga Patakaran ng Pamahalaan at Batas",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Regulasyon sa Social Media sa Turkey",
+      "Bawal sa Baba ng 15",
+      "Official Gazette",
+      "Age Verification Token",
+      "Palugit sa 2027",
+      "Proteksyon sa Kabataan",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-digital-minimalism-30-araw-na-protokol",
     "title": "Ang 30-Araw na 'Digital Declutter' Protokol ni Cal Newport: Pagkontrol sa Kaguluhan ng Screen Nang Hindi Umaalis sa Teknolohiya",

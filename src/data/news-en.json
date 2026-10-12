@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turkey-social-media-regulation-under-15-ban-and-2027-timeline",
+    "title": "New Era for Social Media in Turkey: Total Ban for Under-15s, Segregated Service for Ages 15–18, and the 2027 Deadline",
+    "summary": "Published in the Official Gazette on October 10, 2026, Turkey's new regulation strictly prohibits social media access for children under 15, while establishing a segregated, protected service model for ages 15–18 featuring private profiles, no infinite scroll, and parental oversight. Age verification via e-Government tokens becomes mandatory, with existing accounts required to comply by March 31, 2027.",
+    "content": [
+      "Turkey has officially enacted one of its most comprehensive regulatory frameworks to date, designed to safeguard child safety and well-being across digital platforms. Published in the Official Gazette (Issue 33396) on October 10, 2026, the 'Regulation on the Provision of Child-Specific Segregated Services and Age Verification by Social Network Providers' establishes binding rules and strict timelines for tech platforms. Drafted by the Presidential Cyber Security Presidency in coordination with regulatory authorities, the statute completely bans social media access for children under 15 and introduces an insulated digital environment for youth aged 15 to 18.",
+      "The technical centerpiece of the regulation is a privacy-preserving age assurance mechanism that verifies eligibility without compromising personal credentials. During account creation or verification of existing profiles, age authentication will be executed via a cryptographically secure 'age verification token' generated through Turkey's national e-Government portal (e-Devlet). Under this zero-knowledge approach, social media companies receive no national ID numbers, real names, or birth dates; the token simply communicates a verifiable mathematical proof that the user meets the relevant 15- or 18-year age threshold.",
+      "For adolescents aged 15 to 18, platforms must deliver a specialized 'segregated service' engineered around safety-by-design principles. Accounts in this tier are private by default, and users are prohibited from broadcasting live video streams. The regulation strictly bans behavioral advertising, contact book matching, and engagement loops such as infinite scrolling and autoplay queues. Minors can only receive direct messages from confirmed mutual contacts, while platforms must furnish parents with localized Turkish oversight dashboards to restrict screen time, manage in-app expenditures, and supervise account settings.",
+      "The regulation takes legal effect on November 1, 2026, accompanied by a transition timeline for existing users. Platforms and account holders are granted until March 31, 2027, to complete e-Government age verification. Any existing profile that fails to verify its age or is determined to belong to a child under the age of 15 by this deadline must be permanently shut down by the network providers.",
+      "While nationwide regulations enforce vital baseline standards on tech giants, fostering intentional daily digital habits remains a personal and familial priority. For individuals establishing clear device boundaries, Limitra App Block provides independent daily time limits on selected applications directly on the phone, while Limitra Social allows friends to view each other's daily limits and usage times with reciprocal transparency to build mutual peer accountability."
+    ],
+    "source": "Official Gazette of the Republic of Turkey (Issue 33396) & Cyber Security Presidency",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Government Policies & Laws",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Turkey Social Media Regulation",
+      "Under 15 Ban",
+      "Official Gazette",
+      "Age Verification Token",
+      "2027 Deadline",
+      "Segregated Service",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-digital-minimalism-30-day-declutter-protocol",
     "title": "Cal Newport's 30-Day 'Digital Declutter' Protocol: Taming Screen Chaos Without Abandoning Technology",

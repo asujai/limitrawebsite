@@ -1,5 +1,33 @@
 # İşlem Geçmişi
 
+## [2026-10-12 12:15] - Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) 11 Dilde Yayında (ID 107)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,640 URL, 11 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Türkiye'de 10 Ekim 2026 tarihli ve 33396 sayılı Resmî Gazete'de yayımlanan 'Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik' resmi kaynaklardan detaylıca araştırıldı.
+  - Düzenlemenin temel maddeleri haberleştirildi: 15 yaş altındaki çocuklara sosyal medya platformlarının hesap açmasının ve hizmet sunmasının kesin olarak yasaklanması; e-Devlet Kapısı üzerinden tek kullanımlık, şifreli ve gizliliği koruyan 'yaş doğrulama belirteci' (token) sistemi; 15-18 yaş aralığı için varsayılan gizli hesap, canlı yayın yasağı, kişiselleştirilmiş reklam yasağı, sonsuz kaydırma yasağı ve ebeveyn denetimli 'ayrıştırılmış hizmet' modeli; 1 Kasım 2026 yürürlük tarihi ve mevcut tüm hesapların doğrulanması için son tarih olan 31 Mart 2027 geçiş takvimi.
+  - Kullanıcı talebi ve proje kurallarına uygun olarak son paragrafta sakin ve dengeli bir üslupla hem Limitra App Block (cihaz üzerinde uygulama başına günlük süre limiti koyma) hem de Limitra Social (eklenen arkadaşların günlük kullanım ve limit sürelerini şeffaf biçimde görerek ortak akran sorumluluğu oluşturma) uygulamalarına atıf yapıldı; yasak kelimeler ve abartılı pazarlama ifadelerinden kaçınıldı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız yerelleştirilmiş gövde metinleriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 107).
+  - 1,642 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,640 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - GitHub'a commit'lendi ve push'landı (`[antigravity] feat: Turkiye Sosyal Medya Yonetmeligi 15 Yas Siniri ve 2027 Takvimi (ID 107)`).
+  - Cloudflare Workers statik varlıklarına deploy edildi ve canlıda doğrulandı (`npm run check:live` OK, ID 107 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,642 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` (OK - Bugünün haberi zaten yayınlanmış, ID 107)
+  - `npm run deploy` (Cloudflare Workers Static Assets)
+  - `npm run check:live` (Canli site guncel. - ID 107 HTTP 200)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
+
 ## [2026-10-12 12:10] - Cal Newport'ın 30 Günlük 'Dijital Temizlik' Protokolü 11 Dilde Yayında (ID 106)
 
 * **Model:** Antigravity

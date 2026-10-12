@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turchia-regolamento-social-media-divieto-under-15-e-scadenza-2027",
+    "title": "Nuova era per i social media in Turchia: Divieto totale sotto i 15 anni, servizio protetto dai 15 ai 18 e scadenza nel 2027",
+    "summary": "Pubblicato sulla Gazzetta Ufficiale il 10 ottobre 2026, il nuovo regolamento turco vieta l'accesso ai social media ai minori di 15 anni e introduce un modello protetto per la fascia 15-18 anni con account privati, stop allo scroll infinito e supervisione parentale. La verifica dell'età tramite token governativo sarà obbligatoria entro il 31 marzo 2027.",
+    "content": [
+      "La Turchia ha varato ufficialmente uno dei quadri normativi più severi e strutturati a livello internazionale per la tutela dei minori nello spazio digitale. Pubblicato nella Gazzetta Ufficiale (Numero 33396) il 10 ottobre 2026, il 'Regolamento sulla fornitura di servizi segregati specifici per minori e sulla verifica dell'età da parte dei provider di reti sociali' impone obblighi vincolanti e scadenze inderogabili alle grandi piattaforme web. Sviluppato dalla Presidenza per la Sicurezza Cibernetica, il provvedimento vieta categoricamente i social network ai minori di 15 anni e organizza un regime speciale per i ragazzi tra i 15 e i 18 anni.",
+      "L'architettura tecnica del provvedimento poggia su un modello di verifica dell'età concepito per proteggere l'anonimato e la privacy dei cittadini. In sede di apertura dell'account o di regolarizzazione di profili attivi, la verifica anagrafica avverrà tramite un 'token di verifica dell'età' cifrato emesso dal portale di identità digitale statale (e-Devlet). Grazie a questo sistema 'zero-knowledge', le società di social media non acquisiscono numeri di documenti, nomi o date di nascita, ma soltanto un certificato crittografico che attesta il superamento della soglia dei 15 o dei 18 anni.",
+      "Per i giovani tra i 15 e i 18 anni, i fornitori devono predisporre un 'servizio segregato a misura di minore'. Gli account sono impostati automaticamente come privati ed è preclusa la facoltà di avviare dirette streaming. È fatto assoluto divieto di proporre pubblicità comportamentale profilata, scansioni della rubrica telefonica e schemi di fidelizzazione ossessiva come lo scorrimento continuo (infinite scroll) e la riproduzione automatica. I minori possono scambiare messaggi solo con contatti reciproci e ai genitori vanno forniti strumenti di controllo per limitare le ore d'uso e approvare le spese.",
+      "Il regolamento diventerà formalmente operativo il 1° novembre 2026, corredato da un calendario di transizione per gli account già registrati. Gli operatori di rete e gli utenti avranno tempo fino al 31 marzo 2027 per completare l'autenticazione dell'età tramite e-Devlet. Trascorso questo termine, tutti gli account non verificati o riconducibili a ragazzi sotto i 15 anni verranno irrimediabilmente chiusi d'ufficio dalle piattaforme.",
+      "Se da un lato le disposizioni statali delineano standard protettivi a livello di sistema, dall'altro la costruzione di sane abitudini digitali quotidiane richiede strumenti pratici a portata di mano. Per definire perimetri d'uso precisi sul proprio dispositivo, Limitra App Block consente di impostare limiti di tempo giornalieri indipendenti per ogni app, mentre Limitra Social permette agli amici di condividere con trasparenza i rispettivi tempi e limiti di utilizzo, stimolando una reciproca responsabilità tra pari."
+    ],
+    "source": "Gazzetta Ufficiale della Repubblica di Turchia (N. 33396) & Presidenza della Sicurezza Cibernetica",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Politiche governative e leggi",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Turchia Social Media",
+      "Divieto Minori 15 Anni",
+      "Gazzetta Ufficiale",
+      "Token Verifica Età",
+      "Scadenza 2027",
+      "Servizio Segregato",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-minimalismo-digitale-protocolo-30-giorni",
     "title": "Il protocollo di 30 giorni di 'decluttering digitale' di Cal Newport: Disciplinare il caos degli schermi senza rinunciare alla tecnologia",

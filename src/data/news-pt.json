@@ -1,5 +1,34 @@
 [
   {
+    "id": "107",
+    "slug": "turquia-regulamentacao-redes-sociais-proibicao-menores-15-anos-prazo-2027",
+    "title": "Nova era na Turquia: Proibição total de redes sociais para menores de 15 anos, serviço segregado de 15 a 18 e prazo até 2027",
+    "summary": "Publicada no Diário Oficial em 10 de outubro de 2026, a nova regulamentação turca proíbe o acesso a redes sociais para menores de 15 anos e cria um serviço protegido para jovens de 15 a 18 anos com perfis privados, sem rolagem infinita e sob tutela dos pais. A validação via token do governo digital é obrigatória até 31 de março de 2027.",
+    "content": [
+      "A Turquia deu início oficial a um dos mais rigorosos marcos regulatórios do mundo para resguardar a integridade de crianças e adolescentes no ecossistema digital. Publicado no Diário Oficial (Edição 33396) em 10 de outubro de 2026, o 'Regulamento sobre a Prestação de Serviços Segregados Específicos para Crianças e Verificação de Idade por Redes Sociais' estabelece parâmetros mandatórios e prazos peremptórios para as gigantes da tecnologia. Conduzida pela Presidência de Segurança Cibernética, a medida veta totalmente contas para menores de 15 anos e formata um ambiente blindado para a faixa de 15 a 18 anos.",
+      "O alicerce técnico da nova legislação apoia-se em um mecanismo seguro de aferição etária que resguarda os dados sensíveis dos cidadãos. Durante a criação de perfis ou checagem de contas existentes, a comprovação da idade dar-se-á por meio de um 'token de verificação de idade' emitido no portal governamental e-Devlet. Por meio dessa arquitetura de minimização de dados, as plataformas sociais não recebem documento de identificação, nomes ou datas de nascimento; recebem unicamente uma prova matemática criptografada de que o usuário atende aos parâmetros de 15 ou 18 anos.",
+      "Para adolescentes de 15 a 18 anos, as empresas são obrigadas a ofertar um 'serviço segregado específico'. As contas serão configuradas como privadas por padrão e transmissões ao vivo permanecerão desabilitadas. Veda-se de maneira expressa a publicidade comportamental direcionada, o rastreamento de agendas telefônicas e designs aditivos como rolagem infinita (feed sem fim) e reprodução automática. Os jovens só poderão receber mensagens de pessoas com quem mantenham seguimento mútuo, cabendo às plataformas oferecer aos responsáveis painéis de gestão para limitar o tempo de tela e autorizar despesas.",
+      "O regulamento entrará em vigor em 1º de novembro de 2026, com uma janela de transição estipulada para a base de usuários já cadastrada. As plataformas e os cidadãos terão até 31 de março de 2027 para concluir a validação de idade via e-Devlet. Findo esse prazo, qualquer conta que não tiver sido validada ou que for constatada como pertencente a menores de 15 anos será compulsoriamente eliminada pelos provedores.",
+      "Ao mesmo tempo em que a regulação estatal impõe balizas necessárias às corporações de tecnologia, estabelecer limites tangíveis no dia a dia é fundamental para a saúde mental. Para estruturar restrições diretas no aparelho, o Limitra App Block disponibiliza limites de tempo diários independentes por aplicativo, enquanto o Limitra Social permite que amigos visualizem de forma recíproca suas metas e tempos de tela, cultivando responsabilidade compartilhada."
+    ],
+    "source": "Diário Oficial da República da Turquia (Edição 33396) & Presidência de Segurança Cibernética",
+    "sourceUrl": "https://www.resmigazete.gov.tr",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-12",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Turquia Redes Sociais",
+      "Proibição Menores de 15",
+      "Diário Oficial",
+      "Token Verificação de Idade",
+      "Prazo 2027",
+      "Proteção Digital",
+      "Limitra App Block",
+      "Limitra Social"
+    ]
+  },
+  {
     "id": "106",
     "slug": "cal-newport-minimalismo-digital-protocolo-30-dias",
     "title": "O protocolo de 30 dias de 'faxina digital' de Cal Newport: Como dominar o caos das telas sem abandonar a tecnologia",
