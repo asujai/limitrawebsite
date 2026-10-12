@@ -1,5 +1,33 @@
 [
   {
+    "id": "106",
+    "slug": "cal-newport-minimalismo-digital-protocolo-30-dias",
+    "title": "O protocolo de 30 dias de 'faxina digital' de Cal Newport: Como dominar o caos das telas sem abandonar a tecnologia",
+    "summary": "Pequenas dicas como desativar notificações são ineficazes contra a engenharia de atenção algorítmica. Em 'Minimalismo Digital', o professor da Universidade de Georgetown Cal Newport apresenta um protocolo de 30 dias testado com mais de 1.600 participantes.",
+    "content": [
+      "Muitas pessoas tentam resolver a dispersão da atenção e o apego excessivo ao smartphone com truques superficiais: desativar notificações secundárias, colocar a tela em tons de cinza ou esconder ícones de redes em pastas distantes. No entanto, como demonstra Cal Newport, professor de ciência da computação da Universidade de Georgetown, em seu influente livro 'Minimalismo Digital' (2019), tais medidas improvisadas sucumbem rapidamente diante da engenharia de atenção bilionária das grandes plataformas. Para Newport, o antídoto contra a exaustão digital não reside em pequenos atalhos diários, mas em uma postura filosófica clara: o minimalismo digital. Essa filosofia não rejeita a tecnologia, mas defende que dediquemos nosso tempo online exclusivamente às ferramentas que promovam de forma tangível nossos valores essenciais, ignorando o restante com tranquilidade.",
+      "Para concretizar essa mudança de mentalidade, Newport propõe um reinício decisivo em vez de concessões graduais: a 'Faxina Digital de 30 Dias' (Digital Declutter). Em um experimento em larga escala conduzido com mais de 1.600 voluntários de diversos países durante a preparação do livro, os participantes foram orientados a afastar de suas vidas todas as tecnologias digitais opcionais por trinta dias consecutivos. Foram mantidas exceções indispensáveis para funções profissionais críticas, mas redes sociais, feeds algorítmicos infinitos e jogos foram totalmente suspensos. Embora a primeira semana tenha trazido agitação e receio de ficar por fora das novidades (FOMO), a partir da segunda semana os voluntários relataram ganhos expressivos em serenidade mental, qualidade de sono e profundidade de concentração.",
+      "O pilar mais determinante e frequentemente negligenciado desse método é não deixar o tempo resgatado desocupado. Newport alerta que desligar as telas e esperar passivamente pelo fim do mês leva à recaída inevitável, visto que a mente humana repele o tédio e busca de imediato o estímulo mais próximo. Por isso, os trinta dias exigem cultivar o 'lazer de alta qualidade': produzir coisas no mundo real (marcenaria, artesanato, culinária, jardinagem), dedicar-se a leituras desafiadoras, praticar exercícios regulares e investir em conversas presenciais enriquecedoras. Por meio dessas práticas, os voluntários redescobriram a amplitude de vida que antes era consumida em rolagens mecânicas.",
+      "Ao término do período de um mês, as ferramentas antigas não retornam de forma automática; o aparelho é tratado como uma página em branco. Newport estabelece três filtros rigorosos para qualquer aplicativo que solicite reintegração: primeiro, essa ferramenta serve diretamente a um valor fundamental em minha vida? (a mera conveniência não é justificativa); segundo, ela representa a melhor forma possível de atender a essa necessidade?; e terceiro, possuo um procedimento operacional estrito definindo exatamente como, quando e por quanto tempo a utilizarei? Ao final da pesquisa, a maioria dos 1.600 participantes decidiu nunca mais reinstalar metade dos aplicativos que julgava indispensáveis.",
+      "Para evitar que os aplicativos reintroduzidos voltem a expandir seu domínio sobre a rotina diária, estabelecer limites operacionais objetivos é essencial. O Limitra App Block permite configurar limites diários de uso independentes para os aplicativos selecionados, assegurando que o tempo de tela permaneça estritamente contido nos objetivos deliberados pelo usuário."
+    ],
+    "source": "Cal Newport (Digital Minimalism) & Georgetown University",
+    "sourceUrl": "https://calnewport.com/books/digital-minimalism/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-12",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Cal Newport",
+      "Minimalismo Digital",
+      "Digital Declutter",
+      "Foco Profundo",
+      "Controle de Tempo de Tela",
+      "Lazer de Qualidade",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "105",
     "slug": "florida-lei-hb-3-proibicao-redes-sociais-menores-14-anos",
     "title": "Decisão histórica na Flórida: Lei HB 3 proíbe redes sociais para menores de 14 anos",

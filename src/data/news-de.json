@@ -1,5 +1,33 @@
 [
   {
+    "id": "106",
+    "slug": "cal-newport-digitaler-minimalismus-30-tage-protokoll",
+    "title": "Cal Newports 30-Tage-Protokoll für «digitales Ausmisten»: Bildschirm-Chaos ordnen, ohne der Technologie zu entfliehen",
+    "summary": "Oberflächliche Ratschläge wie das Stummschalten von Benachrichtigungen scheitern an ausgeklügelter Aufmerksamkeitsökonomie. Georgetown-Informatikprofessor Cal Newport entwickelte in 'Digital Minimalism' ein 30-tägiges Declutter-Protokoll mit 1.600 Teilnehmern.",
+    "content": [
+      "Viele Menschen begegnen digitaler Reizüberflutung und ständiger Ablenkung mit kleinen Verhaltenskniffen: Benachrichtigungen stummzuschalten, das Smartphone auf Graustufen umzustellen oder problematische Symbole in Unterordnern zu verstecken. Wie der Informatikprofessor der Georgetown University, Cal Newport, in seinem 2019 erschienenen Grundlagenwerk 'Digital Minimalism' darlegt, sind derart oberflächliche Anpassungen gegenüber der milliardenschweren Aufmerksamkeitsarchitektur globaler Tech-Konzerne jedoch meist wirkungslos. Newport betont, dass die Überwindung digitaler Erschöpfung keine Sammlung von Alltagstricks erfordert, sondern ein klares philosophisches Fundament: den digitalen Minimalismus. Dieser Ansatz verteufelt moderne Technik keineswegs, sondern verlangt, digitale Werkzeuge ausschließlich dann zuzulassen, wenn sie den eigenen zentralen Werten unmittelbar dienen, während alles Überflüssige bewusst ignoriert wird.",
+      "Um diesen mentalen Wandel herbeizuführen, setzt Newport nicht auf schrittweises Reduzieren, sondern auf einen entschlossenen Schnitt: das 30-tägige digitale Ausmisten (Digital Declutter). Im Rahmen eines weltweiten Experiments mit mehr als 1.600 freiwilligen Teilnehmern während der Entstehung seines Buches wurden diese gebeten, einen Monat lang alle nicht lebensnotwendigen digitalen Technologien aus ihrem Alltag zu verbannen. Unverzichtbare berufliche Arbeitsabläufe blieben geschützt, doch soziale Netzwerke, endlose Video-Feeds und Spiele wurden für dreißig Tage vollständig stillgelegt. Nach anfänglicher Unruhe und der Angst, etwas zu verpassen (FOMO), stellten sich ab der zweiten Woche messbare Verbesserungen bei kognitiver Klarheit, Schlafarchitektur und Konzentrationsfähigkeit ein.",
+      "Der entscheidende und zugleich anspruchsvollste Schritt des Protokolls besteht darin, die neugewonnene Zeit nicht ungenutzt verstreichen zu lassen. Newport warnt davor, Bildschirme bloß auszuschalten und untätig abzuwarten; das menschliche Gehirn erträgt Leere kaum und greift unweigerlich nach dem nächstbesten Reiz. Deshalb fordert das 30-Tage-Programm den gezielten Aufbau 'hochwertiger Freizeitaktivitäten' (High-Quality Leisure): handwerkliche und physische Tätigkeiten in der realen Welt, anspruchsvolle Lektüre, regelmäßigen Sport sowie vertiefte persönliche Begegnungen anstelle flüchtiger virtueller Kontakte. Durch diese Erfahrungen erkannten die Teilnehmer, wie viel Lebensqualität zuvor in gedankenlosem Scrollen versunken war.",
+      "Nach Ablauf der dreißig Tage kehren die alten Anwendungen keineswegs automatisch zurück; das Smartphone wird vielmehr wie eine weiße Leinwand neu eingerichtet. Newport formuliert drei strenge Kriterien für jede Technologie, die wieder zugelassen werden soll: Dient dieses Werkzeug unmittelbar einem für mich wesentlichen Wert? Ist es der bestmögliche Weg, diesen Wert zu verwirklichen? Und verfüge ich über eine verbindliche Nutzungsregel, die festlegt, wann, wie und wie lange ich darauf zugreife? In Newports Experiment verzichteten die meisten der 1.600 Teilnehmer dauerhaft darauf, mehr als die Hälfte ihrer zuvor vermeintlich unverzichtbaren Apps überhaupt wieder zu installieren.",
+      "Damit zugelassene Anwendungen nicht erneut zu unkontrollierten Zeitfressern heranwachsen, ist die Einhaltung fester betrieblicher Schutzgrenzen unerlässlich. Limitra App Block ermöglicht es, unabhängige tägliche Zeitlimits für ausgewählte Anwendungen festzulegen, sodass die Bildschirmnutzung stets in den bewusst gesetzten Grenzen bleibt."
+    ],
+    "source": "Cal Newport (Digital Minimalism) & Georgetown University",
+    "sourceUrl": "https://calnewport.com/books/digital-minimalism/",
+    "category": "Bildschirmzeit-Kontrolle",
+    "date": "2026-10-12",
+    "readTime": "6 Min.",
+    "featured": false,
+    "tags": [
+      "Cal Newport",
+      "Digitaler Minimalismus",
+      "Digital Declutter",
+      "Deep Work",
+      "Bildschirmzeit-Kontrolle",
+      "Wertvolle Freizeit",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "105",
     "slug": "florida-gesetz-hb-3-social-media-verbot-unter-14",
     "title": "Historischer Beschluss in Florida: Gesetz HB 3 verbietet soziale Medien für Kinder unter 14 Jahren",

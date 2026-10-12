@@ -1,5 +1,33 @@
 [
   {
+    "id": "106",
+    "slug": "cal-newport-minimalisme-digital-protocole-30-jours",
+    "title": "Le protocole de 30 jours de « grand nettoyage numérique » de Cal Newport : Dompter le chaos des écrans sans renoncer à la technologie",
+    "summary": "Les petites astuces comme désactiver les notifications ne suffisent pas face à l'ingénierie de l'attention. Dans 'Digital Minimalism', Cal Newport, professeur à Georgetown, détaille un protocole de grand nettoyage numérique testé sur plus de 1 600 volontaires.",
+    "content": [
+      "Face à l'emprise constante du smartphone et à l'éparpillement de l'attention, nombreux sont ceux qui recourent à des astuces superficielles : couper quelques notifications, passer l'écran en noir et blanc ou reléguer les icônes tentatrices dans des sous-dossiers. Pourtant, comme le démontre Cal Newport, professeur d'informatique à l'Université de Georgetown, dans son ouvrage de référence 'Digital Minimalism' paru en 2019, ces bricolages quotidiens cèdent rapidement sous la pression de l'ingénierie de captation mise au point par les géants technologiques. Pour Newport, remédier à l'épuisement numérique exige bien plus que des raccourcis pratiques : cela suppose une véritable philosophie d'usage, le minimalisme digital. Loin de prôner un rejet aveugle de la modernité, cette approche consiste à réserver délibérément son attention aux seuls outils qui soutiennent directement ce qui compte le plus, tout en laissant le reste de côté avec sérénité.",
+      "Pour instaurer cette transformation mentale, Newport préconise une réinitialisation radicale plutôt que des réductions graduelles : le « grand nettoyage numérique de 30 jours » (Digital Declutter). Lors de l'élaboration de son livre, plus de 1 600 volontaires à travers le monde ont participé à une expérience collective consistant à bannir de leur quotidien toute technologie numérique non essentielle pendant un mois complet. Des règles claires ont été établies pour préserver les impératifs professionnels indispensables, mais les réseaux sociaux, les flux vidéo infinis et les jeux mobiles ont été rigoureusement coupés. Si les dix premiers jours ont été marqués par une anxiété palpable et la peur de manquer quelque chose (FOMO), les semaines suivantes ont vu réapparaître une clarté cognitive, un sommeil réparateur et une faculté de travail approfondi remarquables.",
+      "L'étape la plus décisive et souvent sous-estimée du protocole consiste à ne pas abandonner le temps ainsi libéré à l'inaction. Newport souligne que fermer les écrans sans projet concret conduit presque toujours à la rechute, car le cerveau humain tolère mal le vide et se tourne spontanément vers la sollicitation la plus facile. Durant ce mois d'abstinence, il est donc impératif de réinvestir son énergie dans des « loisirs de haute qualité » : activités artisanales ou manuelles (bricolage, jardinage, création concrète), lectures substantielles, exercice physique régulier et rencontres chaleureuses en tête-à-tête plutôt qu'échanges virtuels superficiels. C'est grâce à ces engagements que les participants ont redécouvert la richesse d'une existence affranchie du défilement machinal.",
+      "Au terme des trente jours, la réintroduction des applications ne s'effectue pas en bloc : on repart d'une page entièrement blanche. Newport impose une grille de filtrage rigoureuse en trois points avant d'autoriser le retour d'un service numérique : premièrement, cet outil sert-il directement et de façon substantielle une valeur fondamentale de ma vie ? (la simple commodité ne suffit pas) ; deuxièmement, représente-t-il le meilleur moyen d'atteindre cet objectif ? ; troisièmement, ai-je défini un protocole d'usage précis précisant quand, comment et pour quelle durée je l'utiliserai ? À l'issue de l'expérience, la majorité des 1 600 participants a choisi de ne jamais réinstaller plus de la moitié des applications qu'elle jugeait autrefois incontournables.",
+      "Afin d'éviter que les applications conservées ne redeviennent des pièges d'attention incontrôlés, fixer des règles d'usage automatisées s'avère indispensable. Limitra App Block permet de définir des limites quotidiennes d'utilisation indépendantes pour les applications choisies, garantissant que le temps d'écran demeure strictement confiné aux objectifs que vous vous êtes fixés."
+    ],
+    "source": "Cal Newport (Digital Minimalism) & Georgetown University",
+    "sourceUrl": "https://calnewport.com/books/digital-minimalism/",
+    "category": "Contrôle du Temps d'Écran",
+    "date": "2026-10-12",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Cal Newport",
+      "Minimalisme digital",
+      "Digital Declutter",
+      "Travail en profondeur",
+      "Contrôle du Temps d'Écran",
+      "Loisirs de qualité",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "105",
     "slug": "floride-loi-hb-3-interdiction-reseaux-sociaux-moins-14-ans",
     "title": "Floride : Adoption de la loi historique HB 3 interdisant les réseaux sociaux aux moins de 14 ans",
