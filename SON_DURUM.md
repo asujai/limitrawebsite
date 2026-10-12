@@ -174,8 +174,8 @@
 ## Son Yapılan İşlem
 - **İşlem:** Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) Haberi (ID 107) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,642 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** Cloudflare Workers Static Assets (Deploy aşamasında)
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,642 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy`, `npm run check:live` ("Canli site guncel.", ID 107 HTTP 200).
+- **Sürüm / Deploy ID:** `10e1a03c-35cc-4f5a-8f33-cca360d9ddf7` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,642 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `10e1a03c-35cc-4f5a-8f33-cca360d9ddf7`), `npm run check:live` ("Canli site guncel.", ID 107 HTTP 200).
 - **Sonraki adım:** Yok. Kullanıcı talebi ve yayın döngüsü eksiksiz tamamlandı.
 
 
@@ -186,13 +186,13 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,629 URL).
-- `npm run build` → 1,631 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,640 URL).
+- `npm run build` → 1,642 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 106, 2026-10-12)
-- `npm run deploy` → Cloudflare sürümü `9ed9579e-d851-49cb-a779-67ad12413889`.
-- `npm run check:live` → "Canli site guncel." (id 106, fiyat ve app-ads.txt doğrulandı).
+- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 107, 2026-10-12)
+- `npm run deploy` → Cloudflare sürümü `10e1a03c-35cc-4f5a-8f33-cca360d9ddf7`.
+- `npm run check:live` → "Canli site guncel." (id 107 HTTP 200, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı
