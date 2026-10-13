@@ -1,5 +1,33 @@
 [
   {
+    "id": "108",
+    "slug": "norwegen-altersgrenze-16-social-media-verpflichtende-alterspruefung",
+    "title": "Norwegen plant radikale Wende bei Social Media: Mindestalter steigt auf 16 Jahre mit verbindlicher Altersprüfung",
+    "summary": "Die norwegische Regierung bringt einen Gesetzentwurf ein, der das Mindestalter für soziale Netzwerke auf 16 Jahre anhebt, um Kinder vor suchterzeugenden Algorithmen zu schützen. Gestützt auf Medietilsynet-Daten über die massive Nutzung bei 9- bis 11-Jährigen, überträgt das Gesetz die Prüfpflicht auf die Tech-Konzerne.",
+    "content": [
+      "Der norwegische Ministerpräsident Jonas Gahr Støre und die Ministerin für Kinder und Familien Kjersti Toppe haben weitreichende gesetzliche Schritte angekündigt, um das Mindestalter für die Nutzung sozialer Medien auf 16 Jahre anzuheben und Heranwachsende vor dem Einfluss kommerzieller Algorithmen zu schützen. Støre bezeichnete die Initiative als notwendigen Kampf zum Schutz kindlicher Gehirne gegen die Marktmacht der Tech-Giganten und stellte klar, dass die bisherige formale 13-Jahre-Regel in der Praxis wirkungslos geblieben ist. Der Gesetzentwurf sieht verbindliche technische Hürden vor, die reine Selbstauskünfte durch manipulationssichere Verfahren ersetzen.",
+      "Ein wesentlicher Auslöser für das Eingreifen sind die alarmierenden Ergebnisse der nationalen Erhebung 'Barn og medier' (Kinder und Medien) der norwegischen Medienbehörde (Medietilsynet). Den offiziellen Daten zufolge nutzen in Norwegen mehr als die Hälfte der 9-Jährigen (53 %), 58 % der 10-Jährigen und 72 % der 11-Jährigen regelmäßig Plattformen wie Snapchat, TikTok und Instagram, obwohl diese formell erst ab 13 Jahren freigegeben sind. Medietilsynet warnte davor, dass leicht zu umgehende Geburtsdatumsabfragen Minderjährige schutzlos algorithmischen Reizfluten und schädlichen Inhalten aussetzen.",
+      "Kernstück der rechtlichen Neuerung ist eine Änderung des norwegischen Datenschutzgesetzes (Personopplysningsloven). Nach Inkrafttreten können Jugendliche unter 16 Jahren nicht mehr wirksam in die Verarbeitung ihrer personenbezogenen Daten zu Profiling-Zwecken einwilligen, womit entsprechende Konten juristisch unzulässig werden. Die entscheidende Verschiebung betrifft die Durchsetzung: Die Verantwortung für die Altersprüfung wird den Eltern abgenommen und vollständig den Tech-Plattformen auferlegt. Diese müssen fälschungssichere elektronische Nachweissysteme wie BankID einführen; bei Verstößen drohen spürbare Sanktionen im Einklang mit dem Digital Services Act (DSA) der EU.",
+      "Um soziale Ausschlüsse im Schulalltag zu vermeiden, greift die Regelung ab dem 1. Januar des Kalenderjahres, in dem Jugendliche das 16. Lebensjahr vollenden, sodass Klassenverbände den Übergang gemeinsam durchlaufen. Ministerin Kjersti Toppe hob hervor, dass das Gesetz Familien den Rücken stärkt: 'Viele Eltern möchten den Smartphone- und Social-Media-Konsum begrenzen, scheitern aber am immensen Gruppendruck im Freundeskreis. Dieses Gesetz verschafft Eltern eine verlässliche behördliche Handhabe, um Nein zu sagen.'",
+      "Während gesetzliche Vorgaben Altersgrenzen auf Plattformebene anstreben, erfordert ein ausgeglichener digitaler Alltag im Hier und Jetzt klare persönliche Leitplanken. Für diejenigen, die für ausgewählte Anwendungen unabhängige tägliche Zeitlimits festlegen möchten, hilft Limitra App Block dabei, den Zugriff auf dem eigenen Gerät zu sperren, sobald das festgelegte Limit erreicht ist."
+    ],
+    "source": "Norwegische Regierung (Regjeringen.no) & Medietilsynet",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Regierungspolitik & Gesetze",
+    "date": "2026-10-13",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "Norwegen Social Media Gesetz",
+      "16 Jahre Altersgrenze",
+      "Medietilsynet",
+      "Jonas Gahr Støre",
+      "Personopplysningsloven",
+      "Verbindliche Altersprüfung",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "107",
     "slug": "tuerkei-soziale-medien-verordnung-verbot-unter-15-und-zeitplan-2027",
     "title": "Neue Ära in der Türkei: Social-Media-Verbot für unter 15-Jährige, geschützter Dienst für 15- bis 18-Jährige und Frist bis 2027",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "108",
+    "slug": "norvegia-limite-eta-16-anni-social-network-verifica-obbligatoria",
+    "title": "La Norvegia fissa a 16 anni il limite per i social network: verifica dell'età obbligatoria per le grandi piattaforme",
+    "summary": "Il governo norvegese ha annunciato una proposta di legge che porta a 16 anni l'età minima per l'accesso ai social media, proteggendo i giovani dai feed algoritmici. Basata sui dati di Medietilsynet che mostrano un utilizzo diffuso già tra 9 e 11 anni, la riforma trasferisce l'onere della verifica tecnica sui colossi tecnologici.",
+    "content": [
+      "Il Primo Ministro norvegese Jonas Gahr Støre e la Ministra per l'Infanzia e le Famiglie Kjersti Toppe hanno annunciato un intervento legislativo radicale per innalzare a 16 anni l'età minima per l'accesso ai social network, rafforzando la tutela dei giovani contro la progettazione algoritmica commerciale. Descrivendo la misura come una battaglia necessaria per proteggere le menti dei bambini dallo strapotere dei colossi tecnologici, Støre ha rimarcato che l'attuale soglia dei 13 anni basata su un'autocertificazione informale è del tutto inefficace. Il disegno di legge imporrà alle aziende vincoli tecnici stringenti per certificare l'età in modo verificabile.",
+      "La decisione politica trova riscontro nei dati allarmanti dell'indagine nazionale 'Barn og medier' (Bambini e Media) condotta dall'Autorità norvegese per i media (Medietilsynet). Dalle statistiche ufficiali emerge che oltre la metà dei bambini di 9 anni (53%), il 58% dei bambini di 10 anni e il 72% di quelli di 11 anni in Norvegia utilizzano regolarmente piattaforme come Snapchat, TikTok e Instagram, aggirando con un click i limiti formali. Medietilsynet ha evidenziato che la semplice compilazione manuale della data di nascita lascia i minori completamente indifesi dinanzi a contenuti lesivi e dinamiche compulsive.",
+      "L'impianto normativo si basa sulla modifica della Legge sui dati personali della Norvegia (Personopplysningsloven). Con l'approvazione del provvedimento, i minori di 16 anni non potranno più prestare legalmente il consenso al trattamento dei propri dati o alla profilazione, rendendo nulli gli account aperti al di sotto di questa soglia. Il passaggio fondamentale consiste nel trasferire la responsabilità del controllo dai genitori direttamente alle aziende tecnologiche. Le piattaforme dovranno implementare sistemi di identità elettronica certificati, come BankID, rischiando pesanti sanzioni finanziarie calibrate sugli standard del Digital Services Act (DSA) europeo.",
+      "Per evitare disparità relazionali all'interno delle classi scolastiche, la norma prevede che il divieto decada il 1° gennaio dell'anno solare in cui l'adolescente compie 16 anni, consentendo ai compagni di classe di accedere contemporaneamente. La ministra Kjersti Toppe ha chiarito che il provvedimento costituisce un sostegno prezioso per le famiglie: 'Moltissimi genitori intendono porre limiti all'uso di smartphone e social, ma si sentono isolati davanti alla pressione dei coetanei. Questa legge offre alle madri e ai padri un appiglio istituzionale solido per dire di no.'",
+      "Mentre le normative pubbliche puntano a introdurre barriere d'accesso a livello di piattaforma, mantenere un equilibrio digitale nella vita quotidiana richiede confini personali concreti. Per chi desidera impostare limiti giornalieri indipendenti di utilizzo sulle singole app, Limitra App Block consente di bloccare l'accesso direttamente sul dispositivo una volta esaurito il tempo prestabilito."
+    ],
+    "source": "Governo norvegese (Regjeringen.no) e Medietilsynet",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Politiche governative e leggi",
+    "date": "2026-10-13",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Legge Social Network Norvegia",
+      "Limite 16 Anni",
+      "Medietilsynet",
+      "Jonas Gahr Støre",
+      "Personopplysningsloven",
+      "Verifica Età Obbligatoria",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "107",
     "slug": "turchia-regolamento-social-media-divieto-under-15-e-scadenza-2027",
     "title": "Nuova era per i social media in Turchia: Divieto totale sotto i 15 anni, servizio protetto dai 15 ai 18 e scadenza nel 2027",

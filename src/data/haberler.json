@@ -1,5 +1,33 @@
 [
   {
+    "id": "108",
+    "slug": "norvec-sosyal-medya-16-yas-siniri-ve-yas-dogrulama-yasasi",
+    "title": "Norveç'ten Sosyal Medyada Radikal Adım: Yaş Sınırı 16'ya Çıkarılıyor, Şirketlere Zorunlu Yaş Doğrulama Geliyor",
+    "summary": "Norveç Hükümeti, çocukları algoritmaların bağımlılık yapıcı etkilerinden korumak için sosyal medya asgari yaş sınırını 16'ya yükselten yasa teklifini duyurdu. Medietilsynet verilerine göre 9-11 yaş grubunda yaygınlaşan erken kullanıma karşı Kişisel Veriler Yasası güncellenirken, yaş doğrulama sorumluluğu ebeveynlerden alınıp teknoloji şirketlerine yükleniyor.",
+    "content": [
+      "Norveç Başbakanı Jonas Gahr Støre ve Çocuk ve Aile Bakanı Kjersti Toppe, çocukların ve gençlerin zihinsel gelişimini korumak ve büyük teknoloji şirketlerinin algoritmik baskısına karşı durmak amacıyla sosyal medyada köklü bir yasal düzenleme başlattıklarını duyurdu. Mevcut uygulamadaki 13 yaş sınırının fiilen işlemediğini ve çocukların savunmasız kaldığını belirten Başbakan Støre, bu adımı 'teknoloji devlerinin ticari algoritmalarına karşı küçük çocukların beyinlerini koruma mücadelesi' olarak niteledi. Hükümetin hazırladığı yasa tasarısı, sosyal medya platformlarına erişim için asgari yaş sınırını 16'ya çıkarmayı ve teknoloji şirketlerine bağlayıcı teknik yükümlülükler getirmeyi öngörüyor.",
+      "Yasa adımının ardındaki en kritik gerekçelerden birini, Norveç Medya Otoritesi'nin (Medietilsynet) yürüttüğü 'Barn og medier' (Çocuklar ve Medya) araştırmasının çarpıcı sonuçları oluşturuyor. Resmî verilere göre Norveç'te 9 yaşındaki çocukların yarısından fazlası (%53), 10 yaşındakilerin %58'i ve 11 yaşındakilerin ise %72'si platformların beyana dayalı 13 yaş kuralına rağmen Snapchat, TikTok ve Instagram gibi sosyal ağları aktif olarak kullanıyor. Medietilsynet, basit bir doğum tarihi seçimiyle atlatılabilen sembolik kısıtlamaların çocukları zararlı içeriklere, gizli ticari reklamlara ve sonsuz akış girdabına karşı tamamen korumasız bıraktığına dikkat çekiyor.",
+      "Yeni yasal mimari, Norveç Kişisel Veriler Yasası'nda (Personopplysningsloven) yapılacak bağlayıcı bir değişikliğe dayanıyor. Düzenleme yürürlüğe girdiğinde, 16 yaşından küçük bireyler kişisel verilerinin işlenmesine ve profillemeye yasal olarak rıza gösteremeyecek; bu da platformların reşit olmayan kullanıcılara hesap açmasını hukuken geçersiz kılacak. En önemli yapısal dönüşüm ise yaş teyidi sorumluluğunun ebeveynlerin omuzlarından alınıp doğrudan teknoloji şirketlerine yüklenmesi olacak. Platformlar, AB Dijital Hizmetler Yasası (DSA) standartlarıyla uyumlu, BankID ve elektronik kimlik altyapılarına dayanan güvenilir ve manipüle edilemez yaş doğrulama sistemleri kurmak zorunda kalacak; kurallara uymayan şirketlere ağır idari yaptırımlar uygulanacak.",
+      "Tasarıda pedagojik ve sosyal dinamikler de gözetilerek özel bir yaş hesabı benimsendi. Kısıtlama, bir gencin 16 yaşına bastığı takvim yılının 1 Ocak gününden itibaren geçerli olacak; böylece aynı sınıftaki öğrencilerin doğum ayı farkı yüzünden sosyal olarak dışlanmasının ve sınıf içi bölünmelerin önüne geçilecek. Çocuk ve Aile Bakanı Kjersti Toppe, düzenlemenin aynı zamanda ebeveynlere güçlü bir yasal güvence sunduğunu vurgulayarak, 'Pek çok anne baba çocuklarına telefon ve sosyal medya konusunda sınır koymak istiyor ancak akran baskısı nedeniyle tek başına direnemiyor. Bu yasa, ebeveynlere arkalarını yaslayabilecekleri meşru bir dayanak sunuyor' açıklamasında bulundu.",
+      "Yasal düzenlemeler platform düzeyinde yaş bariyerleri inşa etmeyi amaçlarken, günlük hayatta ekran başında geçirilen zamanı dengede tutmak bireysel disiplin ve somut araçlar gerektiriyor. Seçilen uygulamalara bağımsız günlük kullanım süresi limitleri belirlemek isteyenler için Limitra App Block, süre dolduğunda erişimi keserek sağlıklı dijital alışkanlıkların korunmasına yardımcı oluyor."
+    ],
+    "source": "Norveç Hükümeti (Regjeringen.no) & Medietilsynet",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-10-13",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "Norveç Sosyal Medya Yasağı",
+      "16 Yaş Sınırı",
+      "Medietilsynet",
+      "Jonas Gahr Støre",
+      "Personopplysningsloven",
+      "Zorunlu Yaş Doğrulama",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "107",
     "slug": "turkiye-sosyal-medya-yonetmeligi-15-yas-siniri-ve-2027-takvimi",
     "title": "Türkiye'de Sosyal Medyada Yeni Dönem: 15 Yaş Altına Tam Yasak, 15-18 Yaşa Ayrıştırılmış Hizmet ve 2027 Takvimi",

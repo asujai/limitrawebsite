@@ -1,5 +1,33 @@
 [
   {
+    "id": "108",
+    "slug": "noruega-limite-idade-16-anos-redes-sociais-verificacao-obrigatoria",
+    "title": "Noruega toma medida histórica nas redes sociais: idade mínima sobe para 16 anos com verificação obrigatória",
+    "summary": "O governo norueguês apresentou um projeto de lei que eleva para 16 anos a idade mínima para acesso às redes sociais, visando proteger jovens contra algoritmos viciantes. Apoiada em dados da Medietilsynet sobre uso precoce entre 9 e 11 anos, a medida altera a Lei de Proteção de Dados e transfere a responsabilidade técnica para as plataformas.",
+    "content": [
+      "O primeiro-ministro da Noruega, Jonas Gahr Støre, e a ministra da Infância e Famílias, Kjersti Toppe, anunciaram uma reforma legislativa profunda para estabelecer em 16 anos a idade mínima de acesso às redes sociais, intensificando a defesa do desenvolvimento cerebral dos jovens diante da engenharia algorítmica. Ao caracterizar a proposta como uma batalha indispensável para proteger cérebros infantis da pressão comercial das grandes empresas de tecnologia, Støre afirmou que o atual limite formal de 13 anos não oferece proteção real. O projeto de lei criará obrigações vinculantes para que as plataformas apliquem barreiras técnicas autênticas.",
+      "A fundamentação da proposta baseia-se nos dados do levantamento nacional 'Barn og medier' (Crianças e Mídia), realizado pela Autoridade Norueguesa de Mídia (Medietilsynet). Os registros oficiais revelam que na Noruega mais da metade das crianças de 9 anos (53%), 58% das de 10 anos e 72% das de 11 anos utilizam ativamente plataformas como Snapchat, TikTok e Instagram, contornando com facilidade os termos declaratórios. A Medietilsynet ressaltou que campos editáveis de data de nascimento deixam os menores totalmente expostos a feeds personalizados viciantes e estímulos prejudiciais.",
+      "A espinha dorsal jurídica reside em uma alteração expressa na Lei de Dados Pessoais da Noruega (Personopplysningsloven). Com a nova norma, menores de 16 anos não poderão autorizar legalmente a coleta e o processamento de seus dados para fins de criação de perfis comerciais, tornando ilícitas contas criadas abaixo dessa faixa etária. A principal mudança de paradigma retira o peso da fiscalização dos pais e o transfere para as gigantes da tecnologia, que deverão integrar sistemas de identificação digital seguros, como o BankID, sujeitando-se a multas pesadas alinhadas à Lei de Serviços Digitais (DSA) da União Europeia.",
+      "Para evitar exclusão social no ambiente escolar, a restrição passará a valer a partir de 1º de janeiro do ano em que o adolescente completa 16 anos, garantindo que toda a turma escolar alcance a permissão no mesmo período. A ministra Kjersti Toppe enfatizou que o projeto oferece respaldo crucial aos lares: 'Muitos pais desejam limitar o uso de celulares e redes sociais, mas encontram extrema dificuldade diante da pressão dos pares. Esta legislação concede às famílias uma base jurídica sólida para dizer não.'",
+      "Enquanto as legislações buscam erguer barreiras de idade no nível das plataformas, manter hábitos digitais equilibrados no cotidiano exige limites pessoais deliberados. Para quem deseja definir limites diários independentes de tempo em aplicativos selecionados, o Limitra App Block permite interromper o acesso diretamente no aparelho assim que o tempo determinado é atingido."
+    ],
+    "source": "Governo da Noruega (Regjeringen.no) e Medietilsynet",
+    "sourceUrl": "https://www.regjeringen.no",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-13",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Lei de Redes Sociais na Noruega",
+      "Limite de 16 Anos",
+      "Medietilsynet",
+      "Jonas Gahr Støre",
+      "Personopplysningsloven",
+      "Verificação de Idade Obrigatória",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "107",
     "slug": "turquia-regulamentacao-redes-sociais-proibicao-menores-15-anos-prazo-2027",
     "title": "Nova era na Turquia: Proibição total de redes sociais para menores de 15 anos, serviço segregado de 15 a 18 e prazo até 2027",

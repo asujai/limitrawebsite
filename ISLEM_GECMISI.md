@@ -1,5 +1,7 @@
 # İşlem Geçmişi
 
+- **[2026-10-12 22:13]** Günlük Haber Otomasyonu: Atlandı (Bugünün haberi zaten mevcut [ID 107, 2026-10-12, 'Devlet Düzenlemeleri & Yasalar']; günlük yayın kilidi tetiklendi). Canlı site doğrulandı (`npm run check:live` OK).
+
 ## [2026-10-12 12:15] - Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) 11 Dilde Yayında (ID 107)
 
 * **Model:** Antigravity
