@@ -1,5 +1,36 @@
 # İşlem Geçmişi
 
+## [2026-10-13 22:18] - Norveç Sosyal Medya 16 Yaş Sınırı ve Zorunlu Yaş Doğrulama Yasası 11 Dilde Yayında (ID 108)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-news-108.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-13 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,651 URL, 11 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (2026-10-13 için içerik olmadığı teyit edildi).
+  - Norveç Hükümeti'nin Başbakan Jonas Gahr Støre ve Çocuk ve Aile Bakanı Kjersti Toppe öncülüğünde hazırladığı ve sosyal medyada asgari yaş sınırını 16'ya yükselten yasa tasarısı resmi kaynaklardan (Regjeringen.no) ve Medietilsynet verilerinden araştırıldı.
+  - Norveç Medya Otoritesi'nin (Medietilsynet) 'Barn og medier' araştırması bulguları aktarıldı: 9 yaşındakilerin %53'ü, 10 yaşındakilerin %58'i ve 11 yaşındakilerin %72'sinin platformların beyana dayalı 13 yaş sınırına rağmen aktif sosyal medya kullandığı; beyan usulünün çocukları korumada yetersiz kaldığı vurgulandı.
+  - Düzenlemenin mekanizması detaylandırıldı: Kişisel Veriler Yasası (Personopplysningsloven) değişikliğiyle 16 yaş altına rıza yasağı, yaş doğrulama sorumluluğunun ebeveynlerden teknoloji devlerine aktarılması, BankID ve elektronik kimlik altyapısıyla doğrulanabilir bariyer zorunluluğu, AB Dijital Hizmetler Yasası (DSA) uyumlu yaptırımlar ve akran dışlanmasını önlemek üzere 16 yaşına girilen takvim yılının 1 Ocak gününden itibaren geçerli olma kuralı işlendi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin ve dengeli bir üslupla yalnızca Limitra App Block ve uygulama başına bağımsız günlük süre limiti koyma özelliği anıldı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız yerelleştirilmiş gövde metinleriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 108).
+  - 1,653 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,651 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - GitHub'a commit'lendi ve push'landı (`[antigravity] feat: Norvec Sosyal Medya 16 Yas Siniri ve Zorunlu Yas Dogrulama (ID 108)`).
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `c5896167-6094-4f8f-8582-e5d13f9e7ab6`) ve canlıda doğrulandı (`npm run check:live` OK, ID 108 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run build` (1,653 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` (OK - Bugünün haberi zaten yayınlanmış, ID 108)
+  - `npm run deploy` (Cloudflare Workers Static Assets - Current Version ID: `c5896167-6094-4f8f-8582-e5d13f9e7ab6`)
+  - `npm run check:live` (Canli site guncel. - ID 108 HTTP 200, fiyat ve app-ads.txt doğrulandı)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 - **[2026-10-12 22:13]** Günlük Haber Otomasyonu: Atlandı (Bugünün haberi zaten mevcut [ID 107, 2026-10-12, 'Devlet Düzenlemeleri & Yasalar']; günlük yayın kilidi tetiklendi). Canlı site doğrulandı (`npm run check:live` OK).
 
 ## [2026-10-12 12:15] - Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) 11 Dilde Yayında (ID 107)

@@ -8,6 +8,16 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-13)
+- **Norveç'te Sosyal Medyada 16 Yaş Sınırı ve Zorunlu Yaş Doğrulama Yasası 11 Dilde Yayında (Antigravity, 13 Ekim):**
+  - Norveç Başbakanı Jonas Gahr Støre ve Çocuk ve Aile Bakanı Kjersti Toppe öncülüğünde hazırlanan ve sosyal medya asgari yaş sınırını 16'ya yükselten yasa tasarısı detaylandırıldı.
+  - Norveç Medya Otoritesi'nin (Medietilsynet) 'Barn og medier' (Çocuklar ve Medya) araştırmasında 9-11 yaş grubundaki yüksek kullanım oranları (9 yaş %53, 10 yaş %58, 11 yaş %72) ve beyana dayalı doğum tarihi kontrollerinin yetersizliği aktarıldı.
+  - Kişisel Veriler Yasası'nda (Personopplysningsloven) 16 yaş altına rıza yasağı, yaş doğrulama sorumluluğunun ebeveynlerden teknoloji şirketlerine aktarılması, BankID gibi manipüle edilemez elektronik kimlik zorunluluğu, AB Dijital Hizmetler Yasası (DSA) uyumlu yaptırımlar ve sınıf içi akran bölünmelerini önlemek üzere 16 yaşına girilen takvim yılının 1 Ocak gününden itibaren geçerli olma kuralı işlendi.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 108).
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve seçilen uygulamalara bağımsız günlük süre limitleri belirleme özelliği anıldı.
+  - 1,653 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,651 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `c5896167-6094-4f8f-8582-e5d13f9e7ab6`) ve canlıda doğrulandı (`npm run check:live` OK, ID 108 HTTP 200).
+
 ## Güncel Durum (2026-10-12)
 - **Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) 11 Dilde Yayında (Antigravity, 12 Ekim Öğle):**
   - Türkiye'de 10 Ekim 2026 tarihli ve 33396 sayılı Resmî Gazete'de yayımlanan 'Sosyal Ağ Sağlayıcı Tarafından Çocuklara Özgü Ayrıştırılmış Hizmet Sunulmasına ve Yaş Doğrulamaya İlişkin Yönetmelik' detaylandırıldı.
@@ -172,10 +182,10 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Türkiye Sosyal Medya Yönetmeliği (15 Yaş Altı Yasak, 15-18 Yaş Ayrıştırılmış Hizmet ve 2027 Takvimi) Haberi (ID 107) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,642 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
+- **İşlem:** Norveç Sosyal Medya 16 Yaş Sınırı ve Zorunlu Yaş Doğrulama Haberi (ID 108) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,653 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `10e1a03c-35cc-4f5a-8f33-cca360d9ddf7` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,642 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `10e1a03c-35cc-4f5a-8f33-cca360d9ddf7`), `npm run check:live` ("Canli site guncel.", ID 107 HTTP 200).
+- **Sürüm / Deploy ID:** `c5896167-6094-4f8f-8582-e5d13f9e7ab6` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,653 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `c5896167-6094-4f8f-8582-e5d13f9e7ab6`), `npm run check:live` ("Canli site guncel.", ID 108 HTTP 200).
 - **Sonraki adım:** Yok. Kullanıcı talebi ve yayın döngüsü eksiksiz tamamlandı.
 
 
@@ -186,13 +196,13 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,640 URL).
-- `npm run build` → 1,642 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,651 URL).
+- `npm run build` → 1,653 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 107, 2026-10-12)
-- `npm run deploy` → Cloudflare sürümü `10e1a03c-35cc-4f5a-8f33-cca360d9ddf7`.
-- `npm run check:live` → "Canli site guncel." (id 107 HTTP 200, fiyat ve app-ads.txt doğrulandı).
+- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 108, 2026-10-13)
+- `npm run deploy` → Cloudflare sürümü `c5896167-6094-4f8f-8582-e5d13f9e7ab6`.
+- `npm run check:live` → "Canli site guncel." (id 108 HTTP 200, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı
