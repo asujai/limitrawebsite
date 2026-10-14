@@ -1,5 +1,37 @@
 # İşlem Geçmişi
 
+## [2026-10-14 22:22] - ABD Senatosu KOSA Yasası ve 'Özen Yükümlülüğü' Standartları 11 Dilde Yayında (ID 110)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-news-110.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,684 URL, 11 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (`src/data/haberler.json` incelendi; haber kategorisinde `Devlet Düzenlemeleri & Yasalar` veya `Okullar & Gençlik` en son içeriğin 2026-10-13 tarihli ID 108 olduğu, 2026-10-14 için henüz bir haber bulunmadığı teyit edildi).
+  - ABD Senatosu'nda Demokrat Senatör Richard Blumenthal ve Cumhuriyetçi Senatör Marsha Blackburn öncülüğünde hazırlanan ve Genel Kurul'da 91 kabul, 3 ret oyuyla kabul edilen tarihi Çocukların Çevrim İçi Güvenliği Yasası (Kids Online Safety Act - KOSA) detaylandırıldı.
+  - Yasanın getirdiği yasal 'Özen Yükümlülüğü' (Duty of Care) ilkesi; platformların reşit olmayanları (17 yaş altı) depresyon, kaygı, yeme bozuklukları, siber zorbalık ve bağımlılık yapıcı algoritmalardan koruma zorunluluğu incelendi.
+  - Gençleri ekrana bağlayan agresif dikkat mühendisliği öğeleri; sonsuz kaydırma (infinite scroll), otomatik video oynatma (auto-play) ve kompulsif bildirim döngülerini tek tuşla kapatabilme imkânı, kronolojik akış seçeneği ve varsayılan en yüksek gizlilik standartları detaylandırıldı.
+  - FTC ve eyalet başsavcılarının yaptırım yetkisi, bağımsız yıllık risk denetimleri, araştırmacılara veri şeffaflığı ve ebeveyn denetim panelleri aktarıldı.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve seçilen uygulamalara bağımsız günlük kullanım süresi limiti koyma özelliği anıldı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız yerelleştirilmiş gövde metinleriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 110).
+  - 1,686 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,684 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - GitHub'a commit'lendi ve push'landı (`[antigravity] feat: ABD Senatosu KOSA Yasasi ve Ozen Yukumlulugu (ID 110)`, commit `4d2e220`).
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `f8a90733-5422-4cf1-9868-33ef7d32cd55`) ve canlıda doğrulandı (`npm run check:live` OK, ID 110 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run sitemap` (1,684 URL)
+  - `npm run build` (1,686 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` (OK - Bugünün haberi zaten yayınlanmış, ID 110)
+  - `npm run deploy` (Cloudflare Workers Static Assets - Current Version ID: `f8a90733-5422-4cf1-9868-33ef7d32cd55`)
+  - `npm run check:live` (Canli site guncel. - ID 110 HTTP 200, fiyat ve app-ads.txt doğrulandı)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-14 12:10] - Dr. Anna Lembke Haz-Acı Tahterevallisi ve 'Self-Binding' Rehberi 11 Dilde Yayında (ID 109)
 
 * **Model:** Antigravity

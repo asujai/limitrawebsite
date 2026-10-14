@@ -9,6 +9,16 @@
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 ## Güncel Durum (2026-10-14)
+- **ABD Senatosu'ndan Tarihi KOSA Yasası ve 'Özen Yükümlülüğü' Standartları 11 Dilde Yayında (Antigravity, 14 Ekim Akşamı):**
+  - ABD Senatosu'nda Richard Blumenthal (D-CT) ve Marsha Blackburn (R-TN) öncülüğünde hazırlanan ve Genel Kurul'da 91-3 oy oranıyla kabul edilen Çocukların Çevrim İçi Güvenliği Yasası (Kids Online Safety Act - KOSA) detaylandırıldı.
+  - Platformlara getirilen yasal 'Özen Yükümlülüğü' (Duty of Care) standardı; reşit olmayanları (17 yaş altı) depresyon, kaygı, yeme bozuklukları, siber zorbalık ve bağımlılık döngülerinden koruma sorumluluğu incelendi.
+  - Gençleri ekranda tutmayı amaçlayan agresif dikkat mühendisliği araçlarının sınırlandırılması; sonsuz kaydırma (infinite scroll), videoların otomatik oynatılması (auto-play) ve kompulsif bildirim döngülerini tek tuşla kapatma seçeneği, kronolojik akış imkânı ve varsayılan en yüksek gizlilik ayarları işlendi.
+  - FTC ve eyalet başsavcıları koordinasyonundaki yaptırım mekanizması, yıllık bağımsız denetimler, araştırmacılara veri şeffaflığı ve ebeveyn denetim araçları aktarıldı.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve seçilen uygulamalara bağımsız günlük kullanım süresi limiti belirleme özelliği anıldı.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Devlet Düzenlemeleri & Yasalar`, ID 110).
+  - 1,686 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,684 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `f8a90733-5422-4cf1-9868-33ef7d32cd55`) ve canlıda doğrulandı (`npm run check:live` OK, ID 110 HTTP 200).
+
 - **Dr. Anna Lembke Haz-Acı Tahterevallisi ve 'Self-Binding' Rehberi 11 Dilde Yayında (Antigravity, 14 Ekim):**
   - Stanford Üniversitesi Tıp Fakültesi Bağımlılık Tıbbı Bölüm Başkanı Prof. Dr. Anna Lembke'nin 2021 tarihli *Dopamine Nation: Finding Balance in the Age of Indulgence* eserinde ortaya koyduğu nörobiyolojik modeller incelendi.
   - Beyindeki "Haz ve Acı Tahterevallisi" (The Pleasure-Pain Balance) mekanizması; prefrontal korteks ve mezolimbik dopamin yolağında haz ve acının aynı devrelerde işlenmesi, evrimsel homeostaz ve nöroadaptasyonun ("gremlinler") ters tepkiyle aşırı savrularak "dopamin eksiklik durumuna" (dopamine deficit state) yol açması ve D2 reseptör azalması (downregulation) detaylandırıldı.
@@ -207,13 +217,13 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,673 URL).
-- `npm run build` → 1,675 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,684 URL).
+- `npm run build` → 1,686 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 109, 2026-10-14)
-- `npm run deploy` → Cloudflare sürümü `7ab33e43-4fe7-4008-b4b6-51a4e50077df`.
-- `npm run check:live` → "Canli site guncel." (id 109 HTTP 200, fiyat ve app-ads.txt doğrulandı).
+- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 110, 2026-10-14)
+- `npm run deploy` → Cloudflare sürümü `f8a90733-5422-4cf1-9868-33ef7d32cd55`.
+- `npm run check:live` → "Canli site guncel." (id 110 HTTP 200, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı
