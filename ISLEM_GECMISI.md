@@ -1,5 +1,37 @@
 # İşlem Geçmişi
 
+## [2026-10-14 12:10] - Dr. Anna Lembke Haz-Acı Tahterevallisi ve 'Self-Binding' Rehberi 11 Dilde Yayında (ID 109)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-109.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-14 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,673 URL, 22 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (`src/data/haberler.json` kontrol edildi, 2026-10-14 tarihi için rehber/makale olmadığı teyit edildi).
+  - Stanford Üniversitesi Tıp Fakültesi Bağımlılık Tıbbı Bölüm Başkanı Prof. Dr. Anna Lembke'nin 2021 tarihli *Dopamine Nation: Finding Balance in the Age of Indulgence* eserinde ortaya koyduğu nörobiyolojik modeller derinlemesine araştırıldı.
+  - Beyindeki "Haz ve Acı Tahterevallisi" (The Pleasure-Pain Balance) mekanizması; prefrontal korteks ve mezolimbik dopamin yolağında haz ve acının aynı devrelerde işlenmesi, evrimsel homeostaz ve nöroadaptasyonun ("gremlinler") ters tepkiyle aşırı savrularak "dopamin eksiklik durumuna" (dopamine deficit state) yol açması ve D2 reseptör azalması (downregulation) detaylandırıldı.
+  - Lembke'nin klinik protokolündeki 30 Günlük Dopamin Orucu ile reseptör duyarlılığının sıfırlanma süreci incelendi.
+  - Salt irade gücünün algoritmalar karşısındaki yetersizliğine karşı Odysseus metaforuna dayanan "Kendi Kendini Bağlama" (Self-Binding) protokolünün 3 boyutu (Uzamsal / Spatial, Kronolojik / Chronological, Kategorik / Categorical) formüle edildi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block, uygulama başına bağımsız günlük süre limiti ve saat aralığına göre engelleme (Restriction Schedule) özellikleri anıldı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız yerelleştirilmiş gövde metinleriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 109).
+  - 1,675 statik sayfa 0 hata ile derlendi, sitemap 22 yeni rota ile güncellendi (1,673 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `7ab33e43-4fe7-4008-b4b6-51a4e50077df`) ve canlıda doğrulandı (`npm run check:live` OK, ID 109 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run sitemap` (1,673 URL)
+  - `npm run build` (1,675 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` (OK - Bugünün haberi zaten yayınlanmış, ID 109)
+  - `npm run deploy` (Cloudflare Workers Static Assets - Current Version ID: `7ab33e43-4fe7-4008-b4b6-51a4e50077df`)
+  - `npm run check:live` (Canli site guncel. - ID 109 HTTP 200, fiyat ve app-ads.txt doğrulandı)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-13 22:18] - Norveç Sosyal Medya 16 Yaş Sınırı ve Zorunlu Yaş Doğrulama Yasası 11 Dilde Yayında (ID 108)
 
 * **Model:** Antigravity

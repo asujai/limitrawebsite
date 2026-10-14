@@ -8,6 +8,17 @@
 - **Tasarım sistemi:** Newsreader (başlık) + Manrope (arayüz); kâğıt `#f7f6f2`, mürekkep `#0e1726`, kobalt `#2d5be3`. App Block bölümleri gece paleti (espresso `#12100e` + altın `#d4a55a`). Token'lar `src/styles/global.css`.
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
+## Güncel Durum (2026-10-14)
+- **Dr. Anna Lembke Haz-Acı Tahterevallisi ve 'Self-Binding' Rehberi 11 Dilde Yayında (Antigravity, 14 Ekim):**
+  - Stanford Üniversitesi Tıp Fakültesi Bağımlılık Tıbbı Bölüm Başkanı Prof. Dr. Anna Lembke'nin 2021 tarihli *Dopamine Nation: Finding Balance in the Age of Indulgence* eserinde ortaya koyduğu nörobiyolojik modeller incelendi.
+  - Beyindeki "Haz ve Acı Tahterevallisi" (The Pleasure-Pain Balance) mekanizması; prefrontal korteks ve mezolimbik dopamin yolağında haz ve acının aynı devrelerde işlenmesi, evrimsel homeostaz ve nöroadaptasyonun ("gremlinler") ters tepkiyle aşırı savrularak "dopamin eksiklik durumuna" (dopamine deficit state) yol açması ve D2 reseptör azalması (downregulation) detaylandırıldı.
+  - Lembke'nin klinik protokolündeki 30 Günlük Dopamin Orucu ile reseptör duyarlılığının sıfırlanma süreci incelendi.
+  - Salt irade gücünün algoritmalar karşısındaki yetersizliğine karşı Odysseus metaforuna dayanan "Kendi Kendini Bağlama" (Self-Binding) protokolünün 3 boyutu (Uzamsal / Spatial, Kronolojik / Chronological, Kategorik / Categorical) formüle edildi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block, uygulama başına bağımsız günlük süre limiti ve saat aralığına göre engelleme (Restriction Schedule) özellikleri anıldı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 109).
+  - 1,675 statik sayfa 0 hata ile derlendi, sitemap 22 yeni rota ile güncellendi (1,673 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `7ab33e43-4fe7-4008-b4b6-51a4e50077df`) ve canlıda doğrulandı (`npm run check:live` OK, ID 109 HTTP 200).
+
 ## Güncel Durum (2026-10-13)
 - **Norveç'te Sosyal Medyada 16 Yaş Sınırı ve Zorunlu Yaş Doğrulama Yasası 11 Dilde Yayında (Antigravity, 13 Ekim):**
   - Norveç Başbakanı Jonas Gahr Støre ve Çocuk ve Aile Bakanı Kjersti Toppe öncülüğünde hazırlanan ve sosyal medya asgari yaş sınırını 16'ya yükselten yasa tasarısı detaylandırıldı.
@@ -182,10 +193,10 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Norveç Sosyal Medya 16 Yaş Sınırı ve Zorunlu Yaş Doğrulama Haberi (ID 108) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,653 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
+- **İşlem:** Dr. Anna Lembke Haz-Acı Tahterevallisi ve 'Self-Binding' Rehberi (ID 109) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,675 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `c5896167-6094-4f8f-8582-e5d13f9e7ab6` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,653 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `c5896167-6094-4f8f-8582-e5d13f9e7ab6`), `npm run check:live` ("Canli site guncel.", ID 108 HTTP 200).
+- **Sürüm / Deploy ID:** `7ab33e43-4fe7-4008-b4b6-51a4e50077df` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,675 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `7ab33e43-4fe7-4008-b4b6-51a4e50077df`), `npm run check:live` ("Canli site guncel.", ID 109 HTTP 200).
 - **Sonraki adım:** Yok. Kullanıcı talebi ve yayın döngüsü eksiksiz tamamlandı.
 
 
@@ -196,13 +207,13 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,651 URL).
-- `npm run build` → 1,653 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,673 URL).
+- `npm run build` → 1,675 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 108, 2026-10-13)
-- `npm run deploy` → Cloudflare sürümü `c5896167-6094-4f8f-8582-e5d13f9e7ab6`.
-- `npm run check:live` → "Canli site guncel." (id 108 HTTP 200, fiyat ve app-ads.txt doğrulandı).
+- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 109, 2026-10-14)
+- `npm run deploy` → Cloudflare sürümü `7ab33e43-4fe7-4008-b4b6-51a4e50077df`.
+- `npm run check:live` → "Canli site guncel." (id 109 HTTP 200, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı
