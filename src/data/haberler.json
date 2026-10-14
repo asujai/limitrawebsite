@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "abd-senatosu-kosa-yasasi-bagimlilik-yapan-algoritmalar-ve-guvenlik-standartlari",
+    "title": "ABD Senatosu'ndan Tarihi Karar: 91'e 3 Oyla Geçen KOSA Yasası ile Sosyal Medyada 'Özen Yükümlülüğü' Dönemi",
+    "summary": "ABD Senatosu, çocukları ve gençleri algoritmaların bağımlılık yapıcı tuzaklarından korumayı hedefleyen Çocukların Çevrim İçi Güvenliği Yasası'nı (KOSA) 91 kabul ve 3 ret oyuyla onayladı. Richard Blumenthal ve Marsha Blackburn öncülüğünde hazırlanan federal yasa; teknoloji şirketlerine yasal 'özen yükümlülüğü' getirirken, sonsuz kaydırma gibi bağımlılık yapıcı tasarım özelliklerinin kapatılabilmesini ve varsayılan en katı güvenlik standartlarını şart koşuyor.",
+    "content": [
+      "Amerika Birleşik Devletleri Senatosu, dijital çağda çocukların ve gençlerin zihinsel gelişimini koruma hedefiyle son çeyrek asrın en kapsamlı federal teknoloji düzenlemesine imza attı. Demokrat Senatör Richard Blumenthal ve Cumhuriyetçi Senatör Marsha Blackburn tarafından ortaklaşa hazırlanan Çocukların Çevrim İçi Güvenliği Yasası (Kids Online Safety Act - KOSA), Senato Genel Kurulu'nda 91 kabul ve 3 ret gibi ezici bir iki partili çoğunlukla kabul edildi. Yıllardır teknoloji devlerinin kendi özdenetim mekanizmalarına bırakılan dijital alanı ilk kez bağlayıcı federal standartlara bağlayan tasarı, algoritmik sömürüye ve ekran bağımlılığına karşı dönüm noktası olarak değerlendiriliyor.",
+      "Yasanın hukuki temelini, sosyal ağ sağlayıcılarına ve çevrim içi platformlara yüklenen yasal 'özen yükümlülüğü' (duty of care) oluşturuyor. Bu ilke uyarınca teknoloji şirketleri, 17 yaşın altındaki reşit olmayan kullanıcılara yönelik hizmet tasarımlarında makul tedbirleri almak ve olası zararları önceden hafifletmekle doğrudan sorumlu tutuluyor. Platformların; depresyon, kaygı bozuklukları, intihar ve kendine zarar verme eğilimleri, yeme bozuklukları, siber zorbalık ve kompulsif ekran bağımlılığını körükleyen algoritmik yapıları engellemesi yasal zorunluluk haline geliyor.",
+      "Düzenleme, genç kullanıcıları ekranda saatlerce tutmak üzere kurgulanan agresif dikkat mühendisliği araçlarını doğrudan hedef alıyor. Platformlar; gençlere ve ebeveynlere sonsuz kaydırma (infinite scroll), videoların otomatik oynatılması (auto-play) ve kullanıcıyı zorlantılı biçimde uygulamaya geri çağıran anlık bildirim döngülerini tek bir dokunuşla kapatma seçeneği sunmak zorunda kalacak. Ayrıca platformlar, kişiselleştirilmiş manipülatif öneri motorları yerine kronolojik içerik akışına geçme imkânı tanıyacak ve reşit olmayan tüm hesaplar varsayılan olarak en yüksek gizlilik ve güvenlik ayarlarıyla açılacak.",
+      "Yasanın yaptırım mekanizması, Federal Ticaret Komisyonu (FTC) ve eyalet başsavcılarının koordinasyonunda yürütülecek; kuralları ihlal eden teknoloji devlerine her bir ihlal için ağır federal para cezaları uygulanacak. Aynı zamanda büyük platformların çocuk güvenliği risklerini her yıl bağımsız denetçilere açması ve akredite akademik araştırmacılara algoritmik işleyişe dair şeffaf veri erişimi sağlaması şart koşuluyor. Ebeveynlere ise çocuklarının günlük ekran sürelerini şeffaf biçimde takip edebilecekleri ve sınır koyabilecekleri yerel araçlar sunulması zorunlu hale getiriliyor.",
+      "Yasal düzenlemeler platform seviyesinde güvenlik standartları inşa etmeyi amaçlarken, günlük hayatta ekran başında geçirilen zamanı dengede tutmak bireysel disiplin ve somut araçlar gerektiriyor. Seçilen uygulamalara bağımsız günlük kullanım süresi limitleri belirlemek isteyenler için Limitra App Block, belirlenen süre dolduğunda erişimi durdurarak sağlıklı dijital alışkanlıkların korunmasına yardımcı oluyor."
+    ],
+    "source": "ABD Senatosu (Senate.gov) & FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Devlet Düzenlemeleri & Yasalar",
+    "date": "2026-10-14",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "KOSA Yasası",
+      "ABD Senatosu",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Özen Yükümlülüğü",
+      "Sonsuz Kaydırma Yasağı",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-dopamin-tahterevallisi-ve-self-binding-protokolu",
     "title": "Dr. Anna Lembke'nin Haz-Acı Tahterevallisi: Ekranın Yarattığı Dopamin Çöküşünü 'Self-Binding' ile Durdurmak",

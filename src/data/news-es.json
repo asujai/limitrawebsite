@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "senado-eeuu-ley-kosa-algoritmos-adictivos-estandares-seguridad",
+    "title": "Decisión histórica en el Senado de EE. UU.: La ley KOSA sale adelante 91-3 e impone el 'deber de diligencia' en redes sociales",
+    "summary": "El Senado de Estados Unidos aprueba por una abrumadora mayoría bipartidista de 91 votos a favor y 3 en contra la Ley de Seguridad Infantil en Línea (KOSA). Impulsada por Richard Blumenthal y Marsha Blackburn, la normativa federal instaura un 'deber de diligencia' vinculante para las grandes tecnológicas, exige permitir la desactivación del scroll infinito y fija la máxima privacidad por defecto.",
+    "content": [
+      "En una jornada histórica para la regulación del entorno digital, el Senado de los Estados Unidos aprobó por una contundente mayoría bipartidista de 91 votos frente a 3 la Ley de Seguridad Infantil en Línea (Kids Online Safety Act, KOSA). Impulsada conjuntamente por el senador demócrata Richard Blumenthal y la senadora republicana Marsha Blackburn, la ley constituye la reforma federal más ambiciosa de las últimas dos décadas para proteger a menores y adolescentes frente a la manipulación algorítmica y la dependencia tecnológica.",
+      "La piedra angular del texto legislativo radica en la instauración de un 'deber de diligencia' (duty of care) jurídicamente vinculante para las plataformas sociales y los servicios en línea. Este principio responsabiliza de forma directa a las corporaciones tecnológicas de adoptar medidas razonables en el diseño de sus sistemas para prevenir y mitigar perjuicios sobre menores de 17 años, tales como la depresión, la ansiedad clínica, los trastornos de la conducta alimentaria, las autolesiones, el ciberacoso y los patrones compulsivos de consumo de pantalla.",
+      "La norma arremete contra las técnicas persuasivas de ingeniería de la atención que buscan retener indefinidamente a los jóvenes frente a las pantallas. Las plataformas estarán obligadas a facilitar a menores y progenitores herramientas sencillas para desactivar los algoritmos adictivos de recomendación, el desplazamiento infinito (infinite scroll), la reproducción automática de vídeos y las notificaciones automáticas diseñadas para forzar el retorno. Asimismo, deberán habilitar la opción de un muro cronológico y mantener por defecto la configuración de privacidad y seguridad más estricta.",
+      "El régimen sancionador recaerá bajo la supervisión coordinada de la Comisión Federal de Comercio (FTC) y los fiscales generales de los estados, contemplando cuantiosas multas por infracción. Además, las grandes compañías tecnológicas deberán someterse a auditorías independientes anuales y abrir sus datos de recomendación a investigadores académicos acreditados. A su vez, los padres contarán con herramientas transparentes para supervisar el tiempo total de pantalla y fijar límites claros de uso sin vulnerar la intimidad de las comunicaciones privadas.",
+      "Mientras las normativas públicas exigen mayores salvaguardas a las plataformas, construir rutinas equilibradas en el día a día requiere límites personales deliberados. Para quienes buscan establecer límites diarios independientes de tiempo en aplicaciones concretas, Limitra App Block permite pausar el acceso en el propio dispositivo una vez alcanzado el tiempo fijado."
+    ],
+    "source": "Senado de EE. UU. (Senate.gov) y FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Políticas gubernamentales y leyes",
+    "date": "2026-10-14",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Ley KOSA",
+      "Senado de EE. UU.",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Deber de Diligencia",
+      "Scroll Infinito",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-balanza-de-dopamina-y-protocolo-de-self-binding",
     "title": "La Balanza de Placer y Dolor de la Dra. Anna Lembke: Detener el Déficit de Dopamina Digital Mediante 'Self-Binding'",

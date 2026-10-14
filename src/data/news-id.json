@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "senat-as-undang-undang-kosa-algoritma-adiktif-standar-keamanan",
+    "title": "Keputusan Bersejarah Senat AS: UU KOSA Lolos 91-3, Wajibkan 'Kewajiban Berhati-hati' bagi Media Sosial",
+    "summary": "Senat Amerika Serikat meloloskan Undang-Undang Keamanan Daring Anak (KOSA) dengan suara mayoritas telak 91 setuju berbanding 3 menolak. Diprakarsai oleh Richard Blumenthal dan Marsha Blackburn, undang-undang federal ini mewajibkan 'duty of care' bagi raksasa teknologi, menuntut opsi pemadaman infinite scroll, serta menetapkan perlindungan privasi tertinggi secara bawaan bagi remaja.",
+    "content": [
+      "Dalam langkah bersejarah bagi tata kelola teknologi global, Senat Amerika Serikat menyetujui Kids Online Safety Act (KOSA) melalui pemungutan suara lintas partai dengan hasil telak 91 setuju dan 3 menolak. Undang-undang federal yang dirumuskan oleh Senator Demokrat Richard Blumenthal dan Senator Republik Marsha Blackburn ini menjadi regulasi teknologi paling signifikan dalam dua dasawarsa terakhir, menggantikan janji sukarela industri dengan aturan hukum mengikat guna membentengi remaja dari manipulasi algoritma dan durasi layar berlebih.",
+      "Fondasi utama undang-undang ini adalah penerapan 'kewajiban berhati-hati' (duty of care) yang dibebankan secara hukum kepada pengelola platform media sosial dan layanan digital. Berdasarkan prinsip ini, korporasi teknologi diwajibkan mengambil langkah-langkah pencegahan nyata dalam desain sistem mereka untuk meredam bahaya bagi pengguna di bawah usia 17 tahun. Tanggung jawab hukum tersebut mencakup mitigasi terhadap depresi, gangguan kecemasan, gangguan pola makan, perundungan siber, dorongan menyakiti diri sendiri, serta pola ketergantungan layar yang kompulsif.",
+      "Regulasi ini menargetkan secara spesifik fitur-fitur rekayasa perhatian yang dirancang untuk mengunci waktu pengguna muda di depan layar. Platform diwajibkan menyediakan mekanisme praktis bagi remaja dan orang tua untuk mematikan mesin rekomendasi algoritmik, menghentikan fitur gulir tanpa akhir (infinite scroll), menonaktifkan pemutaran video otomatis, serta memblokir notifikasi persuasif yang memicu dorongan membuka kembali aplikasi. Platform juga wajib menyediakan opsi linimasa kronologis dan memberlakukan setelan privasi paling ketat secara bawaan.",
+      "Pengawasan kepatuhan hukum akan dijalankan secara terpadu oleh Komisi Perdagangan Federal (FTC) bersama para Jaksa Agung di tingkat negara bagian, dengan ancaman denda perdata yang signifikan atas setiap pelanggaran. Platform skala besar juga diwajibkan menjalani audit risiko independen tahunan dan membuka akses data sistem rekomendasi bagi peneliti akademis terverifikasi. Pada saat yang sama, orang tua akan dibekali alat bawaan untuk memantau akumulasi waktu layar harian dan menentukan batas pemakaian tanpa melanggar kerahasiaan pesan terenkripsi anak.",
+      "Sementara regulasi pemerintah berfokus membangun perlindungan sistemik pada tingkat platform, memelihara kebiasaan layar yang seimbang dalam keseharian menuntut batasan pribadi yang nyata. Bagi pengguna yang ingin menetapkan batas durasi harian tersendiri pada aplikasi tertentu, Limitra App Block membantu menghentikan akses langsung di perangkat saat batas waktu yang dipilih telah terpenuhi."
+    ],
+    "source": "Senat AS (Senate.gov) & FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Kebijakan Pemerintah & Hukum",
+    "date": "2026-10-14",
+    "readTime": "5 menit",
+    "featured": false,
+    "tags": [
+      "UU KOSA",
+      "Senat AS",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Duty of Care",
+      "Infinite Scroll",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-keseimbangan-dopamin-dan-protokol-self-binding",
     "title": "Jungkat-Jungkit Kesenangan-Rasa Sakit Dr. Anna Lembke: Menghentikan Defisit Dopamin Layar Melalui 'Self-Binding'",

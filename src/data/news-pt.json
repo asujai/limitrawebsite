@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "senado-eua-lei-kosa-algoritmos-viciantes-padroes-seguranca",
+    "title": "Decisão histórica no Senado dos EUA: Lei KOSA é aprovada por 91 a 3 e impõe 'dever de cuidado' às redes sociais",
+    "summary": "O Senado dos Estados Unidos aprovou a Lei de Segurança Infantil Online (KOSA) por expressivos 91 votos a 3. Liderado por Richard Blumenthal e Marsha Blackburn, o marco federal pioneiro impõe às empresas de tecnologia o dever legal de cuidado, obriga a desativação da rolagem infinita e determina configurações máximas de privacidade para menores.",
+    "content": [
+      "Em uma votação bipartidária histórica para a governança tecnológica, o Senado dos Estados Unidos aprovou por 91 votos a 3 a Lei de Segurança Infantil Online (Kids Online Safety Act, KOSA). Desenvolvida em conjunto pelo senador democrata Richard Blumenthal e pela senadora republicana Marsha Blackburn, a legislação federal representa a maior reforma nas regras para o ecossistema digital em mais de duas décadas, impondo parâmetros obrigatórios para proteger jovens contra táticas de retenção algorítmica e tempo de tela desmedido.",
+      "A estrutura jurídica da lei baseia-se na exigência de um 'dever de cuidado' (duty of care) legalmente vinculante para as plataformas de redes sociais e serviços conectados. Pela nova diretriz, as empresas passam a responder judicialmente pela obrigação de adotar medidas razoáveis na arquitetura de seus produtos, prevenindo e mitigando danos a menores de 17 anos. A obrigação abrange a contenção de riscos ligados a depressão, crises de ansiedade, distúrbios alimentares, automutilação, intimidação virtual e uso compulsivo das telas.",
+      "O texto ataca diretamente os mecanismos de design persuasivo criados para prender a atenção dos adolescentes por horas a fio. As plataformas passam a ser obrigadas a oferecer aos jovens e seus responsáveis a opção de desativar os motores de recomendação algorítmica, a rolagem infinita (infinite scroll), a reprodução automática de vídeos e as notificações insistentes de engajamento. As redes também deverão disponibilizar feeds cronológicos alternativos e ativar, por padrão, o nível máximo de proteção e privacidade nas contas de menores.",
+      "A fiscalização será conduzida em conjunto pela Comissão Federal de Comércio (FTC) e pelos procuradores-gerais estaduais, com previsão de multas severas por descumprimento. As grandes corporações de tecnologia deverão passar por auditorias independentes anuais e abrir o funcionamento de seus algoritmos a pesquisadores acadêmicos credenciados. Paralelamente, os pais terão acesso a recursos transparentes para monitorar o tempo total diário de tela e estipular barreiras de uso sem violar a privacidade das mensagens dos filhos.",
+      "Enquanto a legislação pública estabelece salvaguardas nas plataformas, sustentar uma rotina equilibrada no dia a dia exige limites pessoais deliberados. Para quem deseja definir limites diários independentes de tempo em aplicativos específicos, o Limitra App Block permite pausar o acesso no próprio dispositivo assim que o período estipulado é atingido."
+    ],
+    "source": "Senado dos EUA (Senate.gov) e FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Políticas governamentais e leis",
+    "date": "2026-10-14",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Lei KOSA",
+      "Senado dos EUA",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Dever de Cuidado",
+      "Rolagem Infinita",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-balanca-de-dopamina-e-protocolo-de-self-binding",
     "title": "A Balança de Prazer e Dor da Dra. Anna Lembke: Como Parar o Déficit de Dopamina das Telas com 'Self-Binding'",

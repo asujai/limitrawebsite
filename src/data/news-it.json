@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "senato-usa-legge-kosa-algoritmi-additivi-standard-sicurezza",
+    "title": "Svolta storica al Senato USA: La legge KOSA passa con 91 voti a 3, imponendo il 'dovere di diligenza' ai giganti digitali",
+    "summary": "Il Senato degli Stati Uniti approva a larghissima maggioranza bipartisan (91-3) il Kids Online Safety Act (KOSA). Promossa da Richard Blumenthal e Marsha Blackburn, la normativa federale istituisce un 'dovere di diligenza' vincolante, impone l'opzione di spegnere lo scrolling infinito e fissa la massima riservatezza predefinita per i minori.",
+    "content": [
+      "Con un voto bipartisan di portata storica, il Senato degli Stati Uniti ha approvato a schiacciante maggioranza (91 voti favorevoli e 3 contrari) il Kids Online Safety Act (KOSA), segnando la più rilevante riforma della disciplina tecnologica federale negli ultimi vent'anni. Il provvedimento, guidato dal senatore democratico Richard Blumenthal e dalla senatrice repubblicana Marsha Blackburn, sostituisce le insufficienti politiche di autoregolamentazione delle piattaforme con standard giuridici rigorosi per proteggere i minori dalle dinamiche di cattura dell'attenzione e dalla dipendenza da schermo.",
+      "Il cardine normativo del testo poggia sull'introduzione di un vincolante 'dovere di diligenza' (duty of care) per i gestori di reti sociali e servizi online. In base a questo principio, le aziende tecnologiche hanno l'obbligo legale di adottare misure ragionevoli nella progettazione dei loro prodotti per prevenire e mitigare danni specifici agli under 17. Tra questi figurano disturbi depressivi, ansia clinica, disturbi del comportamento alimentare, condotte autolesionistiche, cyberbullismo e cicli compulsivi di utilizzo continuo.",
+      "La legge interviene in modo incisivo sui meccanismi algoritmici concepiti per massimizzare la permanenza degli utenti più giovani. Le piattaforme saranno obbligate a mettere a disposizione di ragazzi e genitori strumenti semplici per disattivare gli algoritmi di raccomandazione, lo scorrimento infinito (infinite scroll), l'avvio automatico dei video e le notifiche studiate per indurre il ritorno compulsivo all'app. Sarà inoltre obbligatorio consentire la visualizzazione cronologica dei contenuti e applicare come impostazione predefinita il grado massimo di privacy e tutela.",
+      "L'attuazione delle prescrizioni sarà presidiata dalla Federal Trade Commission (FTC) e dai procuratori generali dei singoli stati, con sanzioni pecuniarie particolarmente severe per ogni inadempienza. I grandi colossi del web saranno tenuti a sottoporsi a verifiche indipendenti annuali e a garantire ai ricercatori universitari accreditati l'accesso ai dati sui sistemi di raccomandazione. I genitori riceveranno strumenti integrati per monitorare il monte ore quotidiano e definire soglie di utilizzo, salvaguardando al contempo la riservatezza delle comunicazioni private.",
+      "Mentre le normative pubbliche mirano a rafforzare le tutele a monte sulle piattaforme, costruire abitudini digitali sane nella quotidianità richiede confini personali concreti. Per chi desidera impostare limiti giornalieri indipendenti di tempo su determinate applicazioni, Limitra App Block permette di sospendere l'accesso direttamente sul dispositivo una volta raggiunta la soglia prestabilita."
+    ],
+    "source": "Senato USA (Senate.gov) e FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Politiche governative e leggi",
+    "date": "2026-10-14",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Legge KOSA",
+      "Senato USA",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Dovere di Diligenza",
+      "Scrolling Infinito",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-bilancia-della-dopamina-e-protocollo-self-binding",
     "title": "La Bilancia di Piacere e Dolore della Dott.ssa Anna Lembke: Fermare il Deficit di Dopamina Digitale con il 'Self-Binding'",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "senado-ng-us-batas-kosa-nakakaadik-na-algoritmo-pamantayan-sa-kaligtasan",
+    "title": "Makasaysayang Desisyon ng Senado ng US: KOSA Naaprubahan nang 91-3, Ipinatupad ang 'Duty of Care' sa Social Media",
+    "summary": "Inaprubahan ng Senado ng Estados Unidos ang Kids Online Safety Act (KOSA) sa pamamagitan ng malaking boto na 91 sang-ayon at 3 tutol. Pinangunahan nina Richard Blumenthal at Marsha Blackburn, nagtatakda ang batas pederal ng ligal na 'duty of care' para sa tech platforms, nag-uutos na gawing opsiyonal ang infinite scroll, at nagpapatupad ng pinakamahigpit na default privacy para sa kabataan.",
+    "content": [
+      "Sa isang makasaysayang tagumpay para sa digital na regulasyon, inaprubahan ng Senado ng Estados Unidos ang Kids Online Safety Act (KOSA) sa pamamagitan ng 91 pabor at 3 tutol na bipartisan na boto. Binuo nina Democratic Senator Richard Blumenthal at Republican Senator Marsha Blackburn, ang pambansang panukalang-batas na ito ang pinakamalawak na reporma sa teknolohiya sa nakalipas na dalawang dekada, na nagtatatag ng pormal na pananagutan sa batas upang protektahan ang kabataan laban sa nakakaadik na algorithmic design at labis na paggamit ng telepono.",
+      "Ang pinakasentro ng batas ay ang ligal na 'tungkulin sa pag-iingat' (duty of care) na ipinapataw sa mga kumpanya ng social media at mga online service. Sa ilalim ng patakarang ito, direktang mananagot ang mga higanteng kumpanya ng teknolohiya na magsagawa ng mga kinakailangang hakbang sa disenyo ng kanilang produkto upang maiwasan at mabawasan ang mga pinsala sa kabataang wala pang 17 taong gulang. Kabilang dito ang pagkontrol sa depresyon, matinding pagkabalisa, eating disorders, pambu-bully sa internet, pananakit sa sarili, at mapilit na adiksyon sa screen.",
+      "Tinatamaan ng bagong batas ang mga mapanlinlang na disenyo na sadyang ginawa upang itali ang atensyon ng kabataan. Obligado ang mga platform na magbigay ng madaling kontrol sa mga kabataan at magulang upang patayin ang algorithmic recommendation feeds, pigilan ang tuloy-tuloy na infinite scroll, alisin ang autoplay sa mga video, at harangan ang mga mapilit na push notification. Dagdag pa rito, kailangang mag-alok ng alternatibong chronological feed at panatilihin ang pinakamataas na antas ng privacy at proteksyon bilang default setting.",
+      "Pangungunahan ng Federal Trade Commission (FTC) at ng mga state attorney general ang pagpapatupad ng batas, na may kasamang mabibigat na multa sa bawat paglabag. Kakailanganin din ng malalaking platform na sumailalim sa taunang independiyenteng pagsusuri sa kaligtasan at magbigay ng access sa data para sa mga kinikilalang akademikong mananaliksik. Bukod dito, bibigyan ang mga magulang ng mga built-in na gamit upang makita ang kabuuang oras ng paggamit ng screen at magtakda ng limitasyon nang hindi pinakikialaman ang pribadong mensahe ng mga anak.",
+      "Habang layunin ng mga batas ng pamahalaan na maglagay ng proteksyon sa mismong mga platform, ang pagpapanatili ng balanseng oras sa paggamit ng telepono sa araw-araw ay nangangailangan pa rin ng sariling disiplina. Para sa mga nais magtakda ng hiwalay na limitasyon sa oras bawat araw sa mga partikular na application, ang Limitra App Block ay tumutulong na ihinto ang pag-access sa mismong device kapag naabot na ang napiling limitasyon."
+    ],
+    "source": "Senado ng US (Senate.gov) at FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Mga Patakaran ng Pamahalaan at Batas",
+    "date": "2026-10-14",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "KOSA Act",
+      "Senado ng US",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Duty of Care",
+      "Infinite Scroll",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-timbangan-ng-dopamine-at-self-binding-protocol",
     "title": "Ang Timbangan ng Kasiyahan at Sakit ni Dr. Anna Lembke: Pagpigil sa Dopamine Deficit ng Screen Gamit ang 'Self-Binding'",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "us-senat-kosa-gesetz-suchterzeugende-algorithmen-sicherheitsstandards",
+    "title": "Historische Abstimmung im US-Senat: KOSA-Gesetz mit 91 zu 3 Stimmen verabschiedet – Sorgfaltspflicht für Social-Media-Konzerne",
+    "summary": "Der US-Senat hat den Kids Online Safety Act (KOSA) mit einer parteiübergreifenden Mehrheit von 91 zu 3 Stimmen angenommen. Die von Richard Blumenthal und Marsha Blackburn initiierte Bundesgesetzgebung verpflichtet Tech-Plattformen zu einer rechtlichen 'Sorgfaltspflicht', ermöglicht das Abschalten endloser Feeds und schreibt strengste Voreinstellungen für Minderjährige vor.",
+    "content": [
+      "In einem historischen Schulterschluss hat der Senat der Vereinigten Staaten mit 91 zu 3 Stimmen für den Kids Online Safety Act (KOSA) gestimmt und damit die bedeutendste parteiübergreifende Tech-Regulierung seit über zwei Jahrzehnten beschlossen. Der Gesetzentwurf des demokratischen Senators Richard Blumenthal und der republikanischen Senatorin Marsha Blackburn setzt den jahrelangen freiwilligen Selbstverpflichtungen der Digitalkonzerne ein Ende und verankert verbindliche bundesweite Schutzstandards, um Jugendliche vor algorithmischer Manipulation und unkontrollierter Bildschirmzeit zu schützen.",
+      "Das juristische Herzstück des Gesetzes ist eine gesetzliche 'Sorgfaltspflicht' (duty of care), die Online-Plattformen und sozialen Netzwerken auferlegt wird. Betreiber sind künftig rechtlich verpflichtet, bei der Konzeption und dem Betrieb ihrer Dienste angemessene Vorkehrungen zu treffen, um Gefahren für Minderjährige unter 17 Jahren proaktiv zu verhindern und abzumildern. Dies umfasst insbesondere die Vorbeugung von Depressionen, Angststörungen, Essstörungen, Cybermobbing, Suizidgefährdung sowie suchtähnlichen, zwanghaften Verhaltensmustern bei der Bildschirmnutzung.",
+      "Das Gesetz untersagt den ungebremsten Einsatz persuasiver Designmuster, die gezielt auf die Ausbeutung jugendlicher Aufmerksamkeit abzielen. Plattformen müssen Minderjährigen und Eltern intuitive Kontrollen bereitstellen, um algorithmische Empfehlungssysteme, unendliches Scrollen (infinite scroll), automatische Videowiedergaben und aufdringliche Push-Benachrichtigungen mit einem Klick zu deaktivieren. Zudem müssen chronologische Beitragsübersichten als Alternative bereitstehen und alle Konten von Minderjährigen standardmäßig auf die höchste Privatsphäre- und Sicherheitsstufe geschaltet sein.",
+      "Die Durchsetzung liegt in den Händen der Federal Trade Commission (FTC) und der Generalstaatsanwälte der Bundesstaaten, die Verstöße mit empfindlichen Zivilstrafen ahnden können. Große Tech-Unternehmen werden zudem verpflichtet, jährliche unabhängige Risikoaudits durchführen zu lassen und akkreditierten Forschern Einblick in ihre algorithmischen Systeme zu gewähren. Eltern erhalten standardisierte Werkzeuge an die Hand, um die tägliche Gesamtnutzungszeit ihrer Kinder transparent einzusehen und Obergrenzen festzulegen, ohne vertrauliche Nachrichten einzusehen.",
+      "Während staatliche Gesetze Schutzregeln auf Plattformebene vorschreiben, verlangt ein gesunder digitaler Alltag im Hier und Jetzt klare persönliche Leitplanken. Für diejenigen, die für ausgewählte Anwendungen unabhängige tägliche Zeitlimits festlegen möchten, hilft Limitra App Block dabei, den Zugriff auf dem eigenen Gerät zu sperren, sobald das festgelegte Limit erreicht ist."
+    ],
+    "source": "US-Senat (Senate.gov) & FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Regierungspolitik & Gesetze",
+    "date": "2026-10-14",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "KOSA-Gesetz",
+      "US-Senat",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Sorgfaltspflicht",
+      "Endloses Scrollen",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-dopamin-waage-und-self-binding-protokoll",
     "title": "Die Lust-Schmerz-Waage von Dr. Anna Lembke: Das digitale Dopamin-Defizit durch 'Self-Binding' stoppen",

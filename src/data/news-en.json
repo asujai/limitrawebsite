@@ -1,5 +1,33 @@
 [
   {
+    "id": "110",
+    "slug": "us-senate-kosa-act-addictive-algorithms-safety-standards",
+    "title": "Historic U.S. Senate Vote: KOSA Passes 91-3, Enforcing 'Duty of Care' and Curbing Addictive Algorithms",
+    "summary": "The United States Senate has overwhelmingly approved the Kids Online Safety Act (KOSA) in a historic 91-3 bipartisan vote. Championed by Senators Richard Blumenthal and Marsha Blackburn, the landmark legislation establishes a statutory 'duty of care' for tech platforms, mandates the ability to disable addictive features like infinite scrolling, and enforces the strictest default privacy protections for minors.",
+    "content": [
+      "In a historic milestone for digital governance, the United States Senate has approved the most comprehensive federal tech regulation in more than two decades, voting 91-3 to pass the Kids Online Safety Act (KOSA). Co-authored by Democratic Senator Richard Blumenthal and Republican Senator Marsha Blackburn, the bipartisan legislation establishes legally binding child safety standards across major social networks and digital platforms. Moving past years of voluntary industry pledges, the statute establishes enforceable guardrails designed to shield youth from algorithmic manipulation and compulsive screen time habits.",
+      "At the legal core of the legislation is a statutory 'duty of care' imposed directly on tech conglomerates and online services. Under this mandate, platforms must take affirmative and reasonable measures in the design and operation of their products to prevent and mitigate specified harms to minors under 17. The law explicitly obligates companies to curb product designs that promote mental health disorders, depression, anxiety, eating disorders, self-harm, cyberbullying, sexual exploitation, and compulsive, addictive engagement loops.",
+      "The statute systematically dismantles key elements of aggressive engagement engineering engineered to maximize youth screen time. Covered platforms will be legally required to provide accessible safeguards allowing minors and parents to turn off addictive recommendation engines, disable endless infinite scrolling, switch off automatic video autoplay, and mute retention-focused push notifications. Furthermore, platforms must offer alternative chronological content feeds and enforce maximum privacy and safety protections by default, restricting direct messaging from strangers and eliminating algorithmic behavioral profiling.",
+      "Enforcement of the legislation is anchored in dual oversight by the Federal Trade Commission (FTC) and state attorneys general, backed by substantial civil penalties for non-compliance. Large digital platforms must undergo mandatory annual independent risk assessments and grant vetted academic researchers transparent access to algorithmic recommendation systems. In parallel, platforms must equip parents with integrated tools to monitor aggregate daily screen time and configure usage boundaries without compromising the privacy of encrypted communications.",
+      "While government frameworks mandate platform-level protections, cultivating balanced digital habits in daily life requires deliberate personal boundaries. For those seeking to establish independent daily time limits on selected applications, Limitra App Block provides local device controls that pause access once a chosen limit is reached."
+    ],
+    "source": "U.S. Senate (Senate.gov) & FTC",
+    "sourceUrl": "https://www.senate.gov",
+    "category": "Government Policies & Laws",
+    "date": "2026-10-14",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "KOSA Act",
+      "US Senate",
+      "Richard Blumenthal",
+      "Marsha Blackburn",
+      "Duty of Care",
+      "Addictive Algorithms",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "109",
     "slug": "dr-anna-lembke-dopamine-balance-and-self-binding-protocol",
     "title": "Dr. Anna Lembke's Pleasure-Pain Balance: Halting the Screen-Induced Dopamine Deficit Through 'Self-Binding'",
