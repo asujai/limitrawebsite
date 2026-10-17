@@ -9,6 +9,17 @@
 - **Fiyat kuralı:** Sitede fiyat rakamı gösterilmez (kullanıcı kararı, 2026-10-03). JSON-LD'deki App Block teklifi (`0.49 USD`) yalnız yapılandırılmış veri ve `check:live` için korunur; Social düğümü ondan sonra gelmelidir.
 - **Desteklenen Diller (11 Dil):** Türkçe (`/`), İngilizce (`/en`), İspanyolca (`/es`), Fransızca (`/fr`), Almanca (`/de`), Portekizce (`/pt`), İtalyanca (`/it`), Arapça (`/ar` - RTL), Endonezce (`/id`), Filipince (`/fil`), Tayca (`/th`).
 ## Güncel Durum (2026-10-17)
+- **ABD Federal Mahkemesi Okul Bölgeleri Davası ve Madde 230 Sınırı 11 Dilde Yayında (Antigravity, 17 Ekim Akşamı):**
+  - ABD Kaliforniya Kuzey Bölge Federal Mahkemesi'nde (Oakland) Yargıç Yvonne Gonzalez Rogers tarafından yönetilen emsal nitelikteki çok bölgeli toplu dava (MDL No. 3047: In re Social Media Adolescent Addiction) detaylandırıldı.
+  - ABD genelindeki yüzlerce kamu okul bölgesinin (Los Angeles Unified, Seattle Public Schools vb.) Meta, ByteDance (TikTok), Alphabet (YouTube) ve Snap aleyhine açtığı davada teknoloji devlerinin davayı düşürme (motion to dismiss) talebi büyük ölçüde reddedildi.
+  - İletişim Ahlakı Yasası Madde 230 (Section 230) dokunulmazlığının ürün tasarımı açısından sınırlandırılması; sonsuz kaydırma (infinite scroll), otomatik video oynatma (auto-play), değişken ödüllü algoritmik akışlar ve kompulsif anlık bildirim döngülerinin üçüncü taraf ifade değil, doğrudan kusurlu ürün tasarımı sayılması kararı işlendi.
+  - Mahkemenin, okul bölgelerinin öğrencilerin ekran bağımlılığı, dikkat dağınıklığı, ders bölünmeleri, siber zorbalık ve uyku yoksunluğu krizleriyle başa çıkmak için doğrudan bütçelerinden yüz milyonlarca dolar harcadığına ve bunun öngörülebilir doğrudan bir zarar olduğuna ilişkin tespiti aktarıldı.
+  - İhmal (negligence) ve uyarma yükümlülüğünün ihlali iddialarının geçerliliği; şirketlerin iç araştırmalarındaki zihinsel sağlık risklerini gizlemeleri konusu incelendi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve seçilen uygulamalara bağımsız günlük kullanım süresi limiti koyma özelliği anıldı.
+  - 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Okullar & Gençlik`, ID 112).
+  - 1,719 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,717 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `cf40fc62-52c3-475e-8274-c52d131462c7`) ve canlıda doğrulandı (`npm run check:live` OK, ID 112 HTTP 200).
+
 - **Marcus Aurelius ve Epiktetos'un 'İçsel Kale'si ve Stoacı Dikkat Savunma Protokolü 11 Dilde Yayında (Antigravity, 17 Ekim):**
   - Antik Stoacı felsefenin dikkat (prosochē), ahlaki irade (prohairesis) ve bilişsel onay (synkatathesis) öğretisi ile modern bilişsel nörobilimin kesişimi incelendi.
   - Prefrontal korteksin yönettiği hedef odaklı 'yukarıdan aşağıya' (top-down) yürütücü dikkat ağı ile limbik sistem ve belirginlik ağının (salience network) refleksif 'aşağıdan yukarıya' (bottom-up) yönelim tepkisi (orienting reflex) ele alındı; algoritmaların değişken ödül mekanizmalarıyla bu refleksi istismar ettiği bilimsel mekanizmasıyla aktarıldı.
@@ -215,11 +226,11 @@
 - Toplam üretilen sayfa sayısı: 1,510 statik sayfa, 0 hata, kırık iç bağlantı yok.
 
 ## Son Yapılan İşlem
-- **İşlem:** Dr. Anna Lembke Haz-Acı Tahterevallisi ve 'Self-Binding' Rehberi (ID 109) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,675 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
+- **İşlem:** ABD Federal Mahkemesi Okul Bölgeleri Davası ve Madde 230 Sınırı (ID 112) 11 dilde araştırıldı, üretildi, sitemap güncellendi, 1,719 sayfa derlendi ve Cloudflare Workers statik varlıklarına canlı yayınlandı.
 - **Model:** Antigravity
-- **Sürüm / Deploy ID:** `7ab33e43-4fe7-4008-b4b6-51a4e50077df` (Cloudflare Workers Static Assets)
-- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,675 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `7ab33e43-4fe7-4008-b4b6-51a4e50077df`), `npm run check:live` ("Canli site guncel.", ID 109 HTTP 200).
-- **Sonraki adım:** Yok. Kullanıcı talebi ve yayın döngüsü eksiksiz tamamlandı.
+- **Sürüm / Deploy ID:** `cf40fc62-52c3-475e-8274-c52d131462c7` (Cloudflare Workers Static Assets)
+- **Doğrulama:** `npm run check:lang` (OK), `npm run build` (1,719 sayfa, 0 hata), `npm run check:links` (OK), `npm run check:news` (OK), `npm run deploy` (Current Version ID: `cf40fc62-52c3-475e-8274-c52d131462c7`), `npm run check:live` ("Canli site guncel.", ID 112 HTTP 200).
+- **Sonraki adım:** Yok. Günlük haber yayın döngüsü eksiksiz tamamlandı.
 
 
 ## Mimari Not — Çok Dilli Rotalama ve Haber Sistemi
@@ -229,13 +240,13 @@
 - Haber ve rehber slug'ları 11 dilde yerel kelimelerle oluşturulmuştur; ortak `id` alanı üzerinden diller arası kesintisiz eşleşir.
 
 ## Doğrulama
-- `npm run sitemap` → sitemap.xml güncellendi (1,684 URL).
-- `npm run build` → 1,686 sayfa, 0 hata.
+- `npm run sitemap` → sitemap.xml güncellendi (1,717 URL).
+- `npm run build` → 1,719 sayfa, 0 hata.
 - `npm run check:lang` → "BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş."
 - `npm run check:links` → "OK - kirik ic baglanti yok."
-- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 110, 2026-10-14)
-- `npm run deploy` → Cloudflare sürümü `f8a90733-5422-4cf1-9868-33ef7d32cd55`.
-- `npm run check:live` → "Canli site guncel." (id 110 HTTP 200, fiyat ve app-ads.txt doğrulandı).
+- `npm run check:news` → "[OK] Bugünün haberi zaten yayınlanmış." (ID 112, 2026-10-17)
+- `npm run deploy` → Cloudflare sürümü `cf40fc62-52c3-475e-8274-c52d131462c7`.
+- `npm run check:live` → "Canli site guncel." (id 112 HTTP 200, fiyat ve app-ads.txt doğrulandı).
 - `git push origin main` → senkronize.
 
 ## Günlük Haber Ekleme İş Akışı

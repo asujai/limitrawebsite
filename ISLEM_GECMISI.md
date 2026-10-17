@@ -1,5 +1,38 @@
 # İşlem Geçmişi
 
+## [2026-10-17 22:20] - ABD Federal Mahkemesi Okul Bölgeleri Davası ve Madde 230 Sınırı 11 Dilde Yayında (ID 112)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-news-112.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,717 URL, 11 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (`src/data/haberler.json` incelendi; `Okullar & Gençlik` veya `Devlet Düzenlemeleri & Yasalar` kategorisinde en son haberin 2026-10-14 tarihli ID 110 olduğu, 2026-10-17 için henüz bir haber bulunmadığı teyit edildi).
+  - ABD Kaliforniya Kuzey Bölge Federal Mahkemesi'nde (Oakland) Yargıç Yvonne Gonzalez Rogers tarafından yönetilen emsal nitelikteki çok bölgeli toplu dava (MDL No. 3047: In re Social Media Adolescent Addiction) detaylandırıldı.
+  - ABD genelindeki yüzlerce kamu okul bölgesinin (Los Angeles Unified, Seattle Public Schools vb.) Meta, ByteDance (TikTok), Alphabet (YouTube) ve Snap aleyhine açtığı davada teknoloji devlerinin davayı düşürme (motion to dismiss) talebi büyük ölçüde reddedildi.
+  - İletişim Ahlakı Yasası Madde 230 (Section 230) dokunulmazlığının ürün tasarımı açısından sınırlandırılması; sonsuz kaydırma (infinite scroll), otomatik video oynatma (auto-play), değişken ödüllü algoritmik akışlar ve kompulsif anlık bildirim döngülerinin üçüncü taraf ifade değil, doğrudan kusurlu ürün tasarımı sayılması kararı işlendi.
+  - Mahkemenin, okul bölgelerinin öğrencilerin ekran bağımlılığı, dikkat dağınıklığı, ders bölünmeleri, siber zorbalık ve uyku yoksunluğu krizleriyle başa çıkmak için doğrudan bütçelerinden yüz milyonlarca dolar harcadığına ve bunun öngörülebilir doğrudan bir zarar olduğuna ilişkin tespiti aktarıldı.
+  - İhmal (negligence) ve uyarma yükümlülüğünün ihlali iddialarının geçerliliği; şirketlerin iç araştırmalarındaki zihinsel sağlık risklerini gizlemeleri konusu incelendi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block ve seçilen uygulamalara bağımsız günlük kullanım süresi limiti koyma özelliği anıldı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız yerelleştirilmiş gövde metinleriyle üretildi (`category: Okullar & Gençlik`, ID 112).
+  - 1,719 statik sayfa 0 hata ile derlendi, sitemap 11 yeni rota ile güncellendi (1,717 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - GitHub'a commit'lendi ve push'landı (`[antigravity] feat: ABD Federal Mahkemesi Okul Bolgeleri Sosyal Medya Bagimliligi Davasi (ID 112)`, commit `87f1e54`).
+  - Cloudflare Workers statik varlıklarına deploy edildi (Sürüm ID: `cf40fc62-52c3-475e-8274-c52d131462c7`) ve canlıda doğrulandı (`npm run check:live` OK, ID 112 HTTP 200).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run sitemap` (1,717 URL)
+  - `npm run build` (1,719 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run check:news` (OK - Bugünün haberi zaten yayınlanmış, ID 112)
+  - `npm run deploy` (Cloudflare Workers Static Assets - Current Version ID: `cf40fc62-52c3-475e-8274-c52d131462c7`)
+  - `npm run check:live` (Canli site guncel. - ID 112 HTTP 200, fiyat ve app-ads.txt doğrulandı)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-17 12:07] - Marcus Aurelius ve Epiktetos'un 'İçsel Kale'si ve Stoacı Dikkat Savunma Protokolü 11 Dilde Yayında (ID 111)
 
 * **Model:** Antigravity
