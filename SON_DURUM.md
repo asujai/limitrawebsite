@@ -18,6 +18,7 @@
   - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block, uygulama başına bağımsız günlük süre limiti ve sistem üzerine bindirilen Stoacı kilit ekranı özelliği anıldı.
   - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız gövde çevirileriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 111).
   - 1,708 statik sayfa 0 hata ile derlendi, sitemap 22 yeni rota ile güncellendi (1,706 URL, `npm run check:links` ve `npm run check:lang` OK).
+  - Cloudflare Workers statik varlıklarına yayınlandı (Sürüm ID: `8649063a-0c33-49b1-8d2a-2cbc273e13d5`) ve canlıda doğrulandı (`npm run check:live` OK, ID 111 HTTP 200).
 
 ## Güncel Durum (2026-10-14)
 - **ABD Senatosu'ndan Tarihi KOSA Yasası ve 'Özen Yükümlülüğü' Standartları 11 Dilde Yayında (Antigravity, 14 Ekim Akşamı):**
