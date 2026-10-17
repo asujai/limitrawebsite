@@ -1,5 +1,36 @@
 # İşlem Geçmişi
 
+## [2026-10-17 12:07] - Marcus Aurelius ve Epiktetos'un 'İçsel Kale'si ve Stoacı Dikkat Savunma Protokolü 11 Dilde Yayında (ID 111)
+
+* **Model:** Antigravity
+* **Etkilenen Dosyalar:**
+  - `[YENİ]` `scripts/add-article-111.mjs`
+  - `[GÜNCELLENDİ]` `src/data/haberler.json` (TR)
+  - `[GÜNCELLENDİ]` `src/data/news-*.json` (10 dil: EN, ES, FR, DE, PT, IT, AR, ID, FIL, TH)
+  - `[GÜNCELLENDİ]` `scripts/generate-sitemap.mjs` (Tarih 2026-10-17 olarak güncellendi)
+  - `[GÜNCELLENDİ]` `public/sitemap.xml` (1,706 URL, 22 yeni rota eklendi)
+  - `[GÜNCELLENDİ]` `ISLEM_GECMISI.md`
+  - `[GÜNCELLENDİ]` `SON_DURUM.md`
+* **Yapılan İşlem:**
+  - Günlük yayın kilidi denetlendi (`src/data/haberler.json` kontrol edildi, 2026-10-17 tarihi için henüz rehber/makale bulunmadığı teyit edildi).
+  - Antik Stoacı felsefenin dikkat (prosochē), ahlaki irade (prohairesis) ve bilişsel onay (synkatathesis) öğretisi ile modern bilişsel nörobilimin kesişimi derinlemesine incelendi.
+  - Prefrontal korteksin yönettiği hedef odaklı 'yukarıdan aşağıya' (top-down) yürütücü dikkat ağı ile limbik sistem ve belirginlik ağının (salience network) refleksif 'aşağıdan yukarıya' (bottom-up) yönelim tepkisi (orienting reflex) ele alındı; algoritmaların değişken ödül mekanizmalarıyla bu refleksi istismar ettiği bilimsel mekanizmasıyla aktarıldı.
+  - Epiktetos'un *Söylevler* ve *El Kitabı* eserlerindeki 'Kontrol İkiliği' (Dichotomy of Control - Ta eph' hemin / Ta ouk eph' hemin) prensibi ile bildirimlerin ve algoritmik akışların dışsal olduğu, zihinsel onayın geri çekilmesi gerektiği açıklandı.
+  - Roma İmparatoru Marcus Aurelius'un *Kendime Düşünceler* eserindeki 'İçsel Kale' (The Inner Citadel / Hegemonikon - yönetici ilke) kavramı ve Pierre Hadot'nun analizleri; beynin nöroplastisite ile sığ uyaranlara göre biçimlenmesi ve içsel kalenin zayıflaması analiziyle birleştirildi.
+  - Viktor Frankl'ın uyaran ile tepki arasındaki boşluk kavrayışıyla örtüşen 3 aşamalı somut dijital direnç protokolü (1- Duraklama ve Test, 2- Kontrol İkiliği Süzgeci, 3- Çevresel Sınır Mimarisi) formüle edildi.
+  - Limitra atıf kurallarına tam uyularak son paragrafta sakin bir üslupla yalnızca Limitra App Block, uygulama başına bağımsız günlük süre limiti ve sistem üzerine bindirilen Stoacı kilit ekranı özelliği anıldı.
+  - İçerik 11 dilde (`tr`, `en`, `es`, `fr`, `de`, `pt`, `it`, `ar`, `id`, `fil`, `th`) eşzamanlı ve tam bağımsız yerelleştirilmiş gövde metinleriyle üretildi (`category: Ekran Süresi Kontrolü`, ID 111).
+  - 1,708 statik sayfa 0 hata ile derlendi, sitemap 22 yeni rota ile güncellendi (1,706 URL, `npm run check:links` ve `npm run check:lang` OK).
+* **Doğrulama:**
+  - `npm run check:lang` (BAŞARILI: Tüm dillerde gövde metinleri yerelleştirilmiş)
+  - `npm run sitemap` (1,706 URL)
+  - `npm run build` (1,708 sayfa, 0 hata)
+  - `npm run check:links` (OK - kırık iç bağlantı yok)
+  - `npm run deploy` (Cloudflare Workers Static Assets yayını)
+  - `npm run check:live` (Canli site guncel.)
+* **Bilinen Sorunlar:** Yok
+* **Sonraki Öneri:** Yok
+
 ## [2026-10-14 22:22] - ABD Senatosu KOSA Yasası ve 'Özen Yükümlülüğü' Standartları 11 Dilde Yayında (ID 110)
 
 * **Model:** Antigravity

@@ -3,7 +3,7 @@ import path from 'node:path';
 import { categoryMap } from './translations-news.mjs';
 
 const base = 'https://limitra.online';
-const today = '2026-10-14';
+const today = '2026-10-17';
 
 const dataDir = path.resolve('src/data');
 

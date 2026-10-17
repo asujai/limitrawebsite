@@ -1,5 +1,33 @@
 [
   {
+    "id": "111",
+    "slug": "marcus-aurelius-at-epictetus-panloob-na-kuta-at-atensyon-laban-sa-algoritmo",
+    "title": "Ang 'Panloob na Kuta' nina Marcus Aurelius at Epictetus: Stoic Protocol Laban sa Pag-agaw ng Algoritmo sa Atensyon",
+    "summary": "Ang pagtatagpo ng sinaunang Stoic mindfulness (prosochē) at modernong cognitive neuroscience: ang 'Panloob na Kuta' ni Marcus Aurelius, ang 'Dichotomy of Control' ni Epictetus, at 3 hakbang na protocol para bawiin ang sariling atensyon.",
+    "content": [
+      "Ang mga modernong smartphone at algorithm ng social media ay walang humpay na humahamon sa kognitibong kayarian ng utak ng tao. Sa cognitive neuroscience, gumagana ang atensyon sa pamamagitan ng dalawang pangunahing network: ang may layunin at kusang 'top-down' executive network na pinamamahalaan ng prefrontal cortex, at ang 'bottom-up' salience network na kusang nagre-react sa mga biglaang pahiwatig sa paligid. Ang mga algorithm ng social media, na gumagamit ng mga variable reward at makukulay na badge ng notification, ay palagiang nagti-trigger sa orienting reflex ng utak. Ang awtomatikong pag-agaw na ito ay lumalagpas sa malay na pagpapasiya ng tao at naglalagay sa isip sa isang estado ng patuloy na pagkagambala.",
+      "Dalawang libong taon bago sumulpot ang mga digital na algorithm, masusing sinuri ng mga pilosopong Stoic sa sinaunang Gresya at Roma ang kahinaan ng isip sa harap ng mga panlabas na pampasigla. Sa kanyang 'Discourses' at 'Encheiridion', binalangkas ni Epictetus ang pinakapundasyon ng Stoicism: ang Dichotomy of Control (Ta eph' hemin laban sa Ta ouk eph' hemin). May mga bagay na nasa ating kontrol, at may mga bagay na ganap na wala sa ating kontrol. Ang mga notification, viral na uso, pagbabago sa algorithm, at reaksyon ng ibang tao sa internet ay pawang mga panlabas na bagay na hindi natin hawak. Ang tanging nananatiling atin ay ang ating paghuhusga, ang ating malay na pagpili (prohairesis), at ang ating pahintulot sa kaisipan (synkatathesis). Tulad ng sinabi ni Epictetus: 'Kung ibinigay ng sinuman ang iyong katawan sa sinumang dumaraan, magagalit ka nang husto; gayunpaman, ipinauubaya mo ang iyong isip sa kahit anong pampasigla upang guluhin at lituhin ito.'",
+      "Sa kanyang 'Meditations' (Ta Eis Heauton), binuo naman ng emperador ng Roma na si Marcus Aurelius ang konseptong tinawag ng pilosopong si Pierre Hadot na 'Panloob na Kuta' (The Inner Citadel / Hegemonikon, o ang namamahalang sentro ng kaluluwa). Ayon kay Marcus Aurelius, kinukulayan ng mga madalas na iniisip ang kaluluwa; kung iiwang bukas ang tarangkahan ng kuta, ang gulo ng labas ang sasakop sa sentro ng pamamahala. Pinatutunayan ito ng modernong neuroscience sa pamamagitan ng neuroplasticity: muling hinuhubog ng utak ang mga koneksyon nito ayon sa mabilis at mababaw na impormasyong paulit-ulit nitong natatanggap. Ang walang humpay na pag-scroll araw-araw ay unti-unting nagpapahina sa kakayahan ng prefrontal cortex para sa malalim na pokus, na sumisira sa kuta ng sariling kaisipan.",
+      "Upang pigilan ang pagkaagnas na ito ng isip, nagsanay ang mga Stoic ng 'Prosochē'—isang gawi ng patuloy na pagiging gising at mapagbantay sa sariling atensyon. Nagtagubilin si Epictetus ng agarang paghinto sa harap ng anumang biglaang udyok: 'Huminto ka, impresyon; hayaan mong makita ko kung ano ka at kung ano ang kinakatawan mo; hayaan mong subukin kita.' Sa modernong cognitive behavioral therapy, katulad ng sinabi ni Viktor Frankl tungkol sa agwat sa pagitan ng stimulus at tugon, ang sinaunang gawaing ito ay nagiging 3 hakbang na digital protocol: 1) Paghinto at Pagsusuri (paghihintay ng 10 segundo bago hawakan ang telepono kapag naramdaman ang udyok, pinagmamasdan ang mekanikal na katangian nito), 2) Pagsala sa Pamamagitan ng Dichotomy of Control (pagkilala na ang digital feed ay ingay sa labas at pagtangging magpaapekto rito), at 3) Arkitektura ng Panlabas na Hangganan (paglalagay ng konkretong harang upang protektahan ang panloob na kuta).",
+      "Tulad ng ipinaalala ni Marcus Aurelius, ang pag-asa lamang sa sariling lakas ng loob laban sa walang humpay na panggigipit ay hindi sapat ayon sa biyolohiya; ang pagtatanggol sa panloob na kuta ay nangangailangan ng maaasahang panlabas na hangganan. Nagbibigay ang Limitra App Block ng hiwalay na limitasyon sa oras ng paggamit bawat araw para sa mga napiling app at naglalagay ng lock screen na nagpapakita ng mga Stoic na pagninilay kapag naabot ang takdang oras o sa mga itinakdang oras ng katahimikan, na pumipigil sa pabigla-biglang paggamit at tumutulong na maibalik ang malay na kontrol sa sariling atensyon."
+    ],
+    "source": "Marcus Aurelius (Meditations), Epictetus (Discourses) at Pierre Hadot (The Inner Citadel)",
+    "sourceUrl": "https://plato.stanford.edu/entries/stoicism/",
+    "category": "Kontrol sa Screen Time",
+    "date": "2026-10-17",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Marcus Aurelius",
+      "Epictetus",
+      "Panloob na Kuta",
+      "Pilosopiyang Stoic",
+      "Dichotomy of Control",
+      "Kontrol sa Screen Time",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "110",
     "slug": "senado-ng-us-batas-kosa-nakakaadik-na-algoritmo-pamantayan-sa-kaligtasan",
     "title": "Makasaysayang Desisyon ng Senado ng US: KOSA Naaprubahan nang 91-3, Ipinatupad ang 'Duty of Care' sa Social Media",

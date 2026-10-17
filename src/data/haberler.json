@@ -1,5 +1,33 @@
 [
   {
+    "id": "111",
+    "slug": "marcus-aurelius-ve-epiktetos-icsel-kale-ile-algoritmik-dikkat-kontrolu",
+    "title": "Marcus Aurelius ve Epiktetos'un 'İçsel Kale'si: Algoritmik Dikkat Gasbına Karşı Stoacı Savunma Protokolü",
+    "summary": "Antik Stoacı felsefenin dikkat (prosochē) ve irade (prohairesis) öğretisi ile modern bilişsel nörobilimin kesişimi: Marcus Aurelius'un 'İçsel Kale'si, Epiktetos'un 'Kontrol İkiliği' ve bildirim döngülerini kıran 3 aşamalı zihinsel direnç protokolü.",
+    "content": [
+      "Modern akıllı telefonlar ve algoritmik sosyal akışlar, insan beyninin bilişsel mimarisini derinlemesine zorlayan bir dikkat savaşı yürütüyor. Bilişsel nörobilimde insan dikkati iki temel ağ üzerinden işler: Prefrontal korteksin yönettiği, hedef odaklı ve bilinçli 'yukarıdan aşağıya' (top-down) yürütücü dikkat ağı ile çevredeki beklenmedik görsel ya da işitsel ipuçlarına refleksif olarak yönelen 'aşağıdan yukarıya' (bottom-up) belirginlik ağı (salience network). Sosyal ağ algoritmaları, değişken ödül aralıkları (variable reward schedules) ve ani kırmızı bildirim rozetleriyle beynin evrimsel yönelim tepkisini (orienting reflex) sürekli tetikler. Bu durum, bireyin bilinçli iradesini baypas ederek zihni reaktif, parçalanmış ve daima tetikte bir uyarılma haline hapseder.",
+      "İki bin yıl önce Antik Roma ve Yunan'da Stoacı düşünürler, dijital algoritmalar henüz var olmadan çok önce, insan zihninin dışsal dürtüler karşısındaki kırılganlığını ve egemenliğini titizlikle incelemişti. Epiktetos, 'Söylevler' (Discourses) ve 'El Kitabı' (Encheiridion) adlı eserlerinde Stoacılığın temel direği olan 'Kontrol İkiliği' (Dichotomy of Control - Ta eph' hemin / Ta ouk eph' hemin) ilkesini formüle etti: Dünyada bazı şeyler bizim kontrolümüzdedir, bazıları ise değildir. Bildirimler, viral trendler, algoritma güncellemeleri ve başkalarının dijital tepkileri bütünüyle kontrolümüz dışındaki dışsal olgulardır; ancak dikkatimizi nereye odaklayacağımız, dürtülere onay verip vermeyeceğimiz (synkatathesis) ve iradi tercihimiz (prohairesis) tamamen bizim yetki alanımızdadır. Epiktetos'un uyardığı gibi: 'Biri bedenini yoldan geçen herhangi bir yabancıya teslim etseydi öfkeden deliye dönerdin; oysa sen en değerli varlığın olan zihnini, seni huzursuz edip dağıtsın diye karşına çıkan her rastgele uyarana teslim ediyorsun.'",
+      "Stoacı İmparator Marcus Aurelius ise 'Kendime Düşünceler' (Meditations - Ta Eis Heauton) eserinde, Fransız felsefe tarihçisi Pierre Hadot'nun 'İçsel Kale' (The Inner Citadel) olarak adlandırdığı zihinsel egemenlik merkezini (Hegemonikon) tanımlar. Marcus Aurelius'a göre zihin, maruz kaldığı düşüncelerin ve uyaranların rengine bürünür; eğer kapıları korumasız bırakılırsa, dış dünyanın kargaşası kaleyi içeriden fetheder. Modern nörobilim, Marcus Aurelius'un bu gözlemini doğrulamaktadır: Beyin nöroplastisite ilkesi gereği sürekli maruz kaldığı sığ, parçalı ve hızlı uyaranlara göre sinaptik yollarını yeniden şekillendirir. Gün boyu pasif olarak sonsuz akış kaydıran bir zihin, derinleşme ve odaklanma yetisini biyolojik olarak kaybeder; içsel kalenin yönetici merkezi zaafa uğrar.",
+      "Stoacılar bu zihinsel aşınmayı önlemek için 'Prosochē' (sürekli uyanık dikkat) adını verdikleri bir zihinsel duraklama pratiği geliştirdiler. Epiktetos, beliren her ani arzuya karşı şu protokolü emreder: 'Ey izlenim, dur! Sen sadece bir hayalsin, temsil ettiğin nesnenin kendisi değilsin; bekle, seni test etmeme izin ver.' Modern bilişsel davranışçı psikolojide Viktor Frankl'ın 'uyaran ile tepki arasındaki boşluk' olarak tarif ettiği bu ilke, günümüzde akıllı telefon bağımlılığına karşı 3 somut adıma dönüştürülebilir: 1) Duraklama ve Test (telefona uzanma refleksi belirdiğinde ekrana dokunmadan önce 10 saniye bekleyip dürtünün mekanik doğasını gözlemlemek), 2) Kontrol İkiliği Süzgeci (ekrandaki içeriğin kontrol edilemez bir dış gürültü olduğunu kabul edip içsel onayı geri çekmek), 3) Çevresel Sınır Mimarisi (içsel kaleyi korumak için dışsal kural ve engeller inşa etmek).",
+      "Marcus Aurelius'un hatırlattığı gibi, yorgun bir zihnin algoritmik akıntılara karşı tek başına iradeyle direnmesi güçtür; bu nedenle zihinsel kaleyi destekleyecek net dış kurallar gerekir. Limitra App Block, seçilen uygulamalara bağımsız günlük kullanım süresi limitleri belirlemeyi ve süre dolduğunda ya da kısıtlı saat aralığında ekrana Stoacı metinler içeren kilit kartı bindirerek anlık dürtüyü kesintiye uğratmayı sağlıyor; böylece kullanıcının bilinçli duraklama anını yakalamasına ve dikkat kontrolünü korumasına yardımcı oluyor."
+    ],
+    "source": "Marcus Aurelius (Kendime Düşünceler), Epiktetos (Söylevler) & Pierre Hadot (The Inner Citadel)",
+    "sourceUrl": "https://plato.stanford.edu/entries/stoicism/",
+    "category": "Ekran Süresi Kontrolü",
+    "date": "2026-10-17",
+    "readTime": "6 dk",
+    "featured": false,
+    "tags": [
+      "Marcus Aurelius",
+      "Epiktetos",
+      "İçsel Kale",
+      "Stoacı Felsefe",
+      "Kontrol İkiliği",
+      "Ekran Süresi Kontrolü",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "110",
     "slug": "abd-senatosu-kosa-yasasi-bagimlilik-yapan-algoritmalar-ve-guvenlik-standartlari",
     "title": "ABD Senatosu'ndan Tarihi Karar: 91'e 3 Oyla Geçen KOSA Yasası ile Sosyal Medyada 'Özen Yükümlülüğü' Dönemi",

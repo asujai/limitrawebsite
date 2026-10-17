@@ -1,5 +1,33 @@
 [
   {
+    "id": "111",
+    "slug": "marc-aurele-et-epictete-la-citadelle-interieure-et-l-attention-face-aux-algorithmes",
+    "title": "La 'Citadelle Intérieure' de Marc Aurèle et Épictète : Protocole Stoïcien Contre le Détournement Algorithmique de l'Attention",
+    "summary": "La rencontre entre la vigilance stoïcienne (prosochē) et les neurosciences cognitives modernes : la 'Citadelle Intérieure' de Marc Aurèle, la 'Dichotomie du Contrôle' d'Épictète et un protocole en 3 étapes face aux stimuli numériques.",
+    "content": [
+      "Les téléphones intelligents et les flux algorithmiques modernes mènent une offensive continue contre l'architecture cognitive du cerveau humain. En neurosciences cognitives, l'attention mobilise deux réseaux distincts : le réseau exécutif volontaire et descendant (top-down), dirigé par le cortex préfrontal vers des objectifs conscients, et le réseau de saillance ascendant (bottom-up), déclenché de manière réflexe par les stimuli environnementaux inattendus. Les algorithmes des plateformes sociales, conçus autour de programmes de récompense variable et de notifications visuelles intempestives, sollicitent sans relâche le réflexe d'orientation ancestral de l'être humain. Ce piratage attentionnel contourne la volonté délibérée et installe l'utilisateur dans une vigilance réactive et morcelée.",
+      "Deux mille ans avant l'avènement des algorithmes numériques, les philosophes stoïciens de la Grèce et de la Rome antiques analysaient déjà avec une acuité remarquable la vulnérabilité de l'esprit face aux sollicitations extérieures. Dans ses 'Entretiens' et son 'Manuel', Épictète a formalisé la pierre angulaire de l'éthique stoïcienne : la Dichotomie du Contrôle (Ta eph' hemin contre Ta ouk eph' hemin). Certaines choses dépendent de nous, tandis que d'autres n'en dépendent pas. Les notifications incessantes, les tendances éphémères, les mises à jour algorithmiques et le jugement d'autrui sur les réseaux sont des facteurs extérieurs échappant à notre maîtrise directe. Seuls notre jugement, notre libre choix rationnel (prohairesis) et notre assentiment (synkatathesis) demeurent sous notre souveraineté. Comme l'affirmait Épictète : 'Si l'on confiait ton corps au premier venu, tu serais hors de toi ; pourtant, tu livres ton esprit au premier solliciteur venu pour qu'il le trouble et le disperse.'",
+      "Dans ses 'Pensées pour moi-même' (Ta Eis Heauton), l'empereur romain Marc Aurèle a approfondi le concept magnifiquement mis en lumière par l'historien Pierre Hadot : la 'Citadelle Intérieure' (l'Hêgemonikon, ou principe directeur de l'âme). Pour Marc Aurèle, l'âme s'imprègne de la teinte de ses pensées récurrentes ; si les remparts de la forteresse ne sont pas gardés avec vigilance, le tumulte extérieur investit le centre décisionnel. Les neurosciences contemporaines confirment pleinement cette métaphore grâce au principe de plasticité cérébrale : le cerveau reconfigure ses réseaux synaptiques au gré des stimulations fugaces et superficielles qu'il subit quotidiennement. Le défilement passif prolongé érode la capacité préfrontale de concentration soutenue, affaiblissant ainsi le bastion de l'autonomie intellectuelle.",
+      "Afin d'endiguer cette dégradation de l'esprit, les stoïciens s'adonnaient à la 'Prosochē'—une attention lucide, constante et rigoureuse portée sur le centre directeur intérieur. Épictète recommandait d'instaurer une halte immédiate face à toute impulsion subite : 'Arrête-toi, représentation ; laisse-moi voir ce que tu es et ce que tu représentes ; permets-moi de te mettre à l'épreuve.' En psychologie cognitive moderne, en écho à l'espace entre le stimulus et la réponse décrit par Viktor Frankl, cette pratique se traduit par un protocole numérique en 3 étapes : 1) La pause réflexive (attendre dix secondes dès que l'envie machinale de déverrouiller l'écran surgit, afin d'observer la nature mécanique de l'impulsion), 2) Le tri par la dichotomie du contrôle (reconnaître que les flux numériques constituent un bruit extérieur et leur refuser tout assentiment émotionnel), et 3) L'architecture environnementale (ériger des barrières tangibles pour protéger la forteresse mentale).",
+      "Comme le rappelait Marc Aurèle, compter sur la seule force de volonté pour repousser un siège permanent constitue une illusion biologique ; préserver sa citadelle intérieure requiert des garde-fous externes fiables. Limitra App Block permet d'assigner des plafonds de temps quotidiens indépendants pour chaque application ciblée et affiche un écran de verrouillage empreint de réflexions stoïciennes dès que la limite est atteinte ou durant les plages horaires sanctuarisées, interrompant les automatismes compulsifs et aidant à reconquérir une attention souveraine."
+    ],
+    "source": "Marc Aurèle (Pensées pour moi-même), Épictète (Entretiens) et Pierre Hadot (La Citadelle Intérieure)",
+    "sourceUrl": "https://plato.stanford.edu/entries/stoicism/",
+    "category": "Contrôle du Temps d'Écran",
+    "date": "2026-10-17",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Marc Aurèle",
+      "Épictète",
+      "Citadelle Intérieure",
+      "Philosophie Stoïcienne",
+      "Dichotomie du Contrôle",
+      "Contrôle du Temps d'Écran",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "110",
     "slug": "senat-americain-loi-kosa-algorithmes-addictifs-normes-securite",
     "title": "Vote historique au Sénat américain : La loi KOSA adoptée par 91 voix contre 3, imposant un 'devoir de vigilance' aux plateformes",

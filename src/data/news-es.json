@@ -1,5 +1,33 @@
 [
   {
+    "id": "111",
+    "slug": "marcus-aurelio-y-epicteto-la-ciudadela-interior-y-la-atencion-frente-a-algoritmos",
+    "title": "La 'Ciudadela Interior' de Marco Aurelio y Epicteto: Protocolo Estoico Frente al Secuestro Algorítmico de la Atención",
+    "summary": "La convergencia entre la atención plena estoica (prosochē) y la neurociencia cognitiva moderna: la 'Ciudadela Interior' de Marco Aurelio, la 'Dicotomía del Control' de Epicteto y un protocolo de 3 pasos frente a las trampas digitales.",
+    "content": [
+      "Los teléfonos inteligentes modernos y los flujos algorítmicos libran una batalla constante contra la arquitectura cognitiva del cerebro humano. En neurociencia cognitiva, la atención humana opera a través de dos redes principales: la red ejecutiva 'de arriba hacia abajo' (top-down), deliberada y orientada a metas bajo el mando de la corteza prefrontal, y la red de saliencia 'de abajo hacia arriba' (bottom-up), refleja y guiada por estímulos sensoriales inesperados. Los algoritmos de las redes sociales, fundamentados en programas de recompensa variable y notificaciones visuales inmediatas, activan sistemáticamente el reflejo de orientación evolutivo. Esta captura refleja elude la voluntad consciente del usuario y lo confina en un estado permanente de alerta reactiva y fragmentada.",
+      "Dos milenios antes de la era de los algoritmos digitales, los filósofos estoicos de la antigua Roma y Grecia examinaron con asombrosa lucidez la fragilidad de la mente humana ante los impulsos externos. En sus 'Disertaciones' y en el 'Enquiridión', Epicteto formuló el principio capital del estoicismo: la Dicotomía del Control (Ta eph' hemin frente a Ta ouk eph' hemin). En la vida, ciertas cosas están bajo nuestro control absoluto, mientras que otras escapan por completo a él. Las notificaciones, las tendencias virales, los cambios de interfaz y la aprobación de terceros en redes son factores externos ajenos a nuestra potestad. Lo único que nos pertenece incondicionalmente es nuestra capacidad de juicio, nuestra elección deliberada (prohairesis) y nuestro asentimiento consciente (synkatathesis). Como advirtió Epicteto: 'Si alguien entregara tu cuerpo al primer transeúnte que se cruzara, arderías en ira; sin embargo, entregas tu mente a cualquier estímulo casual para que la turbe y confunda.'",
+      "Por su parte, el emperador Marco Aurelio, en sus 'Meditaciones' (Ta Eis Heauton), profundizó en la noción que el filósofo Pierre Hadot bautizó célebremente como la 'Ciudadela Interior' (el Hegemonikon, o principio rector de la mente). Marco Aurelio comprendió que el alma adquiere el tinte de las impresiones a las que se expone; si las puertas de la fortaleza quedan desprotegidas, el tumulto exterior conquista el centro de mando. La neurociencia moderna ratifica plenamente este principio a través de la plasticidad sináptica: el cerebro remodela sus conexiones en función de los estímulos rápidos y fragmentados que recibe a diario. Deslizar feeds interminables de forma pasiva debilita progresivamente la capacidad prefrontal de sostener una atención profunda, desmantelando la soberanía cognitiva.",
+      "Para frenar este desgaste mental, los estoicos practicaban la 'Prosochē' (una atención vigilante y continua dirigida hacia el propio interior). Epicteto prescribía una pausa deliberada ante cada impulso repentino: 'Detente, impresión; permíteme ver qué eres y qué representas; déjame ponerte a prueba.' En la psicología cognitiva contemporánea, en consonancia con la célebre premisa de Viktor Frankl sobre el espacio que media entre el estímulo y la respuesta, esta sabiduría se materializa en un protocolo digital de 3 fases: 1) Pausa y comprobación (esperar diez segundos antes de tocar la pantalla al sentir el impulso de desbloquear, examinando la naturaleza refleja del deseo), 2) Filtro de la dicotomía del control (reconocer que el flujo digital es ruido ajeno y retirar el asentimiento emocional interno), y 3) Arquitectura de barreras externas (establecer límites deliberados para salvaguardar la fortaleza mental).",
+      "Como bien discernió Marco Aurelio, pretender resistir un asedio continuo valiéndose únicamente de la fuerza de voluntad es una trampa biológica; blindar la ciudadela interior exige límites externos confiables. Limitra App Block permite fijar límites diarios independientes de tiempo para aplicaciones seleccionadas y superpone una pantalla de bloqueo con citas de reflexión estoica al agotarse el tiempo o durante horarios restringidos, quebrando los hábitos mecánicos y ayudando a restablecer la serenidad y el dominio consciente sobre la propia atención."
+    ],
+    "source": "Marco Aurelio (Meditaciones), Epicteto (Disertaciones) y Pierre Hadot (La Ciudadela Interior)",
+    "sourceUrl": "https://plato.stanford.edu/entries/stoicism/",
+    "category": "Control de Tiempo en Pantalla",
+    "date": "2026-10-17",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Marco Aurelio",
+      "Epicteto",
+      "Ciudadela Interior",
+      "Filosofía Estoica",
+      "Dicotomía del Control",
+      "Control de Tiempo en Pantalla",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "110",
     "slug": "senado-eeuu-ley-kosa-algoritmos-adictivos-estandares-seguridad",
     "title": "Decisión histórica en el Senado de EE. UU.: La ley KOSA sale adelante 91-3 e impone el 'deber de diligencia' en redes sociales",

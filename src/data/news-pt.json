@@ -1,5 +1,33 @@
 [
   {
+    "id": "111",
+    "slug": "marco-aurelio-e-epicteto-a-cidadela-interior-e-a-atencao-contra-algoritmos",
+    "title": "A 'Cidadela Interior' de Marco Aurélio e Epicteto: Protocolo Estoico Contra o Sequestro Algorítmico da Atenção",
+    "summary": "A convergência entre a atenção plena estoica (prosochē) e a neurociência cognitiva moderna: a 'Cidadela Interior' de Marco Aurélio, a 'Dicotomia do Controle' de Epicteto e um protocolo prático de 3 etapas contra armadilhas digitais.",
+    "content": [
+      "Os smartphones contemporâneos e os feeds algorítmicos travam uma batalha contínua contra a arquitetura cognitiva da mente humana. Na neurociência cognitiva, a atenção opera por meio de duas redes primárias: a rede executiva deliberada e descendente (top-down), comandada pelo córtex pré-frontal em direção a metas conscientes, e a rede de saliência ascendente (bottom-up), acionada de forma reflexa por estímulos visuais ou sonoros inesperados. Os algoritmos das plataformas sociais, estruturados em esquemas de reforço intermitente e notificações insistentes, exploram o reflexo de orientação biológico. Essa apropriação reflexiva contorna a vontade consciente e aprisiona o indivíduo em um estado crônico de vigilância reativa e fragmentada.",
+      "Dois milênios antes da consolidação dos algoritmos digitais, pensadores estoicos na Grécia e em Roma investigaram a vulnerabilidade da mente humana diante de impulsos externos com rigor exemplar. Em seus 'Discursos' e no 'Enquirídio', Epicteto estabeleceu o pilar fundamental do estoicismo: a Dicotomia do Controle (Ta eph' hemin contra Ta ouk eph' hemin). Há coisas que estão inteiramente sob nosso poder e outras que fogem completamente a ele. Notificações, temas virais, atualizações de algoritmos e reações virtuais são eventos externos alheios à nossa vontade. Aquilo que permanece soberanamente nosso é a nossa faculdade de julgamento, a nossa escolha racional (prohairesis) e a nossa anuência consciente (synkatathesis). Como advertiu Epicteto: 'Se alguém entregasse o teu corpo a qualquer transeunte, ficarias furioso; no entanto, entregas a tua mente a qualquer estímulo casual para que a perturbe e desoriente.'",
+      "Em suas 'Meditações' (Ta Eis Heauton), o imperador romano Marco Aurélio concebeu a ideia que o historiador Pierre Hadot consagrou como a 'Cidadela Interior' (o Hegemonikon, ou núcleo diretor da mente). Para Marco Aurélio, a mente adquire a tonalidade das impressões às quais é reiteradamente exposta; se os portões da fortaleza forem deixados desguarnecidos, o caos exterior invade o centro do comando racional. A neurociência contemporânea corrobora essa visão por meio da neuroplasticidade: o cérebro remodela suas vias sinápticas em conformidade com os estímulos velozes e superficiais que recebe. Rolar feeds intermináveis de modo passivo compromete a capacidade pré-frontal de concentração profunda, debilitando a fortaleza da autonomia cognitiva.",
+      "Para deter esse desgaste psíquico, os estoicos praticavam a 'Prosochē'—uma atenção contínua e vigilante voltada para o próprio centro diretor. Epicteto prescrevia uma interrupção deliberada diante de impulsos súbitos: 'Para, impressão; deixa-me ver o que és e o que representas; permite-me testar-te.' Na psicologia cognitivo-comportamental, em sintonia com a reflexão de Viktor Frankl sobre o intervalo entre o estímulo e a resposta, esse exercício ancestral traduz-se em um protocolo de 3 etapas no ambiente digital: 1) Pausa e teste (aguardar dez segundos antes de desbloquear o aparelho ao sentir o impulso automático, observando a natureza mecânica da vontade), 2) Filtro da dicotomia do controle (reconhecer os feeds como ruído exterior e recusar o assentimento emocional interno) e 3) Arquitetura de barreiras externas (estabelecer limites prévios para resguardar a fortaleza interior).",
+      "Como bem frisou Marco Aurélio, fiar-se apenas na força de vontade para resistir a um cerco ininterrupto é biologicamente frágil; blindar a cidadela interior requer limites externos consistentes. O Limitra App Block possibilita configurar limites diários independentes de tempo de uso para aplicativos selecionados e sobrepõe uma tela de bloqueio com citações estoicas ao término do tempo ou durante períodos restritos, interrompendo ciclos compulsivos e auxiliando na preservação do controle consciente sobre a atenção."
+    ],
+    "source": "Marco Aurélio (Meditações), Epicteto (Discursos) e Pierre Hadot (A Cidadela Interior)",
+    "sourceUrl": "https://plato.stanford.edu/entries/stoicism/",
+    "category": "Controle de Tempo de Tela",
+    "date": "2026-10-17",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Marco Aurélio",
+      "Epicteto",
+      "Cidadela Interior",
+      "Filosofia Estoica",
+      "Dicotomia do Controle",
+      "Controle de Tempo de Tela",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "110",
     "slug": "senado-eua-lei-kosa-algoritmos-viciantes-padroes-seguranca",
     "title": "Decisão histórica no Senado dos EUA: Lei KOSA é aprovada por 91 a 3 e impõe 'dever de cuidado' às redes sociais",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "111",
+    "slug": "marco-aurelio-ed-epitteto-la-cittadella-interiore-e-l-attenzione-contro-gli-algoritmi",
+    "title": "La 'Cittadella Interiore' di Marco Aurelio ed Epitteto: Protocollo Stoico Contro il Sequestro Algoritmico dell'Attenzione",
+    "summary": "Il punto d'incontro tra la presenza mentale stoica (prosochē) e le neuroscienze cognitive moderne: la 'Cittadella Interiore' di Marco Aurelio, la 'Dicotomia del Controllo' di Epitteto e un protocollo in 3 fasi contro i loop digitali compulsivi.",
+    "content": [
+      "Gli smartphone moderni e i feed algoritmici conducono un'offensiva incessante contro l'architettura cognitiva del cervello umano. Nelle neuroscienze cognitive, l'attenzione viene modulata attraverso due reti complementari: la rete esecutiva deliberata 'top-down' guidata dalla corteccia prefrontale verso obiettivi consapevoli, e la rete di salienza riflessa 'bottom-up' innescata da stimoli sensoriali imprevisti. Gli algoritmi dei social media, basati su schemi di ricompensa intermittente e notifiche visive continue, sfruttano costantemente il riflesso d'orientamento ancestrale del cervello. Questa cattura automatica scavalca la volontà deliberata dell'individuo, confinandolo in uno stato persistente di reattività e dispersione mentale.",
+      "Duemila anni prima della progettazione degli algoritmi digitali, i maestri stoici nell'antica Grecia e a Roma studiarono la fragilità dell'animo umano di fronte alle sollecitazioni esterne con lucidità impressionante. Nei suoi 'Discorsi' e nel 'Manuale', Epitteto enunciò il caposaldo della filosofia stoica: la Dicotomia del Controllo (Ta eph' hemin rispetto a Ta ouk eph' hemin). Nel mondo esistono elementi che sono pienamente in nostro potere e altri che non lo sono affatto. Notifiche, trend virali, modifiche di piattaforma e l'approvazione altrui online sono variabili esterne al di fuori del nostro controllo diretto. Ciò che rimane inviolabilmente nostro è la nostra facoltà di giudizio, la nostra scelta morale (prohairesis) e il nostro assenso deliberato (synkatathesis). Epitteto ammoniva: 'Se qualcuno consegnasse il tuo corpo al primo passante, saresti furioso; eppure tu consegni la tua mente a chiunque capiti, affinché la turbi e la disorienti.'",
+      "Nelle sue 'Meditazioni' (Ta Eis Heauton), l'imperatore Marco Aurelio delineò il principio che lo storico Pierre Hadot definì magistralmente la 'Cittadella Interiore' (l'Hegemonikon, il principio direttivo dell'anima). Secondo Marco Aurelio, la mente assume il colore delle impressioni a cui si espone con continuità; se i bastioni della fortezza restano incustoditi, il caos esterno espugna il centro decisionale. Le neuroscienze moderne confermano questo principio grazie alla neuroplasticità: il cervello rimodella le connessioni sinaptiche in base agli stimoli frammentari a cui viene costantemente sottoposto. Scorrere feed all'infinito in maniera passiva logora la capacità prefrontale di mantenere una concentrazione prolungata, indebolendo la fortezza dell'autonomia personale.",
+      "Per contrastare questa erosione dell'attenzione, gli stoici praticavano la 'Prosochē'—una presenza mentale vigile e costante rivolta alla propria guida interiore. Epitteto raccomandava una pausa deliberata di fronte a qualsiasi impulso improvviso: 'Fermati, impressione; fammi vedere cosa sei e che cosa rappresenti; permettimi di esaminarti.' Nella moderna terapia cognitivo-comportamentale, ricollegandosi all'intuizione di Viktor Frankl sullo spazio tra stimolo e risposta, questa pratica si traduce in un protocollo digitale in 3 passi: 1) Pausa ed esame (attendere dieci secondi quando sorge l'impulso automatico di sbloccare lo schermo, osservando la natura meccanica del desiderio), 2) Filtro della dicotomia del controllo (riconoscere che i contenuti digitali sono rumore esterno e negare l'assenso emotivo interno), e 3) Architettura di protezione esterna (costruire barriere concrete per difendere la cittadella mentale).",
+      "Come ricordava Marco Aurelio, affidarsi unicamente alla forza di volontà per resistere a un assedio costante è biologicamente insostenibile; difendere la cittadella interiore richiede chiari confini esterni. Limitra App Block consente di impostare limiti giornalieri indipendenti per applicazioni selezionate e visualizza una schermata di blocco con riflessioni stoiche allo scadere del tempo o durante le fasce orarie protette, interrompendo gli impulsi automatici e aiutando a preservare un controllo consapevole sulla propria attenzione."
+    ],
+    "source": "Marco Aurelio (Colloqui con se stesso), Epitteto (Discorsi) e Pierre Hadot (La cittadella interiore)",
+    "sourceUrl": "https://plato.stanford.edu/entries/stoicism/",
+    "category": "Controllo Tempo Schermo",
+    "date": "2026-10-17",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Marco Aurelio",
+      "Epitteto",
+      "Cittadella Interiore",
+      "Filosofia Stoica",
+      "Dicotomia del Controllo",
+      "Controllo Tempo Schermo",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "110",
     "slug": "senato-usa-legge-kosa-algoritmi-additivi-standard-sicurezza",
     "title": "Svolta storica al Senato USA: La legge KOSA passa con 91 voti a 3, imponendo il 'dovere di diligenza' ai giganti digitali",

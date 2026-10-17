@@ -1,5 +1,33 @@
 [
   {
+    "id": "111",
+    "slug": "marc-aurel-und-epiktet-die-innere-burg-und-aufmerksamkeit-gegen-algorithmen",
+    "title": "Die 'Innere Burg' von Marc Aurel und Epiktet: Stoisches Schutzprotokoll Gegen den Algorithmischen Aufmerksamkeitsraub",
+    "summary": "Die Schnittstelle zwischen antiker stoischer Achtsamkeit (prosochē) und moderner kognitiver Neurowissenschaft: Marc Aurels 'Innere Burg', Epiktets 'Dichotomie der Kontrolle' und ein 3-stufiges mentales Schutzprotokoll gegen digitale Reizüberflutung.",
+    "content": [
+      "Moderne Smartphones und algorithmische Feeds führen einen permanenten Zermürbungskrieg gegen die kognitive Architektur des menschlichen Gehirns. In der kognitiven Neurowissenschaft wird Aufmerksamkeit über zwei interagierende Netzwerke gesteuert: das zielgerichtete, willentliche 'Top-down'-Kontrollnetzwerk des präfrontalen Kortex und das reizgesteuerte, reflexhafte 'Bottom-up'-Salienznetzwerk. Soziale Medien nutzen variable Belohnungspläne und auffällige optische Signale, um gezielt den evolutionären Orientierungsreflex des Menschen zu kapern. Dadurch wird die bewusste Willensentscheidung systematisch unterlaufen und das Bewusstsein in eine dauerhafte, reaktive Zerrissenheit gestürzt.",
+      "Bereits vor zweitausend Jahren sezierten stoische Denker im antiken Griechenland und Rom die Anfälligkeit des menschlichen Geistes gegenüber äußeren Reizen mit verblüffender Schärfe. In seinen 'Lehrgesprächen' (Diatribai) und dem 'Handbüchlein' (Encheiridion) formulierte Epiktet das unverrückbare Fundament stoischer Lebensführung: die Dichotomie der Kontrolle (Ta eph' hemin versus Ta ouk eph' hemin). Einige Dinge liegen vollkommen in unserer Macht, andere hingegen entziehen sich ihr gänzlich. Benachrichtigungen, algorithmische Trends, Softwareänderungen und die Bestätigung fremder Personen sind äußere Gegebenheiten, die wir nicht unmittelbar beherrschen. Vollständig unter unserer Kontrolle stehen allein unser Urteilsvermögen, unsere bewusste Wahlfreiheit (prohairesis) und unsere innere Zustimmung (synkatathesis). Epiktet mahnte eindringlich: 'Würde jemand deinen Körper einem beliebigen Passanten übergeben, wärst du voller Empörung; doch deinen Geist lieferst du jedem zufälligen Reiz aus, damit er ihn verwirrt und zerstreut.'",
+      "Der römische Kaiser Marc Aurel prägte in seinen 'Selbstbetrachtungen' (Ta Eis Heauton) das Konzept, das der Philosoph Pierre Hadot berühmt als die 'Innere Burg' (das Hegemonikon, die leitende Vernunft der Seele) beschrieb. Marc Aurel erkannte: Die Seele nimmt die Farbe der Gedanken an, mit denen sie sich dauerhaft umgibt. Lässt man die Burgtore unbewacht, übernimmt das äußere Chaos die Herrschaft im Inneren. Die moderne Neurowissenschaft bestätigt diese Erkenntnis durch das Prinzip der Neuroplastizität: Das Gehirn verdrahtet seine synaptischen Pfade gemäß den flüchtigen, fragmentierten Reizmengern, denen es ausgesetzt wird. Wer täglich stundenlang passiv durch algorithmische Feeds scrollt, schwächt die Fähigkeit des präfrontalen Kortex zu ausdauernder Konzentration und untergräbt die eigene geistige Souveränität.",
+      "Um dieser geistigen Erosion entgegenzuwirken, praktizierten die Stoiker 'Prosochē'—eine ununterbrochene, wachsame Achtsamkeit auf das innere Steuerungszentrum. Epiktet empfahl bei jedem aufkeimenden Reiz ein bewusstes Innehalten: 'Halt ein, Sinneseindruck! Lass mich sehen, was du bist und was du darstellst; erlaube mir, dich zu prüfen.' In der kognitiven Verhaltenstherapie, in Anlehnung an Viktor Frankls Modell des Raums zwischen Reiz und Reaktion, lässt sich diese antike Übung in ein 3-stufiges digitales Schutzprotokoll überführen: 1) Innehalten und Prüfen (beim Impuls zum Griff nach dem Telefon zehn Sekunden verharren, um die mechanische Natur des Verlangens zu erkennen), 2) Filterung durch die Dichotomie der Kontrolle (den digitalen Strom als äußeres Rauschen einstufen und die emotionale Zustimmung verweigern) sowie 3) Strukturelle Schutzgrenzen (bewusste äußere Barrieren errichten, um die innere Festung zu sichern).",
+      "Wie Marc Aurel betonte, ist die reine Willenskraft im Angesicht einer unablässigen Reizflut biologisch rasch erschöpft; die innere Burg bedarf deshalb verlässlicher äußerer Leitplanken. Limitra App Block ermöglicht es, für ausgewählte Anwendungen unabhängige tägliche Zeitkontingente festzulegen und bei Erreichen des Limits oder während festgelegter Ruhezeiten einen Sperrbildschirm mit stoischen Gedanken einzublenden, der impulsive Routinen unterbricht und die bewusste Kontrolle über die eigene Aufmerksamkeit unterstützt."
+    ],
+    "source": "Marc Aurel (Selbstbetrachtungen), Epiktet (Lehrgespräche) & Pierre Hadot (Die innere Burg)",
+    "sourceUrl": "https://plato.stanford.edu/entries/stoicism/",
+    "category": "Bildschirmzeit-Kontrolle",
+    "date": "2026-10-17",
+    "readTime": "6 min",
+    "featured": false,
+    "tags": [
+      "Marc Aurel",
+      "Epiktet",
+      "Innere Burg",
+      "Stoische Philosophie",
+      "Dichotomie der Kontrolle",
+      "Bildschirmzeit-Kontrolle",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "110",
     "slug": "us-senat-kosa-gesetz-suchterzeugende-algorithmen-sicherheitsstandards",
     "title": "Historische Abstimmung im US-Senat: KOSA-Gesetz mit 91 zu 3 Stimmen verabschiedet – Sorgfaltspflicht für Social-Media-Konzerne",
