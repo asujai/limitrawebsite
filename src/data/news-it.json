@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "tribunale-federale-usa-distretti-scolastici-causa-dipendenza-social-media",
+    "title": "Sentenza storica del tribunale federale USA: Prosegue la causa di centinaia di distretti scolastici contro i giganti dei social",
+    "summary": "Un tribunale federale della California respinge la richiesta di archiviazione presentata da Meta, TikTok, YouTube e Snap contro centinaia di distretti scolastici pubblici degli Stati Uniti. La giudice Yvonne Gonzalez Rogers ha stabilito che la Sezione 230 non protegge le scelte di design manipolatorio come lo scrolling infinito e le notifiche compulsive che gravano sulle scuole.",
+    "content": [
+      "In un pronunciamento di portata storica per la tutela dei minori e del sistema educativo, il Tribunale Distrettuale degli Stati Uniti per il Distretto Nord della California ha inferto un duro colpo ai colossi tecnologici di Silicon Valley. Nell'ambito del contenzioso multidistrettuale istruito a Oakland (MDL N. 3047: In re Social Media Adolescent Addiction), la giudice federale Yvonne Gonzalez Rogers ha respinto la quasi totalità delle istanze di rigetto avanzate da Meta (Instagram e Facebook), ByteDance (TikTok), Alphabet (YouTube) e Snap, consentendo alle cause promosse da centinaia di distretti scolastici pubblici di procedere verso il processo.",
+      "Il fulcro della decisione risiede nell'inapplicabilità della Sezione 230 del Communications Decency Act, la norma federale su cui i social hanno fondato decenni di immunità giuridica. Le società convenute sostenevano di non poter essere chiamate a rispondere per le interazioni degli utenti sulle loro reti. Tuttavia, la giudice Gonzalez Rogers ha sancito una distinzione netta tra i contenuti espressivi di terzi e la progettazione materiale del software. Funzionalità create deliberatamente per innescare un coinvolgimento compulsivo — tra cui lo scorrimento infinito (infinite scroll), l'avvio automatico dei video, i flussi algoritmici a ricompensa variabile e gli avvisi push assillanti — integrano a pieno titolo un difetto di progettazione del prodotto non coperto da immunità.",
+      "Il tribunale ha inoltre rigettato la tesi difensiva secondo cui i danni lamentati dagli istituti scolastici sarebbero meramente indiretti o riflessi. La sentenza stabilisce che le scuole pubbliche subiscono un pregiudizio economico e gestionale immediato, grave e prevedibile. I consigli scolastici sono stati costretti a spendere centinaia di milioni di dollari dei contribuenti per assumere consulenti psicologici aggiuntivi, arginare crisi di ansia durante le lezioni, contrastare il cyberbullismo e recuperare ore didattiche compromesse dal deficit cronico di sonno e dalla frammentazione dell'attenzione degli alunni.",
+      "La giudice ha inoltre confermato le imputazioni di negligenza e violazione dell'obbligo di avvertimento, evidenziando come i vertici aziendali conoscessero, grazie a ricerche riservate interne, le ripercussioni negative dei loro algoritmi sullo sviluppo cerebrale giovanile, scegliendo tuttavia di celarle al pubblico e ai docenti. Questa storica pronuncia apre le porte a cospicui risarcimenti per le scuole pubbliche e accelera la richiesta di una revisione radicale delle architetture digitali che catturano l'attenzione dei più giovani.",
+      "Mentre la magistratura richiede responsabilità alle piattaforme per proteggere i minori, salvaguardare la concentrazione quotidiana richiede barriere pratiche chiare. Per chi desidera impostare limiti giornalieri indipendenti di utilizzo sulle singole applicazioni, Limitra App Block sospende l'accesso sul dispositivo una vez raggiunta la soglia prestabilita, aiutando a conservare ritmi equilibrati."
+    ],
+    "source": "Tribunale Distrettuale degli Stati Uniti (Distretto Nord della California - MDL 3047) e Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Scuole e gioventù",
+    "date": "2026-10-17",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Tribunale Federale USA",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Causa Distretti Scolastici",
+      "Sezione 230",
+      "Scrolling Infinito",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marco-aurelio-ed-epitteto-la-cittadella-interiore-e-l-attenzione-contro-gli-algoritmi",
     "title": "La 'Cittadella Interiore' di Marco Aurelio ed Epitteto: Protocollo Stoico Contro il Sequestro Algoritmico dell'Attenzione",

@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "tribunal-federal-eeuu-distritos-escolares-demanda-adiccion-redes-sociales",
+    "title": "Fallo histórico de un tribunal federal de EE. UU.: Prosigue la macrodemanda de cientos de distritos escolares contra las redes sociales",
+    "summary": "Un tribunal federal de California desestima la petición de Meta, TikTok, YouTube y Snap de archivar la demanda por adicción juvenil presentada por cientos de distritos escolares públicos de EE. UU. La jueza Yvonne Gonzalez Rogers dictamina que la inmunidad del Artículo 230 no ampara el diseño intencionado de funciones adictivas como el scroll infinito y las notificaciones compulsivas que saturan a las escuelas.",
+    "content": [
+      "En un dictamen de trascendencia histórica para la protección de la juventud y el sistema educativo, el Tribunal de Distrito de los Estados Unidos para el Distrito Norte de California ha asestado un severo revés a los gigantes tecnológicos. En el marco del litigio multidistrital tramitado en Oakland (MDL N.º 3047: In re Social Media Adolescent Addiction), la jueza federal Yvonne Gonzalez Rogers rechazó en gran medida las mociones de sobreseimiento presentadas por Meta (Instagram y Facebook), ByteDance (TikTok), Alphabet (YouTube) y Snap, permitiendo que la macrodemanda de cientos de distritos escolares públicos avance hacia el juicio.",
+      "El eje del fallo derriba el escudo protector del Artículo 230 de la Ley de Decencia en las Comunicaciones, utilizado durante décadas por las grandes corporaciones para eludir responsabilidades legales. Las empresas alegaban inmunidad total bajo el amparo de la libertad de expresión y la publicación de contenidos ajenos. Sin embargo, la jueza Gonzalez Rogers determinó que la demanda no cuestiona los contenidos creados por terceros, sino el diseño de producto perjudicial concebido conscientemente para generar adicción en menores: el desplazamiento infinito (infinite scroll), las alertas push de retención, la reproducción automática y los algoritmos basados en gratificación variable intermitente.",
+      "El tribunal rechazó categóricamente la postura de las plataformas de que los daños alegados por los centros educativos eran meramente indirectos o derivados. La resolución certifica que los distritos escolares soportan perjuicios operativos y económicos directos y previsibles. Las escuelas han debido destinar millones de dólares de sus presupuestos a contratar terapeutas y orientadores adicionales, atender crisis emocionales en horario lectivo, combatir el ciberacoso y paliar la pérdida de atención derivada del déficit crónico de sueño infantil provocado por las pantallas.",
+      "Asimismo, la jueza mantuvo vivas las acusaciones de negligencia y omisión del deber de advertencia, subrayando que las empresas conocían a través de sus propios estudios internos el impacto lesivo de sus algoritmos en la salud mental juvenil y decidieron ocultarlo. Este precedente histórico sitúa a las tecnológicas ante la posibilidad real de indemnizar a las escuelas públicas y las obliga a plantearse un rediseño de raíz de sus interfaces para erradicar las dinámicas de dependencia.",
+      "Mientras los tribunales exigen responsabilidades institucionales por el bienestar digital de los menores, proteger la concentración cotidiana exige límites prácticos claros. Para quienes desean fijar límites diarios independientes de tiempo en aplicaciones concretas, Limitra App Block pausa el acceso en el propio dispositivo una vez alcanzado el tiempo fijado, facilitando un uso equilibrado."
+    ],
+    "source": "Tribunal de Distrito de EE. UU. (Distrito Norte de California - MDL 3047) y Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Escuelas y juventud",
+    "date": "2026-10-17",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Tribunal Federal de EE. UU.",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Demanda Distritos Escolares",
+      "Artículo 230",
+      "Scroll Infinito",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marcus-aurelio-y-epicteto-la-ciudadela-interior-y-la-atencion-frente-a-algoritmos",
     "title": "La 'Ciudadela Interior' de Marco Aurelio y Epicteto: Protocolo Estoico Frente al Secuestro Algorítmico de la Atención",

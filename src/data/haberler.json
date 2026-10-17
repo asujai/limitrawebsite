@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "abd-federal-mahkemesi-okul-bolgeleri-sosyal-medya-bagimliligi-davasi",
+    "title": "ABD Federal Mahkemesi'nden Emsal Karar: Yüzlerce Okul Bölgesinin Sosyal Medya Devlerine Açtığı Dava Reddedilmedi",
+    "summary": "Kaliforniya Federal Mahkemesi, ABD genelindeki yüzlerce kamu okul bölgesinin Meta, TikTok, YouTube ve Snap aleyhine açtığı gençlik bağımlılığı davasını düşürmeyi reddetti. Yargıç Yvonne Gonzalez Rogers, teknoloji devlerinin 'Madde 230' dokunulmazlığı savunmasını kırarak; sonsuz kaydırma ve bildirim döngüleri gibi bağımlılık yapıcı ürün tasarım özelliklerinin doğrudan okullara ağır mali ve operasyonel yük getirdiğine hükmetti.",
+    "content": [
+      "Amerika Birleşik Devletleri Kaliforniya Kuzey Bölge Federal Mahkemesi, sosyal medya platformlarının gençlerin zihinsel gelişimi üzerindeki tahribatına ilişkin bugüne kadarki en kritik hukuki kararlardan birine imza attı. Oakland'da görülen ve yüzlerce kamu okul bölgesini (Los Angeles Unified, Seattle Public Schools vb.) bir araya getiren çok bölgeli toplu davada (MDL No. 3047: In re Social Media Adolescent Addiction), Federal Yargıç Yvonne Gonzalez Rogers, teknoloji devlerinin davayı düşürme (motion to dismiss) talebini büyük ölçüde reddetti. Karar; Meta (Instagram ve Facebook), ByteDance (TikTok), Alphabet (YouTube) ve Snap aleyhine açılan davaların bağımsız jüri yargılamasına taşınmasının önünü açtı.",
+      "Davanın en temel hukuki kırılma noktasını, teknoloji şirketlerinin çeyrek asırdır arkasına sığındığı İletişim Ahlakı Yasası Madde 230 (Section 230 of Communications Decency Act) zırhının sınırlandırılması oluşturdu. Teknoloji devleri, kullanıcıların paylaştığı içeriklerden sorumlu tutulamayacakları ve ifade özgürlüğü kapsamında dokunulmaz oldukları tezini savundu. Yargıç Gonzalez Rogers ise bu savunmayı geri çevirerek; davanın üçüncü taraf kullanıcı içeriklerini değil, platformların mühendislik ekipleri tarafından kasıtlı olarak geliştirilen bağımlılık yapıcı ürün tasarımı mimarisini hedef aldığını belirtti. Sonsuz kaydırma (infinite scroll), videoların otomatik oynatılması (auto-play), değişken ödüllü algoritma akışları ve kullanıcıyı zorlantılı biçimde uygulamaya geri çağıran anlık bildirim döngüleri, ifade değil doğrudan kusurlu ürün tasarımı sayıldı.",
+      "Mahkeme, teknoloji devlerinin 'okulların maruz kaldığı zarar öğrencilerin bireysel durumuna bağlı dolaylı bir hasardır' argümanını da kesin bir dille reddetti. Kararda, okul yönetimlerinin sınıflarda yaşanan dikkat dağınıklığı, siber zorbalık, kaygı bozuklukları, devamsızlık ve uyku yoksunluğu gibi kitlesel krizlerle başa çıkmak için doğrudan bütçelerinden yüz milyonlarca dolar harcadığı belgelendi. Okulların ek psikolojik danışmanlar istihdam etmek, güvenlik protokollerini yenilemek ve öğretmenlerin ders anlatma süresinden feragat etmek zorunda kalmasının, platformların bağımlılık yapıcı algoritmalarının doğrudan ve öngörülebilir bir sonucu olduğu tescillendi.",
+      "Kararda ayrıca, platformların şirket içi araştırmalarında algoritmaların gençlerin zihinsel sağlığı üzerindeki olumsuz etkilerini bildikleri halde bu riskleri kamuoyundan, eğitimcilerden ve velilerden gizlediklerine yönelik ihmal (negligence) ve uyarma yükümlülüğünün ihlali iddialarının geçerliliği onaylandı. Bu kararla birlikte kamu eğitim kurumları, Silikon Vadisi şirketlerinden eğitim bütçelerine binen dikkat krizinin mali tazminatını ve algoritmik mimarinin köklü biçimde yeniden tasarlanmasını yasal olarak talep etme hakkı kazandı.",
+      "Yasal süreçler okul çağındaki çocukların dijital güvenliği için kurumsal sorumluluğu artırırken, sınıfta ve günlük yaşamda dikkati korumak somut sınırlarla mümkün oluyor. Seçilen uygulamalara bağımsız günlük kullanım süresi limiti koymak isteyenler için Limitra App Block, belirlenen süre dolduğunda erişimi durdurarak ekran süresinin kontrol altında tutulmasına yardımcı oluyor."
+    ],
+    "source": "ABD Federal Mahkemesi (US District Court Northern District of California - MDL 3047) & Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Okullar & Gençlik",
+    "date": "2026-10-17",
+    "readTime": "5 dk",
+    "featured": false,
+    "tags": [
+      "ABD Federal Mahkemesi",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Okul Bölgeleri Davası",
+      "Madde 230",
+      "Sonsuz Kaydırma",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marcus-aurelius-ve-epiktetos-icsel-kale-ile-algoritmik-dikkat-kontrolu",
     "title": "Marcus Aurelius ve Epiktetos'un 'İçsel Kale'si: Algoritmik Dikkat Gasbına Karşı Stoacı Savunma Protokolü",

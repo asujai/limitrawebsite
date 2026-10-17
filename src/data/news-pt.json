@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "tribunal-federal-eua-distritos-escolares-processo-vicio-redes-sociais",
+    "title": "Decisão histórica da Justiça Federal dos EUA: Ação de centenas de distritos escolares contra redes sociais vai a julgamento",
+    "summary": "Tribunal federal da Califórnia rejeita pedido da Meta, TikTok, YouTube e Snap para arquivar ação movida por centenas de distritos escolares públicos dos EUA sobre vício infantil em telas. A juíza Yvonne Gonzalez Rogers determinou que a imunidade da Seção 230 não protege recursos de design viciantes como scroll infinito e notificações contínuas que sobrecarregam as escolas.",
+    "content": [
+      "Em uma decisão histórica para o direito digital e a saúde pública infantojuvenil, o Tribunal Distrital dos Estados Unidos para o Distrito Norte da Califórnia validou o avanço de uma mega-ação movida por centenas de distritos escolares públicos contra as maiores empresas de tecnologia do mundo. No processo coordenado em Oakland (MDL N.º 3047: In re Social Media Adolescent Addiction), a juíza federal Yvonne Gonzalez Rogers rejeitou a maior parte dos pedidos de arquivamento apresentados por Meta (Instagram e Facebook), ByteDance (TikTok), Alphabet (YouTube) e Snap, abrindo caminho para julgamentos perante o júri.",
+      "A virada jurídica fundamental do caso residiu na desconstrução da blindagem oferecida pela Seção 230 do Communications Decency Act. As empresas sustentavam que a legislação lhes garantia imunidade irrestrita contra alegações sobre o uso de suas plataformas. Contudo, a juíza Gonzalez Rogers traçou uma distinção categórica entre conteúdo publicado por terceiros e arquitetura de engenharia de software. O tribunal definiu que elementos desenhados ativamente para alimentar o engajamento compulsivo — como o feed de rolagem infinita (infinite scroll), a reprodução automática de vídeos, algoritmos de recompensa variável e notificações predatórias — configuram defeito de concepção de produto, não gozando de imunidade editorial.",
+      "A decisão judicial também rechaçou o argumento corporativo de que as perdas sofridas pelas redes de ensino seriam danos meramente indiretos. Ficou consignado que os distritos escolares arcam com prejuízos operacionais e financeiros diretos e previsíveis. As instituições públicas de ensino foram compelidas a desembolsar centenas de milhões de dólares para contratar orientadores e psicólogos adicionais, conter episódios de indisciplina decorrentes da privação de sono e gerenciar o ciberbullying amplificado pelas redes em horário escolar.",
+      "A juíza também manteve as alegações de negligência e quebra do dever de alertar, apontando que as plataformas possuíam relatórios internos sobre os impactos lesivos de seus algoritmos no desenvolvimento cerebral de adolescentes, mas optaram por ocultá-los de educadores e famílias. Essa decisão abre caminho para que o poder público exija reparação financeira dos gigantes da tecnologia e imponha mudanças estruturais na concepção de serviços digitais voltados a menores.",
+      "Enquanto os tribunais buscam responsabilizar os provedores pela segurança das crianças, proteger a concentração cotidiana depende de limites práticos consistentes. Para quem deseja definir limites diários independentes de tempo em aplicativos selecionados, o Limitra App Block interrompe o acesso no próprio aparelho assim que o tempo expira, apoiando uma rotina mais saudável."
+    ],
+    "source": "Tribunal Distrital dos EUA (Distrito Norte da Califórnia - MDL 3047) e Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Escolas e juventude",
+    "date": "2026-10-17",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Tribunal Federal dos EUA",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Ação Distritos Escolares",
+      "Seção 230",
+      "Scroll Infinito",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marco-aurelio-e-epicteto-a-cidadela-interior-e-a-atencao-contra-algoritmos",
     "title": "A 'Cidadela Interior' de Marco Aurélio e Epicteto: Protocolo Estoico Contra o Sequestro Algorítmico da Atenção",

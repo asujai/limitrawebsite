@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "us-federal-court-school-districts-demanda-adiksyon-social-media",
+    "title": "Makatotohanang Desisyon ng US Federal Court: Tuloy ang Demanda ng Daan-daang Distrito ng Paaralan Laban sa Social Media Giants",
+    "summary": "Ibinasura ng isang pederal na hukuman sa California ang hiling ng Meta, TikTok, YouTube, at Snap na ibasura ang demanda ng daan-daang pampublikong distrito ng paaralan sa US ukol sa adiksyon ng kabataan. Ipinasiya ni Judge Yvonne Gonzalez Rogers na hindi saklaw ng proteksyon ng Seksyon 230 ang mga mapanlinlang na disenyo tulad ng infinite scroll at push notification loops na nagpapahirap sa mga paaralan.",
+    "content": [
+      "Sa isang makasaysayang desisyon para sa kapakanan ng kabataan at pampublikong edukasyon, pinayagan ng U.S. District Court para sa Northern District ng California ang malawakang demanda na isinampa ng daan-daang distrito ng pampublikong paaralan laban sa pinakamalalaking kumpanya ng teknolohiya. Sa pinagsama-samang paglilitis sa Oakland (MDL No. 3047: In re Social Media Adolescent Addiction), halos buong ibinasura ni U.S. District Judge Yvonne Gonzalez Rogers ang petisyon ng Meta (Instagram at Facebook), ByteDance (TikTok), Alphabet (YouTube), at Snap na ipawalang-bisa ang kaso, na nagbibigay-daan sa pagdinig ng hurado.",
+      "Ang pinakapundamental na tagumpay sa batas sa pasyang ito ay ang pagbuwag sa kalasag ng Seksyon 230 ng Communications Decency Act na matagal nang ginagamit ng mga higante sa tech upang takasan ang pananagutan. Iginiit ng mga kumpanya na ligtas sila sa pananagutan sa ilalim ng kalayaan sa pagpapahayag. Gayunpaman, mariing tinukoy ni Judge Gonzalez Rogers ang malinaw na pagkakaiba sa pagitan ng nilalaman ng ibang tao at ng sinasadyang disenyo ng produkto. Ipinaliwanag ng hukuman na ang mga katangiang binuo upang lumikha ng labis na pagkahumaling — gaya ng walang katapusang pag-scroll (infinite scroll), awtomatikong pag-play ng video, at sunod-sunod na push notification — ay depektibong disenyo ng produkto at hindi sakop ng kalayaang mamahayag.",
+      "Ibinasura rin ng hukuman ang katwiran ng mga kumpanya na ang pinsala sa mga paaralan ay hindi direkta. Kinilala ng desisyon na ang mga distrito ng paaralan ay direktang nagdaranas ng malubha at inaasahang pinsala sa pananalapi at operasyon. Napilitan ang mga pampublikong paaralan na maglaan ng daan-daang milyong dolyar upang kumuha ng karagdagang mental health counselors, lutasin ang mga kaguluhan sa silid-aralan dulot ng kawalan ng tulog, supilin ang cyberbullying, at bawiin ang oras ng pagtuturo na nawala dahil sa pagkagumon sa screen.",
+      "Pinagtibay din ng hukom ang mga paratang ng kapabayaan at kabiguang magbabala, matapos lumitaw ang katibayan na alam ng mga platform mula sa kanilang sariling panloob na pananaliksik ang pinsala ng kanilang algorithm sa utak ng kabataan ngunit inilihim ito sa mga guro at magulang. Ang makasaysayang desisyong ito ay lumilikha ng batayan upang humingi ng bayad-pinsala ang mga pampublikong paaralan at mapilitan ang mga kumpanya na baguhin ang mga mapanganib na mekanismo ng kanilang aplikasyon.",
+      "Habang itinutulak ng batas ang pananagutan ng mga platform para sa kaligtasan ng mga bata, ang pagpapanatili ng konsentrasyon sa bawat araw ay nangangailangan ng kongkretong pansariling hangganan. Para sa mga nais magtakda ng hiwalay na pang-araw-araw na limitasyon sa oras para sa mga piling aplikasyon, pinahihinto ng Limitra App Block ang pag-access sa mismong device kapag naabot na ang takdang oras, na tumutulong upang mapanatili ang maayos na pamamahala sa screen time."
+    ],
+    "source": "U.S. District Court (Northern District of California - MDL 3047) at Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Mga Paaralan at Kabataan",
+    "date": "2026-10-17",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "U.S. Federal Court",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Demanda Distrito ng Paaralan",
+      "Seksyon 230",
+      "Infinite Scroll",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marcus-aurelius-at-epictetus-panloob-na-kuta-at-atensyon-laban-sa-algoritmo",
     "title": "Ang 'Panloob na Kuta' nina Marcus Aurelius at Epictetus: Stoic Protocol Laban sa Pag-agaw ng Algoritmo sa Atensyon",

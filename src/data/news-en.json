@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "us-federal-court-school-districts-social-media-addiction-lawsuit",
+    "title": "Landmark U.S. Federal Court Ruling: Lawsuit by Hundreds of School Districts Against Social Media Giants Moves Forward",
+    "summary": "A California federal court has rejected motions by Meta, TikTok, YouTube, and Snap to dismiss a sweeping adolescent addiction lawsuit filed by hundreds of U.S. public school districts. Judge Yvonne Gonzalez Rogers pierced the platforms' Section 230 immunity shield, ruling that addictive product design features like infinite scroll and retention notification loops directly impose severe financial and operational damages on public schools.",
+    "content": [
+      "In a watershed moment for digital accountability in education, the U.S. District Court for the Northern District of California has delivered a landmark ruling addressing the youth mental health crisis. Presiding over coordinated multidistrict litigation in Oakland (MDL No. 3047: In re Social Media Adolescent Addiction), U.S. District Judge Yvonne Gonzalez Rogers largely denied the motions to dismiss filed by Meta Platforms (Instagram and Facebook), ByteDance (TikTok), Alphabet (YouTube), and Snap. The decision formally advances lawsuits brought by hundreds of public school districts—including Los Angeles Unified and Seattle Public Schools—toward bellwether trials.",
+      "The central legal breakthrough in the ruling dismantles Big Tech's longstanding defense under Section 230 of the Communications Decency Act. The tech conglomerates argued that Section 230 and the First Amendment grant absolute immunity against liability arising from platform use. Judge Gonzalez Rogers firmly rejected this claim regarding product design, establishing a clear line between third-party speech and affirmative product engineering. The court held that features deliberately engineered to cultivate compulsive engagement—such as infinite scroll feeds, algorithm-driven dopamine loops, autoplay video mechanics, and relentless push notifications—constitute defective product design rather than protected publishing activities.",
+      "The federal court also repudiated the companies' argument that injuries suffered by school districts were merely derivative of individual student harms. Judge Gonzalez Rogers ruled that public school systems suffer direct, foreseeable institutional damages. The court recognized that districts have been forced to expend hundreds of millions of dollars from public budgets to recruit additional mental health counselors, manage pervasive classroom behavioral disruptions, combat algorithmic cyberbullying, and remediate instructional time lost to severe sleep deprivation and screen addiction.",
+      "Furthermore, the ruling upheld the school districts' claims of negligence and failure to warn, citing extensive evidence that platforms possessed internal research documenting harms to adolescent brain development while publicly downplaying those risks. By keeping the core product liability claims intact, the decision sets a profound legal precedent that could compel social media companies to financially compensate public schools and undertake fundamental systemic redesigns of their youth engagement algorithms.",
+      "While legal proceedings demand greater institutional accountability for children's digital safety, safeguarding focus in daily life requires deliberate practical boundaries. For those seeking to establish independent daily time limits on selected applications, Limitra App Block pauses access locally once a chosen limit is reached, helping maintain balanced screen time."
+    ],
+    "source": "U.S. District Court (Northern District of California - MDL 3047) & Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Schools & Youth",
+    "date": "2026-10-17",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "U.S. Federal Court",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "School Districts Lawsuit",
+      "Section 230",
+      "Infinite Scroll",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marcus-aurelius-and-epictetus-the-inner-citadel-and-algorithmic-attention",
     "title": "The 'Inner Citadel' of Marcus Aurelius and Epictetus: A Stoic Defense Against Algorithmic Attention Hijacking",

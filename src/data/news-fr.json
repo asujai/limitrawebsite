@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "tribunal-federal-americain-districts-scolaires-proces-addiction-reseaux-sociaux",
+    "title": "Décision historique de la justice fédérale américaine : Le méga-procès des districts scolaires contre les géants de la tech maintenu",
+    "summary": "Un tribunal fédéral de Californie rejette les requêtes en non-lieu de Meta, TikTok, YouTube et Snap face à la plainte de centaines de districts scolaires américains pour addiction des mineurs. La juge Yvonne Gonzalez Rogers a statué que la section 230 ne protège pas les architectures logicielles addictives telles que le défilement infini et les boucles de notification qui épuisent les écoles publiques.",
+    "content": [
+      "Dans un arrêt d'une portée majeure pour la régulation numérique et la protection des jeunes, le tribunal de district des États-Unis pour le district Nord de Californie a validé les poursuites engagées par des centaines de districts scolaires publics contre les mastodontes de la Silicon Valley. Dans le cadre de la procédure groupée instruite à Oakland (MDL n° 3047 : In re Social Media Adolescent Addiction), la juge fédérale Yvonne Gonzalez Rogers a très largement rejeté les demandes de rejet déposées par Meta (Instagram et Facebook), ByteDance (TikTok), Alphabet (YouTube) et Snap, ouvrant la voie à des procès devant jury.",
+      "Le point de bascule juridique réside dans l'effritement de l'immunité historique conférée par la section 230 du Communications Decency Act. Alors que les entreprises plaidaient l'exonération totale en tant qu'hébergeurs de contenus tiers protégés par le premier amendement, la juge a nettement dissocié la liberté d'expression du design produit. Le tribunal a établi que des fonctionnalités d'ingénierie comportementale conçues délibérément pour maximiser la captologie — comme le défilement infini (infinite scroll), la lecture automatique, les notifications incessantes et les récompenses intermittentes — relèvent d'une responsabilité pour défaut de conception industrielle et ne sauraient bénéficier de l'immunité éditoriale.",
+      "La juridiction a également balayé l'argument selon lequel le préjudice subi par les établissements scolaires ne serait qu'indirect. Le jugement reconnaît que les districts scolaires subissent des dommages institutionnels directs, massifs et prévisibles. Les académies ont dû puiser des centaines de millions de dollars dans leurs budgets pour recruter des psychologues supplémentaires, gérer des troubles anxieux généralisés en classe, freiner le cyberharcèlement algorithmique et compenser la perte drastique d'attention imputable au manque de sommeil des élèves captifs de leurs écrans.",
+      "Le tribunal a en outre confirmé les griefs de négligence et de manquement au devoir de mise en garde, relevant que les entreprises disposaient d'études internes attestant des ravages de leurs algorithmes sur le développement cérébral des mineurs tout en dissimulant ces données aux enseignants et aux familles. Cette décision historique contraint désormais les plateformes à répondre financièrement de la crise de l'attention subie par l'école publique et accélère la remise en cause des fonctionnalités addictives.",
+      "Tandis que la justice réclame des comptes aux plateformes pour protéger l'enfance, préserver la concentration au quotidien requiert des barrières pratiques directes. Pour instaurer des limites d'utilisation quotidiennes indépendantes sur les applications choisies, Limitra App Block suspend l'accès sur l'appareil dès que le seuil défini est atteint, contribuant à maintenir des repères sains."
+    ],
+    "source": "Tribunal de district des États-Unis (District Nord de Californie - MDL 3047) et Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Écoles et jeunesse",
+    "date": "2026-10-17",
+    "readTime": "5 min",
+    "featured": false,
+    "tags": [
+      "Tribunal Fédéral des États-Unis",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Procès Districts Scolaires",
+      "Section 230",
+      "Défilement Infini",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marc-aurele-et-epictete-la-citadelle-interieure-et-l-attention-face-aux-algorithmes",
     "title": "La 'Citadelle Intérieure' de Marc Aurèle et Épictète : Protocole Stoïcien Contre le Détournement Algorithmique de l'Attention",

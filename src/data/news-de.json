@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "us-bundesgericht-schulbezirke-klage-social-media-sucht-design",
+    "title": "Historisches Urteil eines US-Bundesgerichts: Klage hunderter Schulbezirke gegen Social-Media-Konzerne zugelassen",
+    "summary": "Ein US-Bundesgericht in Kalifornien hat die Anträge von Meta, TikTok, YouTube und Snap auf Abweisung der Klagen hunderter US-Schulbezirke wegen Social-Media-Sucht bei Jugendlichen abgewiesen. Richterin Yvonne Gonzalez Rogers stellte klar, dass der Immunitätsschutz von Section 230 nicht für süchtig machendes Produktdesign wie Endlos-Scrollen und Benachrichtigungsschleifen gilt, die Schulen massiv belasten.",
+    "content": [
+      "In einer wegweisenden Entscheidung für den Jugendschutz und das Bildungswesen hat das US-Bezirksgericht für den nördlichen Bezirk von Kalifornien die Klagen hunderter öffentlicher Schulbezirke gegen die führenden Digitalkonzerne zugelassen. Im Rahmen des in Oakland gebündelten Verfahrens (MDL Nr. 3047: In re Social Media Adolescent Addiction) wies Bundesrichterin Yvonne Gonzalez Rogers die Anträge von Meta (Instagram und Facebook), ByteDance (TikTok), Alphabet (YouTube) und Snap auf Klageabweisung weitgehend zurück. Damit steht der Weg für Geschworenenprozesse gegen die Plattformen offen.",
+      "Der zentrale juristische Durchbruch betrifft die Einschränkung der Immunität nach Section 230 des Communications Decency Act, auf die sich Technologiekonzerne seit Jahrzehnten berufen. Die Beklagten argumentierten, sie seien für Nutzerinhalte nicht haftbar und genössen verfassungsrechtlichen Schutz. Richterin Gonzalez Rogers wies diese Schutzbehauptung zurück und zog eine scharfe Grenze zwischen Inhalten Dritter und vorsätzlichem Produktdesign. Funktionen, die gezielt zur Erzeugung von Verhaltenssüchten entwickelt wurden — wie Infinite Scrolling, Autoplay-Mechanismen, unvorhersehbare algorithmische Belohnungsmuster und manipulative Push-Mitteilungen —, stellen ein fehlerhaftes Produktdesign dar und fallen nicht unter den Schutz für Medienverlage.",
+      "Das Gericht wies auch die Behauptung der Konzerne zurück, der den Schulen entstandene Schaden sei lediglich abgeleitet oder indirekt. Die Richterin stellte fest, dass Schulbezirke direkte, erhebliche und vorhersehbare finanzielle sowie betriebliche Belastungen tragen. Öffentliche Schulen mussten Hunderte Millionen Dollar aufwenden, um zusätzliche Schulpsychologen einzustellen, massive Unterrichtsstörungen durch Schlafmangel und Konzentrationskrisen abzufedern und algorithmisch befeuertes Cybermobbing auf dem Schulgelände einzudämmen.",
+      "Darüber hinaus bestätigte das Gericht die Klagepunkte wegen Fahrlässigkeit und Verletzung der Warnpflicht. Interne Dokumente belegen, dass den Plattformbetreibern die Gefahren ihrer Algorithmen für die neurologische Reifung junger Menschen bekannt waren, diese Erkenntnisse jedoch vor Öffentlichkeit und Pädagogen verschwiegen wurden. Das Urteil markiert einen historischen Präzedenzfall, der Tech-Konzerne zu Schadenersatz an das Bildungswesen und zur grundlegenden Entschärfung süchtig machender Schnittstellen zwingen könnte.",
+      "Während die Justiz rechtliche Verantwortung für den digitalen Jugendschutz einfordert, erfordert der Schutz der Konzentration im Schulalltag klare praktische Grenzen. Wer auf ausgewählten Anwendungen unabhängige tägliche Zeitlimits setzen möchte, kann mit Limitra App Block den Zugriff lokal auf dem Gerät pausieren, sobald das festgelegte Limit erreicht ist, und so einen ausgewogenen Umgang wahren."
+    ],
+    "source": "US-Bezirksgericht (Nördlicher Bezirk von Kalifornien - MDL 3047) & Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Schulen & Jugend",
+    "date": "2026-10-17",
+    "readTime": "5 Min.",
+    "featured": false,
+    "tags": [
+      "US-Bundesgericht",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Klage Schulbezirke",
+      "Section 230",
+      "Infinite Scrolling",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marc-aurel-und-epiktet-die-innere-burg-und-aufmerksamkeit-gegen-algorithmen",
     "title": "Die 'Innere Burg' von Marc Aurel und Epiktet: Stoisches Schutzprotokoll Gegen den Algorithmischen Aufmerksamkeitsraub",

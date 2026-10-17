@@ -1,5 +1,33 @@
 [
   {
+    "id": "112",
+    "slug": "pengadilan-federal-as-gugatan-distrik-sekolah-kecanduan-media-sosial",
+    "title": "Putusan Bersejarah Pengadilan Federal AS: Gugatan Ratusan Distrik Sekolah Terhadap Raksasa Media Sosial Terus Berlanjut",
+    "summary": "Pengadilan federal California menolak permohonan Meta, TikTok, YouTube, dan Snap untuk membatalkan gugatan kecanduan remaja yang diajukan oleh ratusan distrik sekolah negeri di AS. Hakim Yvonne Gonzalez Rogers menegaskan bahwa Pasal 230 tidak melindungi desain produk adiktif seperti infinite scroll dan notifikasi kompulsif yang membebani sekolah.",
+    "content": [
+      "Dalam keputusan hukum bersejarah bagi perlindungan generasi muda dan dunia pendidikan, Pengadilan Distrik Amerika Serikat untuk Distrik Utara California menolak upaya pembatalan gugatan yang diajukan oleh ratusan distrik sekolah negeri melawan raksasa teknologi. Dalam litigasi gabungan terkoordinasi di Oakland (MDL No. 3047: In re Social Media Adolescent Addiction), Hakim Federal Yvonne Gonzalez Rogers menolak sebagian besar mosi pembatalan dari Meta (Instagram dan Facebook), ByteDance (TikTok), Alphabet (YouTube), dan Snap, membuka jalan menuju persidangan juri.",
+      "Titik balik hukum paling fundamental dalam putusan ini adalah pembatasan tameng kekebalan Pasal 230 Communications Decency Act yang selama ini menjadi perlindungan mutlak bagi perusahaan media sosial. Para raksasa teknologi berargumen bahwa mereka kebal hukum karena hanya menjadi perantara konten pengguna. Namun, Hakim Gonzalez Rogers menolak argumen tersebut terkait desain produk, dengan menegaskan bahwa gugatan ini bukan menyoal konten pihak ketiga, melainkan pilihan rancang bangun algoritma yang sengaja direkayasa untuk memicu ketergantungan remaja: seperti gulir tanpa henti (infinite scroll), pemutaran video otomatis (auto-play), dan rentetan notifikasi pemicu dopamin.",
+      "Pengadilan juga menolak dalih korporasi bahwa kerugian yang dialami pihak sekolah hanyalah kerugian turunan yang tidak langsung. Putusan tersebut menetapkan bahwa distrik sekolah menanggung kerugian finansial dan operasional yang nyata, langsung, dan dapat diprediksi. Sistem sekolah negeri terpaksa menggelontorkan ratusan juta dolar dari anggaran publik untuk mempekerjakan konselor kesehatan mental tambahan, menangani gangguan perilaku di ruang kelas, meredam perundungan siber, dan mengatasi hilangnya fokus belajar akibat kurang tidur kronis siswa yang terpaku pada layar.",
+      "Lebih lanjut, hakim mempertahankan tuntutan kelalaian dan kegagalan memberikan peringatan, mencatat bukti bahwa perusahaan teknologi sebenarnya telah mengetahui bahaya algoritma mereka terhadap perkembangan otak remaja melalui riset internal rahasia namun sengaja menyembunyikannya dari pendidik dan orang tua. Keputusan ini menjadi preseden penting yang berpotensi memaksa perusahaan teknologi memberi ganti rugi pada sektor pendidikan publik serta merombak total fitur antarmuka adiktif mereka.",
+      "Sementara proses hukum menuntut tanggung jawab institusional demi keamanan digital anak-anak, menjaga konsentrasi belajar sehari-hari membutuhkan batasan praktis yang nyata. Bagi pengguna yang ingin menetapkan batas waktu harian mandiri pada aplikasi tertentu, Limitra App Block menghentikan akses langsung di perangkat saat batas waktu habis, membantu menjaga keseimbangan waktu layar."
+    ],
+    "source": "Pengadilan Distrik AS (Distrik Utara California - MDL 3047) & Reuters",
+    "sourceUrl": "https://www.cand.uscourts.gov",
+    "category": "Sekolah & Remaja",
+    "date": "2026-10-17",
+    "readTime": "5 mnt",
+    "featured": false,
+    "tags": [
+      "Pengadilan Federal AS",
+      "Yvonne Gonzalez Rogers",
+      "MDL 3047",
+      "Gugatan Distrik Sekolah",
+      "Pasal 230",
+      "Infinite Scroll",
+      "Limitra App Block"
+    ]
+  },
+  {
     "id": "111",
     "slug": "marcus-aurelius-dan-epictetus-benteng-batin-dan-perhatian-melawan-algoritma",
     "title": "'Benteng Batin' Marcus Aurelius dan Epictetus: Protokol Stoik Melawan Pembajakan Perhatian Algoritmik",
